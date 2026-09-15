@@ -1,0 +1,35 @@
+name: Auto-Sync Framer Code
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # This triggers the sync automatically every night at midnight UTC
+  workflow_dispatch: # This adds a manual "Run" button to your dashboard so you can sync instantly
+
+jobs:
+  sync-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Download Framer Website Code
+        run: npx framer-export https://ambiguous-try-046147.framer.app --outDir ./dist
+
+      - name: Move Build to Root Directory
+        run: |
+          cp -r ./dist/* ./
+          rm -rf ./dist
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Auto-sync from Framer live site"
+          git push

@@ -19,7 +19,7 @@ jobs:
           node-version: 18
 
       - name: Download Framer Website Code
-        run: npx framer-export https://framer.app --outDir ./dist
+        run: npx framer-export https://ambiguous-try-046147.framer.app --outDir ./dist
 
       - name: Move Build to Root Directory
         run: |
@@ -29,7 +29,7 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@://github.com"
+          git config --global user.email "github-actions[bot]@github.com"
           git add .
           git diff-index --quiet HEAD || git commit -m "Auto-sync from Framer live site"
           git push

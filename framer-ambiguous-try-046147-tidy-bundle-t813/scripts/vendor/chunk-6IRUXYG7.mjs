@@ -1,0 +1,669 @@
+import { b as h, h as T, m as R, p as b } from "chunk-LA34HORX.mjs";
+import { a as y } from "chunk-EQBCTBZ3.mjs";
+import { a as C } from "chunk-UZNETSBG.mjs";
+import { a as H } from "chunk-SWYZG2NI.mjs";
+import { b as g } from "chunk-4JY5UMT2.mjs";
+import { e as G } from "chunk-WLHSDIGQ.mjs";
+var x = typeof window < "u" && !("Deno" in globalThis) ? window.location.hostname : void 0,
+  P = !!(x && ["web.framerlocal.com", "localhost", "127.0.0.1", "[::1]"].includes(x)),
+  S = (() => {
+    if (!x) return;
+    if (P) return { main: x, previewLink: void 0 };
+    let e = /^(([^.]+\.)?beta\.)?((?:development\.)?framer\.com)$/u,
+      n = x.match(e);
+    if (n?.[3]) return { previewLink: n[2] && n[0], main: n[3] };
+  })(),
+  U = {
+    hosts: S,
+    isDevelopment: S?.main === "development.framer.com",
+    isProduction: S?.main === "framer.com",
+    isLocal: P,
+  },
+  K = /^(?:[a-z]+:\/\/)?(?:[^@/]*@)?(\[[^\]]+\]|[^:/\s?#]+)/iu,
+  $ = new Set(["localhost", "127.0.0.1", "[::1]"]);
+function fe(e) {
+  return ((e.includes(":") || e.includes("/")) && (e = K.exec(e)?.[1] ?? ""), $.has(e));
+}
+function m(e) {
+  let o = e.length & 3,
+    r = e.length - o,
+    i = 0,
+    a = 0;
+  for (; a < r;) {
+    let f =
+      (e.charCodeAt(a) & 255) |
+      ((e.charCodeAt(++a) & 255) << 8) |
+      ((e.charCodeAt(++a) & 255) << 16) |
+      ((e.charCodeAt(++a) & 255) << 24);
+    (++a,
+      (f = ((f & 65535) * 3432918353 + ((((f >>> 16) * 3432918353) & 65535) << 16)) & 4294967295),
+      (f = (f << 15) | (f >>> 17)),
+      (f = ((f & 65535) * 461845907 + ((((f >>> 16) * 461845907) & 65535) << 16)) & 4294967295),
+      (i ^= f),
+      (i = (i << 13) | (i >>> 19)));
+    let d = ((i & 65535) * 5 + ((((i >>> 16) * 5) & 65535) << 16)) & 4294967295;
+    i = (d & 65535) + 27492 + ((((d >>> 16) + 58964) & 65535) << 16);
+  }
+  let s = 0;
+  return (
+    o >= 3 && (s ^= (e.charCodeAt(a + 2) & 255) << 16),
+    o >= 2 && (s ^= (e.charCodeAt(a + 1) & 255) << 8),
+    o >= 1 &&
+      ((s ^= e.charCodeAt(a) & 255),
+      (s = ((s & 65535) * 3432918353 + ((((s >>> 16) * 3432918353) & 65535) << 16)) & 4294967295),
+      (s = (s << 15) | (s >>> 17)),
+      (s = ((s & 65535) * 461845907 + ((((s >>> 16) * 461845907) & 65535) << 16)) & 4294967295),
+      (i ^= s)),
+    (i ^= e.length),
+    (i ^= i >>> 16),
+    (i = ((i & 65535) * 2246822507 + ((((i >>> 16) * 2246822507) & 65535) << 16)) & 4294967295),
+    (i ^= i >>> 13),
+    (i = ((i & 65535) * 3266489909 + ((((i >>> 16) * 3266489909) & 65535) << 16)) & 4294967295),
+    (i ^= i >>> 16),
+    i >>> 0
+  );
+}
+function A(e, n) {
+  let t = new Set(e);
+  return (t.add("on"), t.add("off"), { variants: [...t], value: n });
+}
+var L = {};
+function de(e) {
+  return L[e];
+}
+function J(e) {
+  let n = {};
+  for (let t in e) {
+    let o = e[t];
+    if (typeof o == "object") ((n[t] = o.value), (L[t] = o.variants));
+    else if (typeof o == "string") n[t] = o;
+    else throw Error(`Invalid experiment value: ${o}`);
+  }
+  return n;
+}
+var O = J({
+    addViewBox: "off",
+    advancedAgentControls: "off",
+    advancedHostingFirewall: "off",
+    "agent-2026-w25": "on",
+    "agent-2026-w26": "on",
+    "agent-2026-w28": "on",
+    "agent-2026-w29": "on",
+    "agent-2026-w30": "on",
+    "agent-2026-w31": "on",
+    "agent-2026-w32": "on",
+    "agent-2026-w37": "off",
+    "agent-2026-w38": "off",
+    agentContextRow: "on",
+    agentDefaultModelTerra: "on",
+    agentEffortSelect: "on",
+    agentFramerConvertTriggers: "off",
+    agentGeneratedShaders: "off",
+    agenticAnalyticsV2: "off",
+    agentIconSetIds: "off",
+    agentIntegrations: "off",
+    agentModelSpecificChecklist: "on",
+    agentNodeAttributeChangeTracking: "off",
+    agentRating: "off",
+    agentScriptComponentLookup: "on",
+    agentSkills: "off",
+    agentSkipDesignPlan: "off",
+    agentStreamingEvaluation: "off",
+    agentStyleOnSelect: "off",
+    agentTerraLunaViaOpenRouter: "on",
+    agentTsdocApi: "off",
+    agentUseAnthropicMessagesAPI: "off",
+    agentUseOpenAIResponsesAPI: "off",
+    agentUseOpenAIServerSideCompaction: "on",
+    aiCreditsHideBillingPeriodToggle: "on",
+    aiCreditsOverlay: "on",
+    aiCreditsTopUps: "on",
+    aiTrainingOptOut: "off",
+    alignLocalizationAiModelPicker: "off",
+    analyticsFunnelGroupBy: "off",
+    appShortcutsWhileEditingText: "off",
+    ariaProperties: "off",
+    arrays: "on",
+    automations: "off",
+    betterStackGridItemMoving: "on",
+    bryelTracing: "off",
+    canvasRepeatSelection: "off",
+    checkServerSideRouter: "off",
+    cmsDatabase: "off",
+    cmsTablePlaceholderRow: "on",
+    codeLinkPlugin: "off",
+    codingAgentModelSelect: "off",
+    collectionLocalModuleImportMapEntries: "off",
+    componentSlotsAreChildNodes: "off",
+    contentEditor: "on",
+    convertToOutline: "on",
+    crdtAgentChangesetRows: "off",
+    crdtInheritBranchValues: "on",
+    crdtModuleControls: "off",
+    crdtTreeEditUndo: "off",
+    crdtWorker: "off",
+    dashboardSettingsUpdate: "off",
+    debugEditWhileLoadingRuntimeChecks: "off",
+    deferNonVisibleModuleEvaluation: "off",
+    editorBarDisableFrameAncestorsSecurity: "off",
+    effectsInDesignPages: "off",
+    emitUpdateOnScopeLoaded: "off",
+    externalVectorIcons: "on",
+    F1Keyboard: "on",
+    F1KeyboardCreditsWidget: "off",
+    fastLocalization: "off",
+    fastTreeLibrary: "on",
+    fixedSizeImageSrcset: "off",
+    granularPermissions: "off",
+    greyFrameDefault: "off",
+    hydrationAutobahn: "on",
+    importMapPruning: "off",
+    invoke: "off",
+    jsonRichTextStorage: A(["cms"], "off"),
+    layoutMenuStack: "on",
+    layoutScroll: "off",
+    lazySmartComponentLocales: "on",
+    localCache: A(["syncWorker"], "on"),
+    localizationModelUpdate: "off",
+    localizationProgressSummaries: "off",
+    localizationTreeControls: "off",
+    localizationUiUpdate: "off",
+    localizedLinks: "off",
+    locationControl: "off",
+    locationTriggerConditions: "off",
+    mentionsInComments: "on",
+    motionDivToDiv: "off",
+    noNodeSetters: "off",
+    onDemandSSG: "on",
+    onPageEnumVariableOnComponentInstanceEditTool: "on",
+    onPageLocalizationSupport: "on",
+    onPageLockedLayers: "on",
+    onPageMoveTool: "on",
+    onPageQuickAddRepeaterItems: "on",
+    overridesWithPropertyControls: "off",
+    pageLinkReferenceCheck: "on",
+    paneEdgeDoubleClickReset: "off",
+    passkeys: "off",
+    pathRadiusSmoothing: "off",
+    persistCrdtUpdates: "off",
+    pinnedProjects: "on",
+    preloadLoaderScheduling: "on",
+    preventVariableDeletion: "on",
+    previewSharing: "off",
+    prioritizedInitialModuleEvaluation: "on",
+    prioritizedModuleEvaluation: "on",
+    publishingRecoveryProgress: "off",
+    publishStaleModuleErrors: "off",
+    raindropSelfDiagnostics: "on",
+    rebaseBranches: "off",
+    redirectLondonTimezone: "on",
+    removeProjectFontUploads: "on",
+    renameLayers: "on",
+    richTextBlockSelection: "on",
+    richTextVideoModule: "on",
+    scrollRestoration: "on",
+    showCanonicalUrlAsDefault: "off",
+    slabLatestMap: "off",
+    smartComponentResolvesOwnDefaults: "off",
+    squircle: "on",
+    subscriptionNotInOrderDismiss: "on",
+    synchronousNavigationOnDesktop: "off",
+    syncProcessWhenReady: "off",
+    textBalanceRequiresWrap: "off",
+    transientLocalModuleTreeData: "off",
+    unifiedStackActions: "off",
+    verifyTreeOnCommit: "off",
+    visibilityFromSandbox: "off",
+    yieldOnTap: "off",
+  }),
+  _ = [
+    "agentIntegrations",
+    "deferNonVisibleModuleEvaluation",
+    "granularPermissions",
+    "jsonRichTextStorage",
+    "noNodeSetters",
+  ];
+function me(e) {
+  return _.includes(e);
+}
+var N = {
+    agentGeneratedShaders: "on",
+    agentIconSetIds: "on",
+    agentSkipDesignPlan: "on",
+    appShortcutsWhileEditingText: "on",
+    checkServerSideRouter: "on",
+    codeLinkPlugin: "on",
+    codingAgentModelSelect: "on",
+    crdtAgentChangesetRows: "on",
+    crdtTreeEditUndo: "on",
+    dashboardSettingsUpdate: "on",
+    debugEditWhileLoadingRuntimeChecks: "on",
+    emitUpdateOnScopeLoaded: "on",
+    layoutScroll: "on",
+    persistCrdtUpdates: "on",
+    smartComponentResolvesOwnDefaults: "on",
+    syncProcessWhenReady: "on",
+    unifiedStackActions: "on",
+  },
+  I = {
+    addViewBox: "on",
+    "agent-2026-w37": "on",
+    "agent-2026-w38": "on",
+    agentFramerConvertTriggers: "on",
+    agentIntegrations: "on",
+    agentSkills: "on",
+    agentStreamingEvaluation: "on",
+    agentStyleOnSelect: "on",
+    agentTsdocApi: "on",
+    aiTrainingOptOut: "on",
+    alignLocalizationAiModelPicker: "on",
+    automations: "on",
+    bryelTracing: "on",
+    crdtModuleControls: "on",
+    deferNonVisibleModuleEvaluation: "on",
+    effectsInDesignPages: "on",
+    fastLocalization: "on",
+    localizationModelUpdate: "on",
+    localizationProgressSummaries: "on",
+    localizationUiUpdate: "on",
+    localizedLinks: "on",
+    locationTriggerConditions: "on",
+    motionDivToDiv: "on",
+    noNodeSetters: "on",
+    paneEdgeDoubleClickReset: "on",
+    passkeys: "on",
+    pathRadiusSmoothing: "on",
+    rebaseBranches: "on",
+    slabLatestMap: "on",
+    synchronousNavigationOnDesktop: "on",
+    textBalanceRequiresWrap: "on",
+    verifyTreeOnCommit: "on",
+    visibilityFromSandbox: "on",
+    yieldOnTap: "on",
+  },
+  k = {
+    agentSkipDesignPlan: { sample: 0.05, scope: "User", includeEnterprise: !1, variant: "on" },
+    crdtAgentChangesetRows: {
+      sample: 0.5,
+      scope: "Project",
+      includeEnterprise: !1,
+      channels: ["stable"],
+      variant: "on",
+    },
+    jsonRichTextStorage: { sample: 0, scope: "Project", includeEnterprise: !1, variant: "on" },
+    syncProcessWhenReady: {
+      sample: 0.1,
+      scope: "Project",
+      includeEnterprise: !1,
+      channels: ["stable"],
+      variant: "on",
+    },
+  };
+function D() {
+  return (
+    Symbol.dispose ||
+      Object.defineProperty(Symbol, "dispose", {
+        value: Symbol.for("Symbol.dispose"),
+        writable: !1,
+        enumerable: !1,
+        configurable: !1,
+      }),
+    Symbol.dispose
+  );
+}
+var c = G(H(), 1);
+var u = !1,
+  v = class {
+    activeConfig;
+    activeOverrides = [];
+    initialConfig;
+    listeners = new Map();
+    assertOnUse;
+    updated;
+    #e;
+    constructor(n, { assertIfUsedBeforeUpdate: t = !1 } = {}) {
+      ((this.initialConfig = q(n)),
+        (this.activeConfig = { ...this.initialConfig }),
+        (this.assertOnUse = !1),
+        (this.updated = new Promise((o) => {
+          this.#e = o;
+        })));
+    }
+    addListener(n, t) {
+      let o = this.listeners.get(n);
+      (o || ((o = new Set()), this.listeners.set(n, o)), o.add(t));
+    }
+    get(n) {
+      this.assertOnUse &&
+        g(u, () => `Tried to read state of ${n} before update, await on .updated first`);
+      for (let t = this.activeOverrides.length - 1; t >= 0; t--) {
+        let o = this.activeOverrides[t][n];
+        if (h(o)) return o;
+      }
+      return this.activeConfig[n];
+    }
+    getInitial(n) {
+      return this.initialConfig[n];
+    }
+    is(n, t) {
+      this.assertOnUse &&
+        g(u, () => `Tried to read state of ${n} before update, await on .updated first`);
+      let o = this.isActiveByOverrides(n, t);
+      return R(o) ? this.activeConfig[n] === t : o;
+    }
+    isOn(n) {
+      return (
+        this.assertOnUse &&
+          g(u, () => `Tried to read the state of ${n} before update, await on .updated first`),
+        this.is(n, "on")
+      );
+    }
+    getVariantName(n) {
+      this.assertOnUse &&
+        g(u, () => `Tried to read the state of ${n} before update, await on .updated first`);
+      let t = this.get(n);
+      return t === "on" || t === "off" ? n : `${n}_${t}`;
+    }
+    async didUpdateAndIsOn(n) {
+      return (await this.updated, this.isOn(n));
+    }
+    overrideForTest(n) {
+      let t = this.assertOnUse;
+      ((this.assertOnUse = !1), this.activeOverrides.push(n));
+      let o = !1,
+        r = Object.assign(
+          () => {
+            if (!o) {
+              if (this.activeOverrides.pop() !== n)
+                throw Error("Something went wrong with experiment overrides");
+              ((o = !0), (this.assertOnUse = t));
+            }
+          },
+          {
+            [D()]() {
+              r();
+            },
+          }
+        );
+      return r;
+    }
+    removeListener(n, t) {
+      this.listeners.get(n)?.delete(t);
+    }
+    update(n) {
+      this.assertOnUse = !1;
+      for (let t in n) {
+        let o = F(n[t]);
+        if (!h(o) || o === this.activeConfig[t]) continue;
+        this.activeConfig[t] = o;
+        let r = this.listeners.get(t);
+        r && r.forEach((i) => i(o, t));
+      }
+      this.#e && (this.#e(), (this.#e = void 0));
+    }
+    withOverridesForTest(n, t) {
+      let o = this.overrideForTest(n);
+      try {
+        return (this.signalForTests(n), t());
+      } finally {
+        (o(), this.signalForTests(n));
+      }
+    }
+    signalForTests(n) {
+      for (let t in n) {
+        let o = this.listeners.get(t);
+        if (!o) continue;
+        let r = this.get(t);
+        o.forEach((i) => i(r, t));
+      }
+    }
+    isActiveByOverrides(n, t) {
+      for (let o = this.activeOverrides.length - 1; o >= 0; o--) {
+        let r = this.activeOverrides[o];
+        if (n in r) return r[n] === t;
+      }
+    }
+    serialize() {
+      let n = {};
+      for (let t in this.activeConfig) n[t] = this.get(t);
+      return n;
+    }
+    diffFromInitial() {
+      let n = {};
+      for (let t in this.initialConfig) {
+        let o = this.get(t);
+        this.initialConfig[t] !== o && (n[t] = o);
+      }
+      return n;
+    }
+  };
+function F(e) {
+  return typeof e == "boolean" ? (e ? "on" : "off") : e;
+}
+function q(e) {
+  let n = {};
+  for (let t in e) n[t] = F(e[t]);
+  return n;
+}
+function Q(e) {
+  if ("isOn" in e) return [e.isOn, "on", !0];
+  if ("isNotOn" in e) return [e.isNotOn, "on", !1];
+  if ("isActive" in e) return [e.isActive, e.variant, !0];
+  if ("isNotActive" in e) return [e.isNotActive, e.variant, !1];
+  if ("condition" in e) return [e.name, e.condition];
+  throw Error("invalid props");
+}
+function j(e) {
+  return function ({ children: t, ...o }) {
+    let r, i;
+    if ("condition" in o) ((r = o.condition), (i = o.name));
+    else {
+      let [s, f, d] = Q(o);
+      ((r = (z) => (z === f) === d), (i = s));
+    }
+    return w(e, i, r) ? c.default.createElement(c.default.Fragment, null, t) : null;
+  };
+}
+function X(e, n) {
+  u = !0;
+  try {
+    return e.get(n);
+  } finally {
+    u = !1;
+  }
+}
+function w(e, n, t) {
+  let [, o] = (0, c.useReducer)((s) => s + 1, 0),
+    r = (0, c.useRef)(!1),
+    i = (0, c.useRef)(t);
+  i.current = t;
+  let a = X(e, n);
+  return (
+    (r.current = i.current(a)),
+    (0, c.useLayoutEffect)(() => {
+      let s = (f) => {
+        let d = i.current(f);
+        d !== r.current && ((r.current = d), o());
+      };
+      return (e.addListener(n, s), () => e.removeListener(n, s));
+    }, [e, n]),
+    r.current
+  );
+}
+var Y = 4294967295,
+  l = {
+    hashes: { Project: null, Team: null, User: null },
+    isEnterprise: { Project: null, Team: null, User: null },
+    channel: null,
+  };
+function Ne(e) {
+  ((l.isEnterprise.Project = e.license.type === "enterpriseSite"), (l.hashes.Project = m(e.id)));
+}
+function M(e) {
+  ((l.isEnterprise.User = e.spaces.some((n) => n.license?.type === "enterprise")),
+    (l.hashes.User = m(e.id)));
+}
+function we(e, n) {
+  ((l.isEnterprise.Team = n === "enterprise"), (l.hashes.Team = m(e)));
+}
+function Ee(e) {
+  l.channel = e;
+}
+function Z(e, { sample: n, scope: t, variant: o, includeEnterprise: r, channels: i }) {
+  if (i)
+    if (l.channel) {
+      if (!i.includes(l.channel)) return !1;
+    } else return !1;
+  let a = n * Y,
+    s = m(e),
+    f = m(o);
+  return b(l.hashes[t]) || b(l.isEnterprise[t]) || (!r && l.isEnterprise[t])
+    ? !1
+    : (l.hashes[t] ^ s ^ f) >>> 0 < a;
+}
+function W(e = k) {
+  let n = {};
+  return (
+    Object.keys(e).forEach((t) => {
+      if (!e[t]) return;
+      let o = T(e[t]) ? e[t] : [e[t]];
+      for (let r of o) {
+        if (!Z(t, r)) continue;
+        [t, ...(r.dependencies ?? [])].forEach((a) => {
+          n[a] = r.variant;
+        });
+        break;
+      }
+    }),
+    n
+  );
+}
+typeof window < "u" && window.framerUser && M(window.framerUser);
+var p = new v(ae());
+p.update(V());
+var Le = j(p),
+  ne = ["agentSkipDesignPlan"];
+function Ie() {
+  let e = {};
+  for (let n of ne) e[`experiment_${n}`] = p.isOn(n);
+  return e;
+}
+function ke(e) {
+  return w(p, e, (n) => n === "on");
+}
+function E() {
+  if (typeof window > "u") return "experiments";
+  let e = y(window)?.channel;
+  return e ? `experiments-${e}` : "experiments";
+}
+function B() {
+  let e = {};
+  if (typeof window > "u") return {};
+  let n = y(window);
+  if (!n) return e;
+  let { channel: t, override: o } = n,
+    r = o === "tunnel" && U.isDevelopment;
+  return (
+    (t === "alpha" || t === "local" || r) && Object.assign(e, N, I),
+    t === "beta" && Object.assign(e, N),
+    e
+  );
+}
+function te() {
+  let e = {};
+  try {
+    let n = JSON.parse(localStorage[E()] || "{}");
+    Object.assign(e, n);
+  } catch {}
+  return e;
+}
+function oe() {
+  if (typeof window > "u") return {};
+  if (!ie(window)) return {};
+  try {
+    return JSON.parse(window.experiments);
+  } catch {}
+  return {};
+}
+function ie(e) {
+  return "experiments" in e && h(e.experiments);
+}
+function re() {
+  let e = {};
+  if (typeof window > "u") return {};
+  for (let n of new URLSearchParams(window?.location.search).getAll("experiment")) {
+    let [t, o = "on"] = n.split("=");
+    e[t] = o;
+  }
+  return e;
+}
+function se() {
+  let e = re();
+  try {
+    let n = { ...JSON.parse(sessionStorage.getItem("experiments") || "{}"), ...e };
+    return (
+      Object.keys(e).length > 0 && sessionStorage.setItem("experiments", JSON.stringify(n)),
+      n
+    );
+  } catch {
+    return e;
+  }
+}
+function ae() {
+  return { ...O, ...B() };
+}
+function De({ resetStorage: e, resetSession: n } = {}) {
+  if (!(typeof window > "u")) {
+    if ((e && localStorage.removeItem(E()), n)) {
+      sessionStorage.removeItem("experiments");
+      let t = new URL(window.location.href);
+      (t.searchParams.delete("experiment"),
+        window.history.replaceState(window.history.state, "", t.href));
+    }
+    p.update({ ...O, ...V() });
+  }
+}
+function V() {
+  return { ...W(), ...B(), ...te(), ...oe(), ...se() };
+}
+typeof window < "u" && window.localStorage.removeItem("useThemeLogo");
+function Fe(e) {
+  let n = E(),
+    t = {};
+  try {
+    t = JSON.parse(localStorage[n] || "{}");
+  } catch {}
+  let o = { ...t, ...e };
+  for (let r of C(o)) p.getInitial(r) === o[r] && delete o[r];
+  try {
+    Object.keys(o).length === 0
+      ? localStorage.removeItem(n)
+      : localStorage.setItem(n, JSON.stringify(o));
+  } catch {}
+}
+export {
+  de as a,
+  O as b,
+  me as c,
+  N as d,
+  I as e,
+  k as f,
+  U as g,
+  fe as h,
+  D as i,
+  v as j,
+  j as k,
+  w as l,
+  m,
+  Ne as n,
+  we as o,
+  Ee as p,
+  p as q,
+  Le as r,
+  Ie as s,
+  ke as t,
+  ae as u,
+  De as v,
+  Fe as w,
+};
+//# sourceMappingURL=chunk-6IRUXYG7.mjs.map

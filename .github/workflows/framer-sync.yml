@@ -18,13 +18,15 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Dependencies
-        run: npm install
-
       - name: Download Framer Website Code
         run: npx framer-export https://ambiguous-try-046147.framer.app
 
+      - name: Install Dependencies
+        if: hashFiles('package.json') != ''
+        run: npm install
+
       - name: Build for Netlify
+        if: hashFiles('package.json') != ''
         run: npm run build
 
       - name: Verify netlify.toml Configuration

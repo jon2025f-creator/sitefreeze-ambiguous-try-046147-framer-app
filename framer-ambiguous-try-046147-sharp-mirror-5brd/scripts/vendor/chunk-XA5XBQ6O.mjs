@@ -1,0 +1,139 @@
+import { b as v } from "chunk-WPWSHZF5.mjs";
+import { e as S, f as C } from "chunk-L6LG4PP3.mjs";
+import { g as y } from "chunk-T5LHM4YT.mjs";
+import { a } from "chunk-QFU6OGL3.mjs";
+import { a as t } from "chunk-2FCXHKEL.mjs";
+import { a as j } from "chunk-SWYZG2NI.mjs";
+import { e } from "chunk-WLHSDIGQ.mjs";
+var g = e(t());
+function w(r) {
+  return (0, g.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    viewBox: "0 0 12 12",
+    ...r,
+    children: (0, g.jsx)("path", {
+      d: "M5.299.5a5 5 0 0 1 4.416 7.345.75.75 0 0 0 .127.887l1.621 1.622a.749.749 0 1 1-1.06 1.06L8.851 9.862a.75.75 0 0 0-.925-.107A5.001 5.001 0 1 1 5.299.5m-3.5 5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 0 0-7 0",
+      fill: "currentColor",
+    }),
+  });
+}
+var i = e(j());
+var l = e(t());
+function P(r) {
+  return (0, l.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "8",
+    height: "8.5",
+    ...r,
+    children: (0, l.jsx)("g", {
+      fill: "transparent",
+      strokeWidth: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      children: (0, l.jsx)("path", { d: "m1.5 6.75 5-5M6.5 6.75l-5-5" }),
+    }),
+  });
+}
+var M = "i8gs8dn";
+var L = e(t());
+function T({
+  icon: r,
+  onClick: u,
+  onMouseDown: h,
+  label: c,
+  tabIndex: n = -1,
+  className: d,
+  enabled: f = !0,
+}) {
+  return (0, L.jsx)("button", {
+    className: a(M, d),
+    type: "button",
+    tabIndex: n,
+    "aria-label": c,
+    onClick: u,
+    onMouseDown: h,
+    disabled: !f,
+    children: r,
+  });
+}
+var R = "svpr0nh",
+  H = "s1px9f5q",
+  W = "s6iyxf1";
+var E = "cpbz6cs",
+  k = "s1t4ivzv",
+  V = "co17wjr";
+var o = e(t()),
+  Y = () => {},
+  ge = i.default.forwardRef(function (u, h) {
+    let {
+        value: c,
+        onChange: n,
+        enabled: d,
+        large: f,
+        className: D,
+        autoFocus: z,
+        onKeyDown: N,
+        isIconVisible: m = !0,
+        iconPosition: p = "right",
+        placeholder: A = "Search",
+        customTextStyle: F = !1,
+        showClearButton: G = !1,
+        testId: I = "search-bar",
+        inputId: O,
+        tabIndex: q,
+        ...K
+      } = u,
+      b = i.default.useRef(null),
+      $ = y(h, b),
+      J = i.default.useCallback(() => {
+        let s = b.current;
+        s && s.focus();
+      }, []),
+      X = i.default.useCallback(
+        (s) => {
+          (s.preventDefault(), s.stopPropagation(), n("", !0, Y));
+        },
+        [n]
+      ),
+      x = G && c.length > 0 && !(p === "right" && m),
+      B = (0, o.jsx)(w, { role: "img", "aria-label": "Search" });
+    return (0, o.jsxs)(C, {
+      className: a(p === "right" ? W : R, x && E, D),
+      large: f,
+      "data-testid": `${I}-input-wrapper`,
+      onClick: J,
+      ...K,
+      children: [
+        m && p === "left" && (0, o.jsx)(v, { className: H, children: B }),
+        (0, o.jsx)(S, {
+          id: O,
+          ref: $,
+          placeholder: A,
+          constantChange: !0,
+          value: c,
+          onChange: n,
+          enabled: d,
+          className: a(k, F && V),
+          autoFocus: z,
+          onKeyDown: N,
+          "data-testid": `${I}-input`,
+          tabIndex: q,
+        }),
+        m && p === "right" && B,
+        x &&
+          (0, o.jsx)(T, {
+            icon: (0, o.jsx)(P, {}),
+            onMouseDown: X,
+            label: "Clear search filter",
+            tabIndex: -1,
+          }),
+      ],
+    });
+  });
+export { P as a, w as b, T as c, ge as d };
+//# sourceMappingURL=chunk-XA5XBQ6O.mjs.map

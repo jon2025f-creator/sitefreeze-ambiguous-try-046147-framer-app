@@ -2,7 +2,7 @@ name: Auto-Sync Framer Code
 
 on:
   schedule:
-    - cron: '0 0 * * *' # This triggers the sync automatically every night at midnight UTC
+    - cron: '*/5 * * * *' # This triggers the sync automatically every night at midnight UTC
   workflow_dispatch: # This adds a manual "Run" button to your dashboard so you can sync instantly
 
 jobs:

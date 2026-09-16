@@ -21,10 +21,17 @@ jobs:
       - name: Download Framer Website Code
         run: npx framer-export https://ambiguous-try-046147.framer.app --outDir ./dist
 
+      - name: Debug - List dist contents
+        run: ls -la ./dist || echo "dist directory does not exist"
+
       - name: Move Build to Root Directory
         run: |
-          cp -r ./dist/* ./
-          rm -rf ./dist
+          if [ -d "./dist" ]; then
+            cp -r ./dist/* ./
+            rm -rf ./dist
+          else
+            echo "Warning: dist directory not found, skipping copy"
+          fi
 
       - name: Commit and Push Changes
         run: |

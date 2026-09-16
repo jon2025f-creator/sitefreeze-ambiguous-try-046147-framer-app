@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@github.com"
+          git pull --rebase
           git add .
           git diff-index --quiet HEAD || git commit -m "Auto-sync from Framer live site"
-          git pull --rebase
           git push

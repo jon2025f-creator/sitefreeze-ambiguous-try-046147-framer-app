@@ -2,7 +2,7 @@ name: Auto-Sync Framer Code
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Triggers the sync automatically every 5 minutes (GitHub's maximum free speed)
+    - cron: '*/5 * * * *' # Triggers the sync automatically every 5 minutes
   workflow_dispatch: # This adds a manual "Run" button to your dashboard so you can sync instantly
 
 jobs:
@@ -19,19 +19,10 @@ jobs:
           node-version: 18
 
       - name: Download Framer Website Code
-        run: npx framer-export https://ambiguous-try-046147.framer.app --outDir ./dist
+        run: npx framer-export https://ambiguous-try-046147.framer.app
 
-      - name: Debug - List dist contents
-        run: ls -la ./dist || echo "dist directory does not exist"
-
-      - name: Move Build to Root Directory
-        run: |
-          if [ -d "./dist" ]; then
-            cp -r ./dist/* ./
-            rm -rf ./dist
-          else
-            echo "Warning: dist directory not found, skipping copy"
-          fi
+      - name: Debug - List current directory
+        run: ls -la | head -30
 
       - name: Commit and Push Changes
         run: |

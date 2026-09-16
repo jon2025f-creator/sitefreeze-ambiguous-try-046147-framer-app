@@ -21,13 +21,11 @@ jobs:
       - name: Download Framer Website Code
         run: npx framer-export https://ambiguous-try-046147.framer.app
 
-      - name: Debug - List current directory
-        run: ls -la | head -30
-
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@github.com"
           git add .
           git diff-index --quiet HEAD || git commit -m "Auto-sync from Framer live site"
+          git pull --rebase
           git push

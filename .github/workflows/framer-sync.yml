@@ -18,8 +18,30 @@ jobs:
         with:
           node-version: 18
 
+      - name: Install Dependencies
+        run: npm install
+
       - name: Download Framer Website Code
         run: npx framer-export https://ambiguous-try-046147.framer.app
+
+      - name: Build for Netlify
+        run: npm run build
+
+      - name: Verify netlify.toml Configuration
+        run: |
+          if [ ! -f netlify.toml ]; then
+            echo "Creating default netlify.toml..."
+            cat > netlify.toml << 'EOF'
+          [build]
+          command = "npm run build"
+          publish = "dist"
+
+          [[redirects]]
+          from = "/*"
+          to = "/index.html"
+          status = 200
+          EOF
+          fi
 
       - name: Commit and Push Changes
         run: |
@@ -27,5 +49,5 @@ jobs:
           git config --global user.email "github-actions[bot]@github.com"
           git pull --rebase
           git add .
-          git diff-index --quiet HEAD || git commit -m "Auto-sync from Framer live site"
+          git diff-index --quiet HEAD || git commit -m "Auto-sync from Framer live site - Netlify ready"
           git push

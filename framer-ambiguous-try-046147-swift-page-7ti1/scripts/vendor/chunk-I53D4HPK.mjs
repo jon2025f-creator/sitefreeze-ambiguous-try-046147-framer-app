@@ -1,0 +1,6344 @@
+import { Q as xo, U as se, V as Es, W as Ns, ba as Ws } from "chunk-3CBCQMLP.mjs";
+import { b as bs } from "chunk-S2JYQ5H3.mjs";
+import { Oa as is, P as pr, Ya as ps, Za as ms, ib as dr, ya as Vn } from "chunk-IPN7LWBI.mjs";
+import { B as Rn, D as vt, F as hs } from "chunk-OXO6F64S.mjs";
+import { Ka as Yo } from "chunk-6YOT7GJR.mjs";
+import {
+  R as Ts,
+  a as po,
+  h as mr,
+  j as Is,
+  k as Mn,
+  n as ws,
+  p as xs,
+  y as Vs,
+} from "chunk-VXYX32FX.mjs";
+import { a as Cs } from "chunk-TDH77QMS.mjs";
+import { a as ds, b as us } from "chunk-TLVHYJE5.mjs";
+import {
+  Ac as Pn,
+  Ah as ns,
+  Bc as In,
+  Bi as ls,
+  Cc as wn,
+  Ci as Tn,
+  Dc as os,
+  Ph as cr,
+  a as zi,
+  kb as Xa,
+  ki as as,
+  li as ss,
+  qb as _a,
+} from "chunk-TLZ4TUPS.mjs";
+import { a as ji } from "chunk-RABXLP7F.mjs";
+import { v as xn } from "chunk-KMK5HZVV.mjs";
+import { a as Uo, c as qa } from "chunk-XLJEKGLX.mjs";
+import { b as gs } from "chunk-JZ67O7NH.mjs";
+import { T as ts } from "chunk-BW2RADS7.mjs";
+import { ya as Ga } from "chunk-PTSZPZXQ.mjs";
+import { kb as ja } from "chunk-S353KVBM.mjs";
+import {
+  Bf as Ct,
+  Bu as Ka,
+  Cf as Ea,
+  Du as Ua,
+  Et as Ha,
+  Eu as Ya,
+  Ft as Io,
+  Gt as zo,
+  Lu as $a,
+  Mw as Ja,
+  Ni as Na,
+  Ou as Qa,
+  gu as Zo,
+  jl as Wa,
+  ju as Ko,
+  ll as Ba,
+  lu as vn,
+  nl as Aa,
+  pl as sr,
+  pt as Fa,
+  qf as ka,
+  rf as yn,
+  ru as za,
+  tf as La,
+  tu as bt,
+  vj as Da,
+  yu as Za,
+} from "chunk-QQ7VLENA.mjs";
+import {
+  $k as no,
+  A as fe,
+  Al as ua,
+  Ao as va,
+  B as re,
+  Bl as fa,
+  Cd as Te,
+  Dd as Cn,
+  Dh as Ae,
+  Di as pa,
+  Dl as ma,
+  E as $,
+  El as ga,
+  Gp as xa,
+  I as Yi,
+  Ip as Va,
+  Iq as Ra,
+  Jd as ia,
+  Jp as ao,
+  Kd as aa,
+  Mj as ir,
+  Nb as er,
+  Nd as eo,
+  Od as oo,
+  Pd as tr,
+  Qd as sa,
+  Ro as Pa,
+  Sp as Ta,
+  Tc as or,
+  Tk as da,
+  Tn as ya,
+  To as Ia,
+  Tq as Ma,
+  Uc as fn,
+  Ud as Fo,
+  Vc as _i,
+  Wo as wa,
+  Xo as ye,
+  Zk as ro,
+  _k as ar,
+  ad as ea,
+  c as Ki,
+  dd as oa,
+  dp as bn,
+  fd as mt,
+  gd as ta,
+  gn as ha,
+  hb as qi,
+  hd as yo,
+  hl as be,
+  hn as Ca,
+  ib as un,
+  in as ba,
+  kd as ra,
+  lb as ft,
+  ld as We,
+  mr as wo,
+  nd as vo,
+  od as mn,
+  pd as Be,
+  qd as gt,
+  rd as gn,
+  sd as na,
+  td as hn,
+  uq as Sa,
+  vj as to,
+  wa as Qi,
+  wj as nr,
+  xf as rr,
+  xj as ht,
+  yj as ca,
+} from "chunk-EYZRKNBI.mjs";
+import { J as Cr, y as ks } from "chunk-BL3TETI5.mjs";
+import { a as Bs, b as As } from "chunk-2TDYTTQ7.mjs";
+import { g as Ds } from "chunk-EJQOSKDI.mjs";
+import { a as gr } from "chunk-VDG2MPOQ.mjs";
+import { b as Ss } from "chunk-XNZRDAH2.mjs";
+import { a as kn, b as Rs } from "chunk-XY5XQ5SR.mjs";
+import { g as cs } from "chunk-5Y36GTP3.mjs";
+import { n as Ps } from "chunk-EO376ZLC.mjs";
+import { a as ur } from "chunk-WFBCHK4S.mjs";
+import { b as lo } from "chunk-WPWSHZF5.mjs";
+import { e as Sn } from "chunk-7AUGB2CM.mjs";
+import { a as fs } from "chunk-N2DJHBJE.mjs";
+import { c as lr } from "chunk-PDSN2LKO.mjs";
+import { a as Pt } from "chunk-SVRMTSZB.mjs";
+import { a as Ls, e as hr } from "chunk-ZKCTCDT7.mjs";
+import { b as ys } from "chunk-VLGNAOWL.mjs";
+import { g as Ie, h as co } from "chunk-LGA6DRSR.mjs";
+import { a as fr, b as Q } from "chunk-TS24LVSZ.mjs";
+import { a as Ms } from "chunk-7LRTGYQX.mjs";
+import { a as rs } from "chunk-4HRYW54D.mjs";
+import { a as Pe } from "chunk-5ZFCTKOG.mjs";
+import { b as ve } from "chunk-XVTPET7X.mjs";
+import { a as Oe, b as yt } from "chunk-T7K6IZ6W.mjs";
+import { f as es } from "chunk-3PIOJLHR.mjs";
+import { b as Z } from "chunk-HZOFQ3CX.mjs";
+import { f as so } from "chunk-AGYQMGMI.mjs";
+import { a as vs } from "chunk-AHBUMA74.mjs";
+import { a as w } from "chunk-QFU6OGL3.mjs";
+import { X as Xi, d as Zi } from "chunk-HFUJNNAN.mjs";
+import { a as pn } from "chunk-XD24P57D.mjs";
+import { Fa as cn, g as Ui } from "chunk-EQXTYSGC.mjs";
+import { b as B, d as io, i as Oa } from "chunk-JFTY2LNJ.mjs";
+import { a as $i, b as Oo } from "chunk-WRBBN7SY.mjs";
+import { a as la } from "chunk-RNHTTH2C.mjs";
+import { b as Ho, c as Po } from "chunk-AYNVEX5D.mjs";
+import { b as Hi } from "chunk-AUNF3KWQ.mjs";
+import { a as l } from "chunk-2FCXHKEL.mjs";
+import { q as Gi } from "chunk-ZYPCDWHY.mjs";
+import { a as Ji, b as H, e as _e, h as Ve, k as De, m as q, o as dn } from "chunk-LA34HORX.mjs";
+import { a as Y } from "chunk-SWYZG2NI.mjs";
+import { b as T, c as bo } from "chunk-4JY5UMT2.mjs";
+import { l as Fi } from "chunk-MQDP3TYU.mjs";
+import { a as _t } from "chunk-VHFKZWVR.mjs";
+import { b as Ao, i as Oi } from "chunk-VJ7UYMJI.mjs";
+import { e as a } from "chunk-WLHSDIGQ.mjs";
+var br = a(Y(), 1),
+  Fs = a(l(), 1),
+  Ln = (0, br.createContext)(void 0);
+Ln.displayName = "ImagePluginPickerButtonContext";
+function Rm({ component: e, children: o }) {
+  return (0, Fs.jsx)(Ln.Provider, { value: e, children: o });
+}
+function Os() {
+  return (0, br.useContext)(Ln);
+}
+var yr = a(Y(), 1),
+  Gd = {},
+  Hs = (0, yr.createContext)(Gd);
+Hs.displayName = "ControlPropRowContext";
+function km() {
+  let e = (0, yr.useContext)(Hs);
+  if (!e)
+    throw new Error("useControlPropRows must be used within a ControlPropRowContext.Provider");
+  return e;
+}
+var pe = "dt2vdl5",
+  vr = "dc4gvpv",
+  zs = "s1dpgfha";
+var uo = a(l());
+function Zs({ foreground: e = "white", background: o = "currentColor" }) {
+  return (0, uo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 22,
+    height: 22,
+    fill: "none",
+    viewBox: "0 0 22 22",
+    children: [
+      (0, uo.jsx)("path", {
+        fill: o,
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, uo.jsx)("path", {
+        d: "M 11.5 8.25 L 15.25 8.25",
+        stroke: e,
+        strokeWidth: 1.5,
+        strokeLinecap: "round",
+        strokeMiterlimit: 10,
+      }),
+      (0, uo.jsx)("path", {
+        d: "M 11.5 13.75 L 15.25 13.75",
+        stroke: e,
+        strokeWidth: 1.5,
+        strokeLinecap: "round",
+        strokeMiterlimit: 10,
+      }),
+      (0, uo.jsx)("path", {
+        d: "M 7.5 6.75 C 8.328 6.75 9 7.422 9 8.25 C 9 9.078 8.328 9.75 7.5 9.75 C 6.672 9.75 6 9.078 6 8.25 C 6 7.422 6.672 6.75 7.5 6.75 Z",
+        fill: e,
+      }),
+      (0, uo.jsx)("path", {
+        d: "M 7.5 12.25 C 8.328 12.25 9 12.922 9 13.75 C 9 14.578 8.328 15.25 7.5 15.25 C 6.672 15.25 6 14.578 6 13.75 C 6 12.922 6.672 12.25 7.5 12.25 Z",
+        fill: e,
+      }),
+    ],
+  });
+}
+var It = a(l());
+function Pr({ foreground: e = "white" }) {
+  return (0, It.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, It.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, It.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M7.035 6.426a.5.5 0 0 0-.61.61l2.297 8.896a.5.5 0 0 0 .925.11l2.224-4.17 4.17-2.225a.5.5 0 0 0-.11-.925Z",
+      }),
+    ],
+  });
+}
+var wt = a(l());
+function Ks({ foreground: e = "white", background: o = "currentColor" }) {
+  return (0, wt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, wt.jsx)("path", {
+        fill: o,
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, wt.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M 9.75 7.25 C 9.75 6.422 10.422 5.75 11.25 5.75 L 15.25 5.75 C 16.078 5.75 16.75 6.422 16.75 7.25 L 16.75 11.25 C 16.75 12.078 16.078 12.75 15.25 12.75 L 12.25 12.75 L 12.25 14.75 C 12.25 15.578 11.578 16.25 10.75 16.25 L 6.75 16.25 C 5.922 16.25 5.25 15.578 5.25 14.75 L 5.25 10.75 C 5.25 9.922 5.922 9.25 6.75 9.25 L 9.75 9.25 Z",
+      }),
+    ],
+  });
+}
+var xt = a(l());
+function Us({ foreground: e = "white" }) {
+  return (0, xt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, xt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, xt.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "m10 12 2-2M9.75 7.279a3.515 3.515 0 0 1 4.971 4.971M12.25 14.721A3.515 3.515 0 0 1 7.279 9.75",
+      }),
+    ],
+  });
+}
+var Ye = a(l());
+function Vt({ foreground: e = "white" }) {
+  return (0, Ye.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Ye.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Ye.jsxs)("g", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        children: [
+          (0, Ye.jsx)("path", { d: "M8.25 6v10" }),
+          (0, Ye.jsx)("path", { d: "M13.75 6v10" }),
+          (0, Ye.jsx)("path", { d: "M6 8.25h10" }),
+          (0, Ye.jsx)("path", { d: "M6 13.75h10" }),
+        ],
+      }),
+    ],
+  });
+}
+var Tt = a(l());
+function En({ foreground: e = "white" }) {
+  return (0, Tt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Tt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Tt.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M14 7 8 15",
+      }),
+    ],
+  });
+}
+var fo = a(l(), 1);
+function Nn({ foreground: e = "white", ...o }) {
+  return (0, fo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 22,
+    height: 22,
+    fill: "none",
+    ...o,
+    children: [
+      (0, fo.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, fo.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: 1.5,
+        d: "m9.25 6.5 3.793 3.793a1 1 0 0 1 0 1.414L9.25 15.5",
+      }),
+    ],
+  });
+}
+function Dn({ foreground: e = "white", ...o }) {
+  return (0, fo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 22,
+    height: 22,
+    fill: "none",
+    ...o,
+    children: [
+      (0, fo.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, fo.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: 1.5,
+        d: "m12.25 6.5-3.793 3.793a1 1 0 0 0 0 1.414L12.25 15.5",
+      }),
+    ],
+  });
+}
+var jd = { track: !0 };
+function St(e) {
+  let o = { ...e, event: "variable_reference_delete" };
+  Hi(o, jd);
+}
+var An = a(Y(), 1);
+function qd(e, o) {
+  return !ir(o) || !o.repeatArray.providerId
+    ? void 0
+    : e.getNodeWithTrait(o.repeatArray.providerId, wo)?.getVariable(o.repeatArray.id)?.name;
+}
+function Xd(e, o, t) {
+  let r = qd(e, t);
+  if (r) return r;
+  if (un(t)) return t.resolveValue("name") || "Component";
+  if (ka(t) && t.dataIdentifier) {
+    let n = o.dataForIdentifier(t.dataIdentifier);
+    if (n) return or(n.name);
+  }
+  return t.resolveValue("name") || ja(o, t);
+}
+function _d(e) {
+  return qi(e) ? "List" : ft(e) ? "Page" : un(e) ? "Component" : "";
+}
+function eu(e) {
+  if (e === Ma) return "Localization";
+  if (e === Ra) return "Carousel";
+}
+function Ir(e, o, t, r = "long") {
+  let n = eu(t);
+  if (n) return n;
+  let i = e.get(t);
+  if (!i) return "Unknown";
+  let s = Xd(e, o, i),
+    c = _d(i);
+  return r === "type" ? c : !c || s === c ? s : `${s} ${c}`;
+}
+var Rt = a(l(), 1);
+function Ys({ foreground: e = "white", ...o }) {
+  return (0, Rt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 22,
+    height: 22,
+    fill: "none",
+    ...o,
+    children: [
+      (0, Rt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Rt.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: 1.5,
+        d: "M12.75 9v4M9.25 8v6M5.75 6.5v9M16.25 10.5v1",
+      }),
+    ],
+  });
+}
+var $s = "by3f1yf",
+  Qs = "b1locfei",
+  Js = "ck79ln6",
+  Gs = "ikobvuw",
+  js = "iz41s9a",
+  qs = "t11k2f3d",
+  Xs = "c1wy3we0",
+  _s = "m1vt2ra9";
+var $o = a(l());
+function el({ foreground: e = "white" }) {
+  return (0, $o.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, $o.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, $o.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeWidth: "1.5",
+        d: "M5 11.25a4 4 0 0 1 4-4h4a4 4 0 0 1 0 8H9a4 4 0 0 1-4-4Z",
+      }),
+      (0, $o.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        stroke: e,
+        strokeWidth: "1.5",
+        d: "M5 11.125a3.875 3.875 0 0 1 7.75 0v.25a3.875 3.875 0 0 1-7.75 0Z",
+      }),
+    ],
+  });
+}
+var Qo = a(l());
+function ol({ foreground: e = "white" }) {
+  return (0, Qo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Qo.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Qo.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        d: "M5.75 8.75a3 3 0 0 1 3-3h4.5a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-4.5a3 3 0 0 1-3-3Z",
+      }),
+      (0, Qo.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M5.75 10.75v-2.5a2.5 2.5 0 0 1 2.5-2.5h2.5M16.25 11.2v2.5a2.5 2.5 0 0 1-2.5 2.5h-2.5",
+      }),
+    ],
+  });
+}
+var Jo = a(l());
+function tl({ foreground: e = "white" }) {
+  return (0, Jo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Jo.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Jo.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        d: "M5.75 8.75a3 3 0 0 1 3-3h4.5a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-4.5a3 3 0 0 1-3-3Z",
+      }),
+      (0, Jo.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M5.75 9v-.75a2.5 2.5 0 0 1 2.5-2.5H9M16 9v-.75a2.5 2.5 0 0 0-2.5-2.5h-.75M16 12.75v.75a2.5 2.5 0 0 1-2.5 2.5h-.75M5.75 12.75v.75a2.5 2.5 0 0 0 2.5 2.5H9",
+      }),
+    ],
+  });
+}
+var Go = a(l());
+function rl({ foreground: e = "white" }) {
+  return (0, Go.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Go.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Go.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "m12.5 15.5 3.222-3.02a1 1 0 0 0 0-1.46L12.5 8",
+      }),
+      (0, Go.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeMiterlimit: "10",
+        strokeWidth: "1.5",
+        d: "M6 8v.25c0 2 1.6 3.5 3.5 3.5H16",
+      }),
+    ],
+  });
+}
+var Mt = a(l());
+function nl({ foreground: e = "white" }) {
+  return (0, Mt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Mt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Mt.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M14.182 14.932a4.5 4.5 0 0 1-6.364-6.364l2.475-2.475a1 1 0 0 1 1.414 0l2.475 2.475a4.5 4.5 0 0 1 0 6.364",
+      }),
+    ],
+  });
+}
+var il = a(Y()),
+  Se = a(l());
+function al({ foreground: e = "white" }) {
+  let o = (0, il.useId)().replace(/:/gu, ""),
+    t = `${o}-date-path`,
+    r = `${o}-date-clip`;
+  return (0, Se.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Se.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Se.jsxs)("g", {
+        transform: "translate(5.5 5.5)",
+        children: [
+          (0, Se.jsxs)("defs", {
+            children: [
+              (0, Se.jsx)("path", {
+                id: t,
+                d: "M 0 3 C 0 1.343 1.343 0 3 0 L 8 0 C 9.657 0 11 1.343 11 3 L 11 8 C 11 9.657 9.657 11 8 11 L 3 11 C 1.343 11 0 9.657 0 8 Z",
+              }),
+              (0, Se.jsx)("clipPath", { id: r, children: (0, Se.jsx)("use", { href: `#${t}` }) }),
+            ],
+          }),
+          (0, Se.jsx)("use", {
+            href: `#${t}`,
+            fill: "transparent",
+            clipPath: `url(#${r})`,
+            strokeWidth: "3",
+            stroke: e,
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }),
+          (0, Se.jsx)("path", {
+            d: "M 9.5 1 L 2 1 L 1 2 L 1 4 L 10.5 4 L 10.5 3 Z",
+            fill: e,
+            fillOpacity: "0.15",
+            stroke: e,
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+var kt = a(l());
+function wr({ foreground: e = "white" }) {
+  return (0, kt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, kt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, kt.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "m6.5 9.25 3.439 3.439a1.5 1.5 0 0 0 2.122 0L15.5 9.25",
+      }),
+    ],
+  });
+}
+var Lt = a(l());
+function xr({ foreground: e = "white" }) {
+  return (0, Lt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Lt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Lt.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M10.388 5.166c.343-.568 1.219-.246 1.112.409l-.358 2.205a.75.75 0 0 0 .74.87h3.294a.75.75 0 0 1 .644 1.135l-4.194 7c-.345.577-1.232.253-1.126-.41l.361-2.257a.75.75 0 0 0-.741-.868H6.83a.75.75 0 0 1-.642-1.138Z",
+      }),
+    ],
+  });
+}
+var Vo = a(l());
+function Wn({ foreground: e = "white" }) {
+  return (0, Vo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Vo.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Vo.jsxs)("g", {
+        stroke: e,
+        strokeWidth: "1.5",
+        children: [
+          (0, Vo.jsx)("path", {
+            fill: e,
+            fillOpacity: "0.15",
+            d: "M6.75 7.75a2 2 0 0 1 2-2h1a1 1 0 0 1 1 1v2.5a1 1 0 0 0 1 1h2.5a1 1 0 0 1 1 1v3a2 2 0 0 1-2 2h-4.5a2 2 0 0 1-2-2Z",
+          }),
+          (0, Vo.jsx)("path", {
+            fill: "transparent",
+            d: "M9.5 5.75h1.172a2 2 0 0 1 1.414.586l2.578 2.578a2 2 0 0 1 .586 1.414V11.5",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+var sl = a(Y()),
+  Re = a(l());
+function ll({ foreground: e = "white" }) {
+  let o = (0, sl.useId)().replace(/:/gu, ""),
+    t = `${o}-image-path`,
+    r = `${o}-image-clip`;
+  return (0, Re.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Re.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Re.jsxs)("g", {
+        transform: "translate(5.5 5.5)",
+        children: [
+          (0, Re.jsxs)("defs", {
+            children: [
+              (0, Re.jsx)("path", {
+                id: t,
+                d: "M 0 3 C 0 1.343 1.343 0 3 0 L 8 0 C 9.657 0 11 1.343 11 3 L 11 8 C 11 9.657 9.657 11 8 11 L 3 11 C 1.343 11 0 9.657 0 8 Z",
+              }),
+              (0, Re.jsx)("clipPath", { id: r, children: (0, Re.jsx)("use", { href: `#${t}` }) }),
+            ],
+          }),
+          (0, Re.jsx)("use", {
+            href: `#${t}`,
+            fill: "transparent",
+            clipPath: `url(#${r})`,
+            strokeWidth: "3",
+            stroke: e,
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }),
+          (0, Re.jsx)("path", {
+            d: "M 9.5 10 L 2 10 L 1 9 L 1 7 L 10.5 7 L 10.5 8 Z",
+            fill: e,
+            fillOpacity: "0.15",
+            stroke: e,
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+var jo = a(l());
+function Vr({ foreground: e = "white", background: o = "currentColor" }) {
+  return (0, jo.jsxs)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    role: "presentation",
+    children: [
+      (0, jo.jsx)("path", {
+        fill: o,
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, jo.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M15.25 7.25a1 1 0 0 0-1-1h-3.556a1 1 0 0 0-.741.329l-3.815 4.216a1 1 0 0 0 .035 1.378l3.584 3.584a1 1 0 0 0 1.449-.037l3.786-4.184c.166-.184.258-.423.258-.671Z",
+      }),
+      (0, jo.jsx)("path", { fill: e, d: "M12 8.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2" }),
+    ],
+  });
+}
+var Et = a(l());
+function pl({ foreground: e = "white" }) {
+  return (0, Et.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Et.jsx)("path", {
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+        fill: "currentColor",
+      }),
+      (0, Et.jsx)("path", {
+        d: "M10.659 17.5a.686.686 0 0 0 .682 0c.211-.121 5.159-3.009 5.159-8.164a5.503 5.503 0 0 0-11-.004c0 5.159 4.951 8.042 5.159 8.168Zm.344-10.231a2.063 2.063 0 1 1 0 4.126 2.063 2.063 0 0 1 0-4.126Z",
+        fill: e,
+      }),
+    ],
+  });
+}
+var qo = a(l());
+function cl({ foreground: e = "white" }) {
+  return (0, qo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, qo.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, qo.jsx)("g", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        children: (0, qo.jsx)("path", {
+          d: "m6.75 7 4 4-4 4M12.25 7l2.586 2.586a2 2 0 0 1 0 2.828L12.25 15",
+        }),
+      }),
+    ],
+  });
+}
+var Xo = a(l());
+function dl({ foreground: e = "white" }) {
+  return (0, Xo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Xo.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Xo.jsx)("g", {
+        fill: e,
+        children: (0, Xo.jsx)("path", {
+          d: "M8 6.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 8 6.25M15 8.75a.75.75 0 0 1 1.5 0v4.5a.75.75 0 0 1-1.5 0ZM8 15.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75M5.5 8.75a.75.75 0 0 1 1.5 0v4.5a.75.75 0 0 1-1.5 0Z",
+        }),
+      }),
+    ],
+  });
+}
+var Nt = a(l());
+function ul({ foreground: e = "white" }) {
+  return (0, Nt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Nt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Nt.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeMiterlimit: "10",
+        strokeWidth: "1.5",
+        d: "M7 8.25h8M7 13.75h8",
+      }),
+    ],
+  });
+}
+var To = a(l());
+function fl({ foreground: e = "white" }) {
+  return (0, To.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, To.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, To.jsxs)("g", {
+        stroke: e,
+        strokeWidth: "1.5",
+        children: [
+          (0, To.jsx)("path", {
+            fill: e,
+            fillOpacity: "0.15",
+            d: "M11 5.5a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z",
+          }),
+          (0, To.jsx)("path", {
+            fill: "transparent",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            d: "M14.914 15.305A6.987 6.987 0 0 1 11 16.5a7 7 0 0 1-3.914-1.195",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+var $e = a(l());
+function ml({ foreground: e = "white", compact: o = !1 } = {}) {
+  return o
+    ? (0, $e.jsxs)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "21.5",
+        height: "21.5",
+        fill: "none",
+        overflow: "visible",
+        children: [
+          (0, $e.jsx)("path", {
+            fill: "currentColor",
+            d: "M0 3.909A3.91 3.91 0 0 1 3.909 0h13.682A3.91 3.91 0 0 1 21.5 3.909v13.682a3.91 3.91 0 0 1-3.909 3.909H3.909A3.91 3.91 0 0 1 0 17.591Z",
+          }),
+          (0, $e.jsx)("g", {
+            fill: "transparent",
+            stroke: e,
+            strokeLinecap: "round",
+            strokeMiterlimit: "10",
+            strokeWidth: "1.5",
+            children: (0, $e.jsx)("path", { d: "M10.75 7.25V15M6.5 7.25H15" }),
+          }),
+        ],
+      })
+    : (0, $e.jsxs)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "22",
+        height: "22",
+        children: [
+          (0, $e.jsx)("path", {
+            d: "M 0 4 C 0 1.791 1.791 0 4 0 L 18 0 C 20.209 0 22 1.791 22 4 L 22 18 C 22 20.209 20.209 22 18 22 L 4 22 C 1.791 22 0 20.209 0 18 Z",
+            fill: "currentColor",
+          }),
+          (0, $e.jsx)("path", {
+            d: "M 6.5 7.5 C 6.5 6.948 6.948 6.5 7.5 6.5 L 14.5 6.5 C 15.052 6.5 15.5 6.948 15.5 7.5 C 15.5 8.052 15.052 8.5 14.5 8.5 L 12 8.5 L 12 14.5 C 12 15.052 11.552 15.5 11 15.5 C 10.448 15.5 10 15.052 10 14.5 L 10 8.5 L 7.5 8.5 C 6.948 8.5 6.5 8.052 6.5 7.5 Z",
+            fill: e,
+          }),
+        ],
+      });
+}
+var _o = a(l());
+function gl({ foreground: e = "white" }) {
+  return (0, _o.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, _o.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, _o.jsx)("g", {
+        fill: e,
+        children: (0, _o.jsx)("path", {
+          d: "M6 12.75a.75.75 0 0 1 1.5 0v2.5a.75.75 0 0 1-1.5 0ZM10 9.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM14 6.75a.75.75 0 0 1 1.5 0v8.5a.75.75 0 0 1-1.5 0Z",
+        }),
+      }),
+    ],
+  });
+}
+var Dt = a(l());
+function hl({ foreground: e = "white" }) {
+  return (0, Dt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Dt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Dt.jsx)("path", {
+        fill: "transparent",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M6.25 15.75c3 0 4-2.5 4.75-4.75s1.75-4.75 4.75-4.75",
+      }),
+    ],
+  });
+}
+var Wt = a(l());
+function Cl({ foreground: e = "white" }) {
+  return (0, Wt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    children: [
+      (0, Wt.jsx)("path", {
+        fill: "currentColor",
+        d: "M0 4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4Z",
+      }),
+      (0, Wt.jsx)("path", {
+        fill: e,
+        fillOpacity: "0.15",
+        stroke: e,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M10.151 6.866a1 1 0 0 1 1.698 0l3.951 6.356a1 1 0 0 1-.849 1.528H7.049a1 1 0 0 1-.849-1.528Z",
+      }),
+    ],
+  });
+}
+var W = a(l(), 1);
+function Bn(e, o = {}) {
+  let { foreground: t, compactStringIcon: r = !1 } = o;
+  switch (e) {
+    case "string":
+      return (0, W.jsx)(ml, { foreground: t, compact: r });
+    case "richtext":
+      return (0, W.jsx)(ul, { foreground: t });
+    case "number":
+    case "scrollsectionref":
+      return (0, W.jsx)(Vt, { foreground: t });
+    case "gap":
+      return (0, W.jsx)(Vt, { foreground: t });
+    case "boolean":
+      return (0, W.jsx)(el, { foreground: t });
+    case "color":
+      return (0, W.jsx)(nl, { foreground: t });
+    case "image":
+      return (0, W.jsx)(ll, { foreground: t });
+    case "eventhandler":
+      return (0, W.jsx)(xr, { foreground: t });
+    case "controlReference":
+    case "nodePropertyControlReference":
+      return (0, W.jsx)(wr, { foreground: t });
+    case "link":
+      return (0, W.jsx)(Us, { foreground: t });
+    case "linkrelvalues":
+      return (0, W.jsx)(Vr, { foreground: t });
+    case "date":
+      return (0, W.jsx)(al, { foreground: t });
+    case "enum":
+      return (0, W.jsx)(wr, { foreground: t });
+    case "file":
+      return (0, W.jsx)(Wn, { foreground: t });
+    case "customcursor":
+    case "cursor":
+      return (0, W.jsx)(Pr, { foreground: t });
+    case "slug":
+      return (0, W.jsx)(En, { foreground: t });
+    case "transition":
+      return (0, W.jsx)(hl, { foreground: t });
+    case "border":
+      return (0, W.jsx)(ol, { foreground: t });
+    case "boxshadow":
+      return (0, W.jsx)(fl, { foreground: t });
+    case "padding":
+      return (0, W.jsx)(dl, { foreground: t });
+    case "borderradius":
+      return (0, W.jsx)(tl, { foreground: t });
+    case "collectionreference":
+      return (0, W.jsx)(rl, { foreground: t });
+    case "multicollectionreference":
+      return (0, W.jsx)(cl, { foreground: t });
+    case "array":
+      return (0, W.jsx)(Zs, { foreground: t });
+    case "trackingid":
+      return (0, W.jsx)(gl, { foreground: t });
+    case "vectorsetitem":
+      return (0, W.jsx)(Cl, { foreground: t });
+    case "location":
+      return (0, W.jsx)(pl, { foreground: t });
+    default:
+      return bo(e, "Missing icon for variable type");
+  }
+}
+function bl(e, o) {
+  let { foreground: t, compactStringIcon: r = !1 } = o;
+  if (e.id === Zo) return (0, W.jsx)(Dn, { foreground: t });
+  if (e.id === Ko) return (0, W.jsx)(Nn, { foreground: t });
+  if (Ia(e)) return (0, W.jsx)(Ks, { foreground: t });
+  if ($a(e)) {
+    let n = Za(e.id);
+    return n === Zo
+      ? (0, W.jsx)(Dn, { foreground: t })
+      : n === Ko
+        ? (0, W.jsx)(Nn, { foreground: t })
+        : (0, W.jsx)(En, { foreground: t });
+  }
+  if (e.type === "controlReference" || e.type === "nodePropertyControlReference") {
+    let { expectedType: n } = e;
+    switch (n) {
+      case "enum":
+      case "segmentedenum":
+        return (0, W.jsx)(wr, { foreground: t });
+      case "file":
+        return (0, W.jsx)(Wn, { foreground: t });
+      default:
+        bo(n, `iconForVariable(), unsupported file reference type: ${n}`);
+    }
+  }
+  return Bn(e.type, { foreground: t, compactStringIcon: r });
+}
+var Me = a(l(), 1);
+function tu(e) {
+  return Ve(e) ? be(e) === "boolean" : e === "boolean";
+}
+function ru(e, o, t) {
+  if (t.combined.size <= 1) return !1;
+  let r = t.combined.keys();
+  for (let n of r) {
+    if (n === o.id) continue;
+    let i = e.getNode(n);
+    if (yn(i) && i.dataIdentifier === o.dataIdentifier) return !0;
+  }
+  return !1;
+}
+function nu(e, o, t, r) {
+  if (!t || !r || r.combined.size <= 1) return;
+  let n = e.get(t);
+  if (!(!yn(n) || !ru(e, n, r) || r.combined.keys().next().value === t))
+    return " (" + Ir(e, o, t, "type") + ")";
+}
+function iu(e) {
+  let o = Qa(e);
+  return o || e.name || "Unknown";
+}
+function au(e, o, t, r, n, i, s, c) {
+  if (n) return tu(r) ? "Condition" : "Transform";
+  if (!t) return "Missing";
+  let p = iu(t),
+    d = nu(e, o, s, c) ?? "",
+    u = p + d;
+  return dr(u, i);
+}
+function su(e, o, t) {
+  if (t) return (0, Me.jsx)(Ys, {});
+  if (e) return bl(e, { compactStringIcon: !0 });
+  let r = Array.isArray(o) ? o[0] : o;
+  return (T(r), Bn(r, { compactStringIcon: !0 }));
+}
+function lu(e, o) {
+  return aa(o) ? !1 : e?.id !== Sa;
+}
+var E0 = An.default.memo(
+  An.default.forwardRef(function (o, t) {
+    let r = B(),
+      {
+        expectedType: n,
+        reference: i,
+        onRemove: s,
+        className: c,
+        onClick: p,
+        hasError: d,
+        isComputedValue: u = !1,
+        isNegated: f = !1,
+        buttonTitle: b,
+        onShowMenu: C,
+        preview: y,
+        ...I
+      } = o,
+      m = Q(),
+      v = mr(),
+      { variable: g, providerId: h, arrayVariableId: P } = Is(i, v),
+      V = lu(g, i);
+    function z(x) {
+      s &&
+        r.stores.contextMenuStore.show(
+          [
+            {
+              label: "Remove",
+              enabled: !m,
+              click: () => {
+                (s(i), St({ variableId: g?.id, variableType: g?.type }));
+              },
+            },
+          ],
+          { location: { x: x.clientX, y: x.clientY } }
+        );
+    }
+    let A = r.scheduler.wrapHandler(() => {
+        io(r) && g && h && V && ps(r, g.id, h, { arrayVariableId: P });
+      }),
+      M = (x) => {
+        !s || m || (x.stopPropagation(), s(i), St({ variableId: g?.id, variableType: g?.type }));
+      },
+      E = au(r.tree, r.componentLoader, g, n, u, f, h, v),
+      D = y ?? su(g, n, u),
+      S = !!C && !m,
+      L = (x) => {
+        m || (x.stopPropagation(), C?.(x));
+      };
+    return (0, Me.jsxs)(Pe, {
+      ref: t,
+      role: "button",
+      direction: "row",
+      alignItems: "center",
+      className: w($s, pe, p || V || S ? Js : void 0, d && Qs, c),
+      tabIndex: 0,
+      onContextMenu: z,
+      paddingLeft: 4,
+      gap: 0,
+      onClick: g ? (p ?? A) : void 0,
+      title: b ?? E,
+      ...I,
+      children: [
+        (0, Me.jsx)(lo, { className: w(Gs, js), children: D }),
+        (0, Me.jsx)(ur, { size: 6 }),
+        (0, Me.jsx)("div", { className: w(Oe, qs), children: E }),
+        s &&
+          !m &&
+          (0, Me.jsx)(lo, {
+            className: Xs,
+            onClick: M,
+            onMouseDown: yl,
+            title: "Remove",
+            children: (0, Me.jsx)(gr, {}),
+          }),
+        S &&
+          (0, Me.jsx)(lo, {
+            className: _s,
+            onMouseDown: L,
+            onClick: yl,
+            children: (0, Me.jsx)(Ms, {}),
+          }),
+      ],
+    });
+  })
+);
+function yl(e) {
+  e.stopPropagation();
+}
+function On(e, o) {
+  return !e || !o || Te(e) || tr(e)
+    ? !1
+    : (oo(e) || bo(e),
+      T(e.startValue.id === o.id),
+      o.type === "boolean" && e.transforms[0]?.name === "negate");
+}
+function Fn(e, o) {
+  return On(e, o) && e.transforms.length === 1;
+}
+var ke = a(Y(), 1);
+var He = a(l());
+function vl() {
+  return (0, He.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "8",
+    height: "12",
+    children: (0, He.jsxs)("g", {
+      transform: "translate(1 1)",
+      children: [
+        (0, He.jsx)("path", {
+          d: "M 1 0 C 1.552 0 2 0.448 2 1 C 2 1.552 1.552 2 1 2 C 0.448 2 0 1.552 0 1 C 0 0.448 0.448 0 1 0 Z",
+          fill: "currentColor",
+        }),
+        (0, He.jsx)("path", {
+          d: "M 5 0 C 5.552 0 6 0.448 6 1 C 6 1.552 5.552 2 5 2 C 4.448 2 4 1.552 4 1 C 4 0.448 4.448 0 5 0 Z",
+          fill: "currentColor",
+        }),
+        (0, He.jsx)("path", {
+          d: "M 1 4 C 1.552 4 2 4.448 2 5 C 2 5.552 1.552 6 1 6 C 0.448 6 0 5.552 0 5 C 0 4.448 0.448 4 1 4 Z",
+          fill: "currentColor",
+        }),
+        (0, He.jsx)("path", {
+          d: "M 5 4 C 5.552 4 6 4.448 6 5 C 6 5.552 5.552 6 5 6 C 4.448 6 4 5.552 4 5 C 4 4.448 4.448 4 5 4 Z",
+          fill: "currentColor",
+        }),
+        (0, He.jsx)("path", {
+          d: "M 1 8 C 1.552 8 2 8.448 2 9 C 2 9.552 1.552 10 1 10 C 0.448 10 0 9.552 0 9 C 0 8.448 0.448 8 1 8 Z",
+          fill: "currentColor",
+        }),
+        (0, He.jsx)("path", {
+          d: "M 5 8 C 5.552 8 6 8.448 6 9 C 6 9.552 5.552 10 5 10 C 4.448 10 4 9.552 4 9 C 4 8.448 4.448 8 5 8 Z",
+          fill: "currentColor",
+        }),
+      ],
+    }),
+  });
+}
+var Pl = "ib75oye",
+  Il = "dnxepni";
+var Hn = a(l(), 1);
+function wl() {
+  let e = Q();
+  return (0, Hn.jsx)("div", {
+    title: "Drag to reorder or remove",
+    className: w(Pl, e && Il),
+    children: (0, Hn.jsx)(vl, {}),
+  });
+}
+function xl(e) {
+  return e.tree.getNodes(e.stores.selectionStore.ids).every(pa);
+}
+function Vl(e, o, t) {
+  if (!o && !t) return !1;
+  let r = e.tree.getNodes(e.stores.selectionStore.ids),
+    n = Na.overrideKeys(e.tree, r, !0);
+  return bs(n, o, t);
+}
+function Tl(e, o, t) {
+  as(e.tree, e.tree.getNodes(e.stores.selectionStore.ids), o, t);
+}
+var Sl = a(Y(), 1);
+function Rl(e) {
+  let o = B(),
+    { supportsFetchDataValues: t, onSelectFetchDataValue: r } = e,
+    n = Q(),
+    i = (0, Sl.useCallback)(() => {
+      if (t)
+        return [
+          {
+            label: "Add Fetch",
+            click: () => {
+              T(r);
+              let s = r();
+              so("fetch_computed_value_create", { outputType: s.outputType });
+            },
+            enabled: !n && !(io(o) && qa(o.tree, o.stores.selectionStore.ids)),
+            submenu: void 0,
+          },
+        ];
+    }, [r, n, t]);
+  if (!(!t || !r)) return i;
+}
+var Al = a(Y(), 1);
+var cu =
+    "This component used to accept a List of objects for this property, but an update made this variable incompatible. Change the component or remove the variable.",
+  du = "This List is incompatible with the component property without a Map transform.";
+function Sr(e) {
+  return e?.type === "transform";
+}
+function uu(e) {
+  return Sr(e) || fu(e);
+}
+function f1(e) {
+  return e?.type === "unknownTransform";
+}
+function fu(e) {
+  return e?.type === "transformWarning";
+}
+function mu(e) {
+  return e?.type === "typeError";
+}
+function m1(e) {
+  return mu(e) && "key" in e;
+}
+function Qe(e, o) {
+  return Ve(o) ? o.includes(e) : e === o;
+}
+function gu(e) {
+  let o = -1,
+    t = -1;
+  for (let i = 0, s = e.length; i < s; i++) {
+    let c = e[i];
+    c &&
+      (c.name === "greaterThan" && c.isNegated
+        ? (o = i)
+        : c.name === "lessThan" && !c.isNegated && (t = i));
+  }
+  if (o === -1 || t === -1) return;
+  let r = e[o];
+  T(r);
+  let n = e[t];
+  (T(n), (e[o] = n), (e[t] = r));
+}
+function Rr(e, o) {
+  (e.sort((t, r) => (t.outputType === r.outputType ? 0 : t.outputType === o ? -1 : 1)), gu(e));
+}
+function g1(e, o, t) {
+  let r = e.at(-1);
+  if (!r) return;
+  let n = vo(r);
+  if (n === t) return;
+  let i = mt(n);
+  if (i)
+    for (let s of i) {
+      let c = We(s);
+      if (c && c.includes(t)) {
+        e.push(zo({ name: s, input: n, output: o ?? t }));
+        return;
+      }
+    }
+}
+var zn = 2;
+function hu(e, o, t) {
+  let r = [{ transformName: e, depth: 1 }],
+    i = t === "boolean" && o === t ? 1 : zn,
+    s = new Set();
+  for (; r.length > 0;) {
+    let { transformName: c, depth: p } = r.shift();
+    if (s.has(c)) continue;
+    s.add(c);
+    let d = We(c);
+    if (d) {
+      if (d.includes(t)) return !0;
+      if (i !== p && !hn(c))
+        for (let u of d) {
+          let f = mt(u);
+          if (f) for (let b of f) r.push({ transformName: b, depth: p + 1 });
+        }
+    }
+  }
+  return !1;
+}
+var Zn = (() => {
+  let e = new Map();
+  return (o, t, r) => {
+    let n = o + t + r,
+      i = e.get(n);
+    if (Ji(i)) return i;
+    let s = hu(o, t, r);
+    return (e.set(n, s), s);
+  };
+})();
+function Tr({
+  input: e,
+  output: o,
+  currentTransform: t,
+  currentTransformOutput: r,
+  transformBefore: n,
+  variableConsumesNegated: i,
+  supportedTransformNames: s,
+  arrayMappingCanBeAdded: c,
+}) {
+  let p = [];
+  return (
+    s.forEach((d) => {
+      if (d === "arrayToArray" && !c && t !== "arrayToArray") return;
+      let u = yo(d);
+      if ((!u || !u.includes(e)) && d !== t) return;
+      let f = We(d);
+      if (d !== t && na(d) && !f.includes(o)) return;
+      let b;
+      if (f.includes(o)) b = o;
+      else if (r && f.includes(r)) b = r;
+      else {
+        if (!Zn(d, e, o)) return;
+        let I = We(d);
+        b = I.includes(o) ? o : I[0];
+      }
+      if (n === d && t !== d && !gn(d)) return;
+      let C = !!(n && Be(n));
+      (C && d === "negate") ||
+        (C && d === "isSet") ||
+        (!n && i && d === "negate") ||
+        (p.push({ name: d, isNegated: !1, outputType: b }),
+        Be(d) && p.push({ name: d, isNegated: !0, outputType: b }));
+    }),
+    Rr(p, o),
+    p.length > 0 ? p : null
+  );
+}
+function Ml(e, o, t) {
+  if ((T(o >= 0), o === 0 || (o === 1 && t))) return null;
+  let r,
+    n = t ? 1 : 0;
+  for (let i = o - 1; i >= n; i--) {
+    let s = e[i];
+    if ((T(s), s.name === "negate")) {
+      r = s;
+      continue;
+    }
+    return r && !Be(s.name) ? r : s;
+  }
+  return (T(r), r);
+}
+function Cu(e) {
+  if (!De(e)) return e;
+  for (let o of e) if (eo(o)) return o;
+  throw Error("Expected type must be a computed value type");
+}
+function kl({
+  mainInputType: e,
+  inputControl: o,
+  variableIsNegated: t,
+  transforms: r,
+  expectedType: n,
+  propName: i,
+  supportedTransformNames: s,
+  outputControl: c,
+  computedValueOutputType: p,
+}) {
+  let d = Cu(n),
+    u = p !== void 0 && Ha(p, r, c),
+    f = bn(o) && bn(c),
+    b = r?.filter((E) => E.name === "arrayToArray").length ?? 0,
+    C = b > 0,
+    y = f && !C,
+    I = e === "boolean",
+    m = {
+      sections: [],
+      errorBefore: null,
+      errorAfter: null,
+      transformAdditionOptions: [],
+      variableIsNegated: t,
+    },
+    v = Qe(e, n),
+    g = e;
+  if (r) {
+    let E = t ? 1 : 0;
+    for (let D = E, S = r.length; D < S; D++) {
+      let L = Ml(r, D, t),
+        x = r[D];
+      if ((T(x), !oa(x.name))) {
+        m.sections.push({ type: "unknownTransform", transform: x });
+        continue;
+      }
+      let k = yo(x.name);
+      if ((T(k), !Qe(g, k))) {
+        let ne = gt(x.name, !1);
+        D === 0
+          ? (m.errorBefore = {
+              type: "typeError",
+              title: ne,
+              expected: k,
+              received: g,
+              replaceOptions: Tr({
+                input: g,
+                output: d,
+                currentTransformOutput: null,
+                currentTransform: null,
+                transformBefore: null,
+                variableConsumesNegated: I,
+                supportedTransformNames: s,
+                arrayMappingCanBeAdded: y,
+              }),
+            })
+          : (T(L),
+            m.sections.push({
+              type: "typeError",
+              key: `${x.id}-error`,
+              title: ne,
+              expected: k,
+              received: g,
+              replaceOptions: Tr({
+                input: g,
+                output: d,
+                currentTransformOutput: null,
+                currentTransform: null,
+                transformBefore: L.name,
+                variableConsumesNegated: I,
+                supportedTransformNames: s,
+                arrayMappingCanBeAdded: y,
+              }),
+              transformBefore: L,
+              transformAfter: x,
+            }));
+      }
+      let O = m.sections[m.sections.length - 1];
+      if (x.name === "negate" && uu(O) && Be(O.transform.name))
+        Sr(O) && (O.isNegated = !O.isNegated);
+      else {
+        let ne = vo(x),
+          ae = v && e !== "enum",
+          J = m.sections.some((X) => {
+            if (X.type === "typeError" || X.type === "unknownTransform") return !0;
+            let ue = vo(X.transform);
+            return Qe(ue, n);
+          }),
+          N = f && x.name === "arrayToArray" && b === 1,
+          j = !N && (ae || J || !!L),
+          F = u && x.name === "arrayToArray" ? cu : void 0;
+        if (F) {
+          (m.sections.push({
+            type: "transformWarning",
+            key: `${x.id}-warning`,
+            message: F,
+            transform: x,
+          }),
+            (g = ne));
+          continue;
+        }
+        (m.sections.push({
+          type: "transform",
+          transform: x,
+          inputType: g,
+          inputControl: E === D || x.name === "arrayToArray" ? o : void 0,
+          consumesNegated: Be(x.name),
+          isNegated: !1,
+          canBeDeleted: j,
+          replaceOptions: N
+            ? null
+            : Tr({
+                input: g,
+                output: d,
+                currentTransformOutput: ne,
+                currentTransform: x.name,
+                transformBefore: L?.name ?? null,
+                variableConsumesNegated: I,
+                supportedTransformNames: s,
+                arrayMappingCanBeAdded: y,
+              }),
+        }),
+          (g = ne));
+      }
+    }
+  }
+  if (f && !C && r && r.length > 0) {
+    let E = r.at(-1);
+    (T(E),
+      m.sections.push({
+        type: "transformWarning",
+        key: `${E.id}-missing-array-mapping`,
+        message: du,
+        transform: E,
+      }));
+  }
+  let h = r ? Ml(r, r.length, t) : null,
+    P = h ? h.name : null,
+    V = P === "negate",
+    z = P ? Be(P) : !1,
+    A = !Qe(g, n);
+  return (
+    A &&
+      (m.errorAfter = {
+        type: "typeError",
+        title: i,
+        expected: n,
+        received: g,
+        replaceOptions: Tr({
+          input: g,
+          output: d,
+          currentTransformOutput: null,
+          currentTransform: null,
+          transformBefore: P,
+          variableConsumesNegated: I,
+          supportedTransformNames: s,
+          arrayMappingCanBeAdded: y,
+        }),
+      }),
+    bu(m, h, n, A) &&
+      (s.forEach((E) => {
+        if (
+          (E === "arrayToArray" && !y) ||
+          (P === E && !gn(E)) ||
+          (E === "negate" && (!h || V || z))
+        )
+          return;
+        let D = yo(E);
+        if (!D || !D.includes(g)) return;
+        let S = We(E),
+          L = S.find((x) => Qe(x, n)) ?? S[0];
+        (Qe(g, n) && !Qe(L, n)) ||
+          (hn(E) && !Qe(L, n)) ||
+          (m.transformAdditionOptions.push({ name: E, isNegated: !1, outputType: L }),
+          Be(E) && m.transformAdditionOptions.push({ name: E, isNegated: !0, outputType: L }));
+      }),
+      Rr(m.transformAdditionOptions, d)),
+    m
+  );
+}
+function bu(e, o, t, r) {
+  return r
+    ? !0
+    : t === "boolean"
+      ? o?.name !== "equals"
+      : Qe("enum", t)
+        ? !o || !o.name
+          ? !0
+          : !We(o.name).includes("enum")
+        : !0;
+}
+function Ll(e, o, t) {
+  switch (t.name) {
+    case "equals":
+      switch (o.name) {
+        case "equals":
+        case "startsWith":
+        case "endsWith":
+        case "contains":
+        case "lessThan":
+        case "greaterThan":
+        case "isAfter":
+        case "isBefore":
+          switch (e) {
+            case "string":
+            case "boolean":
+            case "number":
+            case "enum":
+            case "date":
+            case "collectionreference":
+              va(e, o.value) && (t.value = o.value);
+              break;
+          }
+      }
+      return;
+    case "isAfter":
+    case "isBefore":
+      switch (o.name) {
+        case "isBefore":
+        case "isAfter":
+        case "equals":
+          H(o.value) && (t.value = o.value);
+          break;
+      }
+      break;
+    case "lessThan":
+    case "greaterThan":
+      switch (o.name) {
+        case "lessThan":
+        case "greaterThan":
+          t.value = o.value;
+          break;
+        case "equals":
+          _e(o.value) && (t.value = o.value);
+          break;
+      }
+      break;
+    case "startsWith":
+    case "endsWith":
+    case "contains":
+      switch (o.name) {
+        case "startsWith":
+        case "endsWith":
+        case "contains":
+        case "equals":
+          H(o.value) && (t.value = o.value);
+      }
+      break;
+    case "prefix":
+    case "suffix":
+      switch (o.name) {
+        case "prefix":
+        case "suffix":
+          ((t.value = o.value), (t.valueLocalized = o.valueLocalized));
+      }
+      break;
+    case "isIncludedIn":
+      o.name === "isIncludedIn" && Ve(o.value) && o.value.every(H) && (t.value = o.value);
+      break;
+    case "containsAny":
+    case "containsAll":
+      switch (o.name) {
+        case "containsAny":
+        case "containsAll":
+          (Te(o.value) || (Ve(o.value) && o.value.every(H))) && (t.value = o.value);
+      }
+      break;
+  }
+}
+function El(e, o) {
+  if (us(o)) {
+    let t = ds(o);
+    if (!t) return null;
+    let r = e.getNodeWithTrait(t.providerId, wo),
+      n = r?.getVariable(t.variableId);
+    return !r || !n || !Pa(n)
+      ? null
+      : { type: "scopeArrayItemField", scopeId: r.id, arrayVariableId: n.id };
+  }
+  for (let t of o.providerIds) {
+    let r = e.get(t);
+    if (!ir(r)) continue;
+    let n = ns(r);
+    if (n)
+      return {
+        type: "repeatArrayItemField",
+        repeatNodeId: r.getPrimaryId(),
+        arrayVariableId: n.arrayVariable.id,
+      };
+  }
+  return null;
+}
+function et(e, o, t, r) {
+  return o !== "controlReference"
+    ? e.canCreateVariable({ type: o })
+    : !t || !r
+      ? !1
+      : (De(t) ? t : [t]).some(
+          (i) =>
+            wa(i) &&
+            e.canCreateVariable({ type: "controlReference", expectedType: i, entityIdentifier: r })
+        );
+}
+function yu(e, o, t, r, n) {
+  return n && et(e, n, t, r)
+    ? [n]
+    : De(o)
+      ? o.filter((i) => et(e, i, t, r) && i !== "enum")
+      : et(e, o, t, r)
+        ? [o]
+        : [];
+}
+function vu({
+  engine: e,
+  dynamicValue: o,
+  canCreateVariable: t,
+  canChooseVariable: r,
+  additionalCreateVariableLabel: n,
+  createVariableLabel: i,
+  onAdditionalCreateVariable: s,
+  variableCreationProviderId: c,
+  variableType: p,
+  variableCreationType: d,
+  variableInfo: u,
+  onCreateVariable: f,
+  variableReferenceType: b,
+  supportsComputedValues: C,
+  collectionReferenceDataIdentifier: y,
+  controlSourceIdentifier: I,
+  vectorSetIdentifier: m,
+  isReadOnly: v,
+  controlKey: g,
+  allowedFileTypes: h,
+  displayTransformOptions: P,
+  enabledValueTransformNames: V,
+  onSelectVariable: z,
+  onSelectComputedValue: A,
+  onRemoveDynamicValue: M,
+  computedValuePopoutId: E,
+  variableFilter: D,
+  hideCollectionNavigationVariables: S,
+}) {
+  let L = [],
+    x = v || _a(e, "canDesign");
+  if (t) {
+    T(u, "variableInfo should be defined");
+    let ae = e.tree.getNodeWithTrait(c ?? u.idOfMutableVariableProvider, wo);
+    T(ae, "variableProviderNode should exist when creating variables");
+    let J = yu(ae, p, b, I, d);
+    if (J.length === 1) {
+      let N = J[0];
+      (T(fn(N), "onlyVariableType should be defined"),
+        L.push({
+          label: i ?? "Create Variable",
+          enabled: !x,
+          click: () => {
+            T(f, "onCreateVariable should be defined");
+            let j = Kn(e, N, u, ae);
+            f(j.scopeId, N, j.context);
+          },
+        }),
+        n &&
+          s &&
+          L.push(
+            {
+              label: n,
+              enabled: !x,
+              click: () => {
+                let j = Kn(e, N, u, ae);
+                s(j.scopeId, N, j.context);
+              },
+            },
+            { type: "separator" }
+          ));
+    } else
+      J.length > 1 &&
+        L.push(
+          ...J.map((N) => ({
+            label: `Create ${ss(N)} Variable`,
+            enabled: !x,
+            click: () => {
+              T(f, "onCreateVariable should be defined");
+              let j = Kn(e, N, u, ae);
+              f(j.scopeId, N, j.context);
+            },
+          }))
+        );
+  }
+  let k = Lu(e, u, p, b, C, y, m, I, g, h, P, D, S),
+    O = r
+      ? Wu({
+          engine: e,
+          variableInfo: u,
+          compatibleVariablesByProvider: k,
+          variableType: p,
+          dynamicValue: o,
+          variableReferenceType: b,
+          collectionReferenceDataIdentifier: y,
+          vectorSetIdentifier: m,
+          controlSourceIdentifier: I,
+          controlKey: g,
+          allowedFileTypes: h,
+          supportsComputedValues: C,
+          onSelectVariable: z,
+          onSelectComputedValue: A,
+          onRemoveDynamicValue: M,
+          readonly: x,
+          variableFilter: D,
+          enabledValueTransformNames: V,
+        })
+      : [];
+  O.length > 0 && L.push({ label: "Set Variable", submenu: O });
+  let ne = Ou({
+    engine: e,
+    variableInfo: u,
+    dynamicValue: o,
+    variableType: p,
+    supportsComputedValues: C,
+    onSelectComputedValue: A,
+    computedValuePopoutId: E,
+    displayTransformOptions: P,
+    controlSourceIdentifier: I,
+    controlKey: g,
+    enabledValueTransformNames: V,
+    readonly: x,
+  });
+  return (ne && L.push(ne), L);
+}
+function Kn(e, o, t, r) {
+  let n = El(e.tree, t);
+  return !n || !_i(o)
+    ? { scopeId: r.id, context: void 0 }
+    : n.type === "repeatArrayItemField"
+      ? { scopeId: n.repeatNodeId, context: void 0 }
+      : { scopeId: n.scopeId, context: { arrayItemVariableParentId: n.arrayVariableId } };
+}
+function Ol(e) {
+  let o = B(),
+    {
+      additionalCreateVariableLabel: t,
+      createVariableLabel: r,
+      onAdditionalCreateVariable: n,
+      variableCreationProviderId: i,
+      variableType: s,
+      variableCreationType: c,
+      variableReferenceType: p,
+      dynamicValue: d,
+      onCreateVariable: u,
+      onSelectVariable: f,
+      onRemoveDynamicValue: b,
+      collectionReferenceDataIdentifier: C,
+      controlSourceIdentifier: y,
+      vectorSetIdentifier: I,
+      controlKey: m,
+      allowedFileTypes: v,
+      supportsComputedValues: g,
+      onSelectComputedValue: h,
+      displayTransformOptions: P = !0,
+      computedValuePopoutId: V,
+      variableFilter: z,
+      hideCollectionNavigationVariables: A,
+    } = e,
+    M = mr(),
+    E = ea(),
+    { canCreateVariable: D, canChooseVariable: S, canAssignVariable: L } = Pu(o, M, e),
+    x = Q(),
+    k = (0, Al.useCallback)(() => {
+      if (M && s)
+        return vu({
+          engine: o,
+          variableInfo: M,
+          additionalCreateVariableLabel: t,
+          createVariableLabel: r,
+          onAdditionalCreateVariable: n,
+          variableCreationProviderId: i,
+          variableType: s,
+          variableCreationType: c,
+          variableReferenceType: p,
+          supportsComputedValues: g,
+          collectionReferenceDataIdentifier: C,
+          controlSourceIdentifier: y,
+          vectorSetIdentifier: I,
+          controlKey: m,
+          allowedFileTypes: v,
+          displayTransformOptions: P,
+          enabledValueTransformNames: E,
+          dynamicValue: d,
+          onSelectComputedValue: h,
+          onSelectVariable: f,
+          isReadOnly: x,
+          onRemoveDynamicValue: b,
+          onCreateVariable: u,
+          canCreateVariable: D,
+          canChooseVariable: S,
+          computedValuePopoutId: V,
+          variableFilter: z,
+          hideCollectionNavigationVariables: A,
+        });
+    }, [t, v, D, S, C, V, m, y, r, P, d, E, x, A, u, n, b, h, f, g, c, i, M, p, s, I, z]);
+  return L ? k : void 0;
+}
+function Pu(e, o, t) {
+  let r = !!t.supportsVariables,
+    n = o
+      ? {
+          assignableCollectionNavigationProviderId: Nu(e, o),
+          hasCollectionNavigationVariables: o.ids.has(Zo) || o.ids.has(Ko),
+          hideCollectionNavigationVariables: t.hideCollectionNavigationVariables,
+        }
+      : void 0,
+    i =
+      r &&
+      Mu(
+        o,
+        t.variableType,
+        t.variableReferenceType,
+        t.supportsComputedValues,
+        t.collectionReferenceDataIdentifier,
+        t.vectorSetIdentifier,
+        t.controlSourceIdentifier,
+        t.controlKey,
+        t.allowedFileTypes,
+        t.variableFilter,
+        n
+      ),
+    s = e.tree.getNodeWithTrait(t.variableCreationProviderId ?? o?.idOfMutableVariableProvider, wo),
+    p = Iu(s, t) && !!t.onCreateVariable,
+    d = i && !!t.onSelectVariable;
+  return { canCreateVariable: p, canChooseVariable: d, canAssignVariable: p || d };
+}
+function Fl(e, o, t, r) {
+  return (t && !t(e, o)) || (r?.hideCollectionNavigationVariables && Nl(e.id))
+    ? !1
+    : r?.hasCollectionNavigationVariables && Nl(e.id)
+      ? o === r.assignableCollectionNavigationProviderId
+      : !0;
+}
+function Iu(e, o) {
+  if (!e || !o.supportsVariables || !o.variableType) return !1;
+  if (o.variableCreationType)
+    return et(e, o.variableCreationType, o.variableReferenceType, o.controlSourceIdentifier);
+  if (!De(o.variableType))
+    return et(e, o.variableType, o.variableReferenceType, o.controlSourceIdentifier);
+  for (let t of o.variableType)
+    if (et(e, t, o.variableReferenceType, o.controlSourceIdentifier)) return !0;
+  return !1;
+}
+function Nl(e) {
+  return vn(e) || bt(e, Zo) || bt(e, Ko);
+}
+function wu(e) {
+  return Te(e) ? e : sa(e) ? e.startValue : null;
+}
+function xu(e, o) {
+  return e.type !== "vectorsetitem" || !o ? !1 : e.setModuleId === o;
+}
+function Dl(e, o) {
+  let t = [{ type: e, depth: 1 }];
+  for (; t.length > 0;) {
+    let { type: r, depth: n } = t.shift(),
+      i = n === zn,
+      s = ra(r);
+    if (s)
+      for (let c of s) {
+        let p = yo(c);
+        if (p)
+          for (let d of p)
+            o.has(d) || (o.add(d), fn(d) && (i || t.push({ type: d, depth: n + 1 })));
+      }
+  }
+}
+function Vu(e) {
+  return De(e) ? Array.from(e).sort().join() : e;
+}
+var Hl = (() => {
+  let e = new Map();
+  return (o) => {
+    let t = Vu(o),
+      r = e.get(t);
+    if (r) return r;
+    let n = new Set();
+    if (De(o)) for (let i of o) Dl(i, n);
+    else Dl(o, n);
+    return (e.set(t, n), n);
+  };
+})();
+function zl(e, o, t) {
+  if (!o || !t) return;
+  if (t === ba) return (T(ha(o)), Ca(o));
+  let r = e.reactComponentForIdentifier(t);
+  if (r) return r.properties[o];
+}
+function Bt(e, o, t, r, n, i) {
+  let s = H(o) ? o : o.type;
+  for (let c of i) {
+    let p = yo(c);
+    if (!p || !p.includes(s)) continue;
+    let d = We(c),
+      u = De(t) ? t.find((b) => d.includes(b)) : d.find((b) => b === t);
+    if (!eo(u)) continue;
+    let f = zl(e, r, n);
+    return {
+      outputType: u,
+      valueTransform: zo({ name: c, input: o, output: f?.type === u ? f : u }),
+    };
+  }
+  return null;
+}
+function Tu(e, o, t, r, n, i, s) {
+  let c = Bt(e, o, t, r, n, s);
+  if (c) return Fo(c.outputType, i, [c.valueTransform]);
+  let p = Bt(e, o, "boolean", r, n, s),
+    d = Bt(e, "boolean", t, void 0, void 0, s);
+  if (p && d) return Fo(d.outputType, i, [p.valueTransform, d.valueTransform]);
+  let u = H(o) ? o : o.type;
+  throw new Error(
+    `Could not generate computed value with input: ${u}, and output: ${Ve(t) ? t.join(", ") : t}`
+  );
+}
+function Su(e, o) {
+  for (let t of e) if (o.has(t)) return !0;
+  return !1;
+}
+function Wl(e, o, t, r, n, i, s, c, p, d) {
+  if (e === "enum")
+    return !i || !s ? !1 : o.enums.some(({ variable: u, sourceIdentifier: f }) => Tn(u, f, i, s));
+  for (let [u, f] of o.combined) {
+    let b = o.variableSourceIdentifiers[u];
+    for (let [, C] of f) if (Fl(C, u, p, d) && Mr(C, u, b, e, t, r, n, i, s, c, p)) return !0;
+  }
+  return !1;
+}
+function Ru(e, o, t, r) {
+  for (let [n, i] of e.combined) for (let [, s] of i) if (Fl(s, n, t, r) && o.has(ye(s))) return !0;
+  return !1;
+}
+function Mu(e, o, t, r, n, i, s, c, p, d, u) {
+  if (!o || !e) return !1;
+  if (De(o)) {
+    if (o.some((b) => Wl(b, e, t, n, i, s, c, p, d, u))) return !0;
+  } else if (Wl(o, e, t, n, i, s, c, p, d, u)) return !0;
+  if (r) {
+    let f = Hl(o);
+    return f ? (d || u?.hasCollectionNavigationVariables ? Ru(e, f, d, u) : Su(f, e.types)) : !1;
+  }
+  return !1;
+}
+function Mr(e, o, t, r, n, i, s, c, p, d, u) {
+  return u && !u(e, o)
+    ? !1
+    : Ve(r)
+      ? r.some((f) => Mr(e, o, t, f, n, i, s, c, p, d, u))
+      : r === "collectionreference"
+        ? e.type === "collectionreference" && e.dataIdentifier === i
+        : r === "multicollectionreference"
+          ? e.type === "multicollectionreference" && e.dataIdentifier === i
+          : r === "vectorsetitem"
+            ? xu(e, s)
+            : r === "file"
+              ? Fa(e, d)
+              : r === "controlReference" || e.type === "nodePropertyControlReference"
+                ? ls(e, n, c, p)
+                : e.type === "enum"
+                  ? Tn(e, t, c, p)
+                  : e.type === r;
+}
+function Zl(e, o, t) {
+  return !t || !o ? !1 : (Hl(o)?.has(ye(e)) ?? !1);
+}
+function ku(e) {
+  let o = { children: {} };
+  for (let [t, r] of e) {
+    let n = Ua(t),
+      i = o;
+    for (let s = 0; s < n.length; s++) {
+      let c = n[s];
+      q(c) || ((i.children ??= {}), (i = i.children[c] ??= { id: Ya(n.slice(0, s + 1)) }));
+    }
+    i.variable = r;
+  }
+  return o;
+}
+function Lu(e, o, t, r, n, i, s, c, p, d, u, f, b = !1) {
+  let C = [],
+    y = o.providerIds[0];
+  function I(m, v, g, h, P) {
+    let V = [];
+    for (let z in v) {
+      let A = v[z];
+      if (!A) continue;
+      let { variable: M, children: E } = A;
+      if (q(M)) {
+        let S = o.combinedControls.get(m)?.get(A.id ?? "");
+        m === ia &&
+          A.id &&
+          E &&
+          S?.type === "object" &&
+          V.push({
+            type: "group",
+            id: A.id,
+            label: S.title ?? z,
+            getCompatibleNestedVariables: () => I(m, E, g, h, P),
+          });
+        continue;
+      }
+      if (
+        (M.type === "collectionreference" && !za(z, M.dataIdentifier, h)) ||
+        (vn(M.id) && (b || !Eu(m, P, y)))
+      )
+        continue;
+      if (Mr(M, m, g, t, r, i, s, c, p, d, f)) {
+        (V.push({ type: "variable", variable: M, isNegated: !1, transforms: null }),
+          n &&
+            M.type === "boolean" &&
+            V.push({ type: "variable", variable: M, isNegated: !0, transforms: null }));
+        continue;
+      }
+      let D;
+      if (E && M.type === "collectionreference") {
+        let S = M.dataIdentifier,
+          L = [...h, S];
+        D = () => I(m, E, S, L, P);
+      }
+      if (!Ka(M.id)) {
+        if (Zl(M, t, n)) {
+          let S = Kl(M, t);
+          if (!u) {
+            if ((V.push({ type: "variable", variable: M, isNegated: !1, transforms: null }), S)) {
+              let L = S.valueTransformOptions.filter((x) => !mn.has(x.name));
+              n &&
+                M.type === "boolean" &&
+                L.length > 0 &&
+                V.push({ type: "variable", variable: M, isNegated: !0, transforms: null });
+            }
+            continue;
+          }
+          if (S && S.valueTransformOptions.length > 0) {
+            V.push({
+              type: "variable",
+              variable: M,
+              isNegated: !1,
+              transforms: S.valueTransformOptions,
+              getCompatibleNestedVariables: D,
+            });
+            let L = S.valueTransformOptions.filter((x) => !mn.has(x.name));
+            n &&
+              M.type === "boolean" &&
+              L.length > 0 &&
+              V.push({ type: "variable", variable: M, isNegated: !0, transforms: L });
+          }
+          continue;
+        }
+        D &&
+          V.push({
+            type: "variable",
+            variable: M,
+            isNegated: !1,
+            transforms: null,
+            getCompatibleNestedVariables: D,
+          });
+      }
+    }
+    if (V.length !== 0) return V;
+  }
+  for (let [m, v] of o.combined) {
+    let { children: g } = ku(v);
+    T(g, "Variable tree should have children");
+    let h = o.variableSourceIdentifiers[m];
+    if (!h) continue;
+    let P = e.tree.get(m),
+      V = I(m, g, h, [], P);
+    V &&
+      C.push({
+        providerId: m,
+        providerTitle: o.providerTitles?.get(m) ?? Ir(e.tree, e.componentLoader, m),
+        compatibleVariables: V,
+      });
+  }
+  return C;
+}
+function Eu(e, o, t) {
+  return ft(o) ? e === t : !1;
+}
+function Nu(e, o) {
+  let t = o.providerIds[0],
+    r = t ? e.tree.get(t) : void 0;
+  return ft(r) ? t : void 0;
+}
+function Du(e, o, t, r, n, i) {
+  if (!oo(e) || !t || !o) return null;
+  let c = kl({
+    mainInputType: ye(t),
+    inputControl: n,
+    variableIsNegated: r,
+    transforms: oo(e) ? e.transforms : null,
+    expectedType: o,
+    propName: void 0,
+    supportedTransformNames: i,
+  }).sections.find(Sr);
+  return c ? { name: c.transform.name, isNegated: c.isNegated } : null;
+}
+function Bl(e) {
+  return e.transforms.find((o) => o.name !== "negate");
+}
+function Un(e, o, t) {
+  if (!o || !t) return;
+  let r = o.providerId ?? e.fallbackProvider;
+  if (!r) return;
+  let n = e.combinedControls.get(r)?.get(o.id);
+  if (n) return n.type === ye(t) ? n : void 0;
+}
+function Wu({
+  engine: e,
+  variableInfo: o,
+  compatibleVariablesByProvider: t,
+  variableType: r,
+  dynamicValue: n,
+  variableReferenceType: i,
+  collectionReferenceDataIdentifier: s,
+  vectorSetIdentifier: c,
+  controlSourceIdentifier: p,
+  controlKey: d,
+  allowedFileTypes: u,
+  supportsComputedValues: f,
+  onSelectVariable: b,
+  onSelectComputedValue: C,
+  onRemoveDynamicValue: y,
+  readonly: I,
+  variableFilter: m,
+  enabledValueTransformNames: v,
+}) {
+  let g = [],
+    h = o.fallbackProvider,
+    P = wu(n),
+    V = P ? Mn(P, o) : void 0,
+    z = On(n, V),
+    A = Du(n, r, V, z, Un(o, P, V), v);
+  function M(D, S, L) {
+    return D.map((x) => {
+      if (x.type === "group") {
+        let F = x.id;
+        return {
+          label: x.label,
+          checked: Te(P) && (P.providerId ?? h) === S && bt(P.id, F),
+          submenu: () => {
+            let X = x.getCompatibleNestedVariables();
+            return X ? M(X, S, L) : void 0;
+          },
+        };
+      }
+      let { variable: k, isNegated: O, transforms: ne, getCompatibleNestedVariables: ae } = x,
+        J = Fu(x, S, P, z, h),
+        N = ne?.map((F) => ({
+          label: gt(F.name, F.isNegated),
+          enabled: !I,
+          checked: J && A?.name === F.name && A.isNegated === F.isNegated,
+          click: () => j(F),
+        }));
+      if (ae) {
+        T(k.type === "collectionreference" || k.type === "array", "Invalid variable type");
+        let F = k.type === "collectionreference" ? k.dataIdentifier : L,
+          X = Te(P) && (P.providerId ?? h) === S && bt(P.id, k.id);
+        return {
+          label: k.name,
+          checked: X,
+          submenu: () => {
+            let ue = ae(),
+              ie = ue ? M(ue, S, F) : [];
+            if (N) return ie.length > 0 ? [...N, { type: "separator" }, ...ie] : N;
+            if (ie.length > 0) return ie;
+          },
+        };
+      }
+      function j(F) {
+        if (J && !F) {
+          (n && y?.(n), St({ variableId: k.id, variableType: k.type }));
+          return;
+        }
+        let X = Cn(k.id, S);
+        if (
+          oo(n) &&
+          n.transforms.length > 0 &&
+          V !== void 0 &&
+          ye(V) === ye(k) &&
+          !Fn(n, V) &&
+          !F
+        ) {
+          let de = { ...n, startValue: X };
+          if (O !== z) {
+            T(k.type === "boolean");
+            let ce = Array.from(de.transforms);
+            ((de.transforms = ce),
+              O ? ce.unshift(Io()) : (T(ce[0]?.name === "negate"), ce.shift()));
+          }
+          C?.(de);
+          return;
+        }
+        if (Mr(k, S, L, r, i, s, c, p, d, u, m) && !F) {
+          if (O) {
+            (T(k.type === "boolean"), C?.(Fo("boolean", X, [Io()])));
+            return;
+          }
+          (b?.(Cn(k.id, S), k.type), zi({ variableId: k.id, variableType: k.type }));
+          return;
+        }
+        (T(Zl(k, r, f), "Selected variable should be assignable using a computed value"),
+          T(r, "Variable type should be defined"));
+        let ue = Un(o, X, k) ?? ye(k),
+          ie;
+        if (F) {
+          let de = zl(e.componentLoader, d, p),
+            ce = F.outputType,
+            we = [zo({ name: F.name, input: ue, output: de?.type === ce ? de : ce })];
+          F.isNegated && we.push(Io());
+          let he = Ve(r) ? r.find(eo) : r;
+          if ((T(eo(he)), F.outputType !== he)) {
+            let Wo = Bt(e.componentLoader, F.outputType, he, d, p, v);
+            Wo && we.push(Wo.valueTransform);
+          }
+          ie = Fo(he, X, we);
+        } else ie = Tu(e.componentLoader, ue, r, d, p, X, v);
+        if (oo(n)) {
+          let de = Bl(n),
+            ce = Bl(ie);
+          if (de && ce) {
+            let _ = V ? ye(V) : void 0,
+              we = ye(k);
+            _ === we && Ll(we, de, ce);
+            let he = vo(de),
+              Wo = vo(ce);
+            if (he === Wo) {
+              let on = n.transforms.findIndex((Ce) => Ce === de),
+                jt = n.transforms.slice(on + 1);
+              if (jt.length > 0) {
+                let Ce = ie.transforms.findIndex((Bo) => Bo === ce),
+                  xe = ie.transforms.slice(0, Ce + 1);
+                (xe.push(...jt), (ie.transforms = xe));
+              }
+            }
+          }
+        }
+        (O && (T(k.type === "boolean"), (ie.transforms = [Io(), ...ie.transforms])),
+          C?.(ie),
+          so("computed_value_create", {
+            initialTransformName: ie.transforms[0]?.name,
+            inputType: k.type,
+            outputType: ie.outputType,
+            source: "property_panel_row",
+          }));
+      }
+      return {
+        label: dr(k.name || "Unknown", O),
+        checked: J,
+        enabled: !I,
+        click: () => j(),
+        submenu: N,
+      };
+    });
+  }
+  let E = t.entries();
+  for (let [D, { providerId: S, providerTitle: L, compatibleVariables: x }] of E) {
+    let k = o.variableSourceIdentifiers[S];
+    if (!k) continue;
+    let O = M(x, S, k);
+    D === 0
+      ? g.push(...O)
+      : (D === 1 && g.push({ type: "separator" }),
+        g.push({ label: L, submenu: O, checked: Te(P) && (P.providerId ?? h) === S }));
+  }
+  return g;
+}
+function Bu(e, o) {
+  let t = new Map(),
+    r = mt(e);
+  if (!r) return t;
+  let n = e === "array" && o === "array";
+  for (let i of r) {
+    if ((n && i !== "arrayToArray") || !Zn(i, e, o)) continue;
+    let c = We(i),
+      p = c.includes(o) ? o : c[0];
+    t.set(i, p);
+  }
+  return t;
+}
+var Au = (() => {
+  let e = new Map();
+  return (o, t) => {
+    let r = o + t;
+    if (e.has(r)) return e.get(r);
+    let n = Bu(o, t),
+      i = [];
+    for (let [c, p] of n)
+      (c === "negate" && o === "boolean") ||
+        (i.push({ name: c, isNegated: !1, outputType: p }),
+        Be(c) && i.push({ name: c, isNegated: !0, outputType: p }));
+    if (i.length === 0) {
+      e.set(r, void 0);
+      return;
+    }
+    Rr(i, t);
+    let s = { valueTransformOptions: i, outputType: t };
+    return (e.set(r, s), s);
+  };
+})();
+function Kl(e, o) {
+  let t = ye(e);
+  if (!ta(t)) return;
+  let r = Array.isArray(o) ? o.find(eo) : o;
+  if (eo(r)) return Au(t, r);
+}
+function Ou({
+  engine: e,
+  variableInfo: o,
+  dynamicValue: t,
+  variableType: r,
+  supportsComputedValues: n,
+  onSelectComputedValue: i,
+  computedValuePopoutId: s,
+  displayTransformOptions: c,
+  controlSourceIdentifier: p,
+  controlKey: d,
+  enabledValueTransformNames: u,
+  readonly: f,
+}) {
+  if (!n || !i || !r || !t || tr(t) || !c) return;
+  let b = Te(t) ? t : t.startValue,
+    C = Mn(b, o);
+  if (!C) return;
+  let y = Fn(t, C),
+    I = r === "boolean";
+  if (oo(t) && !y)
+    return {
+      label: `Edit ${I ? "Condition" : "Transform"}`,
+      click: () => {
+        (T(s), Ts.navigation.presentPopout(s));
+      },
+    };
+  if (!Te(t) && !y) return;
+  let m = Kl(C, r);
+  if (!m) return;
+  let { valueTransformOptions: v, outputType: g } = m;
+  return {
+    label: `Add ${I ? "Condition" : "Transform"}`,
+    submenu: v.map((h) => ({
+      label: gt(h.name, h.isNegated),
+      enabled: !f,
+      click: () => {
+        let P = [];
+        y && P.push(Io());
+        let V = Un(o, b, C),
+          z = zo({ name: h.name, input: V ?? ye(C), output: h.outputType });
+        if ((P.push(z), h.isNegated && P.push(Io()), H(r) && h.outputType !== r)) {
+          let M = Bt(e.componentLoader, h.outputType, r, d, p, u);
+          M && P.push(M.valueTransform);
+        }
+        let A = Fo(g, b, P);
+        i(A);
+      },
+    })),
+  };
+}
+function Fu(e, o, t, r, n) {
+  return !t || t.id !== e.variable.id || e.isNegated !== r ? !1 : (t.providerId || n) === o;
+}
+var ot = a(l());
+function Ul() {
+  return (0, ot.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 10 10",
+    children: [
+      (0, ot.jsx)("path", {
+        d: "M 4.75 0 C 7.373 0 9.5 2.127 9.5 4.75 C 9.5 7.373 7.373 9.5 4.75 9.5 C 2.127 9.5 0 7.373 0 4.75 C 0 2.127 2.127 0 4.75 0 Z",
+        fill: "currentColor",
+      }),
+      (0, ot.jsx)("path", {
+        d: "M 4.75 7 L 4.75 2.5",
+        fill: "transparent",
+        strokeWidth: "1.5",
+        stroke: Z.panelBackground,
+        strokeLinecap: "round",
+      }),
+      (0, ot.jsx)("path", {
+        d: "M 7 4.75 L 2.5 4.75",
+        fill: "transparent",
+        strokeWidth: "1.5",
+        stroke: Z.panelBackground,
+        strokeLinecap: "round",
+      }),
+    ],
+  });
+}
+var Yl = "p1oxlfbn",
+  $l = "w1xpzgm5",
+  Ql = "w1chribc";
+var zu = 10,
+  Zu = 5,
+  yh = `calc(${zu}px + ${ve.css.contentTitleIndentation} + ${Zu}px)`,
+  Jl = "t3p7r61",
+  Gl = "t1ih3ztb",
+  jl = "wkaasce",
+  ql = "w1vx93q9",
+  Xl = "wof63pb";
+var ze = a(l(), 1);
+function _l({
+  title: e,
+  className: o,
+  displayPlusIcon: t,
+  primaryMenuIsOpen: r,
+  educationTooltip: n,
+  overridden: i,
+  ...s
+}) {
+  return (0, ze.jsxs)("div", {
+    className: w(Jl, t && w(jl, (r || i) && ql), o),
+    ...s,
+    children: [
+      t && (0, ze.jsx)(Ul, {}),
+      (0, ze.jsx)("div", {
+        className: w(Oe, Gl, i && Xl),
+        children: (0, ze.jsx)(rs, { children: e }),
+      }),
+      n &&
+        (0, ze.jsxs)(ze.Fragment, {
+          children: [(0, ze.jsx)(ur, { size: ve.css.inputSpacing }), n],
+        }),
+    ],
+  });
+}
+var At = a(l(), 1),
+  tt = ({
+    title: e,
+    titleClassName: o,
+    children: t,
+    className: r,
+    style: n,
+    reorderColumnCount: i,
+    reorderControlHidden: s,
+    withButtonCursor: c = !1,
+    displayPlusIcon: p = !1,
+    isOverridden: d = !1,
+    primaryMenuIsOpen: u = !1,
+    onMouseDown: f,
+    onContextMenu: b,
+    ReorderControl: C,
+    educationTooltip: y,
+    ...I
+  }) => {
+    let m = C !== void 0;
+    m && _e(i) && (n = { ...n, "--reorder-column-count": i });
+    let v = {};
+    c && ((v.role = "button"), e && (v["aria-label"] = e));
+    let g = b ? { onContextMenu: b, ...v } : {},
+      h = f ? { onMouseDown: f, ...v } : {};
+    return (0, At.jsxs)("div", {
+      className: w(Yl, m && $l, r, c && Ql),
+      style: n,
+      tabIndex: -1,
+      ...g,
+      ...h,
+      ...I,
+      children: [
+        e &&
+          (0, At.jsx)(_l, {
+            overridden: d,
+            title: e,
+            className: o,
+            displayPlusIcon: p,
+            educationTooltip: y,
+            onMouseDown: f,
+            primaryMenuIsOpen: u,
+          }),
+        t,
+        m && !s && (0, At.jsx)(C, {}),
+      ],
+    });
+  };
+var Yn = a(l(), 1);
+function Ze({
+  onContextMenu: e,
+  children: o,
+  onAdd: t,
+  onDelete: r,
+  onResetToDefault: n,
+  onCopy: i,
+  onPaste: s,
+  onSetAsDefault: c,
+  deleteTitle: p,
+  copyTitle: d,
+  pasteTitle: u,
+  addEnabled: f = !0,
+  deleteEnabled: b = !0,
+  pasteEnabled: C,
+  copyEnabled: y,
+  resetToDefaultEnabled: I,
+  setAsDefaultVisible: m = !1,
+  withReorderControl: v = !1,
+  traitTypes: g,
+  traitTypeKeys: h,
+  variableType: P,
+  variableCreationType: V,
+  additionalCreateVariableLabel: z,
+  createVariableLabel: A,
+  onAdditionalCreateVariable: M,
+  variableCreationProviderId: E,
+  variableReferenceType: D,
+  variableFilter: S,
+  hideCollectionNavigationVariables: L,
+  dynamicValue: x,
+  onCreateVariable: k,
+  onSelectVariable: O,
+  onRemoveDynamicValue: ne,
+  supportsVariables: ae = !1,
+  collectionReferenceDataIdentifier: J,
+  vectorSetIdentifier: N,
+  controlSourceIdentifier: j,
+  controlKey: F,
+  allowedFileTypes: X,
+  supportsComputedValues: ue = !1,
+  onSelectComputedValue: ie,
+  displayTransformOptions: de,
+  computedValuePopoutId: ce,
+  supportsFetchDataValues: _,
+  onSelectFetchDataValue: we,
+  educationTooltipId: he,
+  className: Wo,
+  panelRowApiRef: on,
+  ...jt
+}) {
+  let Ce = B(),
+    xe = Q(),
+    Bo = ws(h, g),
+    [Ud, Li] = ke.default.useState(!1),
+    Yd = Uu(),
+    qt = Ol({
+      variableType: P,
+      variableCreationType: V,
+      additionalCreateVariableLabel: z,
+      createVariableLabel: A,
+      onAdditionalCreateVariable: M,
+      variableCreationProviderId: E,
+      variableReferenceType: D,
+      dynamicValue: x,
+      onCreateVariable: k,
+      onSelectVariable: O,
+      onRemoveDynamicValue: ne,
+      supportsVariables: ae,
+      collectionReferenceDataIdentifier: J,
+      vectorSetIdentifier: N,
+      controlSourceIdentifier: j,
+      controlKey: F,
+      allowedFileTypes: X,
+      supportsComputedValues: Yd && ue,
+      onSelectComputedValue: ie,
+      displayTransformOptions: de,
+      computedValuePopoutId: ce,
+      variableFilter: S,
+      hideCollectionNavigationVariables: L,
+    }),
+    Xt = Rl({ supportsFetchDataValues: _ ?? !1, onSelectFetchDataValue: we }),
+    Ei = !!qt || !!Xt,
+    tn = !!(t && f && !xe),
+    rn = !!(r && b && !xe),
+    Ni = !!n,
+    $d = (0, ke.useCallback)(
+      async (Xe) => {
+        let { clientX: an, clientY: sn } = Xe;
+        (tn || rn || i || s || Ni || (c && m)) &&
+          (Xe.preventDefault(),
+          Ce.stores.contextMenuStore.show(
+            [
+              { label: d || "Copy", click: i, visible: !!i, enabled: dn(y) ? y() : y },
+              {
+                label: u ? await u() : "Paste",
+                click: s,
+                visible: !!s,
+                enabled: !xe && (dn(C) ? await C() : C),
+              },
+              { type: "separator" },
+              { label: "Add", click: t, visible: tn },
+              { label: p || "Remove", click: r, visible: rn },
+              { label: "Reset to Default", click: n, enabled: !xe && I, visible: !!n },
+              { label: "Set as Default", click: c, enabled: !xe && !!c, visible: !!c && m },
+            ],
+            { location: { x: an, y: sn } }
+          ));
+      },
+      [tn, rn, i, s, Ni, c, m, d, y, u, xe, C, t, p, r, n, I]
+    ),
+    nn = (0, ke.useCallback)(
+      async (Xe, an = !1) => {
+        let { target: sn, currentTarget: Di } = Xe,
+          Wi = io(Ce) && xl(Ce),
+          Qd = Wi && !!(g || h);
+        if (!an && (!fs.isLeftMouseClick(Xe) || sn !== Di)) return;
+        let ln = qt?.();
+        if (!qt && !Bo && !Xt) return;
+        let ut = [];
+        ln && ut.push(...ln);
+        let Bi = Xt?.();
+        (Bi && (ln && ut.push({ type: "separator" }), ut.push(...Bi)),
+          ut.push(
+            { type: "separator" },
+            {
+              label: "Reset Override",
+              click() {
+                io(Ce) && Tl(Ce, g, h);
+              },
+              enabled: !xe && Wi && Vl(Ce, g, h),
+              visible: io(Ce) && Qd,
+            }
+          ));
+        let Ai = Xe.currentTarget.getBoundingClientRect(),
+          Jd = { x: Ai.left, y: Ai.bottom };
+        (Li(!0),
+          Ce.stores.contextMenuStore.show(ut, {
+            location: Jd,
+            onDone: () => Li(!1),
+            submenuPlacement: "left-start",
+          }));
+      },
+      [g, h, qt, Bo, Xt, xe]
+    );
+  return (
+    (0, ke.useImperativeHandle)(on, () => ({ displayPrimaryMenu: (Xe) => nn(Xe, !0) }), [nn]),
+    (0, Yn.jsx)(tt, {
+      withButtonCursor: Bo || Ei,
+      displayPlusIcon: Ei,
+      onMouseDown: nn,
+      isOverridden: Bo,
+      primaryMenuIsOpen: Ud,
+      onContextMenu: e ?? $d,
+      ReorderControl: v ? wl : void 0,
+      educationTooltip: he ? (0, Yn.jsx)(ks, { tooltipId: he }) : void 0,
+      className: Wo,
+      ...jt,
+      children: o,
+    })
+  );
+}
+var $n = (0, ke.createContext)(!1);
+$n.displayName = "ComputedValuesSupportedContext";
+var Uh = $n.Provider;
+function Uu() {
+  return (0, ke.useContext)($n);
+}
+var $h = { gridColumn: "2 / -1" };
+var Qn = a(l());
+function ep() {
+  return (0, Qn.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    children: (0, Qn.jsx)("path", {
+      fill: "currentColor",
+      d: "M1.5 4.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5m4.5 0a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5m4.5 0a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5",
+    }),
+  });
+}
+var Jn = a(l(), 1);
+function op(e) {
+  return (0, Jn.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "16",
+    height: "16",
+    fill: "none",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...e,
+    children: (0, Jn.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M7.256 2.887c.266-.675 1.222-.675 1.488 0l1.108 2.81a.8.8 0 0 0 .451.451l2.81 1.108c.675.266.675 1.222 0 1.488l-2.81 1.108a.8.8 0 0 0-.451.451l-1.108 2.81c-.266.675-1.222.675-1.488 0l-1.108-2.81a.8.8 0 0 0-.451-.451l-2.81-1.108c-.675-.266-.675-1.222 0-1.488l2.81-1.108a.8.8 0 0 0 .451-.451Z",
+    }),
+  });
+}
+var Gn = a(l(), 1);
+function tp(e) {
+  return (0, Gn.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "16",
+    height: "16",
+    fill: "none",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...e,
+    children: (0, Gn.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M6.711 2.354c.408-.764 1.569-.427 1.504.436L8 5.65h4.255a.75.75 0 0 1 .663 1.101l-3.63 6.867c-.405.767-1.569.432-1.505-.433L8 10.25H3.75a.75.75 0 0 1-.662-1.103Z",
+    }),
+  });
+}
+var np = a(Y(), 1);
+function ip(e) {
+  let o = B(),
+    { isDarkMode: t } = Pt(),
+    r = Yo(
+      "ColorStyleTokens",
+      () => {
+        if (sr(e)) {
+          let s = is(o.tree, e.stops, t);
+          return { name: void 0, value: e.updated({ stops: s }).toCSS() };
+        } else {
+          let s = no(e) ? ro(e) : null;
+          if (!s) return null;
+          let c = o.tree.get(s);
+          return er(c) ? { name: c.softDeleted ? void 0 : c.name, value: c.colorForMode(t) } : null;
+        }
+      },
+      [e, t]
+    ),
+    n = r?.name,
+    i = r?.value;
+  return (0, np.useMemo)(() => (i ? { name: n, value: i } : null), [n, i]);
+}
+function sC() {
+  let { isDarkMode: e } = Pt(),
+    o = B();
+  return Cs(
+    () => {
+      let t = Ga.get(o.tree);
+      if (!t) return;
+      let r = {};
+      for (let n of t.children) r[da(n)] = n.colorForMode(e);
+      return r;
+    },
+    [e],
+    ["ColorStyleTokens"],
+    { deepEqual: !0 }
+  );
+}
+var ap = "c1avmyds",
+  sp = "lzm78je",
+  lp = "raoupms",
+  pp = "c3vlae9",
+  cp = "iyiuvk1",
+  dp = "iefjm90",
+  kr = "r1kl3pmw";
+var Ot = a(l(), 1);
+function $u(e, o, t, r = Z.swatchBorderPlaceholder, n = "white") {
+  let i = { boxShadow: `inset 0 0 0 1px ${r}`, backgroundColor: n };
+  return (
+    e.includes("gradient") || e.includes("url")
+      ? ((i.backgroundImage = e),
+        (i.backgroundRepeat = "no-repeat"),
+        (i.backgroundSize = "cover"),
+        (i.backgroundPositionX = o ?? "center"),
+        (i.backgroundPositionY = t ?? "center"))
+      : (i.backgroundColor = e),
+    i
+  );
+}
+function up({
+  large: e,
+  shape: o = "default",
+  background: t,
+  borderColor: r,
+  backgroundPositionX: n,
+  backgroundPositionY: i,
+  defaultBackgroundColor: s,
+}) {
+  let p = ip(t)?.value ?? t,
+    d = o === "round" || o === "round-small";
+  return (0, Ot.jsxs)("div", {
+    className: w(ap, e && sp, d && kr, o === "round-small" && lp),
+    children: [
+      (0, Ot.jsx)("div", { className: w(pp, d && kr) }),
+      (0, Ot.jsx)("div", { className: w(cp, e && dp, d && kr), style: $u(p, n, i, r, s) }),
+    ],
+  });
+}
+var fp = "wkxdsnf",
+  mp = "l2ga4t0",
+  gp = "s1a71kdc";
+var hp = a(l(), 1);
+function K({
+  large: e,
+  strokedIcon: o,
+  borderColor: t,
+  background: r = Z.tint,
+  color: n = "#fff",
+  children: i,
+  className: s,
+}) {
+  let c = t ? `inset 0 0 0 1px ${t}` : void 0;
+  return (0, hp.jsx)(lo, {
+    className: w(fp, e && mp, o && gp, s),
+    style: { background: r, color: n, boxShadow: c },
+    children: i,
+  });
+}
+var jn = a(l());
+function Cp(e) {
+  return (0, jn.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "14",
+    height: "14",
+    fill: "none",
+    ...e,
+    children: (0, jn.jsx)("path", {
+      d: "M 11 1 C 12.104 1 13 1.894 13 2.998 L 13 5.5 C 13 9 9 13 7 13 C 5 13 1 9 1 5.5 L 1 2.998 C 1 1.894 1.896 1 3 1 Z M 10.299 4.219 C 10.006 3.927 9.532 3.927 9.239 4.219 L 6.269 7.189 L 5.299 6.219 C 5.112 6.019 4.83 5.936 4.564 6.004 C 4.299 6.072 4.091 6.279 4.023 6.545 C 3.955 6.811 4.038 7.092 4.239 7.279 L 5.739 8.779 C 6.032 9.072 6.506 9.072 6.799 8.779 L 10.299 5.279 C 10.591 4.987 10.591 4.512 10.299 4.219 Z",
+      fill: "currentColor",
+    }),
+  });
+}
+var go = a(l());
+function bp() {
+  return (0, go.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    children: [
+      (0, go.jsx)("path", {
+        d: "M 0 4 C 0 1.791 1.791 0 4 0 L 18 0 C 20.209 0 22 1.791 22 4 L 22 18 C 22 20.209 20.209 22 18 22 L 4 22 C 1.791 22 0 20.209 0 18 Z",
+        fill: "transparent",
+      }),
+      (0, go.jsx)("path", {
+        d: "M 5 7 C 5 6.448 5.448 6 6 6 L 6 6 C 6.552 6 7 6.448 7 7 L 7 15 C 7 15.552 6.552 16 6 16 L 6 16 C 5.448 16 5 15.552 5 15 Z",
+        fill: "rgb(255, 255, 255)",
+      }),
+      (0, go.jsx)("path", {
+        d: "M 9 7 C 9 6.448 9.448 6 10 6 L 16 6 C 16.552 6 17 6.448 17 7 L 17 7 C 17 7.552 16.552 8 16 8 L 10 8 C 9.448 8 9 7.552 9 7 Z",
+        fill: "rgb(255, 255, 255)",
+        opacity: "0.5",
+      }),
+      (0, go.jsx)("path", {
+        d: "M 9 11 C 9 10.448 9.448 10 10 10 L 16 10 C 16.552 10 17 10.448 17 11 L 17 11 C 17 11.552 16.552 12 16 12 L 10 12 C 9.448 12 9 11.552 9 11 Z",
+        fill: "rgb(255, 255, 255)",
+        opacity: "0.5",
+      }),
+      (0, go.jsx)("path", {
+        d: "M 9 15 C 9 14.448 9.448 14 10 14 L 16 14 C 16.552 14 17 14.448 17 15 L 17 15 C 17 15.552 16.552 16 16 16 L 10 16 C 9.448 16 9 15.552 9 15 Z",
+        fill: "rgb(255, 255, 255)",
+        opacity: "0.5",
+      }),
+    ],
+  });
+}
+var Je = a(l());
+function qn({ compact: e = !1 } = {}) {
+  return e
+    ? (0, Je.jsx)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "21.5",
+        height: "21.5",
+        fill: "none",
+        children: (0, Je.jsxs)("g", {
+          transform: "translate(5.75 5.75)",
+          children: [
+            (0, Je.jsx)("path", {
+              d: "M5 0v10",
+              stroke: "currentColor",
+              strokeWidth: "1.5",
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+            }),
+            (0, Je.jsx)("path", {
+              d: "M0 5h10",
+              stroke: "currentColor",
+              strokeWidth: "1.5",
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+            }),
+          ],
+        }),
+      })
+    : (0, Je.jsxs)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "12",
+        height: "12",
+        children: [
+          (0, Je.jsx)("path", {
+            d: "M 5 1 C 5 0.448 5.448 0 6 0 L 6 0 C 6.552 0 7 0.448 7 1 L 7 11 C 7 11.552 6.552 12 6 12 L 6 12 C 5.448 12 5 11.552 5 11 Z",
+            fill: "currentColor",
+          }),
+          (0, Je.jsx)("path", {
+            d: "M 0 6 C 0 5.448 0.448 5 1 5 L 11 5 C 11.552 5 12 5.448 12 6 L 12 6 C 12 6.552 11.552 7 11 7 L 1 7 C 0.448 7 0 6.552 0 6 Z",
+            fill: "currentColor",
+          }),
+        ],
+      });
+}
+var Xn = a(l());
+function yp() {
+  return (0, Xn.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "8",
+    height: "4",
+    overflow: "visible",
+    children: (0, Xn.jsx)("path", {
+      d: "M 0 0 L 4 4 L 8 0",
+      fill: "transparent",
+      strokeWidth: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+    }),
+  });
+}
+var So = a(l());
+function vp() {
+  return (0, So.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    fill: "none",
+    "aria-hidden": "true",
+    children: (0, So.jsxs)("g", {
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      children: [
+        (0, So.jsx)("path", { d: "m7.5 8.25-2.646 2.646a.5.5 0 0 0 0 .708L7.5 14.25" }),
+        (0, So.jsx)("path", { d: "m14.5 8.25 2.646 2.646a.5.5 0 0 1 0 .708L14.5 14.25" }),
+        (0, So.jsx)("path", { d: "M6 11.25h10" }),
+      ],
+    }),
+  });
+}
+var _n = a(l());
+function Pp() {
+  return (0, _n.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    children: (0, _n.jsx)("path", {
+      d: "M 5 17 C 5 17 6.375 8.5 9 8.5 C 11.25 8.5 10.75 12.5 12.5 12.5 C 13.937 12.5 14.437 10 16 10 C 17 10 18 11 18 11",
+      fill: "transparent",
+      strokeWidth: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeMiterlimit: "10",
+      strokeDasharray: "",
+    }),
+  });
+}
+var Ft = a(l());
+function Ip() {
+  return (0, Ft.jsxs)("svg", {
+    role: "presentation",
+    width: "16",
+    height: "16",
+    viewBox: "0 0 16 16",
+    xmlns: "http://www.w3.org/2000/svg",
+    children: [
+      (0, Ft.jsx)("path", {
+        d: "M4 4a1 1 0 0 1 1-1h6a1 1 0 0 1 0 2H5a1 1 0 0 1-1-1ZM4 12a1 1 0 0 1 1-1h6a1 1 0 0 1 0 2H5a1 1 0 0 1-1-1Z",
+        fill: "currentColor",
+      }),
+      (0, Ft.jsx)("path", { d: "M7 3h2v10H7Z", fill: "currentColor" }),
+    ],
+  });
+}
+var rt = a(l());
+function wp({ compact: e = !1 } = {}) {
+  return e
+    ? (0, rt.jsx)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "21.5",
+        height: "21.5",
+        viewBox: "0 0 21.5 21.5",
+        fill: "none",
+        children: (0, rt.jsx)("g", {
+          fill: "transparent",
+          stroke: "currentColor",
+          strokeLinecap: "round",
+          strokeMiterlimit: "10",
+          strokeWidth: "1.5",
+          children: (0, rt.jsx)("path", { d: "M10.75 7.25V15M6.5 7.25H15" }),
+        }),
+      })
+    : (0, rt.jsx)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 12 12",
+        width: "12",
+        height: "12",
+        children: (0, rt.jsx)("path", {
+          d: "M 1.5 2.5 C 1.5 1.948 1.948 1.5 2.5 1.5 L 9.5 1.5 C 10.052 1.5 10.5 1.948 10.5 2.5 L 10.5 2.5 C 10.5 3.052 10.052 3.5 9.5 3.5 L 7 3.5 L 7 9.5 C 7 10.052 6.552 10.5 6 10.5 L 6 10.5 C 5.448 10.5 5 10.052 5 9.5 L 5 3.5 L 2.5 3.5 C 1.948 3.5 1.5 3.052 1.5 2.5 Z",
+          fill: "currentColor",
+        }),
+      });
+}
+var ei = a(l());
+function oi() {
+  return (0, ei.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "18",
+    height: "18",
+    children: (0, ei.jsx)("path", {
+      d: "M0 12L0 12L1 11.849363581859507L2 11.369622356607579L3 10.519541377318092L4 9.303227615891956L5 7.748137656482868L6 6L7 4.251862343517132L8 2.696772384108044L9 1.4804586226819083L10 0.6303776433924213L11 0.15063641814049333L12 0",
+      fill: "transparent",
+      strokeWidth: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      transform: "translate(3 3)",
+    }),
+  });
+}
+var Ro = a(l(), 1);
+function xp(e) {
+  return (0, Ro.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: (0, Ro.jsx)("g", {
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      children: (0, Ro.jsx)("path", { d: "M2.25 1.5v9M6.25 1.5v9M10.25 1.5v9" }),
+    }),
+  });
+}
+function EC(e) {
+  return (0, Ro.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: (0, Ro.jsx)("g", {
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      children: (0, Ro.jsx)("path", { d: "M1.75 2.25h9M1.75 6.25h9M1.75 10.25h9" }),
+    }),
+  });
+}
+var Lr = "i1ab0gin",
+  Er = "i19ygcxe",
+  Nr = "i1mqt5la",
+  Vp = "l1bkmsxp",
+  Tp = "i1vpcft3",
+  Dr = "tuf63yr",
+  Sp = "t1hu2nje",
+  Rp = "seca1mf",
+  Mp = "d1ir7ssq",
+  kp = "lojarwo",
+  ti = "d13muhuh",
+  Lp = "s1st33qd";
+var Ke = a(l(), 1);
+function Ep(e) {
+  return (0, Ke.jsx)("svg", {
+    "aria-hidden": !0,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 12,
+    height: 12,
+    fill: "none",
+    ...e,
+    children: (0, Ke.jsx)("path", {
+      fill: "transparent",
+      stroke: "#fff",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: 1.5,
+      d: "M7.75 4v4M4.25 3v6M.75 1.5v9M11.25 5.5v1",
+    }),
+  });
+}
+function Np(e) {
+  return (0, Ke.jsx)("svg", {
+    "aria-hidden": !0,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 12,
+    height: 12,
+    fill: "none",
+    ...e,
+    children: (0, Ke.jsx)("g", {
+      fill: "transparent",
+      stroke: "#fff",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: 1.5,
+      children: (0, Ke.jsx)("path", {
+        d: "m1.25 7 3.439 3.439a1.5 1.5 0 0 0 2.122 0L10.25 7M5.75 10.5V1",
+      }),
+    }),
+  });
+}
+function Dp(e) {
+  return (0, Ke.jsxs)("svg", {
+    "aria-hidden": !0,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 12,
+    height: 12,
+    fill: "none",
+    ...e,
+    children: [
+      (0, Ke.jsx)("path", {
+        fill: "#fff",
+        d: "M6 0a6 6 0 1 1 0 12A6 6 0 0 1 6 0M1.5 6a4.5 4.5 0 1 0 9 0 4.5 4.5 0 0 0-9 0",
+        opacity: 0.4,
+      }),
+      (0, Ke.jsx)("path", {
+        fill: "#fff",
+        d: "M0 6a6 6 0 0 1 6-6 .75.75 0 0 1 0 1.5 4.5 4.5 0 0 0 0 9A.75.75 0 0 1 6 12a6 6 0 0 1-6-6",
+      }),
+    ],
+  });
+}
+var Wp = "b11f2aom",
+  Bp = "r1ihmrto",
+  Ap = "t8942cu",
+  Op = "a11ph0ck";
+var R = a(l(), 1);
+function ee(e) {
+  switch (e) {
+    case "action":
+    case "addRow":
+    case "border":
+    case "collectionFilter":
+    case "collectionOrder":
+    case "collectionTableSorting":
+    case "customCursor":
+    case "effect":
+    case "eventSuggestion":
+    case "font":
+    case "formAntispam":
+    case "formDestination":
+    case "formSelectOption":
+    case "grid-guides":
+    case "line":
+    case "linkOptions":
+    case "linkRelValues":
+    case "object":
+    case "objectItem":
+    case "pageEffectExit":
+    case "pagination":
+    case "preset":
+    case "scrollSection":
+    case "sizeConstraint":
+    case "spring":
+    case "textSelection":
+    case "transition":
+    case "trigger":
+    case "tween":
+      return Z.invitePopoverSendButtonBackground;
+    case "fill":
+      return Z.swatchBackgroundPlaceholderForFill;
+    case "color":
+    case "icon":
+    case "shadow":
+    case "stroke":
+      return "transparent";
+    case "mask":
+      return `linear-gradient(180deg, ${Z.maskEmptyGradientStop1} 0%, ${Z.maskEmptyGradientStop2} 100%)`;
+    default:
+      bo(e);
+  }
+}
+function ju(e) {
+  if (e === "mask") return "transparent";
+}
+function qu(e) {
+  return e === "action" ? "Reset\u2026" : e === "pageEffectExit" ? "Add Exit\u2026" : "Add\u2026";
+}
+function Xu(e, o) {
+  return (
+    o ||
+    (e === "action"
+      ? "Reset Override"
+      : e === "eventSuggestion"
+        ? "Add Interaction"
+        : e === "formAntispam"
+          ? "Add Antispam"
+          : e === "objectItem"
+            ? "Add Item"
+            : `Add ${or(e)}`)
+  );
+}
+var _u = new Set(["collectionTableSorting", "addRow", "font", "formDestination", "linkOptions"]);
+function hb({ type: e, className: o, enabled: t = !0, icon: r, tooltipTitle: n, ...i }) {
+  let s = Q(),
+    c = _u.has(e),
+    p = !t || s;
+  return (0, R.jsx)("div", {
+    ...i,
+    "aria-disabled": p,
+    className: w(pe, o, p && Bp),
+    children: (0, R.jsxs)("div", {
+      className: Wp,
+      title: Xu(e, n),
+      children: [
+        (0, R.jsx)("div", {
+          className: w(Lr, Er, c && Nr, p && Tp, (e === "action" || e === "eventSuggestion") && Op),
+          children: r ?? (0, R.jsx)(ef, { type: e, compact: c }),
+        }),
+        (0, R.jsx)("div", { className: w(Oe, Dr, Ap), children: qu(e) }),
+      ],
+    }),
+  });
+}
+function ef({ type: e, compact: o }) {
+  switch (e) {
+    case "action":
+    case "eventSuggestion":
+      return (0, R.jsx)(xr, {});
+    case "effect":
+    case "pageEffectExit":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(op, {}) });
+    case "line":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(bp, {}) });
+    case "addRow":
+    case "linkOptions":
+    case "collectionTableSorting":
+      return (0, R.jsx)(K, {
+        background: ee(e),
+        strokedIcon: o,
+        children: (0, R.jsx)(qn, { compact: o }),
+      });
+    case "linkRelValues":
+      return (0, R.jsx)(K, {
+        background: ee(e),
+        children: (0, R.jsx)(Vr, { background: "transparent" }),
+      });
+    case "grid-guides":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(xp, {}) });
+    case "sizeConstraint":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(vp, {}) });
+    case "pagination":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(Dp, {}) });
+    case "collectionFilter":
+      return (0, R.jsx)(K, {
+        background: ee(e),
+        color: "transparent",
+        children: (0, R.jsx)(Ep, {}),
+      });
+    case "collectionOrder":
+      return (0, R.jsx)(K, {
+        background: ee(e),
+        color: "transparent",
+        children: (0, R.jsx)(Np, {}),
+      });
+    case "spring":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(Pp, {}) });
+    case "tween":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(oi, {}) });
+    case "object":
+    case "objectItem":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(ep, {}) });
+    case "font":
+      return (0, R.jsx)(K, {
+        background: ee(e),
+        strokedIcon: o,
+        children: (0, R.jsx)(wp, { compact: o }),
+      });
+    case "scrollSection":
+      return (0, R.jsx)(K, { color: ee(e), children: (0, R.jsx)(Vt, {}) });
+    case "customCursor":
+      return (0, R.jsx)(K, { color: ee(e), children: (0, R.jsx)(Pr, {}) });
+    case "formDestination":
+      return (0, R.jsx)(K, {
+        background: ee(e),
+        strokedIcon: o,
+        children: (0, R.jsx)(qn, { compact: o }),
+      });
+    case "formAntispam":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(Cp, {}) });
+    case "formSelectOption":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(yp, {}) });
+    case "transition":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(oi, {}) });
+    case "textSelection":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(Ip, {}) });
+    case "trigger":
+      return (0, R.jsx)(K, { background: ee(e), children: (0, R.jsx)(tp, {}) });
+    default:
+      return (0, R.jsx)(up, {
+        background: ee(e),
+        borderColor: Z.swatchBorderPlaceholder,
+        defaultBackgroundColor: ju(e),
+      });
+  }
+}
+var Wr = a(Y(), 1);
+var Le = a(l(), 1),
+  Br = ({
+    enabled: e,
+    large: o,
+    title: t,
+    titleColor: r,
+    shortcutKey: n,
+    preview: i,
+    previewWithoutWrapper: s = !1,
+    strokedIconPreview: c,
+    deleteIconColor: p,
+    swatchBackgroundColor: d,
+    suggestion: u,
+    onDelete: f,
+    deleteTitle: b = "Remove",
+  }) => {
+    let C = (0, Wr.useCallback)(
+        (v) => {
+          (v.stopPropagation(), f?.(v));
+        },
+        [f]
+      ),
+      y = es(C),
+      I = (0, Wr.useCallback)(
+        (v) => {
+          (v.stopPropagation(), y.onMouseDown?.(v));
+        },
+        [y]
+      ),
+      m = (0, Wr.useCallback)(
+        (v) => {
+          (v.stopPropagation(), y.onClick?.(v));
+        },
+        [y]
+      );
+    return (0, Le.jsxs)(Le.Fragment, {
+      children: [
+        !!i &&
+          (0, Le.jsx)("div", {
+            className: w(Lr, !s && Er, !s && c && Nr, !s && o && Vp, e === !1 && ti),
+            style: s ? void 0 : { backgroundColor: d },
+            children: i,
+          }),
+        (0, Le.jsxs)("div", {
+          className: w(Dr, e === !1 && ti, u && Lp, !f && Sp),
+          style: { color: r },
+          children: [
+            typeof t == "string" ? (0, Le.jsx)("span", { className: Oe, children: t }) : t,
+            n && (0, Le.jsxs)("span", { className: Rp, children: ["\xA0(", n, ")"] }),
+          ],
+        }),
+        f &&
+          (0, Le.jsx)("div", {
+            className: w(Mp, o && kp),
+            onMouseDown: I,
+            onClick: m,
+            style: { color: p },
+            title: b,
+            children: (0, Le.jsx)(gr, {}),
+          }),
+      ],
+    });
+  };
+var Ar = "bwfcdld",
+  Fp = "b4uva9g",
+  Hp = "d1xdslsy",
+  zp = "dpa1954";
+var ri = a(l(), 1);
+function Eb({
+  id: e,
+  testId: o,
+  popout: t,
+  navigationTitle: r,
+  navigationClassName: n,
+  enabled: i,
+  displayDivider: s,
+  displayInPopover: c,
+  popoverAttachmentEdge: p,
+  popoverAlignment: d,
+  popoverOffset: u,
+  popoverNavigationRef: f,
+  showArrow: b,
+  fallbackToModalAppearance: C,
+  title: y,
+  shortcutKey: I,
+  preview: m,
+  previewWithoutWrapper: v,
+  strokedIconPreview: g,
+  suggestion: h,
+  onDelete: P,
+  onBeforePresent: V,
+  onPresent: z,
+  onDismiss: A,
+  className: M,
+  doubleColumn: E = !0,
+  sortable: D = !1,
+  large: S = !1,
+  titleColor: L,
+  deleteTitle: x,
+  deleteIconColor: k,
+  swatchBackgroundColor: O,
+  educationTooltipId: ne,
+  educationText: ae,
+  onClickEducation: J,
+  onContextMenu: N,
+  autoFocusInside: j,
+}) {
+  let F = Q(),
+    X = (ue) => {
+      ue.key === "Delete" && P?.(ue);
+    };
+  return (0, ri.jsx)(Vs, {
+    id: e,
+    large: S,
+    enabled: i,
+    popout: t,
+    navigationTitle: r,
+    navigationClassName: n,
+    displayDivider: s,
+    displayInPopover: c,
+    autoFocusInside: j,
+    popoverAttachmentEdge: p,
+    popoverAlignment: d,
+    popoverOffset: u,
+    popoverNavigationRef: f,
+    showArrow: b,
+    fallbackToModalAppearance: C,
+    onBeforePresent: V,
+    className: w(Ar, S && Fp, E && pe, D && vr, i === !1 && zp, M),
+    onContextMenu: N,
+    onKeyDown: X,
+    onPresent: z,
+    onDismiss: A,
+    educationTooltipId: ne,
+    educationText: ae,
+    onClickEducation: J,
+    "data-testid": o,
+    children: (0, ri.jsx)(Br, {
+      title: y,
+      titleColor: L,
+      deleteIconColor: k,
+      swatchBackgroundColor: O,
+      preview: m,
+      previewWithoutWrapper: v,
+      strokedIconPreview: g,
+      suggestion: h,
+      enabled: i,
+      large: S,
+      shortcutKey: I,
+      deleteTitle: x,
+      onDelete: F ? void 0 : P,
+    }),
+  });
+}
+var ni = a(l(), 1),
+  Or = (e) => {
+    let o = B(),
+      t = Q(),
+      {
+        doubleColumn: r,
+        sortable: n,
+        tooltip: i,
+        tabIndex: s = 0,
+        onDuplicate: c,
+        onDelete: p,
+        onPresent: d,
+        onCopy: u,
+        className: f,
+        shortcutKey: b,
+        ...C
+      } = e;
+    function y(m) {
+      o.stores.contextMenuStore.show(
+        [
+          { label: "Duplicate", click: c, enabled: !t, visible: !!c },
+          { label: "Copy", click: u, visible: !!u },
+          { label: "Remove", click: () => p?.(void 0), enabled: !t, visible: !!p },
+        ],
+        { location: { x: m.clientX, y: m.clientY } }
+      );
+    }
+    return (0, ni.jsx)("div", {
+      role: "button",
+      title: i,
+      onContextMenu: y,
+      onClick: d,
+      onKeyDown: (m) => {
+        m.key === "Delete" && p?.(m);
+      },
+      tabIndex: e.enabled === !1 ? -1 : s,
+      className: w(Ar, e.enabled === !1 && Hp, r && pe, n && vr, xs, f),
+      children: (0, ni.jsx)(Br, { ...C, onDelete: t ? void 0 : p }),
+    });
+  };
+var ho = a(Y(), 1);
+var Ht = [],
+  zt = [];
+function Yp(e) {
+  (0, ho.useEffect)(
+    () => (
+      (Ht = [e, ...Ht]),
+      () => {
+        Ht = Ht.filter((o) => o !== e);
+      }
+    ),
+    [e]
+  );
+}
+function $b(e) {
+  (0, ho.useEffect)(
+    () => (
+      (zt = [e, ...zt]),
+      () => {
+        zt = zt.filter((o) => o !== e);
+      }
+    ),
+    [e]
+  );
+}
+function Qb({ globalKeyBindings: e }) {
+  let o = (0, ho.useCallback)(
+      (n) => {
+        let i = e.get(n);
+        i && (so("keyboard_shortcut", { shortcut: Cr(n) }), i.action(n));
+      },
+      [e]
+    ),
+    t = (0, ho.useCallback)(async (n) => {
+      if (!Ss(n) && n.clipboardData) {
+        for (let i of zt) if ((await i(n), n.defaultPrevented)) return;
+        Sn(n.type, { event: n });
+      }
+    }, []),
+    r = (0, ho.useCallback)(async (n) => {
+      if (!n.defaultPrevented) {
+        for (let i of Ht) if ((await i(n), n.defaultPrevented)) return;
+        Sn(n.type, { event: n });
+      }
+    }, []);
+  (0, ho.useEffect)(
+    () => (
+      window.addEventListener("keydown", o),
+      window.addEventListener("copy", t, !0),
+      window.addEventListener("cut", t, !0),
+      window.addEventListener("paste", r, !0),
+      window.addEventListener("wheel", Up, { passive: !1 }),
+      window.addEventListener("touchmove", Kp, { passive: !1 }),
+      () => {
+        (window.removeEventListener("keydown", o),
+          window.removeEventListener("copy", t, !0),
+          window.removeEventListener("cut", t, !0),
+          window.removeEventListener("paste", r, !0),
+          window.removeEventListener("wheel", Up),
+          window.removeEventListener("touchmove", Kp));
+      }
+    ),
+    [o, r, t]
+  );
+}
+function Kp(e) {
+  e.touches.length > 1 && (e.preventDefault(), e.stopPropagation());
+}
+function Up(e) {
+  !e.defaultPrevented && e.ctrlKey && e.preventDefault();
+}
+var of = /^0(?=\.)/u;
+function Fr(e) {
+  return (Math.trunc(e * 100) / 100).toString().replace(of, "");
+}
+function $p(e = 1) {
+  if (e === 0) return "0";
+  if (e === 1) return "1.0";
+  let o = e * 100;
+  return o % 10 === 0 ? `.${o}` : Fr(e);
+}
+function Qp(e) {
+  let o = Fr(e.r),
+    t = Fr(e.g),
+    r = Fr(e.b);
+  return `${o}, ${t}, ${r}`;
+}
+var Ue = (e) => Ui(0, 100, Math.round(e * 100)),
+  me = () => {
+    lr({
+      type: "add",
+      variant: "info",
+      icon: "color-wheel",
+      primaryText: "Increase color opacity",
+      secondaryText: "to see changes.",
+      key: "color-change-null-opacity",
+      duration: 300,
+    });
+  };
+function ly(e, o, t) {
+  if (nr(e) || q(e)) return { title: t || "Add\u2026" };
+  if (Ba(e)) return { title: "Linear" };
+  if (Aa(e)) return { title: "Radial" };
+  if (Wa(e)) return { title: "Conic" };
+  if (!H(e) || e === "") return { title: "Mixed" };
+  if (no(e)) {
+    let n = ro(e),
+      i = n ? Uo(n, o.tree) : null;
+    if (i && !i.softDeleted) return { title: i.name };
+    {
+      let s = i?.light ?? ar(e);
+      if (!s) return { title: "Unknown" };
+      e = s;
+    }
+  }
+  if (re.isP3String(e)) {
+    let n = fe.fromString(e);
+    return n ? { title: Qp(n), alpha: $p(n.a) } : { title: "Unknown" };
+  }
+  let r = typeof e == "string" ? re(e) : null;
+  return r ? { title: re.toHex(r).toUpperCase(), alpha: r.a ?? 1 } : { title: "Unknown" };
+}
+var _p = a(Y(), 1);
+var Jp = "ia3rrjn";
+var jp = a(l(), 1);
+function Gp({ className: e, children: o, ...t }) {
+  return (0, jp.jsx)("div", { className: w(Jp, e), ...t, children: o });
+}
+var zr = a(l(), 1),
+  ii = /\[([^\]]+)\]\((https?:\/\/[\w./?=#%&-]+)\)/gu,
+  ai = /\*([^*]+)\*/gu,
+  Hr = /(\n)/gu;
+function Zt(e, o = 0, t = [ii, ai, Hr]) {
+  let [r, n] = t
+    .map((c) => ((c.lastIndex = o), c.exec(e)))
+    .reduce(
+      (c, p, d) => {
+        let [u] = c;
+        if (u && p) {
+          if (u.index < p.index) return c;
+        } else if (u) return c;
+        return [p, t[d]];
+      },
+      [null, void 0]
+    );
+  if (!r || !n) return o === e.length ? [] : [e.substring(o)];
+  let i = [];
+  r.index - o > 0 && i.push(e.substring(o, r.index));
+  let s = n.lastIndex;
+  if (n === ii) {
+    let [c, p, d] = r,
+      u = Zt(p, 0, [ai, Hr]);
+    i.push((0, zr.jsx)("a", { href: d, target: "_blank", children: u }, r.index));
+  }
+  if (n === ai) {
+    let [c, p] = r,
+      d = Zt(p, 0, [ii, Hr]);
+    i.push((0, zr.jsx)("em", { children: d }, r.index));
+  }
+  return (n === Hr && i.push((0, zr.jsx)("br", {}, r.index)), i.push(...Zt(e, s)), i);
+}
+var qp = "d1ykgdi6",
+  Xp = "w1wgf3m";
+var si = a(l(), 1),
+  xy = _p.default.memo(function ({ fullWidth: o = !1, withMargin: t = !0, description: r }) {
+    let n = Zt(r);
+    return (0, si.jsx)(Ze, {
+      title: o ? void 0 : " ",
+      children: (0, si.jsx)(Gp, { className: w(qp, t ? Xp : void 0, o ? zs : pe), children: n }),
+    });
+  });
+var ko = a(Y());
+var ec = "i1vo679o",
+  oc = "h12d9czd";
+var Kt = a(l());
+function tc() {
+  return (0, Kt.jsxs)("svg", {
+    role: "presentation",
+    width: "12",
+    height: "12",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    children: [
+      (0, Kt.jsx)("path", {
+        d: "M1 6h10M6 .5c.171 0 .38.081.617.322.24.243.479.62.69 1.127C7.728 2.96 8 4.392 8 6s-.272 3.04-.693 4.05c-.211.507-.45.885-.69 1.128-.238.241-.446.322-.617.322-.171 0-.38-.081-.617-.322-.24-.243-.479-.62-.69-1.127C4.272 9.04 4 7.608 4 6s.272-3.04.693-4.05c.211-.507.45-.885.69-1.128C5.62.581 5.829.5 6 .5Z",
+        stroke: "currentColor",
+      }),
+      (0, Kt.jsx)("path", {
+        d: "M.75 6a5.25 5.25 0 1 1 10.5 0A5.25 5.25 0 1 1 .75 6Z",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+      }),
+    ],
+  });
+}
+var rc = "m1lwtf2u",
+  nc = "w17tu8ua",
+  ic = "s17bfdzw";
+var Mo = a(l());
+function ac({ type: e, title: o, truncate: t = !0, className: r }) {
+  return (0, Mo.jsxs)(Pe, {
+    direction: "row",
+    alignItems: "center",
+    gap: 8,
+    className: w(rc, e === "warning" && nc, r),
+    children: [
+      (0, Mo.jsx)(lo, { children: sf(e) }),
+      (0, Mo.jsx)("span", { className: w(t && Oe, ic), children: o }),
+    ],
+  });
+}
+function sf(e) {
+  switch (e) {
+    case "globe":
+      return (0, Mo.jsx)(tc, {});
+    case "warning":
+    case "info-warning":
+      return (0, Mo.jsx)(Ws, {});
+  }
+}
+var li = a(l()),
+  $y = ko.default.memo(function ({
+    value: o,
+    onChange: t,
+    className: r,
+    preserveTime: n = !1,
+    enabled: i = !0,
+    readOnly: s,
+    required: c,
+    min: p,
+    max: d,
+    hideIcon: u = !1,
+    ...f
+  }) {
+    let b = Q(s),
+      C = i && !b,
+      y = ko.default.useRef(null),
+      I = ko.default.useRef(o),
+      m = ko.default.useCallback(() => {
+        let g = y.current;
+        if (!g) return;
+        let h = g.valueAsDate;
+        if (!h) {
+          if (c) return;
+          t(void 0);
+          return;
+        }
+        if (!Rn(h)) return;
+        if (n && Ho(o)) {
+          let V = new Date(o);
+          Rn(V) &&
+            h.setUTCHours(
+              V.getUTCHours(),
+              V.getUTCMinutes(),
+              V.getUTCSeconds(),
+              V.getUTCMilliseconds()
+            );
+        }
+        let P = h.toJSON();
+        ((I.current = P), t(P));
+      }, [t, c, o, n]);
+    ko.default.useEffect(() => {
+      if (!Ho(o) || I.current === o) return;
+      let g = y.current;
+      g && ((I.current = o), (g.value = vt(o)));
+    }, [o]);
+    let v = ko.default.useMemo(() => (Ho(o) ? vt(o) : ""), [o]);
+    return hs()
+      ? (0, li.jsx)("input", {
+          ...f,
+          ref: y,
+          type: "date",
+          onChange: m,
+          defaultValue: v,
+          min: p ? vt(p) : "0000-01-01",
+          max: d ? vt(d) : "9999-12-31",
+          disabled: !C,
+          className: w(Ls, ec, u && oc, r),
+        })
+      : (0, li.jsx)(ac, {
+          type: "warning",
+          title:
+            "The date input isn't supported by your browser version. Please update your browser.",
+          truncate: !1,
+        });
+  });
+var Zr = a(Y());
+var Lo = a(l()),
+  sc = 10 ** 7,
+  _y = Zr.default.memo(
+    Zr.default.forwardRef(function (
+      { value: o, onChange: t, min: r, max: n, step: i = 1, enabled: s = !0, large: c = !1, ...p },
+      d
+    ) {
+      let u = !0,
+        f = !0,
+        { smallNudgeIncrement: b, largeNudgeIncrement: C } = Zr.default.useContext(Ps),
+        y = i === "nudge" ? b : i,
+        I = i === "nudge" ? C : y * 10,
+        m = (v, g) => {
+          let h = g.shiftKey ? I : y,
+            P = Po(o) ? o + v * (h || 1) : 0;
+          (Po(r) && (P = Math.max(P, r)),
+            Po(n) && (P = Math.min(P, n)),
+            (P = Math.round(P * sc) / sc),
+            t(P));
+        };
+      return (
+        Po(o) && (Po(r) && (u = o > r), Po(n) && (f = o < n)),
+        (0, Lo.jsxs)(Rs, {
+          ...p,
+          large: c,
+          enabled: s,
+          ref: d,
+          children: [
+            (0, Lo.jsx)(kn, {
+              identifier: -1,
+              title: "Decrease",
+              selected: !1,
+              onSelect: m,
+              enabled: u,
+              children: (0, Lo.jsx)(Bs, {}),
+            }),
+            (0, Lo.jsx)(kn, {
+              identifier: 1,
+              title: "Increase",
+              selected: !1,
+              onSelect: m,
+              enabled: f,
+              children: (0, Lo.jsx)(As, {}),
+            }),
+          ],
+        })
+      );
+    })
+  );
+function tv(e, o) {
+  return {
+    type: "image",
+    value: o,
+    valueLocalized: e.valueLocalized,
+    alt: e.alt,
+    altLocalized: e.altLocalized,
+  };
+}
+function lc() {
+  let e = B();
+  return Yo(["AssetMap"], () => e.stores.assetStore.assetMap.hash);
+}
+function Kr(e, o = "small") {
+  let t = gs();
+  if (!t) return e;
+  let r = t(e, { preferredSize: o });
+  return r || e;
+}
+function lf(e, o) {
+  return (lc(), e ? Kr(e) : o);
+}
+function uv(e, o) {
+  let t = lf(e);
+  return t ? `url("${t}")` : o;
+}
+var nt = a(Y(), 1);
+var Ut = a(l());
+function Yt() {
+  return (0, Ut.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "18",
+    height: "18",
+    children: [
+      (0, Ut.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        opacity: 0.3,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "2",
+        d: "M2 5V3a1 1 0 0 1 1-1h2M13 2h2a1 1 0 0 1 1 1v2M16 13v2a1 1 0 0 1-1 1h-2M5 16H3a1 1 0 0 1-1-1v-2",
+      }),
+      (0, Ut.jsx)("path", {
+        fill: "currentColor",
+        d: "M9 7.5a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 9 7.5Z",
+      }),
+    ],
+  });
+}
+var Ee = a(Y(), 1);
+var pc = "i1oxwf0f",
+  cc = "ivz66j7",
+  pi = "fjd4qd2",
+  dc = "f1gixrvj",
+  uc = "pkax85b",
+  fc = "s1oi602g",
+  mc = "c1rsxqtn";
+var oe = a(l(), 1),
+  cf = ["auto", "lossless", "small", "medium", "large", "full"],
+  df = {
+    auto: "Auto",
+    lossless: "Auto (Lossless)",
+    small: "Small",
+    medium: "Medium",
+    large: "Large",
+    full: "Full",
+  };
+function Ur({
+  multiple: e = !1,
+  imageReferences: o,
+  onChangeImages: t,
+  onRemoveImage: r,
+  onChangeAssetSize: n,
+  extraControls: i,
+  altText: s = to,
+  altTextPlaceholder: c,
+  onChangeAltText: p,
+  positionX: d,
+  positionY: u,
+  enableFooter: f = !0,
+  maxExtraImages: b,
+  onEditFocalPoint: C,
+  clearFocalPoint: y,
+  onCropClick: I,
+  onImageBatchUpload: m,
+}) {
+  let v = B(),
+    g = Os(),
+    h = Q(),
+    P = _e(b) ? b + 1 : void 0,
+    [V, z] = Ee.default.useState(!1),
+    A = Ee.default.useRef(null),
+    M = Ee.default.useCallback(() => {
+      h || t(Vn.pickAndUploadImage({ multiple: e, maxUploads: P }).then(gc("upload")));
+    }, [t, h, e, P]),
+    E = Ee.default.useCallback(
+      (_) => {
+        (_.key === "Backspace" || _.key === "Delete") && !h && r?.();
+      },
+      [r, h]
+    ),
+    D = Ee.default.useCallback(
+      (_) => {
+        h || (_.dataTransfer && m && t(m(_.dataTransfer.files, P).then(gc("drop"))));
+      },
+      [t, h, P, m]
+    ),
+    S = Ee.default.useCallback(
+      (_) => {
+        (_.preventDefault(),
+          r &&
+            v.stores.contextMenuStore.show([{ label: "Delete", enabled: !h, click: r }], {
+              location: { x: _.clientX, y: _.clientY },
+            }));
+      },
+      [h, r]
+    ),
+    L = Ee.default.useCallback(
+      async (_) => {
+        if (h) return;
+        let we = A.current;
+        if (!we || document.activeElement !== we) return;
+        _.preventDefault();
+        let he = _.clipboardData;
+        he && t(Vn.addImages(he.files));
+      },
+      [t, h]
+    );
+  Yp(L);
+  let x = Ee.default.useCallback(() => {
+      z(!0);
+    }, []),
+    k = Ee.default.useCallback(() => {
+      z(!1);
+    }, []),
+    O = o[0],
+    { fileExtensions: ne, preferredSizes: ae } = ff(o),
+    J = o.length > 0,
+    N = be(o),
+    j = H(N) && N.length > 0,
+    F = !q(d) && !q(u),
+    X = ne.has("svg"),
+    ue = J && ae.size > 0 && !X,
+    ie = Ee.default.useCallback(() => {
+      O && I?.(O, t);
+    }, [O, t, I]),
+    de = () => {
+      (T(H(N) && N.length > 0), C?.(N, Ae(d) ? d : void 0, Ae(u) ? u : void 0));
+    },
+    ce = O && Kr(O);
+  return (0, oe.jsxs)(Pe, {
+    direction: "column",
+    children: [
+      (0, oe.jsxs)(
+        Ns,
+        {
+          className: w(uc, O && fc),
+          onDrop: D,
+          onDragEnter: x,
+          onDragLeave: k,
+          onKeyDown: E,
+          onDoubleClick: M,
+          onContextMenu: S,
+          children: [
+            (0, oe.jsx)("div", {
+              ref: A,
+              tabIndex: 0,
+              className: uf(V),
+              children: (0, oe.jsx)("img", { src: ce, alt: "", decoding: "async" }),
+            }),
+            !h &&
+              (0, oe.jsx)(yt, {
+                variant: "clean",
+                title: e ? "Choose images\u2026" : "Choose image\u2026",
+                onClick: M,
+                onDoubleClick: Ds,
+                className: mc,
+              }),
+          ],
+        },
+        O
+      ),
+      (0, oe.jsxs)(Pe, {
+        direction: "column",
+        gap: 0,
+        children: [
+          !q(n) &&
+            (0, oe.jsx)(tt, {
+              title: "Resolution",
+              children: (0, oe.jsxs)(co, {
+                enabled: ue,
+                wrapperClassName: pe,
+                children: [
+                  (0, oe.jsx)(Ie, {
+                    title: ne.size > 1 ? "Mixed" : "Auto",
+                    selected: !0,
+                    onSelect: la,
+                    enabled: !1,
+                    visible: X,
+                  }),
+                  !X &&
+                    !q(n) &&
+                    cf.map((_) =>
+                      (0, oe.jsx)(
+                        Ie,
+                        { title: df[_], identifier: _, selected: ae.has(_), onSelect: n },
+                        _
+                      )
+                    ),
+                ],
+              }),
+            }),
+          i,
+          ht(s) &&
+            !q(p) &&
+            (0, oe.jsx)(tt, {
+              title: "Alt Text",
+              children: (0, oe.jsx)(hr, {
+                value: H(s) ? s : "",
+                onChange: p,
+                className: pe,
+                placeholder: c ?? (Oo(N) ? "Mixed" : "Describe Image\u2026"),
+                enabled: J,
+              }),
+            }),
+          !q(C) &&
+            !q(y) &&
+            (0, oe.jsx)(tt, {
+              title: "Focal Point",
+              children: (0, oe.jsx)(Or, {
+                doubleColumn: !0,
+                onPresent: de,
+                enabled: j && !h,
+                onDelete: F ? y : void 0,
+                title: F ? "Custom" : "Add\u2026",
+                titleColor: F ? void 0 : Z.inputLabel,
+                tooltip: F ? "Edit Focal Point" : "Add Focal Point",
+                preview: (0, oe.jsx)(K, {
+                  color: Z.popupButtonPreviewIconPrimary,
+                  background: Z.popupButtonPreviewIconBackground,
+                  children: (0, oe.jsx)(Yt, {}),
+                }),
+              }),
+            }),
+          f &&
+            (0, oe.jsxs)(Pe, {
+              direction: "row",
+              className: dc,
+              children: [
+                (0, oe.jsx)("div", {
+                  className: pi,
+                  children: (0, oe.jsx)(yt, {
+                    title: "Crop",
+                    enabled: !h && !!O,
+                    onClick: ie,
+                    className: pi,
+                  }),
+                }),
+                g &&
+                  (0, oe.jsx)(g, {
+                    commonImageReference: N,
+                    onChangeImages: t,
+                    altText: s,
+                    onChangeAltText: p,
+                  }),
+              ],
+            }),
+        ],
+      }),
+    ],
+  });
+}
+function uf(e) {
+  let o = w(pc),
+    t = w(o, cc);
+  return w(e ? t : o, "wantsNativeTextAction");
+}
+function gc(e) {
+  return (o) => {
+    let t = o[0] ? ts(o[0].filename)[1].toLowerCase() : "";
+    return (so("insert_image", { imageExtension: t, source: `picker_${e}` }), o);
+  };
+}
+function ff(e) {
+  let o = new Set(),
+    t = new Set();
+  return (
+    e.forEach((r) => {
+      let n = ao(r);
+      n && (o.add(n.preferredSize || "auto"), t.add(n.fileExtension));
+    }),
+    { preferredSizes: o, fileExtensions: t }
+  );
+}
+var ci = a(l(), 1);
+function di({
+  multiple: e = !1,
+  imageReference: o,
+  onChange: t,
+  onChangeAssetSize: r,
+  altText: n = to,
+  altTextPlaceholder: i,
+  onChangeAltText: s,
+  onRemoveImage: c,
+  positionX: p,
+  positionY: d,
+  onChangeFocalPosition: u,
+  maxExtraImages: f,
+  enableFooter: b = !0,
+}) {
+  let C = B(),
+    y = (0, nt.useCallback)((g, h) => cr(C, g, h), []),
+    I = (0, nt.useCallback)(
+      (g) => {
+        C.stores.modalStore.push({
+          type: "ImageCrop",
+          initialImage: g,
+          onChange: t,
+          source: "image_picker",
+        });
+      },
+      [t]
+    ),
+    m = (0, nt.useMemo)(() => {
+      if (u)
+        return (g, h, P) => {
+          C.stores.modalStore.push({
+            type: "ImageFocalPoint",
+            image: g,
+            positionX: h,
+            positionY: P,
+            onChange: u,
+            source: "properties",
+          });
+        };
+    }, [u]),
+    v = (0, nt.useMemo)(() => {
+      if (u)
+        return () => {
+          u(void 0, void 0);
+        };
+    }, [u]);
+  return (0, ci.jsx)(Pe, {
+    padding: `0 ${ve.css.popoverPadding} ${ve.css.popoverPadding}`,
+    children: (0, ci.jsx)(Ur, {
+      multiple: e,
+      maxExtraImages: f,
+      imageReferences: o ? [o] : [],
+      onChangeImages: t,
+      onChangeAssetSize: r,
+      altText: n,
+      altTextPlaceholder: i,
+      onChangeAltText: s,
+      onRemoveImage: c,
+      positionX: p,
+      positionY: d,
+      onImageBatchUpload: y,
+      onCropClick: I,
+      onEditFocalPoint: m,
+      clearFocalPoint: v,
+      enableFooter: b,
+    }),
+  });
+}
+var bc = a(Y(), 1),
+  Ge = null,
+  mf = Oi("globalPreviewHandlers");
+function ui(e) {
+  mf.warn("Missing handler", e);
+}
+var gf = {
+  reload: () => {
+    Ge?.reload ? Ge.reload() : ui("reload");
+  },
+  toggleConsole: () => {
+    Ge?.toggleConsole ? Ge.toggleConsole() : ui("toggleConsole");
+  },
+  openFullScreen: () => {
+    Ge?.openFullScreen ? Ge.openFullScreen() : ui("openFullScreen");
+  },
+};
+function Cc(e) {
+  if (e === null) {
+    Ge = e;
+    return;
+  }
+  ((Ge ??= {}), Object.assign(Ge, e));
+}
+function n2() {
+  return gf;
+}
+function i2({ reload: e, toggleConsole: o, openFullScreen: t }) {
+  bc.default.useEffect(
+    () => (Cc({ reload: e, toggleConsole: o, openFullScreen: t }), () => Cc(null)),
+    [e, o, t]
+  );
+}
+var it = a(l());
+function s2() {
+  return (0, it.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "10",
+    height: "10",
+    children: [
+      (0, it.jsx)("path", {
+        d: "M 0 1.75 C 0 1.336 0.336 1 0.75 1 L 9.25 1 C 9.664 1 10 1.336 10 1.75 L 10 1.75 C 10 2.164 9.664 2.5 9.25 2.5 L 0.75 2.5 C 0.336 2.5 0 2.164 0 1.75 Z",
+        fill: "currentColor",
+      }),
+      (0, it.jsx)("path", {
+        d: "M 2 5.25 C 2 4.836 2.336 4.5 2.75 4.5 L 7.25 4.5 C 7.664 4.5 8 4.836 8 5.25 L 8 5.25 C 8 5.664 7.664 6 7.25 6 L 2.75 6 C 2.336 6 2 5.664 2 5.25 Z",
+        fill: "currentColor",
+      }),
+      (0, it.jsx)("path", {
+        d: "M 2 8.75 C 2 8.336 2.336 8 2.75 8 L 7.25 8 C 7.664 8 8 8.336 8 8.75 L 8 8.75 C 8 9.164 7.664 9.5 7.25 9.5 L 2.75 9.5 C 2.336 9.5 2 9.164 2 8.75 Z",
+        fill: "currentColor",
+      }),
+    ],
+  });
+}
+var at = a(l());
+function p2() {
+  return (0, at.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "10",
+    height: "10",
+    children: [
+      (0, at.jsx)("path", {
+        d: "M 0 1.75 C 0 1.336 0.336 1 0.75 1 L 9.25 1 C 9.664 1 10 1.336 10 1.75 L 10 1.75 C 10 2.164 9.664 2.5 9.25 2.5 L 0.75 2.5 C 0.336 2.5 0 2.164 0 1.75 Z",
+        fill: "currentColor",
+      }),
+      (0, at.jsx)("path", {
+        d: "M 0 5.25 C 0 4.836 0.336 4.5 0.75 4.5 L 5.25 4.5 C 5.664 4.5 6 4.836 6 5.25 L 6 5.25 C 6 5.664 5.664 6 5.25 6 L 0.75 6 C 0.336 6 0 5.664 0 5.25 Z",
+        fill: "currentColor",
+      }),
+      (0, at.jsx)("path", {
+        d: "M 0 8.75 C 0 8.336 0.336 8 0.75 8 L 5.25 8 C 5.664 8 6 8.336 6 8.75 L 6 8.75 C 6 9.164 5.664 9.5 5.25 9.5 L 0.75 9.5 C 0.336 9.5 0 9.164 0 8.75 Z",
+        fill: "currentColor",
+      }),
+    ],
+  });
+}
+var st = a(l());
+function d2() {
+  return (0, st.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "10",
+    height: "10",
+    children: [
+      (0, st.jsx)("path", {
+        d: "M 0 1.75 C 0 1.336 0.336 1 0.75 1 L 9.25 1 C 9.664 1 10 1.336 10 1.75 L 10 1.75 C 10 2.164 9.664 2.5 9.25 2.5 L 0.75 2.5 C 0.336 2.5 0 2.164 0 1.75 Z",
+        fill: "currentColor",
+      }),
+      (0, st.jsx)("path", {
+        d: "M 4 5.25 C 4 4.836 4.336 4.5 4.75 4.5 L 9.25 4.5 C 9.664 4.5 10 4.836 10 5.25 L 10 5.25 C 10 5.664 9.664 6 9.25 6 L 4.75 6 C 4.336 6 4 5.664 4 5.25 Z",
+        fill: "currentColor",
+      }),
+      (0, st.jsx)("path", {
+        d: "M 4 8.75 C 4 8.336 4.336 8 4.75 8 L 9.25 8 C 9.664 8 10 8.336 10 8.75 L 10 8.75 C 10 9.164 9.664 9.5 9.25 9.5 L 4.75 9.5 C 4.336 9.5 4 9.164 4 8.75 Z",
+        fill: "currentColor",
+      }),
+    ],
+  });
+}
+function yc(e) {
+  return nr(e) ? void 0 : e;
+}
+function vc(e, o) {
+  let t = e ? ao(e) : void 0;
+  return t ? Va({ ...t, preferredSize: o }) : xa(e, null, null, o);
+}
+function x2(e, o) {
+  let t = { type: "string", value: o };
+  return (e?.type === "string" && e.valueLocalized && (t.valueLocalized = e.valueLocalized), t);
+}
+function V2(e, o) {
+  let t = { type: "link", value: o };
+  return (e?.type === "link" && e.valueLocalized && (t.valueLocalized = e.valueLocalized), t);
+}
+function T2(e, o) {
+  let t = { type: "richtext", value: o };
+  if (e?.type === "richtext" && e.valueLocalized) {
+    let r = e.value;
+    if (!ga(r)) return ((t.valueLocalized = e.valueLocalized), t);
+    let n = In(r),
+      i = In(o);
+    if (n === i) return ((t.valueLocalized = e.valueLocalized), t);
+    let s = wn(r, "collectionControlProp"),
+      c = wn(o, "collectionControlProp"),
+      p = Pn(r),
+      d = s === c ? Pn(o) : os(r, i, "collectionControlProp");
+    t.valueLocalized = Object.fromEntries(
+      Object.entries(e.valueLocalized).map(([u, f]) =>
+        f.hash === p || f.hash === String(p) ? [u, { ...f, hash: d }] : [u, f]
+      )
+    );
+  }
+  return t;
+}
+function S2(e) {
+  return { type: "boolean", value: e };
+}
+function R2(e) {
+  return { type: "color", value: e };
+}
+function M2(e) {
+  return { type: "date", value: e };
+}
+function k2(e) {
+  return { type: "enum", value: e };
+}
+function L2(e) {
+  return { type: "file", value: e };
+}
+function E2(e) {
+  return { type: "number", value: e };
+}
+function N2(e) {
+  return { type: "collectionreference", value: e };
+}
+function D2(e) {
+  return { type: "multicollectionreference", value: e };
+}
+function W2(e) {
+  return { type: "vectorsetitem", value: e };
+}
+function Pc(e, o) {
+  let t = { type: "image", value: void 0 };
+  (e && H(e.value) && (t.value = e.value),
+    ya(e) && (t.valueLocalized = e.valueLocalized),
+    ua(e) && (t.alt = e.alt),
+    fa(e) && (t.altLocalized = e.altLocalized));
+  let r = ma(e);
+  return (
+    H(r.positionX) && (t.positionX = r.positionX),
+    H(r.positionY) && (t.positionY = r.positionY),
+    Object.assign(t, o),
+    t
+  );
+}
+var Ic = a(Y(), 1);
+var fi = a(l(), 1);
+function J2({ controlProp: e, onChange: o, onRemove: t, multiple: r = !1, maxExtraImages: n }) {
+  let i = wc({ controlProp: e, onChange: o, onRemove: t, multiple: r, maxExtraImages: n });
+  return (0, fi.jsx)(di, { ...i });
+}
+function G2({ controlProp: e, onChange: o, onRemove: t, multiple: r = !1, maxExtraImages: n }) {
+  let i = hf({ controlProp: e, onChange: o, onRemove: t, multiple: r, maxExtraImages: n });
+  return (0, fi.jsx)(di, { ...i });
+}
+function wc({ controlProp: e, onChange: o, onRemove: t, multiple: r = !1, maxExtraImages: n }) {
+  let i = H(e.value) ? e.value : void 0,
+    s,
+    c,
+    p,
+    d = e.type === "responsiveimage";
+  d &&
+    ((s = e.alt),
+    (c = H(e.positionX) ? e.positionX : void 0),
+    (p = H(e.positionY) ? e.positionY : void 0));
+  let u = (0, Ic.useMemo)(() => {
+    if (i) return ao(i);
+  }, [i]);
+  function f(m, v) {
+    o((g) => Pc(g, m), v);
+  }
+  async function b(m) {
+    try {
+      let v = await m;
+      if (v.length === 0) return;
+      let g = v.filter((A) => A.filename !== ""),
+        [h, ...P] = g;
+      if (!h) return;
+      let V;
+      r && P.length > 0 && (V = P.map((A) => ({ type: "image", value: xn(A) })));
+      let z = Cf(h, u);
+      f(z, V);
+    } catch (v) {
+      Ao(v);
+    }
+  }
+  function C(m) {
+    if (!i) return;
+    let v = vc(i, m);
+    f({ value: v });
+  }
+  function y(m) {
+    f({ alt: m });
+  }
+  function I(m, v) {
+    f({ positionX: m, positionY: v });
+  }
+  return {
+    multiple: r,
+    maxExtraImages: n,
+    imageReference: i,
+    onChange: b,
+    onChangeAssetSize: C,
+    onChangeAltText: y,
+    onRemoveImage: t,
+    positionX: c,
+    positionY: p,
+    altText: s ?? to,
+    onChangeFocalPosition: d ? I : void 0,
+  };
+}
+function hf({ controlProp: e, onChange: o, onRemove: t, multiple: r = !1, maxExtraImages: n }) {
+  return (
+    T(e.type === "responsiveimage", "Expected a responsive image control prop."),
+    {
+      ...wc({ controlProp: e, onChange: o, onRemove: t, multiple: r, maxExtraImages: n }),
+      altText: H(e.alt) ? e.alt : Da,
+    }
+  );
+}
+function Cf(e, o) {
+  return {
+    type: "image",
+    value: xn(e, e.preferredSize ?? o?.preferredSize),
+    positionX: void 0,
+    positionY: void 0,
+  };
+}
+function tP(e, o = Ta) {
+  let t = B();
+  return Yo(["Tree", "ActiveBundle"], () => La(t.tree, t.componentLoader, e, o), [e, o]);
+}
+var hi = a(Y(), 1);
+var xc = "p4b05eq",
+  Vc = "prqiyvj",
+  Tc = "p1c81r2w",
+  Sc = "p1ln12j8";
+var Rc = "https://app.framerstatic.com/checkerboard-preview-dark-PLY3C4B3.png";
+var Mc = "https://app.framerstatic.com/checkerboard-preview-light-PSEHZGRE.png";
+var kc = "https://app.framerstatic.com/checkerboard-7NUC2LF5.svg";
+var Lc = "https://app.framerstatic.com/diagonal-preview-dark-GWQ4TNLS.png";
+var Ec = "https://app.framerstatic.com/diagonal-preview-light-36T5V6BB.png";
+var Nc = "https://app.framerstatic.com/diagonal-6QTJTDW5.svg";
+var Dc = "https://app.framerstatic.com/grid-preview-dark-RZDTZYXR.png";
+var Wc = "https://app.framerstatic.com/grid-preview-light-HO6C62V3.png";
+var Bc = "https://app.framerstatic.com/grid-ETXTI7DF.svg";
+var Ac = "https://app.framerstatic.com/line-preview-dark-FYHPU72C.png";
+var Oc = "https://app.framerstatic.com/line-preview-light-QRJK6IBN.png";
+var Fc = "https://app.framerstatic.com/line-5WIKH6MF.svg";
+var Hc = "https://app.framerstatic.com/noise-preview-dark-QA2QDNXZ.png";
+var zc = "https://app.framerstatic.com/noise-preview-light-MX2YIHVF.png";
+var Zc = "https://app.framerstatic.com/noise-QQTZ2W2C.png";
+var Kc = "https://app.framerstatic.com/polka-preview-dark-UPJTP3YS.png";
+var Uc = "https://app.framerstatic.com/polka-preview-light-A34DDUMW.png";
+var Yc = "https://app.framerstatic.com/polka-YIAMNA6M.svg";
+var $c = "https://app.framerstatic.com/rhombus-preview-dark-256B2V3D.png";
+var Qc = "https://app.framerstatic.com/rhombus-preview-light-BPBJZGWW.png";
+var Jc = "https://app.framerstatic.com/rhombus-5AKLH2LR.svg";
+var Gc = "https://app.framerstatic.com/wave-preview-dark-HB4U2KQ5.png";
+var jc = "https://app.framerstatic.com/wave-preview-light-YPYNKP7A.png";
+var qc = "https://app.framerstatic.com/wave-L6WY3PJS.svg";
+var mi = [
+  {
+    name: "noise",
+    originalImage: Zc,
+    previewImageLight: zc,
+    previewImageDark: Hc,
+    extension: "png",
+  },
+  {
+    name: "checkerboard",
+    originalImage: kc,
+    previewImageLight: Mc,
+    previewImageDark: Rc,
+    extension: "svg",
+  },
+  {
+    name: "grid",
+    originalImage: Bc,
+    previewImageLight: Wc,
+    previewImageDark: Dc,
+    extension: "svg",
+  },
+  {
+    name: "line",
+    originalImage: Fc,
+    previewImageLight: Oc,
+    previewImageDark: Ac,
+    extension: "svg",
+  },
+  {
+    name: "rhombus",
+    originalImage: Jc,
+    previewImageLight: Qc,
+    previewImageDark: $c,
+    extension: "svg",
+  },
+  {
+    name: "wave",
+    originalImage: qc,
+    previewImageLight: jc,
+    previewImageDark: Gc,
+    extension: "svg",
+  },
+  {
+    name: "polka",
+    originalImage: Yc,
+    previewImageLight: Uc,
+    previewImageDark: Kc,
+    extension: "svg",
+  },
+  {
+    name: "diagonal",
+    originalImage: Nc,
+    previewImageLight: Ec,
+    previewImageDark: Lc,
+    extension: "svg",
+  },
+];
+function Xc(e) {
+  let o = ao(e);
+  return mi.find((t) => t.name === o?.presetName);
+}
+var lt = a(l(), 1),
+  Kf = ({ preset: e, onSelect: o, selected: t }) => {
+    let { isDarkMode: r } = Pt();
+    return (0, lt.jsx)("button", {
+      type: "button",
+      onClick: () => o(e),
+      className: w(Tc, t && Sc),
+      children: (0, lt.jsx)("img", {
+        alt: e.name,
+        className: w(Vc),
+        src: r ? e.previewImageDark : e.previewImageLight,
+        decoding: "async",
+      }),
+    });
+  },
+  _c = ({ selectedPreset: e, onSelectPreset: o }) =>
+    (0, lt.jsx)(Ze, {
+      title: "Preset",
+      children: (0, lt.jsx)("div", {
+        className: w(xc),
+        children: mi.map((t) =>
+          (0, lt.jsx)(
+            Kf,
+            { preset: t, onSelect: o, selected: (e && e.name === t.name) || !1 },
+            t.name
+          )
+        ),
+      }),
+    });
+var gi = "dl1ddfs";
+var te = a(l(), 1),
+  ed = [
+    "Focal Point",
+    "Top Left",
+    "Top Center",
+    "Top Right",
+    "Left",
+    "Center",
+    "Right",
+    "Bottom Left",
+    "Bottom Center",
+    "Bottom Right",
+  ];
+function Yf(e, o, t) {
+  return (
+    T(ht(e)),
+    T(ht(o)),
+    Oo(e) || Oo(o)
+      ? $i
+      : Ae(e) || Ae(o)
+        ? t
+          ? "Center"
+          : "Focal Point"
+        : t && q(e) && q(o)
+          ? "Focal Point"
+          : o === "top"
+            ? e === "left"
+              ? "Top Left"
+              : e === "right"
+                ? "Top Right"
+                : "Top Center"
+            : o === "bottom"
+              ? e === "left"
+                ? "Bottom Left"
+                : e === "right"
+                  ? "Bottom Right"
+                  : "Bottom Center"
+              : e === "left"
+                ? "Left"
+                : e === "right"
+                  ? "Right"
+                  : "Center"
+  );
+}
+function $f(e) {
+  return e.includes("Left") ? "left" : e.includes("Right") ? "right" : "center";
+}
+function Qf(e) {
+  return e.includes("Top") ? "top" : e.includes("Bottom") ? "bottom" : "center";
+}
+function Jf(e) {
+  return e.size > 1 ? !0 : !e.has("stretch");
+}
+function od({
+  title: e = "",
+  enabled: o = !0,
+  hasImageVariable: t = !1,
+  imageReferences: r,
+  onChangeImagePosition: n,
+  fillImagePositionX: i,
+  fillImagePositionY: s,
+  fillImageResize: c,
+}) {
+  let p = B();
+  if (!Jf(c)) return null;
+  let d = be(c),
+    u = d === "fill";
+  u ||
+    ((q(i) || Ae(i)) && (i = d === "tile" ? "left" : "center"),
+    (q(s) || Ae(s)) && (s = d === "tile" ? "top" : "center"));
+  let f = Yf(i, s, t),
+    b = f === "Focal Point",
+    C = r ? be(r) : to;
+  function y() {
+    (T(H(C)),
+      p.stores.modalStore.push({
+        type: "ImageFocalPoint",
+        image: C,
+        positionX: Ae(i) ? i : void 0,
+        positionY: Ae(s) ? s : void 0,
+        onChange: n,
+        source: "properties",
+      }));
+  }
+  let I = (g) => {
+      if (g === "Focal Point") {
+        t ? n(void 0, void 0) : y();
+        return;
+      }
+      let h = $f(g),
+        P = Qf(g);
+      n(h, P);
+    },
+    m = H(C),
+    v = [];
+  return (
+    Oo(f) &&
+      (v.push((0, te.jsx)(Ie, { selected: !0, title: "Mixed" }, "mixed")),
+      v.push((0, te.jsx)(Ie, { type: "divider" }, "mixed-divider"))),
+    ed.forEach((g, h) => {
+      (g === "Focal Point" && (!u || (!t && !m && !b))) ||
+        (v.push((0, te.jsx)(Ie, { title: g, onSelect: I, identifier: g, selected: f === g }, h)),
+        h % 3 === 0 && v.push((0, te.jsx)(Ie, { type: "divider" }, h + "divider")));
+    }),
+    (0, te.jsx)(Ze, {
+      title: e,
+      children:
+        !t && b && m
+          ? (0, te.jsx)(te.Fragment, {
+              children: (0, te.jsx)(Or, {
+                doubleColumn: !0,
+                enabled: o,
+                title: "Focal point",
+                tooltip: "Edit Focal Point",
+                onPresent: y,
+                onDelete: () => I("Center"),
+                preview: (0, te.jsx)(K, {
+                  className: w(!o && gi),
+                  color: Z.popupButtonPreviewIconPrimary,
+                  background: Z.popupButtonPreviewIconBackground,
+                  children: (0, te.jsx)(Yt, {}),
+                }),
+              }),
+            })
+          : (0, te.jsx)(co, {
+              enabled: o,
+              wrapperClassName: pe,
+              preview: (0, te.jsx)(K, {
+                className: w(!o && gi),
+                color: f === "Focal Point" ? Z.popupButtonPreviewIconPrimary : void 0,
+                background: Z.popupButtonPreviewIconBackground,
+                children:
+                  f === "Focal Point"
+                    ? (0, te.jsx)(Yt, {})
+                    : (0, te.jsx)(Gf, {
+                        selectedOption: f,
+                        optionItems: ed,
+                        firstPositionKey: "Top Left",
+                      }),
+              }),
+              children: v,
+            }),
+    })
+  );
+}
+function Gf({ selectedOption: e, optionItems: o, firstPositionKey: t }) {
+  let r = o.indexOf(t);
+  T(r !== -1);
+  let n = H(e) ? o.indexOf(e) - r : -1;
+  return (0, te.jsx)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "22",
+    height: "22",
+    children: Array(3)
+      .fill(null)
+      .map((i, s) =>
+        (0, te.jsxs)(
+          "g",
+          {
+            transform: `translate(3 ${3 + 6.5 * s})`,
+            children: [
+              (0, te.jsx)("path", {
+                d: "M 1.5 0 C 2.328 0 3 0.672 3 1.5 C 3 2.328 2.328 3 1.5 3 C 0.672 3 0 2.328 0 1.5 C 0 0.672 0.672 0 1.5 0 Z",
+                fill:
+                  n === s * 3 ? Z.popupButtonPreviewIconPrimary : Z.popupButtonPreviewIconSecondary,
+              }),
+              (0, te.jsx)("path", {
+                d: "M 8 0 C 8.828 0 9.5 0.672 9.5 1.5 C 9.5 2.328 8.828 3 8 3 C 7.172 3 6.5 2.328 6.5 1.5 C 6.5 0.672 7.172 0 8 0 Z",
+                fill:
+                  n === 1 + s * 3
+                    ? Z.popupButtonPreviewIconPrimary
+                    : Z.popupButtonPreviewIconSecondary,
+              }),
+              (0, te.jsx)("path", {
+                d: "M 14.5 0 C 15.328 0 16 0.672 16 1.5 C 16 2.328 15.328 3 14.5 3 C 13.672 3 13 2.328 13 1.5 C 13 0.672 13.672 0 14.5 0 Z",
+                fill:
+                  n === 2 + s * 3
+                    ? Z.popupButtonPreviewIconPrimary
+                    : Z.popupButtonPreviewIconSecondary,
+              }),
+            ],
+          },
+          s
+        )
+      ),
+  });
+}
+var Yr = a(l(), 1),
+  jf = ["fill", "fit", "stretch", "tile"];
+function td({ title: e = "", enabled: o = !0, fillImageResize: t, onChangeImageResize: r }) {
+  return (0, Yr.jsx)(Ze, {
+    title: e,
+    children: (0, Yr.jsx)(co, {
+      enabled: o,
+      wrapperClassName: pe,
+      children: jf.map((n) =>
+        (0, Yr.jsx)(Ie, { identifier: n, title: Xi, selected: t.has(n), onSelect: r }, n)
+      ),
+    }),
+  });
+}
+var rd = a(Y(), 1);
+var $t = a(l(), 1),
+  qf = (e) => {
+    let o = yc(e);
+    return _e(o) ? Math.round(o * 100) : o;
+  };
+function nd({ onChange: e, value: o, enabled: t, title: r }) {
+  let n = qf(o),
+    i = (0, rd.useCallback)(
+      (s) => {
+        e(Ki(s / 100, 2));
+      },
+      [e]
+    );
+  return (0, $t.jsxs)(Ze, {
+    title: r,
+    children: [
+      (0, $t.jsx)(se, {
+        enabled: t,
+        precision: 0,
+        value: n,
+        unit: "%",
+        onChange: i,
+        min: 1,
+        step: 1,
+      }),
+      (0, $t.jsx)(Es, { enabled: t, value: n, min: 1, max: 200, step: 1, onChange: i }),
+    ],
+  });
+}
+var Ne = a(l(), 1);
+function o4({
+  imageReferences: e,
+  fillImageResize: o,
+  onChangeImages: t,
+  onRemoveImage: r,
+  onChangeImageResize: n,
+  onChangeAssetSize: i,
+  altText: s,
+  onChangeAltText: c,
+  fillImagePositionX: p,
+  fillImagePositionY: d,
+  onChangeImagePosition: u,
+  fillImageTileSize: f,
+  onChangeFillImageSize: b,
+  onSelectTilePatternPreset: C,
+}) {
+  let y = B(),
+    I = be(e),
+    m = o && be(o) === "tile" && ca(I) ? Xc(I) : void 0,
+    v = (0, hi.useCallback)((h, P) => cr(y, h, P), []),
+    g = (0, hi.useCallback)(
+      (h) => {
+        y.stores.modalStore.push({
+          type: "ImageCrop",
+          initialImage: h,
+          onChange: t,
+          source: "image_picker",
+        });
+      },
+      [t]
+    );
+  return (0, Ne.jsx)(Pe, {
+    direction: "column",
+    padding: `0 ${ve.css.popoverPadding} ${ve.css.popoverPadding}`,
+    children: (0, Ne.jsx)(Ur, {
+      imageReferences: Array.from(e),
+      onChangeImages: t,
+      onRemoveImage: e.size > 0 ? r : void 0,
+      onChangeAssetSize: i,
+      altText: s,
+      onChangeAltText: c,
+      onImageBatchUpload: v,
+      onCropClick: g,
+      extraControls:
+        o &&
+        (0, Ne.jsxs)(Ne.Fragment, {
+          children: [
+            !q(n) &&
+              (0, Ne.jsx)(td, {
+                title: "Type",
+                enabled: !0,
+                fillImageResize: o,
+                onChangeImageResize: n,
+              }),
+            !q(C) && be(o) === "tile" && (0, Ne.jsx)(_c, { selectedPreset: m, onSelectPreset: C }),
+            !q(b) &&
+              be(o) === "tile" &&
+              (0, Ne.jsx)(nd, { title: "Scale", value: f, onChange: b, enabled: e.size > 0 }),
+            !q(u) &&
+              (0, Ne.jsx)(od, {
+                title: "Position",
+                imageReferences: e,
+                enabled: e.size > 0,
+                fillImageResize: o,
+                fillImagePositionX: p,
+                fillImagePositionY: d,
+                onChangeImagePosition: u,
+              }),
+          ],
+        }),
+    }),
+  });
+}
+var id = { button: "pointer", draggable: "grab", dragging: "grabbing" };
+var Mi = a(Y(), 1);
+var Ci = "https://app.framerstatic.com/checkerboard-8-776AE4U3.svg";
+var bi = 125,
+  yi = 230,
+  ad = "s1e2z0bv",
+  vi = "rb8k8h9",
+  sd = "iihdl0y",
+  Co = "swsq73a",
+  ld = "t1ecuz16",
+  pt = "f10aiog9",
+  le = "i19bkgmo",
+  pd = "hqo5o69",
+  ct = "l7n5mtt",
+  je = "c1424kp4",
+  dt = "r1k5sn29",
+  cd = "s1hh4y0v";
+var $r = a(l(), 1);
+function Qr({ colorModel: e, onChangeColorModel: o, allowP3: t = !0 }) {
+  let r = Q();
+  return (0, $r.jsx)(fr.Provider, {
+    value: !1,
+    children: (0, $r.jsx)(co, {
+      children: ms.map((n) => {
+        let i = n === "P3",
+          s = e === "P3" || i ? !r : !0;
+        return (
+          i && !t && (s = !1),
+          (0, $r.jsx)(
+            Ie,
+            { title: n, identifier: n, selected: n === e, onSelect: o, enabled: s },
+            n
+          )
+        );
+      }),
+    }),
+  });
+}
+var qe = a(Y(), 1);
+var dd = "s1547mmt",
+  ud = "siommo3",
+  Jr = "ixdcado",
+  fd = "csdqxt6",
+  md = "h10f07ai",
+  Pi = "i1y4xa9u",
+  gd = "cawslk",
+  hd = "o104dadf",
+  Ii = "r1u3lu2p",
+  Cd = "hz6ma7m",
+  bd = "p1bt5whn",
+  yd = "iehmvlc",
+  vd = "s1lr44ru";
+var wi = a(l());
+function Pd() {
+  return (0, wi.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "16",
+    height: "16",
+    children: (0, wi.jsx)("path", {
+      fill: "currentColor",
+      d: "M11.5 2.379A1.5 1.5 0 1 1 13.621 4.5l-1.5 1.5.707.707a1.5 1.5 0 1 1-2.121 2.121l-.268-.267L5.5 13.5a2.122 2.122 0 0 1-3-3l4.939-4.939-.267-.268a1.5 1.5 0 1 1 2.121-2.121l.707.707Zm-8 9.121a.707.707 0 0 0 1 1l4.939-4.939-1-1Z",
+    }),
+  });
+}
+var Id = "s10ppfb8";
+var xi = a(l(), 1);
+function Gr({ enabled: e, className: o, onChange: t }) {
+  let r = B(),
+    n = r.scheduler.wrapHandler(() => {
+      pr(r)
+        .then((i) => {
+          i && t(i);
+        })
+        .catch(Ao);
+    });
+  return (0, xi.jsx)(yt, {
+    className: w(Id, o),
+    enabled: e,
+    onClick: n,
+    title: "Sample color",
+    children: (0, xi.jsx)(Pd, {}),
+  });
+}
+var U = a(l(), 1);
+function om(e) {
+  return Math.max(0, Math.min(e, 1));
+}
+function tm(e) {
+  return qe.default.useMemo(() => {
+    let o = fe.fromString(e);
+    return (T(o, "Invalid color " + e), { hsv: o.hsv(), p3: o });
+  }, [e]);
+}
+var wd = qe.default.memo(function ({
+  className: o,
+  style: t,
+  colorString: r,
+  onChange: n,
+  onChangeColorModel: i,
+  allowP3: s,
+  disabled: c,
+}) {
+  let p = B(),
+    d = Q() || !!c,
+    { hsv: u, p3: f } = tm(r),
+    { h: b, s: C, v: y, a: I } = u,
+    m = qe.default.useRef(!1),
+    v = qe.default.useRef(void 0),
+    g = qe.default.useRef(b),
+    h = vs(),
+    P = xo(() => {
+      p.beginUndoGroup();
+    }, []),
+    V = xo(() => {
+      p.endUndoGroup();
+    }, []),
+    z = xo(
+      (J) => {
+        let N = fe.fromString(r)?.toString("p3", { a: om(J.progress.x ?? 1) });
+        (T(N, "Invalid color " + r), n(N, !1));
+      },
+      [r, n]
+    ),
+    A = xo(
+      (J) => {
+        let N = J.progress.x * 360,
+          j = fe.fromHSV({ h: N, s: C, v: y, a: I }).toString();
+        (n(j, !1), (g.current = N), I === 0 && me(), C === 0 && h());
+      },
+      [C, y, I, n, h]
+    ),
+    M = xo(
+      (J) => {
+        let { progress: N } = J;
+        ((m.current = !0), (v.current = N));
+        let j = fe.fromHSV({ h: g.current, s: N.x, v: 1 - N.y, a: I }).toString();
+        (n(j, !0), I === 0 && me(), (N.x === 0 || 1 - N.y === 0) && h());
+      },
+      [I, n, h]
+    ),
+    E = xo(() => {
+      ((m.current = !1), (v.current = void 0), V());
+    }, []),
+    D = qe.default.useCallback(
+      (J) => {
+        n(J, !0);
+      },
+      [n]
+    );
+  C !== 0 && y !== 0 && !(b === 0 && g.current === 360) && !m.current && (g.current = b);
+  let S = fe.fromHSV({ h: g.current, s: 1, v: 1, a: 1 }),
+    L = S.toString(),
+    x = S.toString("srgb"),
+    k = { "--hue": x, "--hue-p3": L },
+    O = {
+      "--slider-alpha-0": S.toString("srgb", { a: 0 }),
+      "--slider-alpha-1": x,
+      "--slider-p3-alpha-0": S.toString("p3", { a: 0 }),
+      "--slider-p3-alpha-1": L,
+    },
+    ne = v.current?.x ?? C,
+    ae = v.current?.y ?? 1 - y;
+  return (
+    m.current || (v.current = void 0),
+    (0, U.jsxs)("div", {
+      className: o,
+      style: t,
+      children: [
+        (0, U.jsx)("div", {
+          className: w(ud, d && Ii),
+          style: k,
+          children: (0, U.jsxs)(po, {
+            onDragStart: P,
+            onDrag: M,
+            onDragEnd: E,
+            className: dd,
+            enabled: !d,
+            children: [
+              (0, U.jsx)("div", { className: Jr, style: Vi(ne, ae, d) }),
+              (0, U.jsx)(pm, { hue: g.current }),
+            ],
+          }),
+        }),
+        (0, U.jsx)("div", {
+          className: fd,
+          children: (0, U.jsxs)("div", {
+            className: w(d && Ii, md),
+            children: [
+              (0, U.jsx)(po, {
+                onDragStart: P,
+                onDrag: A,
+                onDragEnd: V,
+                enabled: !d,
+                className: Cd,
+                children: (0, U.jsx)("div", {
+                  className: Pi,
+                  children: (0, U.jsx)("div", {
+                    className: Jr,
+                    style: Vi(g.current / 360, 0.5, d),
+                  }),
+                }),
+              }),
+              (0, U.jsxs)(po, {
+                onDragStart: P,
+                onDrag: z,
+                onDragEnd: V,
+                enabled: !d,
+                style: O,
+                className: hd,
+                children: [
+                  (0, U.jsx)("div", { className: gd }),
+                  (0, U.jsx)("div", {
+                    className: Pi,
+                    children: (0, U.jsx)("div", { className: Jr, style: Vi(I, 0.5, d) }),
+                  }),
+                ],
+              }),
+            ],
+          }),
+        }),
+        (0, U.jsx)(cm, { value: f, onChange: D, enabled: !d }),
+        (0, U.jsxs)("div", {
+          className: yd,
+          children: [
+            (0, U.jsx)(Qr, { colorModel: "P3", onChangeColorModel: i, allowP3: s }),
+            _t() || "EyeDropper" in window
+              ? (0, U.jsx)(Gr, { onChange: D, enabled: !d, className: vd })
+              : null,
+          ],
+        }),
+      ],
+    })
+  );
+});
+function Vi(e, o, t) {
+  return { left: `${e * 100}%`, top: `${o * 100}%`, pointerEvents: t ? "none" : void 0 };
+}
+function xd(e, o, t) {
+  let r = Math.max(Math.ceil((o - e) / (t || 1)), 0),
+    n = [];
+  for (let i = 0; i < r; i++) ((n[i] = e), (e += t));
+  return n;
+}
+var rm = xd(0, 1, 0.01),
+  nm = xd(1, 0, -0.01);
+function im(e) {
+  return rm.map((o) => {
+    let { s: t, v: r } = fe.fromHSV({ h: e, s: o, v: 1, a: 1 }, "srgb").hsv();
+    return [t, r];
+  });
+}
+function am(e) {
+  return nm.map((o) => {
+    let { s: t, v: r } = fe.fromHSV({ h: e, s: 1, v: o, a: 1 }, "srgb").hsv();
+    return [t, r];
+  });
+}
+var sm = cn([0, 1], [0, yi]),
+  lm = cn([0, 1], [0, bi]);
+function pm({ hue: e }) {
+  let o = qe.default.useMemo(() => {
+    let t = "";
+    for (let r of im(e).concat(am(e))) t += `${sm(r[0])}, ${lm(1 - r[1])} `;
+    return t;
+  }, [e]);
+  return (0, U.jsx)("svg", {
+    viewBox: `0 0 ${yi} ${bi}`,
+    role: "presentation",
+    className: bd,
+    children: (0, U.jsx)("polyline", { points: o }),
+  });
+}
+function Ti(e) {
+  return Math.trunc(Math.min(Math.max(e, 0), 1) * 1e3) / 1e3;
+}
+function jr(e, o, t) {
+  return qe.default.useCallback(
+    (r) => {
+      let n = e === "a" ? r / 100 : r,
+        i = o[e];
+      if (n === i) return;
+      let s = new fe({ r: o.r, g: o.g, b: o.b, a: o.a ?? 1 }).toString("p3", { [e]: n });
+      (t(s), e === "a" && n === 0 && me());
+    },
+    [e, o, t]
+  );
+}
+function cm({ value: e, onChange: o, enabled: t }) {
+  let r = jr("r", e, o),
+    n = jr("g", e, o),
+    i = jr("b", e, o),
+    s = jr("a", e, o);
+  return (0, U.jsxs)("div", {
+    className: w(Co, pt),
+    children: [
+      (0, U.jsx)(se, {
+        value: Ti(e.r),
+        onChange: r,
+        min: 0,
+        max: 1,
+        step: 0.01,
+        enabled: t,
+        className: le,
+        wrapperClassName: ct,
+        title: "Red",
+        "data-testid": "p3-red-color-input",
+      }),
+      (0, U.jsx)(se, {
+        value: Ti(e.g),
+        onChange: n,
+        min: 0,
+        step: 0.01,
+        max: 1,
+        enabled: t,
+        className: le,
+        wrapperClassName: je,
+        title: "Green",
+        "data-testid": "p3-green-color-input",
+      }),
+      (0, U.jsx)(se, {
+        value: Ti(e.b),
+        onChange: i,
+        min: 0,
+        max: 1,
+        step: 0.01,
+        enabled: t,
+        className: le,
+        wrapperClassName: je,
+        title: "Blue",
+        "data-testid": "p3-blue-color-input",
+      }),
+      (0, U.jsx)(se, {
+        value: Ue(e?.a ?? 1),
+        onChange: s,
+        unit: "%",
+        min: 0,
+        step: 1,
+        max: 100,
+        enabled: t,
+        className: le,
+        wrapperClassName: dt,
+        title: "Alpha",
+        "data-testid": "p3-alpha-color-input",
+      }),
+    ],
+  });
+}
+var Jt = a(l(), 1);
+function Vd({ value: e, onChange: o, sampleColor: t, setColorModel: r, enabled: n }) {
+  let i = (p, d, u) => {
+      if (p.match(/^#?[a-f\d]{1,2}$/iu)) {
+        let C = p.startsWith("#") ? p.slice(1) : p;
+        (C.length === 1 ? (C = C.repeat(6)) : C.length === 2 && (C = C.repeat(3)), (p = "#" + C));
+      }
+      if (!$.isValid(p)) return;
+      ((p.startsWith("hsl(") || p.startsWith("hsla(")) && r("HSL"),
+        (p.startsWith("rgb(") || p.startsWith("rgba(")) && r("RGB"),
+        p.match(/^[a-f\d]+$/iu) && (p = "#" + p),
+        p.startsWith("hsv") && (p = re.toHslString(re(p))),
+        /^[a-z]+$/i.test(p.trim()) && (p = re.toHslString(re(p))));
+      let f = $.toRgb(p);
+      if (
+        (p.startsWith("rgba(") || p.startsWith("hsla(") || (p.startsWith("#") && p.length === 9)
+          ? $.getAlpha(p) === 0 && me()
+          : (f.a = e.a),
+        re.equal(re(f), re(e)))
+      )
+        return u();
+      o($.rgbaToString(f));
+    },
+    s = (p) => {
+      let d = { ...e, a: p / 100 },
+        u = $.rgbaToString(d);
+      (u && o(u), d.a === 0 && me());
+    },
+    c = (p) => {
+      cs("sampleColor") === Cr(p) && t();
+    };
+  return (0, Jt.jsxs)("div", {
+    className: w(Co, ld),
+    children: [
+      (0, Jt.jsx)(hr, {
+        value: $.rgbToHexValue(e).toLocaleUpperCase(),
+        onChange: i,
+        onKeyDown: c,
+        className: w(le, pd),
+        "data-testid": "hex-color-input",
+      }),
+      (0, Jt.jsx)(se, {
+        value: Ue(e.a),
+        onChange: s,
+        unit: "%",
+        min: 0,
+        step: 1,
+        max: 100,
+        enabled: n,
+        className: le,
+        title: "Alpha",
+        "data-testid": "hex-alpha-color-input",
+      }),
+    ],
+  });
+}
+var Td = a(Y(), 1);
+var Eo = a(l(), 1);
+function qr(e, o, t) {
+  return Td.default.useCallback(
+    (r) => {
+      let n = e !== "h" ? r / 100 : r;
+      if (n === o[e]) return;
+      let i = { ...o, [e]: n };
+      (t($.hslToString(i)), e === "a" && n === 0 && me());
+    },
+    [e, o, t]
+  );
+}
+function Sd({ value: e, onChange: o, enabled: t }) {
+  let r = qr("h", e, o),
+    n = qr("s", e, o),
+    i = qr("l", e, o),
+    s = qr("a", e, o);
+  return (0, Eo.jsxs)("div", {
+    className: rr(Co, pt),
+    children: [
+      (0, Eo.jsx)(se, {
+        value: e.h,
+        onChange: r,
+        min: 0,
+        max: 360,
+        enabled: t,
+        className: le,
+        wrapperClassName: ct,
+        title: "Hue",
+        "data-testid": "hsl-hue-color-input",
+      }),
+      (0, Eo.jsx)(se, {
+        value: Ue(e.s),
+        onChange: n,
+        min: 0,
+        max: 100,
+        enabled: t,
+        className: le,
+        wrapperClassName: je,
+        title: "Saturation",
+        "data-testid": "hsl-saturation-color-input",
+      }),
+      (0, Eo.jsx)(se, {
+        value: Ue(e.l),
+        onChange: i,
+        min: 0,
+        max: 100,
+        enabled: t,
+        className: le,
+        wrapperClassName: je,
+        title: "Lightness",
+        "data-testid": "hsl-lightness-color-input",
+      }),
+      (0, Eo.jsx)(se, {
+        value: Ue(e.a),
+        onChange: s,
+        unit: "%",
+        min: 0,
+        max: 100,
+        enabled: t,
+        className: le,
+        wrapperClassName: dt,
+        title: "Alpha",
+        "data-testid": "hsl-alpha-color-input",
+      }),
+    ],
+  });
+}
+var Rd = a(Y(), 1);
+var No = a(l(), 1);
+function Xr(e, o, t) {
+  return Rd.default.useCallback(
+    (r) => {
+      let n = e === "a" ? r / 100 : r;
+      if (n === o[e]) return;
+      let i = { ...o, [e]: n };
+      (t($.rgbaToString(i)), e === "a" && n === 0 && me());
+    },
+    [e, o, t]
+  );
+}
+function Md({ value: e, onChange: o, enabled: t }) {
+  let r = Xr("r", e, o),
+    n = Xr("g", e, o),
+    i = Xr("b", e, o),
+    s = Xr("a", e, o);
+  return (0, No.jsxs)("div", {
+    className: rr(Co, pt),
+    children: [
+      (0, No.jsx)(se, {
+        value: e.r,
+        onChange: r,
+        min: 0,
+        max: 255,
+        enabled: t,
+        className: le,
+        wrapperClassName: ct,
+        title: "Red",
+        "data-testid": "rgb-red-color-input",
+      }),
+      (0, No.jsx)(se, {
+        value: e.g,
+        onChange: n,
+        min: 0,
+        max: 255,
+        enabled: t,
+        className: le,
+        wrapperClassName: je,
+        title: "Green",
+        "data-testid": "rgb-green-color-input",
+      }),
+      (0, No.jsx)(se, {
+        value: e.b,
+        onChange: i,
+        min: 0,
+        max: 255,
+        enabled: t,
+        className: le,
+        wrapperClassName: je,
+        title: "Blue",
+        "data-testid": "rgb-blue-color-input",
+      }),
+      (0, No.jsx)(se, {
+        value: Ue(e.a),
+        onChange: s,
+        unit: "%",
+        min: 0,
+        max: 100,
+        enabled: t,
+        className: le,
+        wrapperClassName: dt,
+        title: "Alpha",
+        "data-testid": "rgb-alpha-color-input",
+      }),
+    ],
+  });
+}
+var G = a(l(), 1);
+function Si(e, o) {
+  return o === "hsl" ? $.hsvToHSLString(e) : $.hsvToRgbString(e);
+}
+var _r = class extends Mi.default.Component {
+  state = { dragging: !1 };
+  inputRef = Mi.default.createRef();
+  currentHue = null;
+  dragPosition = null;
+  onSaturationBrightnessDrag = (o) => {
+    let { progress: t } = o,
+      r = $.getAlpha(this.props.color),
+      n = { h: this.currentHue || 0, s: t.x, v: 1 - t.y, a: r },
+      i = re(this.props.color).format,
+      s = Si(n, i);
+    ((this.dragPosition = t), s && this.onChange(s, !1), r === 0 && me());
+  };
+  setColorModel = this.props.engine.scheduler.wrapHandler((o) => {
+    switch (o) {
+      case "P3": {
+        if (re.isP3String(this.props.color)) break;
+        let t = fe.fromRGBString(this.props.color)?.toString();
+        (T(t, "Invalid color " + this.props.color), this.onChange(t, !0));
+        break;
+      }
+      default: {
+        if (!re.isP3String(this.props.color)) break;
+        let t = fe.fromString(this.props.color)?.toString("srgb");
+        (T(t, "Invalid color " + this.props.color), this.onChange(t, !0));
+        break;
+      }
+    }
+    this.props.engine.stores.persistedUserDefaults.colorModel = o;
+  });
+  onSaturationBrightnessDragEnd = this.props.engine.scheduler.wrapHandler(() => {
+    this.onDragEnd();
+  });
+  onHueDrag = this.props.engine.scheduler.wrapHandler((o) => {
+    let t = re(this.props.color),
+      r = $.toHSV(this.props.color);
+    ((this.currentHue = o.progress.x * 360),
+      (r.h = this.currentHue),
+      r.s === 0 && this.forceUpdate());
+    let n = Si(r, t.format);
+    (n && this.onChange(n, !1), r.a === 0 && me());
+  });
+  onOpacityDrag = this.props.engine.scheduler.wrapHandler((o) => {
+    let t = $.toHSV(this.props.color);
+    t.a = o.progress.x;
+    let r = Si(t, re(this.props.color).format);
+    r && this.onChange(r, !1);
+  });
+  onChange = (o, t) => {
+    this.props.onChange(o, t ?? !this.state.dragging);
+  };
+  onDragStart = this.props.engine.scheduler.wrapHandler(() => {
+    (this.setState({ dragging: !0 }), this.props.engine.beginUndoGroup());
+  });
+  onDragEnd = this.props.engine.scheduler.wrapHandler(() => {
+    (this.props.engine.endUndoGroup(),
+      this.setState({ dragging: !1 }),
+      this.props.onChange(this.props.color, !0));
+  });
+  render() {
+    if (re.isP3String(this.props.color))
+      return (0, G.jsx)(wd, {
+        colorString: this.props.color,
+        className: this.props.className,
+        style: kd,
+        onChange: this.props.onChange,
+        onChangeColorModel: this.setColorModel,
+        allowP3: this.props.allowP3,
+        disabled: this.props.allowP3 === !1,
+      });
+    let { color: o, className: t } = this.props,
+      r = $.toHSV(o);
+    this.currentHue
+      ? r.s !== 0 &&
+        r.v !== 0 &&
+        !(r.h === 0 && this.currentHue === 360) &&
+        !this.state.dragging &&
+        (this.currentHue = Math.round(r.h))
+      : (this.currentHue = Math.round(r.h));
+    let n = this.currentHue,
+      i = 1 - r.v,
+      s = r.s;
+    return (
+      this.dragPosition !== null && ((i = this.dragPosition.y), (s = this.dragPosition.x)),
+      !this.state.dragging && this.dragPosition !== null && (this.dragPosition = null),
+      (0, G.jsx)(fr.Consumer, {
+        children: (c) =>
+          (0, G.jsxs)("div", {
+            className: t,
+            style: kd,
+            children: [
+              (0, G.jsx)("div", {
+                className: w(ad, c && vi),
+                style: um(n),
+                children: (0, G.jsx)(po, {
+                  onDragStart: this.onDragStart,
+                  onDrag: this.onSaturationBrightnessDrag,
+                  onDragEnd: this.onSaturationBrightnessDragEnd,
+                  style: fm,
+                  enabled: !c,
+                  children: (0, G.jsx)("div", { style: Ri(s, i, c) }),
+                }),
+              }),
+              (0, G.jsx)("div", {
+                style: { width: "100%", display: "flex", margin: `${ve.css.inputSpacing} 0` },
+                children: (0, G.jsxs)("div", {
+                  className: w(c && vi),
+                  style: {
+                    display: "flex",
+                    flexDirection: "column",
+                    flexGrow: 1,
+                    justifyContent: "center",
+                  },
+                  children: [
+                    (0, G.jsx)(po, {
+                      onDragStart: this.onDragStart,
+                      onDrag: this.onHueDrag,
+                      onDragEnd: this.onDragEnd,
+                      enabled: !c,
+                      style: mm,
+                      children: (0, G.jsx)("div", {
+                        style: Ld,
+                        children: (0, G.jsx)("div", { style: Ri(n / 360, void 0, c) }),
+                      }),
+                    }),
+                    (0, G.jsxs)(po, {
+                      onDragStart: this.onDragStart,
+                      onDrag: this.onOpacityDrag,
+                      onDragEnd: this.onDragEnd,
+                      enabled: !c,
+                      style: gm(o),
+                      children: [
+                        (0, G.jsx)("div", { style: Cm }),
+                        (0, G.jsx)("div", {
+                          style: Ld,
+                          children: (0, G.jsx)("div", { style: Ri(r.a, void 0, c) }),
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              }),
+              (0, G.jsx)(dm, {
+                colorModel: this.props.colorModel,
+                colorString: this.props.color,
+                onChange: this.onChange,
+                sampleColor: this.props.sampleColor,
+                setColorModel: this.setColorModel,
+              }),
+              (0, G.jsxs)("div", {
+                className: sd,
+                children: [
+                  (0, G.jsx)(Qr, {
+                    colorModel: this.props.colorModel === "P3" ? "RGB" : this.props.colorModel,
+                    onChangeColorModel: this.setColorModel,
+                    allowP3: this.props.allowP3,
+                  }),
+                  _t() || "EyeDropper" in window
+                    ? (0, G.jsx)(Gr, { onChange: this.onChange, enabled: !c, className: cd })
+                    : null,
+                ],
+              }),
+            ],
+          }),
+      })
+    );
+  }
+};
+function dm({ colorModel: e, colorString: o, onChange: t, sampleColor: r, setColorModel: n }) {
+  let i = Q();
+  switch (e) {
+    case "HSL":
+      return (0, G.jsx)(Sd, { value: $.toHSL(o), onChange: t, enabled: !i });
+    case "HEX":
+      return (0, G.jsx)(Vd, {
+        value: $.toRgb(o),
+        onChange: t,
+        sampleColor: r,
+        setColorModel: n,
+        enabled: !i,
+      });
+    default:
+      return (0, G.jsx)(Md, { value: $.toRgb(o), onChange: t, enabled: !i });
+  }
+}
+function um(e) {
+  return { backgroundColor: `${$.toColorPickerSquare(e)}` };
+}
+var fm = { position: "absolute", top: 1, right: 1, bottom: 1, left: 1 },
+  kd = { position: "relative" },
+  Ed = { position: "relative", width: "100%", height: 8, overflow: "visible", borderRadius: 6 },
+  mm = {
+    ...Ed,
+    marginBottom: 8,
+    backgroundImage:
+      "linear-gradient(to right, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%)",
+  };
+function gm(e) {
+  return {
+    ...Ed,
+    backgroundImage: `linear-gradient(to right, ${$.setAlpha(e, 0)}, ${$.setAlpha(e, 1)})`,
+    backgroundRepeat: "no-repeat",
+  };
+}
+var Ld = { position: "absolute", height: "100%", top: 0, left: 4, right: 4 },
+  hm = {
+    position: "absolute",
+    width: 14,
+    height: 14,
+    top: "50%",
+    transform: "translateX(-50%) translateY(-50%)",
+    borderRadius: "50%",
+    boxShadow: "inset 0 0 0 3px white, inset 0 0 0 4px rgba(0,0,0,.1), 0 0 0 1px rgba(0,0,0,.1)",
+    cursor: id.button,
+  };
+function Ri(e, o = 0.5, t) {
+  return { ...hm, left: `${e * 100}%`, top: `${o * 100}%`, pointerEvents: t ? "none" : void 0 };
+}
+var Cm = {
+  position: "absolute",
+  width: "100%",
+  height: "100%",
+  backgroundImage: `url(${Ci})`,
+  backgroundRepeat: "repeat",
+  borderRadius: 10,
+  zIndex: -1,
+};
+var Nd = "c2orl3y",
+  MI = "c1svq14t",
+  kI = "c1j2rli7",
+  Dd = "s1cbpxcr",
+  Wd = "sxhu8tk",
+  Bd = "c1yp40qr",
+  Ad = "czr60e9",
+  Od = "c1azw9i";
+var ge = a(Y(), 1);
+var Do = a(l(), 1);
+function Fd({ value: e, colorModel: o, isDarkMode: t, onChangeColor: r }) {
+  let n = B(),
+    [i, s] = (0, ge.useState)(null),
+    c = (0, ge.useRef)(null),
+    [p, d] = (0, ge.useState)({}),
+    [u, f] = (0, ge.useState)(null),
+    [b, C] = (0, ge.useState)(!1),
+    y = ym({
+      token: null,
+      isDarkMode: t,
+      imageFill: !1,
+      value: e,
+      colorStopSelection: void 0,
+      pendingExternalColor: u,
+      colorForExternalColor: p,
+      setPendingExternalColor: f,
+    }),
+    I = (0, ge.useCallback)(
+      (g) => {
+        let P = g.target.scrollTop > 0;
+        P !== b && C(P);
+      },
+      [b]
+    ),
+    { handleChangeColor: m, handleSampleColor: v } = vm({
+      isDarkMode: t,
+      onChangeColor: r,
+      setColorForExternalColor: d,
+      setPendingExternalColor: f,
+    });
+  return (
+    e !== i && s(e),
+    (0, Do.jsx)(ji.Provider, {
+      value: "color-picker",
+      children: (0, Do.jsx)("div", {
+        className: w(Nd),
+        children: (0, Do.jsx)(ys, {
+          onScroll: I,
+          ref: c,
+          className: Dd,
+          children: (0, Do.jsx)("div", {
+            className: Wd,
+            children: (0, Do.jsx)("div", {
+              className: w(Bd, Ad),
+              children: (0, Do.jsx)(_r, {
+                onChange: m,
+                color: y,
+                colorModel: o,
+                className: Od,
+                sampleColor: v,
+                engine: n,
+              }),
+            }),
+          }),
+        }),
+      }),
+    })
+  );
+}
+function ym({
+  isDarkMode: e,
+  token: o,
+  imageFill: t,
+  value: r,
+  colorStopSelection: n,
+  pendingExternalColor: i,
+  colorForExternalColor: s,
+  setPendingExternalColor: c,
+}) {
+  let p;
+  return (
+    o
+      ? (p = o.colorForMode(e))
+      : t
+        ? (p = "white")
+        : Zi(r)
+          ? (p = r)
+          : (p = r?.stops.find((d) => d.id === n)?.value || r?.stops[0]?.value || "transparent"),
+    i === p && c(null),
+    s[i ?? p] ?? p
+  );
+}
+function vm({
+  isDarkMode: e,
+  onChangeColor: o,
+  selection: t,
+  colorStopSelection: r,
+  setColorForExternalColor: n,
+  setPendingExternalColor: i,
+}) {
+  let s = B(),
+    c = (0, ge.useCallback)(
+      (f, b, C) => {
+        if (sr(f)) return;
+        let y = f,
+          I = no(y);
+        if (I) {
+          let v = ro(y),
+            g = v ? Uo(v, s.tree) : null;
+          g && (y = g.colorForMode(e));
+        }
+        let m = re.isP3String(y) ? y : $.toRgbString(y);
+        (n({ [m]: y }),
+          i(m),
+          queueMicrotask(() => {
+            o(I ? f : m, b, C);
+          }));
+      },
+      [e, o, n, i]
+    ),
+    p = (0, ge.useCallback)(
+      (f, b = !0) => {
+        (d(t), c(f, r, b));
+      },
+      [t, r, c]
+    ),
+    d = (0, ge.useCallback)((f) => {
+      if (!f) return;
+      s.tree.getNodes(f).some((y) => Yi(y) && y.resolveValue("opacity") === 0) &&
+        lr({
+          type: "add",
+          variant: "info",
+          icon: "color-wheel",
+          primaryText: "Increase layer opacity",
+          secondaryText: "to see changes.",
+          key: "color-change-null-opacity",
+          duration: 3e3,
+        });
+    }, []),
+    u = (0, ge.useCallback)(() => {
+      pr(s)
+        .then(
+          s.scheduler.wrapHandler((f) => {
+            f && p(f);
+          })
+        )
+        .catch(Ao);
+    }, [p]);
+  return { handleChangeColor: p, handleSampleColor: u };
+}
+var ki = a(l());
+function $I(e) {
+  return (0, ki.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    viewBox: "0 0 12 12",
+    fill: "none",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...e,
+    children: (0, ki.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      d: "M2.25 2.31a1 1 0 0 1 1.532-.847l5.871 3.69a1 1 0 0 1 0 1.694l-5.871 3.69A1 1 0 0 1 2.25 9.69Z",
+    }),
+  });
+}
+var Gt = a(l());
+function JI(e) {
+  return (0, Gt.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    viewBox: "0 0 12 12",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...e,
+    children: [
+      (0, Gt.jsx)("path", {
+        d: "M1.25 3.25C1.25 2.145 2.145 1.25 3.25 1.25h5.5c1.105 0 2 .895 2 2v5.5c0 1.105-.895 2-2 2h-5.5c-1.105 0-2-.895-2-2Z",
+        fill: "currentColor",
+        fillOpacity: 0.2,
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+      }),
+      (0, Gt.jsx)("path", {
+        d: "M4.5 4.402c0-.393.432-.632.765-.424l2.557 1.598c.313.196.313.652 0 .848L5.265 8.022c-.333.208-.765-.031-.765-.424Z",
+        fill: "currentColor",
+      }),
+    ],
+  });
+}
+var Pm = "framerComponentPresetProps",
+  Hd;
+async function Im(e) {
+  if (Fi.isTest) return [];
+  let o = [Ct.codeblock, Ct.youtube, Ct.vimeo];
+  Gi.isOn("richTextVideoModule") && o.push(Ct.video);
+  let { modules: t } = await e.lookUpModules(o.map(Ea));
+  return o.map((r, n) => {
+    let i = t[n];
+    (T(i, "Can't find module"),
+      T(r, "Component is undefined"),
+      T(i.files.module, "Module file is not set"));
+    let s = Qi(
+      i.id,
+      i.saveId,
+      i.files.module,
+      "exportSpecifier" in r && Ho(r.exportSpecifier) ? r.exportSpecifier : "default"
+    );
+    return { name: r.title, moduleId: i.id, componentIdentifier: s.value };
+  });
+}
+function zd(e) {
+  return ((Hd ??= Im(e)), Hd);
+}
+function aw(e) {
+  return zd(e.stores.modulesStore);
+}
+function Zd(e) {
+  let o = [],
+    t = Ja.getModuleNodes(e);
+  for (let r of t)
+    r.annotations &&
+      Pm in r.annotations &&
+      o.push({ name: r.title, moduleId: r.id, componentIdentifier: r.codeComponentIdentifier });
+  return o;
+}
+function sw(e) {
+  return Zd(e.tree);
+}
+function wm(e, o) {
+  let t = new Set();
+  for (let r of o) t.add(r.moduleId);
+  return e
+    .filter((r) => !t.has(r.moduleId))
+    .concat(o)
+    .sort((r, n) => r.name.localeCompare(n.name));
+}
+async function xm(e, o) {
+  let t = await zd(o),
+    r = Zd(e);
+  return wm(t, r);
+}
+async function lw(e) {
+  return xm(e.tree, e.stores.modulesStore);
+}
+var en = a(Y(), 1);
+var Kd = a(l(), 1),
+  yw = (0, en.memo)(function (o) {
+    let t = Sm(),
+      { value: r } = Tm(o.value, t);
+    return (
+      pn(H(r), "value must be a string"),
+      (0, Kd.jsx)(Fd, {
+        ...o,
+        colorModel: t.colorModel,
+        isDarkMode: t.isDarkMode,
+        value: r,
+        onChangeColor: o.onChange,
+      })
+    );
+  });
+function Vm(e) {
+  return "selection" in e && "selectedGradientStopId" in e;
+}
+function Tm(e, o) {
+  let t = B(),
+    r,
+    n = null;
+  if (
+    (H(e)
+      ? (r = e)
+      : Vm(o)
+        ? (r = e.stops.find(({ id: i }) => i === o.selectedGradientStopId)?.value ?? "transparent")
+        : (r = "transparent"),
+    no(r))
+  ) {
+    let i = ro(r),
+      s = i ? Uo(i, t.tree) : null;
+    (er(s) && !s.softDeleted && (n = s),
+      n || (e = s?.colorForMode(o.isDarkMode) ?? ar(r) ?? "transparent"));
+  }
+  return { value: e, token: n };
+}
+function Sm() {
+  let e = B();
+  pn(Xa(e), "engine must be an on page engine");
+  let o = Oa(e.stores.persistedUserDefaults, "colorModel");
+  return (0, en.useMemo)(() => ({ colorModel: o, isDarkMode: !0 }), [o]);
+}
+export {
+  pe as a,
+  zs as b,
+  Zs as c,
+  Pr as d,
+  Wn as e,
+  Ks as f,
+  Us as g,
+  Vt as h,
+  En as i,
+  Nn as j,
+  Dn as k,
+  Bn as l,
+  bl as m,
+  E0 as n,
+  vl as o,
+  xl as p,
+  Vl as q,
+  Tl as r,
+  Sr as s,
+  f1 as t,
+  fu as u,
+  mu as v,
+  m1 as w,
+  Qe as x,
+  g1 as y,
+  Cu as z,
+  kl as A,
+  Ll as B,
+  On as C,
+  Fn as D,
+  Ol as E,
+  ku as F,
+  Lu as G,
+  Jl as H,
+  Gl as I,
+  tt as J,
+  Ze as K,
+  Uh as L,
+  $h as M,
+  ep as N,
+  Cp as O,
+  bp as P,
+  yp as Q,
+  Ip as R,
+  wp as S,
+  op as T,
+  tp as U,
+  xp as V,
+  EC as W,
+  Ep as X,
+  Np as Y,
+  Dp as Z,
+  ip as _,
+  sC as $,
+  up as aa,
+  K as ba,
+  hb as ca,
+  Br as da,
+  Eb as ea,
+  Or as fa,
+  od as ga,
+  Gf as ha,
+  td as ia,
+  yc as ja,
+  Kr as ka,
+  Yp as la,
+  $b as ma,
+  Qb as na,
+  Rm as oa,
+  Os as pa,
+  Ur as qa,
+  ff as ra,
+  o4 as sa,
+  id as ta,
+  Ci as ua,
+  Ue as va,
+  ly as wa,
+  _r as xa,
+  Nd as ya,
+  MI as za,
+  kI as Aa,
+  Dd as Ba,
+  Wd as Ca,
+  Bd as Da,
+  Od as Ea,
+  ym as Fa,
+  vm as Ga,
+  $I as Ha,
+  JI as Ia,
+  aw as Ja,
+  sw as Ka,
+  wm as La,
+  lw as Ma,
+  yw as Na,
+  Tm as Oa,
+  Gp as Pa,
+  xy as Qa,
+  tc as Ra,
+  ac as Sa,
+  $y as Ta,
+  _y as Ua,
+  Hs as Va,
+  km as Wa,
+  tv as Xa,
+  lf as Ya,
+  uv as Za,
+  vc as _a,
+  di as $a,
+  x2 as ab,
+  V2 as bb,
+  T2 as cb,
+  S2 as db,
+  R2 as eb,
+  M2 as fb,
+  k2 as gb,
+  L2 as hb,
+  E2 as ib,
+  N2 as jb,
+  D2 as kb,
+  W2 as lb,
+  Pc as mb,
+  J2 as nb,
+  G2 as ob,
+  hf as pb,
+  tP as qb,
+  n2 as rb,
+  i2 as sb,
+  s2 as tb,
+  p2 as ub,
+  d2 as vb,
+};
+//# sourceMappingURL=chunk-I53D4HPK.mjs.map

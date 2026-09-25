@@ -1,0 +1,731 @@
+import { a as v } from "chunk-TNZI4DW4.mjs";
+import { a as ke, u as L, v as P } from "chunk-W6Z7XR5N.mjs";
+import {
+  Mw as Ee,
+  b as s,
+  c as T,
+  uk as ge,
+  vk as be,
+  wk as Ce,
+  xk as Se,
+  yk as F,
+  zk as xe,
+} from "chunk-UJD34LBT.mjs";
+import {
+  $h as ce,
+  Bf as A,
+  Bg as fe,
+  Ca as pe,
+  Fa as le,
+  Sj as me,
+  kl as ye,
+  of as M,
+  pf as de,
+  qf as y,
+  ra as R,
+  rf as h,
+  ta as S,
+  wf as w,
+  zf as O,
+} from "chunk-MEBKVNDB.mjs";
+import { p as Be } from "chunk-QVHG2R47.mjs";
+import { y as I } from "chunk-DTSMQR7C.mjs";
+import { b as $, o as ue } from "chunk-LA34HORX.mjs";
+import { b as x } from "chunk-4JY5UMT2.mjs";
+import { i as D } from "chunk-VJ7UYMJI.mjs";
+import { e as $e } from "chunk-WLHSDIGQ.mjs";
+function B() {
+  return () => {};
+}
+s(B, "Close Overlay", {});
+function K() {
+  return () => {};
+}
+s(K, "Load More", {});
+function z(e) {
+  return (t) => {
+    switch (e.type) {
+      case "event":
+        (ze(t) && t.persist(), console.log(t));
+        break;
+      case "message":
+        console.log(e.message);
+        break;
+      case "count":
+        console.count(e.message);
+        break;
+    }
+  };
+}
+s(z, "Console Log", {
+  type: {
+    type: "enum",
+    options: ["event", "message", "count"],
+    optionTitles: ["Event", "Message", "Count"],
+    defaultValue: "event",
+    title: "Type",
+  },
+  message: {
+    type: "string",
+    title: "Message",
+    hidden(e) {
+      return e.type === "event";
+    },
+  },
+});
+function Ke(e) {
+  return !!e && typeof e == "object";
+}
+function ze(e) {
+  return Ke(e) ? typeof e.persist == "function" : !1;
+}
+function W(e) {
+  return () => {
+    let { url: t } = e;
+    if (!t) return;
+    if (t.startsWith("#")) window.open(t, "_self");
+    else {
+      let n = t.includes(":") ? t : `http://${t}`;
+      window.open(n, "_blank", "noopener");
+    }
+  };
+}
+s(W, "Open Link", { url: { type: "string", placeholder: "www.framer.com", title: "URL" } });
+function q() {
+  return () => {};
+}
+s(q, "Reset Variables", {});
+function J() {
+  return () => {};
+}
+s(J, "Set Locale", {
+  localeId: { type: "enum", title: "Locale", options: ["default"], optionTitles: ["Default"] },
+});
+function Q() {
+  return () => {};
+}
+s(Q, "Set Variable", {});
+function G() {
+  return () => {};
+}
+s(G, "Overlay", {});
+function Z() {
+  return () => {};
+}
+s(Z, "Overlay", {});
+function X(e) {
+  return () => {};
+}
+s(X, "Event", { id: { type: "string" } });
+var We = [
+  "framer/useNavigate",
+  "framer/useOpenURL",
+  "framer/useDismissOverlay",
+  "framer/useLog",
+  "framer/useSetVariant",
+  "framer/useTriggerEvent",
+  "framer/useShowOverlay",
+  "framer/useShowRelativeOverlay",
+  "framer/useSetLocale",
+  "framer/useLoadMore",
+  "framer/useSetVariableValue",
+  "framer/useResetVariableValues",
+];
+function qe(e) {
+  switch (e) {
+    case "framer/useNavigate":
+      return Ee;
+    case "framer/useDismissOverlay":
+      return B;
+    case "framer/useShowOverlay":
+      return G;
+    case "framer/useShowRelativeOverlay":
+      return Z;
+    case "framer/useOpenURL":
+      return W;
+    case "framer/useLoadMore":
+      return K;
+    case "framer/useLog":
+      return z;
+    case "framer/useSetVariant":
+      return ke;
+    case "framer/useTriggerEvent":
+      return X;
+    case "framer/useSetLocale":
+      return J;
+    case "framer/useSetVariableValue":
+      return Q;
+    case "framer/useResetVariableValues":
+      return q;
+  }
+}
+var H = {};
+for (let e of We) {
+  let t = qe(e),
+    o = T(t);
+  if (o?.title && o.controls) {
+    let n = {
+      class: t,
+      depth: 1,
+      file: "",
+      identifier: e,
+      name: o.title,
+      packageIdentifier: "framer",
+      properties: P(o.controls),
+      type: "action",
+      update: 0,
+    };
+    H[e] = n;
+  }
+}
+var N = ((i) => (
+    (i.Scroll = "framer/Scroll"),
+    (i.Page = "framer/Page"),
+    (i.Stack = "framer/Stack"),
+    (i.Device = "__builtin/Device"),
+    (i.Prototype = "framer/Prototype"),
+    i
+  ))(N || {}),
+  V = "__builtin",
+  Ie = Object.values(N);
+var Y = "Stack",
+  ee = "Scroll",
+  te = "Page",
+  oe = "Device",
+  he = "Prototype",
+  oo = {
+    "framer/Stack": {
+      depth: 1,
+      file: "",
+      identifier: "framer/Stack",
+      name: Y,
+      packageIdentifier: "framer",
+      properties: j(y(w)),
+      type: "component",
+      update: 0,
+    },
+    "framer/Scroll": {
+      depth: 1,
+      file: "",
+      identifier: "framer/Scroll",
+      name: ee,
+      packageIdentifier: "framer",
+      properties: { ...j(y(A)), children: { title: "Content", type: "slot", maxCount: 1 } },
+      type: "component",
+      update: 0,
+    },
+    "framer/Page": {
+      depth: 1,
+      file: "",
+      identifier: "framer/Page",
+      name: te,
+      packageIdentifier: "framer",
+      properties: j(y(O)),
+      type: "component",
+      update: 0,
+    },
+    "__builtin/Device": {
+      depth: 1,
+      file: "",
+      identifier: "__builtin/Device",
+      name: oe,
+      packageIdentifier: V,
+      properties: j(y(h)),
+      type: "component",
+      update: 0,
+    },
+  };
+function j(e) {
+  return JSON.parse(JSON.stringify(e));
+}
+var Le = $e(Be());
+var Je = {
+  boolean: !0,
+  number: !0,
+  dimension: !0,
+  string: !0,
+  enum: !0,
+  segmentedenum: !0,
+  color: !0,
+  image: !0,
+  responsiveimage: !0,
+  file: !0,
+  array: !0,
+  transition: !0,
+  boxshadow: !0,
+  link: !0,
+  date: !0,
+  object: !0,
+  font: !0,
+  border: !0,
+  cursor: !0,
+  padding: !0,
+  borderradius: !0,
+  gap: !0,
+  trackingid: !0,
+};
+function Qe(e) {
+  return I(e) && Object.prototype.hasOwnProperty.call(Je, e);
+}
+var Ge = {
+  boolean: !0,
+  number: !0,
+  string: !0,
+  color: !0,
+  link: !0,
+  image: !0,
+  array: !0,
+  eventhandler: !0,
+};
+function De(e) {
+  return I(e) && Object.prototype.hasOwnProperty.call(Ge, e);
+}
+function Ze(e) {
+  return e !== void 0 && De(e.type);
+}
+function Te(e) {
+  return Qe(e.type);
+}
+function Re(e) {
+  return De(e.type)
+    ? e.type !== "array"
+      ? !0
+      : e.control.type !== "object"
+        ? !1
+        : !ye(e.control.controls)
+    : !1;
+}
+function ne(e) {
+  return /^[A-Za-z_$][\w$]*$/u.test(e);
+}
+var ve = [];
+function Me(e) {
+  if (e.type !== "array" || e.control.type !== "object") return { control: e, unsupported: ve };
+  let t = e.control,
+    o = {},
+    n;
+  for (let l in t.controls) {
+    let i = t.controls[l];
+    if (ne(l) && Ze(i)) {
+      o[l] = i;
+      continue;
+    }
+    ((n ??= []), n.push(l));
+  }
+  return n
+    ? { control: { ...e, control: { ...t, controls: o } }, unsupported: n }
+    : { control: e, unsupported: ve };
+}
+function re(e, t) {
+  (console.log(
+    "%c Loader: %c " + e,
+    "color: white; font-weight: bold; background-color: #EE4444; border-radius: 5px; padding: 2px 5px",
+    "color: #EE4444"
+  ),
+    t && console.warn(t));
+}
+var Xe = D("collectEntities");
+function Ye(e, t, o = "") {
+  return (e.depth > 0 && (o = `${e.name}/${o}`), `${o}${t}`);
+}
+function et(e) {
+  if (!(!k(e) || typeof e.userInterfaceName != "string")) return e.userInterfaceName;
+}
+function tt(e) {
+  return e && JSON.parse(JSON.stringify(e));
+}
+function ot(e) {
+  let t = { ...e };
+  for (let o in e) {
+    let n = e[o];
+    k(n) &&
+      ((n.type !== "responsiveimage" && n.type !== "file") ||
+        (typeof n.defaultValue == "string" &&
+          typeof n.__defaultAssetReference != "string" &&
+          (t[o] = { ...n, __defaultAssetReference: n.defaultValue })));
+  }
+  return t;
+}
+function C(
+  e,
+  t,
+  { identifierPrefix: o, packageInfo: n, file: l, moduleIdentifier: i, update: a },
+  f
+) {
+  let p;
+  i
+    ? (x(e.exportSpecifier, () => `export specifier was missing for ${e.name}`),
+      (i = le(i, e.exportSpecifier)),
+      (p = i.value))
+    : (p = Ye(n, e.name, o));
+  let { type: d } = e;
+  d ||
+    (Ie.includes(p) || re(`Entity info '${e.name}' doesn't have "type", assuming "component"`),
+    (d = "component"));
+  let u = {
+    class: t,
+    depth: n.depth,
+    file: l ?? "",
+    identifier: p,
+    name: et(t) ?? e.name,
+    packageIdentifier: n.name,
+    properties: {},
+    fonts: void 0,
+    type: d,
+    annotations: tt(e.annotations),
+    update: a ?? 0,
+  };
+  if (d === "action") {
+    let r = T(t);
+    return (r?.controls && (u.properties = P(r.controls)), r?.title && (u.name = r.title), u);
+  }
+  if (d === "hook") {
+    let r = u,
+      b = M(t);
+    return (
+      (r.properties = Fe(p, b?.inputs ?? {}, "inputs")),
+      (r.outputs = Fe(p, b?.outputs ?? {}, "outputs")),
+      Pe(t) && t.name && (r.name = t.name),
+      Oe(t) && (r.title = t.displayName),
+      r
+    );
+  }
+  if ((Oe(t) && (u.name = t.displayName), d === "data")) {
+    let r = u,
+      b = y(t);
+    return (
+      b
+        ? (r.properties = {
+            id: {
+              title: (0, Le.singular)(r.name),
+              type: "collectionreference",
+              dataIdentifier: r.identifier,
+            },
+            ...b,
+          })
+        : Xe.reportError(new Error("Property controls not found for collection.")),
+      (r.itemToSlug = f),
+      r
+    );
+  }
+  if (F(u))
+    return (
+      k(t) && k(t.propertyControls) && (u.properties = L(ot(t.propertyControls))),
+      k(t) && I(t.title) && (u.title = t.title),
+      u
+    );
+  let m = y(t),
+    c = {};
+  if (m) {
+    let r = we(t, d) ? t.defaultProps : void 0;
+    Object.assign(c, L(m, r));
+  }
+  return (
+    e.children && !c.children && (c.children = { title: "Content", type: "slot", maxCount: 1 }),
+    (u.properties = c),
+    (u.fonts = ce(t)),
+    we(t, d) ? Object.assign(u, { type: "component", defaultProps: void 0 }) : u
+  );
+}
+function we(e, t) {
+  return t === "component";
+}
+function k(e) {
+  return !!e && typeof e == "object";
+}
+function Pe(e) {
+  return typeof e == "function";
+}
+function Oe(e) {
+  if ((!k(e) && !Pe(e)) || !("displayName" in e)) return !1;
+  let t = e.displayName;
+  return typeof t == "string" && t.trim().length > 0;
+}
+var Ae = new Set();
+function ie(e, t) {
+  let o = `${e}/${t}`;
+  Ae.has(o) ||
+    (Ae.add(o), re(`Hook control '${t}' of ${e} has an unsupported type and is ignored`));
+}
+function Fe(e, t, o) {
+  let n = o === "inputs" ? Te : Re,
+    l = L(t),
+    i = {};
+  for (let a in t) {
+    let f = l[a];
+    if (!f || !ne(a) || !n(f)) {
+      ie(e, a);
+      continue;
+    }
+    if (o !== "outputs") {
+      i[a] = f;
+      continue;
+    }
+    let p = Me(f);
+    for (let d of p.unsupported) ie(e, `${a}.${d}`);
+    if (!n(p.control)) {
+      ie(e, a);
+      continue;
+    }
+    i[a] = p.control;
+  }
+  return i;
+}
+var _ = {
+    name: "framer",
+    displayName: "framer",
+    depth: 1,
+    exportsObject: {},
+    dependencies: {},
+    sourceModules: {},
+  },
+  nt = {
+    name: V,
+    displayName: "Built-in",
+    depth: 1,
+    exportsObject: {},
+    dependencies: {},
+    sourceModules: {},
+  },
+  se = {
+    "framer/Stack": C({ name: Y, children: void 0, type: void 0 }, w, { packageInfo: _ }),
+    "framer/Scroll": C({ name: ee, children: !0, type: void 0 }, A, { packageInfo: _ }),
+    "framer/Page": C({ name: te, children: void 0, type: void 0 }, O, { packageInfo: _ }),
+    "framer/Prototype": C({ name: he, children: void 0, type: void 0 }, h, { packageInfo: _ }),
+    "__builtin/Device": C({ name: oe, children: void 0, type: void 0 }, h, { packageInfo: nt }),
+  };
+var He = class {
+  environment = "sandbox";
+  localModulesInitialized = !1;
+  entities = new Map();
+  constructor() {
+    for (let t in se) this.entities.set(t, se[t]);
+    for (let t in H) this.entities.set(t, H[t]);
+  }
+  componentForIdentifier(t) {
+    return this.entities.get(t) ?? null;
+  }
+  reactComponentForIdentifier(t) {
+    let o = this.componentForIdentifier(t);
+    return !o || !ge(o) ? null : o;
+  }
+  getPropertyControlsForIdentifier(t) {
+    return this.componentForIdentifier(t)?.properties ?? null;
+  }
+  hookForIdentifier(t) {
+    let o = this.componentForIdentifier(t);
+    return !o || !Se(o) ? null : o;
+  }
+  renderableComponentForIdentifier(t) {
+    let o = this.componentForIdentifier(t);
+    return !o || !be(o) ? null : o;
+  }
+  dataForIdentifier(t) {
+    if (!t) return null;
+    let o = this.componentForIdentifier(t);
+    return !o || !Ce(o) ? null : o;
+  }
+  shaderForIdentifier(t) {
+    let o = this.componentForIdentifier(t);
+    return !o || !F(o) ? null : o;
+  }
+  errorForIdentifier(t) {
+    let o = pe(t);
+    if (!o) return v(t, "Components that are not modules do not exist.", { fileDoesNotExist: !0 });
+    let n = R(o),
+      l = o.value === n,
+      i = this.entities.get(n);
+    if (xe(i)) return i;
+    if (S(o) || (l && this.localModulesInitialized)) {
+      let a = "Component does not exist.";
+      return (
+        S(o) && o.type === "codeFile" && (a = "Component file does not exist."),
+        v(t, a, { fileDoesNotExist: !0 })
+      );
+    }
+    return null;
+  }
+  setLocalModulesInitialized(t) {
+    this.localModulesInitialized = t;
+  }
+  updateModuleEntities(t) {
+    for (let o of t) {
+      let n = o.identifier;
+      this.entities.set(n, o);
+    }
+  }
+  deleteModuleEntities(t) {
+    for (let o of t) this.entities.delete(o);
+  }
+  testing = {
+    setEntity: (t) => {
+      this.entities.set(t.identifier, t);
+    },
+    clearEntities: () => {
+      this.entities.clear();
+    },
+  };
+};
+function Ne(e) {
+  return ue(e) && /^use[A-Z0-9]/u.test(e.name);
+}
+function Ve(e) {
+  return typeof e == "object" && e !== null && "exports" in e;
+}
+var U = D("modules-runtime");
+async function rn(e, t, o, n, l, i) {
+  let { file: a, debugName: f } = st(t, l),
+    p = at(o);
+  if (p) {
+    U.error("Error in", f, ":", p);
+    let m = R(t),
+      c = v(m, p.message, { file: a });
+    n.push(c);
+    return;
+  }
+  x(!(o instanceof Error), "`evaluationResult` is not expected to be an `Error`.");
+  let d = {
+    packageInfo: {
+      name: S(t) ? me : t.importSpecifier,
+      displayName: "Components",
+      depth: S(t) ? 0 : 1,
+      exportsObject: {},
+      dependencies: {},
+      sourceModules: {},
+    },
+    file: a,
+    moduleIdentifier: t,
+    update: i,
+  };
+  if (!Ve(o.__FramerMetadata__)) {
+    U.warn(f, "is missing export '__FramerMetadata__'");
+    return;
+  }
+  let { exports: u } = o.__FramerMetadata__;
+  await Promise.all(
+    Object.entries(u).map(async ([m, c]) => {
+      let g = o[m],
+        r;
+      switch (c.type) {
+        case "override":
+          r = "override";
+          break;
+        case "reactComponent":
+          r = pt(c.annotations);
+          break;
+        case "reactHoc":
+          r = "hoc";
+          break;
+        case "data":
+          r = "data";
+          break;
+        case "shader":
+          r = "shader";
+          break;
+        default:
+          if (!M(g)) return;
+          if (!Ne(g)) {
+            U.warn(f, `export '${m}' has output controls but is not named like a hook`);
+            return;
+          }
+          r = "hook";
+          break;
+      }
+      x(g, () => `${m} is not exported from ${f}`);
+      let b;
+      if (r === "data" && e)
+        try {
+          b = await it(g, e, c.annotations ?? {});
+        } catch (Ue) {
+          U.reportError(Ue);
+        }
+      let je = {
+          exportSpecifier: m,
+          name: c.name || m,
+          children: c.type === "reactComponent" ? c.slots?.includes("children") : void 0,
+          type: r,
+          annotations: c.annotations,
+        },
+        ae = y(g);
+      typeof ae == "function" && de(g, await ae());
+      let _e = C(je, g, d, b);
+      n.push(_e);
+    })
+  );
+}
+async function it(e, t, o) {
+  let n = o.framerRecordIdKey,
+    l = o.framerSlug;
+  if (!n || !l || !fe(e)) return;
+  let i = await t.query(
+      {
+        from: { type: "Collection", data: e },
+        select: [
+          { type: "Identifier", name: n },
+          { type: "Identifier", name: l },
+        ],
+      },
+      void 0
+    ),
+    a = {};
+  for (let f of i) {
+    let p = f[n];
+    x($(p), "Id is required");
+    let d = f[l];
+    $(d) && (a[p] = d);
+  }
+  return a;
+}
+function st(e, t) {
+  let o, n;
+  return (
+    S(e)
+      ? e.type === "codeFile" && t
+        ? ((o = `./${t}`), (n = `${e.type}/${t}`))
+        : ((o = `./${e.localIdName}`), (n = e.localId))
+      : (o = n = `${e.moduleId}:${e.file}`),
+    { file: o, debugName: n }
+  );
+}
+function at(e) {
+  let t;
+  e instanceof Error && (t = e);
+  try {
+    e?.__FramerMetadata__;
+  } catch (o) {
+    t = new Error(
+      "Unknown module evaluation error. Safari must've dropped the original `Error` object.",
+      { cause: o }
+    );
+  }
+  return t;
+}
+function pt(e) {
+  return e?.framerScreen !== void 0
+    ? "screen"
+    : e?.framerResponsiveScreen !== void 0
+      ? "responsiveScreen"
+      : e?.framerPrototype !== void 0
+        ? "prototype"
+        : "component";
+}
+function an(e) {
+  window.esmsResolveHook = e;
+}
+function pn() {
+  return window.esmsResolveHook;
+}
+function ln(e) {
+  window.esmsFetchHook = e;
+}
+function un() {
+  return window.esmsFetchHook;
+}
+async function dn(e) {
+  return (
+    await import("https://app.framerstatic.com/es-module-shims-X7L6TZWE.mjs"),
+    window.importShim(e)
+  );
+}
+export { He as a, rn as b, st as c, at as d, an as e, pn as f, ln as g, un as h, dn as i };
+//# sourceMappingURL=chunk-BH4OF2VZ.mjs.map

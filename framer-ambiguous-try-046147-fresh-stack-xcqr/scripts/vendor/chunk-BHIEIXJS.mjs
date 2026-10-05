@@ -1,0 +1,10676 @@
+import { a as Rn, b as Pu, e as wu, m as ku, o as Qa, p as Eu, q as Vu } from "chunk-2JSARBTF.mjs";
+import {
+  $ as pu,
+  $a as mu,
+  Db as Iu,
+  E as cu,
+  I as Tn,
+  T as lu,
+  Z as Xa,
+  jb as uu,
+} from "chunk-6DUPMUEA.mjs";
+import { a as du, k as Cn } from "chunk-64AWZGRK.mjs";
+import { v as Su, w as Ru } from "chunk-MZWJ4T3O.mjs";
+import { Ma as Ja } from "chunk-UUNUQE77.mjs";
+import { R as xn, a as Fu, h as Ou, k as es, n as Lu } from "chunk-LGRLUALD.mjs";
+import { a as xu, b as bu } from "chunk-XZERF35Z.mjs";
+import {
+  $c as Mm,
+  $i as hu,
+  Bb as xm,
+  Bi as Sn,
+  Cb as je,
+  Db as yn,
+  Fc as Am,
+  Jg as qm,
+  Mb as Pm,
+  Ob as wm,
+  Pb as km,
+  Sd as _m,
+  Th as Ut,
+  Vh as Zm,
+  Wc as Wm,
+  Xc as Fm,
+  Yc as Dm,
+  Yj as Cu,
+  Zc as Om,
+  _c as Lm,
+  _i as yu,
+  a as ld,
+  ad as Bm,
+  ae as _a,
+  bd as Hm,
+  cd as Gm,
+  dd as zm,
+  e as Fc,
+  ed as Um,
+  fd as Ka,
+  lb as un,
+  nc as Em,
+  ne as Ym,
+  o as rp,
+  od as jm,
+  oi as fu,
+  pj as gu,
+  qd as zt,
+  qj as qa,
+  r as xf,
+  sc as ja,
+  tc as Vm,
+  v as bf,
+  vd as ko,
+  w as vf,
+  wd as hn,
+} from "chunk-N4TAVXNG.mjs";
+import {
+  A as au,
+  S as su,
+  U as Tu,
+  b as tp,
+  c as bm,
+  k as vm,
+  n as eu,
+  p as tu,
+  q as ou,
+  v as iu,
+  z as nu,
+} from "chunk-F37BNY25.mjs";
+import { e as Nu } from "chunk-IVG7E4GS.mjs";
+import { a as Sm, c as Rm } from "chunk-RIYKQMZE.mjs";
+import { a as ts } from "chunk-SPWSWTND.mjs";
+import { U as Ya } from "chunk-MRT4ZCK6.mjs";
+import {
+  Ac as zf,
+  D as za,
+  Dc as Uf,
+  E as Vf,
+  Fd as am,
+  Le as st,
+  R as Lf,
+  S as ln,
+  Xc as Zf,
+  a as Rf,
+  ad as Jf,
+  b as Ha,
+  ba as Mf,
+  cd as fn,
+  dd as Qf,
+  e as dn,
+  fd as em,
+  gd as tm,
+  nd as om,
+  od as rm,
+  p as Ga,
+  se as Ua,
+  td as nm,
+  uc as Hf,
+  ve as Tm,
+  wc as Gf,
+  we as Cm,
+  zc as pn,
+} from "chunk-LANRVDEN.mjs";
+import {
+  $ as Kp,
+  Ad as lm,
+  Bd as pm,
+  Dc as Xf,
+  Dd as fm,
+  Ed as mm,
+  Fa as Cf,
+  Jb as _f,
+  Jd as um,
+  Lc as qf,
+  Na as Gt,
+  P as tn,
+  Rb as Yf,
+  Sa as kf,
+  Tc as Tr,
+  Wa as Ef,
+  Y as rn,
+  Yc as im,
+  _d as ym,
+  aa as _p,
+  ad as sm,
+  ba as yr,
+  be as hm,
+  cd as mn,
+  da as $p,
+  f as Pp,
+  fa as Xp,
+  ga as qp,
+  hd as dm,
+  ia as Qp,
+  ka as ef,
+  la as tf,
+  mb as Bf,
+  na as nf,
+  ne as gm,
+  oa as af,
+  vd as cm,
+  xc as $f,
+} from "chunk-SFO7GQVS.mjs";
+import { m as Xm } from "chunk-V3Q7YSFV.mjs";
+import {
+  $d as rl,
+  $o as Fa,
+  $q as Ji,
+  $s as wo,
+  Aa as fc,
+  Ae as Ul,
+  Aq as Ui,
+  Ar as Ma,
+  Bo as bp,
+  Bt as uf,
+  Ca as mc,
+  Cl as Va,
+  Ct as bt,
+  Db as li,
+  Do as vp,
+  Dp as Fi,
+  Dq as ji,
+  Ds as rf,
+  Dv as Nf,
+  E as kd,
+  Ec as Gc,
+  Er as Bp,
+  Fb as Dc,
+  Fd as tl,
+  Fh as wi,
+  Fp as Di,
+  Fu as Xe,
+  Fv as If,
+  Gp as Ep,
+  Gq as Ki,
+  Gs as hr,
+  Gt as Ba,
+  Gv as Pf,
+  Hb as Oc,
+  Hp as Oi,
+  Hw as Wf,
+  Io as Np,
+  Iu as Tf,
+  Jh as $l,
+  Jo as oo,
+  Jp as Ee,
+  Jq as _i,
+  Jr as ur,
+  Jv as wf,
+  Kr as Hp,
+  Kw as cn,
+  La as Pc,
+  Lh as Xl,
+  Lo as Ip,
+  Lp as Vp,
+  Lr as Gp,
+  Ls as gr,
+  M as Vd,
+  Ma as wc,
+  Mp as Ap,
+  Mq as Yi,
+  Na as kc,
+  Np as Da,
+  Nt as yf,
+  Oc as ui,
+  Ok as Ea,
+  On as No,
+  Op as Oa,
+  Ow as Ff,
+  Pa as Ec,
+  Pe as Pi,
+  Pj as np,
+  Pq as $i,
+  Q as $d,
+  Qr as zp,
+  Rh as ql,
+  Rw as Df,
+  Sc as zc,
+  Sn as hp,
+  Sq as Xi,
+  Ss as sf,
+  T as Xd,
+  Ta as fa,
+  Tc as Uc,
+  Ts as df,
+  U as Qr,
+  Up as Wp,
+  V as gt,
+  Vq as qi,
+  Vr as Up,
+  Vs as cf,
+  Vw as Of,
+  W as ei,
+  Wa as Vc,
+  Wd as ol,
+  Wk as cp,
+  X as qd,
+  Xe as jl,
+  Xp as mr,
+  Xw as jf,
+  Y as Zd,
+  Yh as ki,
+  Yq as Zi,
+  Yr as jp,
+  Yt as hf,
+  Yw as Kf,
+  Zh as Zl,
+  Zn as gp,
+  Zo as fr,
+  Zs as Ye,
+  _b as eo,
+  _n as Wa,
+  _p as xt,
+  _r as Ue,
+  _s as $e,
+  ae as Bt,
+  ag as _l,
+  bb as ma,
+  bq as Fp,
+  bs as Yp,
+  bt as lf,
+  cr as Qi,
+  d as Td,
+  dc as pi,
+  di as Jl,
+  do as Tp,
+  ds as nn,
+  dt as pf,
+  e as Cd,
+  ed as jc,
+  fa as rc,
+  fn as pp,
+  fr as en,
+  fu as gf,
+  gi as Ql,
+  go as Cp,
+  gt as ff,
+  hb as di,
+  hd as Kc,
+  hi as wa,
+  id as _c,
+  if as Kl,
+  ii as cr,
+  iq as Li,
+  j as Jo,
+  jl as lp,
+  jo as Wi,
+  jr as Dp,
+  kb as Ac,
+  kc as Co,
+  kd as yi,
+  kk as ap,
+  kl as to,
+  ko as Sp,
+  ks as Zp,
+  li as ep,
+  ll as bo,
+  lq as Mi,
+  mb as be,
+  mk as sp,
+  ne as ha,
+  nk as Ei,
+  no as Rp,
+  oa as ca,
+  oc as fi,
+  oi as at,
+  on as fp,
+  oq as Bi,
+  or as Op,
+  qd as Yc,
+  qi as op,
+  qk as dp,
+  ra as ni,
+  rd as $c,
+  rn as mp,
+  ro as xp,
+  rp as wp,
+  rq as Hi,
+  rr as La,
+  rv as Sf,
+  sb as Wc,
+  sn as up,
+  so as Io,
+  sr as on,
+  ss as Jp,
+  st as mf,
+  t as Zr,
+  ta as me,
+  tc as Bc,
+  tm as vo,
+  tr as Lp,
+  ud as el,
+  ug as Yl,
+  um as Vi,
+  uq as Gi,
+  va as pc,
+  vn as yp,
+  vo as Po,
+  vp as kp,
+  vr as Mp,
+  vw as Af,
+  wc as Hc,
+  ws as an,
+  xi as lr,
+  xn as Aa,
+  xq as zi,
+  xt as sn,
+  yn as Ai,
+  yo as pr,
+  zs as of,
+} from "chunk-DHVDZZZR.mjs";
+import {
+  $a as Sd,
+  $b as Zo,
+  $d as tr,
+  $o as va,
+  A as jr,
+  Ak as ci,
+  B as tt,
+  Bb as Be,
+  Bk as Qt,
+  Br as Ii,
+  Ca as yd,
+  Cb as xd,
+  Di as Mt,
+  Ei as rr,
+  Eo as xl,
+  Fi as sc,
+  Fk as Xc,
+  Fm as cl,
+  Gd as ge,
+  Gn as ul,
+  Go as bl,
+  Hd as aa,
+  Hq as Dl,
+  Ie as Kd,
+  Ii as Ct,
+  Jj as uc,
+  Jl as ya,
+  Js as zl,
+  Kj as ke,
+  Kl as gi,
+  Ko as vl,
+  Le as _d,
+  Li as sa,
+  Lm as ll,
+  Me as ho,
+  Mi as Pe,
+  Ml as Qc,
+  Mn as Si,
+  Mo as Nl,
+  N as ud,
+  Nd as Bd,
+  Nj as yc,
+  Oe as Yd,
+  Oj as s,
+  Ol as ar,
+  Pb as qo,
+  Pi as dc,
+  Pj as G,
+  Pk as qc,
+  Pq as Ol,
+  Pr as Hl,
+  Qj as nr,
+  Qk as Zc,
+  Ql as ot,
+  Qm as Rt,
+  Qn as Ri,
+  Qq as nt,
+  Rj as St,
+  Rk as ua,
+  Rm as Ti,
+  Sd as Ot,
+  Se as Jd,
+  Si as oi,
+  Sk as Jc,
+  Sl as ga,
+  Sm as pl,
+  So as vi,
+  Td as Lt,
+  Te as go,
+  Tj as hc,
+  Tm as Z,
+  Ub as bd,
+  Uc as Qo,
+  Ud as Jr,
+  Ue as Qd,
+  Uj as Ne,
+  Ul as il,
+  Un as xi,
+  Uo as Il,
+  Vb as vd,
+  Vc as ta,
+  Vd as Hd,
+  Vi as we,
+  Vj as c,
+  Vl as Ta,
+  Vo as Pl,
+  Wc as Wd,
+  Wd as Gd,
+  Wi as da,
+  Wo as wl,
+  Wq as Pa,
+  Xj as gc,
+  Xo as kl,
+  Yb as ea,
+  Yj as Tc,
+  Yl as Ca,
+  Ym as Ra,
+  Yn as bi,
+  Zb as Nd,
+  Zd as yo,
+  Zi as cc,
+  _d as pe,
+  _j as ai,
+  _l as Sa,
+  ao as yl,
+  ap as El,
+  bk as Cc,
+  bo as hl,
+  bp as Vl,
+  bt as dr,
+  cs as Gl,
+  ct as ro,
+  d as $n,
+  db as Le,
+  dd as Fd,
+  dj as ir,
+  dk as To,
+  eb as _r,
+  ej as ri,
+  ek as Jt,
+  em as nl,
+  eo as gl,
+  f as Yo,
+  fb as Yr,
+  fc as Id,
+  fj as _e,
+  fk as pa,
+  fo as Tl,
+  gj as ii,
+  gm as sr,
+  gn as fl,
+  hb as qn,
+  hd as Dd,
+  hk as Sc,
+  ik as si,
+  jb as mo,
+  jc as Pd,
+  jd as er,
+  je as zd,
+  jk as Rc,
+  jr as Ll,
+  kb as Dt,
+  kd as Od,
+  kk as xc,
+  lb as Zn,
+  ld as Xt,
+  li as ic,
+  ll as hi,
+  lo as Cl,
+  m as et,
+  mb as Rd,
+  mk as bc,
+  nb as Me,
+  ne as Ud,
+  no as ba,
+  nq as Wl,
+  ob as Jn,
+  oc as wd,
+  od as Ld,
+  ok as vc,
+  om as al,
+  pb as $r,
+  pd as yt,
+  ph as or,
+  qe as jd,
+  qm as sl,
+  qp as Na,
+  rb as ut,
+  rd as qt,
+  rj as lc,
+  rk as Nc,
+  rm as dl,
+  ro as Sl,
+  sb as ne,
+  sd as oa,
+  sk as Ic,
+  sp as Ni,
+  tb as H,
+  td as ht,
+  ub as Xo,
+  ud as ra,
+  ui as nc,
+  uj as la,
+  up as Ia,
+  vb as Qn,
+  vc as uo,
+  vd as ia,
+  wb as Xr,
+  wd as Md,
+  wf as Tt,
+  wi as ac,
+  wp as Al,
+  wq as Fl,
+  wr as xo,
+  x as md,
+  xb as wt,
+  xd as na,
+  yb as qr,
+  yf as tc,
+  yo as Rl,
+  yr as Ml,
+  zr as Bl,
+} from "chunk-V6SO7RRW.mjs";
+import { a as Zt, c as ti, f as oc } from "chunk-UYIYJ4FN.mjs";
+import { B as Mu, a as Kt } from "chunk-HXIGRPSG.mjs";
+import { a as Bu } from "chunk-EHVYGNVJ.mjs";
+import { f as Au, o as jt } from "chunk-6DUNL4H3.mjs";
+import { a as Za } from "chunk-FW7PEDYJ.mjs";
+import { a as vu } from "chunk-N2DJHBJE.mjs";
+import { c as Ie, d as Im } from "chunk-KHLE6F5R.mjs";
+import { f as Hu, g as Gu } from "chunk-UXHDX4NH.mjs";
+import { b as Du } from "chunk-P6Q3LWLD.mjs";
+import { b as qe } from "chunk-TS24LVSZ.mjs";
+import { a as Wu } from "chunk-VD6KMVU6.mjs";
+import { a as ru } from "chunk-4HRYW54D.mjs";
+import { b as gn } from "chunk-WDDZ5DYW.mjs";
+import { a as $m } from "chunk-5I3BLAB2.mjs";
+import { u as Km } from "chunk-4ITXAZLA.mjs";
+import { d as Nm } from "chunk-IBBQFOLQ.mjs";
+import { a as Qm } from "chunk-7WJ42D6X.mjs";
+import { a as $a } from "chunk-DQ4NN22F.mjs";
+import { f as Ve } from "chunk-J6DOD5P5.mjs";
+import { a as Ce } from "chunk-QFU6OGL3.mjs";
+import { a as Jm } from "chunk-24G7FGVN.mjs";
+import { a as ip, f as ka } from "chunk-SJWGZSVD.mjs";
+import {
+  S as mi,
+  T as Lc,
+  U as Mc,
+  ba as ml,
+  da as Ci,
+  ea as xa,
+  l as pd,
+} from "chunk-6CK5ILIF.mjs";
+import { e as Ad, g as ec } from "chunk-K3IJ2B65.mjs";
+import { a as fd, b as $o } from "chunk-XD24P57D.mjs";
+import { b as Ht, d as Ro } from "chunk-ZRJOMEJX.mjs";
+import { a as N, b as ie } from "chunk-WRBBN7SY.mjs";
+import { a as E } from "chunk-KQKA2AEH.mjs";
+import { b as Ed } from "chunk-YSP5ZHDJ.mjs";
+import { b as Ur } from "chunk-AUNF3KWQ.mjs";
+import { b as So, c as Te } from "chunk-AYNVEX5D.mjs";
+import { a as Y } from "chunk-2FCXHKEL.mjs";
+import { a as Oe } from "chunk-SWYZG2NI.mjs";
+import { g as hd, p as Q } from "chunk-PD6AXQBN.mjs";
+import {
+  a as gd,
+  b as J,
+  e as re,
+  f as he,
+  h as ue,
+  k as ze,
+  m as D,
+  o as Xn,
+  p as Kr,
+} from "chunk-LA34HORX.mjs";
+import { b as L, c as xe } from "chunk-4JY5UMT2.mjs";
+import { i as dd, k as cd } from "chunk-VHFKZWVR.mjs";
+import { b as Gr, i as zr } from "chunk-VJ7UYMJI.mjs";
+import { e as B } from "chunk-WLHSDIGQ.mjs";
+var bn = B(Oe(), 1),
+  FC = {},
+  zu = (0, bn.createContext)(FC);
+zu.displayName = "ControlPropRowContext";
+function Fb() {
+  let e = (0, bn.useContext)(zu);
+  if (!e)
+    throw new Error("useControlPropRows must be used within a ControlPropRowContext.Provider");
+  return e;
+}
+function Bb(e) {
+  return (e.cache.ancestorRepeaterIds?.length ?? 0) > 0;
+}
+function Uu(e, t) {
+  let { ancestorRepeaterIds: o } = t.cache;
+  if (!o) return !1;
+  for (let r of o) {
+    let n = e.get(r);
+    if (qn(n)) return !0;
+  }
+  return !1;
+}
+function ju(e, t) {
+  if (Qt(t)) return !0;
+  for (let o of Ll(e, t)) {
+    let r = e.get(o);
+    if (qn(r) || Qt(r)) return !0;
+  }
+  return !1;
+}
+function Ku(e) {
+  let t = e.matchAll(/data-framer-asset="(?<asset>[^"]+)"/gu);
+  return Array.from(t)
+    .map((o) => o.groups?.asset)
+    .filter(xo);
+}
+function DC(e, t, o) {
+  if (To(t) && !(Jt(t) && !t.fillEnabled) && t.fillType === "image" && t.fillImage) {
+    let n = t.resolveValue("fillImage"),
+      a = Va(n);
+    J(a) && o.add(a);
+  }
+  if (Ic(t) && t.fillImageAlts)
+    for (let n of t.fillImageAlts) {
+      if (!n) continue;
+      let a = Va(n.image);
+      J(a) && o.add(a);
+    }
+  function r(n) {
+    switch (n.type) {
+      case "image": {
+        let a = n.value;
+        (ge(n.value) && (a = t.cache.getVariableReferenceValue(n.value)),
+          J(a) && a.length > 0 && o.add(a));
+        break;
+      }
+      case "richtext": {
+        if (J(n.value)) {
+          let a = Ku(n.value);
+          for (let d of a) o.add(d);
+        }
+        break;
+      }
+      case "object": {
+        if (he(n.value)) {
+          let a = Object.values(n.value);
+          for (let d of a) r(d);
+        }
+        break;
+      }
+      case "array": {
+        if (!ze(n.value)) break;
+        for (let a of n.value) r(a);
+        break;
+      }
+      case "boolean":
+      case "color":
+      case "date":
+      case "enum":
+      case "eventhandler":
+      case "file":
+      case "fusednumber":
+      case "link":
+      case "linkrelvalues":
+      case "number":
+      case "dimension":
+      case "string":
+      case "transition":
+      case "font":
+      case "pagescope":
+      case "scrollsectionref":
+      case "customcursor":
+      case "border":
+      case "cursor":
+      case "boxshadow":
+      case "slot":
+      case "gap":
+      case "padding":
+      case "borderradius":
+      case "collectionreference":
+      case "multicollectionreference":
+      case "trackingid":
+      case "vectorsetitem":
+      case "location":
+        break;
+      default:
+        xe(n);
+    }
+  }
+  if (H(t)) {
+    let n = e.getPropertyControls(t.codeComponentIdentifier);
+    if (n) {
+      let a = t.getControlProps(n);
+      for (let d in a) {
+        let i = a[d];
+        (L(i), r(i));
+      }
+    }
+  }
+  if (qr(t)) {
+    let n = t.getControlProps();
+    for (let a in n) {
+      let d = n[a];
+      (L(d), r(d));
+    }
+  }
+}
+function vn(e, t, o) {
+  for (let r of t.walk()) DC(e, r, o);
+}
+var OC = { track: !0 };
+function _u(e) {
+  let t = { ...e, event: "grids_create" };
+  Ur(t, OC);
+}
+var LC = { track: !0 };
+function Yu(e) {
+  let t = { ...e, event: "variable_reference_delete" };
+  Ur(t, LC);
+}
+function $u({
+  engine: e,
+  selection: t,
+  source: o,
+  openPopout: r,
+  overlayGrid: n,
+  preserveExisting: a,
+}) {
+  let d = e.tree.withoutDescendants(e.tree.getNodes(t)),
+    i = new Set();
+  if (d.length === 0) return;
+  let l = d[0],
+    f = rn(l) ? l.overlayGrid?.identifier : void 0;
+  (d.forEach((m) => {
+    let u = e.tree.getGroundNodeFor(m);
+    if (i.has(u.id) || (i.add(u.id), !Le(u) || (a && u.overlayGrid))) return;
+    let S = n ? { ...n, identifier: Ed() } : Kp(u.width);
+    (f || (f = S.identifier),
+      _u({ gridId: S.identifier, source: o }),
+      e.tree.current(u)?.set({ overlayGrid: S }));
+  }),
+    r && f && xn.navigation.presentPopoutOnRegistration(f));
+}
+function Xu(e, t, o, r) {
+  for (let n of t) {
+    let a = e.get(n);
+    if (!(!a || !yr(a)))
+      if (r) {
+        let [d] = Object.keys(o);
+        if (!d) continue;
+        let i = o[d];
+        if (!i) continue;
+        a.set({ pageEffects: { ...a.pageEffects, [r]: i } });
+      } else a.set({ pageEffects: { ...a.pageEffects, ...o } });
+  }
+}
+async function MC(e, t, o = !0) {
+  if (!(await lf())) return !0;
+  let r = await Ye("application/x-framer-page-effects");
+  if (!he(r)) return !1;
+  let n = Object.keys(r).length;
+  return (!o && n > 1) || (n === 1 && r[_p])
+    ? !1
+    : t.every((d) => {
+        let i = e.get(d);
+        return i ? yr(i) : !0;
+      });
+}
+async function pv(e, t) {
+  return MC(e, t, !1);
+}
+function Nn(e, t) {
+  let o = or(t);
+  return o ? os(e, t, o) : t;
+}
+function os(e, t, o) {
+  let r = Qc(t, o);
+  if (!r) return t;
+  let n = Sm(r, e);
+  return n ? `var(--${ip(n.name)}, ${n.light})` : t;
+}
+function qu(e, t) {
+  if (bt(e)) {
+    let o = ne(e) ? BC(e) : HC(e);
+    Object.assign(t, o);
+  }
+}
+function BC(e) {
+  let [t] = e.getFonts(!1),
+    [o] = e.getTextColors(!1),
+    [r] = e.getFontSizes(!1),
+    [n] = e.getOpenTypeFontFeatures(!1),
+    [a] = e.getVariationAxes(!1),
+    d = {};
+  if (!D(t)) {
+    let i = ha(t);
+    Object.assign(d, i);
+  }
+  if (!D(o)) {
+    let i = ge(o) ? e.cache.getVariableReferenceValue(o) : o,
+      l = e.tree();
+    (l && ot(i) && (i = Nn(l, i)), (d.color = i));
+  }
+  if (ge(r)) {
+    let i = e.cache.getVariableReferenceValue(r);
+    (L(re(i), "Font Size variable reference must resolve to a number"), (d.fontSize = la(i, "px")));
+  } else D(r) || (d.fontSize = la(...r));
+  return (
+    Nt(d, "letterSpacing", e.getLetterSpacings(!1)[0]?.join("")),
+    Nt(d, "textTransform", e.getTextTransforms(!1)[0], "none"),
+    Nt(d, "textAlign", e.getTextAlignments(!1)[0], "start"),
+    Nt(d, "lineHeight", e.getLineHeights(!1)[0]?.join("")),
+    Nt(d, "textDecoration", e.getTextDecorations(!1)[0], eo.textDecoration),
+    Nt(d, "textDecorationColor", e.getTextDecorationColors(!1)[0], eo.textDecorationColor),
+    Nt(
+      d,
+      "textDecorationThickness",
+      e.getTextDecorationThicknesses(!1)[0],
+      eo.textDecorationThickness
+    ),
+    Nt(d, "textDecorationStyle", e.getTextDecorationStyles(!1)[0], eo.textDecorationStyle),
+    Nt(d, "textDecorationSkipInk", e.getTextDecorationSkipInks(!1)[0], eo.textDecorationSkipInk),
+    Nt(d, "textUnderlineOffset", e.getTextDecorationOffsets(!1)[0], eo.textDecorationOffset),
+    D(n) || (d.fontFeatureSettings = Bc(n)),
+    D(a) || (d.fontVariationSettings = el(a)),
+    d
+  );
+}
+function Nt(e, t, o, r) {
+  !D(o) && o !== r && (e[t] = o);
+}
+function HC(e) {
+  let [t] = e.getFonts(!1);
+  L(t, "TextNode must have at least one font");
+  let [o] = e.getLetterSpacings(!1),
+    [r] = e.getTextTransforms(!1),
+    [n] = e.getTextDecorations(!1),
+    [a] = e.getLineHeights(),
+    [d] = e.getTextAlignments(),
+    [i] = e.getTextColors(!1),
+    [l] = e.getFontSizes(!1);
+  if ((ge(i) && (i = e.cache.getVariableReferenceValue(i)), ot(i))) {
+    let m = gi(i);
+    m && (i = m);
+  }
+  ge(l) && (l = e.cache.getVariableReferenceValue(l));
+  let f = {
+    ...ha(t),
+    color: i,
+    fontSize: l + "px",
+    letterSpacing: D(o) ? void 0 : Co(o).join(""),
+    lineHeight: a.join(""),
+    tabSize: 4,
+  };
+  return (
+    r !== fi.textTransform && (f.textTransform = r),
+    n !== fi.textDecoration && (f.textDecoration = n),
+    d !== fi.textAlignment && (f.textAlign = d),
+    f
+  );
+}
+function iN(e) {
+  return !(!e || ke(e) || !ai(e));
+}
+function Ju(e, t, o, r = "CSS") {
+  let n = zC(e, t, o, r);
+  return GC(n);
+}
+function GC(e) {
+  return e.map((o) => `${o.prop}: ${o.value};`).join(`
+`);
+}
+function zC(e, t, o, r) {
+  let { css: n, comments: a } = $C(e, t, o);
+  return Tf(n, r, a);
+}
+function Zu(e, t) {
+  let o = e.getParent(t.id);
+  return !o || !_r(o) ? null : o.resolveValue("stackDirection") || null;
+}
+var UC = ({
+    paddingTop: e = 0,
+    paddingRight: t = 0,
+    paddingBottom: o = 0,
+    paddingLeft: r = 0,
+  }) => ({ width: r + t, height: e + o }),
+  jC = ({ padding: e = 0 }) => ({ width: e * 2, height: e * 2 }),
+  KC = (e) => (e.paddingPerSide ? UC(e) : jC(e));
+function _C(e) {
+  if (oo(e) && e.borderEnabled && e.borderWidth) return !0;
+  if (ui(e)) {
+    if (pe(e.padding)) return !0;
+    let t = KC({
+      padding: e.padding,
+      paddingPerSide: e.paddingPerSide,
+      paddingTop: e.paddingTop,
+      paddingRight: e.paddingRight,
+      paddingBottom: e.paddingBottom,
+      paddingLeft: e.paddingLeft,
+    });
+    if (t.width > 0 || t.height > 0) return !0;
+  }
+  return !1;
+}
+function YC(e, t, o, r) {
+  if (ni(t) && (_C(t) && (o.boxSizing = "border-box"), xp(t) && (o.flexShrink = 0), me(t))) {
+    switch (t.widthType) {
+      case 3: {
+        let n = Zu(e, t);
+        n &&
+          (n === "horizontal"
+            ? ((o.flex = t.width), (o.width = "1px"))
+            : (o.width = `${t.width * 100}%`));
+        break;
+      }
+      case 2: {
+        o.width = "auto";
+        let n = ca(t) && t.usesDOMRectCached() ? t.getDOMRect() : null;
+        if (n) {
+          let a = Xe(n.width);
+          ((r.width = a), Ba(t) && (o.minWidth = a));
+        }
+        break;
+      }
+      case 0:
+        o.width = Xe(t.width);
+        break;
+      case 1:
+        o.width = Xe(`${Math.round(t.width * 100)}%`);
+        break;
+    }
+    switch (t.heightType) {
+      case 3: {
+        let n = Zu(e, t);
+        n &&
+          (n === "horizontal"
+            ? (o.height = `${t.height * 100}%`)
+            : ((o.flex = t.height), (o.height = "1px")));
+        break;
+      }
+      case 2: {
+        o.height = "auto";
+        let n = ca(t) && t.usesDOMRectCached() ? t.getDOMRect() : null;
+        if (n) {
+          let a = Xe(n.height);
+          ((r.height = a), Ba(t) && (o.minHeight = a));
+        }
+        break;
+      }
+      case 0:
+        o.height = Xe(t.height);
+        break;
+      case 1:
+        o.height = Xe(`${Math.round(t.height * 100)}%`);
+        break;
+    }
+  }
+}
+function $C(e, t, o) {
+  let r = {},
+    n = {},
+    a = o.getProps(t);
+  YC(e, o, r, n);
+  let d = { componentLoader: t };
+  if ((Le(o) && o.collectCSS(r), H(o))) {
+    let i = o.getStylingProps(t),
+      l = a;
+    ((a = { ...a, ...i, style: { ...i.style, ...l.style } }), (r = { ...r, ...l.style }));
+  } else
+    ("style" in a && (r = { ...r, ...a.style }),
+      Sf(o, r, { componentLoader: t }),
+      "rotation" in a && a.rotation && (r.rotate = a.rotation),
+      qu(o, r));
+  (XC(o, a, r), "_border" in a && a._border && kf(o, r, d), cf(o, r, d));
+  for (let i in r) i.startsWith("--") && delete r[i];
+  return { css: ZC(e, r), comments: n };
+}
+function XC(e, t, o) {
+  if (!Jt(e) || !e.fillEnabled || !To(e) || !bc(e) || !t) return;
+  let r = md(t);
+  if (!r) return;
+  let n = e.fillImageOriginalName || "background-image.jpg";
+  ((o.backgroundImage = `url(/* ${n} */)`),
+    (o.backgroundSize = ud(r.fit)),
+    (o.backgroundRepeat = "no-repeat"),
+    (o.backgroundPosition = "center"));
+}
+var rs = [
+    "borderTopLeftRadius",
+    "borderTopRightRadius",
+    "borderBottomRightRadius",
+    "borderBottomLeftRadius",
+  ],
+  Qu = ["borderTopWidth", "borderBottomWidth", "borderLeftWidth", "borderRightWidth"],
+  qC = Qu.concat(["border", "borderStyle", "borderWidth", "borderColor"]);
+function ZC(e, t) {
+  let o = {},
+    r = !1,
+    n = !1;
+  for (let a of Object.keys(t)) {
+    if (rs.includes(a)) {
+      r = !0;
+      continue;
+    }
+    if (qC.includes(a)) {
+      n = !0;
+      continue;
+    }
+    let d = eS(a, t[a]);
+    if (!d) continue;
+    let { key: i, value: l } = d;
+    if (((o[i] = l), typeof l == "string")) {
+      let f = l,
+        m = or(l);
+      for (; m;) {
+        let u = l.substring(m.start, m.end),
+          S = os(e, l, m);
+        ((f = f.replace(u, S)), (m = or(l, m.end)));
+      }
+      o[i] = f;
+    }
+  }
+  return (r && JC(t, o), n && QC(e, t, o), o);
+}
+function JC(e, t) {
+  let o = e;
+  if (e.borderTopLeftRadius && rs.every((i) => o[i] === e.borderTopLeftRadius)) {
+    t.borderRadius = Xe(e.borderTopLeftRadius);
+    return;
+  }
+  let [r, n, a, d] = rs.map((i) => Xe(o[i] ?? 0));
+  t.borderRadius = `${r} ${n} ${a} ${d}`;
+}
+function QC(e, t, o) {
+  let r = t,
+    n = t.borderTopWidth,
+    a = t.borderColor;
+  (ot(a) && (a = Nn(e, a)),
+    n !== void 0 && Qu.every((d) => r[d] === n)
+      ? (o.border = `${Xe(n)} ${t.borderStyle} ${a}`)
+      : a &&
+        t.borderStyle &&
+        ((o.borderColor = a),
+        (o.borderStyle = t.borderStyle),
+        (o.borderTopWidth = Xe(t.borderTopWidth ?? 0)),
+        (o.borderBottomWidth = Xe(t.borderBottomWidth ?? 0)),
+        (o.borderLeftWidth = Xe(t.borderLeftWidth ?? 0)),
+        (o.borderRightWidth = Xe(t.borderRightWidth ?? 0))));
+}
+function eS(e, t) {
+  if (e === "rotate") return t ? { key: "transform", value: `rotate(${t}deg)` } : null;
+  if (e === "opacity" && t === 1) return null;
+  if (e === "WebkitTextFillColor") return { key: "color", value: t };
+  if (e === "lineHeight" && typeof t == "string") {
+    if (t.includes("%") || t.includes("px")) return { key: e, value: t };
+    let o = parseFloat(t);
+    if (re(o)) return { key: e, value: o };
+  }
+  return { key: e, value: t };
+}
+function is(e) {
+  return !J(e) || !e.length ? !1 : jr.fromString(e) ? !0 : !(tt(e).isValid === !1 && !ot(e));
+}
+function ey(e) {
+  let t = [],
+    o = 0,
+    r = 0;
+  for (let a = 0; a < e.length; a++) {
+    let d = e[a];
+    if (d === "(") o++;
+    else if (d === ")") o = Math.max(0, o - 1);
+    else if (
+      (d === "," ||
+        d ===
+          `
+`) &&
+      o === 0
+    ) {
+      let i = e.slice(r, a).trim();
+      (i && t.push(i), (r = a + 1));
+    }
+  }
+  let n = e.slice(r).trim();
+  return (n && t.push(n), t);
+}
+var tS = zr("clipboard:embed");
+async function ns(e, t, o) {
+  return !t || (!t.startsWith("<iframe") && !t.endsWith("</iframe>"))
+    ? !1
+    : (Kt() || hd.isDevelopment || (await oS(e, t, o)), !0);
+}
+var ty = "type",
+  oy = "html";
+async function oS(e, t, o) {
+  let r = "import-embedded-component";
+  Ie({
+    type: "add",
+    variant: "progress",
+    primaryText: "Inserting",
+    secondaryText: "embedded component\u2026",
+    key: r,
+  });
+  try {
+    (await Eu({
+      engine: e,
+      moduleURL: Tu.moduleURL,
+      position: o,
+      centerInParent: !0,
+      update: (n) => {
+        let a = e.componentLoader.componentForIdentifier(n.codeComponentIdentifier);
+        if (!a?.properties) return;
+        let d = a.properties[ty],
+          i = a.properties[oy];
+        if (!d || !i) throw new Error("Embed component is missing required prop.");
+        if (d.type !== "enum" || i.type !== "string")
+          throw new Error("Embed component expects different prop type.");
+        (n.setControlProp(ty, { type: d.type, value: "html" }),
+          n.setControlProp(oy, { type: i.type, value: t }));
+      },
+    }),
+      Ie({ type: "remove", key: r }));
+  } catch (n) {
+    (tS.error(n),
+      Ie({
+        type: "add",
+        variant: "info",
+        primaryText: "Please update",
+        secondaryText: "the embed component.",
+        key: r,
+      }));
+  }
+}
+function as(e) {
+  switch (e.__class) {
+    case "EntityFolderNode":
+    case "EntityReferenceNode":
+    case "AssetsEntityTypeRootNode":
+    case "EntityRootNode":
+    case "AbTestsEntityTypeRootNode":
+    case "FunnelsEntityTypeRootNode":
+    case "LinkEntityTypeRootNode":
+    case "CMSEntityTypeRootNode":
+    case "CodeFileEntityTypeRootNode":
+    case "ColorEntityTypeRootNode":
+    case "InlineCodeEntityTypeRootNode":
+    case "TextEntityTypeRootNode":
+    case "BlockquoteEntityTypeRootNode":
+    case "ComponentEntityTypeRootNode":
+    case "LayoutTemplateEntityTypeRootNode":
+    case "ContentManagementEntityTypeRootNode":
+    case "VectorSetEntityTypeRootNode":
+    case "DesignPageEntityTypeRootNode":
+      return !1;
+    case "ColorStyleTokenListNode":
+    case "ErrorListNode":
+    case "RouteSegmentRootNode":
+      return !1;
+    case "ComponentPresetNode":
+    case "InlineCodeStylePresetNode":
+    case "ImageStylePresetNode":
+    case "LinkStylePresetNode":
+    case "BlockquoteStylePresetNode":
+    case "TableStylePresetNode":
+    case "PresetsListNode":
+    case "TextStylePresetNode":
+      return !1;
+    case "ExternalModuleNode":
+    case "ExternalModulesListNode":
+    case "LocalModuleNode":
+    case "LocalModulesListNode":
+      return !1;
+    case "ErrorNode":
+      return !1;
+    case "BooleanShapeNode":
+    case "BoxShadow":
+    case "CanvasNode":
+    case "CanvasPageNode":
+    case "DesignPageNode":
+    case "CanvasScopeNode":
+    case "CodeComponentNode":
+    case "CollectionItemNode":
+    case "CollectionNode":
+    case "Color":
+    case "ColorStyleTokenNode":
+    case "ConicGradient":
+    case "ContentManagementNode":
+    case "FormBooleanInputNode":
+    case "FormPlainTextInputNode":
+    case "FormSelectNode":
+    case "FrameNode":
+    case "GradientColorStop":
+    case "HeaderRouteNode":
+    case "FirewallRouteNode":
+    case "LayoutTemplateNode":
+    case "LinearGradient":
+    case "MutableNode":
+    case "OvalShapeNode":
+    case "OverlayNode":
+    case "PathNode":
+    case "PathSegment":
+    case "PolygonShapeNode":
+    case "ProxyRouteNode":
+    case "RadialGradient":
+    case "RectangleShapeNode":
+    case "RedirectRouteNode":
+    case "RewriteRouteNode":
+    case "RichTextNode":
+    case "RootNode":
+    case "RouteNode":
+    case "RouteLocaleNode":
+    case "RouteSegmentNode":
+    case "RoutesNode":
+    case "ScopeNode":
+    case "ShaderNode":
+    case "Shadow":
+    case "ShapeContainerNode":
+    case "ShapeGroupNode":
+    case "SlotNode":
+    case "SlotPropertyNode":
+    case "SmartComponentNode":
+    case "StarShapeNode":
+    case "StyledTextDraft":
+    case "SVGNode":
+    case "TextNode":
+    case "VectorSetNode":
+    case "WebPageNode":
+      return !0;
+    case "AgentPanelTool":
+    case "AgentDragSelectTool":
+    case "AgentSelectTool":
+    case "AgentSkillNode":
+    case "AgentSkillsListNode":
+    case "AnalyticsScopeNode":
+    case "ChatTool":
+    case "CollectionReferenceVariableEditTool":
+    case "CreateCodeComponentBaseTool":
+    case "CreateFrameBaseTool":
+    case "CreateShapeBaseTool":
+    case "CreateTextTool":
+    case "CustomCodeScopeNode":
+    case "CustomCodeNode":
+    case "DatabaseListNode":
+    case "DatabaseNode":
+    case "DatabaseTableNode":
+    case "BranchesNode":
+    case "BranchNode":
+    case "EnumVariableEditTool":
+    case "ExportOptions":
+    case "FeedbackTool":
+    case "FunnelNode":
+    case "FunnelStepActionNode":
+    case "FunnelStepNode":
+    case "GapTool":
+    case "GradientToolManagerTool":
+    case "GuideMoveTool":
+    case "HighlightStackItemTool":
+    case "HighlightTool":
+    case "InitialTool":
+    case "LineAnchorMoveTool":
+    case "LinkTool":
+    case "LoadingShieldTool":
+    case "LocalizationGlossaryItemNode":
+    case "LocalizationGlossaryNode":
+    case "MoveTool":
+    case "PaddingTool":
+    case "PageLinkTool":
+    case "PanTool":
+    case "PathCurveBendTool":
+    case "PathDefaultTool":
+    case "PathSegmentAdditionTool":
+    case "PathSegmentHandleMoveTool":
+    case "PathSegmentMoveTool":
+    case "PathSegmentSelectTool":
+    case "PreviewSettings":
+    case "RadiusTool":
+    case "RecoveryTool":
+    case "ResizeTool":
+    case "RichTextEditTool":
+    case "RichTextVariableEditTool":
+    case "DateVariableEditTool":
+    case "RotateTool":
+    case "SampleColorTool":
+    case "ScaleTool":
+    case "SelectTool":
+    case "SlotConnectTool":
+    case "StringVariableEditTool":
+    case "TestTool":
+    case "TextEditTool":
+    case "VekterGradientTool":
+    case "VekterPathEngine":
+    case "VekterTool":
+    case "ViewportResizeTool":
+    case "ZoomSelectTool":
+    case "ZoomTool":
+      return !1;
+    default:
+      xe(
+        e.__class,
+        "Unexpected node type, please determine if the node is insertable when introducing a new type"
+      );
+  }
+}
+function iS(e, t, o) {
+  let { historyData: r, renamedIds: n } = o;
+  if (!r || e.length !== 1) return;
+  let [a] = e;
+  L(a, "nodeToReplace must be defined");
+  let d = t.root.children;
+  if (d.length !== 1) return;
+  let [i] = d;
+  if ((L(i, "replacement must be defined"), Be(i) && i.children.length === 1)) {
+    let [f] = i.children;
+    if (f && f.id === a.id) return { nodeToReplace: a, replacement: f };
+  }
+  if (a.id === i.id || n?.[a.id] === i.id) return { nodeToReplace: a, replacement: i };
+  if (
+    r?.originalId &&
+    r?.replicaInfo &&
+    a.originalid &&
+    (r.originalId === a.originalid || r.originalId === n?.[a.originalid]) &&
+    ry(a, i, n)
+  )
+    return { nodeToReplace: a, replacement: i };
+}
+function ry(e, t, o) {
+  if (
+    (Rt(e) &&
+      Rt(t) &&
+      (!(e.children.length === t.children.length) ||
+        Ti(e).find((i, l) => {
+          let f = t.children.at(l);
+          return (L(f, "Node child must be defined"), !ry(i, f, o));
+        }))) ||
+    e.__class !== t.__class ||
+    (H(e) && H(t) && e.codeComponentIdentifier !== t.codeComponentIdentifier)
+  )
+    return !1;
+  let n = Pe(e) ? e.originalid : e.id;
+  return n === t.id || o?.[n] === t.id;
+}
+function nS(e) {
+  return !(rr(e) || Wp(e));
+}
+function aS(e, t, o) {
+  let { nodeToReplace: r, replacement: n } = iS(e.nodes, t, o) ?? {};
+  if (!(!r || !n) && nS(r)) return { nodeToReplace: r, replacement: n };
+}
+function iy(e, t, o, r) {
+  let n = aS(e, o, r);
+  return n
+    ? new Promise((a) => {
+        t.set({
+          type: "Confirmation",
+          title: "Paste from history",
+          description:
+            "Would you like to paste the selection as a new layer or replace the existing one?",
+          confirmLabel: "Replace",
+          cancelLabel: "New layer",
+          source: "clipboard_paste",
+          onConfirm() {
+            a(n);
+          },
+          onCancel() {
+            a(null);
+          },
+          onDismiss() {
+            a("abort");
+          },
+        });
+      })
+    : null;
+}
+var ny = {
+  tree: {},
+  originalFrames: {},
+  masters: {},
+  replicas: {},
+  renamedIds: {},
+  stylePresetNodes: {},
+};
+function Pn(e, t = new ko()) {
+  if (e.renamedIds)
+    for (let o in e.renamedIds) {
+      let r = e.renamedIds[o];
+      r && t.set(o, r);
+    }
+  return t;
+}
+function dS(e, t) {
+  return t
+    ? Object.values(t).filter((o) => {
+        if (e.stores.modulesStore.getPersistedModuleByGlobalId(o.moduleId)) return !1;
+        let r = e.tree.getNodeWithTrait(o.moduleId, wd);
+        return r ? yd(r.codeComponentIdentifier).saveId !== o.saveId : !0;
+      })
+    : [];
+}
+function cS(e) {
+  let t = [];
+  for (let [o, r] of e) {
+    let n = Tm(r);
+    t.push([o, n]);
+  }
+  return t;
+}
+async function ay({
+  engine: e,
+  layers: t,
+  insertionScopeNode: o,
+  insertionGroundNodeId: r,
+  shouldDetachTextStyles: n = !1,
+  shouldPasteTextStyles: a = !1,
+  reusePresetWithSameId: d = !1,
+  cloneWithScopeIds: i,
+  sourceProjectId: l = "",
+  selectAndCenter: f = !0,
+  onInsertNode: m,
+  pasteInfo: u,
+  renamedIds: S,
+}) {
+  let { stylePresetNodes: C, primaryIntrinsicSize: p, breakpointOverrides: v } = t,
+    {
+      newNodes: R,
+      nodesToRemove: x,
+      newSelection: g,
+      insertionIndex: w,
+      newHomeNodeId: b,
+      breakpointVariantIds: y,
+      overridesByReplicaId: z,
+    } = u,
+    M = 0;
+  for (let K of R) for (let _ of K.walk()) Le(_) && M++;
+  M > 0 && Ve("layout_frame", { source: "paste", count: M });
+  function I() {
+    pS({
+      engine: e,
+      newNodes: R,
+      nodesToRemove: x,
+      insertionScopeNode: o,
+      indexInParent: w,
+      newSelection: g,
+      insertionGroundNodeId: r,
+      candidateHomeNodeId: b,
+      stylePresetNodes: C,
+      primaryIntrinsicSize: p,
+      originalFrames: t.originalFrames,
+      renamedIds: S,
+      breakpointOverrides: v,
+      shouldDetachTextStyles: n,
+      shouldPasteTextStyles: a,
+      reusePresetWithSameId: d,
+      sourceProjectId: l,
+      sourcePageId: t.webPagePropsForCopiedBreakpoint?.id,
+      breakpointVariantIds: y,
+      overridesByReplicaId: z,
+      selectAndCenter: f,
+      webPagePathByWebPageId: t.webPagePathByWebPageId,
+      cloneWithScopeIds: i,
+      onInsertNode: m,
+    });
+  }
+  let U = dS(e, t.moduleData);
+  try {
+    (await e.scheduler.processWhenReadyAsync(() => {
+      e.beginUndoGroup();
+    }),
+      U.length
+        ? (await Im(
+            {
+              key: "clipboard-loading-external-modules",
+              progress: {
+                variant: "progress",
+                primaryText: "Loading assets.",
+                secondaryText: "Just a moment\u2026",
+                showCloseButton: "always",
+              },
+              error: { variant: "error", primaryText: "Failed to load", secondaryText: "assets." },
+            },
+            async () => {
+              await e.stores.modulesStore.addExternalModulesToProject(U, { onTreeUpdate: I });
+            }
+          ),
+          e.stores.modulesStore.trackExternalComponentInsert(
+            U.map((K) => K.value),
+            "paste"
+          ))
+        : await e.scheduler.processWhenReadyAsync(I));
+  } finally {
+    let K = R.filter(Ue);
+    (e.stores.codeGenerationStore.createVectorSet(K),
+      await e.scheduler.processWhenReadyAsync(() => {
+        e.endUndoGroup();
+      }));
+  }
+  (R.every(Qn) || R.every(gt)) &&
+    e.scheduler.runBeforeNextFrame(() => {
+      R.forEach((K) => e.stores.overlayStore.showOverlay(e.stores.selectionStore, K, K.parentid));
+    });
+}
+function Cr(e, t) {
+  for (let [o, r] of e.entries()) if (r === t) return Cr(e, o);
+  return t;
+}
+function ss(e, t) {
+  if (!ot(e)) return;
+  let o = ar(e);
+  if (o) return t.get(o);
+}
+function sy(e, t) {
+  if (J(e)) return ss(e, t);
+  if (Xc(e)) {
+    let o = ss(e.color, t);
+    return (o && (e.color = o), e);
+  } else if (Ee(e)) {
+    let o = e.stops.map((r) => {
+      let n = ss(r.value, t);
+      return n ? r.merge({ value: n }) : r;
+    });
+    return e.updated({ stops: o });
+  } else if (ue(e)) {
+    for (let o of e) sy(o, t);
+    return e;
+  }
+}
+function lS(e, t) {
+  let o = {},
+    r = !1;
+  ne(e) && e.replaceColorTokenVariables(t);
+  let n;
+  for (n in e) {
+    if (n === "name") continue;
+    let a = e[n],
+      d = sy(a, t);
+    d && ((o[n] = d), (r = !0));
+  }
+  r && e.set(o);
+}
+function pS({
+  engine: e,
+  newNodes: t,
+  nodesToRemove: o,
+  insertionScopeNode: r,
+  indexInParent: n,
+  newSelection: a,
+  insertionGroundNodeId: d,
+  candidateHomeNodeId: i,
+  renamedIds: l,
+  stylePresetNodes: f,
+  primaryIntrinsicSize: m,
+  originalFrames: u,
+  breakpointOverrides: S = [],
+  shouldDetachTextStyles: C,
+  shouldPasteTextStyles: p,
+  reusePresetWithSameId: v,
+  sourceProjectId: R,
+  sourcePageId: x,
+  breakpointVariantIds: g = new Set(),
+  overridesByReplicaId: w,
+  selectAndCenter: b,
+  webPagePathByWebPageId: y,
+  cloneWithScopeIds: z,
+  onInsertNode: M,
+}) {
+  let { tree: I } = e,
+    { scopeStore: U, canvasStore: K, codeGenerationStore: _, selectionStore: X } = e.stores;
+  r = e.tree.current(r) ?? U.active;
+  let A = [],
+    T = f ? Object.values(f).map((W) => Ua(W)) : void 0,
+    V = T?.filter(ea),
+    k = T?.filter(Zo),
+    O = T?.filter(Id),
+    j = U.active.id,
+    ee = !1,
+    oe = 0,
+    te = { ...w },
+    de = I.withoutDescendants(o);
+  for (let W of de) I.remove(W.id);
+  let le = cS(S);
+  for (let W of t) {
+    if (I.get(W.id)) continue;
+    if (
+      (L(!ea(W), "Should not paste TextStylePresetNodes"),
+      L(!Zo(W), "Should not paste LinkStylePresetNodes"),
+      Me(W))
+    ) {
+      ((ee = !0), L(W.isLoaded(), "WebPageNode should be fully loaded"));
+      let ce = W.loaded.children?.find((Qe) => Qe.id === W.baseVariantId);
+      L(ce && da(ce), "should be primary variant");
+      let Ae = y?.[Cr(l, W.id)],
+        We = _a(e, W, ce, "unlink", {
+          insertionIndex: e.tree.root.children.findIndex((Qe) => Qe.id === r.id) + 1,
+          intrinsicSize: m,
+          enterIsolation: !1,
+          renamedIds: l,
+          textStylePresets: V,
+          linkStylePresets: k,
+          inlineCodeStylePresets: O,
+          pastedPresetMap: new Map(),
+          shouldPasteTextStyles: p,
+          reusePresetWithSameId: v,
+          preferredName: Ae,
+        });
+      ((j = We.id), ja(r) && Vm(e, r, We), U.select(We.id, { keepHistory: !1 }));
+      continue;
+    }
+    if (Zn(W) || Dt(W)) {
+      L(W.isLoaded(), W.__class + " should be fully loaded");
+      let ce = W.loaded.children?.find((We) => We.id === W.baseVariantId);
+      L(ce && da(ce), "should be primary variant");
+      let Ae = _a(e, W, ce, "unlink", {
+        intrinsicSize: m,
+        enterIsolation: !1,
+        renamedIds: l,
+        textStylePresets: V,
+        linkStylePresets: k,
+        inlineCodeStylePresets: O,
+        shouldPasteTextStyles: p,
+        reusePresetWithSameId: v,
+        cloneWithScopeIds: z,
+      });
+      M?.(Ae);
+      continue;
+    }
+    if (wt(W)) {
+      let ce = Ym(e.tree);
+      (U.insertNode(W, ce.id), U.select(ce.id, { keepHistory: !1 }), X.set(W.id));
+      continue;
+    }
+    for (let ce of W.walk()) ne(ce) && A.push(ce);
+    (U.insertNode(W, W.parentid, n, void 0, r.id), Pm(I, W) && oe++);
+    let ae = I.get(W.parentid);
+    if (!ae) continue;
+    let ye = u[Cr(l, W.id)] ?? I.getRect(W);
+    (wm(e, ae, W, ye), km(e, ae, W, ye));
+    let Je = dc(ae);
+    if (!Je || !_e(Je)) {
+      M?.(W);
+      continue;
+    }
+    let dt = I.getNodesWithTrait(Je.cache.replicaInstances ?? [], Hm),
+      Re = fS(I, W, dt, le, l);
+    for (let [ce, Ae] of Object.entries(Re)) {
+      let We = te[ce];
+      We ? (te[ce] = ep(We, Ae)) : (te[ce] = Ae);
+    }
+    M?.(W);
+  }
+  for (let [W, ae] of Object.entries(te)) {
+    let ye = I.get(W);
+    if (!ye || !Ct(ye)) break;
+    tp(I, ye, ae);
+  }
+  let $ = new Set();
+  for (let W of g) {
+    let ae = l.get(W);
+    ae && $.add(ae);
+  }
+  let F = new Map(),
+    q = new Map(),
+    se = new Map();
+  for (let W of A)
+    (Fm({
+      engine: e,
+      node: W,
+      stylePresetNodes: V,
+      pastedPresetMap: F,
+      shouldDetachTextStyles: C,
+      breakpointVariantIds: $,
+      shouldCreateNewPresets: p,
+      reusePresetWithSameId: v,
+    }),
+      Dm({ engine: e, node: W, stylePresetNodes: k, pastedPresetMap: q }),
+      Om({ engine: e, node: W, stylePresetNodes: O, pastedPresetMap: se }));
+  for (let W of F.values()) Pe(W) || _.createModuleFromComponentSource(W).catch(Gr);
+  for (let W of q.values()) Pe(W) || _.createModuleFromComponentSource(W).catch(Gr);
+  for (let W of se.values()) Pe(W) || _.createModuleFromComponentSource(W).catch(Gr);
+  if ((vS(e, r, t), i && $r(r) && e.tree.current(r)?.set({ homeNodeId: i }), b)) {
+    X.set(a, { sticky: !0, switchToLayers: !0, switchToProperties: !0 });
+    let W = e.stores.scopeStore.activeId;
+    e.scheduler.runWhenIdle(() => {
+      if (W !== e.stores.scopeStore.activeId) return;
+      let ae = null;
+      if (a[0] !== t[0]?.id || ee) {
+        let Re = d ? e.tree.getNode(d) : null;
+        ae = Re ? Wa(e.tree, [Re]) : null;
+      } else {
+        let Re = e.tree.getNodes(t.map((ce) => ce.id));
+        ae = Re.length ? Wa(e.tree, Re) : null;
+      }
+      let dt = K.getCanvasVisibleRectTakingOverlaysIntoAccount();
+      ae && !et.intersects(ae, dt) && K.scrollToCenter(et.center(ae));
+    });
+  }
+  (e.tree.didNonLinearMove(e.componentLoader),
+    ee && Ve("site_page_paste", { sourceProjectId: R, sourcePageId: x, targetPageId: j }),
+    oe > 0 &&
+      Ve("site_page_part_paste", {
+        sourceProjectId: R,
+        sourcePageId: x,
+        targetPageId: j,
+        partCount: oe,
+      }));
+}
+function fS(e, t, o, r, n) {
+  let a = {};
+  for (let d of o) {
+    at.replicaWithChanges(e, d);
+    let i = Number.POSITIVE_INFINITY,
+      l;
+    for (let [m, u] of r) {
+      let S = Math.abs(d.width - m);
+      S < i && ((i = S), (l = u));
+    }
+    if (!l) continue;
+    let f = jm(l, n, !0);
+    for (let m of t.walk()) {
+      let u = f[m.id];
+      if (!u) continue;
+      let S = a[d.id] ?? {};
+      ((S[m.id] = u), (a[d.id] = S));
+    }
+  }
+  return a;
+}
+async function dy(e, t, o, r, n, a, d, i, l, f = Pn(t), m, u) {
+  let S = st.fromJS(t.tree, e.componentLoader);
+  L(S, "copyTree must exist");
+  for (let C of S.root.walk()) C.cache.loadedFromDocumentJson = !1;
+  return ds(e, S, t, o, r, n, a, d, i, l, f, m, u);
+}
+function cy(e) {
+  let t = [];
+  for (let o of e.root.children)
+    if (!sc(o))
+      if (o instanceof Rp) for (let r of o.children) t.push(r);
+      else t.push(o);
+  return t;
+}
+function mS(e, t, o) {
+  let r = cy(t),
+    n = Object.keys(o),
+    a;
+  if (r.length === n.length) {
+    let i = Object.values(o);
+    a = et.merge(...i);
+  } else a = et.merge(...r.map((i) => t.getRect(i)));
+  let d = Yo(a.width / 2, a.height / 2);
+  return Yo.pixelAligned(Yo.subtract(Yo.subtract(e, d), a));
+}
+function uS(e, t, o, r) {
+  if (Jn(o) || !(!t || ja(o))) return;
+  let a = e.rootAtStart.children.find(ii);
+  if (!a) return;
+  let d = e.insertNode(new am({ ...r, baseVariantId: a.id }));
+  for (let i of e.rootAtStart.children) i.id !== d.id && (wt(i) || e.move(i.id, d.id));
+}
+function yS(e, t) {
+  (Po(e) && Po(t) && t.set({ x: e.x, y: e.y }), me(e) && me(t) && t.set(e.constraintValues()));
+}
+function hS(e, t, o, r, n, a) {
+  (L(!n.originalid, "A replica node cannot be replaced."),
+    L(!o.originalid, "Cannot replace an original node with a replica node."));
+  let d = o.cloneWithCallback((u) => ({ id: Cr(a, u.id) ?? u.id }));
+  yS(n, d);
+  let i = t.getIndex(o);
+  (t.remove(o.id), t.insertNode(d, o.parentid, i));
+  let l = n.parentid,
+    f = r.getIndex(n),
+    m = [];
+  for (let u of n.walk()) m.push(u);
+  return { copyTree: t.commit(e), parentId: l, insertionIndex: f, nodesToRemove: m };
+}
+function gS(e, t, o, r, n, a) {
+  let d = at.getReplicaForTemplateNode(o, r);
+  (L(d, `Failed to replace replica node: cannot find replica of ${r.id}`),
+    L(
+      n.master === d.originalid,
+      `Failed to replace replica node: node to replace and replacement have different original ids: ${r.originalid}, ${n.master}`
+    ));
+  for (let i of r.walk()) {
+    L(
+      i.originalid,
+      `Failed to replace replica node: replica descendant ${i.id} does not have an original id.`
+    );
+    let l = a.get(i.originalid);
+    L(
+      l,
+      `Failed to replace replica node: replica node should have their id renamed on copy: ${i.originalid}`
+    );
+    let f = t.get(l);
+    L(f, `Failed to replace replica node: replacement does not exist ${l}`);
+    let m = yn(o, e.componentLoader, f, r),
+      u = n.overrides[i.originalid];
+    if (u) for (let [S, C] of Object.entries(u)) S in m || (m[S] = C);
+    e.scheduler.process(() => {
+      i.set(m);
+    });
+  }
+}
+async function TS(e, t) {
+  let o = new Set();
+  if (H(e)) {
+    let r = Nf(t, e);
+    r && !r.loaded && o.add(r);
+  }
+  return t.loadScopes(Array.from(o));
+}
+function CS(e, t, o, r) {
+  let n = new Map();
+  if (!t.colorTokenNodes) return { oldToNewTokensMap: n };
+  let a = e.get("colorStyles");
+  if (!a) return { oldToNewTokensMap: n };
+  let d = Object.values(t.colorTokenNodes).map((i) => Ua(i, a.id));
+  for (let i of d) {
+    if (!qo(i)) continue;
+    let l = e.get(i.id);
+    if (!l) {
+      let S = i.clone({ id: i.id });
+      r.push(S);
+      continue;
+    }
+    if (qo(l) && l.light === i.light && l.dark === i.dark) continue;
+    let f = o.get(i.id);
+    if (!f) continue;
+    let m = e.get(f);
+    if (m && qo(m)) {
+      n.set(i.id, ya(m));
+      continue;
+    }
+    let u = i.clone({ id: f });
+    (r.push(u), L(qo(u)), n.set(i.id, ya(u)));
+  }
+  return { oldToNewTokensMap: n };
+}
+async function ds(e, t, o, r, n, a, d, i, l, f, m = Pn(o), u, S) {
+  if (t === void 0 || o.originalFrames === void 0) return null;
+  let { componentLoader: C } = e,
+    { modulesStore: p, treeStore: v, selectionStore: R, modalStore: x } = e.stores,
+    g = await iy(R, x, t, o);
+  if (g === "abort") return null;
+  if (o.historyData) {
+    let $ = t.size() - 1,
+      F = v.remoteTreeVersion - o.historyData.treeVersion;
+    Ve("historic_document_paste", { behind: i ? F : 0, size: $, fromSameProject: i, replace: !!g });
+  }
+  let w = v.tree;
+  uS(t, i, r, o.webPagePropsForCopiedBreakpoint);
+  let b = null,
+    y,
+    z = [],
+    M = {};
+  if (g) {
+    let { nodeToReplace: $, replacement: F } = g;
+    if (Pe($) && $.originalid === o.historyData?.originalId && o.historyData?.replicaInfo)
+      return (gS(e, t, w, $, o.historyData.replicaInfo, m), null);
+    if (!$.originalid) {
+      let q = hS(e.componentLoader, t, F, w, $, m);
+      ((t = q.copyTree), (b = q.parentId), (y = q.insertionIndex), (z = q.nodesToRemove ?? []));
+    }
+  } else {
+    let $ = cy(t),
+      F = cs(e.componentLoader, $, w, r, a, d);
+    ((b = F.maybeParentId), (y = S ?? F.insertionIndex));
+  }
+  let I = w.get(b);
+  t = Bm(e.componentLoader, p, t, o.moduleData);
+  let U = w.getService("loader"),
+    K;
+  U && (I && (await TS(I, t)), await U.prioritizeLoadingScope(vo), (K = await U.nodeIdsToLoad()));
+  let {
+      nodesToInsert: _,
+      offset: X,
+      homeNodeId: A,
+    } = await e.scheduler.processWhenReadyAsync(() =>
+      SS({
+        engine: e,
+        copyTree: t,
+        layers: o,
+        activeScope: r,
+        parent: I,
+        position: n,
+        selection: a,
+        treeIndex: f,
+        replace: u,
+        renamedIds: m,
+      })
+    ),
+    T = [],
+    V = [],
+    k = !!I && (be(I) || di(I));
+  _.length === 0 && t.rootAtStart.children.every(Qn) && T.push(...a);
+  let O = new Set(),
+    j = new Map();
+  if (o.variableValueInfo)
+    for (let [$, F] of o.variableValueInfo.variableValuesByProvider) j.set($, new il(F));
+  let ee = I ?? e.stores.scopeStore.active,
+    oe = [ee, ...ee.ancestors()];
+  for (let $ = 0; $ < oe.length; $++) {
+    let F = oe[$],
+      q = oe[$ - 1];
+    if (!dr(F) || !F.getVariableSourceIdentifier()) continue;
+    let se = j.get(F.id);
+    if (!se) continue;
+    let W = F.getProvidedValueMap(
+      w,
+      q,
+      e.componentLoader,
+      v.sandboxRepeaterData,
+      e.componentLoader.activeBundleHash
+    );
+    if (W) {
+      for (let [ae] of W) se.delete(ae);
+      se.size === 0 && j.delete(F.id);
+    }
+  }
+  let { oldToNewTokensMap: te } = CS(w, o, m, V),
+    de = o.historyData !== void 0,
+    le = v.getDataTreeOrPartialTree();
+  return (
+    _.forEach(($) => {
+      if (k && be($)) return;
+      let {
+        preparedNode: F,
+        idToSelect: q,
+        overridesByReplicaId: se,
+      } = RS($.cloneWithIds(), b, r.id, t, w, le, o, m, i && !de && !Jn(r), l, K, X, k, z.map(Qm));
+      _e($) && O.add($.id);
+      for (let [W, ae] of Object.entries(se)) M[W] = { ...M[W], ...ae };
+      for (let W of F.walk()) lS(W, te);
+      if (o.variableValueInfo && j.size > 0)
+        for (let { node: W, skipChildren: ae } of F.walkWithSkipChildren()) {
+          if (!W.supportsDynamicValues()) {
+            ae();
+            continue;
+          }
+          let ye = Uf(v.tree, o.variableValueInfo.scopeId, W, j);
+          ye && W.set(ye);
+        }
+      (V.push(F), T.push(q));
+    }),
+    {
+      newNodes: V.map(($) => hn(w, C, $, m, k)),
+      nodesToRemove: z,
+      newSelection: T,
+      overridesByReplicaId: M,
+      insertionIndex: y,
+      newHomeNodeId: A ? m.get(A) : void 0,
+      breakpointVariantIds: O,
+    }
+  );
+}
+function SS({
+  engine: e,
+  copyTree: t,
+  layers: o,
+  activeScope: r,
+  parent: n,
+  position: a,
+  selection: d,
+  treeIndex: i,
+  replace: l,
+  renamedIds: f,
+}) {
+  let { tree: m } = e,
+    u = n !== null ? void 0 : mS(a, t, o.originalFrames),
+    S = [],
+    C = [],
+    p = null,
+    v = $r(r) && r.homeNodeId === null,
+    R = t.rootAtStart.children.every(wt);
+  function x(g) {
+    if (as(g)) {
+      if (wt(g)) {
+        let w = NS(m, g);
+        if (!R && w) {
+          g.id !== w.id && f.set(g.id, w.id);
+          return;
+        }
+        S.push(g);
+        return;
+      }
+      if (g instanceof Vf) return g.children.forEach(x);
+      if (
+        !wf(g, r.id) &&
+        !(
+          be(g) &&
+          (!n ||
+            (H(n) && !kd(n, e.componentLoader) && !If(n)) ||
+            (!l && be(g) && Zr(n) && n?.children?.some(be)))
+        )
+      ) {
+        if (v && !p && m.isGroundNode(g)) {
+          let w = i?.getScopeIdFor(g.id);
+          if (w) {
+            let b = m.get(w);
+            $r(b) && g.id === b.homeNodeId && (p = g.id);
+          }
+        }
+        if (n && (Be(n) || ke(n)) && Be(g))
+          g.children.forEach((w) => {
+            let b = o.originalFrames[w.id];
+            (b && Po(w) && (w = w.set({ x: w.x + b.x, y: w.y + b.y })), S.push(w));
+          });
+        else {
+          if (!n && me(g)) {
+            let w,
+              b = r.getGroundNodes();
+            if (d.length === 0) w = b.find((y) => y.id === g.id && In(y, g));
+            else if (d.length === 1) {
+              L(d[0], "Selection must be defined");
+              let y = m.getNode(d[0]);
+              y && b.some((z) => z.id === y.id) && In(y, g) && (w = y);
+            }
+            if (w) {
+              let y = bf(m, r, w, d, C);
+              ((g = g.set(y)), (u = { x: 0, y: 0 }));
+            }
+          }
+          S.push(g);
+        }
+      }
+    }
+  }
+  return (t.rootAtStart.children.forEach(x), { nodesToInsert: S, offset: u, homeNodeId: p });
+}
+function RS(e, t, o, r, n, a, d, i, l, f, m, u, S, C) {
+  let R = d.originalFrames[e.id] ?? r.getRect(e, !0, !1),
+    x = ly(n, a, e, t, o, d, r, i, S ?? !1, l, C ?? [], f, m),
+    g = {},
+    w = x.id,
+    b = n.get(t);
+  if (b && Pe(b))
+    if (ir(b)) {
+      x.setProp("parentid", b.originalid);
+      let M = n.get(b.originalid),
+        I = at.getReplicaForTemplateNode(n, b);
+      if (I && ((w = Td(I.id, x.id)), M?.cache.visible === !0)) {
+        x.set({ visible: !1 });
+        let U = { visible: !0 };
+        op(x) && (U.itemsOrder = Fc(x.itemsOrder, i));
+        let K = g[I.id] ?? {};
+        ((K[x.id] = U), (g[I.id] = K));
+      }
+    } else x.setProp("parentid", Zt);
+  else at.isInMasterOfReplica(n, b, x) && x.setProp("parentid", Zt);
+  if (Me(x) || wt(x)) return { preparedNode: x, idToSelect: w, overridesByReplicaId: g };
+  if (Ue(x)) {
+    let M = n.getScopeNodeFor(b);
+    M && !Rd(M) && x.set(jp);
+  }
+  let y = b ? ma(n, b.id) : void 0;
+  if (!Vc(x) && !y)
+    for (let M of x.walk()) {
+      if (!Ec(M) || M === x) continue;
+      let I = {},
+        U = {};
+      (me(M) &&
+        M.heightType === 4 &&
+        ((I.heightType = 1), me(x) && x.heightType === 2 && ((U.heightType = 0), x.set(U))),
+        me(M) &&
+          M.widthType === 4 &&
+          ((I.widthType = 1), me(x) && x.widthType === 2 && ((U.widthType = 0), x.set(U))),
+        M.set(I));
+    }
+  if (!t) {
+    u && (R = et.offset(R, u));
+    let M = Cp(n, x),
+      I = x.updateForRect({
+        rect: R,
+        parentSizeInfo: { sizing: null, positioning: null, viewport: M, layout: null },
+        constraintsLocked: !1,
+        shouldGuessPinToBottom: !0,
+        shouldGuessPinToRight: Ha(n, x, b),
+      });
+    return (
+      Qr(x) && x.floatingPositionEnabled === !0 && x.set(Xd),
+      { preparedNode: x.set(I), idToSelect: w, overridesByReplicaId: g }
+    );
+  }
+  let z = xS(n, x, t, R);
+  return z
+    ? { preparedNode: x.set(z), idToSelect: w, overridesByReplicaId: g }
+    : { preparedNode: x, idToSelect: w, overridesByReplicaId: g };
+}
+function xS(e, t, o, r) {
+  let n = {},
+    a = e.getNode(o);
+  if (me(t)) {
+    let i = t.widthType === 3,
+      l = t.heightType === 3,
+      f = t.widthType === 1,
+      m = t.heightType === 1,
+      u = t.widthType === 4,
+      S = t.heightType === 4;
+    if (i || l || f || m || u || S) {
+      let C = _r(a),
+        p = a && me(a) && a.widthType === 2,
+        v = a && me(a) && a.heightType === 2,
+        R = C && !p,
+        x = C && !v,
+        g = !C || !p,
+        w = !C || !v,
+        b = Wi(e, t, a),
+        y = t.updateForRect({
+          rect: r,
+          parentSizeInfo: b,
+          constraintsLocked: !1,
+          shouldGuessPinToBottom: Rf(e, t),
+          shouldGuessPinToRight: Ha(e, t, a),
+        });
+      (a && _e(a) && i && !R && g
+        ? (n.widthType = 1)
+        : ((i && !R) || (f && !g)) &&
+          ((n.width = y.width),
+          (n.widthType = y.widthType === 3 ? 0 : y.widthType),
+          (n.left = y.left),
+          (n.right = y.right)),
+        ((l && !x) || (m && !w)) &&
+          ((n.height = y.height),
+          (n.heightType = y.heightType === 3 ? 0 : y.heightType),
+          (n.top = y.top),
+          (n.bottom = y.bottom)));
+      let z = a && ma(e, a.id);
+      (u && !z && ((n.widthType = 0), (n.width = y.width)),
+        S && !z && ((n.heightType = 0), (n.height = y.height)));
+    }
+  }
+  let d = hp(t, a);
+  return (d && Object.assign(n, d), Object.keys(n).length === 0 ? null : n);
+}
+function ly(e, t, o, r, n, a, d, i, l, f, m, u, S) {
+  (L(o.mutable, "Node is not mutable"),
+    L(!o.cache.treeLineage, "Node must not have cache.treeLineage set"),
+    L(!o.originalid, "Node must not have originalid set"));
+  function C(b) {
+    let y = ti();
+    return (i.set(b, y), y);
+  }
+  function p(b) {
+    if (oc(b.id)) return;
+    let y = b;
+    y.id = C(b.id);
+  }
+  let v = d.rootAtStart.children.some((b) => Me(b) || Zn(b) || Dt(b)),
+    R = f && !v ? e.get(o.id) : null,
+    x = e.getScopeNodeFor(R)?.id,
+    g = a.replicas[o.id];
+  if (R && x === n)
+    if (rr(R)) {
+      let b = at.create(e, R, { owner: C(R.id), duplicatedFrom: wa(R) });
+      (o instanceof Gt && (L(Le(b)), b.set(o.constraintValues(), e)), (o = b));
+    } else if (Ct(R)) {
+      let b = at.getMaster(e, R);
+      o = Vo(o, a.replicas[o.id], b, e, C(o.id));
+    } else if (g) {
+      let b = g.master,
+        y = e.get(b);
+      if (y) o = Vo(o, g, y, e, C(o.id));
+      else if (a.masters[b])
+        ((y = d.get(b)),
+          y && Mt(y)
+            ? ((y = y.cloneWithIds({ isMaster: !0 })), (o = Vo(o, g, y, e, C(o.id))))
+            : p(o));
+      else {
+        let z = o;
+        ((z.id = C(z.id)), (z.duplicatedFrom = cr(R.duplicatedFrom, R.id)));
+      }
+    } else {
+      let b = o;
+      ((b.id = C(b.id)), (b.duplicatedFrom = cr(R.duplicatedFrom, R.id)));
+    }
+  else if (a.masters[o.id]) {
+    if (oi(o) && o.isVariant) {
+      if (!v) {
+        (o.setProp("isVariant", !1), Mt(o) && o.setProp("isMaster", !1));
+        let b = o;
+        b.id = C(b.id);
+      }
+    } else Mt(o) && o.setProp("isMaster", !0);
+    p(o);
+  } else if (g) {
+    if (oi(o) && o.isVariant)
+      if ((p(o), v)) {
+        let b = g.master,
+          y = d.get(b);
+        y && (o = Vo(o, g, y, e, C(o.id)));
+      } else {
+        (o.setProp("isVariant", !1),
+          ri(o) && o.setProp("isBreakpoint", !1),
+          o.set({ replicaInfo: null, originalid: null }));
+        let b = o;
+        b.id = C(b.id);
+      }
+    else if (Mt(o)) {
+      let b = g.master,
+        y = e.get(b);
+      y
+        ? (o = Vo(o, g, y, e, C(o.id)))
+        : a.masters[b] &&
+          ((y = d.get(b)),
+          y && Mt(y)
+            ? ((y = y.cloneWithIds({ isMaster: !0 })), (o = Vo(o, g, y, e, C(o.id))))
+            : p(o));
+    }
+  } else if ((t.hasNodeAnywhere(o.id) || S?.has(o.id)) && !m.includes(o.id)) {
+    let b = o;
+    b.id = C(b.id);
+  } else p(o);
+  if ((o.setProp("parentid", r), Jo(o) && o.formSaveId)) {
+    let b = Cr(i, o.getPrimaryId());
+    ((o.cache.formContainerConfigSource = _m(b, o.formSaveId, u)), o.resetToDefault("formSaveId"));
+  }
+  if (Ct(o)) return o;
+  let w = o.children;
+  if (w) {
+    let b = new hi();
+    for (let y of w)
+      as(y) && ((l && be(y)) || b.push(ly(e, t, y, o.id, n, a, d, i, l, f, m, u, S)));
+    o.setProp("children", b);
+  }
+  return o;
+}
+function Vo(e, t, o, r, n) {
+  if (!rr(o)) return e;
+  let a = Cm(t)?.overrides,
+    d = at.create(r, o, {
+      overrides: a,
+      owner: n,
+      inheritsFrom: t?.inheritsFrom,
+      duplicatedFrom: wa(e),
+    });
+  return (e instanceof Gt && (L(Le(d)), d.set(e.constraintValues(), r)), d);
+}
+function cs(e, t, o, r, n, a) {
+  let d = t[0];
+  L(d, "Copy tree must have ground nodes");
+  let l = n.length === 1 && n[0] ? o.getNode(n[0]) : null;
+  if (t.some(we)) return { maybeParentId: Zt };
+  if (l) {
+    if (Pe(l) && !ir(l)) return { maybeParentId: Zt };
+    if ((ke(l) || Be(l)) && t.find((m) => !ke(m) && !Be(m)) !== void 0)
+      return { maybeParentId: Zt };
+    if (Ga(o, l, d, r.id, e) && !In(l, d)) {
+      if (l.id !== d.id) return { maybeParentId: l.id };
+    } else if (bS(d)) {
+      let f = o.getParent(l.id);
+      if (f && Ga(o, f, d, r.id, e)) {
+        let m = f.children.indexOf(l);
+        return { maybeParentId: f.id, insertionIndex: m === -1 ? void 0 : m + 1 };
+      }
+    }
+  } else if (a) {
+    let f = o.getNode(a);
+    if (f) {
+      let m = f.ancestors();
+      for (let u of m) if (u.id === r.id) return { maybeParentId: a };
+    }
+  }
+  return { maybeParentId: Zt };
+}
+function bS(e) {
+  return !be(e);
+}
+function In(e, t) {
+  return Rt(e) &&
+    Rt(t) &&
+    (!(e.children.length === t.children.length) ||
+      Ti(e).find((n, a) => {
+        let d = t.children.at(a);
+        return (L(d, "Both nodes must have equal amount of children"), !In(n, d));
+      }))
+    ? !1
+    : lu(e, t);
+}
+function vS(e, t, o) {
+  let r = ql(t),
+    n = ol(t),
+    a = new Set();
+  for (let d of o)
+    if (
+      (we(d) && (!r || t.baseVariantId !== d.getPrimaryId()) && a.add(d),
+      ri(d) && d.isBreakpoint === !0 && (!n || t.baseVariantId !== d.getPrimaryId()) && a.add(d),
+      Ct(d))
+    ) {
+      let i = e.tree.get(d.replicaInfo.master);
+      (!i || i.parentid !== t.id) && a.add(d);
+    }
+  for (let d of a) {
+    let i = e.tree.current(d);
+    if (!i) return;
+    let l = i.name;
+    (!l &&
+      Ct(i) &&
+      ((l = i.replicaInfo?.overrides?.[i.originalid]?.name),
+      l || (l = e.tree.get(i.replicaInfo.master)?.name ?? null)),
+      i.set({ originalid: null, replicaInfo: null, name: l }),
+      oi(i) && i.set({ isVariant: void 0 }),
+      ri(i) && i.set({ isBreakpoint: void 0 }));
+    for (let f of i.walk()) e.tree.current(f)?.set({ originalid: null });
+  }
+}
+function NS(e, t) {
+  let o = e.getNodeWithTrait(t.id, wt);
+  if (o && E(o.variables, t.variables)) return o;
+  let r = Vi(e)?.loaded;
+  return r ? (r.children.find((n) => IS(t, n)) ?? null) : null;
+}
+function IS(e, t) {
+  return e.name === t.name && e.variables.every((o) => !Fl(o) || PS(t, o));
+}
+function PS(e, t) {
+  return e.variables.some((o) => o.id === t.id && o.type === t.type && o.name === t.name);
+}
+var py = "showedFigmaImportTutorialModal",
+  wS = () => window.localStorage.getItem(py) === "true";
+function kS(e) {
+  return !(typeof e.name != "string" || typeof e.fillImage > "u");
+}
+function ls(e) {
+  return (
+    he(e) &&
+    "version" in e &&
+    re(e.version) &&
+    "root" in e &&
+    he(e.root) &&
+    "__class" in e.root &&
+    J(e.root.__class) &&
+    "id" in e.root &&
+    J(e.root.id) &&
+    "children" in e.root &&
+    ue(e.root.children)
+  );
+}
+async function ps(e, t, o, r) {
+  if (o?.includes("<!--(figma)")) return !0;
+  if (!t) return !1;
+  let { assetService: n } = e.stores.assetStore;
+  if (!n) return !1;
+  let a = Date.now(),
+    d = {
+      key: "processFigmaClipboardData",
+      type: "add",
+      variant: "progress",
+      text: "Importing Figma layers\u2026",
+      duration: 10 * 1e3,
+      showCloseButton: "never",
+    };
+  Ie({ ...d, text: "Uploading Figma images\u2026 5%" });
+  let i = t,
+    l = [],
+    f = 1;
+  function m(p) {
+    if (typeof p == "object") {
+      (f++, kS(p) && l.push(p));
+      for (let v of p.children ?? []) m(v);
+    }
+  }
+  m(i.root);
+  let u = 0;
+  function S() {
+    let p = ++u / l.length,
+      v = Um(p * 100, 5, 95);
+    Ie({ ...d, text: `Uploading Figma images\u2026 ${v}%` });
+  }
+  await Promise.all(
+    l.map(async (p) => {
+      try {
+        let v;
+        if (Array.isArray(p.fillImage)) {
+          let g = Uint8Array.from(p.fillImage);
+          v = new Blob([g]);
+        }
+        if (v === void 0) throw new Error("Failed to create file");
+        let R = new File([v], p.name),
+          x = await n.uploadAsset(R);
+        if (x) {
+          fd(x.properties?.image, "Asset should have image properties");
+          let g = Bl({
+            identifier: Lc(x),
+            intrinsicSize: { width: x.properties.image.width, height: x.properties.image.height },
+          });
+          p.fillImage = g;
+        } else p.fillImage = void 0;
+        S();
+      } catch (v) {
+        ((p.fillImage = void 0), console.warn("Error uploading image", v));
+      }
+    })
+  );
+  let C = await ES(e, i, r);
+  return (
+    C &&
+      e.scheduler.processWhenReady(() => {
+        (e.stores.scopeStore.insertNodes(C.newNodes),
+          e.stores.selectionStore.set(C.newSelection, {
+            switchToLayers: !0,
+            switchToProperties: !0,
+          }));
+      }),
+    wS() ||
+      (e.stores.modalStore.set({ type: "FigmaImportTutorial", source: "clipboard_paste" }),
+      window.localStorage.setItem(py, "true")),
+    Ie({
+      ...d,
+      variant: "success",
+      duration: 2500,
+      text: void 0,
+      primaryText: "Imported layers",
+      secondaryText: "from Figma.",
+    }),
+    Ve("figma_plugin_import", { layers: f, durationMs: Date.now() - a }),
+    !0
+  );
+}
+async function ES(e, t, o) {
+  let r = e.stores.selectionStore.commonGroundNodeId,
+    n = e.stores.selectionStore.ids,
+    a = e.stores.scopeStore.active;
+  if (n.length === 0) {
+    let d = Me(a) ? a.getPrimaryVariant() : null;
+    d && (n = [d.id]);
+  }
+  try {
+    let d = st.fromJS(t, e.componentLoader);
+    return d === null ? null : await ds(e, d, ny, a, o, n, r, !1, void 0);
+  } catch (d) {
+    return (console.warn("Error parsing Figma clipboard data:", d), null);
+  }
+}
+var VS = "ProseMirror";
+function wn(e) {
+  return !!e?.classList.contains(VS);
+}
+async function fs(e, t, o, r) {
+  return !t || t.length === 0
+    ? !1
+    : e.stores.scopeStore.active.id === vo
+      ? (wn(document.activeElement) || r?.preventDefault(), !0)
+      : (r?.preventDefault(), await Rn(e, t, o, "paste"), !0);
+}
+function fy(e, t) {
+  L(t > 0, "Invalid chunk size");
+  let o = [],
+    r = 0;
+  for (; r < e.length;) {
+    let n = r + t,
+      a = e.slice(r, n);
+    (o.push(a), (r = n));
+  }
+  return o;
+}
+async function ms(e) {
+  let t = `duplicate-assets${Math.random()}`,
+    o = { key: t, variant: "progress", type: "add", showCloseButton: "auto" };
+  try {
+    (Ie({
+      ...o,
+      duration: 1 / 0,
+      primaryText: "Importing assets.",
+      secondaryText: "Just a moment\u2026",
+    }),
+      await e(),
+      Ie({ key: t, type: "remove" }));
+  } catch {
+    Ie({
+      ...o,
+      variant: "error",
+      primaryText: "Asset import failed.",
+      secondaryText: "Please try again.",
+    });
+  }
+}
+async function Ao({
+  engine: e,
+  layersData: t,
+  onInsertNode: o,
+  position: r,
+  replace: n = !1,
+  shouldDetachTextStyles: a,
+  shouldPasteTextStyles: d = !1,
+  reusePresetWithSameId: i = !1,
+  shouldDisplayImportAssetsToast: l = !0,
+  cloneWithScopeIds: f = !1,
+  insertTarget: m,
+  initialRenamedIds: u = new ko(),
+}) {
+  if (!t) return !1;
+  let { assetService: S } = e.stores.assetStore;
+  if (!S) return !1;
+  let { layers: C, sourceProjectId: p, assets: v } = t;
+  (C.masters || (C.masters = {}), C.replicas || (C.replicas = {}));
+  let R, x, g;
+  if (m) {
+    let M = e.tree.getNode(m.parentId);
+    M && ((R = e.tree.getGroundNodeFor(M).id), (x = [M.id]), (g = e.tree.getScopeNodeFor(M)));
+  }
+  (!R || !x || !g) &&
+    ((R = e.stores.selectionStore.commonGroundNodeId),
+    (x = e.stores.selectionStore.ids),
+    (g = e.stores.scopeStore.active));
+  let w = e.stores.projectStore.projectId,
+    b = p === w,
+    y = Pn(C, u),
+    z = await dy(e, C, g, r, x, R, b, p, e.stores.treeStore.treeIndex, y, n, m?.index);
+  if (!z) return !1;
+  if ((await Vi(e.tree)?.load(), !b && Array.isArray(v) && v.length > 0)) {
+    let M = fy(v, 500).map((I) => S.duplicateAssets(I, p));
+    l
+      ? await ms(async () => {
+          await Promise.all(M);
+        })
+      : await Promise.all(M);
+  }
+  return (
+    await ay({
+      engine: e,
+      shouldDetachTextStyles: a ?? !b,
+      shouldPasteTextStyles: d,
+      reusePresetWithSameId: i,
+      cloneWithScopeIds: f,
+      insertionGroundNodeId: R,
+      insertionScopeNode: g,
+      layers: C,
+      onInsertNode: o,
+      pasteInfo: z,
+      renamedIds: y,
+      selectAndCenter: !m?.parentId,
+      sourceProjectId: p,
+    }),
+    !0
+  );
+}
+async function us(e, t, o) {
+  if (!t) return !1;
+  let r = !1;
+  if ((t.startsWith("<svg") ? (r = !0) : t.includes("</svg>") && (r = !!tu(t)), !r)) return !1;
+  let n = new File([t], "graphic.svg", { type: "image/svg+xml" });
+  return (await Rn(e, [n], o, "paste"), !0);
+}
+async function my(e, t, o, r, n = su) {
+  if (!t || t.length === 0 || !za(e.stores.scopeStore.active)) return;
+  let a = e.stores.scopeStore.active.id,
+    d = vf(e.tree, e.stores.scopeStore.active, [], o),
+    i = new Sn(e);
+  for (let C of t) i.add(C);
+  let l = (await i.results()).filter(au),
+    f = WS(o, l),
+    m = n();
+  if (!m) return;
+  let u = null;
+  l.forEach((C, p) => {
+    C.dimensions ||
+      Ie({
+        key: "video-dimension-warning",
+        variant: "warning",
+        duration: 5e3,
+        primaryText: "Couldn\u2019t get video size.",
+        secondaryText: "Using defaults.",
+        type: "add",
+      });
+    let v = Ml(C.filename, null, C.originalFilename, null, null, C.dimensions ?? null),
+      R = C.dimensions ?? uy,
+      x = new Of({
+        codeComponentIdentifier: m.value,
+        width: R.width / window.devicePixelRatio,
+        height: R.height / window.devicePixelRatio,
+        ...Jc({ srcFile: { type: "file", value: v }, srcType: { type: "enum", value: "Upload" } }),
+      });
+    (l.length > 1 && p === 0 && (u = x.id),
+      e.scheduler.processWhenReady(() => {
+        if (!e.tree.get(a)) return;
+        if (!za(e.stores.scopeStore.active)) {
+          AS({
+            engine: e,
+            videoComponent: x,
+            originScopeId: a,
+            originParentId: d,
+            canvasPoint: f[p] ?? o,
+          });
+          return;
+        }
+        ku({
+          engine: e,
+          component: x,
+          canvasPoint: f[p] ?? o,
+          source: "insert_panel",
+          notDraggedOntoCanvas: r !== "drop",
+        });
+      }));
+  });
+  let S = u;
+  S &&
+    e.scheduler.processWhenReady(() => {
+      !e.tree.get(S) ||
+        e.stores.scopeStore.active.id !== a ||
+        e.stores.selectionStore.set(S, { switchToProperties: !0 });
+    });
+}
+function AS({ engine: e, videoComponent: t, originScopeId: o, originParentId: r, canvasPoint: n }) {
+  let a = e.tree.getNode(r) ? r : void 0;
+  (t.set(xf(e, a, n, { width: t.width, height: t.height })),
+    wu({ canvasNode: t, source: "insert_panel", isDrag: !0, engine: e }),
+    e.stores.scopeStore.insertNode(t, a, void 0, void 0, o));
+}
+function WS(e, t) {
+  let o = e.x;
+  return t.map((n, a) => {
+    let i = (n.dimensions ?? uy).width / window.devicePixelRatio,
+      l = a === 0 ? i / 2 : 0,
+      f = { x: o + i / 2 - l, y: e.y };
+    return ((o += i - l), f);
+  });
+}
+var uy = { width: 300, height: 300 };
+async function ys(e, t, o, r) {
+  return !t || t.length === 0
+    ? !1
+    : e.stores.scopeStore.active.id === vo
+      ? (wn(document.activeElement) || r?.preventDefault(), !0)
+      : (r?.preventDefault(), await my(e, t, o, "paste"), !0);
+}
+function yy() {
+  Ie({
+    type: "add",
+    variant: "warning",
+    key: "selected-layers-cannot-be-copied",
+    primaryText: "Selected layers",
+    secondaryText: "can\u2019t be copied.",
+  });
+}
+function En(e) {
+  let t = new Set();
+  for (let o of e) {
+    let r = FS(o);
+    r && t.add(r);
+  }
+  return Array.from(t);
+}
+function FS(e) {
+  let t = Ii(e);
+  return t ? (t.packageIdentifier ? void 0 : Ya(t.identifier)[0]) : Ya(e)[0];
+}
+function DS() {
+  let e = new Zf({ id: "clipboard" });
+  return st.createByAdoptingRoot(e);
+}
+var hy = (e, t) => {
+  let {
+      treeStore: o,
+      modulesStore: r,
+      loadedExternalModulesStore: n,
+      projectStore: a,
+      historyStore: d,
+    } = e.stores,
+    i = o.tree,
+    l = DS(),
+    f = new Set(),
+    m = {},
+    u = new Map(),
+    S = [],
+    C = {},
+    p = i.getNodes(t),
+    v = i.withoutDescendants(p.filter((F) => Zm(F))),
+    R = rp(v, i),
+    x = R.map((F) => gp(i, F)),
+    g = et.merge(...x),
+    w = R.map((F) => F.parentid),
+    b = Z(w),
+    y = J(b) ? i.get(b) : null,
+    z = !y || Sd(y) || Sp(y),
+    I = [...US(i, p).values()],
+    U = I.length === 1 ? (I[0] ?? null) : null,
+    K = new Map(),
+    _ = new Set();
+  R.forEach((F) => {
+    for (let q of F.walk()) Ka(i, q, K);
+    for (let q of F.ancestors()) dr(q) && q.getVariableSourceIdentifier() && _.add(q.id);
+  });
+  for (let F of _) {
+    let q = i.getNodeWithTrait(F, dr);
+    if (!q) continue;
+    let se = q.getProvidedValueMap(
+      i,
+      void 0,
+      e.componentLoader,
+      o.sandboxRepeaterData,
+      e.componentLoader.activeBundleHash
+    );
+    if (!se) continue;
+    let W = Array.from(se);
+    W.length !== 0 && S.push([F, W]);
+  }
+  let X = R.find(ii);
+  U && X && Ka(i, U, K);
+  for (let [, F] of K) R.includes(F) || R.push(F);
+  let A = {},
+    T = {},
+    V = {},
+    k = Cn(e.componentLoader, o),
+    O;
+  R.forEach((F) => {
+    let q = i.getRect(F),
+      se = F.cloneWithIds({ parentid: null });
+    if ((L(i.get(se.id), "Node does not exist in tree"), Me(F) && F.isLoaded())) {
+      let W = i.get(F.baseVariantId);
+      (W && (O = i.getRect(W)),
+        F.getTopLevelVariants().forEach((ye) => {
+          A[ye.id] = i.getRect(ye);
+        }),
+        (C[se.id] = ln(i, F)));
+    }
+    for (let W of se.walk()) {
+      (MS(i, e.componentLoader, n, r, W), Wm(i, T, W), Gm(i, u, W));
+      let ae = i.get(W.id);
+      (ae && zm(i, ae, V, m), HS(W, F, m));
+    }
+    if ((me(se) && se.setProp("constraintsLocked", !1), z)) {
+      let W = GS(i, F, g);
+      (se.assign(W), l.insertNode(se));
+    } else (l.insertNode(se), (A[se.id] = q));
+    vn(k, se, f);
+  });
+  let { masters: j, replicas: ee } = zS(l);
+  for (let F of l.root.walk()) H(F) && BS(i, e.componentLoader, n, r, l, F);
+  let oe = l.commit(e.componentLoader),
+    { moduleData: te } = Mm(r, i, oe.root, U, K),
+    de = OS(d, i, v);
+  if (de) {
+    let F = oe.size() - 1;
+    Ve("historic_document_copy", { size: F });
+  }
+  let le = U ? Lm(U) : void 0;
+  return (
+    le?.id && le.pagePath && (C[le.id] = le.pagePath),
+    {
+      layers: {
+        tree: oe.toJS(),
+        originalFrames: A,
+        masters: j,
+        replicas: ee,
+        renamedIds: m,
+        webPagePathByWebPageId: C,
+        webPagePropsForCopiedBreakpoint: le,
+        breakpointOverrides: [...u.entries()],
+        variableValueInfo: U ? { scopeId: U.id, variableValuesByProvider: S } : void 0,
+        stylePresetNodes: T,
+        colorTokenNodes: V,
+        moduleData: te,
+        primaryIntrinsicSize: O,
+        historyData: de,
+      },
+      assets: En(f),
+      sourceProjectId: a.projectId,
+    }
+  );
+};
+function OS(e, t, o) {
+  let r = e.activeTreeVersion;
+  if (!re(r)) return;
+  let [n] = o;
+  if (o.length !== 1 || !n) return { treeVersion: r };
+  let a = LS(t, n);
+  return { treeVersion: r, originalId: n.originalid, replicaInfo: a };
+}
+function LS(e, t) {
+  return Pe(t) ? (Ct(t) ? t.replicaInfo : at.getReplicaForTemplateNode(e, t)?.replicaInfo) : void 0;
+}
+function MS(e, t, o, r, n) {
+  if (!$l(n)) return;
+  let a = Ja(n, t, e, o, r);
+  if (!a) return;
+  let { kind: d } = a;
+  if (d !== "code") return;
+  let { codeError: i } = a;
+  (i !== 7 && i !== 8) || n.set({ codeOverrideEnabled: !1, codeOverrideIdentifier: void 0 });
+}
+function BS(e, t, o, r, n, a) {
+  let d = Ja(a, t, e, o, r);
+  d?.kind === "code" && d.codeError === 5 && n.remove(a.id);
+}
+function HS(e, t, o) {
+  let r = e.originalid;
+  if (!r || (e.setProp("originalid", null), !Cd(e.id, r))) return;
+  e.setProp("duplicatedFrom", we(t) ? null : cr(e.duplicatedFrom, e.id));
+  let n = ti();
+  ((o[r] = n), (e.id = n), e.children?.forEach((a) => a.setProp("parentid", e.id)));
+}
+function GS(e, t, o) {
+  let r = e.getNodeParent(t);
+  if (!uc(t)) return {};
+  if (Po(t)) {
+    let n = Ut.convertNodeToNewParentUpdate(e, t, r, null);
+    return (n.x !== void 0 && (n.x -= o.x), n.y !== void 0 && (n.y -= o.y), n);
+  }
+  if (me(t)) {
+    let n = Ut.convertNodeToNewParentUpdate(e, t, r, null);
+    return (re(n.left) && (n.left -= o.x), re(n.top) && (n.top -= o.y), n);
+  }
+  return Ut.convertNodeToNewParentUpdate(e, t, r, null);
+}
+function zS(e, t = !1) {
+  let o = {},
+    r = {};
+  for (let n of e.root.walk())
+    (L(!n.originalid, "copyTree should not have nodes with originalid anymore"),
+      Mt(n) && n.isMaster && ((o[n.id] = !0), (t ? we : _e)(n) || n.setProp("isMaster", !1)),
+      n.replicaInfo && ((r[n.id] = n.replicaInfo), n.setProp("replicaInfo", null)));
+  return { masters: o, replicas: r };
+}
+function US(e, t) {
+  let o = new Map();
+  for (let r of t) {
+    let n = e.getScopeNodeFor(r);
+    n && o.set(r.id, n);
+  }
+  return o;
+}
+function Wo(e) {
+  return (
+    he(e) &&
+    "layers" in e &&
+    he(e.layers) &&
+    "assets" in e &&
+    ue(e.assets) &&
+    "sourceProjectId" in e &&
+    J(e.sourceProjectId)
+  );
+}
+function gy(e, t) {
+  let o = st.fromJS(t.layers.tree, e);
+  return o ? o.root.children.some(wt) : !1;
+}
+async function Ty(e, t) {
+  if (!t || !Wo(t) || !gy(e.componentLoader, t)) return !1;
+  let o = e.stores.canvasStore.getViewportCenterTakingOverlaysIntoAccount();
+  return (await Ao({ engine: e, layersData: t, position: o }), !0);
+}
+async function Bw(e) {
+  if (dd() || cd()) return !0;
+  let t = await wo(["application/x-framer-layers", "text/plain"]);
+  if (!he(t)) return !1;
+  let o = t["application/x-framer-layers"];
+  return Wo(o) ? gy(e, o) : !1;
+}
+var jS = new Set(["solid", "dashed", "dotted", "double"]);
+function KS(e) {
+  return J(e) && jS.has(e);
+}
+function _S(e) {
+  if (!e) return;
+  let [t, o = "solid", r = "rgb(0, 0, 0)"] = e.replaceAll(", ", ",").split(" ", 3),
+    n = Tt(t);
+  if (!n || n === 0 || o === "none") return;
+  let a = tt(r);
+  if (!(!a || a.a === 0)) return { width: n, color: r, style: KS(o) ? o : "solid" };
+}
+function YS(e) {
+  for (let t of e) if (t && t.width > 0) return t;
+}
+function Cy(e) {
+  let o = [e.borderTop, e.borderRight, e.borderBottom, e.borderLeft].map(_S),
+    [r, ...n] = o;
+  if (r && n.every((l) => E(l, r)))
+    return { borderEnabled: !0, borderColor: r.color, borderWidth: r.width, borderStyle: r.style };
+  let a = YS(o);
+  if (!a) return;
+  let { color: d, style: i } = a;
+  return {
+    borderEnabled: !0,
+    borderPerSide: !0,
+    borderColor: d,
+    borderStyle: i,
+    borderTop: r?.width ?? 0,
+    borderRight: o[1]?.width ?? 0,
+    borderBottom: o[2]?.width ?? 0,
+    borderLeft: o[3]?.width ?? 0,
+  };
+}
+var $S = "rgba(0, 0, 0, 0)";
+function Sy(e) {
+  let t = e.backgroundImage ?? e.background,
+    o = t ? Kf(t) : void 0;
+  return Oi(o)
+    ? { fillEnabled: !0, fillType: "radial-gradient", fillRadialGradient: o }
+    : Di(o)
+      ? { fillEnabled: !0, fillType: "linear-gradient", fillLinearGradient: o }
+      : Fi(o)
+        ? { fillEnabled: !0, fillType: "conic-gradient", fillConicGradient: o }
+        : e.backgroundColor && e.backgroundColor !== $S
+          ? {
+              fillEnabled: !0,
+              fillType: "color",
+              fillColor: e.backgroundColor,
+              fillConicGradient: void 0,
+              fillLinearGradient: void 0,
+              fillRadialGradient: void 0,
+            }
+          : void 0;
+}
+function Vn(e) {
+  let t = e.overflow;
+  if (t)
+    switch (t) {
+      case "hidden":
+        return { overflow: "hidden" };
+      case "clip":
+        return { overflow: "clip" };
+      case "visible":
+        return { overflow: "visible" };
+      case "auto":
+      case "scroll":
+        return { overflow: "auto" };
+      default:
+        return;
+    }
+}
+var XS = new Set(["brightness", "contrast", "grayscale", "invert", "saturate", "sepia"]);
+function Ry(e) {
+  let t = e.filter;
+  if (!t || t === "none") return;
+  let o = {};
+  for (let r of e.filter.split(" ")) {
+    let [n, a] = r.split("(", 2),
+      d = Tt(a);
+    if (D(d)) continue;
+    let i = Xm(n);
+    i in mp && (a?.endsWith("%)") || !XS.has(i) ? (o[i] = d) : (o[i] = d * 100));
+  }
+  return o;
+}
+function Sr(e) {
+  let t = { ...Ry(e) };
+  if ((e.opacity && (t.opacity = Tt(e.opacity)), e.zIndex)) {
+    let o = Tt(e.zIndex);
+    o && (t.zIndex = Math.max(Math.min(o, 10), -1));
+  }
+  return (
+    hl(e.mixBlendMode) && e.mixBlendMode !== "normal" && (t.blendingMode = e.mixBlendMode),
+    bl(e.pointerEvents) && e.mixBlendMode !== "auto" && (t.pointerEvents = e.pointerEvents),
+    Nl(e.userSelect) && e.mixBlendMode !== "auto" && (t.userSelect = e.userSelect),
+    Tl(e.imageRendering) && (t.imageRendering = e.imageRendering),
+    t
+  );
+}
+function xy(e) {
+  let t = tc(e.padding);
+  return t === null
+    ? void 0
+    : t.top === t.right && t.right === t.bottom && t.bottom === t.left
+      ? t.top === 0
+        ? void 0
+        : { padding: t.top }
+      : {
+          paddingPerSide: !0,
+          paddingTop: t.top,
+          paddingRight: t.right,
+          paddingBottom: t.bottom,
+          paddingLeft: t.left,
+        };
+}
+var ZS = {
+    100: "Thin",
+    200: "Extra Light",
+    300: "Light",
+    400: "Normal",
+    500: "Medium",
+    600: "Semi Bold",
+    700: "Bold",
+    800: "Extra Bold",
+    900: "Black",
+  },
+  JS = new Set([
+    "ui-sans-serif",
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "SF Pro Display",
+    "SF Pro Text",
+    "sans-serif",
+    "BlinkMacSystemFont",
+    "Helvetica Neue",
+    "Arial",
+    "system-ui",
+    "-apple-system",
+    "BlinkMacSystemFont",
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    "sans-serif",
+  ]);
+function QS(e) {
+  return e.toLowerCase().replaceAll("-", " ").replaceAll("_", " ");
+}
+var An = {};
+async function Rr(e, t) {
+  if (An[t]) return An[t];
+  let o = QS(t),
+    r = o.replaceAll(" ", ""),
+    n = [],
+    a = e.googleWebFonts?.staticFonts;
+  L(a, "Google web fonts must be loaded");
+  for (let i of a) {
+    if (!i) continue;
+    let l = i.family.toLowerCase();
+    if (l === o) return (An[t] = i);
+    l.startsWith(o) && n.push(i);
+    let f = l.replaceAll(" ", "");
+    (f === r || f.startsWith(r)) && n.push(i);
+  }
+  let [d] = n;
+  return d ? (An[t] = d) : !1;
+}
+async function by(e, t) {
+  let o = t.fontFamily.split(",")[0]?.replaceAll('"', "") || t.fontFamily,
+    r = t.fontWeight || `${400}`;
+  if (JS.has(o)) o = `__SystemDefault-${r}-normal__`;
+  else {
+    ((o = o.replace(/['"]/gu, "")), (o = o.replaceAll("_", " ")), (o = o.trim()));
+    let n = await Rr(e, o),
+      a = ZS[r] || r;
+    (n ||
+      (t.fontFamily.endsWith("sans-serif")
+        ? (n = await Rr(e, "Inter"))
+        : t.fontFamily.endsWith("serif")
+          ? (n = await Rr(e, "Roboto Serif"))
+          : t.fontFamily.endsWith("monospace")
+            ? (n = await Rr(e, "Roboto Mono"))
+            : (n = await Rr(e, "Inter"))),
+      n &&
+        ((o = `GF;${n.family}`),
+        n.variants.includes(r)
+          ? (o = `GF;${n.family}-${r}`)
+          : n.variants.includes(a)
+            ? (o = `GF;${n.family}-${a}`)
+            : n.variants.includes("regular")
+              ? (o = `GF;${n.family}-regular`)
+              : n.variants.includes("normal") && (o = `GF;${n.family}-normal`)));
+  }
+  return o;
+}
+var eR = {
+  "flex-start": "top",
+  start: "top",
+  "flex-end": "bottom",
+  end: "bottom",
+  center: "center",
+};
+function tR(e) {
+  if (!e.alignItems) return;
+  let t = eR[e.alignItems];
+  if (t) return { textVerticalAlignment: t };
+}
+var oR = {
+    layout: "stack",
+    stackAlignment: "center",
+    stackDirection: "vertical",
+    stackDistribution: "center",
+    stackWrapEnabled: !1,
+    gap: 0,
+  },
+  rR = new Set(["p", "h1", "h2", "h3", "h4", "h5", "h6"]);
+async function vy(e, t, o, r) {
+  if (!t.innerHTML) return [];
+  let n = t.style,
+    a = t.tagName.toLowerCase(),
+    d = rR.has(a) ? a : "p",
+    i = new Tr({ html: `<${d}>${t.innerHTML}</${d}>`, ...r, heightType: 2, ...Sr(n), ...tR(n) });
+  if (n.fontFamily) {
+    let l = await by(e.stores.webFontStore, n);
+    i.setFont(l, !1);
+  }
+  if ((n.color && i.setTextColor(n.color, !1), n.fontSize)) {
+    let l = parseFloat(n.fontSize);
+    mi(l) && i.setFontSize(l, !1);
+  }
+  if (n.letterSpacing) {
+    let l = parseFloat(n.letterSpacing);
+    mi(l) && i.setLetterSpacing([l, "px"], !1);
+  }
+  if (
+    (n.textTransform && i.setTextTransform(n.textTransform, !1),
+    n.textDecorationLine && i.setTextDecoration(n.textDecorationLine, !1),
+    n.lineHeight)
+  ) {
+    let l = parseFloat(n.lineHeight);
+    mi(l) && i.setLineHeight([l, "px"], !1);
+  }
+  if ((n.textAlign && i.setTextAlignment(n.textAlign, !1), !pl(o))) {
+    let l = xy(n),
+      f = l?.padding ?? l?.paddingTop ?? 0,
+      m = l?.padding ?? l?.paddingLeft ?? 0,
+      { top: u, left: S, width: C, height: p } = r,
+      v = new Gt({
+        top: (u ?? 0) - f,
+        left: (S ?? 0) - m,
+        widthType: l ? 2 : 0,
+        heightType: l ? 2 : 0,
+        width: C,
+        height: p,
+        fillEnabled: !1,
+        ...Vn(n),
+        ...l,
+        ...(l ? oR : void 0),
+        ...o,
+      });
+    return (i.set({ top: 0, left: 0 }), v.addChild(i), [v]);
+  }
+  return [i];
+}
+function iR(e) {
+  return e.tagName === "svg";
+}
+function nR(e) {
+  if (!Kl(e)) return null;
+  let { intrinsicWidth: t, intrinsicHeight: o } = e;
+  return !re(t) || !re(o) ? null : t / o;
+}
+async function Ny(e, t, o, r) {
+  let n = new Jm(),
+    a = new Sn(e, { silent: !0 });
+  try {
+    if (iR(t)) {
+      t.setAttribute("style", "");
+      let S = new Blob([t.outerHTML], { type: _l.get("svg") }),
+        C = new File([S], "SVG", { type: S.type }),
+        p = await C.text();
+      if (!ou(p)) {
+        let v = await Pu(S);
+        e.scheduler.processWhenReady(() => {
+          let R = e.tree.get(o.id);
+          if (!R) return;
+          dn(
+            me(R),
+            "uploadImageAndReplacePlaceholder: Placeholder must exist and be pinnable to replace with an SVG."
+          );
+          let x = e.tree.getIndex(o),
+            { width: g = 0, height: w = 0 } = r;
+          (e.tree.insertNode(
+            new Qf({
+              left: R.left,
+              top: R.top,
+              right: R.right,
+              width: R.width,
+              height: R.height,
+              widthType: R.widthType,
+              heightType: R.heightType,
+              centerAnchorX: R.centerAnchorX,
+              intrinsicHeight: w,
+              intrinsicWidth: g,
+              svg: v,
+              aspectRatio: g / w,
+            }),
+            o.parentid,
+            x
+          ),
+            e.tree.remove(o.id),
+            n.resolve());
+        });
+        return;
+      }
+      a.add(C);
+    } else {
+      let S = t.getAttribute("src");
+      (dn(S, "uploadImageAndReplacePlaceholder: Must have a src string for an image."), a.add(S));
+    }
+    let [d] = (await a.results()).filter(nu);
+    dn(d, "uploadImageAndReplacePlaceholder: Must be able to upload an image.");
+    let { originalFilename: i, imageSize: l } = d,
+      { nonZeroNaturalWidth: f, nonZeroNaturalHeight: m } = eu(l),
+      u = t.style;
+    e.scheduler.processWhenReady(() => {
+      (e.tree
+        .get(o.id)
+        ?.set({
+          aspectRatio: nR({ intrinsicWidth: f, intrinsicHeight: m }),
+          fillImage: iu(d),
+          fillImageOriginalName: i,
+          fillEnabled: !0,
+          fillType: "image",
+          altAttribute: t.getAttribute("alt") || void 0,
+          fillImageResize: Nc(u.objectFit),
+          intrinsicWidth: f,
+          intrinsicHeight: m,
+          fillImagePixelWidth: f,
+          fillImagePixelHeight: m,
+        }),
+        n.resolve());
+    });
+  } catch {
+    e.scheduler.processWhenReady(() => {
+      (e.tree.remove(o.id), n.resolve());
+    });
+  }
+  return n;
+}
+function aR(e) {
+  if (e.fillEnabled) return !1;
+  let t = e.resolveValue("boxShadows");
+  return !((t && t.length > 0) || e.borderEnabled || (e.opacity && e.opacity !== 1));
+}
+function sR(e, t, o) {
+  if (!Le(t) || !ba(t.overflow)) return !1;
+  let r = e.tree.getRect(t),
+    n = o.reduce((a, d) => et.merge(a, e.tree.getRect(d)), { x: 0, y: 0, width: 0, height: 0 });
+  return !et.containsRect(r, n);
+}
+function dR(e, t) {
+  if (!ba(e?.overflow) && e?.overflow !== "auto") return !1;
+  let o = e?.width || 0,
+    r = e?.left || 0,
+    n = parseFloat(t.left) || 0,
+    a = parseFloat(t.width) || 0;
+  return n - r > o || n + a < r;
+}
+async function Iy(e, t, o, r) {
+  let { style: n } = o;
+  if (n.display === "none" || (!n.width && !n.height) || dR(r, n)) return [];
+  let a = r?.top ?? 0,
+    d = r?.left ?? 0,
+    i = (parseInt(n.top) || 0) - a,
+    l = (parseInt(n.left) || 0) - d,
+    f = parseInt(n.width),
+    m = parseInt(n.height),
+    u = { ...Cy(n), ...fl(n), ...Yc(n), ...$c(n), ...Sy(n) },
+    S = Vn(n),
+    C = { top: i, left: l, width: f, widthType: n.width === "auto" ? 2 : 0, height: m, ...S };
+  if (lR(o)) return pR(e, t, o, u, C);
+  if (cR(o)) return vy(e, o, u, C);
+  let p = fR(o, u, C),
+    v = { top: i + a, left: l + d, width: f, ...S },
+    R = [];
+  for (let x of o.children) {
+    if (!wy(x)) continue;
+    let g = await Iy(e, t, x, v);
+    if (g) for (let w of g) R.push(w);
+  }
+  if (aR(p)) {
+    if (R.length === 0) return [];
+    if (r || !sR(e, p, R))
+      return R.map((x) => (me(x) ? x.set({ top: (x.top ?? 0) + i, left: (x.left ?? 0) + l }) : x));
+  }
+  return (await e.scheduler.processWhenReadyAsync(() => R.forEach((x) => p.addChild(x))), [p]);
+}
+function cR(e) {
+  switch (e.tagName) {
+    case "P":
+    case "H1":
+    case "H2":
+    case "H3":
+    case "H4":
+    case "H5":
+    case "H6":
+    case "STRONG":
+    case "B":
+    case "I":
+      return !0;
+    default:
+      return !1;
+  }
+}
+function lR(e) {
+  return e.tagName === "svg" || !!e.getAttribute("src");
+}
+async function pR(e, t, o, r, n) {
+  let a = new Gt({
+    ...r,
+    ...Sr(o.style),
+    ...n,
+    fillImage: void 0,
+    fillEnabled: !0,
+    fillType: "image",
+  });
+  return (t.push(() => Ny(e, o, a, n)), [a]);
+}
+function fR(e, t, o) {
+  return new Gt({
+    ...o,
+    fillEnabled: !1,
+    htmlTag: e.tagName === "SECTION" ? "section" : void 0,
+    ...Sr(e.style),
+    ...t,
+  });
+}
+function mR(e) {
+  let t = e.getAttribute("data-framer-html-import-extension");
+  if (!t) return {};
+  let { width: o, height: r, url: n } = JSON.parse(t);
+  return { width: Tt(o), height: Tt(r), url: n };
+}
+async function Py(e, t, o) {
+  if (D(t)) return !1;
+  let r = e.stores.scopeStore.getTopMostWebPageNode();
+  if (!r) return !1;
+  let n = (await r.load())?.loaded;
+  if (!n) return !1;
+  let a = n.getPrimaryVariant(),
+    { width: d, url: i } = mR(t);
+  if (!i) return !1;
+  (Ve("html_import_start", { url: i }),
+    await e.scheduler.processWhenReadyAsync(() => {
+      (re(d) && a.widthType === 0 && a.set({ width: d, widthType: 0 }),
+        Ie({
+          key: "paste-html",
+          variant: "progress",
+          type: "add",
+          primaryText: "Pasting",
+          secondaryText: "layers\u2026",
+          duration: 1 / 0,
+        }));
+    }));
+  let l = [],
+    f = [],
+    m = await Promise.all([...t.children].filter(wy).map((C) => Iy(e, l, C)));
+  if (m.length === 0)
+    return (Ve("html_import_fail", { url: i }), Ie({ type: "remove", key: "paste-html" }), !0);
+  if (
+    (await e.scheduler.processWhenReadyAsync(() => {
+      e.beginUndoGroup();
+      for (let C of m)
+        C &&
+          C.forEach((p) => {
+            (e.stores.scopeStore.insertNode(p, a.id), f.push(p));
+          });
+    }),
+    f.length === 0)
+  )
+    return (
+      await e.scheduler.processWhenReadyAsync(() => {
+        (e.endUndoGroup(), Ie({ type: "remove", key: "paste-html" }));
+      }),
+      Ve("html_import_fail", { url: i }),
+      !0
+    );
+  let u = { images: 0, frames: 0, text: 0 },
+    S = { x: 0, y: 0, width: 0, height: 0 };
+  return (
+    await e.scheduler.processWhenReadyAsync(() => {
+      for (let C of f)
+        for (let p of C.walk()) {
+          let v = e.tree.getRect(p),
+            R = e.tree.get(p.parentid);
+          if (
+            ((S = et.merge(S, v)),
+            Le(p)
+              ? p.fillType === "image"
+                ? u.images++
+                : u.frames++
+              : Xr(p)
+                ? u.images++
+                : ne(p) && u.text++,
+            !R || !me(p))
+          )
+            continue;
+          let x = e.tree.getRect(R),
+            g = x.width - (v.x + v.width);
+          p.widthType !== 2 && v.x === 0 && v.width === x.width
+            ? p.set({ width: 1, widthType: 1 })
+            : Math.floor(Math.abs(g - v.x)) <= 2 &&
+              p.set({ left: null, right: null, centerAnchorX: 0.5 });
+        }
+      a.heightType === 0 && S.height > a.height && a.set({ height: S.height });
+    }),
+    await Promise.all(l.map((C) => C())),
+    await e.scheduler.processWhenReadyAsync(() => {
+      let C = f.reduce((p, v) => et.merge(p, Tp(e.tree, v)), { x: 0, y: 0, width: 0, height: 0 });
+      (e.stores.canvasStore.zoomToCenter(C),
+        (e.stores.chromeStore.activeContentPanelTab = "Layers"),
+        e.endUndoGroup(),
+        Ve("html_import_success", {
+          url: i,
+          images: u.images,
+          frames: u.frames,
+          text: u.text,
+          layers: u.images + u.frames + u.text,
+        }),
+        Ie({ type: "remove", key: "paste-html" }));
+    }),
+    !0
+  );
+}
+function wy(e) {
+  return "style" in e && e.style instanceof CSSStyleDeclaration;
+}
+async function ky(e, t, o, r) {
+  return !t || Kt() || t.trim().length === 0
+    ? !1
+    : (r?.preventDefault(),
+      e.scheduler.processWhenReadyAsync(() => {
+        let { tree: n, stores: a } = e,
+          { selectionStore: d, scopeStore: i } = a,
+          l = i.active,
+          { maybeParentId: f, insertionIndex: m } = cs(
+            e.componentLoader,
+            [new Tr()],
+            n,
+            l,
+            d.ids,
+            d.commonGroundNodeId
+          ),
+          u = f || l.id,
+          S = e.tree.getNode(u),
+          C = !!(S && Ud(S)),
+          p = Em(e.tree),
+          v = { widthType: 2 };
+        C && ((v.widthType = 3), (v.width = 1));
+        let R = {};
+        u === l.id
+          ? ((R.left = o.x), (R.top = o.y))
+          : C ||
+            ((R.left = null), (R.top = null), (R.centerAnchorX = 0.5), (R.centerAnchorY = 0.5));
+        let x = uR(t),
+          g = { ...p, ...v, ...R, heightType: 2, html: x },
+          w = du(e.tree, u, (b, y, z) => e.createNode(Tr, { ...g, ...y }, b, void 0, m).id);
+        return (e.stores.selectionStore.set([w]), !0);
+      }));
+}
+function uR(e) {
+  return e
+    .split(
+      `
+`
+    )
+    .map((t) => {
+      let o = t.trim();
+      return o.length === 0 ? "<br />" : `<p>${yR(o)}</p>`;
+    })
+    .join("");
+}
+function yR(e) {
+  let t = document.createElement("div");
+  return ((t.textContent = e), t.innerHTML);
+}
+function Ey(e, t) {
+  if (!pc(e) || !vp(e)) return;
+  let o = bp(e);
+  (G(t.aspectRatioEnabled)
+    ? (t.aspectRatioEnabled = o)
+    : t.aspectRatioEnabled !== N && t.aspectRatioEnabled !== o && (t.aspectRatioEnabled = N),
+    !uo(e) && (t.aspectRatioLocked = !1));
+}
+function Vy(e, t) {
+  yl(e) && c("blendingMode", t, e);
+}
+function Wy() {
+  return {
+    borderEnabled: s,
+    borderWidth: s,
+    borderColor: s,
+    borderPerSide: s,
+    borderTop: s,
+    borderRight: s,
+    borderBottom: s,
+    borderLeft: s,
+    borderStyle: s,
+  };
+}
+var hR = (e) => e ?? Np,
+  gR = (e) => e ?? "black",
+  Ay = (e) => e ?? !1;
+function xr(e) {
+  return e ?? 1;
+}
+function Fy(e, t) {
+  oo(e) &&
+    (c("borderEnabled", t, e, Ay),
+    e.borderEnabled &&
+      (c("borderStyle", t, e, hR),
+      c("borderColor", t, e, gR),
+      c("borderWidth", t, e, xr),
+      c("borderPerSide", t, e, Ay),
+      c("borderTop", t, e, xr),
+      c("borderRight", t, e, xr),
+      c("borderBottom", t, e, xr),
+      c("borderLeft", t, e, xr)));
+}
+function Dy() {
+  return {
+    fillEnabled: s,
+    fillType: s,
+    fillColor: s,
+    fillImage: s,
+    fillImagePositionX: s,
+    fillImagePositionY: s,
+    fillImageTileSize: s,
+    fillImageAlts: s,
+    fillGradientCSS: s,
+    gradientFillSupported: !0,
+    fillImageResize: new Set(),
+    fillImages: new Set(),
+    anyNodesWithFill: !1,
+    anyNodesWithImageFill: !1,
+    anyNodeWithNonOptionalFill: !1,
+    onlyNodesSupportingImageFill: !0,
+    onlyNodesSupportingFillImageAlts: !1,
+  };
+}
+function TR(e) {
+  return re(e) ? e : 1;
+}
+function Oy(e, t, o) {
+  if (To(t) && !(Jf(t) && !t.colorable)) {
+    if (
+      ((o.anyNodesWithFill = !0),
+      CR(t) || (o.onlyNodesSupportingImageFill = !1),
+      t.fillType === "image" &&
+        (o.fillImageResize.add(t.fillImageResize ?? "fill"),
+        J(t.fillImage) && o.fillImages.add(t.fillImage),
+        (J(t.fillImage) || pe(t.fillImage)) && (o.anyNodesWithImageFill = !0),
+        c("fillImage", o, t),
+        c("fillImagePositionX", o, t),
+        c("fillImagePositionY", o, t),
+        c("fillImageTileSize", o, t, TR)),
+      si(t))
+    ) {
+      let r;
+      if (xc(t.fillType))
+        switch (t.fillType) {
+          case "linear-gradient": {
+            r = hs(t.fillLinearGradient);
+            break;
+          }
+          case "radial-gradient": {
+            r = hs(t.fillRadialGradient);
+            break;
+          }
+          case "conic-gradient": {
+            r = hs(t.fillConicGradient);
+            break;
+          }
+          default:
+            xe(t.fillType);
+        }
+      (r &&
+        (G(o.fillGradientCSS)
+          ? (o.fillGradientCSS = r)
+          : o.fillGradientCSS !== r && (o.fillGradientCSS = N)),
+        (Jt(t) && !t.fillEnabled) || c("fillType", o, t));
+    } else o.gradientFillSupported = !1;
+    (Jt(t) ? c("fillEnabled", o, t) : (o.anyNodeWithNonOptionalFill = !0), c("fillColor", o, t));
+  }
+}
+function hs(e) {
+  if (e) return new Ep({ stops: e.stops }).toCSS(90);
+}
+function CR(e) {
+  return !(yi(e) || Ue(e) || Be(e) || go(e) || ho(e) || (ke(e) && e.fillType !== "image"));
+}
+function Ly(e, t) {
+  yp(e) && c("opacity", t, e);
+}
+function My(e, t, o) {
+  if (!me(t)) return;
+  let r = e.getParent(t.id);
+  if (No(t, r) || Kr(r)) return;
+  if ((c("constraintsLocked", o, t), o.pinLeft !== N)) {
+    let a = re(t.left);
+    G(o.pinLeft) ? (o.pinLeft = a) : o.pinLeft !== a && (o.pinLeft = N);
+  }
+  if (o.pinRight !== N) {
+    let a = re(t.right);
+    G(o.pinRight) ? (o.pinRight = a) : o.pinRight !== a && (o.pinRight = N);
+  }
+  if (o.pinTop !== N) {
+    let a = re(t.top);
+    G(o.pinTop) ? (o.pinTop = a) : o.pinTop !== a && (o.pinTop = N);
+  }
+  if (o.pinBottom !== N) {
+    let a = re(t.bottom);
+    G(o.pinBottom) ? (o.pinBottom = a) : o.pinBottom !== a && (o.pinBottom = N);
+  }
+  if (o.widthFactor !== N) {
+    let a = t.widthType === 1;
+    G(o.widthFactor) ? (o.widthFactor = a) : o.widthFactor !== a && (o.widthFactor = N);
+  }
+  if (o.heightFactor !== N) {
+    let a = t.heightType === 1;
+    G(o.heightFactor) ? (o.heightFactor = a) : o.heightFactor !== a && (o.heightFactor = N);
+  }
+  let n = t.constraints();
+  (o.canSetTop && !fr(n, "top") && (o.canSetTop = !1),
+    o.canSetBottom && !fr(n, "bottom") && (o.canSetBottom = !1),
+    o.canSetLeft && !fr(n, "left") && (o.canSetLeft = !1),
+    o.canSetRight && !fr(n, "right") && (o.canSetRight = !1),
+    o.canSetHorizontalPins && !Fa(t, ["left", "right"]) && (o.canSetHorizontalPins = !1),
+    o.canSetVerticalPins && !Fa(t, ["top", "bottom"]) && (o.canSetVerticalPins = !1));
+}
+function By(e, t) {
+  if (mr(e)) {
+    if ((c("strokeEnabled", t, e, Boolean), pr(e))) {
+      let o = wp.isClosed(e.calculatedPaths());
+      (G(t.pathsAreClosed)
+        ? (t.pathsAreClosed = o)
+        : !ie(t.pathsAreClosed) && t.pathsAreClosed !== o && (t.pathsAreClosed = N),
+        e.strokeAlignment && o && t.strokeAlignmentValues.add(e.strokeAlignment));
+    }
+    (c("lineJoin", t, e),
+      c("lineCap", t, e),
+      c("strokeColor", t, e),
+      c("strokeWidth", t, e),
+      c("strokeMiterLimit", t, e),
+      c("strokeDashArray", t, e),
+      c("strokeDashOffset", t, e));
+  }
+}
+function Hy(e, t) {
+  yf(e) && c("textTruncation", t, e);
+}
+function Gy(e, t) {
+  Ue(e) ||
+    (H(e) && !Q.isOn("ariaProperties")) ||
+    ((Yi(e) ||
+      Qi(e) ||
+      bi(e) ||
+      zi(e) ||
+      xi(e) ||
+      Li(e) ||
+      Mi(e) ||
+      Hi(e) ||
+      Ui(e) ||
+      Xi(e) ||
+      Si(e) ||
+      Gi(e) ||
+      $i(e) ||
+      Ri(e) ||
+      Bi(e) ||
+      Ji(e) ||
+      en(e) ||
+      Zi(e) ||
+      qi(e) ||
+      ji(e) ||
+      _i(e) ||
+      Ki(e) ||
+      ur(e) ||
+      li(e) ||
+      fn(e) ||
+      an(e) ||
+      tn(e)) &&
+      (t.anyNodesWithA11ySupport = !0));
+}
+function zy(e) {
+  return D(e) ? "" : e;
+}
+function Uy() {
+  return { altAttribute: s, onlyNodesWithAltAttribute: !0 };
+}
+function jy(e, t) {
+  if (!np(e)) {
+    t.onlyNodesWithAltAttribute = !1;
+    return;
+  }
+  c("altAttribute", t, e, zy);
+}
+function Ky(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaAtomic = !1;
+    return;
+  }
+  if (!Li(e)) {
+    t.onlyNodesWithAriaAtomic = !1;
+    return;
+  }
+  c("ariaAtomic", t, e);
+}
+function _y(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaBusy = !1;
+    return;
+  }
+  if (!Mi(e)) {
+    t.onlyNodesWithAriaBusy = !1;
+    return;
+  }
+  c("ariaBusy", t, e);
+}
+function Yy(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaChecked = !1;
+    return;
+  }
+  if (!Bi(e)) {
+    t.onlyNodesWithAriaChecked = !1;
+    return;
+  }
+  c("ariaChecked", t, e);
+}
+function $y(e, t, o) {
+  if (H(t) && !Q.isOn("ariaProperties")) {
+    o.onlyNodesWithAriaControls = !1;
+    return;
+  }
+  if (!Hi(t)) {
+    o.onlyNodesWithAriaControls = !1;
+    return;
+  }
+  c("ariaControls", o, t, (r) => zt(e, t, r));
+}
+function Xy(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaCurrent = !1;
+    return;
+  }
+  if (!Si(e)) {
+    t.onlyNodesWithAriaCurrent = !1;
+    return;
+  }
+  c("ariaCurrent", t, e);
+}
+function qy(e, t, o) {
+  if (H(t) && !Q.isOn("ariaProperties")) {
+    o.onlyNodesWithAriaDescribedBy = !1;
+    return;
+  }
+  if (!Gi(t)) {
+    o.onlyNodesWithAriaDescribedBy = !1;
+    return;
+  }
+  c("ariaDescribedBy", o, t, (r) => zt(e, t, r));
+}
+function Zy(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaDescription = !1;
+    return;
+  }
+  if (!zi(e)) {
+    t.onlyNodesWithAriaDescription = !1;
+    return;
+  }
+  c("ariaDescription", t, e);
+}
+function Jy(e, t, o) {
+  if (H(t) && !Q.isOn("ariaProperties")) {
+    o.onlyNodesWithAriaDetails = !1;
+    return;
+  }
+  if (!Ui(t)) {
+    o.onlyNodesWithAriaDetails = !1;
+    return;
+  }
+  c("ariaDetails", o, t, (r) => zt(e, t, r));
+}
+function Qy(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaDisabled = !1;
+    return;
+  }
+  if (!ji(e)) {
+    t.onlyNodesWithAriaDisabled = !1;
+    return;
+  }
+  c("ariaDisabled", t, e);
+}
+function eh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaExpanded = !1;
+    return;
+  }
+  if (!Ki(e)) {
+    t.onlyNodesWithAriaExpanded = !1;
+    return;
+  }
+  c("ariaExpanded", t, e);
+}
+function th(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaHaspopup = !1;
+    return;
+  }
+  if (!Ri(e)) {
+    t.onlyNodesWithAriaHaspopup = !1;
+    return;
+  }
+  c("ariaHaspopup", t, e);
+}
+function oh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaHidden = !1;
+    return;
+  }
+  if (!_i(e)) {
+    t.onlyNodesWithAriaHidden = !1;
+    return;
+  }
+  c("ariaHidden", t, e);
+}
+function rh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaLabel = !1;
+    return;
+  }
+  if (!Yi(e)) {
+    t.onlyNodesWithAriaLabel = !1;
+    return;
+  }
+  c("ariaLabel", t, e);
+}
+function ih(e, t, o) {
+  if (H(t) && !Q.isOn("ariaProperties")) {
+    o.onlyNodesWithAriaLabelledBy = !1;
+    return;
+  }
+  if (!$i(t)) {
+    o.onlyNodesWithAriaLabelledBy = !1;
+    return;
+  }
+  c("ariaLabelledBy", o, t, (r) => zt(e, t, r));
+}
+function nh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaLive = !1;
+    return;
+  }
+  if (!xi(e)) {
+    t.onlyNodesWithAriaLive = !1;
+    return;
+  }
+  c("ariaLive", t, e);
+}
+function ah(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaModal = !1;
+    return;
+  }
+  if (!Xi(e)) {
+    t.onlyNodesWithAriaModal = !1;
+    return;
+  }
+  c("ariaModal", t, e);
+}
+function sh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaPressed = !1;
+    return;
+  }
+  if (!qi(e)) {
+    t.onlyNodesWithAriaPressed = !1;
+    return;
+  }
+  c("ariaPressed", t, e);
+}
+function dh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaReadonly = !1;
+    return;
+  }
+  if (!Zi(e)) {
+    t.onlyNodesWithAriaReadonly = !1;
+    return;
+  }
+  c("ariaReadonly", t, e);
+}
+function ch(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaRequired = !1;
+    return;
+  }
+  if (!Ji(e)) {
+    t.onlyNodesWithAriaRequired = !1;
+    return;
+  }
+  c("ariaRequired", t, e);
+}
+function lh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaRole = !1;
+    return;
+  }
+  if (!bi(e)) {
+    t.onlyNodesWithAriaRole = !1;
+    return;
+  }
+  c("ariaRole", t, e);
+}
+function ph(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaRoleDescription = !1;
+    return;
+  }
+  if (!Qi(e)) {
+    t.onlyNodesWithAriaRoleDescription = !1;
+    return;
+  }
+  c("ariaRoleDescription", t, e);
+}
+function fh(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithAriaSelected = !1;
+    return;
+  }
+  if (!en(e)) {
+    t.onlyNodesWithAriaSelected = !1;
+    return;
+  }
+  c("ariaSelected", t, e);
+}
+function SR(e, t) {
+  (kt("type", t, e),
+    kt("delay", t, e),
+    kt("stiffness", t, e),
+    kt("damping", t, e),
+    kt("mass", t, e),
+    kt("duration", t, e),
+    kt("bounce", t, e),
+    kt("durationBasedSpring", t, e),
+    kt("stagger", t, e),
+    !ie(t.ease) && !Ci(t.ease, e.ease) && (t.ease = N));
+}
+function fe(e, t) {
+  return G(t) ? wi(e) : ie(t) ? N : D(e) || D(t) ? (e !== t ? N : void 0) : (SR(e, t), t);
+}
+function kt(e, t, o) {
+  let r = t[e];
+  if (ie(r)) return;
+  let n = o[e];
+  G(r) ? (t[e] = n) : Ne(n, r) && (t[e] = N);
+}
+function mh(e, t) {
+  if (!Gf(e)) {
+    t.onlyNodesWithBackdrop = !1;
+    return;
+  }
+  (c("backdropFillEnabled", t, e),
+    c("backdropFill", t, e),
+    c("backdropDismissible", t, e),
+    c("backdropTransitionLocked", t, e),
+    c("blockDocumentScrolling", t, e, (o) => o ?? !0),
+    (t.backdropEnterTransition = fe(e.backdropEnterTransition, t.backdropEnterTransition)),
+    (t.backdropExitTransition = fe(e.backdropExitTransition, t.backdropExitTransition)));
+}
+function uh(e, t) {
+  if (
+    ((t.anyNodeWithCarouselEffectAncestor ||= Yd(e)),
+    (t.anyNodeWithCarouselEffect ||= ho(e)),
+    !_d(e))
+  ) {
+    t.onlyNodesWithCarouselEffect = !1;
+    return;
+  }
+  (c("carouselEffectEnabled", t, e),
+    c("carouselEffectLoop", t, e),
+    c("carouselEffectAutoPlay", t, e),
+    c("carouselEffectInterval", t, e),
+    c("carouselEffectSnap", t, e));
+}
+function yh(e, t) {
+  if (e.length !== 1) return;
+  let o = e[0];
+  o &&
+    Dp(o) &&
+    (t.collectionOptions = {
+      collectionFilters: o.collectionFilters,
+      collectionFiltersOperator: o.collectionFiltersOperator,
+      collectionOrder: o.collectionOrder,
+      collectionReverse: o.collectionReverse ?? !1,
+      collectionStartOffset: o.collectionStartOffset,
+      collectionLimit: o.collectionLimit,
+      collectionPaginationPageSize: o.collectionPaginationPageSize,
+      collectionRepeatedItemId: o.collectionRepeatedItemId,
+      repeatedItemId: o.repeatedItemId,
+    });
+}
+var hh = B(Oe(), 1);
+function gh(e, t) {
+  if (e.type === "object" && t.type === "object" && he(e.value) && he(t.value)) {
+    let o = Fo(e.value, t.value);
+    return xa(o, t.value) ? t : { ...e, value: o };
+  }
+  if (e.type === "array" && t.type === "array" && ze(e.value) && ze(t.value)) {
+    let o = t.value,
+      r = e.value.map((n, a) => {
+        let d = o[a];
+        return d ? gh(n, d) : n;
+      });
+    return Ci(r, t.value) ? t : { ...e, value: r };
+  }
+  return E(e, t) ? t : e;
+}
+function Fo(e, t) {
+  let o = {};
+  for (let r in e) {
+    let n = e[r];
+    L(n);
+    let a = t[r];
+    if (!a) {
+      o[r] = n;
+      continue;
+    }
+    o[r] = gh(n, a);
+  }
+  return xa(o, t) ? t : o;
+}
+function NF(e) {
+  let t = (0, hh.useRef)(null),
+    o = t.current;
+  if (!o) return ((t.current = e), e);
+  let r = Fo(e, o);
+  return ((t.current = r), r);
+}
+function Wn(e, t, o, r, n, a) {
+  ((n.controlPropsWithIdentifier = {
+    identifier: e,
+    controlProps: Tn(r, o),
+    hiddenBecauseUnsetControlKeys: RR(t, r),
+  }),
+    a?.controlPropsWithIdentifier &&
+      n.controlPropsWithIdentifier.identifier === a.controlPropsWithIdentifier.identifier &&
+      ((n.controlPropsWithIdentifier.controlProps = Fo(
+        n.controlPropsWithIdentifier.controlProps,
+        a.controlPropsWithIdentifier.controlProps
+      )),
+      ml(
+        n.controlPropsWithIdentifier.hiddenBecauseUnsetControlKeys,
+        a.controlPropsWithIdentifier.hiddenBecauseUnsetControlKeys
+      ) &&
+        (n.controlPropsWithIdentifier.hiddenBecauseUnsetControlKeys =
+          a.controlPropsWithIdentifier.hiddenBecauseUnsetControlKeys)));
+}
+function RR(e, t) {
+  let o = new Set();
+  for (let r in t) {
+    let n = t[r];
+    !n || !("hiddenWhenUnset" in n && n.hiddenWhenUnset === !0) || e.some((l) => l[r]) || o.add(r);
+  }
+  return o;
+}
+function gs(e, t, o, r) {
+  let n = t[0];
+  L(n, "Should have at least one node");
+  let a = Th(n),
+    d = xR(n, e);
+  if (!d) return;
+  let i = [],
+    l = [];
+  for (let f of t)
+    (uo(f) || L(a === Th(f), "All nodes should have the same identifier"),
+      i.push(f.getRawControlProps()),
+      l.push(f.getControlProps(d)));
+  Wn(a, i, l, d, o, r);
+}
+function Th(e) {
+  if (H(e)) return e.codeComponentIdentifier;
+  if (Xo(e)) return e.shaderModuleIdentifier;
+  xe(e);
+}
+function xR(e, t) {
+  if (H(e)) return t.reactComponentForIdentifier(e.codeComponentIdentifier)?.properties;
+  if (Xo(e)) return t.shaderForIdentifier(e.shaderModuleIdentifier)?.properties;
+  xe(e);
+}
+function Ch(e, t, o) {
+  if (!H(e)) return;
+  let r = e.getCurrentVariantSize(t);
+  if (!r) return;
+  let { widthType: n, heightType: a } = r;
+  (G(o.currentVariantWidthType)
+    ? (o.currentVariantWidthType = n)
+    : o.currentVariantWidthType !== n && (o.currentVariantWidthType = N),
+    G(o.currentVariantHeightType)
+      ? (o.currentVariantHeightType = a)
+      : o.currentVariantHeightType !== a && (o.currentVariantHeightType = N));
+}
+function bR(e, t) {
+  return e.ancestors(t.id).find((o) => Al(e, o)) ?? null;
+}
+function Sh(e, t, o) {
+  if (!Ni(t) || Bt(t)) {
+    o.onlyNodesWithCursor = !1;
+    return;
+  }
+  (c("cursor", o, t),
+    c("customCursorFollow", o, t, (d) => d ?? !1),
+    c("customCursorTransitionEnabled", o, t),
+    c("customCursorOffsetX", o, t, (d) => d ?? Ia),
+    c("customCursorOffsetY", o, t, (d) => d ?? Ia),
+    c("customCursorAlignment", o, t, (d) => d ?? qd),
+    c("customCursorType", o, t),
+    (o.customCursorTransition = fe(t.customCursorTransition, o.customCursorTransition)));
+  let r = t.customCursorSmartComponentId;
+  o.customCursorSmartComponentId !== N &&
+    t.customCursorType === "variant" &&
+    (r = bR(e, t)?.customCursorSmartComponentId);
+  let n = e.get(r),
+    a = Dt(n) ? (t.customCursorVariant ?? n.getPossiblyNonLoadedBaseVariantId()) : void 0;
+  (o.customCursorVariant.add(a),
+    o.customCursorPlacement.add(t.customCursorPlacement ?? ei),
+    G(o.customCursorSmartComponentId)
+      ? (o.customCursorSmartComponentId = r)
+      : o.customCursorSmartComponentId !== N &&
+        Ne(o.customCursorSmartComponentId, r) &&
+        (o.customCursorSmartComponentId = N));
+}
+function Rh(e, t) {
+  if (!tn(e)) {
+    t.onlyNodesWithDataNosnippet = !1;
+    return;
+  }
+  c("dataNosnippet", t, e);
+}
+function xh(e, t) {
+  $p(e) && c("dataRepeaterArray", t, e);
+}
+function bh(e, t) {
+  if (e.length !== 1) return;
+  let o = e[0];
+  mo(o) && ((t.repeaterId = o.id), (t.repeaterOriginalId = o.getPrimaryId()));
+}
+function vh(e, t) {
+  Pi(e) && c("dataIdentifier", t, e);
+}
+function Nh(e, t) {
+  if (!Op(e) || be(e)) {
+    t.onlyNodesWithDragEffect = !1;
+    return;
+  }
+  (c("dragEffectEnabled", t, e),
+    c("dragEffectSnapBack", t, e),
+    c("dragEffectMomentum", t, e),
+    c("dragEffectFreeform", t, e),
+    c("dragEffectConstraintElement", t, e),
+    c("dragEffectConstraintItem", t, e),
+    (t.dragEffectTransition = fe(e.dragEffectTransition, t.dragEffectTransition)));
+}
+function Ih(e, t) {
+  if (!Mp(e)) {
+    t.onlyNodesWithDraggable = !1;
+    return;
+  }
+  c("draggable", t, e);
+}
+var Ts = B(Oe(), 1);
+function Ph(e, t, o) {
+  for (let r of zf)
+    t.propertiesSupportingVariables[r] !== !1 &&
+      (t.propertiesSupportingVariables[r] = e.supportsDynamicValues() && NR(e, r, o));
+}
+var vR = Object.fromEntries(Object.keys(pn).map((e) => [e, !1])),
+  Cs = Ts.default.createContext(vR);
+Cs.displayName = "SupportedVariablePropertiesContext";
+var CD = Cs.Provider,
+  SD = (e) => Ts.default.useContext(Cs)[e];
+function NR(e, t, o) {
+  switch (t) {
+    case "rotateX":
+    case "rotateY":
+    case "scale":
+    case "skewX":
+    case "skewY":
+    case "transformOriginX":
+    case "transformOriginY":
+    case "translateX":
+    case "translateY":
+    case "translateZ":
+      return !ke(e);
+    case "fillColor":
+    case "fillOpacity":
+    case "opacity":
+    case "strokeColor":
+    case "strokeWidth":
+      return ke(e) ? o === "VectorSet" : !0;
+    case "ariaLabel":
+    case "ariaRoleDescription":
+    case "ariaDescription":
+    case "ariaRole":
+    case "ariaLive":
+    case "ariaExpanded":
+    case "ariaAtomic":
+    case "ariaBusy":
+    case "ariaModal":
+    case "ariaCurrent":
+    case "ariaHaspopup":
+    case "ariaPressed":
+    case "ariaChecked":
+    case "ariaSelected":
+    case "ariaRequired":
+    case "ariaReadonly":
+    case "ariaDisabled":
+    case "ariaHidden":
+    case "backdropDismissible":
+    case "backdropFill":
+    case "backgroundBlur":
+    case "blendingMode":
+    case "blur":
+    case "borderEnabled":
+    case "boxShadows":
+    case "brightness":
+    case "contrast":
+    case "cursor":
+    case "customCursorType":
+    case "dataRepeaterArray":
+    case "dragEffectConstraintItem":
+    case "draggable":
+    case "dynamicVectorSetIdentifier":
+    case "fillImage":
+    case "fontSize":
+    case "formBooleanInputValue":
+    case "formInputAutofillEnabled":
+    case "formInputAutoFocus":
+    case "formInputHidden":
+    case "formInputMaxLength":
+    case "formInputName":
+    case "formInputPlaceholder":
+    case "formInputRequired":
+    case "formInputStep":
+    case "formInputValue":
+    case "formOnSuccessRedirectUrl":
+    case "formSubmitTrackingId":
+    case "formTextAreaResizable":
+    case "formTextInputMaxNumber":
+    case "formTextInputMinNumber":
+    case "formTextInputType":
+    case "gap":
+    case "grayscale":
+    case "gridItemColumnSpan":
+    case "gridItemRowSpan":
+    case "hideScrollbars":
+    case "htmlContent":
+    case "hueRotate":
+    case "imageRendering":
+    case "invert":
+    case "lightboxEffectBackdrop":
+    case "link":
+    case "linkClickTrackingId":
+    case "linkOpenInNewTab":
+    case "linkPreserveParams":
+    case "linkRelValues":
+    case "linkSmoothScroll":
+    case "overflow":
+    case "overflowX":
+    case "overflowY":
+    case "overscrollBehavior":
+    case "padding":
+    case "perspective":
+    case "pointerEvents":
+    case "radius":
+    case "cornerShape":
+    case "repeatArray":
+    case "rotation":
+    case "saturate":
+    case "sepia":
+    case "stackAlignment":
+    case "stackDirection":
+    case "stackDistribution":
+    case "styleAppearEffectScrollTarget":
+    case "styleAppearEffectScrollTargetCollectionItem":
+    case "tabIndex":
+    case "tapHighlightColor":
+    case "textColor":
+    case "textBackgroundColor":
+    case "textContent":
+    case "textEffectScrollTarget":
+    case "textEffectScrollTargetCollectionItem":
+    case "textTruncation":
+    case "carouselEffectAutoPlay":
+    case "carouselEffectInterval":
+    case "carouselEffectLoop":
+    case "carouselEffectSnap":
+    case "tickerEffectVelocity":
+    case "tickerEffectHoverModifier":
+    case "tickerEffectDirectionModifier":
+    case "tickerEffectDraggable":
+    case "transition":
+    case "userSelect":
+    case "variantTransition":
+    case "variableBinding":
+    case "visible":
+    case "zIndex":
+      return !ke(e);
+    default:
+      xe(t);
+  }
+}
+function wh(e, t) {
+  Cc(e) && c("fillOpacity", t, e);
+}
+var IR = [
+  "blur",
+  "backgroundBlur",
+  "brightness",
+  "contrast",
+  "grayscale",
+  "hueRotate",
+  "invert",
+  "saturate",
+  "sepia",
+];
+function kh(e, t) {
+  if (!up(e)) {
+    t.onlyNodesWithFilters = !1;
+    return;
+  }
+  IR.forEach((o) => {
+    c(o, t, e);
+  });
+}
+function Eh(e, t, o) {
+  if (!gt(t) || !Ac(t, e)) {
+    o.onlyNodesWithFloatingPosition = !1;
+    return;
+  }
+  (c("floatingAlignment", o, t),
+    c("floatingOffsetX", o, t),
+    c("floatingOffsetY", o, t),
+    c("floatingCollisionDetection", o, t, (r) => r ?? !1),
+    c("floatingSafeArea", o, t, (r) => r ?? !0),
+    c("floatingCollisionPadding", o, t, (r) => r ?? $d),
+    o.floatingPlacement.add(t.floatingPlacement ?? ei));
+}
+function Vh(e, t, o, r) {
+  if (!Ma(t) || be(t) || (r && !Bp(r))) {
+    o.onlyNodesWithFlowEffect = !1;
+    return;
+  }
+  c("flowEffectEnabled", o, t);
+  let n = t.flowEffectTransition ?? PR(e, t);
+  o.flowEffectTransition = fe(n, o.flowEffectTransition);
+}
+function PR(e, t) {
+  let o = t.cache.flowEffectAncestorId;
+  for (; o;) {
+    let r = e.get(o);
+    if (!r) return;
+    if (Ma(r)) return r.flowEffectTransition;
+    o = r.cache.flowEffectAncestorId;
+  }
+}
+function _t(e, t, o, r) {
+  let n = t[e];
+  if (ie(n)) return;
+  let a = o[e],
+    d = r ? r(a) : a;
+  G(n) ? (t[e] = d) : Ss(d, n) && (t[e] = N);
+}
+function Ss(e, t) {
+  return pe(e) ? !tr(e, t) : pe(t) ? !0 : !E(e, t);
+}
+function Ah(e, t) {
+  if (!mn(e)) {
+    t.onlyNodesWithBooleanInputType = !1;
+    return;
+  }
+  (c("formBooleanInputType", t, e, (o) => o ?? sm),
+    c("formBooleanInputValue", t, e),
+    c("formBooleanInputCheckedBorderWidth", t, e),
+    c("formBooleanInputCheckedBorderColor", t, e),
+    c("formBooleanInputCheckedBorderStyle", t, e),
+    c("formBooleanInputCheckedFillColor", t, e),
+    _t("formBooleanInputCheckedTransition", t, e),
+    (t.formBooleanInputCheckedBoxShadow = ap(
+      e.formBooleanInputCheckedBoxShadow,
+      t.formBooleanInputCheckedBoxShadow
+    )));
+}
+function Wh(e, t, o) {
+  if (!Jo(t)) {
+    o.onlyFormContainerNodes = !1;
+    return;
+  }
+  o.anyFormContainerNodes = !0;
+  let r = e.get(t.getPrimaryId());
+  !r ||
+    r.originalid ||
+    !Jo(r) ||
+    ((o.formSaveId = o.formSaveId ?? r.formSaveId),
+    c("formOnSuccessRedirectUrl", o, r),
+    c("formSubmitTrackingId", o, r));
+}
+function Fh(e, t) {
+  if (!yi(e)) {
+    t.onlyFormInputNodes = !1;
+    return;
+  }
+  ((t.anyFormInputNodes = !0),
+    mn(e) &&
+      e.formBooleanInputType === "radio" &&
+      ((t.onlyNodesWithRequired = !1), (t.anyRadioButton = !0)),
+    c("formInputName", t, e),
+    c("formInputRequired", t, e),
+    c("formInputHidden", t, e),
+    c("formInputValue", t, e),
+    c("formInputAutoFocus", t, e));
+}
+function Dh(e, t) {
+  if (!lm(e)) {
+    t.onlyNodesWithAutofillEnabled = !1;
+    return;
+  }
+  c("formInputAutofillEnabled", t, e);
+}
+function Oh(e, t) {
+  if (!dm(e)) {
+    ((t.formInputIconColor = s), (t.formInputIconImage = s));
+    return;
+  }
+  (t.onlyNodesWithInputIconRow && (t.onlyNodesWithInputIconRow = wR(e)),
+    c("formInputIconImage", t, e),
+    c("formInputIconColor", t, e));
+}
+function wR(e) {
+  return bd(e)
+    ? !1
+    : vi(e)
+      ? pe(e.formTextInputType) ||
+        e.formTextInputType === "date" ||
+        e.formTextInputType === "time" ||
+        e.formTextInputType === "text"
+      : !0;
+}
+function Lh(e, t) {
+  if (!um(e)) {
+    t.onlyNodesWithFormInputInvalidStyles = !1;
+    return;
+  }
+  c("formInputInvalidTextColor", t, e);
+}
+function Mh(e, t) {
+  if (!pm(e)) {
+    ((t.onlyFormInputNodesWithPlaceholder = !1), (t.onlyFormInputNodesWithPlaceholderColor = !1));
+    return;
+  }
+  (fm(e) ? c("formInputPlaceholder", t, e) : (t.onlyFormInputNodesWithPlaceholder = !1),
+    c("formInputPlaceholderColor", t, e));
+}
+function Bh(e, t) {
+  if (!mm(e)) {
+    t.onlyNodesWithFormInputStep = !1;
+    return;
+  }
+  c("formInputStep", t, e);
+}
+var kR = [];
+function Hh(e, t, o) {
+  let r = e.get(t.getPrimaryId());
+  if (!r || r.originalid || !cm(r)) {
+    o.onlyNodesWithSelect = !1;
+    return;
+  }
+  if (((o.anyNodeWithSelect = !0), ER(t, o), ie(o.formSelectOptions))) return;
+  let n = r.formSelectOptions ?? kR;
+  if (G(o.formSelectOptions)) {
+    o.formSelectOptions = [...n];
+    return;
+  }
+  nr(o.formSelectOptions) && (o.formSelectOptions = N);
+}
+function ER(e, t) {
+  vd(e) &&
+    (c("allItemsLabel", t, e, (o) => (D(o) ? ki.allItemsLabel : o)),
+    c("booleanTrueLabel", t, e, (o) => (D(o) ? ki.booleanTrueLabel : o)),
+    c("booleanFalseLabel", t, e, (o) => (D(o) ? ki.booleanFalseLabel : o)));
+}
+function Gh(e, t) {
+  if (!vi(e)) {
+    ((t.onlyNodesWithTextInputType = !1), (t.onlyFormTextAreaNodes = !1));
+    return;
+  }
+  (Il(e) || (t.onlyFormTextAreaNodes = !1),
+    c("formTextInputType", t, e, (o) => o ?? "text"),
+    c("formTextAreaResizable", t, e),
+    c("formTextInputMinNumber", t, e),
+    c("formTextInputMaxNumber", t, e),
+    c("formInputMaxLength", t, e));
+}
+function zh(e) {
+  return e ?? "start";
+}
+function VR(e) {
+  return e ?? 1;
+}
+function AR(e) {
+  return e ?? 1;
+}
+function Uh(e, t, o) {
+  if (!lc(t) || t.cache.parentDirected !== "grid" || !No(t)) {
+    o.onlyGridItemNodes = !1;
+    return;
+  }
+  if (
+    (c("gridItemHorizontalAlignment", o, t, zh),
+    c("gridItemVerticalAlignment", o, t, zh),
+    c("gridItemRowSpan", o, t, AR),
+    t.cache.parentDirectedRowHeightType === "fit" &&
+      (o.anyGridItemParentWithRowHeightFitContent = !0),
+    !o.anyGridItemParentWithMasonryLayout)
+  ) {
+    let a = e.getParent(t.id);
+    a && jd(a) && (o.anyGridItemParentWithMasonryLayout = !0);
+  }
+  let r = o.gridItemColumnSpan;
+  if (r === N) return;
+  let n = VR(t.gridItemColumnSpan);
+  if (re(n)) {
+    let a = e.getParent(t.id);
+    a && Yr(a) && re(a.gridColumnCount) && (n = Math.min(n, a.gridColumnCount));
+  }
+  G(r) ? (o.gridItemColumnSpan = n) : Ne(n, r) && (o.gridItemColumnSpan = N);
+}
+function jh(e, t) {
+  !Pc(e) ||
+    e.cache.parentDirected !== "grid" ||
+    (c("gridItemFillCellWidth", t, e), c("gridItemFillCellHeight", t, e));
+}
+function Kh(e, t, o) {
+  if (!o || !rn(e)) return;
+  let r = e.overlayGrid;
+  if (G(t.overlayGrid)) {
+    t.overlayGrid = r ? { size: void 0, margin: void 0, ...r } : void 0;
+    return;
+  }
+  if (ie(t.overlayGrid)) return;
+  if (D(t.overlayGrid) || D(r)) {
+    t.overlayGrid !== r && (t.overlayGrid = N);
+    return;
+  }
+  let n;
+  for (n in t.overlayGrid) {
+    if (n === "identifier") continue;
+    let a = t.overlayGrid[n];
+    ie(a) || (a !== r[n] && (t.overlayGrid[n] = N));
+  }
+}
+var WR = (e, t) => {
+  if (on(t)) return !0;
+  let o = Pe(t) ? e.get(t.originalid) : t;
+  return o ? (on(o) ? !0 : Wc(e, o).some((n) => on(n.relatedNode))) : !1;
+};
+function _h(e, t, o) {
+  (cn(e, t) || (o.onlyNodesWithFormButton = !1),
+    WR(e, t) ? (o.anyNodesWithLinks = !0) : (o.onlyNodesWithLinks = !1));
+  let r = e.getParent(t.id);
+  if (
+    ((!r || !ur(r) || !Gp(r.htmlTag)) && (o.onlyNodesWithListParents = !1),
+    ur(t)
+      ? (Hp(t.htmlTag) && o.htmlTags.add(t.htmlTag),
+        t.cache.formContainerAncestorId || (o.onlyNodesWithFormAncestor = !1))
+      : (o.onlyNodesWithHTMLTag = !1),
+    ne(t))
+  ) {
+    let a = t.getTextBlockTags(!0);
+    for (let d of a) o.htmlTextTags.add(d);
+  }
+  let n = ut(t) && uf(t) && !!t.textContent;
+  li(t) && !n && o.htmlTextTags.add(t.htmlTextTag);
+}
+function Yh(e, t) {
+  if ((!di(e) && !gt(e) && (t.onlyNodesInAnOverlay = !1), t.onlyNodesSupportingOverlayTrigger)) {
+    let o = Zr(e) || H(e);
+    (!Rt(e) || go(e) || ho(e) || !o || uo(e)) && (t.onlyNodesSupportingOverlayTrigger = !1);
+  }
+}
+function FR(e, t, o) {
+  return !t || t.identifier !== o ? e : Fo(e, t.controlProps);
+}
+function DR(e) {
+  let t = s;
+  for (let o of e) {
+    if (!ga(o)) return s;
+    if (t === s) {
+      t = o.hookIdentifier;
+      continue;
+    }
+    t !== o.hookIdentifier && (t = N);
+  }
+  return t;
+}
+function $h(e, t, o, r) {
+  let n = DR(t);
+  if (((o.hookIdentifier = n), !hc(n))) return;
+  let a = e.hookForIdentifier(n)?.properties;
+  if (!a) return;
+  let d = [];
+  for (let m of t)
+    (L(ga(m), "reduceHookIdentifier found a hook on every node"), d.push(m.getControlProps(a)));
+  let i = Tn(a, d),
+    l = r?.hookControlPropsWithIdentifier,
+    f = FR(i, l, n);
+  if (l?.identifier === n && l.controlProps === f) {
+    o.hookControlPropsWithIdentifier = l;
+    return;
+  }
+  o.hookControlPropsWithIdentifier = { identifier: n, controlProps: f };
+}
+function Xh(e, t) {
+  if (!gl(e)) {
+    t.onlyNodesWithImageRendering = !1;
+    return;
+  }
+  c("imageRendering", t, e);
+}
+var Rs = Symbol("NonDeterministic");
+function qh(e) {
+  return e === Rs;
+}
+function OR(e) {
+  return D(e) ? 0 : e;
+}
+function LR(e) {
+  return D(e) ? "0px" : re(e) ? `${e}px` : e;
+}
+function MR(e) {
+  return e ?? 2;
+}
+function BR(e) {
+  return e ?? 2;
+}
+function HR(e, t, o) {
+  if (o === "both") return o;
+  if (t === "grid") return "both";
+  if (t !== "stack") return o;
+  if (e.stackWrapEnabled === !0) return "both";
+  switch (e.stackDirection) {
+    case "vertical":
+      return o === "x" ? "both" : "y";
+    case "horizontal":
+      return o === "y" ? "both" : "x";
+    default:
+      return "both";
+  }
+}
+function Zh(e, t, o, r) {
+  if (!zd(o) || Bt(o)) {
+    r.onlyNodesWithLayout = !1;
+    return;
+  }
+  if ((c("layout", r, o), !o.layout)) return;
+  if (
+    (c("gridAlignment", r, o),
+    c("gridRowCount", r, o, BR),
+    c("gridColumnCount", r, o, MR),
+    c("gridColumnWidthType", r, o),
+    c("gridColumnWidth", r, o),
+    c("gridColumnMinWidth", r, o, OR),
+    c("gridRowHeightType", r, o),
+    c("gridRowHeight", r, o),
+    c("gridType", r, o),
+    c("stackDirection", r, o),
+    c("stackDistribution", r, o),
+    c("stackAlignment", r, o),
+    c("stackWrapEnabled", r, o, Boolean),
+    c("gap", r, o, LR),
+    (r.gapAxis = HR(o, o.layout, r.gapAxis)),
+    !ie(r.columnGap))
+  ) {
+    let d = pe(o.gap) ? N : nf(o.gap);
+    G(r.columnGap) ? (r.columnGap = d) : Ne(d, r.columnGap) && (r.columnGap = N);
+  }
+  if (!ie(r.rowGap)) {
+    let d = pe(o.gap) ? N : af(o.gap);
+    G(r.rowGap) ? (r.rowGap = d) : Ne(d, r.rowGap) && (r.rowGap = N);
+  }
+  let n = r.computedRowCount;
+  if (qh(n)) return;
+  if (Cf(o)) {
+    r.computedRowCount = Rs;
+    return;
+  }
+  if (ie(n) || r.computedRowCount === N) return;
+  let a = Yr(o) ? qm(o, e, t) : N;
+  G(n) ? (r.computedRowCount = a) : Ne(a, n) && (r.computedRowCount = N);
+}
+function Jh(e, t, o, r, n) {
+  if (o.length !== 1) return;
+  let a = o[0];
+  if (!a || !_e(a)) return;
+  let d = e.getScopeNodeFor(a);
+  if (!rl(d) || !Jl(d)) return;
+  let i = d.layoutTemplateIdentifier,
+    l = t.reactComponentForIdentifier(i);
+  if (!l) return;
+  let f = [d.getRawControlProps()],
+    m = [d.getControlProps(l.properties)],
+    u = l.properties;
+  Wn(i, f, m, u, r, n);
+}
+function Qh(e, t) {
+  if (!zp(e)) {
+    t.onlyNodesWithLightboxEffect = !1;
+    return;
+  }
+  (c("lightboxEffectEnabled", t, e),
+    c("lightboxEffectBackdrop", t, e),
+    c("lightboxEffectMaxWidth", t, e),
+    c("lightboxEffectZIndex", t, e),
+    c("lightboxEffectPadding", t, e),
+    c("lightboxEffectPaddingPerSide", t, e),
+    c("lightboxEffectPaddingTop", t, e),
+    c("lightboxEffectPaddingRight", t, e),
+    c("lightboxEffectPaddingBottom", t, e),
+    c("lightboxEffectPaddingLeft", t, e),
+    (t.lightboxEffectTransition = fe(e.lightboxEffectTransition, t.lightboxEffectTransition)));
+}
+function eg(e, t, o) {
+  if (!ne(t) && !La(t)) {
+    ((o.onlyNodesWithLink = !1), (o.onlyNodesWithLinkOptions = !1));
+    return;
+  }
+  (cn(e, t) && (o.onlyNodesWithLink = !1),
+    ut(t) && (o.onlyNodesWithLinkOptions = !1),
+    bt(t) && (o.onlyNodesWithLinkSupportingComputedValues = !1),
+    Ue(t) && (o.onlyNodesWithLink = !1),
+    ne(t) ? (ge(t.htmlContent) ? (o.onlyNodesWithLink = !1) : zR(t, o)) : La(t) ? UR(t, o) : xe(t));
+}
+function GR(e, t) {
+  if (e !== void 0) return e;
+  if (!(!t || pe(t))) return Lp(t);
+}
+function zR(e, t) {
+  let o = e.getLinks(!0),
+    r = e.getLinkOpenInNewTabs(!0),
+    n = e.getLinkSmoothScroll(!0),
+    a = e.getLinkClickTrackingId(!0),
+    d = e.getLinkRelValues(!0),
+    i = e.getLinkPreserveParams(!0);
+  for (let l = 0; l < o.length; l++) tg(t, o[l]);
+  (Do("linkOpenInNewTab", t, r.length > 1 ? N : r[0]),
+    Do("linkSmoothScroll", t, n.length > 1 ? N : n[0]),
+    Do("linkClickTrackingId", t, a.length > 1 ? N : a[0]),
+    Do("linkRelValues", t, d.length > 1 ? N : d[0]),
+    Do("linkPreserveParams", t, i.length > 1 ? N : i[0]));
+}
+function UR(e, t) {
+  (tg(t, e.getLink()),
+    c("linkOpenInNewTab", t, e, (o) => GR(o, e.getLink())),
+    c("linkSmoothScroll", t, e),
+    c("linkClickTrackingId", t, e),
+    _t("linkRelValues", t, e),
+    c("linkPreserveParams", t, e));
+}
+function tg(e, t) {
+  let o = e.link;
+  (Do("link", e, t),
+    pe(t)
+      ? ((e.anyExternalLinks = !0), (e.anyScrollTargets = !0))
+      : El(t)
+        ? (e.anyExternalLinks = !0)
+        : Vl(t) && t.hash && (e.anyScrollTargets = !0),
+    ie(e.link) && (D(t) || D(o)) && (e.onlyNodesWithLinkOptions = !1));
+}
+function Do(e, t, o) {
+  G(t[e]) ? (t[e] = o) : Ss(o, t[e]) && (t[e] = N);
+}
+function og(e, t) {
+  if (!Up(e) || be(e)) {
+    t.onlyNodesWithLoopEffect = !1;
+    return;
+  }
+  (c("loopEffectEnabled", t, e),
+    c("loopEffectOpacity", t, e),
+    c("loopEffectX", t, e),
+    c("loopEffectY", t, e),
+    c("loopEffectScale", t, e),
+    c("loopEffectRotate3d", t, e),
+    c("loopEffectRotate", t, e),
+    c("loopEffectRotateX", t, e),
+    c("loopEffectRotateY", t, e),
+    c("loopEffectSkewX", t, e),
+    c("loopEffectSkewY", t, e),
+    c("loopEffectRepeatDelay", t, e),
+    c("loopEffectRepeatType", t, e),
+    c("loopEffectPauseOffscreen", t, e),
+    (t.loopEffectTransition = fe(e.loopEffectTransition, t.loopEffectTransition)));
+}
+var jR = [];
+function KR(e, t, o) {
+  if (ie(t)) return t;
+  let r = e ?? jR;
+  return G(t)
+    ? r.map((n) => ({
+        maskIds: { [o]: n.id },
+        maskType: n.maskType,
+        maskValue: _R(n),
+        maskImages: n.maskImage ? new Set([n.maskImage]) : new Set(),
+        maskImageResize: n.maskImageResize ? new Set([n.maskImageResize]) : new Set(),
+        maskMode: n.maskMode ? new Set([n.maskMode]) : new Set(),
+        maskRepeat: n.maskRepeat ? new Set([n.maskRepeat]) : new Set(),
+        maskPosition: n.maskPosition ? new Set([n.maskPosition]) : new Set(),
+        maskComposite: n.maskComposite ? new Set([n.maskComposite]) : new Set(),
+      }))
+    : r.length !== t.length
+      ? N
+      : (r.forEach((n, a) => {
+          let d = t[a];
+          if (d)
+            switch (
+              ((d.maskIds[o] = n.id),
+              (d.maskType = nr(d.maskType) && !E(n.maskType, d.maskType) ? N : n.maskType),
+              n.maskType)
+            ) {
+              case "linear-gradient":
+                ((d.maskValue = Fn(d.maskValue, n.maskLinearGradient) ? N : n.maskLinearGradient),
+                  d.maskComposite.add(n.maskComposite));
+                break;
+              case "radial-gradient":
+                ((d.maskValue = Fn(d.maskValue, n.maskRadialGradient) ? N : n.maskRadialGradient),
+                  d.maskComposite.add(n.maskComposite));
+                break;
+              case "conic-gradient":
+                ((d.maskValue = Fn(d.maskValue, n.maskConicGradient) ? N : n.maskConicGradient),
+                  d.maskComposite.add(n.maskComposite));
+                break;
+              case "image":
+                ((d.maskValue = Fn(d.maskValue, n.maskImage) ? N : n.maskImage),
+                  d.maskImageResize.add(n.maskImageResize),
+                  d.maskMode.add(n.maskMode),
+                  d.maskRepeat.add(n.maskRepeat),
+                  d.maskPosition.add(n.maskPosition),
+                  d.maskComposite.add(n.maskComposite),
+                  J(n.maskImage) && d.maskImages.add(n.maskImage));
+                break;
+              default:
+                xe(n.maskType, "Unsupported mask type");
+            }
+        }),
+        t);
+}
+function rg(e, t) {
+  if (!kp(e)) {
+    t.onlyNodesWithMask = !1;
+    return;
+  }
+  D(e.masks) || (t.masks = KR(e.masks, t.masks, e.id));
+}
+function Fn(e, t) {
+  return nr(e) && !E(t, e, !0);
+}
+function g0(e) {
+  let t = "";
+  for (let o in e) t += `${o}${e[o]}`;
+  return t;
+}
+function _R(e) {
+  switch (e.maskType) {
+    case "linear-gradient":
+      return e.maskLinearGradient;
+    case "radial-gradient":
+      return e.maskRadialGradient;
+    case "conic-gradient":
+      return e.maskConicGradient;
+    case "image":
+      return e.maskImage;
+    default:
+      return xe(e.maskType, "Unsupported mask type");
+  }
+}
+function ig(e, t) {
+  if (!Cl(e)) {
+    t.onlyNodesWithOverflow = !1;
+    return;
+  }
+  (ut(e) && Io(e)) || (c("overflow", t, e), c("overflowX", t, e), c("overflowY", t, e));
+}
+function ng(e, t, o, r) {
+  if (o.length !== 1) return;
+  let [n] = o;
+  if (!n || !be(n) || ie(r.overlayTriggerEventKey)) return;
+  let a = e.getParent(n.id);
+  if (!a) return;
+  let d = n.getPrimaryId(),
+    i = Vd(d),
+    l = Af(t, a, i);
+  l &&
+    (G(r.overlayTriggerEventKey)
+      ? (r.overlayTriggerEventKey = l.eventKey)
+      : r.overlayTriggerEventKey !== l.eventKey && (r.overlayTriggerEventKey = N));
+}
+function ag(e, t) {
+  if (!Rl(e) || !Sl(e)) {
+    t.onlyNodesWithOverscrollBehavior = !1;
+    return;
+  }
+  c("overscrollBehavior", t, e);
+}
+function br(e) {
+  return D(e) ? 0 : e;
+}
+function YR(e) {
+  return D(e) ? !1 : e;
+}
+function sg(e, t) {
+  ui(e) &&
+    (c("padding", t, e, br),
+    c("paddingPerSide", t, e, YR),
+    c("paddingTop", t, e, br),
+    c("paddingRight", t, e, br),
+    c("paddingBottom", t, e, br),
+    c("paddingLeft", t, e, br));
+}
+function M0({
+  padding: e,
+  paddingBottom: t,
+  paddingLeft: o,
+  paddingPerSide: r,
+  paddingRight: n,
+  paddingTop: a,
+}) {
+  return !(!St(e) || !St(r) || !St(a) || !St(o) || !St(n) || !St(t) || !St(o));
+}
+function dg(e, t) {
+  yr(e) && c("pageEffects", t, e);
+}
+function cg(e, t) {
+  if (!Yp(e) || be(e) || Ue(e)) {
+    t.onlyNodesWithParallax = !1;
+    return;
+  }
+  (c("parallaxEnabled", t, e, Boolean),
+    e.parallaxEnabled &&
+      (c("parallaxSpeed", t, e), c("parallaxAdjustPosition", t, e), c("parallaxOffset", t, e)));
+}
+function lg(e, t) {
+  if (!xl(e) || we(e)) {
+    t.onlyNodesWithPointerEvents = !1;
+    return;
+  }
+  c("pointerEvents", t, e);
+}
+function pg(e, t) {
+  ci(e) && (c("repeatArray", t, e), c("repeatArrayTransforms", t, e));
+}
+function fg(e, t) {
+  if (e.length !== 1) return;
+  let o = e[0];
+  ci(o) && ((t.repeatId = o.id), (t.repeatOriginalId = o.getPrimaryId()));
+}
+function mg(e, t, o) {
+  (!o.resizeToFitContentActionAvailable && om(t, e) && (o.resizeToFitContentActionAvailable = !0),
+    !o.resizeToFitContentActionEnabled && rm(t, e) && (o.resizeToFitContentActionEnabled = !0));
+}
+function ug(e, t) {
+  Oc(e) && c("rootFontSize", t, e, (o) => (D(o) ? Dc : o));
+}
+function yg(e, t) {
+  let o = e.cache.ancestorRepeaterIds,
+    r = ue(o) ? o.length : 0;
+  if (!Ul(e) || r > 1) {
+    t.onlyNodesWithScrollTarget = !1;
+    return;
+  }
+  (c("scrollTargetEnabled", t, e), c("elementId", t, e), c("scrollMarginTop", t, e));
+}
+function hg(e, t) {
+  if (_e(e) || !qp(e)) {
+    t.onlyNodesWithScrollbars = !1;
+    return;
+  }
+  c("hideScrollbars", t, e);
+}
+var vr = 42;
+function xg(e, t) {
+  let o = new Map();
+  for (let { node: r, skipChildren: n } of t.walkWithSkipChildren()) {
+    let a = bs(r);
+    if (a) {
+      (xs(o, a.selectionColors), n());
+      continue;
+    }
+    (ZR(r, o), JR(r, o), QR(r, o), ex(r, o), tx(r, o), ox(e, r, o), xd(r) && n());
+  }
+  return o;
+}
+function xs(e, t) {
+  for (let [o, r] of t) {
+    let n = e.get(o);
+    if (n) gg(n.nodeUpdateMap, r.nodeUpdateMap);
+    else {
+      let a = new Map();
+      (gg(a, r.nodeUpdateMap), e.set(o, { value: r.value, nodeUpdateMap: a }));
+    }
+  }
+}
+function jM(e, t, o, r, n) {
+  for (let [a, d] of r) {
+    let i = e.get(a);
+    if (i)
+      for (let l of d) {
+        if (qc(l)) {
+          lx(t, i, n, l);
+          continue;
+        }
+        switch (l) {
+          case "fillColor":
+          case "fillConicGradient":
+          case "fillLinearGradient":
+          case "fillRadialGradient":
+            nx(i, n);
+            break;
+          case "borderColor":
+            rx(i, n);
+            break;
+          case "strokeColor":
+            ix(i, n);
+            break;
+          case "whileHoverBackgroundColor":
+          case "whileTapBackgroundColor":
+            ax(i, n, l);
+            break;
+          case "textColor":
+            sx(i, n, o);
+            break;
+          case "textDecorationColor":
+            dx(i, n, o);
+            break;
+          case "textBackgroundColor":
+            cx(i, n, o);
+            break;
+          default:
+            $o(l);
+        }
+      }
+  }
+}
+function KM(e, t, o) {
+  let r = new Map();
+  for (let [n] of o) {
+    let a = e.get(n);
+    ne(a) && r.set(n, a.html);
+  }
+  return { text: r, initialValue: t };
+}
+function gg(e, t) {
+  for (let [o, r] of t) {
+    let n = e.get(o) ?? [];
+    (n.push(...r), e.set(o, n));
+  }
+}
+function rt(e, t, o, r) {
+  if (!t || pe(t) || !$R(t)) return;
+  let n = XR(t);
+  if (!n) return;
+  let a = e.get(n) ?? { value: J(t) ? n : t, nodeUpdateMap: new Map() };
+  e.set(n, a);
+  let d = a.nodeUpdateMap,
+    i = d.get(o) ?? [];
+  (i.push(r), d.set(o, i));
+}
+function $R(e) {
+  return J(e) || Ee(e);
+}
+function XR(e) {
+  if (Ee(e)) return e.toCSS();
+  if (!J(e)) return;
+  if (ot(e)) return gi(e) ?? e;
+  if (tt.isP3String(e)) return e;
+  let t = tt(e);
+  if (t.isValid !== !1) return tt.toRgbString(t);
+}
+function bs(e) {
+  return e.cache.selectionProperties && e.cache.selectionProperties.update === e.update
+    ? e.cache.selectionProperties
+    : void 0;
+}
+var qR = new Set([
+  "fillColor",
+  "textColor",
+  "textDecorationColor",
+  "fillLinearGradient",
+  "fillRadialGradient",
+  "fillConicGradient",
+]);
+function _M(e, t) {
+  return Array.from(t.entries()).some(([o, r]) => {
+    let n = e.get(o);
+    return n ? si(n) && r.some((a) => qR.has(a)) : !1;
+  });
+}
+function ZR(e, t) {
+  if (!(!pa(e) || !e.fillType || Ue(e)))
+    switch (e.fillType) {
+      case "linear-gradient":
+        rt(t, e.fillLinearGradient, e.id, "fillLinearGradient");
+        break;
+      case "radial-gradient":
+        rt(t, e.fillRadialGradient, e.id, "fillRadialGradient");
+        break;
+      case "conic-gradient":
+        rt(t, e.fillConicGradient, e.id, "fillConicGradient");
+        break;
+      case "color":
+        rt(t, e.fillColor, e.id, "fillColor");
+        break;
+      case "image":
+        break;
+      default:
+        $o(e.fillType);
+    }
+}
+function JR(e, t) {
+  !oo(e) || !Ip(e.borderEnabled) || rt(t, e.borderColor, e.id, "borderColor");
+}
+function QR(e, t) {
+  !mr(e) || !e.strokeEnabled || rt(t, e.strokeColor, e.id, "strokeColor");
+}
+function ex(e, t) {
+  (hr(e) &&
+    e.whileHoverEnabled &&
+    rt(t, e.whileHoverBackgroundColor, e.id, "whileHoverBackgroundColor"),
+    gr(e) &&
+      e.whileTapEnabled &&
+      rt(t, e.whileTapBackgroundColor, e.id, "whileTapBackgroundColor"));
+}
+function tx(e, t) {
+  if (!ne(e) || Dn(e)) return;
+  let o = [],
+    r = e.getFills();
+  r[0] ? o.push(r[0]) : o.push(...e.getTextColors(!1));
+  for (let a of o) rt(t, a, e.id, "textColor");
+  let n = e.getTextDecorationColors(!1, !0);
+  for (let a of n) a !== "currentColor" && rt(t, a, e.id, "textDecorationColor");
+  for (let a of e.getTextBackgroundColors(!1)) rt(t, a, e.id, "textBackgroundColor");
+}
+function ox(e, t, o) {
+  if (!H(t)) return;
+  let r = e.reactComponentForIdentifier(t.codeComponentIdentifier);
+  if (!r?.properties) return;
+  let n = t.getControlProps(r.properties);
+  for (let a in n) {
+    let d = n[a];
+    if (!(!d || pe(d.value) || !bg(d.type)))
+      switch (d.type) {
+        case "color":
+          rt(o, d.value, t.id, ua(a));
+          break;
+        case "border": {
+          Ra(d.value) && rt(o, d.value.borderColor, t.id, ua(a));
+          break;
+        }
+        default:
+          $o(d.type);
+      }
+  }
+}
+function bg(e) {
+  if (!e) return !1;
+  switch (e) {
+    case "color":
+    case "border":
+      return !0;
+    case "gap":
+    case "borderradius":
+    case "padding":
+    case "boxshadow":
+    case "font":
+    case "array":
+    case "boolean":
+    case "collectionreference":
+    case "componentinstance":
+    case "slot":
+    case "cursor":
+    case "customcursor":
+    case "date":
+    case "enum":
+    case "eventhandler":
+    case "changehandler":
+    case "file":
+    case "link":
+    case "multicollectionreference":
+    case "number":
+    case "dimension":
+    case "object":
+    case "pagescope":
+    case "richtext":
+    case "scrollsectionref":
+    case "string":
+    case "transition":
+    case "trackingid":
+    case "vectorsetitem":
+    case "responsiveimage":
+    case "fusednumber":
+    case "image":
+    case "segmentedenum":
+    case "linkrelvalues":
+    case "location":
+      return !1;
+    default:
+      $o(e);
+  }
+}
+function rx(e, t) {
+  !oo(e) || !e.borderEnabled || Ee(t) || e.set({ borderColor: t });
+}
+function ix(e, t) {
+  !mr(e) || !e.strokeEnabled || Ee(t) || e.set({ strokeColor: t });
+}
+function nx(e, t) {
+  if (!pa(e)) return;
+  if (J(t)) {
+    e.set({ fillType: "color", fillColor: t });
+    return;
+  }
+  let o = Vp(t);
+  if (!o || !Sc(e)) return;
+  let r = Di(t) ? t : Ap(e, { stops: t.stops }, vr),
+    n = Oi(t) ? t : Da(e, { stops: t.stops }, vr),
+    a = Fi(t) ? t : Oa(e, { stops: t.stops }, vr),
+    d;
+  if ((o === "radial-gradient" ? (d = n) : o === "conic-gradient" && (d = a), Ee(d))) {
+    let i = uu(d);
+    i && ((n = Da(e, { stops: i }, vr)), (a = Oa(e, { stops: i }, vr)));
+  }
+  e.set({ fillType: o, fillLinearGradient: r, fillRadialGradient: n, fillConicGradient: a });
+}
+function ax(e, t, o) {
+  Ee(t) ||
+    (o === "whileHoverBackgroundColor" &&
+      hr(e) &&
+      e.whileHoverEnabled &&
+      e.set({ whileHoverBackgroundColor: t }),
+    o === "whileTapBackgroundColor" &&
+      gr(e) &&
+      e.whileTapEnabled &&
+      e.set({ whileTapBackgroundColor: t }));
+}
+function sx(e, t, o) {
+  if (!(!ne(e) || !o.text.has(e.id)) && !Dn(e)) {
+    if ((e.set({ html: o.text.get(e.id) }), Ee(t))) {
+      e.draftOrCurrent().setFill(t);
+      return;
+    }
+    if (Ee(o.initialValue)) {
+      (e.draftOrCurrent().setFill(void 0), e.draftOrCurrent().setTextColor(t, !1));
+      return;
+    }
+    e.draftOrCurrent().replaceTextColor(o.initialValue, t);
+  }
+}
+function dx(e, t, o) {
+  !ne(e) ||
+    !o.text.has(e.id) ||
+    Dn(e) ||
+    Ee(t) ||
+    Ee(o.initialValue) ||
+    (e.set({ html: o.text.get(e.id) }),
+    e.draftOrCurrent().replaceTextDecorationColor(o.initialValue, t));
+}
+function cx(e, t, o) {
+  !ne(e) ||
+    !o.text.has(e.id) ||
+    Dn(e) ||
+    Ee(o.initialValue) ||
+    Ee(t) ||
+    (e.set({ html: o.text.get(e.id) }),
+    e.draftOrCurrent().replaceTextBackgroundColor(o.initialValue, t));
+}
+function lx(e, t, o, r) {
+  if (!H(t) || Ee(o)) return;
+  let n = Zc(r),
+    a = e.reactComponentForIdentifier(t.codeComponentIdentifier);
+  if (!a?.properties) return;
+  let d = a.properties[n],
+    i = t.getControlProps(a.properties)[n];
+  if (!d || !i || !bg(i.type)) return;
+  let l = null;
+  switch (i.type) {
+    case "color":
+      l = Ea(d, { ...i, value: o });
+      break;
+    case "border":
+      {
+        if (!Ra(i.value)) return;
+        let f = { ...i.value, borderColor: o };
+        l = Ea(d, { ...i, value: f });
+      }
+      break;
+  }
+  l && t.setControlProp(n, l);
+}
+function Dn(e) {
+  return ge(e.htmlContent);
+}
+function YM(e, t) {
+  return [...t.entries()].sort(([o], [r]) => (o === r ? 0 : px(e, o, r) || fx(o, r) || vg(o, r)));
+}
+function px(e, t, o) {
+  let r = ot(t),
+    n = ot(o);
+  if (!r && !n) return 0;
+  if (r !== n) return r ? -1 : 1;
+  let a = e.tree.get(ar(t)),
+    d = e.tree.get(ar(o)),
+    i = a?.resolveValue("name"),
+    l = d?.resolveValue("name");
+  return i && l ? i.localeCompare(l) : 0;
+}
+function fx(e, t) {
+  let o = e.includes("gradient"),
+    r = t.includes("gradient");
+  if (!o && !r) return 0;
+  if (o !== r) return o ? -1 : 1;
+  let n = Rg(e),
+    a = Rg(t);
+  for (let d = 0; d < n.length; d++) {
+    let i = n[d],
+      l = a[d];
+    if (!i || !l) return i ? -1 : 1;
+    if (i !== l) return vg(i, l);
+  }
+}
+var Tg = Gl((e) => {
+  if (tt.isP3String(e)) {
+    let t = jr.fromString(e);
+    return (L(t, "Invalid P3 color"), tt({ r: t.r, g: t.g, b: t.b, a: t.a }));
+  }
+  return tt(e);
+});
+function vg(e, t) {
+  if (e === t) return 0;
+  let o = tt.toHsl(Tg(e)),
+    r = tt.toHsl(Tg(t)),
+    n = Cg(o),
+    a = Cg(r);
+  return n !== a
+    ? n - a
+    : o.h === r.h && o.s === r.s && o.l === r.l
+      ? r.a * 100 - o.a * 100
+      : Sg(o) - Sg(r);
+}
+function Cg(e) {
+  return Ng(e)
+    ? 100
+    : e.h < 60 || e.h >= 340
+      ? 10
+      : e.h >= 60 && e.h < 180
+        ? 20
+        : e.h >= 180 && e.h < 260
+          ? 30
+          : e.h >= 260 && e.h < 340
+            ? 40
+            : 50;
+}
+function Sg(e) {
+  if (Ng(e)) return e.s + e.l;
+  let t = (100 / e.h >= 340 ? 360 - e.h : e.h) * 100,
+    o = e.s * 10,
+    r = (1 - Math.abs(0.5 - e.l)) * 10;
+  return t + o + r;
+}
+function Rg(e) {
+  let t = e.match(jf);
+  return t || [];
+}
+function Ng(e) {
+  return e.s < 0.2 || e.l < 0.2;
+}
+function Ig(e, t, o, r) {
+  r && (t.cache.selectionProperties = void 0);
+  let n = bs(t),
+    a = n?.selectionColors ?? xg(e, t);
+  ((o.onlyCachedSelectionProperties &&= !!n),
+    n || (t.cache.selectionProperties = { update: t.update, selectionColors: a }),
+    xs(o.selectionColorProperties, a));
+}
+function Pg(e, t) {
+  tm(e) && (c("shaderMouseEnabled", t, e), _t("shaderMouseSpringOptions", t, e));
+}
+function mx(e) {
+  return e.width > e.height ? 0 : e.height > e.width ? 1 : N;
+}
+function wg(e, t, o, r) {
+  let n = e.getRect(o, !0, !0, t),
+    a = vm(e, t, o);
+  if (
+    ((r.canSetWidthToPercentage = a.width[1]),
+    (r.canSetHeightToPercentage = a.height[1]),
+    (r.canSetWidthToFillParent = a.width[3]),
+    (r.canSetHeightToFillParent = a.height[3]),
+    (r.canSetWidthToViewport = a.width[4]),
+    (r.canSetHeightToViewport = a.height[4]),
+    (r.canSetWidthToAuto = a.width[2]),
+    (r.canSetHeightToAuto = a.height[2]),
+    (r.canSetWidthToFixed = a.width[0]),
+    (r.canSetHeightToFixed = a.height[0]),
+    (r.canSetWidthToFitImage &&= a.width[5]),
+    (r.canSetHeightToFitImage &&= a.height[5]),
+    r.orientation !== N)
+  ) {
+    let m = mx(n);
+    G(r.orientation) ? (r.orientation = m) : m !== r.orientation && (r.orientation = N);
+  }
+  r.orientationEnabled = r.orientationEnabled || n.width !== n.height;
+  let d = H(o),
+    i = ke(o) ? ts(n.width, 3) : n.width,
+    l = ke(o) ? ts(n.height, 3) : n.height;
+  if (me(o) && ni(o)) {
+    let m = d ? Xa(t, o, "width") : o.widthType,
+      u = d ? Xa(t, o, "height") : o.heightType,
+      S = "%",
+      C = "fr",
+      p = o.widthType,
+      v = o.heightType;
+    if (kc(o)) ((i = "Auto"), (p = 3));
+    else
+      switch (m) {
+        case 1:
+          i = `${Math.round(o.width * 100)}${S}`;
+          break;
+        case 3:
+          i = `${$n(o.width, 2)}${C}`;
+          break;
+        case 4:
+          i = `${Math.round(o.width * 100)}${fa("width")}`;
+          break;
+        case 2:
+        case 0:
+        case 5:
+          break;
+        default:
+          xe(m);
+      }
+    if (wc(o)) ((l = "Auto"), (v = 3));
+    else if (Bt(o)) v = 2;
+    else
+      switch (u) {
+        case 1:
+          l = `${Math.round(o.height * 100)}${S}`;
+          break;
+        case 3:
+          l = `${$n(o.height, 2)}${C}`;
+          break;
+        case 4:
+          l = `${Math.round(o.height * 100)}${fa("height")}`;
+          break;
+        case 2:
+        case 0:
+        case 5:
+          break;
+        default:
+          xe(u);
+      }
+    (r.widthTypes.add(p), r.heightTypes.add(v));
+  }
+  G(r.width)
+    ? ((r.width = i), (r.height = l))
+    : (r.width !== N && r.width !== i && (r.width = N),
+      r.height !== N && r.height !== l && (r.height = N));
+  let f = e.getParent(o.id);
+  No(o, f) || bm(e, o, n, f, r);
+}
+function kg(e, t) {
+  if (!fc(e)) {
+    t.onlyNodesWithSizeConstraints = !1;
+    return;
+  }
+  (On("maxWidth", t, e), On("minWidth", t, e), On("maxHeight", t, e), On("minHeight", t, e));
+}
+function ux(e) {
+  switch (e) {
+    case "maxWidth":
+    case "minWidth":
+    case "maxHeight":
+    case "minHeight":
+      return `${e}Units`;
+    default:
+      xe(e);
+  }
+}
+function On(e, t, o) {
+  let r = t[e],
+    n = o[e];
+  if (n === void 0) {
+    G(r) ? (t[e] = n) : n !== r && (t[e] = N);
+    return;
+  }
+  let [a, d] = mc(n);
+  (t[ux(e)].add(d), r !== N && (G(r) ? (t[e] = a) : a !== r && (t[e] = N)));
+}
+function Eg(e, t, o) {
+  if (!pf(t)) {
+    o.onlyNodesWithStrokeEffect = !1;
+    return;
+  }
+  let r = e.getGroundNodeFor(t);
+  if (!Ue(r)) {
+    o.onlyNodesWithStrokeEffect = !1;
+    return;
+  }
+  (c("strokeEffectEnabled", o, t),
+    c("strokeEffectLength", o, t),
+    c("strokeEffectGap", o, t),
+    c("strokeEffectOffset", o, t),
+    c("strokeEffectLoop", o, t),
+    c("strokeEffectLoopType", o, t),
+    (o.strokeEffectTransition = fe(t.strokeEffectTransition, o.strokeEffectTransition)));
+}
+function vs(e) {
+  return D(e) ? !0 : e;
+}
+function hx(e) {
+  return e ?? "down";
+}
+function Vg(e, t) {
+  if (!Zp(e)) {
+    t.onlyNodesWithStyleAppearEffect = !1;
+    return;
+  }
+  (c("styleAppearEffectLocked", t, e, vs),
+    c("styleAppearEffectEnabled", t, e),
+    c("styleAppearEffectThreshold", t, e),
+    c("styleAppearEffectAnimateOnce", t, e),
+    c("styleAppearEffectScrollDirection", t, e, hx),
+    t.styleAppearEffectTrigger.add(
+      D(e.styleAppearEffectTrigger) ? "onInView" : nn(e.styleAppearEffectTrigger)
+    ),
+    D(e.styleAppearEffectScrollTarget) ||
+      t.styleAppearEffectScrollTarget.add(e.styleAppearEffectScrollTarget),
+    c("enterEffectEnabled", t, e, vs),
+    c("enterEffectOpacity", t, e, (o) => (D(o) ? e.styleAppearEffectOpacity : o)),
+    c("enterEffectX", t, e, (o) => (D(o) ? e.styleAppearEffectX : o)),
+    c("enterEffectY", t, e, (o) => (D(o) ? e.styleAppearEffectY : o)),
+    c("enterEffectScale", t, e, (o) => (D(o) ? e.styleAppearEffectScale : o)),
+    c("enterEffectRotate3d", t, e, (o) => {
+      if (!D(o)) return o;
+      let r = e.enterEffectRotateX,
+        n = e.enterEffectRotateY;
+      return !!((re(r) && r !== 0) || (re(n) && n !== 0));
+    }),
+    c("enterEffectRotate", t, e, (o) => {
+      let r = D(o) ? (e.styleAppearEffectRotate ?? 0) : (o ?? 0);
+      return xt(e) && pe(e.rotation) && e.enterEffectRotateAdditiveDynamicValue
+        ? e.resolveValue("rotation") + (r ?? 0)
+        : r;
+    }),
+    c("enterEffectRotateX", t, e, (o) => (D(o) ? e.styleAppearEffectRotateX : o)),
+    c("enterEffectRotateY", t, e, (o) => (D(o) ? e.styleAppearEffectRotateY : o)),
+    c("enterEffectSkewX", t, e),
+    c("enterEffectSkewY", t, e),
+    c("exitEffectEnabled", t, e, vs),
+    c("exitEffectOpacity", t, e),
+    c("exitEffectX", t, e),
+    c("exitEffectY", t, e),
+    c("exitEffectScale", t, e),
+    c("exitEffectRotate3d", t, e, (o) => {
+      if (!D(o)) return o;
+      let r = e.exitEffectRotateX,
+        n = e.exitEffectRotateY;
+      return !!((re(r) && r !== 0) || (re(n) && n !== 0));
+    }),
+    c("exitEffectRotate", t, e, (o) =>
+      xt(e) && pe(e.rotation) && e.exitEffectRotateAdditiveDynamicValue
+        ? e.resolveValue("rotation") + (o ?? 0)
+        : o
+    ),
+    c("exitEffectRotateX", t, e),
+    c("exitEffectRotateY", t, e),
+    c("exitEffectSkewX", t, e),
+    c("exitEffectSkewY", t, e),
+    (t.exitEffectTransition = fe(e.exitEffectTransition, t.exitEffectTransition)),
+    (t.enterEffectTransition = fe(e.enterEffectTransition, t.enterEffectTransition)),
+    (t.styleAppearEffectTransition = fe(
+      e.styleAppearEffectTransition,
+      t.styleAppearEffectTransition
+    )),
+    G(t.styleAppearEffectScrollTargetCollectionItem)
+      ? (t.styleAppearEffectScrollTargetCollectionItem =
+          e.styleAppearEffectScrollTargetCollectionItem)
+      : t.styleAppearEffectScrollTargetCollectionItem !== N &&
+        !E(
+          t.styleAppearEffectScrollTargetCollectionItem,
+          e.styleAppearEffectScrollTargetCollectionItem
+        ) &&
+        (t.styleAppearEffectScrollTargetCollectionItem = N));
+}
+function Ag(e, t) {
+  if (!Jp(e) || be(e)) {
+    t.onlyNodesWithStyleTransformEffect = !1;
+    return;
+  }
+  if ((c("styleTransformEffectEnabled", t, e), !e.styleTransformEffectEnabled)) return;
+  (c("styleTransformEffectViewportThreshold", t, e),
+    c("styleTransformEffectTransitionEnabled", t, e),
+    t.styleTransformEffectTrigger.add(e.styleTransformEffectTrigger),
+    (t.styleTransformEffectTransition = fe(
+      e.styleTransformEffectTransition,
+      t.styleTransformEffectTransition
+    )));
+  let o = e.styleTransformEffectScrollTargets?.length ?? 0;
+  (G(t.styleTransformEffectScrollTargetCount)
+    ? (t.styleTransformEffectScrollTargetCount = o)
+    : t.styleTransformEffectScrollTargetCount !== o &&
+      (t.styleTransformEffectScrollTargetCount = N),
+    e.styleTransformEffectScrollTargets?.forEach((r, n) => {
+      let a = t.styleTransformEffectScrollTargets?.[n];
+      a
+        ? gx(a, r, e.id)
+        : t.styleTransformEffectScrollTargets.push({
+            targets: new Set([r.target]),
+            style: {
+              backgroundColor: void 0,
+              blur: void 0,
+              transformPerspective: void 0,
+              ...r.style,
+            },
+            ids: { [e.id]: r.id },
+            collectionItem: r.collectionItem ?? s,
+          });
+    }));
+}
+function gx(e, t, o) {
+  (e.targets.add(t.target),
+    It("x", e.style, t.style),
+    It("y", e.style, t.style),
+    It("opacity", e.style, t.style),
+    It("scale", e.style, t.style),
+    It("rotate3d", e.style, t.style, (r) => {
+      if (!D(r)) return r;
+      let n = t.style.rotateX,
+        a = t.style.rotateY;
+      return !!((re(n) && n !== 0) || (re(a) && a !== 0));
+    }),
+    It("rotate", e.style, t.style),
+    It("rotateX", e.style, t.style),
+    It("rotateY", e.style, t.style),
+    It("skewX", e.style, t.style),
+    It("skewY", e.style, t.style),
+    (e.ids[o] = t.id),
+    !ie(e.collectionItem) &&
+      (G(e.collectionItem)
+        ? (e.collectionItem = t.collectionItem)
+        : Ne(e.collectionItem, t.collectionItem) && (e.collectionItem = N)));
+}
+function It(e, t, o, r) {
+  let n = t[e];
+  if (ie(n)) return;
+  let a = r ? r(o[e]) : o[e];
+  G(n) ? (t[e] = a) : Ne(a, n) && (t[e] = N);
+}
+function Wg(e, t) {
+  if (H(e) && !Q.isOn("ariaProperties")) {
+    t.onlyNodesWithTabIndex = !1;
+    return;
+  }
+  if (!an(e)) {
+    t.onlyNodesWithTabIndex = !1;
+    return;
+  }
+  c("tabIndex", t, e);
+}
+function Fg(e, t) {
+  if (!Qp(e)) {
+    t.onlyNodesWithTapHighlight = !1;
+    return;
+  }
+  c("tapHighlightColor", t, e);
+}
+function He(e, t) {
+  for (let o of t) e.add(o);
+}
+function Dg(e, t, o) {
+  if (!o.onlyAnyTextNodes) return null;
+  let r = !0,
+    n = !0,
+    a = !1,
+    d = !1,
+    i = !1,
+    l = !1,
+    f = !1,
+    m = s,
+    u = s,
+    S = new Set(),
+    C = s,
+    p = new Set(),
+    v = new Set(),
+    R = new Set(),
+    x = new Set(),
+    g = new Set(),
+    w = !1,
+    b = new Set(),
+    y = !1,
+    z = new Set(),
+    M = !1,
+    I = new Set(),
+    U = !1,
+    K = new Set(),
+    _ = new Set(),
+    X = !1,
+    A = new Set(),
+    T = new Set(),
+    V = s,
+    k = s,
+    O = new Set(),
+    j = new Set(),
+    ee = new Set(),
+    oe = new Set(),
+    te = new Set(),
+    de = new Set(),
+    le = new Set(),
+    $ = new Set(),
+    F = new Set(),
+    q = new Set(),
+    se = new Set(),
+    W = new Set(),
+    ae = new Set(),
+    ye = new Set(),
+    Je = new Set(),
+    dt = new Set(),
+    Re = new Set(),
+    ce = new Set(),
+    Ae = s,
+    We = s,
+    Qe = s,
+    At = s,
+    Ke,
+    it = {},
+    Go = new Set(),
+    ao = new Set(),
+    so = new Set(),
+    zo = new Set(),
+    Or = new Set(),
+    co = new Set(),
+    ct = new Set(),
+    lo = new Set(),
+    po = new Set(),
+    Uo = new Set(),
+    jo = new Set(),
+    Lr = new Set(),
+    fo = new Set(),
+    Wt = new Set(),
+    Ko = new Set(),
+    _o = new Set(),
+    Mr = new Set(),
+    $s = new Set(),
+    Xs = new Set(),
+    qs = new Set(),
+    Zs = new Set(),
+    Js = new Set(),
+    Qs = new Set(),
+    ed = new Set(),
+    td = new Set(),
+    od = new Set(),
+    rd = new Set(),
+    id = new Set(),
+    nd = new Set(),
+    ad = new Set();
+  for (let P of t) {
+    let sd = Io(P);
+    if (
+      (G(m) ? (m = sd) : !ie(m) && sd !== m && (m = N),
+      Yf(P) && S.add(P.textVerticalAlignment),
+      (a = P.cache.isEditable),
+      ne(P))
+    ) {
+      for (let lt of P.getFills()) {
+        if (!Ee(lt)) {
+          p.add(lt);
+          continue;
+        }
+        i = !0;
+        let mt = lt.toCSS();
+        v.has(mt) || (v.add(mt), p.add(lt));
+      }
+      if ((A.add(P.anchorLinkOffsetY), P.htmlContent)) {
+        for (let lt of _f) {
+          let mt = P[lt];
+          (R.add(e.has(mt) ? mt : void 0), e.has(mt) && x.add($f(lt)));
+        }
+        (b.add(e.has(P.stylePresetBlockquote) ? P.stylePresetBlockquote : void 0),
+          e.has(P.stylePresetBlockquote) && (y = !0),
+          z.add(e.has(P.stylePresetTable) ? P.stylePresetTable : void 0),
+          e.has(P.stylePresetTable) && (M = !0),
+          g.add(e.has(P.stylePresetLink) ? P.stylePresetLink : void 0),
+          e.has(P.stylePresetLink) && (w = !0),
+          _.add(e.has(P.stylePresetAnchorLink) ? P.stylePresetAnchorLink : void 0),
+          e.has(P.stylePresetAnchorLink) && (X = !0),
+          I.add(e.has(P.stylePresetInlineCode) ? P.stylePresetInlineCode : void 0),
+          e.has(P.stylePresetInlineCode) && (U = !0),
+          K.add(P.stylePresetImage));
+      } else {
+        let lt = P.getTextStylePresets(!0);
+        He(R, lt);
+        let mt = P.getLinkStylePresets(!0);
+        He(g, mt);
+        let _n = P.getInlineCodeStylePresets(!0);
+        (He(I, _n), Gd(P.textContent) && (f = !0));
+      }
+    } else (p.add(void 0), R.add(void 0), g.add(void 0), _.add(void 0));
+    let Kn = !1;
+    if (
+      (ne(P) && D(P.htmlContent) && D(P.textContent) && !P.getFontSizes(!1).some(ge)
+        ? he(P.textFitViewBoxSize) &&
+          (j.add(re(P.textFitScale) ? Math.round(P.textFitScale * 100) : 100),
+          O.add("auto"),
+          (l = !0),
+          (Kn = !0))
+        : (n = !1),
+      bt(P))
+    ) {
+      if (!ie(u)) {
+        let ve, Ge;
+        (ne(P)
+          ? ((ve = P.getTextContent()),
+            (Ge = ge(P.htmlContent) ? P.htmlContent : (P.textContent ?? ve)))
+          : ((ve = P.text), (Ge = P.textContent ?? ve)),
+          G(u) ? (u = Ge) : Ne(u, Ge) && (u = N));
+      }
+      if (
+        (ne(P) &&
+          ((d ||= pe(P.htmlContent) || P.hasTextStylePresets(!1)),
+          G(C) ? (C = P.paragraphSpacing) : !ie(C) && P.paragraphSpacing !== C && (C = N)),
+        ne(P) && P.htmlContent)
+      ) {
+        Kn || O.add("px");
+        continue;
+      }
+      r = !1;
+      let lt = P.getFonts(!0);
+      if ((He(T, lt), V !== N)) {
+        let ve = P.getTextColors(!0);
+        if (ve.length > 1) V = N;
+        else {
+          let Ge = ve[0];
+          G(V) ? (V = Ge) : Ne(V, Ge) && (V = N);
+        }
+      }
+      if (!ie(k)) {
+        let ve = P.getFontSizes(!0);
+        Kn ||
+          (ve.forEach((Fe) => {
+            if (pi(Fe)) {
+              let [Br, Hr] = Fe;
+              O.add(Hr);
+            } else O.add("px");
+          }),
+          ne(P) && ve.length === 0 && O.add("px"));
+        let Ge = Z(O);
+        if (ve.length > 1 || !St(Ge)) k = N;
+        else {
+          let Fe = ve[0];
+          if (G(k))
+            if (pi(Fe)) {
+              let [Br] = Fe;
+              k = Br;
+            } else k = Fe;
+          else Ne(k, pi(Fe) ? Fe[0] : Fe) && (k = N);
+        }
+      }
+      let mt = P.getTextTransforms(!0);
+      (He(te, mt),
+        He(q, P.getTextDecorations(!0)),
+        ne(P) &&
+          (He(se, P.getTextDecorationStyles(!0)),
+          He(W, P.getTextDecorationColors(!0)),
+          He(ae, P.getTextDecorationThicknesses(!0)),
+          He(ye, P.getTextDecorationOffsets(!0)),
+          He(Je, P.getTextDecorationSkipInks(!0)),
+          He(de, P.getTextBackgroundColors(!0)),
+          He(le, P.getTextBackgroundRadiuses(!0)),
+          He($, P.getTextBackgroundCornerShapes(!0)),
+          He(F, P.getTextBackgroundPaddings(!0))));
+      let _n = P.getLetterSpacings(!0);
+      for (let ve of _n) {
+        let [Ge, Fe] = D(ve) ? [] : Co(ve);
+        (ee.add(Ge), oe.add(Fe));
+      }
+      let VC = P.getLineHeights(!0);
+      for (let ve of VC) {
+        let [Ge, Fe] = ve ?? [];
+        (dt.add(Ge), Re.add(Fe));
+      }
+      let AC = P.getTextAlignments(!0);
+      He(ce, AC);
+      for (let ve of P.getTextAlignments(!1)) Ae = Xf(Ae, ve);
+      if (ne(P)) {
+        let ve = P.getTextStrokeWidths(!0);
+        for (let De of ve) G(We) ? (We = De) : !ie(We) && Ne(De, We) && (We = N);
+        let Ge = P.getTextStrokeColors(!0);
+        for (let De of Ge) G(Qe) ? (Qe = De) : !ie(Qe) && Ne(De, Qe) && (Qe = N);
+        let Fe = new Set(it ? Object.keys(it) : void 0),
+          Br = P.getVariationAxes(!0);
+        for (let De of Br)
+          for (let pt in De) {
+            let Ft = it[pt];
+            (Fe.delete(pt), !ie(Ft) && (D(Ft) ? (it[pt] = De[pt]) : Ft !== De[pt] && (it[pt] = N)));
+          }
+        for (let De of Fe) it[De] = N;
+        let Hr = new Set(Ke ? Object.keys(Ke) : void 0),
+          WC = P.getOpenTypeFontFeatures(!0);
+        for (let De of WC) {
+          let pt = Ke ?? {};
+          (De?.forEach((Ft) => {
+            let Yn = pt[Ft];
+            (Hr.delete(Ft),
+              !ie(Yn) && (D(Ke) && Yn === void 0 ? (pt[Ft] = !0) : Yn !== !0 && (pt[Ft] = N)));
+          }),
+            (Ke = pt));
+        }
+        for (let De of Hr) Hc(De) && (D(Ke) && (Ke = {}), (Ke[De] = N));
+      }
+      ne(P) &&
+        hf(P) &&
+        (G(At) ? (At = P.textWrapBalance) : !ie(At) && P.textWrapBalance !== At && (At = N));
+    }
+    Ef(P) &&
+      (Go.add(P.linkFont),
+      ao.add(P.linkTextColor),
+      so.add(P.linkFontSize),
+      zo.add(P.linkTextTransform),
+      Or.add(P.linkTextDecoration),
+      co.add(P.linkTextDecorationStyle),
+      ct.add(P.linkTextDecorationColor),
+      lo.add(P.linkTextDecorationThickness),
+      po.add(P.linkTextDecorationOffset),
+      Uo.add(P.linkTextDecorationSkipInk),
+      jo.add(P.linkHoverFont),
+      Lr.add(P.linkHoverTextColor),
+      fo.add(P.linkHoverFontSize),
+      Wt.add(P.linkHoverTextTransform),
+      Ko.add(P.linkHoverTextDecoration),
+      _o.add(P.linkHoverTextDecorationStyle),
+      Mr.add(P.linkHoverTextDecorationColor),
+      $s.add(P.linkHoverTextDecorationThickness),
+      Xs.add(P.linkHoverTextDecorationOffset),
+      qs.add(P.linkHoverTextDecorationSkipInk),
+      Zs.add(P.linkCurrentFont),
+      Js.add(P.linkCurrentTextColor),
+      Qs.add(P.linkCurrentFontSize),
+      ed.add(P.linkCurrentTextTransform),
+      td.add(P.linkCurrentTextDecoration),
+      od.add(P.linkCurrentTextDecorationStyle),
+      rd.add(P.linkCurrentTextDecorationColor),
+      id.add(P.linkCurrentTextDecorationThickness),
+      nd.add(P.linkCurrentTextDecorationOffset),
+      ad.add(P.linkCurrentTextDecorationSkipInk));
+  }
+  let IC = Z(ee),
+    PC = Z(dt),
+    wC = Z(ce),
+    kC = Z(S),
+    EC = Z(A);
+  o.textProperties = {
+    onlyNodesWithHTMLContent: r,
+    onlyNodesWithTextFit: n,
+    onlyInEditor: a,
+    anyNodeWithParagraphSpacing: d,
+    anyNodesWithGradientFill: i,
+    anyNodesWithTextFit: l,
+    anyNodesWithRelativeDates: f,
+    autoSize: m,
+    textContent: u,
+    verticalAlignment: kC,
+    paragraphSpacing: C,
+    fills: p,
+    textStylePresets: R,
+    assignedTextStylePresets: x,
+    linkStylePresets: g,
+    hasAssignedLinkStylePreset: w,
+    anchorLinkStylePresets: _,
+    hasAssignedAnchorLinkStylePreset: X,
+    blockquoteStylePresets: b,
+    hasAssignedBlockquoteStylePreset: y,
+    tableStylePresets: z,
+    hasAssignedTableStylePreset: M,
+    inlineCodeStylePresets: I,
+    hasAssignedInlineCodeStylePreset: U,
+    anchorLinkOffsetY: EC,
+    fonts: T,
+    textColor: V,
+    textBackgroundColor: Z(de),
+    textBackgroundRadius: Z(le),
+    textBackgroundCornerShape: Z($),
+    textBackgroundPadding: Z(F),
+    fontSize: k,
+    fontSizeUnits: O,
+    letterSpacingValue: IC,
+    letterSpacingUnits: oe,
+    textTransforms: te,
+    textDecoration: Z(q),
+    textDecorationStyle: Z(se),
+    textDecorationColor: Z(W),
+    textDecorationThickness: Z(ae),
+    textDecorationOffset: Z(ye),
+    textDecorationSkipInk: Z(Je),
+    lineHeightValue: PC,
+    lineHeightUnits: Re,
+    textAlignment: wC,
+    textAlignmentDirection: Ae,
+    textFitScale: Z(j),
+    textStrokeColor: Qe,
+    textStrokeWidth: We,
+    textWrapBalance: At,
+    openTypeFontFeatures: Ke ?? {},
+    variationAxes: it,
+    linkFont: Z(Go),
+    linkTextColor: Z(ao),
+    linkFontSize: Z(so),
+    linkTextTransform: Z(zo),
+    linkTextDecoration: Z(Or),
+    linkTextDecorationStyle: Z(co),
+    linkTextDecorationColor: Z(ct),
+    linkTextDecorationThickness: Z(lo),
+    linkTextDecorationOffset: Z(po),
+    linkTextDecorationSkipInk: Z(Uo),
+    linkHoverFont: Z(jo),
+    linkHoverTextColor: Z(Lr),
+    linkHoverFontSize: Z(fo),
+    linkHoverTextTransform: Z(Wt),
+    linkHoverTextDecoration: Z(Ko),
+    linkHoverTextDecorationStyle: Z(_o),
+    linkHoverTextDecorationColor: Z(Mr),
+    linkHoverTextDecorationThickness: Z($s),
+    linkHoverTextDecorationOffset: Z(Xs),
+    linkHoverTextDecorationSkipInk: Z(qs),
+    linkCurrentFont: Z(Zs),
+    linkCurrentTextColor: Z(Js),
+    linkCurrentFontSize: Z(Qs),
+    linkCurrentTextTransform: Z(ed),
+    linkCurrentTextDecoration: Z(td),
+    linkCurrentTextDecorationStyle: Z(od),
+    linkCurrentTextDecorationColor: Z(rd),
+    linkCurrentTextDecorationThickness: Z(id),
+    linkCurrentTextDecorationOffset: Z(nd),
+    linkCurrentTextDecorationSkipInk: Z(ad),
+  };
+}
+function Og(e, t) {
+  if (!ff(e)) {
+    t.onlyNodesWithTextEffect = !1;
+    return;
+  }
+  (c("textEffectEnabled", t, e),
+    c("textEffectType", t, e),
+    c("textEffectTokenization", t, e),
+    c("textEffectThreshold", t, e, (o) => o ?? 0),
+    c("textEffectScrollTargetCollectionItem", t, e),
+    c("textEffectReplay", t, e, (o) => o ?? !1),
+    c("textEffectDelay", t, e, (o) => o ?? 0),
+    t.textEffectScrollTarget.add(e.textEffectScrollTarget),
+    t.textEffectTrigger.add(e.textEffectTrigger),
+    c("textEffectOpacity", t, e),
+    c("textEffectX", t, e),
+    c("textEffectY", t, e),
+    c("textEffectScale", t, e),
+    c("textEffectRotate3d", t, e),
+    c("textEffectRotate", t, e),
+    c("textEffectRotateX", t, e),
+    c("textEffectRotateY", t, e),
+    c("textEffectSkewX", t, e),
+    c("textEffectSkewY", t, e),
+    c("textEffectBlur", t, e),
+    (t.textEffectTransition = fe(e.textEffectTransition, t.textEffectTransition)),
+    G(t.textEffectScrollTargetCollectionItem)
+      ? (t.textEffectScrollTargetCollectionItem = e.textEffectScrollTargetCollectionItem)
+      : t.textEffectScrollTargetCollectionItem !== N &&
+        !E(t.textEffectScrollTargetCollectionItem, e.textEffectScrollTargetCollectionItem) &&
+        (t.textEffectScrollTargetCollectionItem = N));
+}
+function Lg(e, t) {
+  if (!ef(e)) {
+    t.onlyNodesWithTextSelection = !1;
+    return;
+  }
+  if (ie(t.textSelection)) return;
+  if (G(t.textSelection)) {
+    tf(e.textSelection)
+      ? (t.textSelection = { ...e.textSelection })
+      : (t.textSelection = e.textSelection);
+    return;
+  }
+  if (!t.textSelection || !e.textSelection) {
+    t.textSelection !== e.textSelection && (t.textSelection = N);
+    return;
+  }
+  let o;
+  for (o in t.textSelection) {
+    let r = t.textSelection[o],
+      n = e.textSelection[o];
+    r !== n && (t.textSelection[o] = N);
+  }
+}
+function Mg(e, t) {
+  if (
+    ((t.anyNodeWithTickerEffectAncestor ||= Qd(e)), (t.anyNodeWithTickerEffect ||= go(e)), !Jd(e))
+  ) {
+    t.onlyNodesWithTickerEffect = !1;
+    return;
+  }
+  (c("tickerEffectEnabled", t, e),
+    c("tickerEffectVelocity", t, e),
+    c("tickerEffectHoverModifier", t, e),
+    c("tickerEffectDirectionModifier", t, e),
+    c("tickerEffectDraggable", t, e));
+}
+function Bg(e, t) {
+  if (!fn(e)) {
+    t.onlyNodesWithTitleAndDescription = !1;
+    return;
+  }
+  (c("title", t, e), c("description", t, e));
+}
+function Gg(e, t, o) {
+  if (t.length === 0) return;
+  if (t.length > 1) {
+    o.trackingIdAIPrompt = N;
+    return;
+  }
+  let r = t[0];
+  if (r) {
+    if (va(o.link)) {
+      let n = Hg(e, { link: o.link, linkText: zg(r) });
+      o.trackingIdAIPrompt = n || s;
+    }
+    if (o?.controlPropsWithIdentifier?.controlProps) {
+      let n = o.controlPropsWithIdentifier.controlProps,
+        a,
+        d;
+      for (let i in n) {
+        let l = n[i];
+        if (l)
+          switch (l.type) {
+            case "string":
+            case "richtext":
+              J(l.value) && (d = l.value);
+              break;
+            case "link":
+              va(l.value) && (a = l.value);
+              break;
+          }
+      }
+      for (let i in n) {
+        let l = n[i];
+        if (!l || l.type !== "trackingid") continue;
+        let f = Hg(e, { link: a, linkText: d });
+        l.trackingIdAIPrompt = f || s;
+      }
+    }
+  }
+}
+function Hg(e, { link: t, linkText: o, textContent: r }) {
+  let n = t ? jl(e, t) : void 0;
+  if (!o && !r && !n) return;
+  let a =
+    'Generate a short (up to 30 characters) tracking id as a verb in kebab-case (e.g. "click-subscribe or click-login") where the text is leading over the link';
+  return (
+    n && (a += ` to "${n}"`),
+    o && (a += ` with the text "${o.replace(/"/gu, "'")}"`),
+    r && (a += ` that is a part of the following text "${r.replace(/"/gu, "'")}"`),
+    a
+  );
+}
+function zg(e) {
+  return ne(e) ? e.getTextContent() : e.children ? e.children.map(zg).join(" ") : "";
+}
+function Ug(e, t) {
+  Ai(e) &&
+    (c("perspective", t, e, (o) => (D(o) ? gf(e) : o)),
+    (t.anyNodesWithTransforms = !0),
+    gt(e) && (t.onlyNodesWithTransformOrigin = !1),
+    c("scale", t, e),
+    c("skewX", t, e),
+    c("skewY", t, e),
+    c("rotateX", t, e),
+    c("rotateY", t, e),
+    c("rotate3d", t, e, (o) => o ?? !1),
+    c("translateX", t, e),
+    c("translateY", t, e),
+    c("translateZ", t, e),
+    c("backfaceVisibility", t, e),
+    c("transformStylePreserve3d", t, e),
+    c("transformOriginX", t, e),
+    c("transformOriginY", t, e));
+}
+function jg(e, t) {
+  if (!of(e)) {
+    t.onlyNodesWithTransition = !1;
+    return;
+  }
+  let o;
+  (we(e) ? (o = e.variantTransition ?? ic) : (o = e.transition),
+    G(t.transition)
+      ? (t.transition = wi(o))
+      : pe(t.transition)
+        ? (t.transition = tr(t.transition, o) ? t.transition : N)
+        : pe(o)
+          ? (t.transition = tr(o, t.transition) ? t.transition : N)
+          : (t.transition = fe(o, t.transition)));
+}
+function Kg(e, t) {
+  if (!rc(e)) {
+    t.onlyNodesWithTriggerActions = !1;
+    return;
+  }
+  c("triggerActions", t, e);
+}
+function _g(e, t) {
+  if (!vl(e) || we(e)) {
+    t.onlyNodesWithUserSelect = !1;
+    return;
+  }
+  c("userSelect", t, e);
+}
+function Yg(e, t) {
+  Zl(e) && (c("bindingType", t, e), _t("variableBinding", t, e));
+}
+function $g(e, t, o, r) {
+  if (!sf(e) || be(e)) {
+    r.onlyNodesWithVariantAppearEffect = !1;
+    return;
+  }
+  if (!Pf(t, e)) {
+    r.onlyNodesWithVariantAppearEffect = !1;
+    return;
+  }
+  let n = o.reactComponentForIdentifier(e.codeComponentIdentifier);
+  if (!n || !df(n)) {
+    r.onlyNodesWithVariantAppearEffect = !1;
+    return;
+  }
+  if ((c("appearEffectEnabled", r, e), !e.appearEffectEnabled)) return;
+  (c("appearEffectThreshold", r, e),
+    c("appearEffectAnimateOnce", r, e),
+    c("appearEffectScrollDirection", r, e, (d) => d ?? "down"),
+    r.appearEffectScrollDirectionTarget.add(e.appearEffectScrollDirectionTarget),
+    r.appearEffectVisibleVariantId.add(e.appearEffectVisibleVariantId),
+    r.appearEffectObscuredVariantId.add(e.appearEffectObscuredVariantId),
+    r.appearEffectTrigger.add(D(e.appearEffectTrigger) ? "onInView" : nn(e.appearEffectTrigger)));
+  let a = e.appearEffectScrollTargets?.length ?? 0;
+  (G(r.appearEffectScrollTargetCount)
+    ? (r.appearEffectScrollTargetCount = a)
+    : r.appearEffectScrollTargetCount !== a && (r.appearEffectScrollTargetCount = N),
+    e.appearEffectScrollTargets?.forEach((d, i) => {
+      let l = r.appearEffectScrollTargets?.[i];
+      l
+        ? Tx(l, d, e.id)
+        : r.appearEffectScrollTargets.push({
+            targets: new Set([d.target]),
+            variants: new Set([d.variant]),
+            ids: { [e.id]: d.id },
+            collectionItem: d.collectionItem ?? s,
+          });
+    }));
+}
+function Tx(e, t, o) {
+  (e.targets.add(t.target),
+    e.variants.add(t.variant),
+    (e.ids[o] = t.id),
+    !ie(e.collectionItem) &&
+      (G(e.collectionItem)
+        ? (e.collectionItem = t.collectionItem)
+        : Ne(e.collectionItem, t.collectionItem) && (e.collectionItem = N)));
+}
+var Sx = "_deleted",
+  Rx = "html",
+  xx = vx(["size"]);
+function Xg(e, t, o) {
+  if (!o.onlyReplicasOrReplicaChildren) return;
+  let r = new Set(),
+    n = new Set();
+  function a(d, i) {
+    let l = xm[d];
+    (i && xx.has(l)) || (l && n.add(l), r.add(d));
+  }
+  for (let d of t) {
+    let i = bx(e, d);
+    if (!i || !d.originalid) continue;
+    let l = _e(d),
+      f = i[d.originalid];
+    for (let m in f) {
+      let u = f[m];
+      if (m === Sx) {
+        if (ue(u)) for (let S of u) J(S) && a(S, l);
+      } else
+        o.onlyRichTextNodes && m === Rx && ne(d) && Pe(d)
+          ? Ql(e, d).forEach((C) => a(C, l))
+          : a(m, l);
+    }
+  }
+  ((o.variantOverrideKeys = r), (o.variantOverrideTraitTypes = n));
+}
+function bx(e, t) {
+  if (t.replicaInfo) return t.replicaInfo.overrides;
+  let o = e.get(t.cache.replicaAncestorId);
+  if (!o) return;
+  let r = o.replicaInfo;
+  if (r) return r.overrides;
+}
+function vx(e) {
+  return new Set(e);
+}
+function qg(e, t) {
+  if (!hr(e) || !sn(e)) {
+    t.onlyNodesWithWhileHover = !1;
+    return;
+  }
+  (c("whileHoverEnabled", t, e),
+    c("whileHoverOpacity", t, e),
+    c("whileHoverX", t, e),
+    c("whileHoverY", t, e),
+    c("whileHoverScale", t, e),
+    c("whileHoverRotate3d", t, e),
+    c("whileHoverRotate", t, e, (r) =>
+      xt(e) && pe(e.rotation) && e.whileHoverRotateAdditiveDynamicValue
+        ? e.resolveValue("rotation") + (r ?? 0)
+        : r
+    ),
+    c("whileHoverRotateX", t, e),
+    c("whileHoverRotateY", t, e),
+    c("whileHoverSkewX", t, e),
+    c("whileHoverSkewY", t, e),
+    c("whileHoverBackgroundColor", t, e),
+    (t.whileHoverTransition = fe(e.whileHoverTransition, t.whileHoverTransition)));
+  let o = e.whileHoverBoxShadow;
+  if (D(o)) {
+    t.whileHoverBoxShadowCount = 0;
+    return;
+  } else
+    t.whileHoverBoxShadowCount === 0
+      ? (t.whileHoverBoxShadowCount = N)
+      : (t.whileHoverBoxShadowCount = 1);
+  G(t.whileHoverBoxShadow)
+    ? (t.whileHoverBoxShadow = {
+        id: o.id,
+        type: o.type,
+        color: o.color,
+        x: o.x,
+        y: o.y,
+        blur: o.blur,
+        inset: o.inset,
+        spread: o.spread,
+        diffusion: o.diffusion,
+        focus: o.focus,
+      })
+    : Ei(t.whileHoverBoxShadow, o);
+}
+function Zg(e, t) {
+  if (!gr(e) || !sn(e)) {
+    t.onlyNodesWithWhileTap = !1;
+    return;
+  }
+  (c("whileTapEnabled", t, e),
+    c("whileTapOpacity", t, e),
+    c("whileTapX", t, e),
+    c("whileTapY", t, e),
+    c("whileTapScale", t, e),
+    c("whileTapRotate3d", t, e),
+    c("whileTapRotate", t, e, (r) =>
+      xt(e) && pe(e.rotation) && e.whileTapRotateAdditiveDynamicValue
+        ? e.resolveValue("rotation") + (r ?? 0)
+        : r
+    ),
+    c("whileTapRotateX", t, e),
+    c("whileTapRotateY", t, e),
+    c("whileTapSkewX", t, e),
+    c("whileTapSkewY", t, e),
+    c("whileTapBackgroundColor", t, e),
+    (t.whileTapTransition = fe(e.whileTapTransition, t.whileTapTransition)));
+  let o = e.whileTapBoxShadow;
+  if (D(o)) {
+    t.whileTapBoxShadowCount = 0;
+    return;
+  } else
+    t.whileTapBoxShadowCount === 0
+      ? (t.whileTapBoxShadowCount = N)
+      : (t.whileTapBoxShadowCount = 1);
+  G(t.whileTapBoxShadow)
+    ? (t.whileTapBoxShadow = {
+        id: o.id,
+        type: o.type,
+        color: o.color,
+        x: o.x,
+        y: o.y,
+        blur: o.blur,
+        inset: o.inset,
+        spread: o.spread,
+        diffusion: o.diffusion,
+        focus: o.focus,
+      })
+    : Ei(t.whileTapBoxShadow, o);
+}
+function Jg(e, t) {
+  !lr(e) || we(e) || c("zIndex", t, e);
+}
+var h;
+function Qg(e, t, o, r, n, a, d) {
+  let i = Px();
+  r.length === 0 &&
+    ((i.onlyBreakpointNodes = !1),
+    (i.onlyGroundNodes = !1),
+    (i.onlyTextNodes = !1),
+    (i.onlyShapeNodes = !1),
+    (i.onlyShapeAndGraphicNodes = !1),
+    (i.onlyFrameNodes = !1),
+    (i.onlyScreenNodes = !1),
+    (i.onlyCanvasFrameNodes = !1),
+    (i.onlyRelativeRadiusNodes = !1),
+    (i.onlyNodesWithPositionType = !1),
+    (i.onlyNodesWithCursor = !1),
+    (i.onlyCodeComponentNodes = !1),
+    (i.onlyShaderNodes = !1),
+    (i.onlyShapeContainerNodes = !1),
+    (i.onlySlotPropertyNodes = !1),
+    (i.onlyReplicas = !1),
+    (i.onlyReplicasOrReplicaChildren = !1),
+    (i.onlyVariants = !1),
+    (i.onlyNonGestureVariants = !1),
+    (i.onlyNodesWithLayout = !1),
+    (i.onlyNodesWithSpikes = !1),
+    (i.onlyPolygonNodes = !1),
+    (i.anyReplicaOrReplicaChild = !1),
+    (i.onlyFormContainerNodes = !1),
+    (i.onlyFormInputNodes = !1),
+    (i.onlyNodesWithTextInputType = !1),
+    (i.onlyNodesWithSelect = !1),
+    (i.onlyFormInputNodesWithPlaceholder = !1),
+    (i.onlyFormInputNodesWithPlaceholderColor = !1),
+    (i.onlyNodesWithFormInputInvalidStyles = !1),
+    (i.anyReplicaVariantOrReplicaVariantChild = !1),
+    (i.onlyNodesInsideStackOrGrid = !1),
+    (i.onlyGroundNodeDescendants = !1),
+    (i.onlyNodesWithParallax = !1),
+    (i.onlyNodesWithVariantAppearEffect = !1),
+    (i.onlyNodesWithStyleAppearEffect = !1),
+    (i.onlyNodesWithLinks = !1),
+    (i.onlyNodesWithLinkSupportingComputedValues = !1),
+    (i.onlyNodesWithLinkOptions = !1),
+    (i.onlyGridItemNodes = !1),
+    (i.onlyNodesSupportingConicGradient = !1),
+    (i.onlyNodesSupportingShadowSpread = !1),
+    (i.onlyNodesSupportingRealisticShadows = !1),
+    (i.onlyNodesSupportingShadowInset = !1),
+    (i.onlyNodesWithFloatingPosition = !1),
+    (i.onlyNodesWithMask = !1),
+    (i.anyFormInputNodes = !1),
+    (i.onlyNodesSupportingOverlayTrigger = !1),
+    (i.onlyNodesWithTapHighlight = !1),
+    (i.onlyNodesWithTextSelection = !1),
+    (i.onlyNodesWithImageRendering = !1),
+    (i.onlyNodesWithTriggerActions = !1));
+  for (let S = 0, C = r.length; S < C; S++) {
+    let p = r[S];
+    p &&
+      (i.allNodeIds.push(p.id),
+      i.allOriginalIds.push(p.getPrimaryId()),
+      rh(p, i),
+      $y(e, p, i),
+      qy(e, p, i),
+      Jy(e, p, i),
+      ih(e, p, i),
+      eh(p, i),
+      Ky(p, i),
+      sh(p, i),
+      ch(p, i),
+      Yy(p, i),
+      fh(p, i),
+      dh(p, i),
+      _y(p, i),
+      ah(p, i),
+      Xy(p, i),
+      Qy(p, i),
+      th(p, i),
+      oh(p, i),
+      ph(p, i),
+      lh(p, i),
+      nh(p, i),
+      Zy(p, i),
+      eg(t, p, i),
+      Zh(e, o, p, i),
+      Uh(e, p, i),
+      jh(p, i),
+      sg(p, i),
+      dg(p, i),
+      Pp(p, i),
+      ig(p, i),
+      ag(p, i),
+      Ix(e, p, i),
+      Ey(p, i),
+      Ly(p, i),
+      wh(p, i),
+      Fy(p, i),
+      kh(p, i),
+      Eh(e, p, i),
+      Wh(e, p, i),
+      Fh(p, i),
+      Dh(p, i),
+      Lh(p, i),
+      Mh(p, i),
+      Hh(e, p, i),
+      Gh(p, i),
+      Oh(p, i),
+      cu(p, i),
+      dp(p, i),
+      Bh(p, i),
+      Ff(e, p, i),
+      Ah(p, i),
+      Yg(p, i),
+      Wf(e, o, p, i),
+      Vy(p, i),
+      Tc(p, i),
+      em(p, i),
+      Pg(p, i),
+      Sh(e, p, i),
+      Xl(p, i),
+      nm(p, i),
+      mg(p, o, i),
+      Nx(p, i),
+      Ch(p, o, i),
+      cg(p, i),
+      $g(p, e, o, i),
+      Vg(p, i),
+      Og(p, i),
+      Ag(p, i),
+      kg(p, i),
+      yg(p, i),
+      _h(t, p, i),
+      jy(p, i),
+      Bg(p, i),
+      Wg(p, i),
+      Rh(p, i),
+      _g(p, i),
+      Jg(p, i),
+      lg(p, i),
+      vh(p, i),
+      xh(p, i),
+      pg(p, i),
+      Yh(p, i),
+      mh(p, i),
+      Cu(e, p, i),
+      Nh(p, i),
+      Vh(e, p, i, n),
+      og(p, i),
+      qg(p, i),
+      Zg(p, i),
+      Eg(e, p, i),
+      hg(p, i),
+      Ug(p, i),
+      jg(p, i),
+      Df(p, i),
+      Gy(p, i),
+      rg(p, i),
+      Ih(p, i),
+      Fg(p, i),
+      rf(e, p, i),
+      Lg(p, i),
+      Hy(p, i),
+      Xh(p, i),
+      ug(p, i),
+      Ph(p, i, n),
+      Qh(p, i),
+      uh(p, i),
+      Mg(p, i),
+      Kg(p, i),
+      p.cache.parentDirected || (i.onlyNodesInsideStackOrGrid = !1),
+      Rc(p) || (i.onlyNodesSupportingConicGradient = !1),
+      e.isGroundNode(p) ? (i.onlyGroundNodeDescendants = !1) : (i.onlyGroundNodes = !1),
+      (i.anyBreakpointsWithLayoutTemplate ||= Bt(p)),
+      i.onlyNodesInsideCollectionRepeater &&
+        !Uu(e, p) &&
+        (i.onlyNodesInsideCollectionRepeater = !1),
+      i.onlyRepeatedNodes && !ju(e, p) && (i.onlyRepeatedNodes = !1));
+  }
+  (Xg(e, r, i),
+    ng(e, o, r, i),
+    i.onlyBreakpointNodes && Jh(e, o, r, i, h),
+    $h(o, r, i, h),
+    i.onlyCodeComponentNodes &&
+      ((i.codeComponentIdentifiers.size === 1 || (!pd(d) && pp(e, r, d))) && gs(o, r, i, h),
+      (i.canSetSizeToDefault = r.some((S) => !S.hasPreferredSize(o)))),
+    i.onlyShaderNodes && i.shaderModuleIdentifiers.size === 1 && gs(o, r, i, h),
+    Dg(e, r, i),
+    yh(r, i),
+    bh(r, i),
+    fg(r, i),
+    Gg(e, r, i));
+  let [l, f, m] = mu(e, r);
+  for (let S = 0, C = f.length; S < C; S++) {
+    let p = f[S];
+    p &&
+      (!i.anyStyleableNode && ai(p) && (i.anyStyleableNode = !0), Oy(e, p, i), By(p, i), sp(p, i));
+  }
+  for (let S = 0, C = m.length; S < C; S++) {
+    let p = m[S];
+    p && (_c(p, i), Uc(p, i), gm(p, i), Gc(p, i), hm(p, i), ym(p, i));
+  }
+  i.selectionHash = i.allNodeIds.join("");
+  let u = e.withoutDescendants(r);
+  ((i.expandedSelectionForShapeGeometryIds = m.map((S) => S.id)),
+    (i.expandedSelectionForShapeStylesIds = l.map((S) => S.id)),
+    (i.onlyCanvasFrameNodes = i.onlyCanvasFrameNodes && u.length === r.length),
+    (i.onlyNodesWithPageEffects =
+      !i.anyBreakpointsWithLayoutTemplate &&
+      !i.anyBreakpointNode &&
+      (i.onlyNodesWithParallax ||
+        i.onlyNodesWithVariantAppearEffect ||
+        i.onlyNodesWithStyleAppearEffect ||
+        i.onlyNodesWithStyleTransformEffect ||
+        i.onlyNodesWithDragEffect ||
+        i.onlyNodesWithWhileHover ||
+        i.onlyNodesWithWhileTap ||
+        i.onlyNodesWithLoopEffect ||
+        i.onlyNodesWithFlowEffect ||
+        i.onlyNodesWithStrokeEffect)));
+  for (let S = 0, C = u.length; S < C; S++) {
+    let p = u[S];
+    p &&
+      (i.withoutDescendantIds.push(p.id),
+      (i.onlyCanvasFrameNodes = i.onlyCanvasFrameNodes && Le(p) && e.isGroundNode(p)),
+      fp(p, i),
+      My(e, p, i),
+      wg(e, o, p, i),
+      Fp(p, i),
+      Kh(p, i, a),
+      Ig(o, p, i, i.selectionHash !== h?.selectionHash));
+  }
+  return (
+    h &&
+      ((i.selectionDidChange = i.selectionHash !== h.selectionHash),
+      E(i.allNodeIds, h.allNodeIds) && (i.allNodeIds = h.allNodeIds),
+      E(i.allOriginalIds, h.allOriginalIds) && (i.allOriginalIds = h.allOriginalIds),
+      E(i.withoutDescendantIds, h.withoutDescendantIds) &&
+        (i.withoutDescendantIds = h.withoutDescendantIds),
+      E(i.expandedSelectionForShapeGeometryIds, h.expandedSelectionForShapeGeometryIds) &&
+        (i.expandedSelectionForShapeGeometryIds = h.expandedSelectionForShapeGeometryIds),
+      E(i.pageEffects, h.pageEffects) && (i.pageEffects = h.pageEffects),
+      E(i.expandedSelectionForShapeStylesIds, h.expandedSelectionForShapeStylesIds) &&
+        (i.expandedSelectionForShapeStylesIds = h.expandedSelectionForShapeStylesIds),
+      E(i.codeComponentIdentifiers, h.codeComponentIdentifiers) &&
+        (i.codeComponentIdentifiers = h.codeComponentIdentifiers),
+      E(i.shaderModuleIdentifiers, h.shaderModuleIdentifiers) &&
+        (i.shaderModuleIdentifiers = h.shaderModuleIdentifiers),
+      E(i.widthTypes, h.widthTypes) && (i.widthTypes = h.widthTypes),
+      E(i.heightTypes, h.heightTypes) && (i.heightTypes = h.heightTypes),
+      E(i.framePresetsInSelection, h.framePresetsInSelection) &&
+        (i.framePresetsInSelection = h.framePresetsInSelection),
+      E(i.htmlTags, h.htmlTags) && (i.htmlTags = h.htmlTags),
+      E(i.htmlTextTags, h.htmlTextTags) && (i.htmlTextTags = h.htmlTextTags),
+      E(i.codeOverrideBareModuleIdentifiers, h.codeOverrideBareModuleIdentifiers) &&
+        (i.codeOverrideBareModuleIdentifiers = h.codeOverrideBareModuleIdentifiers),
+      E(i.codeOverrideModuleExportNames, h.codeOverrideModuleExportNames) &&
+        (i.codeOverrideModuleExportNames = h.codeOverrideModuleExportNames),
+      E(i.overlayGrid, h.overlayGrid) && (i.overlayGrid = h.overlayGrid),
+      E(i.shadows, h.shadows) && (i.shadows = h.shadows),
+      E(i.masks, h.masks) && (i.masks = h.masks),
+      E(i.fillImageResize, h.fillImageResize) && (i.fillImageResize = h.fillImageResize),
+      E(i.fillImages, h.fillImages) && (i.fillImages = h.fillImages),
+      E(i.strokeAlignmentValues, h.strokeAlignmentValues) &&
+        (i.strokeAlignmentValues = h.strokeAlignmentValues),
+      E(i.userSelect, h.userSelect) && (i.userSelect = h.userSelect),
+      E(i.overflow, h.overflow) && (i.overflow = h.overflow),
+      E(i.overscrollBehavior, h.overscrollBehavior) &&
+        (i.overscrollBehavior = h.overscrollBehavior),
+      E(i.overflowX, h.overflowX) && (i.overflowX = h.overflowX),
+      E(i.overflowY, h.overflowY) && (i.overflowY = h.overflowY),
+      E(i.pointerEvents, h.pointerEvents) && (i.pointerEvents = h.pointerEvents),
+      E(i.maxWidthUnits, h.maxWidthUnits) && (i.maxWidthUnits = h.maxWidthUnits),
+      E(i.minWidthUnits, h.minWidthUnits) && (i.minWidthUnits = h.minWidthUnits),
+      E(i.maxHeightUnits, h.maxHeightUnits) && (i.maxHeightUnits = h.maxHeightUnits),
+      E(i.minHeightUnits, h.minHeightUnits) && (i.minHeightUnits = h.minHeightUnits),
+      E(i.positionTypes, h.positionTypes) && (i.positionTypes = h.positionTypes),
+      E(i.appearEffectTrigger, h.appearEffectTrigger) &&
+        (i.appearEffectTrigger = h.appearEffectTrigger),
+      E(i.styleAppearEffectTrigger, h.styleAppearEffectTrigger) &&
+        (i.styleAppearEffectTrigger = h.styleAppearEffectTrigger),
+      E(i.appearEffectVisibleVariantId, h.appearEffectVisibleVariantId) &&
+        (i.appearEffectVisibleVariantId = h.appearEffectVisibleVariantId),
+      E(i.appearEffectObscuredVariantId, h.appearEffectObscuredVariantId) &&
+        (i.appearEffectObscuredVariantId = h.appearEffectObscuredVariantId),
+      E(i.styleAppearEffectScrollTarget, h.styleAppearEffectScrollTarget) &&
+        (i.styleAppearEffectScrollTarget = h.styleAppearEffectScrollTarget),
+      E(i.appearEffectScrollDirectionTarget, h.appearEffectScrollDirectionTarget) &&
+        (i.appearEffectScrollDirectionTarget = h.appearEffectScrollDirectionTarget),
+      E(i.styleTransformEffectTrigger, h.styleTransformEffectTrigger) &&
+        (i.styleTransformEffectTrigger = h.styleTransformEffectTrigger),
+      E(
+        i.styleAppearEffectScrollTargetCollectionItem,
+        h.styleAppearEffectScrollTargetCollectionItem
+      ) &&
+        (i.styleAppearEffectScrollTargetCollectionItem =
+          h.styleAppearEffectScrollTargetCollectionItem),
+      E(i.styleTransformEffectScrollTargets, h.styleTransformEffectScrollTargets) &&
+        (i.styleTransformEffectScrollTargets = h.styleTransformEffectScrollTargets),
+      E(i.dragEffectTransition, h.dragEffectTransition) &&
+        (i.dragEffectTransition = h.dragEffectTransition),
+      E(i.loopEffectTransition, h.loopEffectTransition) &&
+        (i.loopEffectTransition = h.loopEffectTransition),
+      E(i.whileHoverTransition, h.whileHoverTransition) &&
+        (i.whileHoverTransition = h.whileHoverTransition),
+      E(i.whileTapTransition, h.whileTapTransition) &&
+        (i.whileTapTransition = h.whileTapTransition),
+      E(i.styleTransformEffectTransition, h.styleTransformEffectTransition) &&
+        (i.styleTransformEffectTransition = h.styleTransformEffectTransition),
+      E(i.enterEffectTransition, h.enterEffectTransition) &&
+        (i.enterEffectTransition = h.enterEffectTransition),
+      E(i.exitEffectTransition, h.exitEffectTransition) &&
+        (i.exitEffectTransition = h.exitEffectTransition),
+      E(i.textEffectTransition, h.textEffectTransition) &&
+        (i.textEffectTransition = h.textEffectTransition),
+      E(i.backdropEnterTransition, h.backdropEnterTransition) &&
+        (i.backdropEnterTransition = h.backdropEnterTransition),
+      E(i.backdropExitTransition, h.backdropExitTransition) &&
+        (i.backdropExitTransition = h.backdropExitTransition),
+      E(i.whileTapBoxShadow, h.whileTapBoxShadow) && (i.whileTapBoxShadow = h.whileTapBoxShadow),
+      E(i.whileHoverBoxShadow, h.whileHoverBoxShadow) &&
+        (i.whileHoverBoxShadow = h.whileHoverBoxShadow),
+      E(i.dragEffectConstraintItem, h.dragEffectConstraintItem) &&
+        (i.dragEffectConstraintItem = h.dragEffectConstraintItem),
+      E(i.transition, h.transition) && (i.transition = h.transition),
+      i.textProperties &&
+        h.textProperties &&
+        E(i.textProperties.fonts, h.textProperties.fonts) &&
+        (i.textProperties.fonts = h.textProperties.fonts),
+      E(i.link, h.link) && (i.link = h.link),
+      E(i.whileOpenEffectVariant, h.whileOpenEffectVariant) &&
+        (i.whileOpenEffectVariant = h.whileOpenEffectVariant),
+      E(i.floatingPlacement, h.floatingPlacement) && (i.floatingPlacement = h.floatingPlacement),
+      E(i.customCursorVariant, h.customCursorVariant) &&
+        (i.customCursorVariant = h.customCursorVariant),
+      E(i.customCursorTransition, h.customCursorTransition) &&
+        (i.customCursorTransition = h.customCursorTransition),
+      E(i.customCursorPlacement, h.customCursorPlacement) &&
+        (i.customCursorPlacement = h.customCursorPlacement),
+      E(i.variantOverrideKeys, h.variantOverrideKeys) &&
+        (i.variantOverrideKeys = h.variantOverrideKeys),
+      E(i.variantOverrideTraitTypes, h.variantOverrideTraitTypes) &&
+        (i.variantOverrideTraitTypes = h.variantOverrideTraitTypes),
+      E(i.formButtonSuccessVariant, h.formButtonSuccessVariant) &&
+        (i.formButtonSuccessVariant = h.formButtonSuccessVariant),
+      E(i.formButtonPendingVariant, h.formButtonPendingVariant) &&
+        (i.formButtonPendingVariant = h.formButtonPendingVariant),
+      E(i.formButtonErrorVariant, h.formButtonErrorVariant) &&
+        (i.formButtonErrorVariant = h.formButtonErrorVariant),
+      E(i.formButtonIncompleteVariant, h.formButtonIncompleteVariant) &&
+        (i.formButtonIncompleteVariant = h.formButtonIncompleteVariant),
+      E(i.formSelectOptions, h.formSelectOptions) && (i.formSelectOptions = h.formSelectOptions),
+      E(i.dataLoaderLoadingVariant, h.dataLoaderLoadingVariant) &&
+        (i.dataLoaderLoadingVariant = h.dataLoaderLoadingVariant),
+      E(i.dataLoaderDisabledVariant, h.dataLoaderDisabledVariant) &&
+        (i.dataLoaderDisabledVariant = h.dataLoaderDisabledVariant),
+      E(i.textProperties, h.textProperties) && (i.textProperties = h.textProperties),
+      E(i.formBooleanInputCheckedBoxShadow, h.formBooleanInputCheckedBoxShadow) &&
+        (i.formBooleanInputCheckedBoxShadow = h.formBooleanInputCheckedBoxShadow),
+      E(i.textEffectTrigger, h.textEffectTrigger) && (i.textEffectTrigger = h.textEffectTrigger),
+      E(i.textEffectScrollTarget, h.textEffectScrollTarget) &&
+        (i.textEffectScrollTarget = h.textEffectScrollTarget),
+      E(i.formInputFontSelector, h.formInputFontSelector) &&
+        (i.formInputFontSelector = h.formInputFontSelector),
+      E(i.formInputOpenTypeFontFeatures, h.formInputOpenTypeFontFeatures) &&
+        (i.formInputOpenTypeFontFeatures = h.formInputOpenTypeFontFeatures),
+      E(i.formInputVariationAxes, h.formInputVariationAxes) &&
+        (i.formInputVariationAxes = h.formInputVariationAxes),
+      E(i.tapHighlightColor, h.tapHighlightColor) && (i.tapHighlightColor = h.tapHighlightColor),
+      E(i.textSelection, h.textSelection) && (i.textSelection = h.textSelection),
+      E(i.strokeEffectTransition, h.strokeEffectTransition) &&
+        (i.strokeEffectTransition = h.strokeEffectTransition),
+      i.onlyCachedSelectionProperties &&
+        !i.selectionDidChange &&
+        (i.selectionColorProperties = h.selectionColorProperties),
+      E(i.propertiesSupportingVariables, h.propertiesSupportingVariables) &&
+        (i.propertiesSupportingVariables = h.propertiesSupportingVariables),
+      E(i.lightboxEffectTransition, h.lightboxEffectTransition) &&
+        (i.lightboxEffectTransition = h.lightboxEffectTransition),
+      E(i.flowEffectTransition, h.flowEffectTransition) &&
+        (i.flowEffectTransition = h.flowEffectTransition),
+      E(i.triggerActions, h.triggerActions) && (i.triggerActions = h.triggerActions)),
+    (h = i),
+    i
+  );
+}
+function Nx(e, t) {
+  t.anyAutoSizingNode || (t.anyAutoSizingNode = (im(e) && e.autoSize) || Io(e));
+}
+function Ix(e, t, o) {
+  let r = _e(t);
+  (!o.anyShapeNode && ke(t) && (o.anyShapeNode = !0),
+    !o.anyBreakpointNode && r && (o.anyBreakpointNode = !0),
+    o.onlyBreakpointNodes && !r && (o.onlyBreakpointNodes = !1),
+    o.onlyFrameNodes && !Le(t) && (o.onlyFrameNodes = !1),
+    o.onlyTextNodes && !ut(t) && (o.onlyTextNodes = !1),
+    o.onlyRichTextNodes && !ne(t) && (o.onlyRichTextNodes = !1),
+    o.onlyAnyTextNodes && !bt(t) && (o.onlyAnyTextNodes = !1),
+    o.onlyShapeNodes && !pr(t) && (o.onlyShapeNodes = !1),
+    o.onlyShapeAndGraphicNodes && !(Be(t) || pr(t)) && (o.onlyShapeAndGraphicNodes = !1),
+    o.onlySlotPropertyNodes && !Pd(t) && (o.onlySlotPropertyNodes = !1),
+    o.onlyRelativeRadiusNodes && !(jc(t) && t.radiusIsRelative) && (o.onlyRelativeRadiusNodes = !1),
+    o.onlyNodesWithPositionType && !Kd(t) && (o.onlyNodesWithPositionType = !1),
+    o.onlyNodesWithPositionType && ke(t) && !yc(e, t) && (o.onlyNodesWithPositionType = !1),
+    o.onlyCodeComponentNodes && !gc(t) && (o.onlyCodeComponentNodes = !1),
+    o.onlyShapeContainerNodes && !Be(t) && (o.onlyShapeContainerNodes = !1),
+    o.onlyScreenNodes && !Xp(t) && (o.onlyScreenNodes = !1),
+    o.onlyShaderNodes && !Xo(t) && (o.onlyShaderNodes = !1),
+    o.onlyNodesWithFillImage && !vc(t) && (o.onlyNodesWithFillImage = !1),
+    mo(t) && (o.anyDataRepeater = !0));
+  let n = Ct(t);
+  (o.onlyReplicas && !n && (o.onlyReplicas = !1),
+    o.onlyReplicasOrReplicaChildren && !(sa(t) || n) && (o.onlyReplicasOrReplicaChildren = !1),
+    o.onlyVariants && !we(t) && (o.onlyVariants = !1),
+    o.onlyNonGestureVariants && cc(t) && (o.onlyNonGestureVariants = !1),
+    !o.anyReplicaOrReplicaChild && (n || sa(t)) && (o.anyReplicaOrReplicaChild = !0),
+    !o.anyReplicaVariantOrReplicaVariantChild &&
+      ir(t) &&
+      (o.anyReplicaVariantOrReplicaVariantChild = !0));
+}
+function Px() {
+  return {
+    widthTypes: new Set(),
+    heightTypes: new Set(),
+    canSetWidthToFixed: !0,
+    canSetWidthToPercentage: !0,
+    canSetHeightToAuto: !0,
+    canSetHeightToFillParent: !0,
+    canSetHeightToFixed: !0,
+    canSetHeightToPercentage: !0,
+    canSetWidthToAuto: !0,
+    canSetWidthToFillParent: !0,
+    canSetWidthToViewport: !0,
+    canSetHeightToViewport: !0,
+    canSetHeightToFitImage: !0,
+    canSetWidthToFitImage: !0,
+    canSetSizeToDefault: !1,
+    orientationEnabled: !1,
+    allNodeIds: [],
+    allOriginalIds: [],
+    anyBreakpointsWithLayoutTemplate: !1,
+    anyFormContainerNodes: !1,
+    anyFormInputNodes: !1,
+    anyAutoSizingNode: !1,
+    anyBreakpointNode: !1,
+    anyNodesWithLinks: !1,
+    anyNodesWithShadows: !1,
+    anyReplicaOrReplicaChild: !1,
+    anyReplicaVariantOrReplicaVariantChild: !1,
+    anyDataRepeater: !1,
+    anyShapeNode: !1,
+    anyStyleableNode: !1,
+    anyGridItemParentWithRowHeightFitContent: !1,
+    anyGridItemParentWithMasonryLayout: !1,
+    anyNodesWithA11ySupport: !1,
+    anyNodeWithCarouselEffect: !1,
+    anyNodeWithCarouselEffectAncestor: !1,
+    anyNodeWithTickerEffect: !1,
+    anyNodeWithTickerEffectAncestor: !1,
+    anyNodesWithTransforms: !1,
+    canSetBottom: !0,
+    canSetHorizontalPins: !0,
+    canSetLeft: !0,
+    canSetRight: !0,
+    canSetTop: !0,
+    canSetVerticalPins: !0,
+    codeComponentIdentifiers: new Set(),
+    dynamicVectorSetIdentifier: s,
+    shaderModuleIdentifiers: new Set(),
+    codeOverrideBareModuleIdentifiers: new Set(),
+    hookIdentifier: s,
+    codeOverrideModuleExportNames: new Set(),
+    expandedSelectionForShapeGeometryIds: [],
+    expandedSelectionForShapeStylesIds: [],
+    framePresetsInSelection: [],
+    htmlTags: new Set(),
+    htmlTextTags: new Set(),
+    maxWidthUnits: new Set(),
+    minWidthUnits: new Set(),
+    maxHeightUnits: new Set(),
+    minHeightUnits: new Set(),
+    onlyAnyTextNodes: !0,
+    onlyBreakpointNodes: !0,
+    onlyCanvasFrameNodes: !0,
+    onlyCodeComponentNodes: !0,
+    onlyShaderNodes: !0,
+    onlyFrameNodes: !0,
+    onlyGridItemNodes: !0,
+    onlyGroundNodeDescendants: !0,
+    onlyGroundNodes: !0,
+    onlyNodesWithMask: !0,
+    onlyNodesInsideStackOrGrid: !0,
+    onlyNodesSupportingConicGradient: !0,
+    onlyNodesSupportingShadowSpread: !0,
+    onlyNodesSupportingRealisticShadows: !0,
+    onlyNodesSupportingShadowInset: !0,
+    onlyNodesWithCursor: !0,
+    onlyNodesWithAriaLabel: !0,
+    onlyNodesWithAriaControls: !0,
+    onlyNodesWithAriaDescribedBy: !0,
+    onlyNodesWithAriaDetails: !0,
+    onlyNodesWithAriaLabelledBy: !0,
+    onlyNodesWithAriaExpanded: !0,
+    onlyNodesWithAriaAtomic: !0,
+    onlyNodesWithAriaRequired: !0,
+    onlyNodesWithAriaPressed: !0,
+    onlyNodesWithAriaChecked: !0,
+    onlyNodesWithAriaSelected: !0,
+    onlyNodesWithAriaReadonly: !0,
+    onlyNodesWithAriaBusy: !0,
+    onlyNodesWithAriaModal: !0,
+    onlyNodesWithAriaCurrent: !0,
+    onlyNodesWithAriaDisabled: !0,
+    onlyNodesWithAriaHaspopup: !0,
+    onlyNodesWithAriaHidden: !0,
+    onlyNodesWithAriaRoleDescription: !0,
+    onlyNodesWithAriaRole: !0,
+    onlyNodesWithAriaLive: !0,
+    onlyNodesWithAriaDescription: !0,
+    onlyNodesWithFillImage: !0,
+    onlyFormContainerNodes: !0,
+    onlyFormInputNodes: !0,
+    onlyNodesWithTextInputType: !0,
+    onlyNodesWithSelect: !0,
+    anyNodeWithSelect: !1,
+    anyRadioButton: !1,
+    onlyFormInputNodesWithPlaceholder: !0,
+    onlyFormInputNodesWithPlaceholderColor: !0,
+    onlyNodesWithLink: !0,
+    onlyNodesWithTextEffect: !0,
+    onlyNodesWithLinks: !0,
+    onlyNodesWithLinkSupportingComputedValues: !0,
+    onlyNodesWithListParents: !0,
+    onlyNodesWithLinkOptions: !0,
+    onlyNodesWithPageEffects: !0,
+    onlyNodesWithParallax: !0,
+    onlyNodesWithPositionFixed: !0,
+    onlyNodesWithRotation: !0,
+    onlyNodesWithPointerEvents: !0,
+    onlyNodesWithOverflow: !0,
+    onlyNodesWithScrollTarget: !0,
+    onlyNodesWithScrollbars: !0,
+    onlyNodesWithSizeConstraints: !0,
+    onlyNodesWithSpikes: !0,
+    onlyNodesWithLayout: !0,
+    onlyNodesWithStyleAppearEffect: !0,
+    onlyNodesWithTabIndex: !0,
+    onlyNodesWithDataNosnippet: !0,
+    onlyNodesWithTitleAndDescription: !0,
+    onlyNodesWithUserSelect: !0,
+    onlyNodesWithDraggable: !0,
+    onlyNodesWithImageRendering: !0,
+    onlyNodesWithVariantAppearEffect: !0,
+    onlyNodesWithBackdrop: !0,
+    onlyNodesWithOverscrollBehavior: !0,
+    onlyNodesInAnOverlay: !0,
+    onlyNodesSupportingOverlayTrigger: !0,
+    onlyNodesWithTriggerActions: !0,
+    onlyNodesWithFilters: !0,
+    onlyNodesWithTransformOrigin: !0,
+    onlyNodesWithFormButton: !0,
+    onlyNodesWithFormAncestor: !0,
+    onlyNodesInsideCollectionRepeater: !0,
+    onlyRepeatedNodes: !0,
+    onlyNodesWithViewTransitionNone: !0,
+    onlyNodesWithTextSelection: !0,
+    onlyNodesWithStrokeEffect: !0,
+    onlyPolygonNodes: !0,
+    onlyRelativeRadiusNodes: !0,
+    onlyNodesWithPositionType: !0,
+    onlyReplicas: !0,
+    onlyReplicasOrReplicaChildren: !0,
+    onlyRichTextNodes: !0,
+    onlyScreenNodes: !0,
+    onlySlotPropertyNodes: !0,
+    onlyShapeAndGraphicNodes: !0,
+    onlyShapeContainerNodes: !0,
+    onlyShapeNodes: !0,
+    onlyTextNodes: !0,
+    onlyVariants: !0,
+    onlyNonGestureVariants: !0,
+    onlyNodesWithStyleTransformEffect: !0,
+    onlyNodesWithDragEffect: !0,
+    onlyNodesWithFloatingPosition: !0,
+    onlyFormTextAreaNodes: !0,
+    onlyNodesWithLoopEffect: !0,
+    onlyNodesWithFlowEffect: !0,
+    onlyNodesWithWhileHover: !0,
+    onlyNodesWithWhileTap: !0,
+    onlyNodesWithTransition: !0,
+    onlyNodesWithHTMLTag: !0,
+    onlyNodesWithFormVariants: !0,
+    onlyNodesWithFormInputStep: !0,
+    onlyNodesWithDataLoaderVariants: !0,
+    onlyNodesWithBooleanInputType: !0,
+    onlyNodesWithFormInputFontStyles: !0,
+    onlyNodesWithFormInputInvalidStyles: !0,
+    onlyNodesWithAutofillEnabled: !0,
+    onlyNodesWithRequired: !0,
+    onlyNodesWithTapHighlight: !0,
+    onlyNodesWithLightboxEffect: !0,
+    onlyNodesWithCarouselEffect: !0,
+    onlyNodesWithTickerEffect: !0,
+    resizeToFitContentActionAvailable: !1,
+    resizeToFitContentActionEnabled: !1,
+    selectionDidChange: !1,
+    selectionHash: "",
+    strokeAlignmentValues: new Set(),
+    withoutDescendantIds: [],
+    positionTypes: new Set(),
+    appearEffectTrigger: new Set(),
+    appearEffectVisibleVariantId: new Set(),
+    appearEffectObscuredVariantId: new Set(),
+    appearEffectScrollTargets: [],
+    appearEffectScrollDirectionTarget: new Set(),
+    styleAppearEffectScrollTarget: new Set(),
+    styleAppearEffectTrigger: new Set(),
+    styleTransformEffectTrigger: new Set(),
+    styleTransformEffectScrollTargets: [],
+    whileOpenEffectVariant: new Set(),
+    customCursorVariant: new Set(),
+    customCursorPlacement: new Set(),
+    floatingPlacement: new Set(),
+    variantOverrideKeys: new Set(),
+    variantOverrideTraitTypes: new Set(),
+    textEffectScrollTarget: new Set(),
+    textEffectTrigger: new Set(),
+    selectionColorProperties: new Map(),
+    onlyCachedSelectionProperties: !0,
+    formButtonSuccessVariant: new Set(),
+    formButtonErrorVariant: new Set(),
+    formButtonPendingVariant: new Set(),
+    formButtonIncompleteVariant: new Set(),
+    dataLoaderDisabledVariant: new Set(),
+    dataLoaderLoadingVariant: new Set(),
+    currentVariantWidthType: s,
+    currentVariantHeightType: s,
+    cursor: s,
+    customCursorSmartComponentId: s,
+    customCursorFollow: s,
+    customCursorOffsetX: s,
+    customCursorOffsetY: s,
+    customCursorType: s,
+    customCursorAlignment: s,
+    customCursorTransition: s,
+    customCursorTransitionEnabled: s,
+    width: s,
+    height: s,
+    x: s,
+    y: s,
+    right: s,
+    bottom: s,
+    orientation: s,
+    overlayGrid: s,
+    ariaLabel: s,
+    ariaControls: s,
+    ariaDescribedBy: s,
+    ariaDetails: s,
+    ariaLabelledBy: s,
+    ariaExpanded: s,
+    ariaRequired: s,
+    ariaAtomic: s,
+    ariaPressed: s,
+    ariaChecked: s,
+    ariaSelected: s,
+    ariaReadonly: s,
+    ariaBusy: s,
+    ariaModal: s,
+    ariaCurrent: s,
+    ariaDisabled: s,
+    ariaHaspopup: s,
+    ariaHidden: s,
+    ariaRoleDescription: s,
+    ariaRole: s,
+    ariaLive: s,
+    ariaDescription: s,
+    title: s,
+    description: s,
+    ...Uy(),
+    userSelect: s,
+    draggable: s,
+    imageRendering: s,
+    pointerEvents: s,
+    zIndex: s,
+    tabIndex: s,
+    dataNosnippet: s,
+    link: s,
+    linkOpenInNewTab: s,
+    linkSmoothScroll: s,
+    linkClickTrackingId: s,
+    linkRelValues: s,
+    linkPreserveParams: s,
+    anyExternalLinks: !1,
+    anyScrollTargets: !1,
+    trackingIdAIPrompt: s,
+    layout: s,
+    stackDirection: s,
+    stackDistribution: s,
+    stackAlignment: s,
+    stackWrapEnabled: s,
+    gridColumnCount: s,
+    gridRowCount: s,
+    gridAlignment: s,
+    gridColumnWidthType: s,
+    gridColumnWidth: s,
+    gridColumnMinWidth: s,
+    gridRowHeightType: s,
+    gridRowHeight: s,
+    gridType: s,
+    gridItemHorizontalAlignment: s,
+    gridItemVerticalAlignment: s,
+    gridItemColumnSpan: s,
+    gridItemRowSpan: s,
+    gridItemFillCellWidth: s,
+    gridItemFillCellHeight: s,
+    padding: s,
+    paddingPerSide: s,
+    paddingTop: s,
+    paddingRight: s,
+    paddingBottom: s,
+    paddingLeft: s,
+    aspectRatioEnabled: s,
+    aspectRatioLocked: !0,
+    pageEffects: s,
+    opacity: s,
+    overlayTriggerEventKey: s,
+    ...Wy(),
+    brightness: s,
+    contrast: s,
+    grayscale: s,
+    overscrollBehavior: s,
+    hueRotate: s,
+    invert: s,
+    saturate: s,
+    sepia: s,
+    blur: s,
+    backgroundBlur: s,
+    blendingMode: s,
+    sizeToFit: s,
+    parallaxEnabled: s,
+    parallaxSpeed: s,
+    parallaxAdjustPosition: s,
+    parallaxOffset: s,
+    appearEffectEnabled: s,
+    appearEffectThreshold: s,
+    appearEffectAnimateOnce: s,
+    appearEffectScrollTargetCount: s,
+    appearEffectScrollDirection: s,
+    exitEffectEnabled: s,
+    exitEffectOpacity: s,
+    exitEffectX: s,
+    exitEffectY: s,
+    exitEffectScale: s,
+    exitEffectRotate3d: s,
+    exitEffectRotate: s,
+    exitEffectRotateX: s,
+    exitEffectRotateY: s,
+    exitEffectSkewX: s,
+    exitEffectSkewY: s,
+    exitEffectTransition: s,
+    enterEffectEnabled: s,
+    enterEffectOpacity: s,
+    enterEffectX: s,
+    enterEffectY: s,
+    enterEffectScale: s,
+    enterEffectRotate3d: s,
+    enterEffectRotate: s,
+    enterEffectRotateX: s,
+    enterEffectRotateY: s,
+    enterEffectSkewX: s,
+    enterEffectSkewY: s,
+    enterEffectTransition: s,
+    styleAppearEffectEnabled: s,
+    styleAppearEffectThreshold: s,
+    styleAppearEffectAnimateOnce: s,
+    styleAppearEffectLocked: s,
+    styleAppearEffectOpacity: s,
+    styleAppearEffectX: s,
+    styleAppearEffectY: s,
+    styleAppearEffectScale: s,
+    styleAppearEffectRotate: s,
+    styleAppearEffectRotateX: s,
+    styleAppearEffectRotateY: s,
+    styleAppearEffectPerspective: s,
+    styleAppearEffectTransition: s,
+    styleTransformEffectEnabled: s,
+    styleTransformEffectViewportThreshold: s,
+    styleTransformEffectTransition: s,
+    styleTransformEffectTransitionEnabled: s,
+    styleTransformEffectScrollTargetCount: s,
+    styleAppearEffectScrollTargetCollectionItem: s,
+    styleAppearEffectScrollDirection: s,
+    dragEffectEnabled: s,
+    dragEffectFreeform: s,
+    dragEffectMomentum: s,
+    dragEffectSnapBack: s,
+    dragEffectConstraintElement: s,
+    dragEffectConstraintItem: s,
+    dragEffectTransition: s,
+    shaderMouseEnabled: s,
+    shaderMouseSpringOptions: s,
+    overflow: s,
+    overflowX: s,
+    overflowY: s,
+    loopEffectEnabled: s,
+    loopEffectRepeatDelay: s,
+    loopEffectOpacity: s,
+    loopEffectX: s,
+    loopEffectY: s,
+    loopEffectScale: s,
+    loopEffectRotate3d: s,
+    loopEffectRotate: s,
+    loopEffectRotateX: s,
+    loopEffectRotateY: s,
+    loopEffectSkewX: s,
+    loopEffectSkewY: s,
+    loopEffectTransition: s,
+    loopEffectRepeatType: s,
+    loopEffectPauseOffscreen: s,
+    whileTapEnabled: s,
+    whileTapOpacity: s,
+    whileTapX: s,
+    whileTapY: s,
+    whileTapScale: s,
+    whileTapRotate3d: s,
+    whileTapRotate: s,
+    whileTapRotateX: s,
+    whileTapRotateY: s,
+    whileTapSkewX: s,
+    whileTapSkewY: s,
+    whileTapBoxShadow: s,
+    whileTapBoxShadowCount: s,
+    whileTapTransition: s,
+    whileTapBackgroundColor: s,
+    whileHoverEnabled: s,
+    whileHoverOpacity: s,
+    whileHoverX: s,
+    whileHoverY: s,
+    whileHoverScale: s,
+    whileHoverRotate3d: s,
+    whileHoverRotate: s,
+    whileHoverRotateX: s,
+    whileHoverRotateY: s,
+    whileHoverSkewX: s,
+    whileHoverSkewY: s,
+    whileHoverBoxShadowCount: s,
+    whileHoverBoxShadow: s,
+    whileHoverTransition: s,
+    whileHoverBackgroundColor: s,
+    maxWidth: s,
+    minWidth: s,
+    maxHeight: s,
+    minHeight: s,
+    elementId: s,
+    scrollMarginTop: s,
+    scrollTargetEnabled: s,
+    dataIdentifier: s,
+    dataRepeaterArray: s,
+    repeatArray: s,
+    repeatArrayTransforms: s,
+    backdropFillEnabled: s,
+    backdropFill: s,
+    backdropTransitionLocked: s,
+    backdropEnterTransition: s,
+    backdropExitTransition: s,
+    backdropDismissible: s,
+    blockDocumentScrolling: s,
+    positionStickyTop: s,
+    positionStickyRight: s,
+    positionStickyBottom: s,
+    positionStickyLeft: s,
+    floatingAlignment: s,
+    floatingOffsetX: s,
+    floatingOffsetY: s,
+    floatingSafeArea: s,
+    floatingCollisionDetection: s,
+    floatingCollisionPadding: s,
+    shadows: s,
+    masks: s,
+    ...Dy(),
+    strokeEnabled: s,
+    strokeColor: s,
+    strokeWidth: s,
+    strokeDashOffset: s,
+    strokeDashArray: s,
+    lineJoin: s,
+    lineCap: s,
+    strokeMiterLimit: s,
+    ...Kc(),
+    ...zc(),
+    radiusSmoothing: s,
+    cornerShape: s,
+    spikeCount: s,
+    spikeDepth: s,
+    polygonSides: s,
+    visible: s,
+    pinLeft: s,
+    pinRight: s,
+    pinTop: s,
+    pinBottom: s,
+    constraintsLocked: s,
+    widthFactor: s,
+    heightFactor: s,
+    rotation: s,
+    codeOverrideEnabled: s,
+    gap: s,
+    gapAxis: s,
+    rowGap: s,
+    columnGap: s,
+    computedRowCount: s,
+    pathsAreClosed: s,
+    hideScrollbars: s,
+    tapHighlightColor: s,
+    textSelection: s,
+    transition: s,
+    whileOpenEffectEnabled: s,
+    transformOriginX: s,
+    transformOriginY: s,
+    scale: s,
+    skewX: s,
+    skewY: s,
+    rotate3d: s,
+    rotateX: s,
+    rotateY: s,
+    translateX: s,
+    translateY: s,
+    translateZ: s,
+    perspective: s,
+    backfaceVisibility: s,
+    transformStylePreserve3d: s,
+    repeaterId: s,
+    repeaterOriginalId: s,
+    repeatId: s,
+    repeatOriginalId: s,
+    formOnSuccessRedirectUrl: s,
+    formSaveId: void 0,
+    formSubmitTrackingId: s,
+    formInputFontFamily: s,
+    formInputFontSize: s,
+    formInputFontSizeUnit: s,
+    formInputFontWeight: s,
+    formInputFontColor: s,
+    formInputFontSelector: s,
+    formInputFontStyle: s,
+    formInputFontLetterSpacing: s,
+    formInputFontLineHeight: s,
+    formInputFontLetterSpacingUnit: s,
+    formInputFontLineHeightUnit: s,
+    formInputFontTextAlignment: s,
+    formInputFontTextAlignmentDirection: s,
+    formInputOpenTypeFontFeatures: s,
+    formInputVariationAxes: s,
+    formInputPlaceholderColor: s,
+    formTextAreaResizable: s,
+    formInputValue: s,
+    formInputFocusedBackgroundColor: s,
+    formInputFocusedBorderColor: s,
+    formInputFocusedBorderWidth: s,
+    formInputFocusedBorderStyle: s,
+    formInputFocusedBoxShadow: s,
+    formInputFocusedTransition: s,
+    formInputInvalidTextColor: s,
+    formInputRequired: s,
+    formInputAutoFocus: s,
+    formInputName: s,
+    formInputHidden: s,
+    formTextInputType: s,
+    formInputPlaceholder: s,
+    formInputAutofillEnabled: s,
+    onlyNodesWithInputIconRow: !0,
+    formInputIconImage: s,
+    formInputIconColor: s,
+    formTextInputMaxNumber: s,
+    formTextInputMinNumber: s,
+    formInputStep: s,
+    formInputMaxLength: s,
+    formButtonErrorVariantEnabled: s,
+    formButtonPendingVariantEnabled: s,
+    formButtonSuccessVariantEnabled: s,
+    formButtonIncompleteVariantEnabled: s,
+    formBooleanInputType: s,
+    formBooleanInputValue: s,
+    formBooleanInputCheckedBorderColor: s,
+    formBooleanInputCheckedBorderWidth: s,
+    formBooleanInputCheckedBorderStyle: s,
+    formBooleanInputCheckedFillColor: s,
+    formBooleanInputCheckedTransition: s,
+    formBooleanInputCheckedBoxShadow: s,
+    bindingType: s,
+    variableBinding: s,
+    formSelectOptions: s,
+    allItemsLabel: s,
+    booleanTrueLabel: s,
+    booleanFalseLabel: s,
+    dataLoaderLoadingVariantEnabled: s,
+    dataLoaderDisabledVariantEnabled: s,
+    textEffectBlur: s,
+    textEffectEnabled: s,
+    textEffectOpacity: s,
+    textEffectTokenization: s,
+    textEffectReplay: s,
+    textEffectDelay: s,
+    textEffectRotate: s,
+    textEffectRotate3d: s,
+    textEffectRotateX: s,
+    textEffectRotateY: s,
+    textEffectScale: s,
+    textEffectScrollTargetCollectionItem: s,
+    textEffectSkewX: s,
+    textEffectSkewY: s,
+    textEffectThreshold: s,
+    textEffectTransition: s,
+    textEffectType: s,
+    textEffectX: s,
+    textEffectY: s,
+    textTruncation: s,
+    viewTransitionNone: s,
+    fillOpacity: s,
+    rootFontSize: s,
+    strokeEffectEnabled: s,
+    strokeEffectLength: s,
+    strokeEffectGap: s,
+    strokeEffectOffset: s,
+    strokeEffectTransition: s,
+    strokeEffectLoop: s,
+    strokeEffectLoopType: s,
+    lightboxEffectEnabled: s,
+    lightboxEffectPadding: s,
+    lightboxEffectPaddingPerSide: s,
+    lightboxEffectPaddingTop: s,
+    lightboxEffectPaddingRight: s,
+    lightboxEffectPaddingBottom: s,
+    lightboxEffectPaddingLeft: s,
+    lightboxEffectMaxWidth: s,
+    lightboxEffectZIndex: s,
+    lightboxEffectBackdrop: s,
+    lightboxEffectTransition: s,
+    tickerEffectEnabled: s,
+    tickerEffectVelocity: s,
+    tickerEffectHoverModifier: s,
+    tickerEffectDirectionModifier: s,
+    tickerEffectDraggable: s,
+    carouselEffectEnabled: s,
+    carouselEffectLoop: s,
+    carouselEffectAutoPlay: s,
+    carouselEffectInterval: s,
+    carouselEffectSnap: s,
+    flowEffectEnabled: s,
+    flowEffectTransition: s,
+    triggerActions: s,
+    propertiesSupportingVariables: { ...pn },
+  };
+}
+function eT(e) {
+  return (
+    he(e) &&
+    "tree" in e &&
+    he(e.tree) &&
+    "assets" in e &&
+    ue(e.assets) &&
+    "sourceProjectId" in e &&
+    J(e.sourceProjectId)
+  );
+}
+async function tT(e, t, o, r) {
+  if (!o || e.stores.chromeStore.isPreviewingLocaleOnCanvas) return !1;
+  let { assetService: n } = e.stores.assetStore;
+  if (!n) return !1;
+  let { sourceProjectId: a, assets: d } = o,
+    i = wx(o.limitToTrait, r),
+    l = e.stores.projectStore.projectId;
+  typeof a == "string" &&
+    a !== l &&
+    Array.isArray(d) &&
+    d.length > 0 &&
+    (await ms(async () => {
+      await n.duplicateAssets(d, a);
+    }));
+  let { tree: m, componentLoader: u } = e;
+  if (!he(o)) return !1;
+  let S = st.fromJS(o.tree, u);
+  if (!S) return !1;
+  let C = he(o.variableValues) ? o.variableValues : {},
+    p = S.root;
+  if (Be(p) && p.children.length === 1) {
+    let g = p.children.at(0);
+    (L(g, "ShapeContainerNode children must be defined"), (p = g));
+  }
+  let v = m.withoutDescendants(m.getNodes(t)),
+    R = Qg(m, e.stores.treeStore.getDataTreeOrPartialTree(), u, v),
+    x = new Set();
+  await e.scheduler.processWhenReadyAsync(() => {
+    (e.beginUndoGroup(),
+      m.getNodes(R.expandedSelectionForShapeGeometryIds).forEach((g) => {
+        g = g.asDraft();
+        let w = m.getParent(g.id),
+          b = yn(m, u, p, g, w, C, i);
+        if ((e.tree.current(g)?.set(b), ut(g))) {
+          let y = pu(e, g);
+          y && (g = y.richTextNode);
+        }
+        if (
+          (ne(g) && (g.textFitViewBoxSize || b.textFitViewBoxSize) && x.add(g.id), bt(p) && ne(g))
+        ) {
+          if ((i || g.setTextStylePreset(void 0, !0), je("font", i))) {
+            let [y] = p.getFonts(!1);
+            D(y) || g.setFont(y, !0);
+          }
+          if (je("textColor", i)) {
+            let [y] = p.getTextColors(!1);
+            D(y) || g.setTextColor(y, !0);
+          }
+          if (je("fontSize", i)) {
+            let [y] = p.getFontSizes(!1);
+            D(y) || g.setFontSize(y, !0);
+          }
+          if (je("letterSpacing", i)) {
+            let [y] = p.getLetterSpacings(!1);
+            D(y) || g.setLetterSpacing(Co(y), !0);
+          }
+          if (je("textTransform", i)) {
+            let [y] = p.getTextTransforms(!1);
+            D(y) || g.setTextTransform(y, !0);
+          }
+          if (je("textDecoration", i)) {
+            let [y] = p.getTextDecorations(!1);
+            D(y) || g.setTextDecoration(y, !0);
+          }
+          if (je("lineHeight", i)) {
+            let [y] = p.getLineHeights(!1);
+            D(y) || g.setLineHeight(y, !0);
+          }
+          if (je("textAlignment", i)) {
+            let [y] = p.getTextAlignments(!1);
+            D(y) || g.setTextAlignment(y, !0);
+          }
+        }
+        if (ne(p) && ne(g)) {
+          if (je("textColor", i)) {
+            let [y] = p.getFills();
+            g.setFill(y);
+          }
+          if (je("textStroke", i)) {
+            let [y] = p.getTextStrokeWidths(!1);
+            D(y) || g.setTextStrokeWidth(y, !0);
+            let [z] = p.getTextStrokeColors(!1);
+            D(z) || g.setTextStrokeColor(z, !0);
+          }
+          if (je("textDecoration", i)) {
+            let [y] = p.getTextDecorationColors(!1);
+            D(y) || g.setTextDecorationColor(y, !0);
+            let [z] = p.getTextDecorationOffsets(!1);
+            D(z) || g.setTextDecorationOffset(z, !0);
+            let [M] = p.getTextDecorationThicknesses(!1);
+            D(M) || g.setTextDecorationThickness(M, !0);
+            let [I] = p.getTextDecorationStyles(!1);
+            D(I) || g.setTextDecorationStyle(I, !0);
+            let [U] = p.getTextDecorationSkipInks(!1);
+            D(U) || g.setTextDecorationSkipInk(U, !0);
+          }
+          if (je("textBackgroundColor", i)) {
+            let [y] = p.getTextBackgroundColors(!1);
+            D(y) || g.setTextBackgroundColor(y, !0);
+          }
+          if (je("openTypeFontFeatures", i)) {
+            let [y] = p.getOpenTypeFontFeatures(!1);
+            D(y) || g.setOpenTypeFontFeatures(y, !0);
+          }
+          if (je("font", i)) {
+            let [y] = p.getVariationAxes(!1);
+            if (!D(y)) {
+              let [z] = p.getFonts(!1);
+              if (!D(z)) {
+                let M = tl(z, y);
+                g.setFont(M, !0);
+              }
+            }
+          }
+          if (!i) {
+            let [y] = p.getTextStylePresets(!1),
+              z = m.get(y);
+            Nd(z) && g.setTextStylePreset(z, !0);
+            let [M] = p.getLinkStylePresets(!1),
+              I = m.get(M);
+            Zo(I) && g.setLinkStylePreset(I, !0);
+          }
+        }
+      }));
+  });
+  try {
+    await qf(e, Array.from(x));
+  } catch {}
+  return e.scheduler.processWhenReadyAsync(() => (e.endUndoGroup(), !0));
+}
+function wx(e, t) {
+  if (D(t)) return e;
+  if (D(e) || (ue(e) && e.length === 0)) return t;
+  if (J(e) && J(t)) return t === e ? e : [];
+  let o = ue(e) ? e : [e],
+    r = ue(t) ? t : [t];
+  return o.filter((n) => r.includes(n));
+}
+var oT = (e) => (Kr(e) || we(e) || Pe(e) ? !1 : Le(e) || Xr(e) || ne(e) || Be(e) || H(e));
+var kx;
+((A) => {
+  ((A.cut = async (T, V) => {
+    if (Kt() || Za() || T.stores.chromeStore.overlay || !T.stores.toolStore.isDefaultToolActive)
+      return;
+    let k = T.stores.selectionStore.ids;
+    if (k.length === 0) return;
+    await A.copy(T, V);
+    let O = T.tree.getNodes(k);
+    Ut.canDeleteOrHideNodes(T, O) &&
+      T.scheduler.process(() => {
+        Ut.deleteOrHideNodes(T, O);
+      });
+  }),
+    (A.copy = async (T, V, k) => {
+      if (Kt() || Za() || T.stores.chromeStore.overlay || !T.stores.toolStore.isDefaultToolActive)
+        return;
+      let O = k ?? T.stores.selectionStore.ids;
+      if (O.length === 0) return;
+      if (!Ut.canCopyNodes(T.tree.getNodes(O))) {
+        yy();
+        return;
+      }
+      let j = hy(T, O);
+      (V?.preventDefault(), await $e({ "application/x-framer-layers": j }, V));
+    }),
+    (A.paste = async (T, V, k) => {
+      if (
+        un(T, "canDesign") ||
+        !T.stores.toolStore.isDefaultToolActive ||
+        T.stores.chromeStore.isPreviewingLocaleOnCanvas ||
+        T.stores.chromeStore.overlay
+      )
+        return;
+      let O = await wo(
+        [
+          "text/plain",
+          "text/html",
+          "image/*",
+          "video/*",
+          "application/x-framer-layers",
+          "application/x-framer-figma-plugin",
+          "application/x-framer-html-import-extension",
+        ],
+        k
+      );
+      if (!O) return;
+      let j = O["text/plain"]?.trim(),
+        ee = O["text/html"],
+        oe = O["image/*"],
+        te = O["video/*"],
+        de;
+      ls(O["application/x-framer-figma-plugin"]) && (de = O["application/x-framer-figma-plugin"]);
+      let le;
+      Wo(O["application/x-framer-layers"]) && (le = O["application/x-framer-layers"]);
+      let $;
+      O["application/x-framer-html-import-extension"] instanceof HTMLElement &&
+        ($ = O["application/x-framer-html-import-extension"]);
+      let { position: F } = V;
+      if (await ns(T, j, F)) {
+        k?.preventDefault();
+        return;
+      }
+      if (await ps(T, de, ee, F)) {
+        k?.preventDefault();
+        return;
+      }
+      if (!(await fs(T, oe, F, k)) && !(await ys(T, te, F, k))) {
+        if (await Ao({ engine: T, layersData: le, position: F })) {
+          k?.preventDefault();
+          return;
+        }
+        if (!(j && Kt())) {
+          if (await Qa(T, j, F)) {
+            k?.preventDefault();
+            return;
+          }
+          if (await us(T, j, F)) {
+            k?.preventDefault();
+            return;
+          }
+          if (await Py(T, $, F)) {
+            k?.preventDefault();
+            return;
+          }
+          await ky(T, j, F, k);
+        }
+      }
+    }),
+    (A.copyStyle = async (T, V, k, O) => {
+      let { tree: j, componentLoader: ee } = T,
+        oe = V.clone();
+      Rt(oe) && (oe = oe.set({ children: new hi() }));
+      let te = st.createByAdoptingRoot(oe),
+        de = {};
+      Hf(j, V, "excludeInherited", "readsRawNodeData", void 0, (q) => {
+        let se = V.cache.getVariableReferenceValue(q);
+        se !== void 0 && (de[q.id] = se);
+      });
+      let le = new Set();
+      vn(Cn(ee, T.stores.treeStore), te.root, le);
+      let $ = En(Array.from(le)),
+        F = { tree: te.toJS(), variableValues: de, assets: $, sourceProjectId: k, limitToTrait: O };
+      await $e({ "application/x-framer-style-v2": F });
+    }),
+    (A.copyAnimationTransition = async (T) => {
+      await $e({ "application/x-framer-animation-transition": T });
+    }),
+    (A.getAnimationTransition = async () => {
+      let T = await Ye("application/x-framer-animation-transition");
+      if (nc(T)) return ac(T);
+    }),
+    (A.copyGridOverlay = async (T) => {
+      await $e({ "application/x-framer-layout-grid": T });
+    }),
+    (A.getGridOverlay = async () => await Ye("application/x-framer-layout-grid")),
+    (A.pasteGridOverlay = async (T, V) => {
+      let k = await (0, A.getGridOverlay)();
+      k &&
+        T.scheduler.process(() => {
+          $u({ engine: T, selection: V, source: "paste", overlayGrid: k });
+        });
+    }),
+    (A.copyEffects = async (T) => {
+      await $e({ "application/x-framer-effects": T });
+    }),
+    (A.copyPageEffects = async (T) => {
+      await $e({ "application/x-framer-page-effects": T });
+    }),
+    (A.pasteEffects = async (T, V) => {
+      let k = await Ye("application/x-framer-effects");
+      k &&
+        T.scheduler.process(() => {
+          mf(T.tree, V, k);
+        });
+    }),
+    (A.pastePageEffects = async (T, V, k) => {
+      let O = await Ye("application/x-framer-page-effects");
+      O &&
+        T.scheduler.process(() => {
+          Xu(T.tree, V, O, k);
+        });
+    }),
+    (A.copyCursors = async (T) => {
+      let V = {};
+      for (let k of Qo(Na)) Ln(k, T, V);
+      await $e({ "application/x-framer-cursors": V });
+    }),
+    (A.pasteCursors = async (T, V) => {
+      let k = await Ye("application/x-framer-cursors");
+      if (!he(k)) return;
+      let O = {};
+      for (let j of Qo(Na)) Ln(j, k, O);
+      T.scheduler.process(() => {
+        for (let j of T.tree.getNodesWithTrait(V, Ni)) j.set(O);
+      });
+    }),
+    (A.copyTransforms = async (T) => {
+      let V = {};
+      for (let k of Qo(Aa)) Ln(k, T, V);
+      (xt(T) && (V.rotation = T.rotation), await $e({ "application/x-framer-transforms": V }));
+    }),
+    (A.pasteTransforms = async (T, V) => {
+      let k = await Ye("application/x-framer-transforms");
+      if (!he(k)) return;
+      let O = {};
+      for (let j of Qo(Aa)) Ln(j, k, O);
+      T.scheduler.process(() => {
+        for (let j of T.tree.getNodes(V))
+          (Ai(j) && j.set(O),
+            xt(j) && (re(k.rotation) || pe(k.rotation)) && j.set({ rotation: k.rotation }));
+      });
+    }),
+    (A.pasteInPlace = async (T) => {
+      let V = T.stores.selectionStore.nodes,
+        k = V.length === 1 ? V[0] : null;
+      if (!k || !oT(k) || !me(k)) return;
+      let O = T.tree.getRect(k),
+        j = k.constraintValues(),
+        ee = T.tree.getParent(k.id),
+        oe = Wi(T.tree, k),
+        te = ee ? T.tree.getParent(k.id)?.children?.indexOf(k) : void 0,
+        de = T.stores.scopeStore.active,
+        le = await wo(["application/x-framer-layers"]);
+      if (!le) return;
+      let $ = le["application/x-framer-layers"];
+      Wo($) &&
+        (await Ao({
+          engine: T,
+          insertTarget: { parentId: ee?.id ?? de.id },
+          layersData: $,
+          onInsertNode: (F) => {
+            if (!me(F)) return;
+            let q = F.updateForRect({
+                rect: O,
+                parentSizeInfo: oe,
+                constraintsLocked: !1,
+                shouldGuessPinToBottom: !1,
+                shouldGuessPinToRight: !1,
+              }),
+              { width: se, height: W, ...ae } = j,
+              ye = q.widthType ?? j.widthType,
+              Je = q.heightType ?? j.heightType;
+            (F.set({
+              ...ae,
+              ...(ye === j.widthType && { width: se }),
+              ...(Je === j.heightType && { height: W }),
+              ...q,
+            }),
+              gt(k) && Qr(F) && (F.set(Zd(k)), lr(k) && lr(F) && F.set({ zIndex: k.zIndex })),
+              ee &&
+                (T.tree.move(F.id, ee.id, te),
+                hn(T.tree, T.componentLoader, ee, new ko([[k.id, F.id]]), !1)),
+              T.deleteNode(k.id));
+          },
+          position: { x: 0, y: 0 },
+          replace: !0,
+        }));
+    }),
+    (A.copyText = async (T) => {
+      await $e({ "text/plain": T });
+    }),
+    (A.copyCSS = async (T) => {
+      await $e({ "text/plain": T, "text/css": T });
+    }),
+    (A.copyCSSForNode = async (T, V) => {
+      let k = Nu(T, V.tree, V.stores.documentSettingsStore.hasDarkAppearance),
+        O = Ju(V.tree, V.componentLoader, k);
+      return A.copyCSS(O);
+    }),
+    (A.copySVG = async (T) => {
+      await $e({ "text/plain": T });
+    }),
+    (A.copyColorArray = async (T) => {
+      T.length === 0 || !T.every(is) || (await $e({ "text/plain": T.join(", ") }));
+    }),
+    (A.pasteColorArray = async () => {
+      let T = await Ye("text/plain");
+      if (!J(T)) return null;
+      let V = ey(T);
+      return V.length === 0 || !V.every(is) ? null : V;
+    }),
+    (A.copyImage = async (T) => {
+      if (!xo(T)) return;
+      let V = Ii(T);
+      if (!V) return;
+      let k = Mc(V.identifier),
+        O = document.createElement("img");
+      ((O.dataset.framerAsset = T),
+        (O.src = k),
+        await $e({ "text/plain": k, "text/html": O.outerHTML }));
+    }),
+    (A.pasteImage = async () => {
+      let T = await Ye("text/html");
+      if (J(T)) {
+        let j = Hl(T).querySelector("img");
+        if (j) {
+          let ee = Yl(j);
+          if (xo(ee)) return { type: "asset-reference", reference: ee };
+        }
+      }
+      let V = await Ye("text/plain");
+      if (J(V) && xo(V)) return { type: "asset-reference", reference: V };
+      let k = await Ye("image/*"),
+        O = ue(k) ? k[0] : void 0;
+      return O && O instanceof File ? { type: "file", file: O } : null;
+    }),
+    (A.getStyleData = async (T) => {
+      let V = await Ye("application/x-framer-style-v2", T);
+      return eT(V) ? V : void 0;
+    }),
+    (A.pasteStyle = async (T, V, k, O) => {
+      let j = await (0, A.getStyleData)(k);
+      j && (await tT(T, V, j, O));
+    }));
+  async function X(T, V, k) {
+    let O = await wo(["application/x-framer-layers", "text/plain"], V);
+    if (!O) return;
+    let j = O["application/x-framer-layers"];
+    if (await Ty(T, j)) {
+      V?.preventDefault();
+      return;
+    }
+  }
+  A.pasteCollections = X;
+})((kx ||= {}));
+function Ln(e, t, o) {
+  e in t && (o[e] = t[e]);
+}
+var rT = B(Oe(), 1);
+function cU(e, t) {
+  let o = Ht();
+  return (0, rT.useCallback)(o.scheduler.wrapHandler(e), t);
+}
+var iT = "dt2vdl5",
+  uU = "dc4gvpv",
+  nT = "s1dpgfha";
+function Ns(e, t) {
+  return !e || !t || ge(e) || Jr(e)
+    ? !1
+    : (Lt(e) || xe(e),
+      L(e.startValue.id === t.id),
+      t.type === "boolean" && e.transforms[0]?.name === "negate");
+}
+function Is(e, t) {
+  return Ns(e, t) && e.transforms.length === 1;
+}
+var ft = B(Oe(), 1);
+var aT = B(Oe());
+var io = B(Y()),
+  sT = aT.default.forwardRef(function ({ style: t, ...o }, r) {
+    return (0, io.jsxs)("svg", {
+      role: "presentation",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "12",
+      height: "12",
+      viewBox: "0 0 12 12",
+      fill: "none",
+      ...o,
+      style: { ...t, ...Bu },
+      ref: r,
+      children: [
+        (0, io.jsx)("circle", { cx: "3.75", cy: "3.75", r: "1", fill: "currentColor" }),
+        (0, io.jsx)("circle", { cx: "8.25", cy: "3.75", r: "1", fill: "currentColor" }),
+        (0, io.jsx)("circle", { cx: "3.75", cy: "8.25", r: "1", fill: "currentColor" }),
+        (0, io.jsx)("circle", { cx: "8.25", cy: "8.25", r: "1", fill: "currentColor" }),
+      ],
+    });
+  });
+var dT = "ib75oye",
+  cT = "dnxepni";
+var Ps = B(Y(), 1);
+function lT() {
+  let e = qe();
+  return (0, Ps.jsx)("div", {
+    title: "Drag to reorder or remove",
+    className: Ce(dT, e && cT),
+    children: (0, Ps.jsx)(sT, {}),
+  });
+}
+function pT(e) {
+  return e.tree.getNodes(e.stores.selectionStore.ids).every(Pe);
+}
+function fT(e, t, o) {
+  if (!t && !o) return !1;
+  let r = e.tree.getNodes(e.stores.selectionStore.ids),
+    n = at.overrideKeys(e.tree, r, !0);
+  return Vu(n, t, o);
+}
+function mT(e, t, o) {
+  yu(e.tree, e.tree.getNodes(e.stores.selectionStore.ids), t, o);
+}
+var uT = B(Oe(), 1);
+function yT(e) {
+  let t = Ht(),
+    { supportsFetchDataValues: o, onSelectFetchDataValue: r } = e,
+    n = qe(),
+    a = (0, uT.useCallback)(() => {
+      if (o)
+        return [
+          {
+            label: "Add fetch",
+            click: () => {
+              L(r);
+              let d = r();
+              Ve("fetch_computed_value_create", { outputType: d.outputType });
+            },
+            enabled: !n && !(Ro(t) && Rm(t.tree, t.stores.selectionStore.ids)),
+            submenu: void 0,
+          },
+        ];
+    }, [r, n, o]);
+  if (!(!o || !r)) return a;
+}
+var NT = B(Oe(), 1);
+function Bn(e) {
+  return e?.type === "transform";
+}
+function Vx(e) {
+  return Bn(e) || Ax(e);
+}
+function qU(e) {
+  return e?.type === "unknownTransform";
+}
+function Ax(e) {
+  return e?.type === "transformWarning";
+}
+function Wx(e) {
+  return e?.type === "typeError";
+}
+function ZU(e) {
+  return Wx(e) && "key" in e;
+}
+function Et(e, t) {
+  return ue(t) ? t.includes(e) : e === t;
+}
+function Fx(e) {
+  let t = -1,
+    o = -1;
+  for (let a = 0, d = e.length; a < d; a++) {
+    let i = e[a];
+    i &&
+      (i.name === "greaterThan" && i.isNegated
+        ? (t = a)
+        : i.name === "lessThan" && !i.isNegated && (o = a));
+  }
+  if (t === -1 || o === -1) return;
+  let r = e[t];
+  L(r);
+  let n = e[o];
+  (L(n), (e[t] = n), (e[o] = r));
+}
+function Hn(e, t) {
+  (e.sort((o, r) => (o.outputType === r.outputType ? 0 : o.outputType === t ? -1 : 1)), Fx(e));
+}
+function JU(e, t, o) {
+  let r = e.at(-1);
+  if (!r) return;
+  let n = qt(r);
+  if (n === o) return;
+  let a = er(n);
+  if (a)
+    for (let d of a) {
+      let i = yt(d);
+      if (i && i.includes(o)) {
+        e.push(bo({ name: d, input: n, output: t ?? o }));
+        return;
+      }
+    }
+}
+var ws = 2;
+function Dx(e, t, o) {
+  let r = [{ transformName: e, depth: 1 }],
+    a = o === "boolean" && t === o ? 1 : ws,
+    d = new Set();
+  for (; r.length > 0;) {
+    let { transformName: i, depth: l } = r.shift();
+    if (d.has(i)) continue;
+    d.add(i);
+    let f = yt(i);
+    if (f) {
+      if (f.includes(o)) return !0;
+      if (a !== l && !na(i))
+        for (let m of f) {
+          let u = er(m);
+          if (u) for (let S of u) r.push({ transformName: S, depth: l + 1 });
+        }
+    }
+  }
+  return !1;
+}
+var ks = (() => {
+  let e = new Map();
+  return (t, o, r) => {
+    let n = t + o + r,
+      a = e.get(n);
+    if (gd(a)) return a;
+    let d = Dx(t, o, r);
+    return (e.set(n, d), d);
+  };
+})();
+function Mn({
+  input: e,
+  output: t,
+  currentTransform: o,
+  currentTransformOutput: r,
+  transformBefore: n,
+  variableConsumesNegated: a,
+  supportedTransformNames: d,
+  arrayMappingCanBeAdded: i,
+}) {
+  let l = [];
+  return (
+    d.forEach((f) => {
+      if (f === "arrayToArray" && !i && o !== "arrayToArray") return;
+      let m = Xt(f);
+      if ((!m || !m.includes(e)) && f !== o) return;
+      let u = yt(f);
+      if (f !== o && Md(f) && !u.includes(t)) return;
+      let S;
+      if (u.includes(t)) S = t;
+      else if (r && u.includes(r)) S = r;
+      else {
+        if (!ks(f, e, t)) return;
+        let v = yt(f);
+        S = v.includes(t) ? t : v[0];
+      }
+      if (n === f && o !== f && !ia(f)) return;
+      let C = !!(n && ht(n));
+      (C && f === "negate") ||
+        (C && f === "isSet") ||
+        (!n && a && f === "negate") ||
+        (l.push({ name: f, isNegated: !1, outputType: S }),
+        ht(f) && l.push({ name: f, isNegated: !0, outputType: S }));
+    }),
+    Hn(l, t),
+    l.length > 0 ? l : null
+  );
+}
+function hT(e, t, o) {
+  if ((L(t >= 0), t === 0 || (t === 1 && o))) return null;
+  let r,
+    n = o ? 1 : 0;
+  for (let a = t - 1; a >= n; a--) {
+    let d = e[a];
+    if ((L(d), d.name === "negate")) {
+      r = d;
+      continue;
+    }
+    return r && !ht(d.name) ? r : d;
+  }
+  return (L(r), r);
+}
+function Ox(e) {
+  if (!ze(e)) return e;
+  for (let t of e) if (Ot(t)) return t;
+  throw Error("Expected type must be a computed value type");
+}
+function gT({
+  mainInputType: e,
+  inputControl: t,
+  variableIsNegated: o,
+  transforms: r,
+  expectedType: n,
+  supportedTransformNames: a,
+  outputControl: d,
+  computedValueOutputType: i,
+}) {
+  let l = Ox(n),
+    f = i !== void 0 && lp(i, r, d),
+    m = Pa(t) && Pa(d),
+    u = r?.filter((I) => I.name === "arrayToArray").length ?? 0,
+    S = u > 0,
+    C = m && !S,
+    p = e === "boolean",
+    v = {
+      sections: [],
+      errorBefore: null,
+      errorAfter: null,
+      transformAdditionOptions: [],
+      variableIsNegated: o,
+    },
+    R = Et(e, n),
+    x = e;
+  if (r) {
+    let I = o ? 1 : 0;
+    for (let U = I, K = r.length; U < K; U++) {
+      let _ = hT(r, U, o),
+        X = r[U];
+      if ((L(X), !Dd(X.name))) {
+        v.sections.push({ type: "unknownTransform", transform: X });
+        continue;
+      }
+      let A = Xt(X.name);
+      (L(A),
+        Et(x, A) ||
+          (U === 0
+            ? (v.errorBefore = {
+                type: "typeError",
+                expected: A,
+                received: x,
+                replaceOptions: Mn({
+                  input: x,
+                  output: l,
+                  currentTransformOutput: null,
+                  currentTransform: null,
+                  transformBefore: null,
+                  variableConsumesNegated: p,
+                  supportedTransformNames: a,
+                  arrayMappingCanBeAdded: C,
+                }),
+              })
+            : (L(_),
+              v.sections.push({
+                type: "typeError",
+                key: `${X.id}-error`,
+                expected: A,
+                received: x,
+                replaceOptions: Mn({
+                  input: x,
+                  output: l,
+                  currentTransformOutput: null,
+                  currentTransform: null,
+                  transformBefore: _.name,
+                  variableConsumesNegated: p,
+                  supportedTransformNames: a,
+                  arrayMappingCanBeAdded: C,
+                }),
+                transformBefore: _,
+                transformAfter: X,
+              }))));
+      let T = v.sections[v.sections.length - 1];
+      if (X.name === "negate" && Vx(T) && ht(T.transform.name))
+        Bn(T) && (T.isNegated = !T.isNegated);
+      else {
+        let V = qt(X),
+          k = R && e !== "enum",
+          O = v.sections.some((oe) => {
+            if (oe.type === "typeError" || oe.type === "unknownTransform") return !0;
+            let te = qt(oe.transform);
+            return Et(te, n);
+          }),
+          j = m && X.name === "arrayToArray" && u === 1,
+          ee = !j && (k || O || !!_);
+        if (f && X.name === "arrayToArray") {
+          (v.sections.push({
+            type: "transformWarning",
+            key: `${X.id}-warning`,
+            message: "Incompatible",
+            transform: X,
+          }),
+            (x = V));
+          continue;
+        }
+        (v.sections.push({
+          type: "transform",
+          transform: X,
+          inputType: x,
+          inputControl: I === U || X.name === "arrayToArray" ? t : void 0,
+          consumesNegated: ht(X.name),
+          isNegated: !1,
+          canBeDeleted: ee,
+          replaceOptions: j
+            ? null
+            : Mn({
+                input: x,
+                output: l,
+                currentTransformOutput: V,
+                currentTransform: X.name,
+                transformBefore: _?.name ?? null,
+                variableConsumesNegated: p,
+                supportedTransformNames: a,
+                arrayMappingCanBeAdded: C,
+              }),
+        }),
+          (x = V));
+      }
+    }
+  }
+  if (m && !S && r && r.length > 0) {
+    let I = r.at(-1);
+    (L(I),
+      v.sections.push({
+        type: "transformWarning",
+        key: `${I.id}-missing-array-mapping`,
+        message: "Needs a map",
+        transform: I,
+      }));
+  }
+  let g = r ? hT(r, r.length, o) : null,
+    w = g ? g.name : null,
+    b = w === "negate",
+    y = w ? ht(w) : !1,
+    z = !Et(x, n);
+  return (
+    z &&
+      (v.errorAfter = {
+        type: "typeError",
+        expected: n,
+        received: x,
+        replaceOptions: Mn({
+          input: x,
+          output: l,
+          currentTransformOutput: null,
+          currentTransform: null,
+          transformBefore: w,
+          variableConsumesNegated: p,
+          supportedTransformNames: a,
+          arrayMappingCanBeAdded: C,
+        }),
+      }),
+    Lx(v, g, n, z) &&
+      (a.forEach((I) => {
+        if (
+          (I === "arrayToArray" && !C) ||
+          (w === I && !ia(I)) ||
+          (I === "negate" && (!g || b || y))
+        )
+          return;
+        let U = Xt(I);
+        if (!U || !U.includes(x)) return;
+        let K = yt(I),
+          _ = K.find((X) => Et(X, n)) ?? K[0];
+        (Et(x, n) && !Et(_, n)) ||
+          (na(I) && !Et(_, n)) ||
+          (v.transformAdditionOptions.push({ name: I, isNegated: !1, outputType: _ }),
+          ht(I) && v.transformAdditionOptions.push({ name: I, isNegated: !0, outputType: _ }));
+      }),
+      Hn(v.transformAdditionOptions, l)),
+    v
+  );
+}
+function Lx(e, t, o, r) {
+  return r
+    ? !0
+    : o === "boolean"
+      ? t?.name !== "equals"
+      : Et("enum", o)
+        ? !t || !t.name
+          ? !0
+          : !yt(t.name).includes("enum")
+        : !0;
+}
+function TT(e, t, o) {
+  switch (o.name) {
+    case "equals":
+      switch (t.name) {
+        case "equals":
+        case "startsWith":
+        case "endsWith":
+        case "contains":
+        case "lessThan":
+        case "greaterThan":
+        case "isAfter":
+        case "isBefore":
+          switch (e) {
+            case "string":
+            case "boolean":
+            case "number":
+            case "enum":
+            case "date":
+            case "collectionreference":
+              Wl(e, t.value) && (o.value = t.value);
+              break;
+          }
+      }
+      return;
+    case "isAfter":
+    case "isBefore":
+      switch (t.name) {
+        case "isBefore":
+        case "isAfter":
+        case "equals":
+          J(t.value) && (o.value = t.value);
+          break;
+      }
+      break;
+    case "lessThan":
+    case "greaterThan":
+      switch (t.name) {
+        case "lessThan":
+        case "greaterThan":
+          o.value = t.value;
+          break;
+        case "equals":
+          re(t.value) && (o.value = t.value);
+          break;
+      }
+      break;
+    case "startsWith":
+    case "endsWith":
+    case "contains":
+      switch (t.name) {
+        case "startsWith":
+        case "endsWith":
+        case "contains":
+        case "equals":
+          J(t.value) && (o.value = t.value);
+      }
+      break;
+    case "prefix":
+    case "suffix":
+      switch (t.name) {
+        case "prefix":
+        case "suffix":
+          ((o.value = t.value), (o.valueLocalized = t.valueLocalized));
+      }
+      break;
+    case "isIncludedIn":
+      t.name === "isIncludedIn" && ue(t.value) && t.value.every(J) && (o.value = t.value);
+      break;
+    case "containsAny":
+    case "containsAll":
+      switch (t.name) {
+        case "containsAny":
+        case "containsAll":
+          (ge(t.value) || (ue(t.value) && t.value.every(J))) && (o.value = t.value);
+      }
+      break;
+  }
+}
+function CT(e, t) {
+  if (bu(t)) {
+    let o = xu(t);
+    if (!o) return null;
+    let r = e.getNodeWithTrait(o.providerId, ro),
+      n = r?.getVariable(o.variableId);
+    return !r || !n || !Dl(n)
+      ? null
+      : { type: "scopeArrayItemField", scopeId: r.id, arrayVariableId: n.id };
+  }
+  for (let o of t.providerIds) {
+    let r = e.get(o);
+    if (!Qt(r)) continue;
+    let n = fu(r);
+    if (n)
+      return {
+        type: "repeatArrayItemField",
+        repeatNodeId: r.getPrimaryId(),
+        arrayVariableId: n.arrayVariable.id,
+      };
+  }
+  return null;
+}
+function Mx(e, t) {
+  return !Qt(t) || !t.repeatArray.providerId
+    ? void 0
+    : e.getNodeWithTrait(t.repeatArray.providerId, ro)?.getVariable(t.repeatArray.id)?.name;
+}
+function Bx(e, t, o) {
+  let r = Mx(e, o);
+  if (r) return r;
+  if (Dt(o)) return o.resolveValue("name") || "Component";
+  if (Pi(o) && o.dataIdentifier) {
+    let n = t.dataForIdentifier(o.dataIdentifier);
+    if (n) return Ad(n.name);
+  }
+  return o.resolveValue("name") || Bf(t, o);
+}
+function Hx(e) {
+  return mo(e) ? "List" : Me(e) ? "Page" : Dt(e) ? "Component" : "";
+}
+function Gx(e) {
+  if (e === zl) return "Localization";
+  if (e === ll) return "Carousel";
+}
+function ST(e, t, o, r = "long") {
+  let n = Gx(o);
+  if (n) return n;
+  let a = cl(e, t, o);
+  if (a) return a;
+  let d = e.get(o);
+  if (!d) return "Unknown";
+  let i = Bx(e, t, d),
+    l = Hx(d);
+  return r === "type" ? l : !l || i === l ? i : `${i} ${l}`;
+}
+function Oo(e, t, o, r) {
+  return t !== "controlReference"
+    ? e.canCreateVariable({ type: t })
+    : !o || !r
+      ? !1
+      : (ze(o) ? o : [o]).some(
+          (a) =>
+            Ol(a) &&
+            e.canCreateVariable({ type: "controlReference", expectedType: a, entityIdentifier: r })
+        );
+}
+function zx(e, t, o, r, n) {
+  return n && Oo(e, n, o, r)
+    ? [n]
+    : ze(t)
+      ? t.filter((a) => Oo(e, a, o, r) && a !== "enum")
+      : Oo(e, t, o, r)
+        ? [t]
+        : [];
+}
+function Ux({
+  engine: e,
+  dynamicValue: t,
+  canCreateVariable: o,
+  canChooseVariable: r,
+  additionalCreateVariableLabel: n,
+  createVariableLabel: a,
+  onAdditionalCreateVariable: d,
+  variableCreationProviderId: i,
+  variableType: l,
+  variableCreationType: f,
+  variableInfo: m,
+  onCreateVariable: u,
+  variableReferenceType: S,
+  supportsComputedValues: C,
+  collectionReferenceDataIdentifier: p,
+  controlSourceIdentifier: v,
+  vectorSetIdentifier: R,
+  isReadOnly: x,
+  controlKey: g,
+  allowedFileTypes: w,
+  displayTransformOptions: b,
+  enabledValueTransformNames: y,
+  onSelectVariable: z,
+  onSelectComputedValue: M,
+  onRemoveDynamicValue: I,
+  computedValuePopoutId: U,
+  variableFilter: K,
+  hideCollectionNavigationVariables: _,
+}) {
+  let X = [],
+    A = x || un(e, "canDesign");
+  if (o) {
+    L(m, "variableInfo should be defined");
+    let O = e.tree.getNodeWithTrait(i ?? m.idOfMutableVariableProvider, ro);
+    L(O, "variableProviderNode should exist when creating variables");
+    let j = zx(O, l, S, v, f);
+    if (j.length === 1) {
+      let ee = j[0];
+      (L(ta(ee), "onlyVariableType should be defined"),
+        X.push({
+          label: a ?? "Create variable",
+          enabled: !A,
+          click: () => {
+            L(u, "onCreateVariable should be defined");
+            let oe = Es(e, ee, m, O);
+            u(oe.scopeId, ee, oe.context);
+          },
+        }),
+        n &&
+          d &&
+          X.push(
+            {
+              label: n,
+              enabled: !A,
+              click: () => {
+                let oe = Es(e, ee, m, O);
+                d(oe.scopeId, ee, oe.context);
+              },
+            },
+            { type: "separator" }
+          ));
+    } else
+      j.length > 1 &&
+        X.push(
+          ...j.map((ee) => ({
+            label: `Create ${hu(ee).toLocaleLowerCase()} variable`,
+            enabled: !A,
+            click: () => {
+              L(u, "onCreateVariable should be defined");
+              let oe = Es(e, ee, m, O);
+              u(oe.scopeId, ee, oe.context);
+            },
+          }))
+        );
+  }
+  let T = eb(e, m, l, S, C, p, R, v, g, w, b, K, _),
+    V = r
+      ? ib({
+          engine: e,
+          variableInfo: m,
+          compatibleVariablesByProvider: T,
+          variableType: l,
+          dynamicValue: t,
+          variableReferenceType: S,
+          collectionReferenceDataIdentifier: p,
+          vectorSetIdentifier: R,
+          controlSourceIdentifier: v,
+          controlKey: g,
+          allowedFileTypes: w,
+          supportsComputedValues: C,
+          onSelectVariable: z,
+          onSelectComputedValue: M,
+          onRemoveDynamicValue: I,
+          readonly: A,
+          variableFilter: K,
+          enabledValueTransformNames: y,
+        })
+      : [];
+  V.length > 0 && X.push({ label: "Set variable", submenu: V });
+  let k = sb({
+    engine: e,
+    variableInfo: m,
+    dynamicValue: t,
+    variableType: l,
+    supportsComputedValues: C,
+    onSelectComputedValue: M,
+    computedValuePopoutId: U,
+    displayTransformOptions: b,
+    controlSourceIdentifier: v,
+    controlKey: g,
+    enabledValueTransformNames: y,
+    readonly: A,
+  });
+  return (k && X.push(k), X);
+}
+function Es(e, t, o, r) {
+  let n = CT(e.tree, o);
+  return !n || !Wd(t)
+    ? { scopeId: r.id, context: void 0 }
+    : n.type === "repeatArrayItemField"
+      ? { scopeId: n.repeatNodeId, context: void 0 }
+      : { scopeId: n.scopeId, context: { arrayItemVariableParentId: n.arrayVariableId } };
+}
+function IT(e) {
+  let t = Ht(),
+    {
+      additionalCreateVariableLabel: o,
+      createVariableLabel: r,
+      onAdditionalCreateVariable: n,
+      variableCreationProviderId: a,
+      variableType: d,
+      variableCreationType: i,
+      variableReferenceType: l,
+      dynamicValue: f,
+      onCreateVariable: m,
+      onSelectVariable: u,
+      onRemoveDynamicValue: S,
+      collectionReferenceDataIdentifier: C,
+      controlSourceIdentifier: p,
+      vectorSetIdentifier: v,
+      controlKey: R,
+      allowedFileTypes: x,
+      supportsComputedValues: g,
+      onSelectComputedValue: w,
+      displayTransformOptions: b = !0,
+      computedValuePopoutId: y,
+      variableFilter: z,
+      hideCollectionNavigationVariables: M,
+    } = e,
+    I = Ou(),
+    U = Fd(),
+    { canCreateVariable: K, canChooseVariable: _, canAssignVariable: X } = jx(t, I, e),
+    A = qe(),
+    T = (0, NT.useCallback)(() => {
+      if (I && d)
+        return Ux({
+          engine: t,
+          variableInfo: I,
+          additionalCreateVariableLabel: o,
+          createVariableLabel: r,
+          onAdditionalCreateVariable: n,
+          variableCreationProviderId: a,
+          variableType: d,
+          variableCreationType: i,
+          variableReferenceType: l,
+          supportsComputedValues: g,
+          collectionReferenceDataIdentifier: C,
+          controlSourceIdentifier: p,
+          vectorSetIdentifier: v,
+          controlKey: R,
+          allowedFileTypes: x,
+          displayTransformOptions: b,
+          enabledValueTransformNames: U,
+          dynamicValue: f,
+          onSelectComputedValue: w,
+          onSelectVariable: u,
+          isReadOnly: A,
+          onRemoveDynamicValue: S,
+          onCreateVariable: m,
+          canCreateVariable: K,
+          canChooseVariable: _,
+          computedValuePopoutId: y,
+          variableFilter: z,
+          hideCollectionNavigationVariables: M,
+        });
+    }, [o, x, K, _, C, y, R, p, r, b, f, U, A, M, m, n, S, w, u, g, i, a, I, l, d, v, z]);
+  return X ? T : void 0;
+}
+function jx(e, t, o) {
+  let r = !!o.supportsVariables,
+    n = t
+      ? {
+          assignableCollectionNavigationProviderId: ob(e, t),
+          hasCollectionNavigationVariables: t.ids.has(Ta) || t.ids.has(Ca),
+          hideCollectionNavigationVariables: o.hideCollectionNavigationVariables,
+        }
+      : void 0,
+    a =
+      r &&
+      Jx(
+        t,
+        o.variableType,
+        o.variableReferenceType,
+        o.supportsComputedValues,
+        o.collectionReferenceDataIdentifier,
+        o.vectorSetIdentifier,
+        o.controlSourceIdentifier,
+        o.controlKey,
+        o.allowedFileTypes,
+        o.variableFilter,
+        n
+      ),
+    d = e.tree.getNodeWithTrait(o.variableCreationProviderId ?? t?.idOfMutableVariableProvider, ro),
+    l = Kx(d, o) && !!o.onCreateVariable,
+    f = a && !!o.onSelectVariable;
+  return { canCreateVariable: l, canChooseVariable: f, canAssignVariable: l || f };
+}
+function PT(e, t, o, r) {
+  return (o && !o(e, t)) || (r?.hideCollectionNavigationVariables && RT(e.id))
+    ? !1
+    : r?.hasCollectionNavigationVariables && RT(e.id)
+      ? t === r.assignableCollectionNavigationProviderId
+      : !0;
+}
+function Kx(e, t) {
+  if (!e || !t.supportsVariables || !t.variableType) return !1;
+  if (t.variableCreationType)
+    return Oo(e, t.variableCreationType, t.variableReferenceType, t.controlSourceIdentifier);
+  if (!ze(t.variableType))
+    return Oo(e, t.variableType, t.variableReferenceType, t.controlSourceIdentifier);
+  for (let o of t.variableType)
+    if (Oo(e, o, t.variableReferenceType, t.controlSourceIdentifier)) return !0;
+  return !1;
+}
+function RT(e) {
+  return Sa(e) || sr(e, Ta) || sr(e, Ca);
+}
+function _x(e) {
+  return ge(e) ? e : Hd(e) ? e.startValue : null;
+}
+function Yx(e, t) {
+  return e.type !== "vectorsetitem" || !t ? !1 : e.setModuleId === t;
+}
+function xT(e, t) {
+  let o = [{ type: e, depth: 1 }];
+  for (; o.length > 0;) {
+    let { type: r, depth: n } = o.shift(),
+      a = n === ws,
+      d = Ld(r);
+    if (d)
+      for (let i of d) {
+        let l = Xt(i);
+        if (l)
+          for (let f of l)
+            t.has(f) || (t.add(f), ta(f) && (a || o.push({ type: f, depth: n + 1 })));
+      }
+  }
+}
+function $x(e) {
+  return ze(e) ? Array.from(e).sort().join() : e;
+}
+var wT = (() => {
+  let e = new Map();
+  return (t) => {
+    let o = $x(t),
+      r = e.get(o);
+    if (r) return r;
+    let n = new Set();
+    if (ze(t)) for (let a of t) xT(a, n);
+    else xT(t, n);
+    return (e.set(o, n), n);
+  };
+})();
+function kT(e, t, o) {
+  if (!t || !o) return;
+  if (o === kl) return (L(Pl(t)), wl(t));
+  let r = e.reactComponentForIdentifier(o);
+  if (r) return r.properties[t];
+}
+function Nr(e, t, o, r, n, a) {
+  let d = J(t) ? t : t.type;
+  for (let i of a) {
+    let l = Xt(i);
+    if (!l || !l.includes(d)) continue;
+    let f = yt(i),
+      m = ze(o) ? o.find((S) => f.includes(S)) : f.find((S) => S === o);
+    if (!Ot(m)) continue;
+    let u = kT(e, r, n);
+    return {
+      outputType: m,
+      valueTransform: bo({ name: i, input: t, output: u?.type === m ? u : m }),
+    };
+  }
+  return null;
+}
+function Xx(e, t, o, r, n, a, d) {
+  let i = Nr(e, t, o, r, n, d);
+  if (i) return yo(i.outputType, a, [i.valueTransform]);
+  let l = Nr(e, t, "boolean", r, n, d),
+    f = Nr(e, "boolean", o, void 0, void 0, d);
+  if (l && f) return yo(f.outputType, a, [l.valueTransform, f.valueTransform]);
+  let m = J(t) ? t : t.type;
+  throw new Error(
+    `Could not generate computed value with input: ${m}, and output: ${ue(o) ? o.join(", ") : o}`
+  );
+}
+function qx(e, t) {
+  for (let o of e) if (t.has(o)) return !0;
+  return !1;
+}
+function bT(e, t, o, r, n, a, d, i, l, f) {
+  if (e === "enum")
+    return !a || !d ? !1 : t.enums.some(({ variable: m, sourceIdentifier: u }) => qa(m, u, a, d));
+  for (let [m, u] of t.combined) {
+    let S = t.variableSourceIdentifiers[m];
+    for (let [, C] of u) if (PT(C, m, l, f) && Gn(C, m, S, e, o, r, n, a, d, i, l)) return !0;
+  }
+  return !1;
+}
+function Zx(e, t, o, r) {
+  for (let [n, a] of e.combined) for (let [, d] of a) if (PT(d, n, o, r) && t.has(nt(d))) return !0;
+  return !1;
+}
+function Jx(e, t, o, r, n, a, d, i, l, f, m) {
+  if (!t || !e) return !1;
+  if (ze(t)) {
+    if (t.some((S) => bT(S, e, o, n, a, d, i, l, f, m))) return !0;
+  } else if (bT(t, e, o, n, a, d, i, l, f, m)) return !0;
+  if (r) {
+    let u = wT(t);
+    return u ? (f || m?.hasCollectionNavigationVariables ? Zx(e, u, f, m) : qx(u, e.types)) : !1;
+  }
+  return !1;
+}
+function Gn(e, t, o, r, n, a, d, i, l, f, m) {
+  return m && !m(e, t)
+    ? !1
+    : ue(r)
+      ? r.some((u) => Gn(e, t, o, u, n, a, d, i, l, f, m))
+      : r === "collectionreference"
+        ? e.type === "collectionreference" && e.dataIdentifier === a
+        : r === "multicollectionreference"
+          ? e.type === "multicollectionreference" && e.dataIdentifier === a
+          : r === "vectorsetitem"
+            ? Yx(e, d)
+            : r === "file"
+              ? cp(e, f)
+              : r === "controlReference" || e.type === "nodePropertyControlReference"
+                ? gu(e, n, i, l)
+                : e.type === "enum"
+                  ? qa(e, o, i, l)
+                  : e.type === r;
+}
+function ET(e, t, o) {
+  return !o || !t ? !1 : (wT(t)?.has(nt(e)) ?? !1);
+}
+function Qx(e) {
+  let t = { children: {} };
+  for (let [o, r] of e) {
+    let n = sl(o),
+      a = t;
+    for (let d = 0; d < n.length; d++) {
+      let i = n[d];
+      D(i) || ((a.children ??= {}), (a = a.children[i] ??= { id: dl(n.slice(0, d + 1)) }));
+    }
+    a.variable = r;
+  }
+  return t;
+}
+function eb(e, t, o, r, n, a, d, i, l, f, m, u, S = !1) {
+  let C = [],
+    p = t.providerIds[0];
+  function v(R, x, g, w, b) {
+    let y = [];
+    for (let z in x) {
+      let M = x[z];
+      if (!M) continue;
+      let { variable: I, children: U } = M;
+      if (D(I)) {
+        let _ = t.combinedControls.get(R)?.get(M.id ?? "");
+        R === Bd &&
+          M.id &&
+          U &&
+          _?.type === "object" &&
+          y.push({
+            type: "group",
+            id: M.id,
+            label: _.title ?? z,
+            getCompatibleNestedVariables: () => v(R, U, g, w, b),
+          });
+        continue;
+      }
+      if (
+        (I.type === "collectionreference" && !nl(z, I.dataIdentifier, w)) ||
+        (Sa(I.id) && (S || !tb(R, b, p)))
+      )
+        continue;
+      if (Gn(I, R, g, o, r, a, d, i, l, f, u)) {
+        (y.push({ type: "variable", variable: I, isNegated: !1, transforms: null }),
+          n &&
+            I.type === "boolean" &&
+            y.push({ type: "variable", variable: I, isNegated: !0, transforms: null }));
+        continue;
+      }
+      let K;
+      if (U && I.type === "collectionreference") {
+        let _ = I.dataIdentifier,
+          X = [...w, _];
+        K = () => v(R, U, _, X, b);
+      } else U && I.type === "object" && (K = () => v(R, U, g, w, b));
+      if (!al(I.id)) {
+        if (ET(I, o, n)) {
+          let _ = VT(I, o);
+          if (!m) {
+            if (I.type === "object" && K) {
+              y.push({
+                type: "variable",
+                variable: I,
+                isNegated: !1,
+                transforms: null,
+                getCompatibleNestedVariables: K,
+              });
+              continue;
+            }
+            if ((y.push({ type: "variable", variable: I, isNegated: !1, transforms: null }), _)) {
+              let X = _.valueTransformOptions.filter((A) => !oa.has(A.name));
+              n &&
+                I.type === "boolean" &&
+                X.length > 0 &&
+                y.push({ type: "variable", variable: I, isNegated: !0, transforms: null });
+            }
+            continue;
+          }
+          if (_ && _.valueTransformOptions.length > 0) {
+            y.push({
+              type: "variable",
+              variable: I,
+              isNegated: !1,
+              transforms: _.valueTransformOptions,
+              getCompatibleNestedVariables: K,
+            });
+            let X = _.valueTransformOptions.filter((A) => !oa.has(A.name));
+            n &&
+              I.type === "boolean" &&
+              X.length > 0 &&
+              y.push({ type: "variable", variable: I, isNegated: !0, transforms: X });
+          }
+          continue;
+        }
+        K &&
+          y.push({
+            type: "variable",
+            variable: I,
+            isNegated: !1,
+            transforms: null,
+            getCompatibleNestedVariables: K,
+          });
+      }
+    }
+    if (y.length !== 0) return y;
+  }
+  for (let [R, x] of t.combined) {
+    let { children: g } = Qx(x);
+    L(g, "Variable tree should have children");
+    let w = t.variableSourceIdentifiers[R];
+    if (!w) continue;
+    let b = e.tree.get(R),
+      y = v(R, g, w, [], b);
+    y &&
+      C.push({
+        providerId: R,
+        providerTitle: t.providerTitles?.get(R) ?? ST(e.tree, e.componentLoader, R),
+        compatibleVariables: y,
+      });
+  }
+  return C;
+}
+function tb(e, t, o) {
+  return Me(t) ? e === o : !1;
+}
+function ob(e, t) {
+  let o = t.providerIds[0],
+    r = o ? e.tree.get(o) : void 0;
+  return Me(r) ? o : void 0;
+}
+function rb(e, t, o, r, n, a) {
+  if (!Lt(e) || !o || !t) return null;
+  let i = gT({
+    mainInputType: nt(o),
+    inputControl: n,
+    variableIsNegated: r,
+    transforms: Lt(e) ? e.transforms : null,
+    expectedType: t,
+    supportedTransformNames: a,
+  }).sections.find(Bn);
+  return i ? { name: i.transform.name, isNegated: i.isNegated } : null;
+}
+function vT(e) {
+  return e.transforms.find((t) => t.name !== "negate");
+}
+function Vs(e, t, o) {
+  if (!t || !o) return;
+  let r = t.providerId ?? e.fallbackProvider;
+  if (!r) return;
+  let n = e.combinedControls.get(r)?.get(t.id);
+  if (n) return n.type === nt(o) ? n : void 0;
+}
+function ib({
+  engine: e,
+  variableInfo: t,
+  compatibleVariablesByProvider: o,
+  variableType: r,
+  dynamicValue: n,
+  variableReferenceType: a,
+  collectionReferenceDataIdentifier: d,
+  vectorSetIdentifier: i,
+  controlSourceIdentifier: l,
+  controlKey: f,
+  allowedFileTypes: m,
+  supportsComputedValues: u,
+  onSelectVariable: S,
+  onSelectComputedValue: C,
+  onRemoveDynamicValue: p,
+  readonly: v,
+  variableFilter: R,
+  enabledValueTransformNames: x,
+}) {
+  let g = [],
+    w = t.fallbackProvider,
+    b = _x(n),
+    y = b ? es(b, t) : void 0,
+    z = Ns(n, y),
+    M = rb(n, r, y, z, Vs(t, b, y), x);
+  function I(K, _, X) {
+    return K.map((A) => {
+      if (A.type === "group") {
+        let te = A.id;
+        return {
+          label: A.label,
+          checked: ge(b) && (b.providerId ?? w) === _ && sr(b.id, te),
+          submenu: () => {
+            let de = A.getCompatibleNestedVariables();
+            return de ? I(de, _, X) : void 0;
+          },
+        };
+      }
+      let { variable: T, isNegated: V, transforms: k, getCompatibleNestedVariables: O } = A,
+        j = db(A, _, b, z, w),
+        ee = k?.map((te) => ({
+          label: ra(te.name, te.isNegated),
+          enabled: !v,
+          checked: j && M?.name === te.name && M.isNegated === te.isNegated,
+          click: () => oe(te),
+        }));
+      if (O) {
+        L(
+          T.type === "collectionreference" || T.type === "array" || T.type === "object",
+          "Invalid variable type"
+        );
+        let te = T.type === "collectionreference" ? T.dataIdentifier : X,
+          de = ge(b) && (b.providerId ?? w) === _ && sr(b.id, T.id);
+        return {
+          label: T.name,
+          checked: de,
+          submenu: () => {
+            let le = O(),
+              $ = le ? I(le, _, te) : [];
+            if (ee) return $.length > 0 ? [...ee, { type: "separator" }, ...$] : ee;
+            if ($.length > 0) return $;
+          },
+        };
+      }
+      function oe(te) {
+        if (j && !te) {
+          (n && p?.(n), Yu({ variableId: T.id, variableType: T.type }));
+          return;
+        }
+        let de = aa(T.id, _);
+        if (
+          Lt(n) &&
+          n.transforms.length > 0 &&
+          y !== void 0 &&
+          nt(y) === nt(T) &&
+          !Is(n, y) &&
+          !te
+        ) {
+          let F = { ...n, startValue: de };
+          if (V !== z) {
+            L(T.type === "boolean");
+            let q = Array.from(F.transforms);
+            ((F.transforms = q), V ? q.unshift(to()) : (L(q[0]?.name === "negate"), q.shift()));
+          }
+          C?.(F);
+          return;
+        }
+        if (Gn(T, _, X, r, a, d, i, l, f, m, R) && !te) {
+          if (V) {
+            (L(T.type === "boolean"), C?.(yo("boolean", de, [to()])));
+            return;
+          }
+          (S?.(aa(T.id, _), T.type), ld({ variableId: T.id, variableType: T.type }));
+          return;
+        }
+        (L(ET(T, r, u), "Selected variable should be assignable using a computed value"),
+          L(r, "Variable type should be defined"));
+        let le = Vs(t, de, T) ?? nt(T),
+          $;
+        if (te) {
+          let F = kT(e.componentLoader, f, l),
+            q = te.outputType,
+            W = [bo({ name: te.name, input: le, output: F?.type === q ? F : q })];
+          te.isNegated && W.push(to());
+          let ae = ue(r) ? r.find(Ot) : r;
+          if ((L(Ot(ae)), te.outputType !== ae)) {
+            let ye = Nr(e.componentLoader, te.outputType, ae, f, l, x);
+            ye && W.push(ye.valueTransform);
+          }
+          $ = yo(ae, de, W);
+        } else $ = Xx(e.componentLoader, le, r, f, l, de, x);
+        if (Lt(n)) {
+          let F = vT(n),
+            q = vT($);
+          if (F && q) {
+            let se = y ? nt(y) : void 0,
+              W = nt(T);
+            se === W && TT(W, F, q);
+            let ae = qt(F),
+              ye = qt(q);
+            if (ae === ye) {
+              let Je = n.transforms.findIndex((Re) => Re === F),
+                dt = n.transforms.slice(Je + 1);
+              if (dt.length > 0) {
+                let Re = $.transforms.findIndex((Ae) => Ae === q),
+                  ce = $.transforms.slice(0, Re + 1);
+                (ce.push(...dt), ($.transforms = ce));
+              }
+            }
+          }
+        }
+        (V && (L(T.type === "boolean"), ($.transforms = [to(), ...$.transforms])),
+          C?.($),
+          Ve("computed_value_create", {
+            initialTransformName: $.transforms[0]?.name,
+            inputType: T.type,
+            outputType: $.outputType,
+            source: "property_panel_row",
+          }));
+      }
+      return {
+        label: Iu(T.name || "Unknown", V),
+        checked: j,
+        enabled: !v,
+        click: () => oe(),
+        submenu: ee,
+      };
+    });
+  }
+  let U = o.entries();
+  for (let [K, { providerId: _, providerTitle: X, compatibleVariables: A }] of U) {
+    let T = t.variableSourceIdentifiers[_];
+    if (!T) continue;
+    let V = I(A, _, T);
+    K === 0
+      ? g.push(...V)
+      : (K === 1 && g.push({ type: "separator" }),
+        g.push({ label: X, submenu: V, checked: ge(b) && (b.providerId ?? w) === _ }));
+  }
+  return g;
+}
+function nb(e, t) {
+  let o = new Map(),
+    r = er(e);
+  if (!r) return o;
+  let n = e === "array" && t === "array";
+  for (let a of r) {
+    if ((n && a !== "arrayToArray") || !ks(a, e, t)) continue;
+    let i = yt(a),
+      l = i.includes(t) ? t : i[0];
+    o.set(a, l);
+  }
+  return o;
+}
+var ab = (() => {
+  let e = new Map();
+  return (t, o) => {
+    let r = t + o;
+    if (e.has(r)) return e.get(r);
+    let n = nb(t, o),
+      a = [];
+    for (let [i, l] of n)
+      (i === "negate" && t === "boolean") ||
+        (a.push({ name: i, isNegated: !1, outputType: l }),
+        ht(i) && a.push({ name: i, isNegated: !0, outputType: l }));
+    if (a.length === 0) {
+      e.set(r, void 0);
+      return;
+    }
+    Hn(a, o);
+    let d = { valueTransformOptions: a, outputType: o };
+    return (e.set(r, d), d);
+  };
+})();
+function VT(e, t) {
+  let o = nt(e);
+  if (!Od(o)) return;
+  let r = Array.isArray(t) ? t.find(Ot) : t;
+  if (Ot(r)) return ab(o, r);
+}
+function sb({
+  engine: e,
+  variableInfo: t,
+  dynamicValue: o,
+  variableType: r,
+  supportsComputedValues: n,
+  onSelectComputedValue: a,
+  computedValuePopoutId: d,
+  displayTransformOptions: i,
+  controlSourceIdentifier: l,
+  controlKey: f,
+  enabledValueTransformNames: m,
+  readonly: u,
+}) {
+  if (!n || !a || !r || !o || Jr(o) || !i) return;
+  let S = ge(o) ? o : o.startValue,
+    C = es(S, t);
+  if (!C) return;
+  let p = Is(o, C),
+    v = r === "boolean";
+  if (Lt(o) && !p)
+    return {
+      label: `Edit ${ka(v ? "Condition" : "Transform")}`,
+      click: () => {
+        (L(d), xn.navigation.presentPopout(d));
+      },
+    };
+  if (!ge(o) && !p) return;
+  let R = VT(C, r);
+  if (!R) return;
+  let { valueTransformOptions: x, outputType: g } = R;
+  return {
+    label: `Add ${ka(v ? "Condition" : "Transform")}`,
+    submenu: x.map((w) => ({
+      label: ra(w.name, w.isNegated),
+      enabled: !u,
+      click: () => {
+        let b = [];
+        p && b.push(to());
+        let y = Vs(t, S, C),
+          z = bo({ name: w.name, input: y ?? nt(C), output: w.outputType });
+        if ((b.push(z), w.isNegated && b.push(to()), J(r) && w.outputType !== r)) {
+          let I = Nr(e.componentLoader, w.outputType, r, f, l, m);
+          I && b.push(I.valueTransform);
+        }
+        let M = yo(g, S, b);
+        a(M);
+      },
+    })),
+  };
+}
+function db(e, t, o, r, n) {
+  return !o || o.id !== e.variable.id || e.isNegated !== r ? !1 : (o.providerId || n) === t;
+}
+var Lo = B(Y());
+function AT() {
+  return (0, Lo.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 10 10",
+    children: [
+      (0, Lo.jsx)("path", {
+        d: "M 4.75 0 C 7.373 0 9.5 2.127 9.5 4.75 C 9.5 7.373 7.373 9.5 4.75 9.5 C 2.127 9.5 0 7.373 0 4.75 C 0 2.127 2.127 0 4.75 0 Z",
+        fill: "currentColor",
+      }),
+      (0, Lo.jsx)("path", {
+        d: "M 4.75 7 L 4.75 2.5",
+        fill: "transparent",
+        strokeWidth: "1.5",
+        stroke: $a.panelBackground,
+        strokeLinecap: "round",
+      }),
+      (0, Lo.jsx)("path", {
+        d: "M 7 4.75 L 2.5 4.75",
+        fill: "transparent",
+        strokeWidth: "1.5",
+        stroke: $a.panelBackground,
+        strokeLinecap: "round",
+      }),
+    ],
+  });
+}
+var WT = "p1oxlfbn",
+  FT = "w1xpzgm5",
+  DT = "w1chribc";
+var lb = 10,
+  pb = 5,
+  uj = `calc(${lb}px + ${gn.css.contentTitleIndentation} + ${pb}px)`,
+  OT = "t3p7r61",
+  LT = "t1ih3ztb",
+  MT = "wkaasce",
+  BT = "w1vx93q9",
+  HT = "wof63pb";
+var Pt = B(Y(), 1);
+function GT({
+  title: e,
+  className: t,
+  displayPlusIcon: o,
+  primaryMenuIsOpen: r,
+  educationTooltip: n,
+  overridden: a,
+  ...d
+}) {
+  return (0, Pt.jsxs)("div", {
+    className: Ce(OT, o && Ce(MT, (r || a) && BT), t),
+    ...d,
+    children: [
+      o && (0, Pt.jsx)(AT, {}),
+      (0, Pt.jsx)("div", {
+        className: Ce(Nm, LT, a && HT),
+        children: (0, Pt.jsx)(ru, { children: e }),
+      }),
+      n &&
+        (0, Pt.jsxs)(Pt.Fragment, {
+          children: [(0, Pt.jsx)(Au, { size: gn.css.inputSpacing }), n],
+        }),
+    ],
+  });
+}
+var Ir = B(Y(), 1),
+  zT = ({
+    title: e,
+    titleClassName: t,
+    children: o,
+    className: r,
+    style: n,
+    reorderColumnCount: a,
+    reorderControlHidden: d,
+    withButtonCursor: i = !1,
+    displayPlusIcon: l = !1,
+    isOverridden: f = !1,
+    primaryMenuIsOpen: m = !1,
+    onMouseDown: u,
+    onContextMenu: S,
+    ReorderControl: C,
+    educationTooltip: p,
+    ...v
+  }) => {
+    let R = C !== void 0;
+    R && re(a) && (n = { ...n, "--reorder-column-count": a });
+    let x = {};
+    i && ((x.role = "button"), e && (x["aria-label"] = e));
+    let g = S ? { onContextMenu: S, ...x } : {},
+      w = u ? { onMouseDown: u, ...x } : {};
+    return (0, Ir.jsxs)("div", {
+      className: Ce(WT, R && FT, r, i && DT),
+      style: n,
+      tabIndex: -1,
+      ...g,
+      ...w,
+      ...v,
+      children: [
+        e &&
+          (0, Ir.jsx)(GT, {
+            overridden: f,
+            title: e,
+            className: t,
+            displayPlusIcon: l,
+            educationTooltip: p,
+            onMouseDown: u,
+            primaryMenuIsOpen: m,
+          }),
+        o,
+        R && !d && (0, Ir.jsx)(C, {}),
+      ],
+    });
+  };
+var As = B(Y(), 1);
+function UT({
+  onContextMenu: e,
+  children: t,
+  onAdd: o,
+  onDelete: r,
+  onResetToDefault: n,
+  onCopy: a,
+  onPaste: d,
+  onSetAsDefault: i,
+  deleteTitle: l,
+  copyTitle: f,
+  pasteTitle: m,
+  addEnabled: u = !0,
+  deleteEnabled: S = !0,
+  pasteEnabled: C,
+  copyEnabled: p,
+  resetToDefaultEnabled: v,
+  setAsDefaultVisible: R = !1,
+  withReorderControl: x = !1,
+  traitTypes: g,
+  traitTypeKeys: w,
+  variableType: b,
+  variableCreationType: y,
+  additionalCreateVariableLabel: z,
+  createVariableLabel: M,
+  onAdditionalCreateVariable: I,
+  variableCreationProviderId: U,
+  variableReferenceType: K,
+  variableFilter: _,
+  hideCollectionNavigationVariables: X,
+  dynamicValue: A,
+  onCreateVariable: T,
+  onSelectVariable: V,
+  onRemoveDynamicValue: k,
+  supportsVariables: O = !1,
+  collectionReferenceDataIdentifier: j,
+  vectorSetIdentifier: ee,
+  controlSourceIdentifier: oe,
+  controlKey: te,
+  allowedFileTypes: de,
+  supportsComputedValues: le = !1,
+  onSelectComputedValue: $,
+  displayTransformOptions: F,
+  computedValuePopoutId: q,
+  supportsFetchDataValues: se,
+  onSelectFetchDataValue: W,
+  educationTooltipId: ae,
+  className: ye,
+  panelRowApiRef: Je,
+  ...dt
+}) {
+  let Re = Ht(),
+    ce = qe(),
+    Ae = Lu(w, g),
+    [We, Qe] = ft.default.useState(!1),
+    At = mb(),
+    Ke = IT({
+      variableType: b,
+      variableCreationType: y,
+      additionalCreateVariableLabel: z,
+      createVariableLabel: M,
+      onAdditionalCreateVariable: I,
+      variableCreationProviderId: U,
+      variableReferenceType: K,
+      dynamicValue: A,
+      onCreateVariable: T,
+      onSelectVariable: V,
+      onRemoveDynamicValue: k,
+      supportsVariables: O,
+      collectionReferenceDataIdentifier: j,
+      vectorSetIdentifier: ee,
+      controlSourceIdentifier: oe,
+      controlKey: te,
+      allowedFileTypes: de,
+      supportsComputedValues: At && le,
+      onSelectComputedValue: $,
+      displayTransformOptions: F,
+      computedValuePopoutId: q,
+      variableFilter: _,
+      hideCollectionNavigationVariables: X,
+    }),
+    it = yT({ supportsFetchDataValues: se ?? !1, onSelectFetchDataValue: W }),
+    Go = !!Ke || !!it,
+    ao = !!(o && u && !ce),
+    so = !!(r && S && !ce),
+    zo = !!n,
+    Or = (0, ft.useCallback)(
+      async (ct) => {
+        let { clientX: lo, clientY: po } = ct;
+        (ao || so || a || d || zo || (i && R)) &&
+          (ct.preventDefault(),
+          Re.stores.contextMenuStore.show(
+            [
+              { label: f || "Copy", click: a, visible: !!a, enabled: Xn(p) ? p() : p },
+              {
+                label: m ? await m() : "Paste",
+                click: d,
+                visible: !!d,
+                enabled: !ce && (Xn(C) ? await C() : C),
+              },
+              { type: "separator" },
+              { label: "Add", click: o, visible: ao },
+              { label: l || "Remove", click: r, visible: so },
+              { label: "Reset to default", click: n, enabled: !ce && v, visible: !!n },
+              { label: "Set as default", click: i, enabled: !ce && !!i, visible: !!i && R },
+            ],
+            { location: { x: lo, y: po } }
+          ));
+      },
+      [ao, so, a, d, zo, i, R, f, p, m, ce, C, o, l, r, n, v]
+    ),
+    co = (0, ft.useCallback)(
+      async (ct, lo = !1) => {
+        let { target: po, currentTarget: Uo } = ct,
+          jo = Ro(Re) && pT(Re),
+          Lr = jo && !!(g || w);
+        if (!lo && (!vu.isLeftMouseClick(ct) || po !== Uo)) return;
+        let fo = Ke?.();
+        if (!Ke && !Ae && !it) return;
+        let Wt = [];
+        fo && Wt.push(...fo);
+        let Ko = it?.();
+        (Ko && (fo && Wt.push({ type: "separator" }), Wt.push(...Ko)),
+          Wt.push(
+            { type: "separator" },
+            {
+              label: "Reset override",
+              click() {
+                Ro(Re) && mT(Re, g, w);
+              },
+              enabled: !ce && jo && fT(Re, g, w),
+              visible: Ro(Re) && Lr,
+            }
+          ));
+        let _o = ct.currentTarget.getBoundingClientRect(),
+          Mr = { x: _o.left, y: _o.bottom };
+        (Qe(!0),
+          Re.stores.contextMenuStore.show(Wt, {
+            location: Mr,
+            onDone: () => Qe(!1),
+            submenuPlacement: "left-start",
+          }));
+      },
+      [g, w, Ke, Ae, it, ce]
+    );
+  return (
+    (0, ft.useImperativeHandle)(Je, () => ({ displayPrimaryMenu: (ct) => co(ct, !0) }), [co]),
+    (0, As.jsx)(zT, {
+      withButtonCursor: Ae || Go,
+      displayPlusIcon: Go,
+      onMouseDown: co,
+      isOverridden: Ae,
+      primaryMenuIsOpen: We,
+      onContextMenu: e ?? Or,
+      ReorderControl: x ? lT : void 0,
+      educationTooltip: ae ? (0, As.jsx)(Mu, { tooltipId: ae }) : void 0,
+      className: ye,
+      ...dt,
+      children: t,
+    })
+  );
+}
+var Ws = (0, ft.createContext)(!1);
+Ws.displayName = "ComputedValuesSupportedContext";
+var Bj = Ws.Provider;
+function mb() {
+  return (0, ft.useContext)(Ws);
+}
+var Gj = { gridColumn: "2 / -1" };
+var Yt = B(Oe());
+var jT = "n1obifo6";
+var yb = /^[\d.+\-*/]+$/u,
+  hb = /^(?:\d+(?:\.\d+)?|\.\d+|[-+/*])+$/u;
+function KT(e) {
+  let t = e.replace(/\s/gu, "");
+  if (!yb.test(t) || !hb.test(t)) return NaN;
+  let o = t.split(/([^\d.])/).join(" ");
+  try {
+    let r = Function(`return ${o}`)();
+    return typeof r == "number" ? r : NaN;
+  } catch {}
+  return NaN;
+}
+var $T = B(Y()),
+  YT = Yt.default.forwardRef(function (t, o) {
+    let {
+        value: r,
+        onChange: n,
+        onDisplayValueChange: a,
+        onClear: d,
+        min: i,
+        max: l,
+        step: f = 1,
+        unit: m,
+        defaultValue: u,
+        validRawValues: S,
+        precision: C,
+        className: p,
+        enabled: v = !0,
+        selectOnFocus: R,
+        ...x
+      } = t,
+      g = So(r) || Te(r) ? `${r}${m || ""}` : "",
+      [w, b] = Yt.default.useState(g),
+      { smallNudgeIncrement: y, largeNudgeIncrement: z } = Yt.default.useContext(jt),
+      M = f === "nudge" ? y : f,
+      I = f === "nudge" ? z : M * 10,
+      U = Du();
+    Yt.default.useLayoutEffect(() => {
+      let A = U;
+      b(g);
+    }, [g, U]);
+    let K = Yt.default.useCallback(() => {
+        b(g);
+      }, [g]),
+      _ = Yt.default.useCallback(
+        (A, T, V, k) => {
+          if (!T) {
+            (b(A), a && a(A));
+            return;
+          }
+          if (`${A}` === r || (m && `${A}` == `${String(r)}${m}`)) return;
+          if (A === "") {
+            if (d) {
+              d();
+              return;
+            }
+            if (ie(r) || r === void 0 || r === "") return;
+            (Te(u) && n(u, A, K, k), K());
+            return;
+          }
+          let O = _T(r, A, u, i, l, void 0, C),
+            j = !!S?.has(A.toLowerCase().trim());
+          if (O === r && !A.includes("%") && !j) {
+            K();
+            return;
+          }
+          n(O, A, K, k);
+        },
+        [r, m, i, l, n, d, K, a, S, u, C]
+      ),
+      X = Yt.default.useCallback(
+        (A) => {
+          switch (A.key) {
+            case "Escape":
+              K();
+              break;
+            case "ArrowUp":
+            case "ArrowDown": {
+              if (!v) return;
+              let T = A.key === "ArrowDown" ? -1 : 1,
+                V = A.shiftKey ? I : M,
+                k = Te(V) ? V * T : void 0,
+                O = _T(r, A.currentTarget.value, u, i, l, k, C);
+              (n(O, void 0, K, A), A.preventDefault());
+              break;
+            }
+          }
+        },
+        [v, I, M, r, u, i, l, n, K, C]
+      );
+    return (0, $T.jsx)(Hu, {
+      ref: o,
+      className: Ce(jT, p),
+      value: w,
+      onChange: _,
+      constantChange: !0,
+      onKeyDown: X,
+      selectOnFocus: R,
+      truncate: !1,
+      enabled: v,
+      ...x,
+    });
+  });
+function _T(e, t, o, r, n, a, d) {
+  let i = parseFloat(t),
+    l = KT(t),
+    f = 0;
+  if (Number.isFinite(l)) f = l;
+  else if (Number.isFinite(i)) f = i;
+  else if (Te(e)) f = e;
+  else if (So(e) && e.length > 0) {
+    let u = parseFloat(e);
+    Number.isFinite(u) && (f = u);
+  } else Te(o) && (f = o);
+  if ((Te(a) && (f += a), Te(r) && (f = Math.max(r, f)), Te(n) && (f = Math.min(n, f)), Te(d))) {
+    let u = 10 ** d;
+    f = Math.round(f * u) / u;
+  }
+  let m = 10 ** 7;
+  return ((f = Math.round(f * m) / m), f);
+}
+var Se = B(Oe());
+var XT = "w10jibcp",
+  qT = "w16g2mz7",
+  ZT = "w19925po",
+  JT = "ipnpjml",
+  QT = "ibyez08",
+  eC = "i6l13uv",
+  tC = "i1c70rj2",
+  oC = "t1k3kf4t";
+var lC = B(Oe());
+var Fs = B(Y());
+function Ds() {
+  return (0, Fs.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "8",
+    height: "8",
+    fill: "none",
+    children: (0, Fs.jsx)("path", {
+      d: "m1.5 5 1.875-1.5a1 1 0 0 1 1.25 0L6.5 5",
+      fill: "transparent",
+      strokeWidth: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+    }),
+  });
+}
+var rC = "n1dddmlm",
+  Os = "t12ewooc",
+  iC = "ts5v59s",
+  nC = "t9t1k6l",
+  aC = "nxyxle6";
+var Ze = B(Oe());
+var cC = B(Y()),
+  dC = Ze.default.memo(function ({ children: t, ...o }) {
+    let r = Ze.default.useRef(o);
+    r.current = o;
+    let { enabled: n, className: a, step: d, defaultValue: i } = o,
+      l = Ze.default.useRef(!1),
+      f = Ze.default.useRef(null),
+      m = Ze.default.useRef(!1),
+      u = Ze.default.useRef(0),
+      S = Ze.default.useContext(jt),
+      C = (d === "nudge" ? S.smallNudgeIncrement : d) || 1,
+      p = d === "nudge" ? S.largeNudgeIncrement : C * 10,
+      v = Ze.default.useCallback(() => {
+        if (!sC(l, r)) return;
+        m.current = !0;
+        let y = (r.current.value || 0) + C;
+        (Pr(y, r.current), (u.current = y), (f.current = window.setTimeout(v, 50)));
+      }, [C]),
+      R = Ze.default.useCallback(() => {
+        if (!sC(l, r)) return;
+        m.current = !0;
+        let y = (r.current.value || 0) - C;
+        (Pr(y, r.current), (u.current = y), (f.current = window.setTimeout(R, 50)));
+      }, [C]),
+      x = Ze.default.useCallback(
+        (y) => {
+          (y.preventDefault(), y.stopPropagation(), i !== void 0 && Pr(i, r.current));
+        },
+        [i]
+      ),
+      g = Ze.default.useCallback(
+        (y) => {
+          ((u.current = r.current.value || 0),
+            r.current.onDragStart && r.current.onDragStart(),
+            !r.current.onlyUpdateWhileDragging &&
+              (y.progress.y < 0.5
+                ? (f.current = window.setTimeout(v, 250))
+                : (f.current = window.setTimeout(R, 250))));
+        },
+        [v, R]
+      ),
+      w = Ze.default.useCallback(
+        (y) => {
+          if ((!l.current && Math.abs(y.offset.y) > 2 && (l.current = !0), l.current)) {
+            let z = y.shiftKey ? p : C,
+              M = u.current - y.offset.y * z;
+            (y.shiftKey && (M = Math.round(M / p) * p), Pr(M, r.current));
+          }
+        },
+        [p, C]
+      ),
+      b = Ze.default.useCallback(
+        (y) => {
+          if (!m.current && !l.current && y && !r.current.onlyUpdateWhileDragging) {
+            let z = y.shiftKey ? p : C,
+              M = r.current.value || 0,
+              I = y.progress.y < 0.5 ? M + z : M - z;
+            Pr(I, r.current);
+          }
+          ((l.current = !1),
+            (m.current = !1),
+            f.current && (window.clearInterval(f.current), (f.current = null)),
+            r.current.onDragEnd && r.current.onDragEnd());
+        },
+        [p, C]
+      );
+    return (0, cC.jsx)(Fu, {
+      className: a,
+      onDrag: w,
+      onDragStart: g,
+      onDragEnd: b,
+      onContextMenu: x,
+      cursor: Sb(o),
+      enabled: n,
+      children: t,
+    });
+  });
+function Pr(e, t) {
+  t.onChange(Cb(e, t));
+}
+function Cb(e, t) {
+  return Te(t.min) && e < t.min ? t.min : Te(t.max) && e > t.max ? t.max : e;
+}
+function Sb(e) {
+  let t = e.value || 0;
+  return Te(e.min) && t <= e.min ? "n-resize" : Te(e.max) && t >= e.max ? "s-resize" : "ns-resize";
+}
+function sC(e, t) {
+  if (e.current) return !1;
+  let { enabled: o } = t.current;
+  return o;
+}
+var no = B(Y()),
+  pC = lC.default.memo(function ({ className: t, ...o }) {
+    let { enabled: r } = o;
+    return (0, no.jsxs)(dC, {
+      className: Ce(rC, r === !1 && aC, t),
+      ...o,
+      children: [
+        (0, no.jsx)("div", { className: Ce(Os, iC), children: (0, no.jsx)(Ds, {}) }),
+        (0, no.jsx)("div", { className: Ce(Os, nC), children: (0, no.jsx)(Ds, {}) }),
+      ],
+    });
+  });
+var Mo = B(Y()),
+  vK = (0, Se.memo)(
+    (0, Se.forwardRef)(function (t, o) {
+      let {
+          value: r,
+          defaultValue: n,
+          onChange: a,
+          className: d,
+          enabled: i = !0,
+          readOnly: l,
+          min: f,
+          max: m,
+          label: u,
+          labelShort: S,
+          wrapperStyle: C,
+          wrapperClassName: p,
+          step: v,
+          displayTicker: R = !0,
+          placeholder: x,
+          isFused: g = !1,
+          ...w
+        } = t,
+        b = qe(l),
+        y = i && !b,
+        z = (0, Se.useRef)(null),
+        M = Wu(o, z),
+        I = (0, Se.useCallback)(
+          (se) => {
+            a(Number(se.toFixed(4)), void 0, () => {});
+          },
+          [a]
+        ),
+        [U, K] = (0, Se.useState)(r),
+        [_, X] = (0, Se.useState)(!1),
+        [A, T] = (0, Se.useState)(!1),
+        V = vb(z, [r, U]);
+      (0, Se.useEffect)(() => {
+        K(r);
+      }, [r]);
+      let k = (0, Se.useContext)(jt),
+        O = (0, Se.useCallback)(() => {
+          (X(!0), k.beginUndoGroup?.());
+        }, [k]),
+        j = (0, Se.useCallback)(() => {
+          (X(!1), k.endUndoGroup?.());
+        }, [k]),
+        ee = (0, Se.useCallback)((se) => {
+          K(se);
+        }, []),
+        oe = (0, Se.useCallback)(() => T(!0), []),
+        te = (0, Se.useCallback)(() => T(!1), []),
+        de = R && y && (A || _),
+        le = bb(x, r, U),
+        $ = xb(le ? x : U, u, S),
+        F = !!($ && !de && !V),
+        q = V || le;
+      return (0, Mo.jsxs)(Gu, {
+        onMouseEnter: oe,
+        onMouseLeave: te,
+        style: C,
+        className: Ce(XT, q && qT, de && ZT, p),
+        children: [
+          (0, Mo.jsx)(YT, {
+            ref: M,
+            value: r,
+            defaultValue: n,
+            className: Ce(q && JT, g && QT, d),
+            onChange: a,
+            onDisplayValueChange: ee,
+            enabled: y,
+            min: f,
+            max: m,
+            step: v,
+            placeholder: x,
+            ...w,
+          }),
+          (0, Mo.jsx)(pC, {
+            value: Rb(r, n),
+            defaultValue: n,
+            onChange: I,
+            enabled: de,
+            min: f,
+            max: m,
+            step: v,
+            onDragStart: O,
+            onDragEnd: j,
+            className: oC,
+          }),
+          F && (0, Mo.jsx)("div", { className: Ce(eC, !y && tC), children: $ }),
+        ],
+      });
+    })
+  );
+function Rb(e, t) {
+  if (Te(e)) return e;
+  if (So(e)) {
+    let o = parseFloat(e);
+    if (Te(o)) return o;
+  }
+  return t || 0;
+}
+var fC = 48;
+function xb(e, t, o) {
+  let r = Ls(e) * 8,
+    n = Ls(t) * 5,
+    a = Ls(o) * 6;
+  if (r + n < fC && t) return t;
+  if (r + a < fC && o) return o;
+}
+function Ls(e) {
+  return Te(e) ? `${e}`.split(".").join("").length : So(e) ? e.split(".").join("").length : 0;
+}
+function bb(e, t, o) {
+  return !(!e || (t != null && t !== "") || (o != null && o !== ""));
+}
+function vb(e, t = []) {
+  let [o, r] = (0, Se.useState)(!1);
+  return (
+    (0, Se.useLayoutEffect)(() => {
+      let n = e.current;
+      n && r(Math.abs(n.scrollWidth - n.clientWidth) > 1);
+    }, [e, ...t]),
+    o
+  );
+}
+var $t = B(Oe());
+var mC = "s142amrw",
+  uC = "lwu5vv0";
+var yC = B(Y()),
+  DK = $t.default.forwardRef((e, t) => {
+    let {
+        value: o,
+        onChange: r,
+        enabled: n = !0,
+        readOnly: a,
+        min: d = 0,
+        max: i = 100,
+        className: l,
+        large: f,
+        ...m
+      } = e,
+      u = qe(a),
+      S = n && !u,
+      C = $t.default.useRef(null),
+      p = t || C,
+      v = $t.default.useCallback(
+        (w) => {
+          let b = w.target,
+            y = Number(b.value);
+          Te(y) && r(y);
+        },
+        [r]
+      );
+    $t.default.useEffect(() => {
+      Nb(p);
+    }, [o, d, i, p]);
+    let R = $t.default.useContext(jt),
+      x = $t.default.useCallback(() => {
+        R.beginUndoGroup && R.beginUndoGroup();
+      }, [R]),
+      g = $t.default.useCallback(() => {
+        R.endUndoGroup && R.endUndoGroup();
+      }, [R]);
+    return (0, yC.jsx)("input", {
+      ref: p,
+      className: Ce(mC, f && uC, l),
+      type: "range",
+      value: Te(o) ? o : "",
+      min: d,
+      max: i,
+      onChange: v,
+      tabIndex: -1,
+      disabled: !S,
+      ...m,
+      onMouseDown: x,
+      onMouseUp: g,
+    });
+  });
+function Nb(e) {
+  let t = e.current;
+  if (!t) return;
+  let { value: o, min: r, max: n } = t,
+    a = parseFloat(o);
+  if (!Te(a)) return;
+  let d = parseFloat(r),
+    i = parseFloat(n),
+    l = Te(d) ? d : 0,
+    f = Te(i) ? i : 100,
+    m = Math.round(((a - l) / (f - l)) * 100);
+  t.style.setProperty("--progress", `${m}%`);
+}
+var RC = B(Oe(), 1);
+var hC = "ia3rrjn";
+var TC = B(Y(), 1);
+function gC({ className: e, children: t, ...o }) {
+  return (0, TC.jsx)("div", { className: Ce(hC, e), ...o, children: t });
+}
+var Un = B(Y(), 1),
+  Ms = /\[([^\]]+)\]\((https?:\/\/[\w./?=#%&-]+)\)/gu,
+  Bs = /\*([^*]+)\*/gu,
+  zn = /(\n)/gu;
+function wr(e, t = 0, o = [Ms, Bs, zn]) {
+  let [r, n] = o
+    .map((i) => ((i.lastIndex = t), i.exec(e)))
+    .reduce(
+      (i, l, f) => {
+        let [m] = i;
+        if (m && l) {
+          if (m.index < l.index) return i;
+        } else if (m) return i;
+        return [l, o[f]];
+      },
+      [null, void 0]
+    );
+  if (!r || !n) return t === e.length ? [] : [e.substring(t)];
+  let a = [];
+  r.index - t > 0 && a.push(e.substring(t, r.index));
+  let d = n.lastIndex;
+  if (n === Ms) {
+    let [i, l, f] = r,
+      m = wr(l, 0, [Bs, zn]);
+    a.push((0, Un.jsx)("a", { href: f, target: "_blank", children: m }, r.index));
+  }
+  if (n === Bs) {
+    let [i, l] = r,
+      f = wr(l, 0, [Ms, zn]);
+    a.push((0, Un.jsx)("em", { children: f }, r.index));
+  }
+  return (n === zn && a.push((0, Un.jsx)("br", {}, r.index)), a.push(...wr(e, d)), a);
+}
+var CC = "d1ykgdi6",
+  SC = "w1wgf3m";
+var Hs = B(Y(), 1),
+  ZK = RC.default.memo(function ({ fullWidth: t = !1, withMargin: o = !0, description: r }) {
+    let n = wr(r);
+    return (0, Hs.jsx)(UT, {
+      title: t ? void 0 : " ",
+      children: (0, Hs.jsx)(gC, { className: Ce(CC, o ? SC : void 0, t ? nT : iT), children: n }),
+    });
+  });
+function e9(e, t) {
+  return {
+    type: "image",
+    value: t,
+    valueLocalized: e.valueLocalized,
+    alt: e.alt,
+    altLocalized: e.altLocalized,
+  };
+}
+var wb = zr("pollProject");
+async function a9(e, t) {
+  let { intervalMillis: o, attempts: r, stopCondition: n } = t;
+  try {
+    for (let a = 0; a < r; a++) {
+      let d = await Km.get(`/web/projects/${e}`, { includeAiCreditLimit: "true" }, void 0, $m());
+      if (n(d)) return { status: 0, project: d };
+      a < r - 1 && (await ec(o));
+    }
+    return { status: 1, message: `Polling exceeded ${r} attempts` };
+  } catch (a) {
+    return (wb.reportError(a), { status: 2, error: a });
+  }
+}
+var xC = B(Oe()),
+  Gs = B(Y()),
+  d9 = xC.default.forwardRef(function (t, o) {
+    return (0, Gs.jsx)("svg", {
+      role: "presentation",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "12",
+      height: "12",
+      ...t,
+      ref: o,
+      children: (0, Gs.jsx)("path", {
+        d: "M6 0a6 6 0 1 1 0 12A6 6 0 0 1 6 0ZM5 3a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm0 6a1 1 0 0 0 2 0V6a1 1 0 0 0-2 0Z",
+        fill: "currentColor",
+      }),
+    });
+  });
+function vC(e, t, o) {
+  let r = Am(t, o);
+  (e.stores.analyticsStore.addFilter("collectionItemId", o.id, r), e.stores.analyticsStore.open());
+}
+function bC(e, t) {
+  let o = kb(e, t);
+  if (o) return vC(e, o.collection, o.collectionItem);
+  let r = Lf(e.tree, t),
+    n = ln(e.tree, t);
+  if (!r || !n) return;
+  let a = Mf(r);
+  (r !== "/" && e.stores.analyticsStore.addFilter("routePath", n, a),
+    e.stores.analyticsStore.open());
+}
+function kb(e, t) {
+  if (!t.dataIdentifier) return null;
+  let o = ul(e.tree, t.dataIdentifier);
+  if (!o) return null;
+  let r = e.stores.scopeStore.getSelectedCollectionItemForWebPage(t);
+  if (r) {
+    let a = e.tree.getNodeWithTrait(r, qr);
+    return a ? { collection: o, collectionItem: a } : null;
+  }
+  let n = o.getUnsortedChildren()[0];
+  return n ? { collection: o, collectionItem: n } : null;
+}
+function T9(e) {
+  e.stores.chromeStore.mainView === 5 && e.stores.chromeStore.setLocalizationsVisible(!1);
+  let t = Eb(e);
+  if (t) return vC(e, t.collection, t.collectionItem);
+  let o = Vb(e);
+  if (o) return (e.stores.siteSettingsStore.close(), bC(e, o));
+  if (e.stores.siteSettingsStore.isOpen) {
+    (e.stores.siteSettingsStore.close(), e.stores.analyticsStore.open());
+    return;
+  }
+  let r = e.stores.scopeStore.active;
+  if (!Me(r)) {
+    e.stores.analyticsStore.open();
+    return;
+  }
+  bC(e, r);
+}
+function Eb(e) {
+  let { treeStore: t, chromeStore: o } = e.stores,
+    { mainView: r, contentManagementOverlayStack: n } = o,
+    a = n.at(-1);
+  if (r === 2 && a) {
+    let d = Su({ stackElement: a, tree: e.tree }),
+      i = Ru({ treeStore: t, stackElement: a });
+    return !d || !i ? void 0 : { collection: d, collectionItem: i };
+  }
+}
+function Vb(e) {
+  if (e.stores.siteSettingsStore.isOpen && e.stores.siteSettingsStore.active?.tab === "page") {
+    let t = e.stores.siteSettingsStore.active.id;
+    return e.tree.getNodeWithTrait(t, Me);
+  }
+  return null;
+}
+var Bo = B(Oe());
+var NC = B(Y()),
+  R9 = Bo.default.forwardRef(
+    ({ children: e, onDragEnter: t, onDragLeave: o, onDrop: r, readOnly: n, ...a }, d) => {
+      let i = qe(n),
+        l = Bo.default.useRef(null),
+        f = d || l;
+      return (
+        Ab({ onDragEnter: t, onDragLeave: o, onDrop: r }, f, i),
+        (0, NC.jsx)("div", { ref: f, ...a, children: e })
+      );
+    }
+  );
+function Ab(e, t, o) {
+  let r = Bo.default.useRef(e);
+  r.current = e;
+  let n = Bo.default.useRef(0);
+  Bo.default.useEffect(() => {
+    if (o) return;
+    let a = t.current;
+    if (!a) return;
+    function d(u) {
+      !u.dataTransfer ||
+        !zs(u) ||
+        (u.preventDefault(), u.stopPropagation(), (u.dataTransfer.dropEffect = "copy"));
+    }
+    function i(u) {
+      !u.dataTransfer ||
+        !zs(u) ||
+        ((n.current += 1),
+        u.preventDefault(),
+        u.stopPropagation(),
+        (u.dataTransfer.dropEffect = "copy"),
+        r.current.onDragEnter && r.current.onDragEnter(u));
+    }
+    function l(u) {
+      n.current !== 0 && ((n.current = 0), r.current.onDragLeave && r.current.onDragLeave(u));
+    }
+    function f(u) {
+      ((n.current = Math.max(0, n.current - 1)),
+        n.current === 0 && r.current.onDragLeave && r.current.onDragLeave(u));
+    }
+    function m(u) {
+      !u.dataTransfer ||
+        !zs(u) ||
+        (u.preventDefault(), u.stopPropagation(), l(u), r.current.onDrop(u));
+    }
+    return (
+      a.addEventListener("dragover", d),
+      a.addEventListener("dragenter", i),
+      a.addEventListener("dragleave", f),
+      a.addEventListener("drop", m),
+      a.addEventListener("dragend", l),
+      () => {
+        (a.removeEventListener("dragover", d),
+          a.removeEventListener("dragenter", i),
+          a.removeEventListener("dragleave", f),
+          a.removeEventListener("drop", m),
+          a.removeEventListener("dragend", l));
+      }
+    );
+  }, [o, t]);
+}
+var Wb = "Files";
+function zs(e) {
+  return !!e.dataTransfer && e.dataTransfer.types.includes(Wb);
+}
+var kr = B(Y());
+function b9(e) {
+  return (0, kr.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    viewBox: "0 0 12 12",
+    fill: "none",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...e,
+    children: [
+      (0, kr.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        d: "M4.586 1.354a2 2 0 0 1 2.828 0l3.232 3.232a2 2 0 0 1 0 2.828l-3.232 3.232a2 2 0 0 1-2.828 0L1.354 7.414a2 2 0 0 1 0-2.828Z",
+      }),
+      (0, kr.jsx)("path", { fill: "none", stroke: "currentColor", d: "m3 3 6 6M9 3 3 9" }),
+    ],
+  });
+}
+var Us = B(Y()),
+  N9 = () =>
+    (0, Us.jsx)("svg", {
+      role: "presentation",
+      width: "19.5",
+      height: "19.5",
+      viewBox: "0 0 19.5 19.5",
+      fill: "none",
+      xmlns: "http://www.w3.org/2000/svg",
+      children: (0, Us.jsx)("path", {
+        d: "M9.75 3.75v12M3.75 9.75h12",
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+      }),
+    });
+var js = B(Y());
+function P9(e) {
+  return (0, js.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    viewBox: "0 0 12 12",
+    fill: "none",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...e,
+    children: (0, js.jsx)("path", {
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M3.5 2.75 1.311 4.939a1.5 1.5 0 0 0 0 2.122L3.5 9.25M8.5 2.75l2.189 2.189a1.5 1.5 0 0 1 0 2.122L8.5 9.25",
+    }),
+  });
+}
+var Er = B(Y());
+function k9(e) {
+  return (0, Er.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    ...e,
+    children: [
+      (0, Er.jsx)("path", {
+        d: "M 1.25 4.25 L 1.25 4.25 L 1.25 9 C 1.25 9.966 2.034 10.75 3 10.75 L 9 10.75 C 9.966 10.75 10.75 9.966 10.75 9 L 10.75 5.75 C 10.75 4.922 10.078 4.25 9.25 4.25 L 8 4.25 C 7.448 4.25 7 3.802 7 3.25 L 7 2.75 C 7 1.922 6.328 1.25 5.5 1.25 L 2.75 1.25 C 1.922 1.25 1.25 1.922 1.25 2.75 Z",
+        fill: "currentColor",
+        fillOpacity: "0.15",
+        strokeWidth: "1.5",
+        stroke: "currentColor",
+      }),
+      (0, Er.jsx)("path", {
+        d: "M 8.5 4.25 L 1.5 4.25",
+        fill: "transparent",
+        strokeWidth: "1.5",
+        stroke: "currentColor",
+      }),
+    ],
+  });
+}
+var Vr = B(Y());
+function V9(e) {
+  return (0, Vr.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: [
+      (0, Vr.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, Vr.jsx)("path", { fill: "transparent", stroke: "currentColor", d: "M6 1.5v9M1.5 6h9" }),
+    ],
+  });
+}
+var Ar = B(Y());
+function W9(e) {
+  return (0, Ar.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: [
+      (0, Ar.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, Ar.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.848 7.56a7 7 0 0 1 8.304 0l.598.44v.75a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2V8Z",
+      }),
+    ],
+  });
+}
+var Wr = B(Y());
+function D9(e) {
+  return (0, Wr.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: [
+      (0, Wr.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        d: "M6 1a5 5 0 1 1-.001 10.001A5 5 0 0 1 6 1Z",
+      }),
+      (0, Wr.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M4 6a2 2 0 0 1 2-2",
+      }),
+    ],
+  });
+}
+var Ks = B(Y());
+function L9(e) {
+  return (0, Ks.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    viewBox: "0 0 12 12",
+    fill: "none",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...e,
+    children: (0, Ks.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      d: "M2.25 2.31a1 1 0 0 1 1.532-.847l5.871 3.69a1 1 0 0 1 0 1.694l-5.871 3.69A1 1 0 0 1 2.25 9.69Z",
+    }),
+  });
+}
+var _s = B(Y());
+function B9(e) {
+  return (0, _s.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: (0, _s.jsx)("path", {
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "m1.25 4 3.439 3.439a1.5 1.5 0 0 0 2.122 0L10.25 4",
+    }),
+  });
+}
+var Ys = B(Y());
+function G9(e) {
+  return (0, Ys.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "20",
+    height: "20",
+    fill: "none",
+    ...e,
+    children: (0, Ys.jsx)("path", {
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "m8.5 11.5 3-3M8 5.5l.75-.75a4.596 4.596 0 0 1 6.5 0h0a4.596 4.596 0 0 1 0 6.5l-.75.75M12 14.5l-.75.75a4.596 4.596 0 0 1-6.5 0h0a4.596 4.596 0 0 1 0-6.5L5.5 8",
+    }),
+  });
+}
+var Fr = B(Y());
+function U9(e) {
+  return (0, Fr.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: [
+      (0, Fr.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, Fr.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M4.5 4.5h3M4.5 7.5h3",
+      }),
+    ],
+  });
+}
+var Dr = B(Y());
+function K9(e) {
+  return (0, Dr.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: [
+      (0, Dr.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, Dr.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M4.25 4.25v3.5",
+      }),
+    ],
+  });
+}
+var jn = B(Y());
+function Y9(e) {
+  return (0, jn.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: (0, jn.jsx)("g", {
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "1.5",
+      children: (0, jn.jsx)("path", { d: "M6.25 2.25V10M2 2.25h8.5" }),
+    }),
+  });
+}
+var Ho = B(Y());
+function X9(e) {
+  return (0, Ho.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...e,
+    children: (0, Ho.jsxs)("g", {
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      children: [
+        (0, Ho.jsx)("path", {
+          fill: "currentColor",
+          fillOpacity: 0.15,
+          d: "M4.25 2.25a1.5 1.5 0 0 1 1.5-1.5h4a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a1.5 1.5 0 0 1-1.5-1.5Z",
+        }),
+        (0, Ho.jsx)("path", {
+          fill: "transparent",
+          d: "M8 7.75v2a1.5 1.5 0 0 1-1.5 1.5h-4A1.5 1.5 0 0 1 1 9.75v-4a1.5 1.5 0 0 1 1.5-1.5h1.75",
+        }),
+      ],
+    }),
+  });
+}
+var Vt = B(Y());
+function Z9({ className: e, style: t, width: o = 12, height: r = 12 }) {
+  return o > 12 || r > 12
+    ? (0, Vt.jsx)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 20 20",
+        width: o,
+        height: r,
+        className: e,
+        style: t,
+        children: (0, Vt.jsx)("path", {
+          d: "M 10 1 C 14.971 1 19 5.029 19 10 C 19 14.971 14.971 19 10 19 C 5.029 19 1 14.971 1 10 C 1 5.029 5.029 1 10 1 Z M 9 14 C 9 14.552 9.448 15 10 15 C 10.552 15 11 14.552 11 14 C 11 13.448 10.552 13 10 13 C 9.448 13 9 13.448 9 14 Z M 9 11 C 9 11.552 9.448 12 10 12 C 10.552 12 11 11.552 11 11 L 11 6 C 11 5.448 10.552 5 10 5 C 9.448 5 9 5.448 9 6 Z",
+          fill: "currentColor",
+        }),
+      })
+    : (0, Vt.jsx)("svg", {
+        role: "presentation",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 12 12",
+        width: o,
+        height: r,
+        fill: "none",
+        className: e,
+        style: t,
+        children: (0, Vt.jsxs)("g", {
+          transform: "translate(0.75 1)",
+          children: [
+            (0, Vt.jsx)("path", {
+              d: "M 5 0 C 7.761 0 10 2.239 10 5 C 10 7.761 7.761 10 5 10 C 2.239 10 0 7.761 0 5 C 0 2.239 2.239 0 5 0 Z",
+              fill: "currentColor",
+              fillOpacity: 0.15,
+              stroke: "currentColor",
+              strokeWidth: 1.5,
+            }),
+            (0, Vt.jsx)("path", {
+              d: "M 5 4.75 L 5 2.75",
+              stroke: "currentColor",
+              strokeWidth: 1.5,
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+            }),
+            (0, Vt.jsx)("path", {
+              d: "M 5 7 L 5 7",
+              stroke: "currentColor",
+              strokeWidth: 1.5,
+              strokeLinecap: "round",
+            }),
+          ],
+        }),
+      });
+}
+export {
+  _u as a,
+  Yu as b,
+  bC as c,
+  T9 as d,
+  $u as e,
+  Nn as f,
+  iN as g,
+  zC as h,
+  MC as i,
+  pv as j,
+  is as k,
+  ey as l,
+  fy as m,
+  Ao as n,
+  my as o,
+  hy as p,
+  Bw as q,
+  Wy as r,
+  Fy as s,
+  Dy as t,
+  Oy as u,
+  Bb as v,
+  Uu as w,
+  Uy as x,
+  jy as y,
+  NF as z,
+  bR as A,
+  CD as B,
+  SD as C,
+  qh as D,
+  g0 as E,
+  ig as F,
+  M0 as G,
+  ug as H,
+  jM as I,
+  KM as J,
+  _M as K,
+  YM as L,
+  ux as M,
+  Hg as N,
+  Qg as O,
+  wx as P,
+  oT as Q,
+  kx as R,
+  cU as S,
+  iT as T,
+  uU as U,
+  nT as V,
+  ST as W,
+  sT as X,
+  pT as Y,
+  fT as Z,
+  mT as _,
+  Bn as $,
+  qU as aa,
+  Ax as ba,
+  Wx as ca,
+  ZU as da,
+  Et as ea,
+  JU as fa,
+  Ox as ga,
+  gT as ha,
+  TT as ia,
+  Ns as ja,
+  Is as ka,
+  IT as la,
+  Qx as ma,
+  eb as na,
+  OT as oa,
+  LT as pa,
+  zT as qa,
+  UT as ra,
+  Bj as sa,
+  Gj as ta,
+  KT as ua,
+  YT as va,
+  dC as wa,
+  vK as xa,
+  DK as ya,
+  R9 as za,
+  P9 as Aa,
+  k9 as Ba,
+  b9 as Ca,
+  V9 as Da,
+  W9 as Ea,
+  D9 as Fa,
+  L9 as Ga,
+  gC as Ha,
+  ZK as Ia,
+  zu as Ja,
+  Fb as Ka,
+  e9 as La,
+  a9 as Ma,
+  Z9 as Na,
+  B9 as Oa,
+  G9 as Pa,
+  U9 as Qa,
+  K9 as Ra,
+  Y9 as Sa,
+  X9 as Ta,
+  d9 as Ua,
+  N9 as Va,
+};
+//# sourceMappingURL=chunk-BHIEIXJS.mjs.map

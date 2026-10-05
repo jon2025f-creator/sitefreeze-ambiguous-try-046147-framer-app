@@ -1,0 +1,13146 @@
+import {
+  $g as Uo,
+  $h as ti,
+  Ac as Sl,
+  Ag as ei,
+  Ba as ul,
+  Bg as Pn,
+  Ca as Vn,
+  Dg as Al,
+  Ea as fl,
+  Fa as yt,
+  Fc as Bo,
+  Ga as wn,
+  Ha as nn,
+  Ia as pl,
+  Ja as kt,
+  Lg as an,
+  Mc as bl,
+  Nc as Il,
+  Nd as Ll,
+  Qb as ml,
+  Sc as Cl,
+  Sg as Ol,
+  Tg as Ul,
+  Ug as Oo,
+  Xh as $o,
+  Yg as $l,
+  Yh as Mn,
+  Zg as _l,
+  Zh as _o,
+  _h as Kl,
+  fg as xl,
+  gg as Fo,
+  ha as qr,
+  ja as rl,
+  ji as Ql,
+  ka as Po,
+  kc as gl,
+  ki as Xl,
+  la as il,
+  ma as Mo,
+  mc as Eo,
+  ng as Ml,
+  og as Xr,
+  pa as al,
+  ra as Se,
+  sa as ko,
+  sg as Yr,
+  ta as sl,
+  tg as kl,
+  ua as ll,
+  ug as El,
+  va as cl,
+  vg as Bl,
+  wa as dl,
+  wc as rn,
+  wg as Fl,
+  ya as Dn,
+  zg as Zr,
+} from "chunk-EQ2ODYOO.mjs";
+import { m as Nl, o as Jl } from "chunk-SZL4MAP2.mjs";
+import { a as Wl, b as jl, c as Gl, d as Hl } from "chunk-YG746DQI.mjs";
+import { A as yl, D as vl, G as on, N as Ao, R as Et, U as ql } from "chunk-XUOSPWHU.mjs";
+import {
+  Cb as js,
+  Db as Gs,
+  Fb as qs,
+  Fe as zo,
+  Hb as Js,
+  Je as nl,
+  K as Pt,
+  Le as ol,
+  N as _s,
+  Od as Ys,
+  Pd as Zs,
+  S as Mt,
+  V as xn,
+  W as Ro,
+  Wb as Ks,
+  X as No,
+  Xb as Qs,
+  ca as Ws,
+  cc as Vo,
+  fa as Gr,
+  ge as tl,
+  ja as tn,
+  ka as xo,
+  kc as Xs,
+} from "chunk-2K74I2NM.mjs";
+import {
+  Ea as Wr,
+  Qd as el,
+  Ra as As,
+  Rd as wo,
+  U as we,
+  V as Vs,
+  W as ws,
+  ca as Ur,
+  jb as Hr,
+  lb as Hs,
+  mb as Fe,
+} from "chunk-HIYMP2PN.mjs";
+import { d as Dl, p as Vl, q as wl, r as zl, u as Pl, v as Qr } from "chunk-KTMQJVG7.mjs";
+import { b as Do } from "chunk-SPYOA764.mjs";
+import {
+  $d as po,
+  $j as Rs,
+  Aa as Ta,
+  Aj as Zt,
+  Bh as ps,
+  Bj as Is,
+  Bu as To,
+  Bv as jr,
+  Ct as zs,
+  Cu as Lo,
+  Eu as Ms,
+  Fb as Va,
+  Ib as wa,
+  If as gt,
+  Jh as ms,
+  Ju as _r,
+  Kj as Cs,
+  Km as Io,
+  Lm as xs,
+  Lu as ks,
+  Lv as Os,
+  Mh as hs,
+  Mj as Ts,
+  Oj as wt,
+  Pe as Er,
+  Pk as zt,
+  Qe as Nn,
+  Re as ds,
+  Rh as Be,
+  Vv as Us,
+  Wd as Ua,
+  Xu as Es,
+  Yh as gs,
+  Yj as Ls,
+  Yv as $s,
+  Zj as Fr,
+  _j as Ar,
+  _r as Ke,
+  ak as Or,
+  e as ea,
+  ko as lt,
+  oa as Sa,
+  oh as us,
+  ru as K,
+  sr as Ds,
+  su as $r,
+  ta as ba,
+  th as fs,
+  um as Ns,
+  vu as Ps,
+  wm as ue,
+  xj as Ss,
+  ya as Ca,
+  yj as Vt,
+  yu as Co,
+  yw as be,
+  zc as za,
+  zj as bs,
+  zt as I,
+} from "chunk-IWHDPBEO.mjs";
+import { a as Br, b as vs } from "chunk-4HVCOT4R.mjs";
+import {
+  $a as he,
+  $l as Dr,
+  Aj as La,
+  Ba as Ge,
+  Bb as ra,
+  Bj as E,
+  Bp as ho,
+  Ca as H,
+  Dj as F,
+  Dp as Xa,
+  Dq as Za,
+  E as Lr,
+  Ej as m,
+  Ep as go,
+  Fj as xe,
+  Fn as xt,
+  Gd as Ve,
+  Hd as ua,
+  Hj as Je,
+  Hn as zr,
+  Hs as bo,
+  Ii as xr,
+  Jm as wr,
+  Ki as ha,
+  Kl as uo,
+  Lg as ma,
+  Lh as qt,
+  Li as ga,
+  Lj as Ra,
+  Lr as st,
+  Ma as me,
+  Mi as co,
+  Mk as Pa,
+  Mq as Pr,
+  Nk as Nt,
+  Pk as Tn,
+  Pr as Qt,
+  Qk as Ma,
+  Ql as fo,
+  Qr as is,
+  Rk as Jt,
+  Sd as so,
+  Sm as mt,
+  Tb as ia,
+  Td as it,
+  Tr as vo,
+  Uf as fa,
+  Uk as ka,
+  Ur as kr,
+  Vb as aa,
+  Vd as lo,
+  Vf as pa,
+  Vl as Ln,
+  Vq as Kt,
+  Vr as Xt,
+  Wc as da,
+  Wl as _a,
+  Wr as as,
+  Xb as Ht,
+  Xk as Ea,
+  Yb as sa,
+  Yl as Rn,
+  Yq as es,
+  Zi as ya,
+  Zl as Wa,
+  Zq as ts,
+  _d as Ne,
+  al as Ba,
+  am as ja,
+  ap as Dt,
+  ar as ns,
+  bm as Vr,
+  bp as Ja,
+  br as os,
+  cm as Ga,
+  cs as So,
+  ct as en,
+  db as Gt,
+  dk as Na,
+  dp as mo,
+  dr as Mr,
+  ds as Ee,
+  ek as xa,
+  fj as va,
+  fl as Fa,
+  fr as rs,
+  gc as qe,
+  gm as Ha,
+  hc as Nr,
+  hs as ss,
+  jb as ta,
+  js as ls,
+  kb as te,
+  kl as Aa,
+  km as qa,
+  ks as cs,
+  lb as q,
+  m as Zn,
+  mb as ge,
+  nb as x,
+  ob as ke,
+  oc as io,
+  ok as Da,
+  on as ve,
+  op as Ka,
+  pb as Re,
+  pq as yo,
+  qb as Cn,
+  ra as to,
+  sa as Ki,
+  sb as na,
+  sp as Qa,
+  ta as pt,
+  tb as ye,
+  ua as ot,
+  ub as ro,
+  uj as Ia,
+  uq as Ya,
+  va as Qi,
+  vq as at,
+  wa as Xi,
+  wb as oa,
+  wq as Ce,
+  xb as _,
+  xc as Lt,
+  ya as Yi,
+  yb as He,
+  yc as la,
+  yj as U,
+  za as ae,
+  zd as ao,
+  zj as T,
+} from "chunk-6E72H7RO.mjs";
+import { c as zn } from "chunk-KHLE6F5R.mjs";
+import { a as hl } from "chunk-K6L5GVTR.mjs";
+import { a as jo } from "chunk-4HRYW54D.mjs";
+import { u as Rl } from "chunk-KCKTDJOI.mjs";
+import { a as Wo } from "chunk-7WJ42D6X.mjs";
+import { a as Bs } from "chunk-MYL546Y2.mjs";
+import { f as Qe } from "chunk-CUJPOA3V.mjs";
+import { a as Fs } from "chunk-MXPUJWL6.mjs";
+import { a as sn } from "chunk-24G7FGVN.mjs";
+import { h as Oa } from "chunk-NPMAB7EW.mjs";
+import { b as Yt, c as ys } from "chunk-SJWGZSVD.mjs";
+import { ga as ht } from "chunk-6CK5ILIF.mjs";
+import { c as ca, e as Rt } from "chunk-K3IJ2B65.mjs";
+import { b as Tl, d as Jr, e as Kr } from "chunk-GBWZWM2Q.mjs";
+import { b as $a } from "chunk-HHB22ROU.mjs";
+import { a as je } from "chunk-KQKA2AEH.mjs";
+import { a as eo } from "chunk-2FCXHKEL.mjs";
+import { a as Ji } from "chunk-SWYZG2NI.mjs";
+import { i as Zi, l as V, p as B } from "chunk-UBSW2TNM.mjs";
+import {
+  a as In,
+  b as L,
+  e as A,
+  f as Le,
+  h as Rr,
+  k as no,
+  m as O,
+  p as rt,
+  s as oo,
+} from "chunk-LA34HORX.mjs";
+import { b as C, c as ee } from "chunk-4JY5UMT2.mjs";
+import { k as Tr, l as Me } from "chunk-MQDP3TYU.mjs";
+import { c as qi } from "chunk-3HBIYPN4.mjs";
+import { b as Yn, i as Z } from "chunk-VJ7UYMJI.mjs";
+import { a as Cr } from "chunk-YRQ7G4QH.mjs";
+import { e as jt, p as Sn, q as bn } from "chunk-WLHSDIGQ.mjs";
+function ni({ identifier: t, file: e, error: n, custom: o }) {
+  let r = iu(e);
+  return {
+    depth: t.startsWith(".") ? 0 : 1,
+    error: n,
+    file: e,
+    identifier: t,
+    name: r,
+    packageIdentifier: "<unknown>",
+    properties: {},
+    type: "component",
+    update: 0,
+    ...o,
+  };
+}
+function iu(t) {
+  return t.startsWith("./") ? t.slice(2) : t;
+}
+var Yl = Z("componentloader");
+function Zl(t) {
+  return V(
+    K({
+      type: t.type,
+      name: t.name,
+      title: "title" in t ? t.title : void 0,
+      annotations: t.annotations,
+      properties: t.properties,
+      ...(Zr(t) ? { outputs: t.outputs } : void 0),
+    })
+  );
+}
+var ec = class {
+  environment = "editor";
+  activeBundleHash = void 0;
+  modulesRevision = -1;
+  entities = new Map();
+  definitionHashes = new Map();
+  readTrackers = new Set();
+  constructor(e) {
+    e &&
+      ((this.entities = new Map(e.entities)),
+      (this.definitionHashes = new Map(e.definitionHashes)),
+      (this.activeBundleHash = e.activeBundleHash),
+      (this.modulesRevision = e.modulesRevision));
+  }
+  localPackageIdentifier() {
+    return "|local|";
+  }
+  getAllEntities() {
+    return this.entities.values();
+  }
+  *getAllLocalModules() {
+    for (let e of this.entities.values()) e.packageIdentifier === "|local|" && (yield e);
+  }
+  setModuleRevision(e, n) {
+    ((this.activeBundleHash = `${e}_${n}`), (this.modulesRevision = e));
+  }
+  updateEntity(e, n) {
+    (Yl.trace("updateEntity:", e, n),
+      C(n.properties, () => `Entities must have properties: ${JSON.stringify(n)}`),
+      this.entities.set(e, n),
+      this.definitionHashes.set(e, Zl(n)));
+  }
+  deleteEntity(e) {
+    (Yl.trace("deleteEntity:", e), this.entities.delete(e), this.definitionHashes.delete(e));
+  }
+  componentForIdentifier(e) {
+    for (let n of this.readTrackers) n.add(e);
+    return this.entities.get(e) ?? null;
+  }
+  getDefinitionHash(e) {
+    return this.definitionHashes.get(e) ?? 0;
+  }
+  trackEntityReads(e, n) {
+    this.readTrackers.add(e);
+    try {
+      return n();
+    } finally {
+      this.readTrackers.delete(e);
+    }
+  }
+  reactComponentForIdentifier(e) {
+    let n = this.componentForIdentifier(e);
+    return !n || !Bl(n) ? null : n;
+  }
+  shaderForIdentifier(e) {
+    let n = this.componentForIdentifier(e);
+    return !n || !El(n) ? null : n;
+  }
+  getPropertyControlsForIdentifier(e) {
+    return this.componentForIdentifier(e)?.properties ?? null;
+  }
+  hookForIdentifier(e) {
+    let n = this.componentForIdentifier(e);
+    return Zr(n) ? n : null;
+  }
+  actionForIdentifier(e) {
+    let n = this.componentForIdentifier(e);
+    return !n || !Fl(n) ? null : n;
+  }
+  dataForIdentifier(e) {
+    if (!e) return null;
+    let n = this.componentForIdentifier(e);
+    return !n || !ei(n) ? null : n;
+  }
+  getData() {
+    let e = [];
+    for (let n of this.entities.values()) ei(n) && e.push(n);
+    return e;
+  }
+  errorForIdentifier(e) {
+    let n = this.entities.get(e);
+    if (n) return Pn(n) ? n : null;
+    let o = H(e);
+    if (!o)
+      return ni({ identifier: e, file: e, error: "Components that are not modules do not exist." });
+    let r = to(o),
+      i = o.value === r,
+      a = this.entities.get(r);
+    if (Pn(a)) return a;
+    if (pt(o) || i) {
+      let l = "Component does not exist.";
+      return (
+        pt(o) && o.type === "codeFile" && (l = "Component file does not exist."),
+        ni({ identifier: e, file: o.value, error: l })
+      );
+    }
+    return null;
+  }
+  testing = {
+    setEntity: (e) => {
+      (this.entities.set(e.identifier, e),
+        this.definitionHashes.set(e.identifier, Zl(e)),
+        (this.activeBundleHash = Math.random().toString(36).substring(2)));
+    },
+    clearEntities: () => {
+      (this.entities.clear(), this.definitionHashes.clear(), (this.activeBundleHash = void 0));
+    },
+  };
+};
+function tc(t) {
+  return Number.isFinite(t);
+}
+function nc() {}
+var Bt = class {
+  #e;
+  #t = 0;
+  #o;
+  #a = !0;
+  #n;
+  #s = nc;
+  constructor({ delay: e, maxDelay: n, task: o, abortSignal: r }) {
+    ((this.#t = e),
+      (this.#o = n),
+      (this.#s = o),
+      r?.addEventListener(
+        "abort",
+        () => {
+          (this.#e && (clearTimeout(this.#e), (this.#e = void 0)),
+            (this.#n = void 0),
+            (this.#s = nc),
+            (this.#a = !1));
+        },
+        { once: !0 }
+      ));
+  }
+  set enabled(e) {
+    this.#a = e;
+  }
+  set delay(e) {
+    this.#t = e;
+  }
+  cancel() {
+    (this.#e && (clearTimeout(this.#e), (this.#e = void 0)), (this.#n = void 0));
+  }
+  debounce(e = this.#t) {
+    if (!this.#a) return;
+    (this.#e && clearTimeout(this.#e),
+      tc(this.#o) && tc(this.#n) && performance.now() - this.#n > this.#o
+        ? ((this.#e = void 0), (this.#n = void 0), this.#s())
+        : ((this.#e = window.setTimeout(() => {
+            ((this.#e = void 0), (this.#n = void 0), this.#s());
+          }, e)),
+          (this.#n = this.#n ?? performance.now())));
+  }
+};
+var au = Z("CodeGenerationStore"),
+  su = "transform",
+  Go = class {
+    constructor(e) {
+      this.sourceNode = e;
+    }
+    sourceNode;
+    #e = [];
+    #t = void 0;
+    start(e) {
+      let n = performance.now();
+      return {
+        end: (o) => {
+          (this.#e.push([e, performance.now() - n]),
+            (this.#t = this.#t ?? o),
+            e === su && this.completeSession());
+        },
+      };
+    }
+    restartSession() {
+      ((this.#e = []), (this.#t = void 0));
+    }
+    completeSession() {
+      (this.#t?.forEach(({ type: e, source: n, artifacts: o }) => {
+        let r = lu(e, this.sourceNode);
+        if (!r) return;
+        let i = {
+          codeType: r,
+          durationMs: 0,
+          updateCount: 0,
+          updateDurationMs: 0,
+          serializationDurationMs: 0,
+          compilationDurationMs: 0,
+          synchronizationDurationMs: 0,
+          size: n.length,
+          id: this.sourceNode.id,
+          nodes: o?.metrics?.nodes ?? 1,
+          variants: o?.metrics?.variants ?? 0,
+          svgBytes: o?.metrics?.svgBytes,
+          textBytes: o?.metrics?.textBytes,
+        };
+        for (let [l, s] of this.#e)
+          switch (((i.durationMs += s), l)) {
+            case "update":
+              (i.updateCount++, (i.updateDurationMs += s));
+              break;
+            case "serialize":
+              i.serializationDurationMs += s;
+              break;
+            case "transform":
+              i.compilationDurationMs += s;
+              break;
+            case "synchronize":
+              i.synchronizationDurationMs += s;
+              break;
+            default:
+              ee(l);
+          }
+        let a;
+        for (a in i) {
+          let l = i[a];
+          A(l) && (i[a] = Math.round(l));
+        }
+        (au.trace("Code Generation Metrics", i), Qe("code_generation", i));
+      }),
+        this.restartSession());
+    }
+  };
+function lu(t, e) {
+  switch (t) {
+    case "canvasComponent":
+      return "smart_component";
+    case "css":
+      return "styles_preset";
+    case "collection":
+      return "collection";
+    case "draftCollection":
+      return "draft_collection";
+    case "componentPresets":
+      return "component_presets";
+    case "screen":
+      return x(e) ? "web_page" : "prototype_screen";
+    case "prototype":
+      return "prototype";
+    case "vector":
+      return "vector";
+    case "vectorSet":
+      return "vector_set";
+    case "snippets":
+      return "snippets";
+    case "codeFile":
+    case "config":
+    case "siteMetadata":
+    case "webPageMetadata":
+    case "layoutTemplate":
+    case "localization":
+    case "design":
+    case "kit":
+    case "shader":
+      return;
+    default:
+      ee(t);
+  }
+}
+var cu = Z("jsdoc");
+function Xe(t, e = {}) {
+  let n = "/**";
+  t &&
+    (n += `
+ * ${t}`);
+  for (let o in e) {
+    let r = e[o];
+    if (!O(r) && du(o, r))
+      if (
+        ((n += `
+ * @${o}`),
+        L(r))
+      ) {
+        let i = r.trim();
+        i && (n += ` ${i}`);
+      } else (In(r) || A(r)) && (n += ` ${r}`);
+  }
+  return new T(
+    n +
+      `
+ */`
+  );
+}
+function du(t, e) {
+  return In(e) || A(e) || (L(e) && e.trim() !== "")
+    ? !0
+    : (cu.reportError(
+        new Error(
+          `Annotation ${t} must be a boolean, number, or non-empty string, but found "${e}" it will be omitted from the generated code. Use undefined if intentional.`
+        )
+      ),
+      !1);
+}
+function uu(t, e) {
+  let n = {};
+  if (!e || Kt(t)) return n;
+  for (let o of t.cases)
+    for (let r of e) {
+      let i = o.nameLocalized;
+      if (!i) continue;
+      let a = i[r.id]?.value;
+      if (!L(a)) continue;
+      let l = n[o.id] ?? {};
+      ((n[o.id] = l), (l[r.id] = a));
+    }
+  return n;
+}
+function oc(t, e, n) {
+  if (t.cases.length === 0) return m`(value) => value`;
+  let o = uu(t, e),
+    r = m`value`,
+    i = m`locale`,
+    a = m`fallbackLocale`;
+  return new T(
+    F.lines(
+      m`(${r}, ${i}) => {`,
+      m`const ${a} = ${i}?.fallback;`,
+      m`switch (${r}) {`,
+      ...t.cases.map(({ id: l, name: s }) => {
+        let c = o[l];
+        return c
+          ? new T(
+              F.lines(
+                m`case ${l}:`,
+                m`switch (${i}?.id) {`,
+                ...Object.entries(c).map(([f, u]) => m`case ${f}: return ${u};`),
+                m`default:`,
+                m`if (${a}) return ${T.fn(n, r, a)};`,
+                m`return ${s};`,
+                m`}`
+              )
+            )
+          : m`case ${l}: return ${s};`;
+      }),
+      m`default: return "";`,
+      m`}`,
+      m`}`
+    )
+  );
+}
+var oi = "framercms";
+function rc(t, e, n) {
+  return `${t}-${e}.${n}`;
+}
+var Ho = class {
+  constructor(e) {
+    this.componentSourceNodeId = e;
+  }
+  componentSourceNodeId;
+  assets = {};
+  create(e, n, o) {
+    let r = rc(this.componentSourceNodeId, e, n);
+    return ((this.assets[r] = o), m`new URL(${`./${r}`}, import.meta.url).href`);
+  }
+};
+function ri(t) {
+  return `on${t}Change`;
+}
+function ic(t, e) {
+  let n =
+      t.itemVariables.length === 1 && t.itemVariables[0]?.type === "image"
+        ? t.itemVariables[0]
+        : void 0,
+    o = m`item`,
+    r = { id: m`typeof ${o}?.[${"id"}] === "string" ? ${o}[${"id"}] : undefined` };
+  for (let a of t.itemVariables) {
+    let l = Yt(a.name);
+    l ? (r[a.id] = m`${o}?.[${l}] ?? ${o}?.[${a.id}]`) : (r[a.id] = m`${o}?.[${a.id}]`);
+  }
+  let i = e.bindings.create("arrayFromHumanReadable" + t.id);
+  return (
+    e.declarations.file.create(
+      m.joinLines(
+        m`const ${i} = (value) => {${m.joinLines(m`if (!Array.isArray(value)) return`, m`return value.map(${o} => {${m.joinLines(n ? m`if (typeof ${o} === "string") return { [${n.id}]: ${o} }` : void 0, m`return ${r}`)}})`)}}`
+      )
+    ),
+    i
+  );
+}
+function ac(t, e) {
+  let n = m`value`,
+    o = {};
+  for (let i of t.fieldVariables) {
+    let a = Yt(i.name);
+    a ? (o[i.id] = m`${n}[${a}] ?? ${n}[${i.id}]`) : (o[i.id] = m`${n}[${i.id}]`);
+  }
+  let r = e.bindings.create("objectFromHumanReadable" + t.id);
+  return (
+    e.declarations.file.create(
+      m.joinLines(
+        m`const ${r} = (${n}) => {${m.joinLines(m`if (typeof ${n} !== "object" || ${n} === null) return`, m`return ${o}`)}}`
+      )
+    ),
+    r
+  );
+}
+function pu(t) {
+  return [t[1], t[0]];
+}
+var mu = new Map(Object.entries(me).map(pu));
+function Ye(t, e) {
+  let n = e.addImport("framer", { exportSpecifier: "ControlType" }),
+    o = mu.get(t),
+    r = new T(o);
+  return m`${n}.${r}`;
+}
+var hu = {
+  boolean: "boolean",
+  number: "number",
+  dimension: "string",
+  string: "string",
+  richtext: "string",
+  fusednumber: "any",
+  enum: "string",
+  segmentedenum: "string",
+  color: "string",
+  image: "string",
+  responsiveimage: "{src: string; srcSet?: string; alt?: string}",
+  file: "string",
+  componentinstance: "any",
+  slot: "any",
+  array: "any[]",
+  eventhandler: "any",
+  changehandler: "(value: any) => void",
+  transition: "Record<string, any>",
+  link: "string",
+  linkrelvalues: "string[] | undefined",
+  pagescope: "string",
+  date: "string",
+  object: "Record<string, any>",
+  font: "Record<string, any> | undefined",
+  scrollsectionref: "React.MutableRefObject<HTMLElement>",
+  customcursor: "string",
+  border: "Record<string, any>",
+  cursor: "string",
+  boxshadow: "string",
+  gap: "string",
+  padding: "string",
+  borderradius: "string",
+  collectionreference: "string | undefined",
+  multicollectionreference: "string[] | undefined",
+  trackingid: "string | undefined",
+  vectorsetitem: "React.ComponentType<any> | undefined",
+  location: "Record<string, any>",
+};
+function gu(t) {
+  return t ? new T(hu[t]) : m`any`;
+}
+var cc = "variant";
+function yu(t) {
+  return !O(t?.defaultValue);
+}
+function vu(t, e, n) {
+  if (!te(t)) return {};
+  C(t.isLoaded(), "Node must be loaded to generate controls");
+  let o = t.getTopLevelVariants();
+  if (o?.length < 2) return {};
+  let r = [],
+    i = [];
+  for (let a of o) {
+    let l = a.resolveValue("name") ?? Fe(e, a);
+    (r.push(a.id), i.push(l));
+  }
+  return { [cc]: { type: Ye("enum", n), title: "Variant", options: r, optionTitles: i } };
+}
+function Su(t, e, n, o) {
+  if (t.type === "responsiveimage" && Or(t) && Ar(t.__vekterDefault)) {
+    let { assetReference: r, alt: i } = t.__vekterDefault,
+      a = n.assets?.resolveResponsiveImage(r, { focalPoint: t.__vekterDefault });
+    return (a && L(i) && (a.alt = i), a);
+  } else if (Fr(t))
+    switch (t.type) {
+      case "responsiveimage": {
+        let r = n.assets?.resolveResponsiveImage(t.__defaultAssetReference);
+        return r || void 0;
+      }
+      case "file": {
+        let r = n.assets?.resolve(t.__defaultAssetReference);
+        return r ? r.src : void 0;
+      }
+    }
+  else {
+    if (e?.type === "array")
+      return e.initialValue
+        ? e.initialValue.map((r) => {
+            let i = {};
+            if (!r || r.type !== "object" || !Le(r.value)) return i;
+            for (let a of e.itemVariables) {
+              if (!Ce(a)) continue;
+              let l = r.value[a.id],
+                s = qo(l, n, o);
+              (O(s) && !sc(l) && (s = qo(es(e, a, o), n, o)), O(s) || (i[a.id] = s));
+            }
+            return i;
+          })
+        : [];
+    if (e?.type === "object") {
+      if (at(e, o)) return;
+      let r = {};
+      for (let i of e.fieldVariables) {
+        let a = e.initialValue[i.id],
+          l = qo(a, n, o);
+        if (O(l) && !sc(a)) {
+          let s = ts(i, o);
+          l = qo(s, n, o);
+        }
+        O(l) || (r[i.id] = l);
+      }
+      return r;
+    } else if (yu(t)) {
+      if (e && at(e, o)) return;
+      let r = t.defaultValue;
+      if (t.type === "vectorsetitem")
+        return (
+          C(yl(r), "Vector set item must be a module export identifier"),
+          n.imports.addModuleImport(r.identifier)
+        );
+      if (t.type === "richtext" && L(r))
+        return Qr(r, { collectors: n, useFramerMotion: o === "SmartComponent" });
+      if (t.type === "boxshadow" && Cs(r))
+        return Ts(r, "emptyStringWhenEmpty", (i) => (fo(i) ? uo(i) : Lr.toFormatString(i)));
+      if ($r(r)) return fo(r) ? uo(r) : r;
+    }
+  }
+}
+function qo(t, e, n) {
+  if (t && da(t.type))
+    switch (t.type) {
+      case "image": {
+        if (!L(t.value)) return;
+        let o = e.assets?.resolveResponsiveImage(t.value, { focalPoint: t });
+        return o ? ((o.alt = t.alt ?? ""), o) : void 0;
+      }
+      case "boolean":
+        return In(t.value) ? t.value : void 0;
+      case "number":
+        return A(t.value) ? t.value : void 0;
+      case "string":
+      case "date":
+        return L(t.value) ? t.value : void 0;
+      case "file":
+        return L(t.value) ? e.assets?.resolve(t.value)?.src : void 0;
+      case "richtext":
+        return !ve(t.value) || Et(t.value)
+          ? void 0
+          : Qr(t.value, { collectors: e, useFramerMotion: n === "SmartComponent" });
+      case "link":
+        return e.links?.create(mo(t.value));
+      case "color":
+        return L(t.value) ? (fo(t.value) ? uo(t.value) : Lr.toFormatString(t.value)) : void 0;
+      case "vectorsetitem":
+        return !L(t.value) || !ot(t.value) ? void 0 : e.imports.addModuleImport(t.value);
+      default:
+        ee(t.type);
+    }
+}
+function sc(t) {
+  return t?.type !== "richtext" ? !1 : ve(t.value) && Et(t.value);
+}
+function Ko(t, e) {
+  return m`${t}?: ${e};`;
+}
+var dc = ["id", "width", "height"],
+  bu = Object.fromEntries(
+    dc.map((t) => {
+      let e = new T(t);
+      return [e, e];
+    })
+  );
+function Iu(t, e) {
+  let n = new E(t);
+  return (E.addSpreadAtEnd(n, e), n);
+}
+var uc = [
+  { name: I.style, type: m`Record<string, unknown>` },
+  { name: I.className, type: m`string` },
+  { name: I.layoutId, type: m`string | number` },
+];
+function Cu(t, e) {
+  if (!te(t) && !x(t) && !q(t) && !ge(t)) return [];
+  let n = uc.map(({ name: r, type: i }) => ({ key: U(r), type: Ko(r, i) })),
+    o = U(I.variant);
+  return e && Be(t)
+    ? n.concat([
+        {
+          key: o,
+          type: Ko(I.variant, m`keyof typeof ${e}`),
+          value: m`${e}[props.${I.variant}] ?? props.${I.variant} ?? ${t.baseVariantId}`,
+        },
+      ])
+    : n.concat([{ key: o }]);
+}
+function Jo(t, e, n) {
+  let o = m`props.${new T(t)}`;
+  return (e && (o = m`${e} ?? ${o}`), O(n) || (o = m`${o} ?? ${n}`), o);
+}
+function fc(t, e, n) {
+  if (!x(t) || !Mt(n, t)) return;
+  let r = t.getProvidedVariableMap(n, void 0, e, e.activeBundleHash);
+  if (!r) return;
+  let i = new Map();
+  for (let [a, l] of r) (x(t) && t.hasVariable(a)) || i.set(a, l);
+  if (i.size !== 0) return i;
+}
+var Tu = [...Ss, cc, ...dc, ...uc.map(({ name: t }) => t.toString()), "name"];
+function Lu(t, e, n, o, r) {
+  let i = new Set(Tu),
+    a = Object.entries(t).map(([S, { control: b, variable: D, binding: R }]) => {
+      if (!b) return { key: S, binding: R };
+      let N = bs(Yt(b.title) ?? S, i),
+        w = new T(N),
+        z = Su(b, D, n, o),
+        M = Ko(w, gu(b.type)),
+        P;
+      if (b.type === "enum" && b.options && b.optionTitles && w) {
+        let Y = new E();
+        b.options.forEach((j, J) => {
+          if (!L(j) || !b.optionTitles) return;
+          let fe = b.optionTitles[J];
+          L(fe) && (Y[fe] = j);
+        });
+        let ne = n.declarations.file.dedupe("humanReadableEnumMap", Y);
+        ((M = Ko(w, m`keyof typeof ${ne}`)), (P = Jo(S, w, z)), (P = m`${ne}[${w}] ?? ${P}`));
+      } else if (D?.type === "array") {
+        let Y = ic(D, n),
+          ne = T.fn(Y, w);
+        P = Jo(S, ne, z);
+      } else if (D?.type === "object") {
+        let Y = ac(D, n),
+          ne = T.fn(Y, w);
+        P = Jo(S, ne, z);
+      } else P = Jo(S, w, z);
+      return { key: S, binding: R, name: N, type: M, value: P };
+    }),
+    l = "",
+    s = [],
+    c = [],
+    f = new E(),
+    u = fc(e, n.componentLoader, n.tree),
+    d = {},
+    p = { ...bu },
+    g = Cu(e, r);
+  for (let { key: S, binding: b, type: D, value: R, name: N } of [...g, ...a]) {
+    let w = u?.get(S),
+      z = b ?? new T(S);
+    if (w) {
+      let M = m`${z} = ${I.currentRouteData}[${w.id}]`;
+      if (Pa(w.type)) {
+        let P = yo(w.type);
+        $r(P) && (M = m`${M} ?? ${P}`);
+      }
+      s.push(M);
+    } else {
+      let M = n.variables.getSetterBinding(S);
+      if (M) {
+        let P = ri(S),
+          Y = U(z),
+          ne = n.bindings.create(`external${Y}`),
+          j = n.bindings.create(`setExternal${Y}`);
+        (s.push(m`${S}: ${ne}`), s.push(m`${P}: ${j}`));
+        let J = n.declarations.file.dedupe(
+          "useStateVariable",
+          m.joinLines(
+            m`(externalState, setExternalState) => {`,
+            m`    const [internalState, setInternalState] = React.useState(externalState)`,
+            m`    const [previousExternalState, setPreviousExternalState] = React.useState(externalState)`,
+            m`    if (setExternalState) {`,
+            m`        return [externalState, setExternalState]`,
+            m`    }`,
+            m`    if (externalState !== previousExternalState) {`,
+            m`        setInternalState(externalState)`,
+            m`        setPreviousExternalState(externalState)`,
+            m`    }`,
+            m`    return [internalState, setInternalState]`,
+            m`}`
+          )
+        );
+        c.push(m`const [${z}, ${M}] = ${T.fn(J, ne, j)}`);
+      } else U(z) !== S ? s.push(m`${S}: ${z}`) : s.push(z);
+    }
+    (D && (l += D), R && (f[S] = R), N && ((d[S] = N), (p[N] = new T(N))));
+  }
+  for (let { variable: S, binding: b } of Object.values(t))
+    if (!(S?.type !== "object" || !b))
+      for (let D of S.fieldVariables) {
+        let R = n.variables.getBinding(e.id, qa(S.id, D.id));
+        R && c.push(m`const ${R} = ${b}?.[${D.id}]`);
+      }
+  (o === "LayoutTemplate" && s.push(I.children),
+    o === "DesignPage" && s.push(I.style),
+    E.addSpreadAtStart(f, I.props));
+  let h = n.declarations.file.dedupe("getProps", m`(${Iu(p, I.props)}) => { return ${f} }`),
+    y = s.join(", "),
+    v = y.length > 0 ? new T(`{ ${y}, ...${I.restProps} }`) : I.restProps;
+  return {
+    variableMap: mt(d) ? void 0 : d,
+    types: new T(l),
+    props: m.joinSections(m`const ${v} = ${T.fn(h, I.props)}`, ...c),
+  };
+}
+function Ru(t, e) {
+  let n = [],
+    o = ge(t),
+    r = pc(t),
+    i = e.variables.getBindings(t.id);
+  for (let l of r) {
+    if (!Ce(l)) continue;
+    let s = i.get(l.id) ?? Nu(l, t.id, e),
+      c = e.variables.getSetterBinding(l.id);
+    (!o && !s && !c) || n.push({ id: l.id, binding: s, definition: l });
+  }
+  let a = fc(t, e.componentLoader, e.tree);
+  if (a)
+    for (let [l] of a) {
+      let s = i.get(l);
+      s && n.push({ id: l, binding: s });
+    }
+  return n;
+}
+function Nu(t, e, n) {
+  if (t.type === "object") {
+    for (let o of n.variables.getBindings(e).keys())
+      if (Ha(o, t.id)) return n.variables.create({ id: t.id, providerId: e });
+  }
+}
+function xu(t, e) {
+  let { hidden: n, ...o } = t;
+  if (!e) return o;
+  let { description: r, ...i } = o;
+  return i;
+}
+function Du(t, e, n, o, r, i, a, l, s) {
+  let { id: c, type: f } = e;
+  switch (f) {
+    case "controlReference": {
+      let u = H(ns(o, e.entityIdentifier));
+      if (!u || !e.entityIdentifier || !ot(u)) return;
+      let d = r.addModuleImport(u, {
+        composeWithImports: [r.addImport("framer", { exportSpecifier: "getPropertyControls" })],
+      });
+      if (!d) return;
+      let p = new E({ hidden: m`undefined`, description: m`undefined` });
+      return (
+        E.addSpreadAtStart(p, m`${d}[${e.controlKey}]`),
+        L(n.title) && (p.title = n.title),
+        L(n.description) && (p.description = n.description),
+        Ya(e, s) && (p.optional = at(e, s) ? !0 : m`undefined`),
+        n.type === "responsiveimage" &&
+          Or(n) &&
+          Ar(n.__vekterDefault) &&
+          (p[Rs] = T.fromValue(n.__vekterDefault)),
+        at(e, s)
+          ? (p.defaultValue = m`undefined`)
+          : Fr(n)
+            ? (p[Ls] = T.fromValue(n.__defaultAssetReference))
+            : oo(e.initialValue) || (p.defaultValue = T.fromValue(e.initialValue)),
+        m`${d}?.[${e.controlKey}] && ${p}`
+      );
+    }
+    case "nodePropertyControlReference":
+    case "array":
+    case "object":
+    case "vectorsetitem":
+    case "boolean":
+    case "color":
+    case "date":
+    case "enum":
+    case "eventhandler":
+    case "file":
+    case "image":
+    case "link":
+    case "linkrelvalues":
+    case "number":
+    case "dimension":
+    case "richtext":
+    case "scrollsectionref":
+    case "customcursor":
+    case "cursor":
+    case "transition":
+    case "boxshadow":
+    case "string":
+    case "border":
+    case "borderradius":
+    case "gap":
+    case "padding":
+    case "collectionreference":
+    case "multicollectionreference":
+    case "trackingid":
+    case "location":
+    case "slug": {
+      let u = { ...xu(n, a), type: Ye(n.type, r) };
+      if (
+        (l === "vector" && i && (u.hidden = !i.getBinding(t.id, c)),
+        n.type === "array" && n.control.type === "object")
+      ) {
+        let d = n.control.controls;
+        return { ...u, control: { ...n.control, controls: new E(d, 1) } };
+      }
+      if (n.type === "object") {
+        let d = n.controls;
+        return { ...u, controls: new E(d, 1) };
+      }
+      return u;
+    }
+    default:
+      ee(f);
+  }
+}
+function pc(t) {
+  return en(t) ? t.variables : [];
+}
+function ai(t, e, n, o, r, i, a, l = pc(t)) {
+  let s = vu(t, e, o),
+    c = i === "canvasComponent",
+    f = Ra(t),
+    u = [...l];
+  if (_(t)) {
+    let d = ja();
+    u.push(d);
+    let p = Ga();
+    u.push(p);
+    let g = _a(t);
+    u.push(g);
+    let h = Wa(t);
+    u.push(h);
+  }
+  for (let d of u) {
+    if (!Ce(d)) continue;
+    let p = Mr(n, e, d, a);
+    if (rt(p)) continue;
+    C(p.type !== "image", "Image variables should become responsive images");
+    let g = Du(t, d, p, n, o, r, f, i, a);
+    if (O(g) || ((s[d.id] = g), !c) || !Al(d)) continue;
+    let h = { type: "changehandler", changes: d.id };
+    s[ri(d.id)] = { ...h, type: Ye("changehandler", o) };
+  }
+  if (!mt(s)) return new E(s, 1);
+}
+function Qo(t, e, n, o, r) {
+  let i = {},
+    a = [];
+  for (let { id: l, binding: s, definition: c } of Ru(t, e)) {
+    if (c && x(t) && t.hasVariable(c.id)) continue;
+    let u = c ? Mr(e.tree, e.componentLoader, c, n) : void 0;
+    ((i[l] = { control: u ?? void 0, variable: c, binding: s }), c && a.push(c));
+  }
+  return {
+    propertyControls: ai(t, e.componentLoader, e.tree, e.imports, e.variables, o, n, a),
+    ...Lu(i, t, e, n, r),
+  };
+}
+var mc = jt(Ji(), 1);
+function Q(t, ...e) {
+  if (!t) throw Error("Assertion Error" + (e.length > 0 ? ": " + e.join(" ") : ""));
+}
+function kn(t) {
+  throw new Error(`Unexpected value: ${t}`);
+}
+var Vu = jt(eo(), 1);
+function si(t, e, n) {
+  for (let [o, r] of Object.entries(e)) {
+    let i = t[o];
+    if (typeof r == "number") {
+      t[o] = n(r, i);
+      continue;
+    }
+    hc(i, r, n);
+  }
+}
+function hc(t, e, n) {
+  if (typeof e != "number") {
+    if (Array.isArray(e)) {
+      if (!Array.isArray(t)) return;
+      let [o] = e;
+      for (let r = 0; r < t.length; r++) {
+        let i = t[r];
+        typeof o == "number" ? (t[r] = n(o, i)) : hc(i, o, n);
+      }
+      return;
+    }
+    t === null || typeof t != "object" || Array.isArray(t) || si(t, e, n);
+  }
+}
+var gc = `// src/code-generation/components/cms/bundled/getRichTextJsonResolver.tsx?bundle
+import { AutoBreakpointVariant, ComponentPresetsConsumer, Link, motion } from "framer";
+
+// ../../library/src/router/lazy.tsx
+import { forwardRef, isValidElement, useEffect } from "react";
+
+// ../../library/src/utils/utils.ts
+var isWindow = typeof window !== "undefined";
+var supportsRequestIdleCallback = isWindow && typeof window.requestIdleCallback === "function";
+
+// ../../library/src/router/lazy.tsx
+var preloadKey = "preload";
+function isLazyComponentType(componentType) {
+  return typeof componentType === "object" && componentType !== null && !isValidElement(componentType) && preloadKey in componentType;
+}
+
+// src/code-generation/components/cms/bundled/getRichTextJsonResolver.tsx?bundle
+import { Fragment, createElement } from "react";
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+
+// src/code-generation/components/cms/bundled/getRichTextJsonResolver.tsx?bundle
+var RichTextJsonType = /* @__PURE__ */ ((RichTextJsonType2) => {
+  RichTextJsonType2[RichTextJsonType2["Fragment"] = 1] = "Fragment";
+  RichTextJsonType2[RichTextJsonType2["Link"] = 2] = "Link";
+  RichTextJsonType2[RichTextJsonType2["Module"] = 3] = "Module";
+  RichTextJsonType2[RichTextJsonType2["Tag"] = 4] = "Tag";
+  RichTextJsonType2[RichTextJsonType2["Text"] = 5] = "Text";
+  return RichTextJsonType2;
+})(RichTextJsonType || {});
+var RichTextJsonPropKind = /* @__PURE__ */ ((RichTextJsonPropKind2) => {
+  RichTextJsonPropKind2[RichTextJsonPropKind2["RichText"] = 1] = "RichText";
+  RichTextJsonPropKind2[RichTextJsonPropKind2["VectorSetItem"] = 2] = "VectorSetItem";
+  return RichTextJsonPropKind2;
+})(RichTextJsonPropKind || {});
+function mapRichTextJsonProps(props, schema, mapLeaf) {
+  for (const [key, entry] of Object.entries(schema)) {
+    const value = props[key];
+    if (typeof entry === "number") {
+      props[key] = mapLeaf(entry, value);
+      continue;
+    }
+    mapRichTextJsonPropValue(value, entry, mapLeaf);
+  }
+}
+function mapRichTextJsonPropValue(value, entry, mapLeaf) {
+  if (typeof entry === "number") return;
+  if (Array.isArray(entry)) {
+    if (!Array.isArray(value)) return;
+    const [itemEntry] = entry;
+    for (let index = 0; index < value.length; index++) {
+      const item = value[index];
+      if (typeof itemEntry === "number") {
+        value[index] = mapLeaf(itemEntry, item);
+      } else {
+        mapRichTextJsonPropValue(item, itemEntry, mapLeaf);
+      }
+    }
+    return;
+  }
+  if (value === null || typeof value !== "object" || Array.isArray(value)) return;
+  mapRichTextJsonProps(value, entry, mapLeaf);
+}
+function getRichTextJsonResolver(components) {
+  const cache = /* @__PURE__ */ new Map();
+  function deserializeChildren(children) {
+    return children.map(deserializeNode);
+  }
+  function deserializeNode(node) {
+    switch (node[0]) {
+      case 1 /* Fragment */: {
+        const [, ...children] = node;
+        const childNodes = deserializeChildren(children);
+        return createElement(Fragment, void 0, ...childNodes);
+      }
+      case 2 /* Link */: {
+        const [, props, ...children] = node;
+        const childNodes = deserializeChildren(children);
+        return createElement(Link, props, ...childNodes);
+      }
+      case 3 /* Module */: {
+        const [, identifier, props, schema] = node;
+        mapRichTextJsonProps(props, schema, (kind, value) => {
+          if (kind === 1 /* RichText */) {
+            return value ? deserializeNode(value) : value;
+          }
+          if (typeof value !== "string") return value;
+          const VectorSetItem = components[value];
+          if (!VectorSetItem) return value;
+          if (isLazyComponentType(VectorSetItem)) {
+            void VectorSetItem.preload();
+          }
+          return VectorSetItem;
+        });
+        const Component = components[identifier];
+        assert(Component, "Module not found");
+        if (isLazyComponentType(Component)) {
+          void Component.preload();
+        }
+        return <ComponentPresetsConsumer componentIdentifier={identifier}>
+						{(presetProps) => <AutoBreakpointVariant component={Component} props={{ ...presetProps, ...props }} />}
+					</ComponentPresetsConsumer>;
+      }
+      case 4 /* Tag */: {
+        const [, tag, props, ...children] = node;
+        const childNodes = deserializeChildren(children);
+        if (tag === "a") {
+          return createElement(motion.a, props, ...childNodes);
+        }
+        return createElement(tag, props, ...childNodes);
+      }
+      case 5 /* Text */: {
+        const [, text] = node;
+        return text;
+      }
+    }
+  }
+  return (pointer) => {
+    const cached = cache.get(pointer);
+    if (cached) return cached;
+    const json = JSON.parse(pointer);
+    const result = deserializeNode(json);
+    cache.set(pointer, result);
+    return result;
+  };
+}
+export {
+  RichTextJsonPropKind,
+  RichTextJsonType,
+  getRichTextJsonResolver,
+  mapRichTextJsonProps
+};
+`;
+var Xo = class {
+  constructor(e, n, o, r, i, a, l, s, c) {
+    this.componentLoader = n;
+    this.tree = o;
+    this.imports = r;
+    this.submodules = i;
+    this.bindings = a;
+    this.declarations = l;
+    this.assets = s;
+    this.links = c;
+    this.resolveRichTextBinding = this.bindings.create("resolveRichText");
+    let f = this.tree.getScopeNodeFor(e);
+    ((this.options = { nodeId: e.id, scopeId: f?.id }),
+      (this.resolvers = Pl(this.assets, this.links, void 0, void 0)));
+  }
+  componentLoader;
+  tree;
+  imports;
+  submodules;
+  bindings;
+  declarations;
+  assets;
+  links;
+  cache = new Map();
+  components = {};
+  options;
+  resolvers;
+  serializers = {
+    fragment: (e) => [1, ...e],
+    link: (e, n) => [2, e, ...n],
+    module: (e, n, o, r) => {
+      if (!this.addModuleImport(e)) return;
+      let a = this.componentLoader.reactComponentForIdentifier(e);
+      C(a, "Component must exist for module");
+      let l = Vl(
+          this.tree,
+          this.componentLoader,
+          e,
+          n,
+          this.resolvers,
+          this.serializers,
+          this.options
+        ),
+        s = yc(a.properties);
+      si(l, s, (d, p) => (d === 2 && L(p) && ot(p) && this.addModuleImport(p), p));
+      let c = wl(e, n),
+        f = ma(o, r, c),
+        u = [3, e, l, s];
+      return [4, "div", f, u];
+    },
+    tag: (e, n, o) => [4, e, n, ...o],
+    text: (e) => [5, e],
+  };
+  resolveRichTextBinding;
+  addModuleImport(e) {
+    if (e in this.components) return !0;
+    let n = H(e),
+      o = this.imports.addModuleImport(n, { lazy: !0 });
+    return o ? ((this.components[e] = o), !0) : !1;
+  }
+  add(e) {
+    let n = wu(e),
+      o = this.cache.get(n);
+    if (o) return o;
+    let r = zl(e, this.resolvers, this.serializers, this.options),
+      i = JSON.stringify(r);
+    return (this.cache.set(n, i), i);
+  }
+  serialize() {
+    let e = this.imports.addImport(this.submodules.create(gc).submoduleImport, {
+        exportSpecifier: "getRichTextJsonResolver",
+      }),
+      n = this.declarations.dedupe("richTextComponents", this.components);
+    this.declarations.create(m`const ${this.resolveRichTextBinding} = ${T.fn(e, n)}`);
+  }
+};
+function yc(t) {
+  let e = {};
+  for (let [n, o] of Object.entries(t)) {
+    let r = vc(o);
+    r !== void 0 && (e[n] = r);
+  }
+  return e;
+}
+function vc(t) {
+  switch (t.type) {
+    case "richtext":
+      return 1;
+    case "vectorsetitem":
+      return 2;
+    case "object": {
+      let e = yc(t.controls);
+      return Object.keys(e).length > 0 ? e : void 0;
+    }
+    case "array": {
+      let e = vc(t.control);
+      return e === void 0 ? void 0 : [e];
+    }
+    default:
+      return;
+  }
+}
+function wu(t) {
+  return typeof t == "string" ? `html:${t}` : `document:${JSON.stringify(t)}`;
+}
+var Yo = class {
+  values = new Map();
+  add(e) {
+    let n = this.values.get(e);
+    if (A(n)) return n;
+    let o = this.values.size;
+    return (this.values.set(e, o), o);
+  }
+  serialize(e, n, o) {
+    let r = [];
+    for (let [a, l] of this.values) {
+      let s = H(a),
+        { importSpecifier: c } = Is(s, "collection", e, n);
+      (C(c, "Import specifier must be defined"), (r[l] = m`() => import(${c})`));
+    }
+    let i = o.dedupe("vectors", r);
+    return o.dedupe(
+      "resolveVectorSetItem",
+      m`(pointer: number) => {${m.joinLines(m`const vector = ${i}[pointer]`, m`if (vector) return vector().then(v => v.default)`)}}`
+    );
+  }
+};
+var Sc = `var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __commonJS = (cb, mod) => function __require() {
+  try {
+    return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  } catch (e) {
+    throw mod = 0, e;
+  }
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+
+// ../../../node_modules/dataloader/index.js
+var require_dataloader = __commonJS({
+  "../../../node_modules/dataloader/index.js"(exports, module) {
+    "use strict";
+    var DataLoader2 = /* @__PURE__ */ (function() {
+      function DataLoader3(batchLoadFn, options) {
+        if (typeof batchLoadFn !== "function") {
+          throw new TypeError("DataLoader must be constructed with a function which accepts " + ("Array<key> and returns Promise<Array<value>>, but got: " + batchLoadFn + "."));
+        }
+        this._batchLoadFn = batchLoadFn;
+        this._maxBatchSize = getValidMaxBatchSize(options);
+        this._batchScheduleFn = getValidBatchScheduleFn(options);
+        this._cacheKeyFn = getValidCacheKeyFn(options);
+        this._cacheMap = getValidCacheMap(options);
+        this._batch = null;
+        this.name = getValidName(options);
+      }
+      var _proto = DataLoader3.prototype;
+      _proto.load = function load(key) {
+        if (key === null || key === void 0) {
+          throw new TypeError("The loader.load() function must be called with a value, " + ("but got: " + String(key) + "."));
+        }
+        var batch = getCurrentBatch(this);
+        var cacheMap = this._cacheMap;
+        var cacheKey = this._cacheKeyFn(key);
+        if (cacheMap) {
+          var cachedPromise = cacheMap.get(cacheKey);
+          if (cachedPromise) {
+            var cacheHits = batch.cacheHits || (batch.cacheHits = []);
+            return new Promise(function(resolve) {
+              cacheHits.push(function() {
+                resolve(cachedPromise);
+              });
+            });
+          }
+        }
+        batch.keys.push(key);
+        var promise = new Promise(function(resolve, reject) {
+          batch.callbacks.push({
+            resolve,
+            reject
+          });
+        });
+        if (cacheMap) {
+          cacheMap.set(cacheKey, promise);
+        }
+        return promise;
+      };
+      _proto.loadMany = function loadMany(keys) {
+        if (!isArrayLike(keys)) {
+          throw new TypeError("The loader.loadMany() function must be called with Array<key> " + ("but got: " + keys + "."));
+        }
+        var loadPromises = [];
+        for (var i = 0; i < keys.length; i++) {
+          loadPromises.push(this.load(keys[i])["catch"](function(error) {
+            return error;
+          }));
+        }
+        return Promise.all(loadPromises);
+      };
+      _proto.clear = function clear(key) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          cacheMap["delete"](cacheKey);
+        }
+        return this;
+      };
+      _proto.clearAll = function clearAll() {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          cacheMap.clear();
+        }
+        return this;
+      };
+      _proto.prime = function prime(key, value) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          if (cacheMap.get(cacheKey) === void 0) {
+            var promise;
+            if (value instanceof Error) {
+              promise = Promise.reject(value);
+              promise["catch"](function() {
+              });
+            } else {
+              promise = Promise.resolve(value);
+            }
+            cacheMap.set(cacheKey, promise);
+          }
+        }
+        return this;
+      };
+      return DataLoader3;
+    })();
+    var enqueuePostPromiseJob = typeof process === "object" && typeof process.nextTick === "function" ? function(fn) {
+      if (!resolvedPromise) {
+        resolvedPromise = Promise.resolve();
+      }
+      resolvedPromise.then(function() {
+        process.nextTick(fn);
+      });
+    } : typeof setImmediate === "function" ? function(fn) {
+      setImmediate(fn);
+    } : function(fn) {
+      setTimeout(fn);
+    };
+    var resolvedPromise;
+    function getCurrentBatch(loader) {
+      var existingBatch = loader._batch;
+      if (existingBatch !== null && !existingBatch.hasDispatched && existingBatch.keys.length < loader._maxBatchSize) {
+        return existingBatch;
+      }
+      var newBatch = {
+        hasDispatched: false,
+        keys: [],
+        callbacks: []
+      };
+      loader._batch = newBatch;
+      loader._batchScheduleFn(function() {
+        dispatchBatch(loader, newBatch);
+      });
+      return newBatch;
+    }
+    function dispatchBatch(loader, batch) {
+      batch.hasDispatched = true;
+      if (batch.keys.length === 0) {
+        resolveCacheHits(batch);
+        return;
+      }
+      var batchPromise;
+      try {
+        batchPromise = loader._batchLoadFn(batch.keys);
+      } catch (e) {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function " + ("errored synchronously: " + String(e) + ".")));
+      }
+      if (!batchPromise || typeof batchPromise.then !== "function") {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise: " + String(batchPromise) + ".")));
+      }
+      batchPromise.then(function(values) {
+        if (!isArrayLike(values)) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise of an Array: " + String(values) + "."));
+        }
+        if (values.length !== batch.keys.length) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did not return a Promise of an Array of the same length as the Array of keys." + ("\\n\\nKeys:\\n" + String(batch.keys)) + ("\\n\\nValues:\\n" + String(values)));
+        }
+        resolveCacheHits(batch);
+        for (var i = 0; i < batch.callbacks.length; i++) {
+          var value = values[i];
+          if (value instanceof Error) {
+            batch.callbacks[i].reject(value);
+          } else {
+            batch.callbacks[i].resolve(value);
+          }
+        }
+      })["catch"](function(error) {
+        failedDispatch(loader, batch, error);
+      });
+    }
+    function failedDispatch(loader, batch, error) {
+      resolveCacheHits(batch);
+      for (var i = 0; i < batch.keys.length; i++) {
+        loader.clear(batch.keys[i]);
+        batch.callbacks[i].reject(error);
+      }
+    }
+    function resolveCacheHits(batch) {
+      if (batch.cacheHits) {
+        for (var i = 0; i < batch.cacheHits.length; i++) {
+          batch.cacheHits[i]();
+        }
+      }
+    }
+    function getValidMaxBatchSize(options) {
+      var shouldBatch = !options || options.batch !== false;
+      if (!shouldBatch) {
+        return 1;
+      }
+      var maxBatchSize = options && options.maxBatchSize;
+      if (maxBatchSize === void 0) {
+        return Infinity;
+      }
+      if (typeof maxBatchSize !== "number" || maxBatchSize < 1) {
+        throw new TypeError("maxBatchSize must be a positive number: " + maxBatchSize);
+      }
+      return maxBatchSize;
+    }
+    function getValidBatchScheduleFn(options) {
+      var batchScheduleFn = options && options.batchScheduleFn;
+      if (batchScheduleFn === void 0) {
+        return enqueuePostPromiseJob;
+      }
+      if (typeof batchScheduleFn !== "function") {
+        throw new TypeError("batchScheduleFn must be a function: " + batchScheduleFn);
+      }
+      return batchScheduleFn;
+    }
+    function getValidCacheKeyFn(options) {
+      var cacheKeyFn = options && options.cacheKeyFn;
+      if (cacheKeyFn === void 0) {
+        return function(key) {
+          return key;
+        };
+      }
+      if (typeof cacheKeyFn !== "function") {
+        throw new TypeError("cacheKeyFn must be a function: " + cacheKeyFn);
+      }
+      return cacheKeyFn;
+    }
+    function getValidCacheMap(options) {
+      var shouldCache = !options || options.cache !== false;
+      if (!shouldCache) {
+        return null;
+      }
+      var cacheMap = options && options.cacheMap;
+      if (cacheMap === void 0) {
+        return /* @__PURE__ */ new Map();
+      }
+      if (cacheMap !== null) {
+        var cacheFunctions = ["get", "set", "delete", "clear"];
+        var missingFunctions = cacheFunctions.filter(function(fnName) {
+          return cacheMap && typeof cacheMap[fnName] !== "function";
+        });
+        if (missingFunctions.length !== 0) {
+          throw new TypeError("Custom cacheMap missing methods: " + missingFunctions.join(", "));
+        }
+      }
+      return cacheMap;
+    }
+    function getValidName(options) {
+      if (options && options.name) {
+        return options.name;
+      }
+      return null;
+    }
+    function isArrayLike(x) {
+      return typeof x === "object" && x !== null && typeof x.length === "number" && (x.length === 0 || x.length > 0 && Object.prototype.hasOwnProperty.call(x, x.length - 1));
+    }
+    module.exports = DataLoader2;
+  }
+});
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.legacy.ts?bundle
+var import_dataloader = __toESM(require_dataloader(), 1);
+
+// src/code-generation/components/cms/bundled/BufferReader.ts
+var BYTE_LENGTH = {
+  Uint8: 1,
+  Uint16: 2,
+  Uint32: 4,
+  BigUint64: 8,
+  Int8: 1,
+  Int16: 2,
+  Int32: 4,
+  BigInt64: 8,
+  Float32: 4,
+  Float64: 8
+};
+var BufferReader = class _BufferReader {
+  constructor(bytes) {
+    this.bytes = bytes;
+    this.view = getDataView(this.bytes);
+  }
+  bytes;
+  // TextDecoder has no per-decode state unless streaming is enabled. Reusing one class-owned decoder
+  // avoids constructing one for every CMS item, where each item gets its own BufferReader.
+  static textDecoder = new TextDecoder();
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  view;
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    throw new Error("Reading out of bounds");
+  }
+  readUint8() {
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    const value = this.view.getUint8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint16() {
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    const value = this.view.getUint16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint32() {
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    const value = this.view.getUint32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint64() {
+    const bigint = this.readBigUint64();
+    return Number(bigint);
+  }
+  readBigUint64() {
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    const value = this.view.getBigUint64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt8() {
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    const value = this.view.getInt8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt16() {
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    const value = this.view.getInt16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt32() {
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    const value = this.view.getInt32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt64() {
+    const bigint = this.readBigInt64();
+    return Number(bigint);
+  }
+  readBigInt64() {
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    const value = this.view.getBigInt64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat32() {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    const value = this.view.getFloat32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat64() {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    const value = this.view.getFloat64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readBytes(length) {
+    const start = this.offset;
+    const end = start + length;
+    const value = this.bytes.subarray(start, end);
+    this.offset = end;
+    return value;
+  }
+  readString() {
+    const length = this.readUint32();
+    const bytes = this.readBytes(length);
+    return _BufferReader.textDecoder.decode(bytes);
+  }
+  readJson() {
+    const string = this.readString();
+    return JSON.parse(string);
+  }
+};
+function getDataView(bytes) {
+  return new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.legacy.ts
+import { ControlType as ControlType2 } from "framer";
+
+// ../../library/src/utils/utils.ts
+var isWindow = typeof window !== "undefined";
+var supportsRequestIdleCallback = isWindow && typeof window.requestIdleCallback === "function";
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+function assertNever(condition) {
+  throw new Error(\`Unexpected value: \${condition}\`);
+}
+
+// src/code-generation/components/cms/bundled/BufferWriter.ts
+var INITIAL_BUFFER_SIZE = 1024;
+var GROWTH_FACTOR = 1.5;
+var maxUnsignedNumber = (bits) => 2 ** bits - 1;
+var minSignedNumber = (bits) => -(2 ** (bits - 1));
+var maxSignedNumber = (bits) => 2 ** (bits - 1) - 1;
+var MIN_VALUE = {
+  Uint8: 0,
+  Uint16: 0,
+  Uint32: 0,
+  Uint64: 0,
+  BigUint64: 0,
+  Int8: minSignedNumber(8),
+  Int16: minSignedNumber(16),
+  Int32: minSignedNumber(32),
+  Int64: Number.MIN_SAFE_INTEGER,
+  BigInt64: -(BigInt(2) ** BigInt(63))
+};
+var MAX_VALUE = {
+  Uint8: maxUnsignedNumber(8),
+  Uint16: maxUnsignedNumber(16),
+  Uint32: maxUnsignedNumber(32),
+  Uint64: Number.MAX_SAFE_INTEGER,
+  BigUint64: BigInt(2) ** BigInt(64) - BigInt(1),
+  Int8: maxSignedNumber(8),
+  Int16: maxSignedNumber(16),
+  Int32: maxSignedNumber(32),
+  Int64: Number.MAX_SAFE_INTEGER,
+  BigInt64: BigInt(2) ** BigInt(63) - BigInt(1)
+};
+function assertRange(value, min, max, dataType) {
+  assert(value >= min, value, "outside lower bound for", dataType);
+  assert(value <= max, value, "outside upper bound for", dataType);
+}
+var BufferWriter = class {
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  bytes = new Uint8Array(INITIAL_BUFFER_SIZE);
+  view = getDataView(this.bytes);
+  slice(start = 0, end = this.offset) {
+    return this.bytes.slice(start, end);
+  }
+  subarray(start = 0, end = this.offset) {
+    return this.bytes.subarray(start, end);
+  }
+  encoder = new TextEncoder();
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    const newLength = Math.ceil(oldLength * GROWTH_FACTOR) + requiredBytes;
+    const newBytes = new Uint8Array(newLength);
+    newBytes.set(this.bytes);
+    this.bytes = newBytes;
+    this.view = getDataView(newBytes);
+  }
+  writeUint8(value) {
+    assertRange(value, MIN_VALUE.Uint8, MAX_VALUE.Uint8, "Uint8");
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    this.view.setUint8(this.offset, value);
+    this.offset += size;
+  }
+  writeUint16(value) {
+    assertRange(value, MIN_VALUE.Uint16, MAX_VALUE.Uint16, "Uint16");
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    this.view.setUint16(this.offset, value);
+    this.offset += size;
+  }
+  writeUint32(value) {
+    assertRange(value, MIN_VALUE.Uint32, MAX_VALUE.Uint32, "Uint32");
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    this.view.setUint32(this.offset, value);
+    this.offset += size;
+  }
+  writeUint64(value) {
+    assertRange(value, MIN_VALUE.Uint64, MAX_VALUE.Uint64, "Uint64");
+    const bigint = BigInt(value);
+    this.writeBigUint64(bigint);
+  }
+  writeBigUint64(value) {
+    assertRange(value, MIN_VALUE.BigUint64, MAX_VALUE.BigUint64, "BigUint64");
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    this.view.setBigUint64(this.offset, value);
+    this.offset += size;
+  }
+  writeInt8(value) {
+    assertRange(value, MIN_VALUE.Int8, MAX_VALUE.Int8, "Int8");
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    this.view.setInt8(this.offset, value);
+    this.offset += size;
+  }
+  writeInt16(value) {
+    assertRange(value, MIN_VALUE.Int16, MAX_VALUE.Int16, "Int16");
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    this.view.setInt16(this.offset, value);
+    this.offset += size;
+  }
+  writeInt32(value) {
+    assertRange(value, MIN_VALUE.Int32, MAX_VALUE.Int32, "Int32");
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    this.view.setInt32(this.offset, value);
+    this.offset += size;
+  }
+  writeInt64(value) {
+    assertRange(value, MIN_VALUE.Int64, MAX_VALUE.Int64, "Int64");
+    const bigint = BigInt(value);
+    this.writeBigInt64(bigint);
+  }
+  writeBigInt64(value) {
+    assertRange(value, MIN_VALUE.BigInt64, MAX_VALUE.BigInt64, "BigInt64");
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    this.view.setBigInt64(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat32(value) {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    this.view.setFloat32(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat64(value) {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    this.view.setFloat64(this.offset, value);
+    this.offset += size;
+  }
+  writeBytes(value) {
+    const size = value.length;
+    this.ensureLength(size);
+    this.bytes.set(value, this.offset);
+    this.offset += size;
+  }
+  encodedStrings = /* @__PURE__ */ new Map();
+  encodeString(value) {
+    const cached = this.encodedStrings.get(value);
+    if (cached) return cached;
+    const bytes = this.encoder.encode(value);
+    this.encodedStrings.set(value, bytes);
+    return bytes;
+  }
+  writeString(value) {
+    const bytes = this.encodeString(value);
+    const size = bytes.length;
+    this.writeUint32(size);
+    this.writeBytes(bytes);
+  }
+  writeJson(value) {
+    const json = JSON.stringify(value);
+    this.writeString(json);
+  }
+};
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+function isNull(value) {
+  return value === null;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemPointerModel.ts
+var DatabaseItemPointerModel = class _DatabaseItemPointerModel {
+  constructor(chunkId, offset, length) {
+    this.chunkId = chunkId;
+    this.offset = offset;
+    this.length = length;
+  }
+  chunkId;
+  offset;
+  length;
+  static fromString(value) {
+    const [chunkId, offset, length] = value.split("/").map(Number);
+    assert(isNumber(chunkId), "Invalid chunkId");
+    assert(isNumber(offset), "Invalid offset");
+    assert(isNumber(length), "Invalid length");
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  toString() {
+    return \`\${this.chunkId}/\${this.offset}/\${this.length}\`;
+  }
+  static read(reader) {
+    const chunkId = reader.readUint16();
+    const offset = reader.readUint32();
+    const length = reader.readUint32();
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  write(writer) {
+    writer.writeUint16(this.chunkId);
+    writer.writeUint32(this.offset);
+    writer.writeUint32(this.length);
+  }
+  compare(other) {
+    if (this.chunkId < other.chunkId) return -1;
+    if (this.chunkId > other.chunkId) return 1;
+    if (this.offset < other.offset) return -1;
+    if (this.offset > other.offset) return 1;
+    assert(this.length === other.length);
+    return 0;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseValueModel.ts
+function getValueType(value) {
+  if (isNull(value)) {
+    return 0 /* Null */;
+  }
+  switch (value.type) {
+    case "array" /* Array */:
+      return 1 /* Array */;
+    case "boolean" /* Boolean */:
+      return 2 /* Boolean */;
+    case "color" /* Color */:
+      return 3 /* Color */;
+    case "date" /* Date */:
+      return 4 /* Date */;
+    case "enum" /* Enum */:
+      return 5 /* Enum */;
+    case "file" /* File */:
+      return 6 /* File */;
+    case "responsiveimage" /* ResponsiveImage */:
+      return 10 /* ResponsiveImage */;
+    case "link" /* Link */:
+      return 7 /* Link */;
+    case "number" /* Number */:
+      return 8 /* Number */;
+    case "object" /* Object */:
+      return 9 /* Object */;
+    case "richtext" /* RichText */:
+      return 11 /* RichText */;
+    case "string" /* String */:
+      return 12 /* String */;
+    case "vectorsetitem" /* VectorSetItem */:
+      return 13 /* VectorSetItem */;
+    default:
+      assertNever(value);
+  }
+}
+var DatabaseValueModel;
+((DatabaseValueModel2) => {
+  function read(reader) {
+    const type = reader.readUint8();
+    switch (type) {
+      case 0 /* Null */:
+        return null;
+      case 1 /* Array */:
+        return readArray(reader);
+      case 2 /* Boolean */:
+        return readBoolean(reader);
+      case 3 /* Color */:
+        return readColor(reader);
+      case 4 /* Date */:
+        return readDate(reader);
+      case 5 /* Enum */:
+        return readEnum(reader);
+      case 6 /* File */:
+        return readFile(reader);
+      case 7 /* Link */:
+        return readLink(reader);
+      case 8 /* Number */:
+        return readNumber(reader);
+      case 9 /* Object */:
+        return readObject(reader);
+      case 10 /* ResponsiveImage */:
+        return readResponsiveImage(reader);
+      case 11 /* RichText */:
+        return readRichText(reader);
+      case 12 /* String */:
+        return readString(reader);
+      case 13 /* VectorSetItem */:
+        return readVectorSetItem(reader);
+      default:
+        assertNever(type);
+    }
+  }
+  DatabaseValueModel2.read = read;
+  function write(writer, value) {
+    const type = getValueType(value);
+    writer.writeUint8(type);
+    if (isNull(value)) return;
+    switch (value.type) {
+      case "array" /* Array */:
+        return writeArray(writer, value);
+      case "boolean" /* Boolean */:
+        return writeBoolean(writer, value);
+      case "color" /* Color */:
+        return writeColor(writer, value);
+      case "date" /* Date */:
+        return writeDate(writer, value);
+      case "enum" /* Enum */:
+        return writeEnum(writer, value);
+      case "file" /* File */:
+        return writeFile(writer, value);
+      case "link" /* Link */:
+        return writeLink(writer, value);
+      case "number" /* Number */:
+        return writeNumber(writer, value);
+      case "object" /* Object */:
+        return writeObject(writer, value);
+      case "responsiveimage" /* ResponsiveImage */:
+        return writeResponsiveImage(writer, value);
+      case "richtext" /* RichText */:
+        return writeRichText(writer, value);
+      case "vectorsetitem" /* VectorSetItem */:
+        return writeVectorSetItem(writer, value);
+      case "string" /* String */:
+        return writeString(writer, value);
+      default:
+        assertNever(value);
+    }
+  }
+  DatabaseValueModel2.write = write;
+  function compare(left, right, collation) {
+    const leftType = getValueType(left);
+    const rightType = getValueType(right);
+    if (leftType < rightType) return -1;
+    if (leftType > rightType) return 1;
+    if (isNull(left) || isNull(right)) return 0;
+    switch (left.type) {
+      case "array" /* Array */:
+        assert(right.type === "array" /* Array */);
+        return compareArray(left, right, collation);
+      case "boolean" /* Boolean */:
+        assert(right.type === "boolean" /* Boolean */);
+        return compareBoolean(left, right);
+      case "color" /* Color */:
+        assert(right.type === "color" /* Color */);
+        return compareColor(left, right);
+      case "date" /* Date */:
+        assert(right.type === "date" /* Date */);
+        return compareDate(left, right);
+      case "enum" /* Enum */:
+        assert(right.type === "enum" /* Enum */);
+        return compareEnum(left, right);
+      case "file" /* File */:
+        assert(right.type === "file" /* File */);
+        return compareFile(left, right);
+      case "link" /* Link */:
+        assert(right.type === "link" /* Link */);
+        return compareLink(left, right);
+      case "number" /* Number */:
+        assert(right.type === "number" /* Number */);
+        return compareNumber(left, right);
+      case "object" /* Object */:
+        assert(right.type === "object" /* Object */);
+        return compareObject(left, right, collation);
+      case "responsiveimage" /* ResponsiveImage */:
+        assert(right.type === "responsiveimage" /* ResponsiveImage */);
+        return compareResponsiveImage(left, right);
+      case "richtext" /* RichText */:
+        assert(right.type === "richtext" /* RichText */);
+        return compareRichText(left, right);
+      case "vectorsetitem" /* VectorSetItem */:
+        assert(right.type === "vectorsetitem" /* VectorSetItem */);
+        return compareVectorSetItem(left, right);
+      case "string" /* String */:
+        assert(right.type === "string" /* String */);
+        return compareString(left, right, collation);
+      default:
+        assertNever(left);
+    }
+  }
+  DatabaseValueModel2.compare = compare;
+})(DatabaseValueModel || (DatabaseValueModel = {}));
+function readArray(reader) {
+  const length = reader.readUint16();
+  const value = [];
+  for (let i = 0; i < length; i++) {
+    const item = DatabaseValueModel.read(reader);
+    value.push(item);
+  }
+  return {
+    type: "array" /* Array */,
+    value
+  };
+}
+function writeArray(writer, value) {
+  writer.writeUint16(value.value.length);
+  for (const item of value.value) {
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareArray(left, right, collation) {
+  const leftLength = left.value.length;
+  const rightLength = right.value.length;
+  if (leftLength < rightLength) return -1;
+  if (leftLength > rightLength) return 1;
+  for (let i = 0; i < leftLength; i++) {
+    const leftItem = left.value[i];
+    const rightItem = right.value[i];
+    const result = DatabaseValueModel.compare(leftItem, rightItem, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readBoolean(reader) {
+  return {
+    type: "boolean" /* Boolean */,
+    value: reader.readUint8() !== 0
+  };
+}
+function writeBoolean(writer, value) {
+  writer.writeUint8(value.value ? 1 : 0);
+}
+function compareBoolean(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readColor(reader) {
+  return {
+    type: "color" /* Color */,
+    value: reader.readString()
+  };
+}
+function writeColor(writer, value) {
+  writer.writeString(value.value);
+}
+function compareColor(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readDate(reader) {
+  const timestamp = reader.readInt64();
+  const date = new Date(timestamp);
+  return {
+    type: "date" /* Date */,
+    value: date.toISOString()
+  };
+}
+function writeDate(writer, value) {
+  const date = new Date(value.value);
+  const timestamp = date.getTime();
+  writer.writeInt64(timestamp);
+}
+function compareDate(left, right) {
+  const leftDate = new Date(left.value);
+  const rightDate = new Date(right.value);
+  if (leftDate < rightDate) return -1;
+  if (leftDate > rightDate) return 1;
+  return 0;
+}
+function readEnum(reader) {
+  return {
+    type: "enum" /* Enum */,
+    value: reader.readString()
+  };
+}
+function writeEnum(writer, value) {
+  writer.writeString(value.value);
+}
+function compareEnum(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readFile(reader) {
+  return {
+    type: "file" /* File */,
+    value: reader.readString()
+  };
+}
+function writeFile(writer, value) {
+  writer.writeString(value.value);
+}
+function compareFile(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readLink(reader) {
+  return {
+    type: "link" /* Link */,
+    value: reader.readJson()
+  };
+}
+function writeLink(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareLink(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readNumber(reader) {
+  return {
+    type: "number" /* Number */,
+    value: reader.readFloat64()
+  };
+}
+function writeNumber(writer, value) {
+  writer.writeFloat64(value.value);
+}
+function compareNumber(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readObject(reader) {
+  const length = reader.readUint16();
+  const result = {};
+  for (let i = 0; i < length; i++) {
+    const key = reader.readString();
+    result[key] = DatabaseValueModel.read(reader);
+  }
+  return {
+    type: "object" /* Object */,
+    value: result
+  };
+}
+function writeObject(writer, value) {
+  const entries = Object.entries(value.value);
+  writer.writeUint16(entries.length);
+  for (const [key, item] of entries) {
+    writer.writeString(key);
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareObject(left, right, collation) {
+  const leftKeys = Object.keys(left.value).sort();
+  const rightKeys = Object.keys(right.value).sort();
+  if (leftKeys.length < rightKeys.length) return -1;
+  if (leftKeys.length > rightKeys.length) return 1;
+  for (let i = 0; i < leftKeys.length; i++) {
+    const leftKey = leftKeys[i];
+    const rightKey = rightKeys[i];
+    if (leftKey < rightKey) return -1;
+    if (leftKey > rightKey) return 1;
+    const leftValue = left.value[leftKey] ?? null;
+    const rightValue = right.value[rightKey] ?? null;
+    const result = DatabaseValueModel.compare(leftValue, rightValue, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readResponsiveImage(reader) {
+  return {
+    type: "responsiveimage" /* ResponsiveImage */,
+    value: reader.readJson()
+  };
+}
+function writeResponsiveImage(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareResponsiveImage(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readRichText(reader) {
+  const type = reader.readInt8();
+  if (type === 0) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readUint32()
+    };
+  }
+  if (type === 1) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readString()
+    };
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function writeRichText(writer, value) {
+  if (isNumber(value.value)) {
+    writer.writeInt8(0);
+    writer.writeUint32(value.value);
+    return;
+  }
+  if (isString(value.value)) {
+    writer.writeInt8(1);
+    writer.writeString(value.value);
+    return;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function compareRichText(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (isNumber(leftValue) && isNumber(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  if (isString(leftValue) && isString(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function readString(reader) {
+  return {
+    type: "string" /* String */,
+    value: reader.readString()
+  };
+}
+function writeString(writer, value) {
+  writer.writeString(value.value);
+}
+function compareString(left, right, collation) {
+  let leftValue = left.value;
+  let rightValue = right.value;
+  if (collation.type === 0 /* CaseInsensitive */) {
+    leftValue = left.value.toLowerCase();
+    rightValue = right.value.toLowerCase();
+  }
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+function readVectorSetItem(reader) {
+  return {
+    type: "vectorsetitem" /* VectorSetItem */,
+    value: reader.readUint32()
+  };
+}
+function writeVectorSetItem(writer, value) {
+  writer.writeUint32(value.value);
+}
+function compareVectorSetItem(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseDictionaryIndexModel.ts
+var DatabaseDictionaryIndexModel = class _DatabaseDictionaryIndexModel {
+  constructor(fieldNames, options) {
+    this.fieldNames = fieldNames;
+    this.options = options;
+  }
+  fieldNames;
+  options;
+  entries = [];
+  sortEntries() {
+    this.entries.sort((left, right) => {
+      for (let i = 0; i < this.fieldNames.length; i++) {
+        const leftValue = left.values[i];
+        const rightValue = right.values[i];
+        const result = DatabaseValueModel.compare(leftValue, rightValue, this.options.collation);
+        if (result !== 0) return result;
+      }
+      return left.pointer.compare(right.pointer);
+    });
+  }
+  static async deserialize(bytes, yieldBeforeEntry) {
+    const reader = new BufferReader(bytes);
+    const collation = reader.readJson();
+    const fieldCount = reader.readUint8();
+    const fieldNames = [];
+    for (let i = 0; i < fieldCount; i++) {
+      const fieldName = reader.readString();
+      fieldNames.push(fieldName);
+    }
+    const index = new _DatabaseDictionaryIndexModel(fieldNames, {
+      collation
+    });
+    const entryCount = reader.readUint32();
+    const readEntry = () => {
+      const values = [];
+      for (let j = 0; j < fieldCount; j++) {
+        const fieldValue = DatabaseValueModel.read(reader);
+        values.push(fieldValue);
+      }
+      const pointer = DatabaseItemPointerModel.read(reader);
+      index.entries.push({ values, pointer });
+    };
+    for (let i = 0; i < entryCount; i++) {
+      const yieldPromise = yieldBeforeEntry?.();
+      if (yieldPromise) await yieldPromise;
+      readEntry();
+    }
+    return index;
+  }
+  serialize() {
+    const writer = new BufferWriter();
+    writer.writeJson(this.options.collation);
+    writer.writeUint8(this.fieldNames.length);
+    for (const fieldName of this.fieldNames) {
+      writer.writeString(fieldName);
+    }
+    this.sortEntries();
+    writer.writeUint32(this.entries.length);
+    for (const entry of this.entries) {
+      const { values, pointer } = entry;
+      for (const value of values) {
+        DatabaseValueModel.write(writer, value);
+      }
+      pointer.write(writer);
+    }
+    return writer.subarray();
+  }
+  addItem(item, pointer) {
+    const values = this.fieldNames.map((fieldName) => {
+      return item.getField(fieldName) ?? null;
+    });
+    this.entries.push({ values, pointer });
+  }
+};
+
+// src/code-generation/components/cms/bundled/fetchWithRetries.ts
+var maxRetries = 3;
+var baseDelay = 250;
+var retriableHTTPCodes = [
+  408,
+  // Request Timeout
+  429,
+  // Too Many Requests
+  500,
+  // Internal Server Error
+  502,
+  // Bad Gateway
+  503,
+  // Service Unavailable
+  504
+  // Gateway Timeout
+];
+var fetchWithRetries = async (input, init) => {
+  let retryCount = 0;
+  while (true) {
+    try {
+      const res = await fetch(input, init);
+      if (!retriableHTTPCodes.includes(res.status) || ++retryCount > maxRetries) {
+        return res;
+      }
+    } catch (error) {
+      if (init?.signal?.aborted || ++retryCount > maxRetries) {
+        throw error;
+      }
+    }
+    await retryDelay(retryCount);
+  }
+};
+async function retryDelay(retryCount) {
+  const backoffExponent = retryCount - 1;
+  const jitter = Math.random() + 1;
+  const timeout = Math.floor(baseDelay * jitter * 2 ** backoffExponent);
+  await new Promise((resolve) => {
+    setTimeout(resolve, timeout);
+  });
+}
+
+// src/code-generation/components/cms/bundled/rangeRequest.ts
+async function rangeRequest(url, ranges) {
+  const collapsedRanges = collapseRanges(ranges);
+  const rangeStrings = [];
+  let expectedLength = 0;
+  for (const range of collapsedRanges) {
+    rangeStrings.push(\`\${range.from}-\${range.to - 1}\`);
+    expectedLength += range.to - range.from;
+  }
+  const rangeUrl = new URL(url);
+  const rangeQuery = rangeStrings.join(",");
+  rangeUrl.searchParams.set("range", rangeQuery);
+  const response = await fetchWithRetries(rangeUrl);
+  if (response.status !== 200) {
+    throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+  }
+  const buffer = await response.arrayBuffer();
+  const bytes = new Uint8Array(buffer);
+  if (bytes.length !== expectedLength) {
+    throw new Error("Request failed: Unexpected response length");
+  }
+  const file = new PartialFile();
+  let start = 0;
+  for (const range of collapsedRanges) {
+    const length = range.to - range.from;
+    const end = start + length;
+    const part = bytes.subarray(start, end);
+    file.write(range.from, part);
+    start = end;
+  }
+  return ranges.map((range) => {
+    return file.read(range.from, range.to - range.from);
+  });
+}
+var PartialFile = class {
+  chunks = [];
+  read(position, length) {
+    for (const chunk of this.chunks) {
+      if (position < chunk.start) {
+        throw new Error("Missing data");
+      }
+      if (position > chunk.end) {
+        continue;
+      }
+      if (position + length > chunk.end) {
+        throw new Error("Missing data");
+      }
+      const from = position - chunk.start;
+      const to = from + length;
+      return chunk.data.slice(from, to);
+    }
+    throw new Error("Missing data");
+  }
+  write(position, data) {
+    let start = position;
+    let end = start + data.length;
+    let fromIndex = 0;
+    let toIndex = this.chunks.length;
+    for (; fromIndex < toIndex; fromIndex++) {
+      const chunk2 = this.chunks[fromIndex];
+      assert(chunk2, "Missing chunk");
+      if (start > chunk2.end) {
+        continue;
+      }
+      if (start > chunk2.start) {
+        const offset = start - chunk2.start;
+        const prefix = chunk2.data.subarray(0, offset);
+        data = join(prefix, data);
+        start = chunk2.start;
+      }
+      break;
+    }
+    for (; toIndex > fromIndex; toIndex--) {
+      const chunk2 = this.chunks[toIndex - 1];
+      assert(chunk2, "Missing chunk");
+      if (end < chunk2.start) {
+        continue;
+      }
+      if (end < chunk2.end) {
+        const offset = end - chunk2.start;
+        const suffix = chunk2.data.subarray(offset);
+        data = join(data, suffix);
+        end = chunk2.end;
+      }
+      break;
+    }
+    const chunk = {
+      start,
+      end,
+      data
+    };
+    const deleteCount = toIndex - fromIndex;
+    this.chunks.splice(fromIndex, deleteCount, chunk);
+  }
+};
+function join(left, right) {
+  const length = left.length + right.length;
+  const result = new Uint8Array(length);
+  result.set(left, 0);
+  result.set(right, left.length);
+  return result;
+}
+function collapseRanges(ranges) {
+  assert(ranges.length > 0, "Must have at least one range");
+  const sorted = [...ranges].sort((a, b) => a.from - b.from);
+  const collapsed = [];
+  for (const range of sorted) {
+    const index = collapsed.length - 1;
+    const previous = collapsed[index];
+    if (previous && range.from <= previous.to) {
+      collapsed[index] = {
+        from: previous.from,
+        to: Math.max(previous.to, range.to)
+      };
+    } else {
+      collapsed.push(range);
+    }
+  }
+  return collapsed;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.legacy.ts
+var DatabaseDictionaryIndex = class {
+  constructor(options) {
+    this.options = options;
+    const schema = {};
+    const fields = [];
+    for (const fieldName of this.options.fieldNames) {
+      const definition = this.options.collectionSchema[fieldName];
+      assert(definition, "Missing definition for field", fieldName);
+      schema[fieldName] = definition;
+      fields.push({ type: "Identifier", name: fieldName });
+    }
+    this.schema = schema;
+    this.fields = fields;
+    this.collation = this.options.collation;
+  }
+  options;
+  schema;
+  fields;
+  supportedLookupTypes = [
+    "All" /* All */,
+    "Equals" /* Equals */,
+    "NotEquals" /* NotEquals */,
+    "LessThan" /* LessThan */,
+    "GreaterThan" /* GreaterThan */,
+    "Contains" /* Contains */,
+    "StartsWith" /* StartsWith */,
+    "EndsWith" /* EndsWith */
+  ];
+  modelPromise;
+  model;
+  collation;
+  async loadModel() {
+    const [bytes] = await rangeRequest(this.options.url, [this.options.range]);
+    assert(bytes, "Failed to load model");
+    return DatabaseDictionaryIndexModel.deserialize(bytes);
+  }
+  async getModel() {
+    this.modelPromise ??= this.loadModel();
+    this.model ??= await this.modelPromise;
+    return this.model;
+  }
+  async lookupItems(queries) {
+    assert(queries.length === this.fields.length, "Invalid query length");
+    const model = await this.getModel();
+    const chunks = queries.reduce(
+      (memo, query, position) => memo.flatMap((entries) => {
+        switch (query.type) {
+          case "All" /* All */:
+            return [entries];
+          case "Equals" /* Equals */:
+            return this.queryEquals(entries, query, position);
+          case "NotEquals" /* NotEquals */:
+            return this.queryNotEquals(entries, query, position);
+          case "LessThan" /* LessThan */:
+            return this.queryLessThan(entries, query, position);
+          case "GreaterThan" /* GreaterThan */:
+            return this.queryGreaterThan(entries, query, position);
+          case "Contains" /* Contains */:
+            return this.queryContains(entries, query, position);
+          case "StartsWith" /* StartsWith */:
+            return this.queryStartsWith(entries, query, position);
+          case "EndsWith" /* EndsWith */:
+            return this.queryEndsWith(entries, query, position);
+          default:
+            assertNever(query);
+        }
+      }),
+      [model.entries]
+    );
+    const result = [];
+    for (const entries of chunks) {
+      for (const entry of entries) {
+        const data = {};
+        for (let i = 0; i < this.options.fieldNames.length; i++) {
+          const fieldName = this.options.fieldNames[i];
+          const fieldValue = entry.values[i];
+          data[fieldName] = fieldValue;
+        }
+        result.push({ pointer: entry.pointer.toString(), data });
+      }
+    }
+    return result;
+  }
+  queryEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(leftMost, rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryNotEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const result = [];
+    const before = entries.slice(0, leftMost);
+    if (before.length > 0) result.push(before);
+    const after = entries.slice(rightMost + 1);
+    if (after.length > 0) result.push(after);
+    return result;
+  }
+  queryLessThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const rightMost = this.getRightMost(entries, position, query.value);
+      const slice2 = entries.slice(0, rightMost + 1);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const slice = entries.slice(0, leftMost);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryGreaterThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const leftMost = this.getLeftMost(entries, position, query.value);
+      const slice2 = entries.slice(leftMost);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryContains(entries, query, position) {
+    return this.findItems(entries, position, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.includes(target);
+    });
+  }
+  queryStartsWith(entries, query, position) {
+    return this.findItems(entries, position, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.startsWith(target);
+    });
+  }
+  queryEndsWith(entries, query, position) {
+    return this.findItems(entries, position, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.endsWith(target);
+    });
+  }
+  /**
+   * Returns the index of the left most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *   Left most
+   *       \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the left most entry that is equal to the target.
+   */
+  getLeftMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) < 0) {
+        left = middle + 1;
+      } else {
+        right = middle;
+      }
+    }
+    return left;
+  }
+  /**
+   * Returns the index of the right most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *              Right most
+   *                   \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the right most entry that is equal to the target.
+   */
+  getRightMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) > 0) {
+        right = middle;
+      } else {
+        left = middle + 1;
+      }
+    }
+    return right - 1;
+  }
+  /**
+   * Finds all items that are matching the predicate and groups adjacent items together.
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param predicate The predicate to match the values against.
+   * @returns An array of chunks that match the predicate.
+   */
+  findItems(entries, position, predicate) {
+    const result = [];
+    let start = 0;
+    for (let i = 0; i < entries.length; i++) {
+      const entry = entries[i];
+      const value = entry.values[position];
+      const isMatching = predicate(value);
+      if (isMatching) continue;
+      if (start < i) {
+        const slice = entries.slice(start, i);
+        result.push(slice);
+      }
+      start = i + 1;
+    }
+    if (start < entries.length) {
+      const slice = entries.slice(start);
+      result.push(slice);
+    }
+    return result;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemModel.ts
+function readDatabaseItemData(reader) {
+  const data = {};
+  const fieldCount = reader.readUint16();
+  for (let i = 0; i < fieldCount; i++) {
+    const key = reader.readString();
+    data[key] = DatabaseValueModel.read(reader);
+  }
+  return data;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.legacy.ts?bundle
+var DatabaseChunk = class {
+  constructor(id, url) {
+    this.id = id;
+    this.url = url;
+  }
+  id;
+  url;
+  itemsPromise;
+  itemLoader = new import_dataloader.default(
+    async (pointers) => {
+      const ranges = pointers.map((pointer) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        return { from: pointerModel.offset, to: pointerModel.offset + pointerModel.length };
+      });
+      const rangeBytes = await rangeRequest(this.url, ranges);
+      return rangeBytes.map((bytes, index) => {
+        const reader = new BufferReader(bytes);
+        const data = readDatabaseItemData(reader);
+        const pointer = pointers[index];
+        assert(pointer, "Missing pointer");
+        return {
+          pointer,
+          data
+        };
+      });
+    },
+    { maxBatchSize: 250 }
+  );
+  scanItems() {
+    this.itemsPromise ??= fetchWithRetries(this.url).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+      }
+      const buffer = await response.arrayBuffer();
+      const bytes = new Uint8Array(buffer);
+      const reader = new BufferReader(bytes);
+      const items = [];
+      const itemCount = reader.readUint32();
+      for (let i = 0; i < itemCount; i++) {
+        const offset = reader.getOffset();
+        const data = readDatabaseItemData(reader);
+        const length = reader.getOffset() - offset;
+        const pointerModel = new DatabaseItemPointerModel(this.id, offset, length);
+        const pointer = pointerModel.toString();
+        const item = {
+          pointer,
+          data
+        };
+        this.itemLoader.prime(pointer, item);
+        items.push(item);
+      }
+      return items;
+    });
+    return this.itemsPromise;
+  }
+  resolveItem(pointer) {
+    return this.itemLoader.load(pointer);
+  }
+};
+var DatabaseCollection = class {
+  constructor(options) {
+    this.options = options;
+    this.chunks = this.options.chunks.map((url, id) => {
+      return new DatabaseChunk(id, url);
+    });
+    this.schema = options.schema;
+    this.indexes = options.indexes;
+    this.resolveRichText = options.resolveRichText;
+    this.resolveVectorSetItem = options.resolveVectorSetItem;
+    this.id = options.id;
+  }
+  options;
+  id;
+  schema;
+  indexes;
+  resolveRichText;
+  resolveVectorSetItem;
+  chunks;
+  async scanItems() {
+    const chunkedItems = await Promise.all(
+      this.chunks.map(async (chunk) => {
+        return chunk.scanItems();
+      })
+    );
+    return chunkedItems.flat();
+  }
+  resolveItems(pointers) {
+    return Promise.all(
+      pointers.map((pointer) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        const chunk = this.chunks[pointerModel.chunkId];
+        assert(chunk, "Missing chunk");
+        return chunk.resolveItem(pointer);
+      })
+    );
+  }
+  compareItems(left, right) {
+    const leftModel = DatabaseItemPointerModel.fromString(left.pointer);
+    const rightModel = DatabaseItemPointerModel.fromString(right.pointer);
+    return leftModel.compare(rightModel);
+  }
+  compareValues(left, right, collation) {
+    return DatabaseValueModel.compare(left, right, collation);
+  }
+};
+export {
+  DatabaseCollection,
+  DatabaseDictionaryIndex
+};
+`;
+var bc = `var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __commonJS = (cb, mod) => function __require() {
+  try {
+    return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  } catch (e) {
+    throw mod = 0, e;
+  }
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+
+// ../../../node_modules/dataloader/index.js
+var require_dataloader = __commonJS({
+  "../../../node_modules/dataloader/index.js"(exports, module) {
+    "use strict";
+    var DataLoader2 = /* @__PURE__ */ (function() {
+      function DataLoader3(batchLoadFn, options) {
+        if (typeof batchLoadFn !== "function") {
+          throw new TypeError("DataLoader must be constructed with a function which accepts " + ("Array<key> and returns Promise<Array<value>>, but got: " + batchLoadFn + "."));
+        }
+        this._batchLoadFn = batchLoadFn;
+        this._maxBatchSize = getValidMaxBatchSize(options);
+        this._batchScheduleFn = getValidBatchScheduleFn(options);
+        this._cacheKeyFn = getValidCacheKeyFn(options);
+        this._cacheMap = getValidCacheMap(options);
+        this._batch = null;
+        this.name = getValidName(options);
+      }
+      var _proto = DataLoader3.prototype;
+      _proto.load = function load(key) {
+        if (key === null || key === void 0) {
+          throw new TypeError("The loader.load() function must be called with a value, " + ("but got: " + String(key) + "."));
+        }
+        var batch = getCurrentBatch(this);
+        var cacheMap = this._cacheMap;
+        var cacheKey = this._cacheKeyFn(key);
+        if (cacheMap) {
+          var cachedPromise = cacheMap.get(cacheKey);
+          if (cachedPromise) {
+            var cacheHits = batch.cacheHits || (batch.cacheHits = []);
+            return new Promise(function(resolve) {
+              cacheHits.push(function() {
+                resolve(cachedPromise);
+              });
+            });
+          }
+        }
+        batch.keys.push(key);
+        var promise = new Promise(function(resolve, reject) {
+          batch.callbacks.push({
+            resolve,
+            reject
+          });
+        });
+        if (cacheMap) {
+          cacheMap.set(cacheKey, promise);
+        }
+        return promise;
+      };
+      _proto.loadMany = function loadMany(keys) {
+        if (!isArrayLike(keys)) {
+          throw new TypeError("The loader.loadMany() function must be called with Array<key> " + ("but got: " + keys + "."));
+        }
+        var loadPromises = [];
+        for (var i = 0; i < keys.length; i++) {
+          loadPromises.push(this.load(keys[i])["catch"](function(error) {
+            return error;
+          }));
+        }
+        return Promise.all(loadPromises);
+      };
+      _proto.clear = function clear(key) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          cacheMap["delete"](cacheKey);
+        }
+        return this;
+      };
+      _proto.clearAll = function clearAll() {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          cacheMap.clear();
+        }
+        return this;
+      };
+      _proto.prime = function prime(key, value) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          if (cacheMap.get(cacheKey) === void 0) {
+            var promise;
+            if (value instanceof Error) {
+              promise = Promise.reject(value);
+              promise["catch"](function() {
+              });
+            } else {
+              promise = Promise.resolve(value);
+            }
+            cacheMap.set(cacheKey, promise);
+          }
+        }
+        return this;
+      };
+      return DataLoader3;
+    })();
+    var enqueuePostPromiseJob = typeof process === "object" && typeof process.nextTick === "function" ? function(fn) {
+      if (!resolvedPromise) {
+        resolvedPromise = Promise.resolve();
+      }
+      resolvedPromise.then(function() {
+        process.nextTick(fn);
+      });
+    } : typeof setImmediate === "function" ? function(fn) {
+      setImmediate(fn);
+    } : function(fn) {
+      setTimeout(fn);
+    };
+    var resolvedPromise;
+    function getCurrentBatch(loader) {
+      var existingBatch = loader._batch;
+      if (existingBatch !== null && !existingBatch.hasDispatched && existingBatch.keys.length < loader._maxBatchSize) {
+        return existingBatch;
+      }
+      var newBatch = {
+        hasDispatched: false,
+        keys: [],
+        callbacks: []
+      };
+      loader._batch = newBatch;
+      loader._batchScheduleFn(function() {
+        dispatchBatch(loader, newBatch);
+      });
+      return newBatch;
+    }
+    function dispatchBatch(loader, batch) {
+      batch.hasDispatched = true;
+      if (batch.keys.length === 0) {
+        resolveCacheHits(batch);
+        return;
+      }
+      var batchPromise;
+      try {
+        batchPromise = loader._batchLoadFn(batch.keys);
+      } catch (e) {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function " + ("errored synchronously: " + String(e) + ".")));
+      }
+      if (!batchPromise || typeof batchPromise.then !== "function") {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise: " + String(batchPromise) + ".")));
+      }
+      batchPromise.then(function(values) {
+        if (!isArrayLike(values)) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise of an Array: " + String(values) + "."));
+        }
+        if (values.length !== batch.keys.length) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did not return a Promise of an Array of the same length as the Array of keys." + ("\\n\\nKeys:\\n" + String(batch.keys)) + ("\\n\\nValues:\\n" + String(values)));
+        }
+        resolveCacheHits(batch);
+        for (var i = 0; i < batch.callbacks.length; i++) {
+          var value = values[i];
+          if (value instanceof Error) {
+            batch.callbacks[i].reject(value);
+          } else {
+            batch.callbacks[i].resolve(value);
+          }
+        }
+      })["catch"](function(error) {
+        failedDispatch(loader, batch, error);
+      });
+    }
+    function failedDispatch(loader, batch, error) {
+      resolveCacheHits(batch);
+      for (var i = 0; i < batch.keys.length; i++) {
+        loader.clear(batch.keys[i]);
+        batch.callbacks[i].reject(error);
+      }
+    }
+    function resolveCacheHits(batch) {
+      if (batch.cacheHits) {
+        for (var i = 0; i < batch.cacheHits.length; i++) {
+          batch.cacheHits[i]();
+        }
+      }
+    }
+    function getValidMaxBatchSize(options) {
+      var shouldBatch = !options || options.batch !== false;
+      if (!shouldBatch) {
+        return 1;
+      }
+      var maxBatchSize = options && options.maxBatchSize;
+      if (maxBatchSize === void 0) {
+        return Infinity;
+      }
+      if (typeof maxBatchSize !== "number" || maxBatchSize < 1) {
+        throw new TypeError("maxBatchSize must be a positive number: " + maxBatchSize);
+      }
+      return maxBatchSize;
+    }
+    function getValidBatchScheduleFn(options) {
+      var batchScheduleFn = options && options.batchScheduleFn;
+      if (batchScheduleFn === void 0) {
+        return enqueuePostPromiseJob;
+      }
+      if (typeof batchScheduleFn !== "function") {
+        throw new TypeError("batchScheduleFn must be a function: " + batchScheduleFn);
+      }
+      return batchScheduleFn;
+    }
+    function getValidCacheKeyFn(options) {
+      var cacheKeyFn = options && options.cacheKeyFn;
+      if (cacheKeyFn === void 0) {
+        return function(key) {
+          return key;
+        };
+      }
+      if (typeof cacheKeyFn !== "function") {
+        throw new TypeError("cacheKeyFn must be a function: " + cacheKeyFn);
+      }
+      return cacheKeyFn;
+    }
+    function getValidCacheMap(options) {
+      var shouldCache = !options || options.cache !== false;
+      if (!shouldCache) {
+        return null;
+      }
+      var cacheMap = options && options.cacheMap;
+      if (cacheMap === void 0) {
+        return /* @__PURE__ */ new Map();
+      }
+      if (cacheMap !== null) {
+        var cacheFunctions = ["get", "set", "delete", "clear"];
+        var missingFunctions = cacheFunctions.filter(function(fnName) {
+          return cacheMap && typeof cacheMap[fnName] !== "function";
+        });
+        if (missingFunctions.length !== 0) {
+          throw new TypeError("Custom cacheMap missing methods: " + missingFunctions.join(", "));
+        }
+      }
+      return cacheMap;
+    }
+    function getValidName(options) {
+      if (options && options.name) {
+        return options.name;
+      }
+      return null;
+    }
+    function isArrayLike(x) {
+      return typeof x === "object" && x !== null && typeof x.length === "number" && (x.length === 0 || x.length > 0 && Object.prototype.hasOwnProperty.call(x, x.length - 1));
+    }
+    module.exports = DataLoader2;
+  }
+});
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.ts?bundle
+var import_dataloader = __toESM(require_dataloader(), 1);
+import { yieldToMain as yieldToMain2 } from "framer";
+
+// ../../shared/src/yield.ts
+function resolveSchedulerPriority(priority) {
+  return typeof priority === "function" ? priority() : priority;
+}
+var schedulerPriorityRank = /* @__PURE__ */ (() => ({
+  background: 0,
+  "user-visible": 1,
+  "user-blocking": 2
+}))();
+function isHigherSchedulerPriority(requested, current) {
+  return schedulerPriorityRank[requested] > schedulerPriorityRank[current];
+}
+
+// ../../library/src/utils/schedulerPriority.ts
+function getHighestSchedulerPriority(prioritySources) {
+  let highestPriority;
+  for (const source of prioritySources) {
+    const priority = resolveSchedulerPriority(source);
+    if (highestPriority === void 0 || isHigherSchedulerPriority(priority, highestPriority)) {
+      highestPriority = priority;
+    }
+    if (highestPriority === "user-blocking") return highestPriority;
+  }
+  return highestPriority;
+}
+
+// src/code-generation/components/cms/bundled/BufferReader.ts
+var BYTE_LENGTH = {
+  Uint8: 1,
+  Uint16: 2,
+  Uint32: 4,
+  BigUint64: 8,
+  Int8: 1,
+  Int16: 2,
+  Int32: 4,
+  BigInt64: 8,
+  Float32: 4,
+  Float64: 8
+};
+var BufferReader = class _BufferReader {
+  constructor(bytes) {
+    this.bytes = bytes;
+    this.view = getDataView(this.bytes);
+  }
+  bytes;
+  // TextDecoder has no per-decode state unless streaming is enabled. Reusing one class-owned decoder
+  // avoids constructing one for every CMS item, where each item gets its own BufferReader.
+  static textDecoder = new TextDecoder();
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  view;
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    throw new Error("Reading out of bounds");
+  }
+  readUint8() {
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    const value = this.view.getUint8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint16() {
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    const value = this.view.getUint16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint32() {
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    const value = this.view.getUint32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint64() {
+    const bigint = this.readBigUint64();
+    return Number(bigint);
+  }
+  readBigUint64() {
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    const value = this.view.getBigUint64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt8() {
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    const value = this.view.getInt8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt16() {
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    const value = this.view.getInt16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt32() {
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    const value = this.view.getInt32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt64() {
+    const bigint = this.readBigInt64();
+    return Number(bigint);
+  }
+  readBigInt64() {
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    const value = this.view.getBigInt64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat32() {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    const value = this.view.getFloat32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat64() {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    const value = this.view.getFloat64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readBytes(length) {
+    const start = this.offset;
+    const end = start + length;
+    const value = this.bytes.subarray(start, end);
+    this.offset = end;
+    return value;
+  }
+  readString() {
+    const length = this.readUint32();
+    const bytes = this.readBytes(length);
+    return _BufferReader.textDecoder.decode(bytes);
+  }
+  readJson() {
+    const string = this.readString();
+    return JSON.parse(string);
+  }
+};
+function getDataView(bytes) {
+  return new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.ts
+import { ControlType as ControlType2, yieldToMain } from "framer";
+
+// ../../library/src/utils/utils.ts
+var isWindow = typeof window !== "undefined";
+var supportsRequestIdleCallback = isWindow && typeof window.requestIdleCallback === "function";
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+function assertNever(condition) {
+  throw new Error(\`Unexpected value: \${condition}\`);
+}
+
+// src/code-generation/components/cms/bundled/BufferWriter.ts
+var INITIAL_BUFFER_SIZE = 1024;
+var GROWTH_FACTOR = 1.5;
+var maxUnsignedNumber = (bits) => 2 ** bits - 1;
+var minSignedNumber = (bits) => -(2 ** (bits - 1));
+var maxSignedNumber = (bits) => 2 ** (bits - 1) - 1;
+var MIN_VALUE = {
+  Uint8: 0,
+  Uint16: 0,
+  Uint32: 0,
+  Uint64: 0,
+  BigUint64: 0,
+  Int8: minSignedNumber(8),
+  Int16: minSignedNumber(16),
+  Int32: minSignedNumber(32),
+  Int64: Number.MIN_SAFE_INTEGER,
+  BigInt64: -(BigInt(2) ** BigInt(63))
+};
+var MAX_VALUE = {
+  Uint8: maxUnsignedNumber(8),
+  Uint16: maxUnsignedNumber(16),
+  Uint32: maxUnsignedNumber(32),
+  Uint64: Number.MAX_SAFE_INTEGER,
+  BigUint64: BigInt(2) ** BigInt(64) - BigInt(1),
+  Int8: maxSignedNumber(8),
+  Int16: maxSignedNumber(16),
+  Int32: maxSignedNumber(32),
+  Int64: Number.MAX_SAFE_INTEGER,
+  BigInt64: BigInt(2) ** BigInt(63) - BigInt(1)
+};
+function assertRange(value, min, max, dataType) {
+  assert(value >= min, value, "outside lower bound for", dataType);
+  assert(value <= max, value, "outside upper bound for", dataType);
+}
+var BufferWriter = class {
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  bytes = new Uint8Array(INITIAL_BUFFER_SIZE);
+  view = getDataView(this.bytes);
+  slice(start = 0, end = this.offset) {
+    return this.bytes.slice(start, end);
+  }
+  subarray(start = 0, end = this.offset) {
+    return this.bytes.subarray(start, end);
+  }
+  encoder = new TextEncoder();
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    const newLength = Math.ceil(oldLength * GROWTH_FACTOR) + requiredBytes;
+    const newBytes = new Uint8Array(newLength);
+    newBytes.set(this.bytes);
+    this.bytes = newBytes;
+    this.view = getDataView(newBytes);
+  }
+  writeUint8(value) {
+    assertRange(value, MIN_VALUE.Uint8, MAX_VALUE.Uint8, "Uint8");
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    this.view.setUint8(this.offset, value);
+    this.offset += size;
+  }
+  writeUint16(value) {
+    assertRange(value, MIN_VALUE.Uint16, MAX_VALUE.Uint16, "Uint16");
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    this.view.setUint16(this.offset, value);
+    this.offset += size;
+  }
+  writeUint32(value) {
+    assertRange(value, MIN_VALUE.Uint32, MAX_VALUE.Uint32, "Uint32");
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    this.view.setUint32(this.offset, value);
+    this.offset += size;
+  }
+  writeUint64(value) {
+    assertRange(value, MIN_VALUE.Uint64, MAX_VALUE.Uint64, "Uint64");
+    const bigint = BigInt(value);
+    this.writeBigUint64(bigint);
+  }
+  writeBigUint64(value) {
+    assertRange(value, MIN_VALUE.BigUint64, MAX_VALUE.BigUint64, "BigUint64");
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    this.view.setBigUint64(this.offset, value);
+    this.offset += size;
+  }
+  writeInt8(value) {
+    assertRange(value, MIN_VALUE.Int8, MAX_VALUE.Int8, "Int8");
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    this.view.setInt8(this.offset, value);
+    this.offset += size;
+  }
+  writeInt16(value) {
+    assertRange(value, MIN_VALUE.Int16, MAX_VALUE.Int16, "Int16");
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    this.view.setInt16(this.offset, value);
+    this.offset += size;
+  }
+  writeInt32(value) {
+    assertRange(value, MIN_VALUE.Int32, MAX_VALUE.Int32, "Int32");
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    this.view.setInt32(this.offset, value);
+    this.offset += size;
+  }
+  writeInt64(value) {
+    assertRange(value, MIN_VALUE.Int64, MAX_VALUE.Int64, "Int64");
+    const bigint = BigInt(value);
+    this.writeBigInt64(bigint);
+  }
+  writeBigInt64(value) {
+    assertRange(value, MIN_VALUE.BigInt64, MAX_VALUE.BigInt64, "BigInt64");
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    this.view.setBigInt64(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat32(value) {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    this.view.setFloat32(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat64(value) {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    this.view.setFloat64(this.offset, value);
+    this.offset += size;
+  }
+  writeBytes(value) {
+    const size = value.length;
+    this.ensureLength(size);
+    this.bytes.set(value, this.offset);
+    this.offset += size;
+  }
+  encodedStrings = /* @__PURE__ */ new Map();
+  encodeString(value) {
+    const cached = this.encodedStrings.get(value);
+    if (cached) return cached;
+    const bytes = this.encoder.encode(value);
+    this.encodedStrings.set(value, bytes);
+    return bytes;
+  }
+  writeString(value) {
+    const bytes = this.encodeString(value);
+    const size = bytes.length;
+    this.writeUint32(size);
+    this.writeBytes(bytes);
+  }
+  writeJson(value) {
+    const json = JSON.stringify(value);
+    this.writeString(json);
+  }
+};
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+function isNull(value) {
+  return value === null;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemPointerModel.ts
+var DatabaseItemPointerModel = class _DatabaseItemPointerModel {
+  constructor(chunkId, offset, length) {
+    this.chunkId = chunkId;
+    this.offset = offset;
+    this.length = length;
+  }
+  chunkId;
+  offset;
+  length;
+  static fromString(value) {
+    const [chunkId, offset, length] = value.split("/").map(Number);
+    assert(isNumber(chunkId), "Invalid chunkId");
+    assert(isNumber(offset), "Invalid offset");
+    assert(isNumber(length), "Invalid length");
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  toString() {
+    return \`\${this.chunkId}/\${this.offset}/\${this.length}\`;
+  }
+  static read(reader) {
+    const chunkId = reader.readUint16();
+    const offset = reader.readUint32();
+    const length = reader.readUint32();
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  write(writer) {
+    writer.writeUint16(this.chunkId);
+    writer.writeUint32(this.offset);
+    writer.writeUint32(this.length);
+  }
+  compare(other) {
+    if (this.chunkId < other.chunkId) return -1;
+    if (this.chunkId > other.chunkId) return 1;
+    if (this.offset < other.offset) return -1;
+    if (this.offset > other.offset) return 1;
+    assert(this.length === other.length);
+    return 0;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseValueModel.ts
+function getValueType(value) {
+  if (isNull(value)) {
+    return 0 /* Null */;
+  }
+  switch (value.type) {
+    case "array" /* Array */:
+      return 1 /* Array */;
+    case "boolean" /* Boolean */:
+      return 2 /* Boolean */;
+    case "color" /* Color */:
+      return 3 /* Color */;
+    case "date" /* Date */:
+      return 4 /* Date */;
+    case "enum" /* Enum */:
+      return 5 /* Enum */;
+    case "file" /* File */:
+      return 6 /* File */;
+    case "responsiveimage" /* ResponsiveImage */:
+      return 10 /* ResponsiveImage */;
+    case "link" /* Link */:
+      return 7 /* Link */;
+    case "number" /* Number */:
+      return 8 /* Number */;
+    case "object" /* Object */:
+      return 9 /* Object */;
+    case "richtext" /* RichText */:
+      return 11 /* RichText */;
+    case "string" /* String */:
+      return 12 /* String */;
+    case "vectorsetitem" /* VectorSetItem */:
+      return 13 /* VectorSetItem */;
+    default:
+      assertNever(value);
+  }
+}
+var DatabaseValueModel;
+((DatabaseValueModel2) => {
+  function read(reader) {
+    const type = reader.readUint8();
+    switch (type) {
+      case 0 /* Null */:
+        return null;
+      case 1 /* Array */:
+        return readArray(reader);
+      case 2 /* Boolean */:
+        return readBoolean(reader);
+      case 3 /* Color */:
+        return readColor(reader);
+      case 4 /* Date */:
+        return readDate(reader);
+      case 5 /* Enum */:
+        return readEnum(reader);
+      case 6 /* File */:
+        return readFile(reader);
+      case 7 /* Link */:
+        return readLink(reader);
+      case 8 /* Number */:
+        return readNumber(reader);
+      case 9 /* Object */:
+        return readObject(reader);
+      case 10 /* ResponsiveImage */:
+        return readResponsiveImage(reader);
+      case 11 /* RichText */:
+        return readRichText(reader);
+      case 12 /* String */:
+        return readString(reader);
+      case 13 /* VectorSetItem */:
+        return readVectorSetItem(reader);
+      default:
+        assertNever(type);
+    }
+  }
+  DatabaseValueModel2.read = read;
+  function write(writer, value) {
+    const type = getValueType(value);
+    writer.writeUint8(type);
+    if (isNull(value)) return;
+    switch (value.type) {
+      case "array" /* Array */:
+        return writeArray(writer, value);
+      case "boolean" /* Boolean */:
+        return writeBoolean(writer, value);
+      case "color" /* Color */:
+        return writeColor(writer, value);
+      case "date" /* Date */:
+        return writeDate(writer, value);
+      case "enum" /* Enum */:
+        return writeEnum(writer, value);
+      case "file" /* File */:
+        return writeFile(writer, value);
+      case "link" /* Link */:
+        return writeLink(writer, value);
+      case "number" /* Number */:
+        return writeNumber(writer, value);
+      case "object" /* Object */:
+        return writeObject(writer, value);
+      case "responsiveimage" /* ResponsiveImage */:
+        return writeResponsiveImage(writer, value);
+      case "richtext" /* RichText */:
+        return writeRichText(writer, value);
+      case "vectorsetitem" /* VectorSetItem */:
+        return writeVectorSetItem(writer, value);
+      case "string" /* String */:
+        return writeString(writer, value);
+      default:
+        assertNever(value);
+    }
+  }
+  DatabaseValueModel2.write = write;
+  function compare(left, right, collation) {
+    const leftType = getValueType(left);
+    const rightType = getValueType(right);
+    if (leftType < rightType) return -1;
+    if (leftType > rightType) return 1;
+    if (isNull(left) || isNull(right)) return 0;
+    switch (left.type) {
+      case "array" /* Array */:
+        assert(right.type === "array" /* Array */);
+        return compareArray(left, right, collation);
+      case "boolean" /* Boolean */:
+        assert(right.type === "boolean" /* Boolean */);
+        return compareBoolean(left, right);
+      case "color" /* Color */:
+        assert(right.type === "color" /* Color */);
+        return compareColor(left, right);
+      case "date" /* Date */:
+        assert(right.type === "date" /* Date */);
+        return compareDate(left, right);
+      case "enum" /* Enum */:
+        assert(right.type === "enum" /* Enum */);
+        return compareEnum(left, right);
+      case "file" /* File */:
+        assert(right.type === "file" /* File */);
+        return compareFile(left, right);
+      case "link" /* Link */:
+        assert(right.type === "link" /* Link */);
+        return compareLink(left, right);
+      case "number" /* Number */:
+        assert(right.type === "number" /* Number */);
+        return compareNumber(left, right);
+      case "object" /* Object */:
+        assert(right.type === "object" /* Object */);
+        return compareObject(left, right, collation);
+      case "responsiveimage" /* ResponsiveImage */:
+        assert(right.type === "responsiveimage" /* ResponsiveImage */);
+        return compareResponsiveImage(left, right);
+      case "richtext" /* RichText */:
+        assert(right.type === "richtext" /* RichText */);
+        return compareRichText(left, right);
+      case "vectorsetitem" /* VectorSetItem */:
+        assert(right.type === "vectorsetitem" /* VectorSetItem */);
+        return compareVectorSetItem(left, right);
+      case "string" /* String */:
+        assert(right.type === "string" /* String */);
+        return compareString(left, right, collation);
+      default:
+        assertNever(left);
+    }
+  }
+  DatabaseValueModel2.compare = compare;
+})(DatabaseValueModel || (DatabaseValueModel = {}));
+function readArray(reader) {
+  const length = reader.readUint16();
+  const value = [];
+  for (let i = 0; i < length; i++) {
+    const item = DatabaseValueModel.read(reader);
+    value.push(item);
+  }
+  return {
+    type: "array" /* Array */,
+    value
+  };
+}
+function writeArray(writer, value) {
+  writer.writeUint16(value.value.length);
+  for (const item of value.value) {
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareArray(left, right, collation) {
+  const leftLength = left.value.length;
+  const rightLength = right.value.length;
+  if (leftLength < rightLength) return -1;
+  if (leftLength > rightLength) return 1;
+  for (let i = 0; i < leftLength; i++) {
+    const leftItem = left.value[i];
+    const rightItem = right.value[i];
+    const result = DatabaseValueModel.compare(leftItem, rightItem, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readBoolean(reader) {
+  return {
+    type: "boolean" /* Boolean */,
+    value: reader.readUint8() !== 0
+  };
+}
+function writeBoolean(writer, value) {
+  writer.writeUint8(value.value ? 1 : 0);
+}
+function compareBoolean(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readColor(reader) {
+  return {
+    type: "color" /* Color */,
+    value: reader.readString()
+  };
+}
+function writeColor(writer, value) {
+  writer.writeString(value.value);
+}
+function compareColor(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readDate(reader) {
+  const timestamp = reader.readInt64();
+  const date = new Date(timestamp);
+  return {
+    type: "date" /* Date */,
+    value: date.toISOString()
+  };
+}
+function writeDate(writer, value) {
+  const date = new Date(value.value);
+  const timestamp = date.getTime();
+  writer.writeInt64(timestamp);
+}
+function compareDate(left, right) {
+  const leftDate = new Date(left.value);
+  const rightDate = new Date(right.value);
+  if (leftDate < rightDate) return -1;
+  if (leftDate > rightDate) return 1;
+  return 0;
+}
+function readEnum(reader) {
+  return {
+    type: "enum" /* Enum */,
+    value: reader.readString()
+  };
+}
+function writeEnum(writer, value) {
+  writer.writeString(value.value);
+}
+function compareEnum(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readFile(reader) {
+  return {
+    type: "file" /* File */,
+    value: reader.readString()
+  };
+}
+function writeFile(writer, value) {
+  writer.writeString(value.value);
+}
+function compareFile(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readLink(reader) {
+  return {
+    type: "link" /* Link */,
+    value: reader.readJson()
+  };
+}
+function writeLink(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareLink(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readNumber(reader) {
+  return {
+    type: "number" /* Number */,
+    value: reader.readFloat64()
+  };
+}
+function writeNumber(writer, value) {
+  writer.writeFloat64(value.value);
+}
+function compareNumber(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readObject(reader) {
+  const length = reader.readUint16();
+  const result = {};
+  for (let i = 0; i < length; i++) {
+    const key = reader.readString();
+    result[key] = DatabaseValueModel.read(reader);
+  }
+  return {
+    type: "object" /* Object */,
+    value: result
+  };
+}
+function writeObject(writer, value) {
+  const entries = Object.entries(value.value);
+  writer.writeUint16(entries.length);
+  for (const [key, item] of entries) {
+    writer.writeString(key);
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareObject(left, right, collation) {
+  const leftKeys = Object.keys(left.value).sort();
+  const rightKeys = Object.keys(right.value).sort();
+  if (leftKeys.length < rightKeys.length) return -1;
+  if (leftKeys.length > rightKeys.length) return 1;
+  for (let i = 0; i < leftKeys.length; i++) {
+    const leftKey = leftKeys[i];
+    const rightKey = rightKeys[i];
+    if (leftKey < rightKey) return -1;
+    if (leftKey > rightKey) return 1;
+    const leftValue = left.value[leftKey] ?? null;
+    const rightValue = right.value[rightKey] ?? null;
+    const result = DatabaseValueModel.compare(leftValue, rightValue, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readResponsiveImage(reader) {
+  return {
+    type: "responsiveimage" /* ResponsiveImage */,
+    value: reader.readJson()
+  };
+}
+function writeResponsiveImage(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareResponsiveImage(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readRichText(reader) {
+  const type = reader.readInt8();
+  if (type === 0) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readUint32()
+    };
+  }
+  if (type === 1) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readString()
+    };
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function writeRichText(writer, value) {
+  if (isNumber(value.value)) {
+    writer.writeInt8(0);
+    writer.writeUint32(value.value);
+    return;
+  }
+  if (isString(value.value)) {
+    writer.writeInt8(1);
+    writer.writeString(value.value);
+    return;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function compareRichText(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (isNumber(leftValue) && isNumber(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  if (isString(leftValue) && isString(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function readString(reader) {
+  return {
+    type: "string" /* String */,
+    value: reader.readString()
+  };
+}
+function writeString(writer, value) {
+  writer.writeString(value.value);
+}
+function compareString(left, right, collation) {
+  let leftValue = left.value;
+  let rightValue = right.value;
+  if (collation.type === 0 /* CaseInsensitive */) {
+    leftValue = left.value.toLowerCase();
+    rightValue = right.value.toLowerCase();
+  }
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+function readVectorSetItem(reader) {
+  return {
+    type: "vectorsetitem" /* VectorSetItem */,
+    value: reader.readUint32()
+  };
+}
+function writeVectorSetItem(writer, value) {
+  writer.writeUint32(value.value);
+}
+function compareVectorSetItem(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseDictionaryIndexModel.ts
+var DatabaseDictionaryIndexModel = class _DatabaseDictionaryIndexModel {
+  constructor(fieldNames, options) {
+    this.fieldNames = fieldNames;
+    this.options = options;
+  }
+  fieldNames;
+  options;
+  entries = [];
+  sortEntries() {
+    this.entries.sort((left, right) => {
+      for (let i = 0; i < this.fieldNames.length; i++) {
+        const leftValue = left.values[i];
+        const rightValue = right.values[i];
+        const result = DatabaseValueModel.compare(leftValue, rightValue, this.options.collation);
+        if (result !== 0) return result;
+      }
+      return left.pointer.compare(right.pointer);
+    });
+  }
+  static async deserialize(bytes, yieldBeforeEntry) {
+    const reader = new BufferReader(bytes);
+    const collation = reader.readJson();
+    const fieldCount = reader.readUint8();
+    const fieldNames = [];
+    for (let i = 0; i < fieldCount; i++) {
+      const fieldName = reader.readString();
+      fieldNames.push(fieldName);
+    }
+    const index = new _DatabaseDictionaryIndexModel(fieldNames, {
+      collation
+    });
+    const entryCount = reader.readUint32();
+    const readEntry = () => {
+      const values = [];
+      for (let j = 0; j < fieldCount; j++) {
+        const fieldValue = DatabaseValueModel.read(reader);
+        values.push(fieldValue);
+      }
+      const pointer = DatabaseItemPointerModel.read(reader);
+      index.entries.push({ values, pointer });
+    };
+    for (let i = 0; i < entryCount; i++) {
+      const yieldPromise = yieldBeforeEntry?.();
+      if (yieldPromise) await yieldPromise;
+      readEntry();
+    }
+    return index;
+  }
+  serialize() {
+    const writer = new BufferWriter();
+    writer.writeJson(this.options.collation);
+    writer.writeUint8(this.fieldNames.length);
+    for (const fieldName of this.fieldNames) {
+      writer.writeString(fieldName);
+    }
+    this.sortEntries();
+    writer.writeUint32(this.entries.length);
+    for (const entry of this.entries) {
+      const { values, pointer } = entry;
+      for (const value of values) {
+        DatabaseValueModel.write(writer, value);
+      }
+      pointer.write(writer);
+    }
+    return writer.subarray();
+  }
+  addItem(item, pointer) {
+    const values = this.fieldNames.map((fieldName) => {
+      return item.getField(fieldName) ?? null;
+    });
+    this.entries.push({ values, pointer });
+  }
+};
+
+// src/code-generation/components/cms/bundled/fetchWithRetries.ts
+var maxRetries = 3;
+var baseDelay = 250;
+var retriableHTTPCodes = [
+  408,
+  // Request Timeout
+  429,
+  // Too Many Requests
+  500,
+  // Internal Server Error
+  502,
+  // Bad Gateway
+  503,
+  // Service Unavailable
+  504
+  // Gateway Timeout
+];
+var fetchWithRetries = async (input, init) => {
+  let retryCount = 0;
+  while (true) {
+    try {
+      const res = await fetch(input, init);
+      if (!retriableHTTPCodes.includes(res.status) || ++retryCount > maxRetries) {
+        return res;
+      }
+    } catch (error) {
+      if (init?.signal?.aborted || ++retryCount > maxRetries) {
+        throw error;
+      }
+    }
+    await retryDelay(retryCount);
+  }
+};
+async function retryDelay(retryCount) {
+  const backoffExponent = retryCount - 1;
+  const jitter = Math.random() + 1;
+  const timeout = Math.floor(baseDelay * jitter * 2 ** backoffExponent);
+  await new Promise((resolve) => {
+    setTimeout(resolve, timeout);
+  });
+}
+
+// src/code-generation/components/cms/bundled/rangeRequest.ts
+async function rangeRequest(url, ranges) {
+  const collapsedRanges = collapseRanges(ranges);
+  const rangeStrings = [];
+  let expectedLength = 0;
+  for (const range of collapsedRanges) {
+    rangeStrings.push(\`\${range.from}-\${range.to - 1}\`);
+    expectedLength += range.to - range.from;
+  }
+  const rangeUrl = new URL(url);
+  const rangeQuery = rangeStrings.join(",");
+  rangeUrl.searchParams.set("range", rangeQuery);
+  const response = await fetchWithRetries(rangeUrl);
+  if (response.status !== 200) {
+    throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+  }
+  const buffer = await response.arrayBuffer();
+  const bytes = new Uint8Array(buffer);
+  if (bytes.length !== expectedLength) {
+    throw new Error("Request failed: Unexpected response length");
+  }
+  const file = new PartialFile();
+  let start = 0;
+  for (const range of collapsedRanges) {
+    const length = range.to - range.from;
+    const end = start + length;
+    const part = bytes.subarray(start, end);
+    file.write(range.from, part);
+    start = end;
+  }
+  return ranges.map((range) => {
+    return file.read(range.from, range.to - range.from);
+  });
+}
+var PartialFile = class {
+  chunks = [];
+  read(position, length) {
+    for (const chunk of this.chunks) {
+      if (position < chunk.start) {
+        throw new Error("Missing data");
+      }
+      if (position > chunk.end) {
+        continue;
+      }
+      if (position + length > chunk.end) {
+        throw new Error("Missing data");
+      }
+      const from = position - chunk.start;
+      const to = from + length;
+      return chunk.data.slice(from, to);
+    }
+    throw new Error("Missing data");
+  }
+  write(position, data) {
+    let start = position;
+    let end = start + data.length;
+    let fromIndex = 0;
+    let toIndex = this.chunks.length;
+    for (; fromIndex < toIndex; fromIndex++) {
+      const chunk2 = this.chunks[fromIndex];
+      assert(chunk2, "Missing chunk");
+      if (start > chunk2.end) {
+        continue;
+      }
+      if (start > chunk2.start) {
+        const offset = start - chunk2.start;
+        const prefix = chunk2.data.subarray(0, offset);
+        data = join(prefix, data);
+        start = chunk2.start;
+      }
+      break;
+    }
+    for (; toIndex > fromIndex; toIndex--) {
+      const chunk2 = this.chunks[toIndex - 1];
+      assert(chunk2, "Missing chunk");
+      if (end < chunk2.start) {
+        continue;
+      }
+      if (end < chunk2.end) {
+        const offset = end - chunk2.start;
+        const suffix = chunk2.data.subarray(offset);
+        data = join(data, suffix);
+        end = chunk2.end;
+      }
+      break;
+    }
+    const chunk = {
+      start,
+      end,
+      data
+    };
+    const deleteCount = toIndex - fromIndex;
+    this.chunks.splice(fromIndex, deleteCount, chunk);
+  }
+};
+function join(left, right) {
+  const length = left.length + right.length;
+  const result = new Uint8Array(length);
+  result.set(left, 0);
+  result.set(right, left.length);
+  return result;
+}
+function collapseRanges(ranges) {
+  assert(ranges.length > 0, "Must have at least one range");
+  const sorted = [...ranges].sort((a, b) => a.from - b.from);
+  const collapsed = [];
+  for (const range of sorted) {
+    const index = collapsed.length - 1;
+    const previous = collapsed[index];
+    if (previous && range.from <= previous.to) {
+      collapsed[index] = {
+        from: previous.from,
+        to: Math.max(previous.to, range.to)
+      };
+    } else {
+      collapsed.push(range);
+    }
+  }
+  return collapsed;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.ts
+var DatabaseDictionaryIndex = class {
+  constructor(options) {
+    this.options = options;
+    const schema = {};
+    const fields = [];
+    for (const fieldName of this.options.fieldNames) {
+      const definition = this.options.collectionSchema[fieldName];
+      assert(definition, "Missing definition for field", fieldName);
+      schema[fieldName] = definition;
+      fields.push({ type: "Identifier", name: fieldName });
+    }
+    this.schema = schema;
+    this.fields = fields;
+    this.collation = this.options.collation;
+  }
+  options;
+  schema;
+  fields;
+  supportedLookupTypes = [
+    "All" /* All */,
+    "Equals" /* Equals */,
+    "NotEquals" /* NotEquals */,
+    "LessThan" /* LessThan */,
+    "GreaterThan" /* GreaterThan */,
+    "Contains" /* Contains */,
+    "StartsWith" /* StartsWith */,
+    "EndsWith" /* EndsWith */
+  ];
+  modelPromise;
+  model;
+  modelPrioritySources = /* @__PURE__ */ new Set();
+  collation;
+  async loadModel() {
+    const [bytes] = await rangeRequest(this.options.url, [this.options.range]);
+    assert(bytes, "Failed to load model");
+    return DatabaseDictionaryIndexModel.deserialize(bytes, () => {
+      const priority = getHighestSchedulerPriority(this.modelPrioritySources);
+      return priority ? yieldToMain({ batch: true, priority }) : void 0;
+    });
+  }
+  async getModel(priority) {
+    if (this.model) return this.model;
+    if (priority) this.modelPrioritySources.add(priority);
+    this.modelPromise ??= this.loadModel().finally(() => {
+      this.modelPrioritySources.clear();
+    });
+    this.model ??= await this.modelPromise;
+    return this.model;
+  }
+  async lookupItems(queries, priority) {
+    assert(queries.length === this.fields.length, "Invalid query length");
+    const model = await this.getModel(priority);
+    let chunks = [model.entries];
+    for (const [position, query] of queries.entries()) {
+      const nextChunks = [];
+      for (const entries of chunks) {
+        const yieldPromise = priority ? yieldToMain({ batch: true, priority: resolveSchedulerPriority(priority) }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        let matchingChunks;
+        switch (query.type) {
+          case "All" /* All */:
+            matchingChunks = [entries];
+            break;
+          case "Equals" /* Equals */:
+            matchingChunks = this.queryEquals(entries, query, position);
+            break;
+          case "NotEquals" /* NotEquals */:
+            matchingChunks = this.queryNotEquals(entries, query, position);
+            break;
+          case "LessThan" /* LessThan */:
+            matchingChunks = this.queryLessThan(entries, query, position);
+            break;
+          case "GreaterThan" /* GreaterThan */:
+            matchingChunks = this.queryGreaterThan(entries, query, position);
+            break;
+          case "Contains" /* Contains */:
+            matchingChunks = await this.queryContains(entries, query, position, priority);
+            break;
+          case "StartsWith" /* StartsWith */:
+            matchingChunks = await this.queryStartsWith(entries, query, position, priority);
+            break;
+          case "EndsWith" /* EndsWith */:
+            matchingChunks = await this.queryEndsWith(entries, query, position, priority);
+            break;
+          default:
+            assertNever(query);
+        }
+        nextChunks.push(...matchingChunks);
+      }
+      chunks = nextChunks;
+    }
+    const result = [];
+    for (const entries of chunks) {
+      for (const entry of entries) {
+        const yieldPromise = priority ? yieldToMain({ batch: true, priority: resolveSchedulerPriority(priority) }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        const data = {};
+        for (let i = 0; i < this.options.fieldNames.length; i++) {
+          const fieldName = this.options.fieldNames[i];
+          const fieldValue = entry.values[i];
+          data[fieldName] = fieldValue;
+        }
+        result.push({ pointer: entry.pointer.toString(), data });
+      }
+    }
+    return result;
+  }
+  queryEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(leftMost, rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryNotEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const result = [];
+    const before = entries.slice(0, leftMost);
+    if (before.length > 0) result.push(before);
+    const after = entries.slice(rightMost + 1);
+    if (after.length > 0) result.push(after);
+    return result;
+  }
+  queryLessThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const rightMost = this.getRightMost(entries, position, query.value);
+      const slice2 = entries.slice(0, rightMost + 1);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const slice = entries.slice(0, leftMost);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryGreaterThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const leftMost = this.getLeftMost(entries, position, query.value);
+      const slice2 = entries.slice(leftMost);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryContains(entries, query, position, priority) {
+    return this.findItems(entries, position, priority, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.includes(target);
+    });
+  }
+  queryStartsWith(entries, query, position, priority) {
+    return this.findItems(entries, position, priority, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.startsWith(target);
+    });
+  }
+  queryEndsWith(entries, query, position, priority) {
+    return this.findItems(entries, position, priority, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.endsWith(target);
+    });
+  }
+  /**
+   * Returns the index of the left most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *   Left most
+   *       \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the left most entry that is equal to the target.
+   */
+  getLeftMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) < 0) {
+        left = middle + 1;
+      } else {
+        right = middle;
+      }
+    }
+    return left;
+  }
+  /**
+   * Returns the index of the right most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *              Right most
+   *                   \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the right most entry that is equal to the target.
+   */
+  getRightMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) > 0) {
+        right = middle;
+      } else {
+        left = middle + 1;
+      }
+    }
+    return right - 1;
+  }
+  /**
+   * Finds all items that are matching the predicate and groups adjacent items together.
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param predicate The predicate to match the values against.
+   * @returns An array of chunks that match the predicate.
+   */
+  async findItems(entries, position, priority, predicate) {
+    const result = [];
+    let start = 0;
+    for (let i = 0; i < entries.length; i++) {
+      const yieldPromise = priority ? yieldToMain({ batch: true, priority: resolveSchedulerPriority(priority) }) : void 0;
+      if (yieldPromise) await yieldPromise;
+      const entry = entries[i];
+      const value = entry.values[position];
+      const isMatching = predicate(value);
+      if (isMatching) continue;
+      if (start < i) {
+        const slice = entries.slice(start, i);
+        result.push(slice);
+      }
+      start = i + 1;
+    }
+    if (start < entries.length) {
+      const slice = entries.slice(start);
+      result.push(slice);
+    }
+    return result;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemModel.ts
+function readDatabaseItemData(reader) {
+  const data = {};
+  const fieldCount = reader.readUint16();
+  for (let i = 0; i < fieldCount; i++) {
+    const key = reader.readString();
+    data[key] = DatabaseValueModel.read(reader);
+  }
+  return data;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.ts?bundle
+function* getRequestPrioritySources(requests) {
+  for (const request of requests) {
+    yield* request.prioritySources;
+  }
+}
+var DatabaseChunk = class {
+  constructor(id, url) {
+    this.id = id;
+    this.url = url;
+  }
+  id;
+  url;
+  itemsPromise;
+  isScanning = false;
+  scanPrioritySources = /* @__PURE__ */ new Set();
+  itemPrioritySources = /* @__PURE__ */ new Map();
+  itemLoader = new import_dataloader.default(
+    async (requests) => {
+      const ranges = requests.map(({ pointer }) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        return { from: pointerModel.offset, to: pointerModel.offset + pointerModel.length };
+      });
+      const rangeBytes = await rangeRequest(this.url, ranges);
+      const items = [];
+      for (let index = 0; index < rangeBytes.length; index++) {
+        const priority = getHighestSchedulerPriority(getRequestPrioritySources(requests));
+        const yieldPromise = priority ? yieldToMain2({ batch: true, priority }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        const bytes = rangeBytes[index];
+        assert(bytes, "Missing range bytes");
+        const reader = new BufferReader(bytes);
+        const data = readDatabaseItemData(reader);
+        const pointer = requests[index]?.pointer;
+        assert(pointer, "Missing pointer");
+        items.push({
+          pointer,
+          data
+        });
+      }
+      return items;
+    },
+    {
+      // capping to 250 avoids overly long URLs that can cause requests to fail with 414
+      maxBatchSize: 250,
+      // Different route workflows can request the same item. Keep DataLoader's cache keyed by the
+      // pointer while still carrying the strongest scheduling priority into the shared batch
+      cacheKeyFn: (request) => request.pointer
+    }
+  );
+  scanItems(priority) {
+    if (this.itemsPromise) {
+      if (this.isScanning && priority) this.scanPrioritySources.add(priority);
+      return this.itemsPromise;
+    }
+    this.isScanning = true;
+    if (priority) this.scanPrioritySources.add(priority);
+    this.itemsPromise = fetchWithRetries(this.url).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+      }
+      const buffer = await response.arrayBuffer();
+      const bytes = new Uint8Array(buffer);
+      const reader = new BufferReader(bytes);
+      const items = [];
+      const itemCount = reader.readUint32();
+      for (let i = 0; i < itemCount; i++) {
+        const priority2 = getHighestSchedulerPriority(this.scanPrioritySources);
+        const yieldPromise = priority2 ? yieldToMain2({ batch: true, priority: priority2 }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        const offset = reader.getOffset();
+        const data = readDatabaseItemData(reader);
+        const length = reader.getOffset() - offset;
+        const pointerModel = new DatabaseItemPointerModel(this.id, offset, length);
+        const pointer = pointerModel.toString();
+        const item = {
+          pointer,
+          data
+        };
+        this.itemLoader.prime({ pointer, prioritySources: /* @__PURE__ */ new Set() }, item);
+        items.push(item);
+      }
+      return items;
+    }).finally(() => {
+      this.isScanning = false;
+      this.scanPrioritySources.clear();
+    });
+    return this.itemsPromise;
+  }
+  resolveItem(pointer, priority) {
+    let prioritySources = this.itemPrioritySources.get(pointer);
+    if (!prioritySources) {
+      prioritySources = /* @__PURE__ */ new Set();
+      this.itemPrioritySources.set(pointer, prioritySources);
+    }
+    if (priority) prioritySources.add(priority);
+    const itemPromise = this.itemLoader.load({ pointer, prioritySources });
+    const removePointer = () => this.itemPrioritySources.delete(pointer);
+    void itemPromise.then(removePointer, removePointer);
+    return itemPromise;
+  }
+};
+var DatabaseCollection = class {
+  constructor(options) {
+    this.options = options;
+    this.chunks = this.options.chunks.map((url, id) => {
+      return new DatabaseChunk(id, url);
+    });
+    this.schema = options.schema;
+    this.indexes = options.indexes;
+    this.resolveRichText = options.resolveRichText;
+    this.resolveVectorSetItem = options.resolveVectorSetItem;
+    this.id = options.id;
+  }
+  options;
+  id;
+  schema;
+  indexes;
+  resolveRichText;
+  resolveVectorSetItem;
+  chunks;
+  async scanItems(priority) {
+    const chunkedItems = await Promise.all(
+      this.chunks.map(async (chunk) => {
+        return chunk.scanItems(priority);
+      })
+    );
+    return chunkedItems.flat();
+  }
+  resolveItems(pointers, priority) {
+    return Promise.all(
+      pointers.map((pointer) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        const chunk = this.chunks[pointerModel.chunkId];
+        assert(chunk, "Missing chunk");
+        return chunk.resolveItem(pointer, priority);
+      })
+    );
+  }
+  compareItems(left, right) {
+    const leftModel = DatabaseItemPointerModel.fromString(left.pointer);
+    const rightModel = DatabaseItemPointerModel.fromString(right.pointer);
+    return leftModel.compare(rightModel);
+  }
+  compareValues(left, right, collation) {
+    return DatabaseValueModel.compare(left, right, collation);
+  }
+};
+export {
+  DatabaseCollection,
+  DatabaseDictionaryIndex
+};
+`;
+var Ic = `// src/code-generation/components/cms/bundled/DraftDatabaseCollection.legacy.ts?bundle
+import { ControlType } from "framer";
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+
+// src/code-generation/components/cms/bundled/DraftDatabaseCollection.legacy.ts?bundle
+var DraftDatabaseCollection = class {
+  constructor(draftCollection, originalCollection, previousItemId, nextItemId) {
+    this.draftCollection = draftCollection;
+    this.originalCollection = originalCollection;
+    this.previousItemId = previousItemId;
+    this.nextItemId = nextItemId;
+    this.schema = originalCollection.schema;
+  }
+  draftCollection;
+  originalCollection;
+  previousItemId;
+  nextItemId;
+  schema;
+  // We cannot use the original indexes because the draft items
+  // are not in the original collection.
+  // Having no indexes means that we perform a full collection scan for every query.
+  indexes = [];
+  itemsPromise;
+  async getItems() {
+    const [[...draftItems], [...originalItems]] = await Promise.all([
+      this.draftCollection.scanItems(),
+      this.originalCollection.scanItems()
+    ]);
+    const lastDraftItem = draftItems.pop();
+    const firstOriginalItem = originalItems.shift();
+    if (lastDraftItem) {
+      draftItems.push({
+        ...lastDraftItem,
+        data: {
+          ...lastDraftItem.data,
+          [this.nextItemId]: firstOriginalItem?.data.id ?? null
+        }
+      });
+    }
+    if (firstOriginalItem) {
+      originalItems.unshift({
+        ...firstOriginalItem,
+        data: {
+          ...firstOriginalItem.data,
+          [this.previousItemId]: lastDraftItem?.data.id ?? null
+        }
+      });
+    }
+    return draftItems.map(draftItem).concat(...originalItems);
+  }
+  /**
+   * Get all items, updating pointers for draft items.
+   */
+  scanItems() {
+    this.itemsPromise ??= this.getItems();
+    return this.itemsPromise;
+  }
+  /**
+   * Depending on the pointer, resolve draft rich text from the draft
+   * collection, and original rich text from the original collection.
+   */
+  resolveRichText(pointer) {
+    if (isDraftRichTextPointer(pointer)) {
+      const originalPointer = undraftRichTextPointer(pointer);
+      return this.draftCollection.resolveRichText(originalPointer);
+    }
+    return this.originalCollection.resolveRichText(pointer);
+  }
+  resolveVectorSetItem(pointer) {
+    if (isDraftVectorSetItemPointer(pointer)) {
+      const originalPointer = undraftVectorSetItemPointer(pointer);
+      return this.draftCollection.resolveVectorSetItem?.(originalPointer);
+    }
+    return this.originalCollection.resolveVectorSetItem?.(pointer);
+  }
+  async resolveItems(pointers) {
+    const items = await this.scanItems();
+    return pointers.map((pointer) => {
+      const item = items.find((current) => current.pointer === pointer);
+      assert(item, "Item must exist");
+      return item;
+    });
+  }
+  /**
+   * Compare two items, the draft items should come first.
+   */
+  compareItems(left, right) {
+    const leftIsDraft = isDraftPointer(left.pointer);
+    const rightIsDraft = isDraftPointer(right.pointer);
+    if (leftIsDraft && rightIsDraft) {
+      const originalLeft = undraftItem(left);
+      const originalRight = undraftItem(right);
+      return this.draftCollection.compareItems(originalLeft, originalRight);
+    }
+    if (leftIsDraft) return -1;
+    if (rightIsDraft) return 1;
+    return this.originalCollection.compareItems(left, right);
+  }
+};
+var draftPrefix = "draft:";
+function isDraftPointer(pointer) {
+  return pointer.startsWith(draftPrefix);
+}
+function draftPointer(pointer) {
+  assert(!isDraftPointer(pointer), "Should be a non-draft pointer");
+  return draftPrefix + pointer;
+}
+function undraftPointer(pointer) {
+  assert(isDraftPointer(pointer), "Should be a draft pointer");
+  return pointer.slice(draftPrefix.length);
+}
+function isDraftRichTextPointer(pointer) {
+  if (isNumber(pointer)) {
+    return pointer < 0;
+  }
+  if (isString(pointer)) {
+    return pointer.startsWith(draftPrefix);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function draftRichTextPointer(pointer) {
+  assert(!isDraftRichTextPointer(pointer), "Should be a non-draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return draftPrefix + pointer;
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function undraftRichTextPointer(pointer) {
+  assert(isDraftRichTextPointer(pointer), "Should be a draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return pointer.slice(draftPrefix.length);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function isDraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  return pointer < 0;
+}
+function draftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(!isDraftVectorSetItemPointer(pointer), "Should be a non-draft vector set item pointer");
+  return -pointer - 1;
+}
+function undraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(isDraftVectorSetItemPointer(pointer), "Should be a draft vector set item pointer");
+  return -pointer - 1;
+}
+function draftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: draftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: draftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: draftPointer(item.pointer),
+    data
+  };
+}
+function undraftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: undraftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: undraftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: undraftPointer(item.pointer),
+    data
+  };
+}
+export {
+  DraftDatabaseCollection
+};
+`;
+var Cc = `// src/code-generation/components/cms/bundled/DraftDatabaseCollection.ts?bundle
+import { ControlType, yieldToMain } from "framer";
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+
+// src/code-generation/components/cms/bundled/DraftDatabaseCollection.ts?bundle
+var DraftDatabaseCollection = class {
+  constructor(draftCollection, originalCollection, previousItemId, nextItemId) {
+    this.draftCollection = draftCollection;
+    this.originalCollection = originalCollection;
+    this.previousItemId = previousItemId;
+    this.nextItemId = nextItemId;
+    this.schema = originalCollection.schema;
+  }
+  draftCollection;
+  originalCollection;
+  previousItemId;
+  nextItemId;
+  schema;
+  // We cannot use the original indexes because the draft items
+  // are not in the original collection.
+  // Having no indexes means that we perform a full collection scan for every query.
+  indexes = [];
+  itemsPromise;
+  async getItems() {
+    const [[...draftItems], [...originalItems]] = await Promise.all([
+      this.draftCollection.scanItems(),
+      this.originalCollection.scanItems()
+    ]);
+    const lastDraftItem = draftItems.pop();
+    const firstOriginalItem = originalItems.shift();
+    if (lastDraftItem) {
+      draftItems.push({
+        ...lastDraftItem,
+        data: {
+          ...lastDraftItem.data,
+          [this.nextItemId]: firstOriginalItem?.data.id ?? null
+        }
+      });
+    }
+    if (firstOriginalItem) {
+      originalItems.unshift({
+        ...firstOriginalItem,
+        data: {
+          ...firstOriginalItem.data,
+          [this.previousItemId]: lastDraftItem?.data.id ?? null
+        }
+      });
+    }
+    return draftItems.map(draftItem).concat(...originalItems);
+  }
+  /**
+   * Get all items, updating pointers for draft items.
+   */
+  scanItems() {
+    this.itemsPromise ??= this.getItems();
+    return this.itemsPromise;
+  }
+  /**
+   * Depending on the pointer, resolve draft rich text from the draft
+   * collection, and original rich text from the original collection.
+   */
+  resolveRichText(pointer) {
+    if (isDraftRichTextPointer(pointer)) {
+      const originalPointer = undraftRichTextPointer(pointer);
+      return this.draftCollection.resolveRichText(originalPointer);
+    }
+    return this.originalCollection.resolveRichText(pointer);
+  }
+  resolveVectorSetItem(pointer) {
+    if (isDraftVectorSetItemPointer(pointer)) {
+      const originalPointer = undraftVectorSetItemPointer(pointer);
+      return this.draftCollection.resolveVectorSetItem?.(originalPointer);
+    }
+    return this.originalCollection.resolveVectorSetItem?.(pointer);
+  }
+  async resolveItems(pointers, priority) {
+    const items = await this.scanItems();
+    const resolvedItems = [];
+    for (const pointer of pointers) {
+      const resolvedPriority = typeof priority === "function" ? priority() : priority;
+      const yieldPromise = resolvedPriority ? yieldToMain({ batch: true, priority: resolvedPriority }) : void 0;
+      if (yieldPromise) await yieldPromise;
+      const item = items.find((current) => current.pointer === pointer);
+      assert(item, "Item must exist");
+      resolvedItems.push(item);
+    }
+    return resolvedItems;
+  }
+  /**
+   * Compare two items, the draft items should come first.
+   */
+  compareItems(left, right) {
+    const leftIsDraft = isDraftPointer(left.pointer);
+    const rightIsDraft = isDraftPointer(right.pointer);
+    if (leftIsDraft && rightIsDraft) {
+      const originalLeft = undraftItem(left);
+      const originalRight = undraftItem(right);
+      return this.draftCollection.compareItems(originalLeft, originalRight);
+    }
+    if (leftIsDraft) return -1;
+    if (rightIsDraft) return 1;
+    return this.originalCollection.compareItems(left, right);
+  }
+};
+var draftPrefix = "draft:";
+function isDraftPointer(pointer) {
+  return pointer.startsWith(draftPrefix);
+}
+function draftPointer(pointer) {
+  assert(!isDraftPointer(pointer), "Should be a non-draft pointer");
+  return draftPrefix + pointer;
+}
+function undraftPointer(pointer) {
+  assert(isDraftPointer(pointer), "Should be a draft pointer");
+  return pointer.slice(draftPrefix.length);
+}
+function isDraftRichTextPointer(pointer) {
+  if (isNumber(pointer)) {
+    return pointer < 0;
+  }
+  if (isString(pointer)) {
+    return pointer.startsWith(draftPrefix);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function draftRichTextPointer(pointer) {
+  assert(!isDraftRichTextPointer(pointer), "Should be a non-draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return draftPrefix + pointer;
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function undraftRichTextPointer(pointer) {
+  assert(isDraftRichTextPointer(pointer), "Should be a draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return pointer.slice(draftPrefix.length);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function isDraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  return pointer < 0;
+}
+function draftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(!isDraftVectorSetItemPointer(pointer), "Should be a non-draft vector set item pointer");
+  return -pointer - 1;
+}
+function undraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(isDraftVectorSetItemPointer(pointer), "Should be a draft vector set item pointer");
+  return -pointer - 1;
+}
+function draftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: draftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: draftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: draftPointer(item.pointer),
+    data
+  };
+}
+function undraftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: undraftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: undraftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: undraftPointer(item.pointer),
+    data
+  };
+}
+export {
+  DraftDatabaseCollection
+};
+`;
+function li(t) {
+  return m`${t}.replace("/modules/", "/cms/")`;
+}
+function zu(t) {
+  return t !== null && typeof t == "object" && "requestId" in t && typeof t.requestId == "number";
+}
+function Pu(t) {
+  return zu(t) && "data" in t;
+}
+var Zo = class {
+  constructor(e, n = {}) {
+    this.url = e;
+    this.options = n;
+  }
+  url;
+  options;
+  worker;
+  disabled = !1;
+  idleTimer;
+  requestId = 0;
+  pendingResponses = new Map();
+  get enabled() {
+    return !this.disabled;
+  }
+  get pending() {
+    let e = Array.from(this.pendingResponses.values(), (n) => n.promise);
+    if (e.length !== 0) return Promise.all(e).then(() => {});
+  }
+  postMessage(e) {
+    if (this.disabled) return;
+    let n = this.getWorker();
+    if (!n) return;
+    let o = ++this.requestId,
+      r = { requestId: o, data: e },
+      i = () => {},
+      a = new Promise((s) => {
+        i = s;
+      }),
+      l;
+    (this.options.responseTimeoutMs !== void 0 &&
+      (l = setTimeout(() => {
+        (this.options.onFailure?.(`worker response timed out for request ${o}`), this.dispose());
+      }, this.options.responseTimeoutMs)),
+      this.pendingResponses.set(o, { resolve: i, promise: a, timer: l }));
+    try {
+      n.postMessage(r);
+    } catch (s) {
+      (this.options.onFailure?.("worker postMessage failed", s), this.dispose());
+    }
+    return a;
+  }
+  dispose() {
+    ((this.disabled = !0), this.terminateWorker(), this.resolvePendingResponses(void 0));
+  }
+  getWorker() {
+    if (!this.disabled && !(typeof Worker > "u")) {
+      if (
+        (this.idleTimer !== void 0 && (clearTimeout(this.idleTimer), (this.idleTimer = void 0)),
+        !this.worker)
+      ) {
+        try {
+          let e = {};
+          (this.options.credentials !== void 0 && (e.credentials = this.options.credentials),
+            this.options.name !== void 0 && (e.name = this.options.name),
+            this.options.type !== void 0 && (e.type = this.options.type),
+            (this.worker = new Worker(this.url, e)));
+        } catch (e) {
+          (this.options.onFailure?.("worker failed to start", e), this.dispose());
+          return;
+        }
+        (this.worker.addEventListener("message", (e) => {
+          Pu(e.data) && this.resolvePendingResponse(e.data.requestId, e.data.data);
+        }),
+          this.worker.addEventListener("error", (e) => {
+            (this.options.onFailure?.("worker error", e), this.dispose());
+          }),
+          this.worker.addEventListener("messageerror", (e) => {
+            (this.options.onFailure?.("worker message error", e), this.dispose());
+          }));
+      }
+      return this.worker;
+    }
+  }
+  resolvePendingResponse(e, n) {
+    let o = this.pendingResponses.get(e);
+    o &&
+      (o.timer !== void 0 && clearTimeout(o.timer),
+      o.resolve(n),
+      this.pendingResponses.delete(e),
+      this.scheduleTermination());
+  }
+  resolvePendingResponses(e) {
+    for (let n of Array.from(this.pendingResponses.keys())) this.resolvePendingResponse(n, e);
+  }
+  terminateWorker() {
+    (this.idleTimer !== void 0 && (clearTimeout(this.idleTimer), (this.idleTimer = void 0)),
+      this.worker?.terminate(),
+      (this.worker = void 0));
+  }
+  scheduleTermination() {
+    !this.worker ||
+      this.options.idleTimeoutMs === void 0 ||
+      (this.idleTimer !== void 0 && clearTimeout(this.idleTimer),
+      (this.idleTimer = setTimeout(() => {
+        if (this.pendingResponses.size > 0) {
+          this.scheduleTermination();
+          return;
+        }
+        this.terminateWorker();
+      }, this.options.idleTimeoutMs)));
+  }
+};
+var re = {
+    Uint8: 1,
+    Uint16: 2,
+    Uint32: 4,
+    BigUint64: 8,
+    Int8: 1,
+    Int16: 2,
+    Int32: 4,
+    BigInt64: 8,
+    Float32: 4,
+    Float64: 8,
+  },
+  er = class t {
+    constructor(e) {
+      this.bytes = e;
+      this.view = cn(this.bytes);
+    }
+    bytes;
+    static textDecoder = new TextDecoder();
+    offset = 0;
+    getOffset() {
+      return this.offset;
+    }
+    view;
+    ensureLength(e) {
+      let n = this.bytes.length;
+      if (!(this.offset + e <= n)) throw new Error("Reading out of bounds");
+    }
+    readUint8() {
+      let e = re.Uint8;
+      this.ensureLength(e);
+      let n = this.view.getUint8(this.offset);
+      return ((this.offset += e), n);
+    }
+    readUint16() {
+      let e = re.Uint16;
+      this.ensureLength(e);
+      let n = this.view.getUint16(this.offset);
+      return ((this.offset += e), n);
+    }
+    readUint32() {
+      let e = re.Uint32;
+      this.ensureLength(e);
+      let n = this.view.getUint32(this.offset);
+      return ((this.offset += e), n);
+    }
+    readUint64() {
+      let e = this.readBigUint64();
+      return Number(e);
+    }
+    readBigUint64() {
+      let e = re.BigUint64;
+      this.ensureLength(e);
+      let n = this.view.getBigUint64(this.offset);
+      return ((this.offset += e), n);
+    }
+    readInt8() {
+      let e = re.Int8;
+      this.ensureLength(e);
+      let n = this.view.getInt8(this.offset);
+      return ((this.offset += e), n);
+    }
+    readInt16() {
+      let e = re.Int16;
+      this.ensureLength(e);
+      let n = this.view.getInt16(this.offset);
+      return ((this.offset += e), n);
+    }
+    readInt32() {
+      let e = re.Int32;
+      this.ensureLength(e);
+      let n = this.view.getInt32(this.offset);
+      return ((this.offset += e), n);
+    }
+    readInt64() {
+      let e = this.readBigInt64();
+      return Number(e);
+    }
+    readBigInt64() {
+      let e = re.BigInt64;
+      this.ensureLength(e);
+      let n = this.view.getBigInt64(this.offset);
+      return ((this.offset += e), n);
+    }
+    readFloat32() {
+      let e = re.Float32;
+      this.ensureLength(e);
+      let n = this.view.getFloat32(this.offset);
+      return ((this.offset += e), n);
+    }
+    readFloat64() {
+      let e = re.Float64;
+      this.ensureLength(e);
+      let n = this.view.getFloat64(this.offset);
+      return ((this.offset += e), n);
+    }
+    readBytes(e) {
+      let n = this.offset,
+        o = n + e,
+        r = this.bytes.subarray(n, o);
+      return ((this.offset = o), r);
+    }
+    readString() {
+      let e = this.readUint32(),
+        n = this.readBytes(e);
+      return t.textDecoder.decode(n);
+    }
+    readJson() {
+      let e = this.readString();
+      return JSON.parse(e);
+    }
+  };
+function cn(t) {
+  return new DataView(t.buffer, t.byteOffset, t.byteLength);
+}
+var Mu = 1024,
+  ku = 1.5,
+  ci = (t) => 2 ** t - 1,
+  di = (t) => -(2 ** (t - 1)),
+  ui = (t) => 2 ** (t - 1) - 1,
+  Ze = {
+    Uint8: 0,
+    Uint16: 0,
+    Uint32: 0,
+    Uint64: 0,
+    BigUint64: 0,
+    Int8: di(8),
+    Int16: di(16),
+    Int32: di(32),
+    Int64: Number.MIN_SAFE_INTEGER,
+    BigInt64: -(BigInt(2) ** BigInt(63)),
+  },
+  et = {
+    Uint8: ci(8),
+    Uint16: ci(16),
+    Uint32: ci(32),
+    Uint64: Number.MAX_SAFE_INTEGER,
+    BigUint64: BigInt(2) ** BigInt(64) - BigInt(1),
+    Int8: ui(8),
+    Int16: ui(16),
+    Int32: ui(32),
+    Int64: Number.MAX_SAFE_INTEGER,
+    BigInt64: BigInt(2) ** BigInt(63) - BigInt(1),
+  };
+function tt(t, e, n, o) {
+  (Q(t >= e, t, "outside lower bound for", o), Q(t <= n, t, "outside upper bound for", o));
+}
+var Ft = class {
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  bytes = new Uint8Array(Mu);
+  view = cn(this.bytes);
+  slice(e = 0, n = this.offset) {
+    return this.bytes.slice(e, n);
+  }
+  subarray(e = 0, n = this.offset) {
+    return this.bytes.subarray(e, n);
+  }
+  encoder = new TextEncoder();
+  ensureLength(e) {
+    let n = this.bytes.length;
+    if (this.offset + e <= n) return;
+    let o = Math.ceil(n * ku) + e,
+      r = new Uint8Array(o);
+    (r.set(this.bytes), (this.bytes = r), (this.view = cn(r)));
+  }
+  writeUint8(e) {
+    tt(e, Ze.Uint8, et.Uint8, "Uint8");
+    let n = re.Uint8;
+    (this.ensureLength(n), this.view.setUint8(this.offset, e), (this.offset += n));
+  }
+  writeUint16(e) {
+    tt(e, Ze.Uint16, et.Uint16, "Uint16");
+    let n = re.Uint16;
+    (this.ensureLength(n), this.view.setUint16(this.offset, e), (this.offset += n));
+  }
+  writeUint32(e) {
+    tt(e, Ze.Uint32, et.Uint32, "Uint32");
+    let n = re.Uint32;
+    (this.ensureLength(n), this.view.setUint32(this.offset, e), (this.offset += n));
+  }
+  writeUint64(e) {
+    tt(e, Ze.Uint64, et.Uint64, "Uint64");
+    let n = BigInt(e);
+    this.writeBigUint64(n);
+  }
+  writeBigUint64(e) {
+    tt(e, Ze.BigUint64, et.BigUint64, "BigUint64");
+    let n = re.BigUint64;
+    (this.ensureLength(n), this.view.setBigUint64(this.offset, e), (this.offset += n));
+  }
+  writeInt8(e) {
+    tt(e, Ze.Int8, et.Int8, "Int8");
+    let n = re.Int8;
+    (this.ensureLength(n), this.view.setInt8(this.offset, e), (this.offset += n));
+  }
+  writeInt16(e) {
+    tt(e, Ze.Int16, et.Int16, "Int16");
+    let n = re.Int16;
+    (this.ensureLength(n), this.view.setInt16(this.offset, e), (this.offset += n));
+  }
+  writeInt32(e) {
+    tt(e, Ze.Int32, et.Int32, "Int32");
+    let n = re.Int32;
+    (this.ensureLength(n), this.view.setInt32(this.offset, e), (this.offset += n));
+  }
+  writeInt64(e) {
+    tt(e, Ze.Int64, et.Int64, "Int64");
+    let n = BigInt(e);
+    this.writeBigInt64(n);
+  }
+  writeBigInt64(e) {
+    tt(e, Ze.BigInt64, et.BigInt64, "BigInt64");
+    let n = re.BigInt64;
+    (this.ensureLength(n), this.view.setBigInt64(this.offset, e), (this.offset += n));
+  }
+  writeFloat32(e) {
+    let n = re.Float32;
+    (this.ensureLength(n), this.view.setFloat32(this.offset, e), (this.offset += n));
+  }
+  writeFloat64(e) {
+    let n = re.Float64;
+    (this.ensureLength(n), this.view.setFloat64(this.offset, e), (this.offset += n));
+  }
+  writeBytes(e) {
+    let n = e.length;
+    (this.ensureLength(n), this.bytes.set(e, this.offset), (this.offset += n));
+  }
+  encodedStrings = new Map();
+  encodeString(e) {
+    let n = this.encodedStrings.get(e);
+    if (n) return n;
+    let o = this.encoder.encode(e);
+    return (this.encodedStrings.set(e, o), o);
+  }
+  writeString(e) {
+    let n = this.encodeString(e),
+      o = n.length;
+    (this.writeUint32(o), this.writeBytes(n));
+  }
+  writeJson(e) {
+    let n = JSON.stringify(e);
+    this.writeString(n);
+  }
+};
+var dn = class t {
+  constructor(e, n, o) {
+    this.chunkId = e;
+    this.offset = n;
+    this.length = o;
+  }
+  chunkId;
+  offset;
+  length;
+  static fromString(e) {
+    let [n, o, r] = e.split("/").map(Number);
+    return (
+      Q(A(n), "Invalid chunkId"),
+      Q(A(o), "Invalid offset"),
+      Q(A(r), "Invalid length"),
+      new t(n, o, r)
+    );
+  }
+  toString() {
+    return `${this.chunkId}/${this.offset}/${this.length}`;
+  }
+  static read(e) {
+    let n = e.readUint16(),
+      o = e.readUint32(),
+      r = e.readUint32();
+    return new t(n, o, r);
+  }
+  write(e) {
+    (e.writeUint16(this.chunkId), e.writeUint32(this.offset), e.writeUint32(this.length));
+  }
+  compare(e) {
+    return this.chunkId < e.chunkId
+      ? -1
+      : this.chunkId > e.chunkId
+        ? 1
+        : this.offset < e.offset
+          ? -1
+          : this.offset > e.offset
+            ? 1
+            : (Q(this.length === e.length), 0);
+  }
+};
+function fi(t) {
+  if (rt(t)) return 0;
+  switch (t.type) {
+    case "array":
+      return 1;
+    case "boolean":
+      return 2;
+    case "color":
+      return 3;
+    case "date":
+      return 4;
+    case "enum":
+      return 5;
+    case "file":
+      return 6;
+    case "responsiveimage":
+      return 10;
+    case "link":
+      return 7;
+    case "number":
+      return 8;
+    case "object":
+      return 9;
+    case "richtext":
+      return 11;
+    case "string":
+      return 12;
+    case "vectorsetitem":
+      return 13;
+    default:
+      kn(t);
+  }
+}
+var Te;
+((o) => {
+  function t(r) {
+    let i = r.readUint8();
+    switch (i) {
+      case 0:
+        return null;
+      case 1:
+        return Bu(r);
+      case 2:
+        return Ou(r);
+      case 3:
+        return _u(r);
+      case 4:
+        return Gu(r);
+      case 5:
+        return Ju(r);
+      case 6:
+        return Xu(r);
+      case 7:
+        return ef(r);
+      case 8:
+        return of(r);
+      case 9:
+        return sf(r);
+      case 10:
+        return df(r);
+      case 11:
+        return pf(r);
+      case 12:
+        return gf(r);
+      case 13:
+        return Sf(r);
+      default:
+        kn(i);
+    }
+  }
+  o.read = t;
+  function e(r, i) {
+    let a = fi(i);
+    if ((r.writeUint8(a), !rt(i)))
+      switch (i.type) {
+        case "array":
+          return Fu(r, i);
+        case "boolean":
+          return Uu(r, i);
+        case "color":
+          return Wu(r, i);
+        case "date":
+          return Hu(r, i);
+        case "enum":
+          return Ku(r, i);
+        case "file":
+          return Yu(r, i);
+        case "link":
+          return tf(r, i);
+        case "number":
+          return rf(r, i);
+        case "object":
+          return lf(r, i);
+        case "responsiveimage":
+          return uf(r, i);
+        case "richtext":
+          return mf(r, i);
+        case "vectorsetitem":
+          return bf(r, i);
+        case "string":
+          return yf(r, i);
+        default:
+          kn(i);
+      }
+  }
+  o.write = e;
+  function n(r, i, a) {
+    let l = fi(r),
+      s = fi(i);
+    if (l < s) return -1;
+    if (l > s) return 1;
+    if (rt(r) || rt(i)) return 0;
+    switch (r.type) {
+      case "array":
+        return (Q(i.type === "array"), Au(r, i, a));
+      case "boolean":
+        return (Q(i.type === "boolean"), $u(r, i));
+      case "color":
+        return (Q(i.type === "color"), ju(r, i));
+      case "date":
+        return (Q(i.type === "date"), qu(r, i));
+      case "enum":
+        return (Q(i.type === "enum"), Qu(r, i));
+      case "file":
+        return (Q(i.type === "file"), Zu(r, i));
+      case "link":
+        return (Q(i.type === "link"), nf(r, i));
+      case "number":
+        return (Q(i.type === "number"), af(r, i));
+      case "object":
+        return (Q(i.type === "object"), cf(r, i, a));
+      case "responsiveimage":
+        return (Q(i.type === "responsiveimage"), ff(r, i));
+      case "richtext":
+        return (Q(i.type === "richtext"), hf(r, i));
+      case "vectorsetitem":
+        return (Q(i.type === "vectorsetitem"), If(r, i));
+      case "string":
+        return (Q(i.type === "string"), vf(r, i, a));
+      default:
+        kn(r);
+    }
+  }
+  o.compare = n;
+})((Te ||= {}));
+function Bu(t) {
+  let e = t.readUint16(),
+    n = [];
+  for (let o = 0; o < e; o++) {
+    let r = Te.read(t);
+    n.push(r);
+  }
+  return { type: "array", value: n };
+}
+function Fu(t, e) {
+  t.writeUint16(e.value.length);
+  for (let n of e.value) Te.write(t, n);
+}
+function Au(t, e, n) {
+  let o = t.value.length,
+    r = e.value.length;
+  if (o < r) return -1;
+  if (o > r) return 1;
+  for (let i = 0; i < o; i++) {
+    let a = t.value[i],
+      l = e.value[i],
+      s = Te.compare(a, l, n);
+    if (s !== 0) return s;
+  }
+  return 0;
+}
+function Ou(t) {
+  return { type: "boolean", value: t.readUint8() !== 0 };
+}
+function Uu(t, e) {
+  t.writeUint8(e.value ? 1 : 0);
+}
+function $u(t, e) {
+  return t.value < e.value ? -1 : t.value > e.value ? 1 : 0;
+}
+function _u(t) {
+  return { type: "color", value: t.readString() };
+}
+function Wu(t, e) {
+  t.writeString(e.value);
+}
+function ju(t, e) {
+  return t.value < e.value ? -1 : t.value > e.value ? 1 : 0;
+}
+function Gu(t) {
+  let e = t.readInt64(),
+    n = new Date(e);
+  return { type: "date", value: n.toISOString() };
+}
+function Hu(t, e) {
+  let o = new Date(e.value).getTime();
+  t.writeInt64(o);
+}
+function qu(t, e) {
+  let n = new Date(t.value),
+    o = new Date(e.value);
+  return n < o ? -1 : n > o ? 1 : 0;
+}
+function Ju(t) {
+  return { type: "enum", value: t.readString() };
+}
+function Ku(t, e) {
+  t.writeString(e.value);
+}
+function Qu(t, e) {
+  return t.value < e.value ? -1 : t.value > e.value ? 1 : 0;
+}
+function Xu(t) {
+  return { type: "file", value: t.readString() };
+}
+function Yu(t, e) {
+  t.writeString(e.value);
+}
+function Zu(t, e) {
+  return t.value < e.value ? -1 : t.value > e.value ? 1 : 0;
+}
+function ef(t) {
+  return { type: "link", value: t.readJson() };
+}
+function tf(t, e) {
+  t.writeJson(e.value);
+}
+function nf(t, e) {
+  let n = JSON.stringify(t.value),
+    o = JSON.stringify(e.value);
+  return n < o ? -1 : n > o ? 1 : 0;
+}
+function of(t) {
+  return { type: "number", value: t.readFloat64() };
+}
+function rf(t, e) {
+  t.writeFloat64(e.value);
+}
+function af(t, e) {
+  return t.value < e.value ? -1 : t.value > e.value ? 1 : 0;
+}
+function sf(t) {
+  let e = t.readUint16(),
+    n = {};
+  for (let o = 0; o < e; o++) {
+    let r = t.readString();
+    n[r] = Te.read(t);
+  }
+  return { type: "object", value: n };
+}
+function lf(t, e) {
+  let n = Object.entries(e.value);
+  t.writeUint16(n.length);
+  for (let [o, r] of n) (t.writeString(o), Te.write(t, r));
+}
+function cf(t, e, n) {
+  let o = Object.keys(t.value).sort(),
+    r = Object.keys(e.value).sort();
+  if (o.length < r.length) return -1;
+  if (o.length > r.length) return 1;
+  for (let i = 0; i < o.length; i++) {
+    let a = o[i],
+      l = r[i];
+    if (a < l) return -1;
+    if (a > l) return 1;
+    let s = t.value[a] ?? null,
+      c = e.value[l] ?? null,
+      f = Te.compare(s, c, n);
+    if (f !== 0) return f;
+  }
+  return 0;
+}
+function df(t) {
+  return { type: "responsiveimage", value: t.readJson() };
+}
+function uf(t, e) {
+  t.writeJson(e.value);
+}
+function ff(t, e) {
+  let n = JSON.stringify(t.value),
+    o = JSON.stringify(e.value);
+  return n < o ? -1 : n > o ? 1 : 0;
+}
+function pf(t) {
+  let e = t.readInt8();
+  if (e === 0) return { type: "richtext", value: t.readUint32() };
+  if (e === 1) return { type: "richtext", value: t.readString() };
+  throw new Error("Invalid rich text pointer");
+}
+function mf(t, e) {
+  if (A(e.value)) {
+    (t.writeInt8(0), t.writeUint32(e.value));
+    return;
+  }
+  if (L(e.value)) {
+    (t.writeInt8(1), t.writeString(e.value));
+    return;
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function hf(t, e) {
+  let n = t.value,
+    o = e.value;
+  if ((A(n) && A(o)) || (L(n) && L(o))) return n < o ? -1 : n > o ? 1 : 0;
+  throw new Error("Invalid rich text pointer");
+}
+function gf(t) {
+  return { type: "string", value: t.readString() };
+}
+function yf(t, e) {
+  t.writeString(e.value);
+}
+function vf(t, e, n) {
+  let o = t.value,
+    r = e.value;
+  return (
+    n.type === 0 && ((o = t.value.toLowerCase()), (r = e.value.toLowerCase())),
+    o < r ? -1 : o > r ? 1 : 0
+  );
+}
+function Sf(t) {
+  return { type: "vectorsetitem", value: t.readUint32() };
+}
+function bf(t, e) {
+  t.writeUint32(e.value);
+}
+function If(t, e) {
+  let n = t.value,
+    o = e.value;
+  return n < o ? -1 : n > o ? 1 : 0;
+}
+var tr = class t {
+  constructor(e, n) {
+    this.fieldNames = e;
+    this.options = n;
+  }
+  fieldNames;
+  options;
+  entries = [];
+  sortEntries() {
+    this.entries.sort((e, n) => {
+      for (let o = 0; o < this.fieldNames.length; o++) {
+        let r = e.values[o],
+          i = n.values[o],
+          a = Te.compare(r, i, this.options.collation);
+        if (a !== 0) return a;
+      }
+      return e.pointer.compare(n.pointer);
+    });
+  }
+  static async deserialize(e, n) {
+    let o = new er(e),
+      r = o.readJson(),
+      i = o.readUint8(),
+      a = [];
+    for (let f = 0; f < i; f++) {
+      let u = o.readString();
+      a.push(u);
+    }
+    let l = new t(a, { collation: r }),
+      s = o.readUint32(),
+      c = () => {
+        let f = [];
+        for (let d = 0; d < i; d++) {
+          let p = Te.read(o);
+          f.push(p);
+        }
+        let u = dn.read(o);
+        l.entries.push({ values: f, pointer: u });
+      };
+    for (let f = 0; f < s; f++) {
+      let u = n?.();
+      (u && (await u), c());
+    }
+    return l;
+  }
+  serialize() {
+    let e = new Ft();
+    (e.writeJson(this.options.collation), e.writeUint8(this.fieldNames.length));
+    for (let n of this.fieldNames) e.writeString(n);
+    (this.sortEntries(), e.writeUint32(this.entries.length));
+    for (let n of this.entries) {
+      let { values: o, pointer: r } = n;
+      for (let i of o) Te.write(e, i);
+      r.write(e);
+    }
+    return e.subarray();
+  }
+  addItem(e, n) {
+    let o = this.fieldNames.map((r) => e.getField(r) ?? null);
+    this.entries.push({ values: o, pointer: n });
+  }
+};
+var nr = class {
+  fields = new Map();
+  write(e) {
+    e.writeUint16(this.fields.size);
+    for (let [n, o] of this.fields) (e.writeString(n), Te.write(e, o));
+  }
+  setField(e, n) {
+    this.fields.set(e, n);
+  }
+  getField(e) {
+    return this.fields.get(e);
+  }
+};
+function qy(t) {
+  let e = {},
+    n = t.readUint16();
+  for (let o = 0; o < n; o++) {
+    let r = t.readString();
+    e[r] = Te.read(t);
+  }
+  return e;
+}
+var Cf = Z("serializeDatabase"),
+  pi = 4 * 1024 * 1024,
+  Tf = 5e3;
+function mi(t) {
+  let e = t.items.map(({ fields: d }) => {
+      let p = new nr();
+      for (let [g, h] of d) p.setField(g, h);
+      return p;
+    }),
+    n = t.indexes.map(({ fieldNames: d, collation: p }) => new tr(d, { collation: p }));
+  function o() {
+    let d = new Ft();
+    return (d.writeUint32(0), d);
+  }
+  let r = [],
+    i = 0,
+    a = o();
+  function l(d) {
+    let p = a.subarray(0, d);
+    (cn(p).setUint32(0, i), r.push(p));
+  }
+  for (let d of e) {
+    let p = a.getOffset();
+    (d.write(a),
+      a.getOffset() > pi && (l(p), (a = o()), (p = a.getOffset()), (i = 0), d.write(a)),
+      i++);
+    let g = new dn(r.length, p, a.getOffset() - p);
+    for (let h of n) h.addItem(d, g);
+  }
+  a.getOffset() > 0 && l();
+  let s = r.reduce((d, p) => d + p.length, 0);
+  t.disableIndexesForSmallCollections && s < Tf && (n.length = 0);
+  let c = [],
+    f = 1 / 0;
+  for (let d of n) {
+    let p = d.serialize();
+    if (p.length >= pi) {
+      Cf.warn("Skipping index:", p.length);
+      continue;
+    }
+    f + p.length > pi && (c.push([]), (f = 0));
+    let g = c.at(-1);
+    (C(g, "Chunk must exist"), g.push({ model: d, bytes: p }), (f += p.length));
+  }
+  let u = c.map((d) => {
+    let p = new Ft(),
+      g = d.map(({ model: h, bytes: y }) => {
+        let v = p.getOffset();
+        p.writeBytes(y);
+        let S = p.getOffset();
+        return {
+          fieldNames: h.fieldNames,
+          collation: h.options.collation,
+          range: { from: v, to: S },
+        };
+      });
+    return { bytes: p.subarray(), indexes: g };
+  });
+  return { itemChunks: r, indexChunks: u };
+}
+var Lf = Z("serializeDatabase"),
+  Rf = new Zo(vs("./serializeDatabaseWorker.js"), {
+    type: "module",
+    idleTimeoutMs: 3e4,
+    responseTimeoutMs: 12e4,
+    onFailure: (t, e) =>
+      Lf.reportErrorOncePerMinute(new Error("Database serialization worker failed"), {
+        message: t,
+        error: e,
+      }),
+  });
+async function Tc(t) {
+  return B.isOn("cmsCodeGenWorker") ? ((await Rf.postMessage(t)) ?? mi(t)) : mi(t);
+}
+async function Lc(t, e, n, o, r, i, a, l, s, c, f, u, d) {
+  let p = new Xo(t, e, n, a, r, c, f, l, s),
+    g = t.getPropertyControls(n, e),
+    h = Object.entries(g),
+    y = Ee(n, "includeDrafts"),
+    v = {
+      id: { type: Ye("string", a), isNullable: !1 },
+      [Dr]: { type: Ye("date", a), isNullable: !0 },
+      [Vr]: { type: Ye("date", a), isNullable: !0 },
+      [Ln]: { type: Ye("string", a), isNullable: !0 },
+      [Rn]: { type: Ye("string", a), isNullable: !0 },
+    };
+  function S($) {
+    return Ye($, a);
+  }
+  for (let [$, ce] of h) {
+    let De = Hl(ce, S);
+    De && (v[$] = De);
+  }
+  let b = f.dedupe("schema", new E(v, 0)),
+    D = Wl(t.variables),
+    R = t.getSlugVariable(),
+    N = B.isOn("preloadLoaderScheduling"),
+    w = N ? bc : Sc,
+    z = r.create(w),
+    M,
+    P,
+    Y = d ? !0 : void 0,
+    ne = B.isOn("cmsDatabase")
+      ? []
+      : t.getSortedChildren("public-only", "group-drafts").filter(($) => $.isDraft === Y),
+    j = crypto.randomUUID();
+  if (d) {
+    let $ = ae("collection", t.id);
+    if (
+      ((M = m`${a.addImport(`../${$}`, { exportSpecifier: "default", importBinding: "originalCollection" })}.collectionByLocaleId`),
+      ne.length === 0)
+    ) {
+      let Pe = { id: j, displayName: t.resolveValue("name") ?? "Unknown", collectionByLocaleId: M };
+      return m`${Pe}`;
+    }
+    let ce = N ? Cc : Ic,
+      De = r.create(ce);
+    P = a.addImport(De.submoduleImport, { exportSpecifier: "DraftDatabaseCollection" });
+  }
+  let J = a.addImport(z.submoduleImport, { exportSpecifier: "DatabaseCollection" }),
+    fe = {},
+    ie = new Map(),
+    ut = new Set();
+  for (let $ of Ee(n, d ? "includeDrafts" : "excludeDrafts")) (ie.set($.id, $), ut.add($.id));
+  for (let $ of y) {
+    let ce = [
+      { fieldNames: ["id"], collation: { type: 1 } },
+      { fieldNames: [Ln], collation: { type: 1 } },
+      { fieldNames: [Rn], collation: { type: 1 } },
+    ];
+    R &&
+      ce.push(
+        { fieldNames: ["id", R.id], collation: { type: 1 } },
+        { fieldNames: [R.id, "id"], collation: { type: 0 } }
+      );
+    for (let [oe] of h) ce.push({ fieldNames: [oe], collation: { type: 0 } });
+    let De = new Yo(),
+      Pe = ne.filter((oe) => Ro(oe, $.id) !== "exclude"),
+      Wt = [];
+    for (let oe = 0; oe < Pe.length; oe++) {
+      let pe = Pe[oe];
+      C(pe, "Node must exist");
+      let yn = No(pe, $, st, ut),
+        vn = ie.get(yn) ?? ie.get(st),
+        ft = [],
+        _e = (de, We) => ft.push([de, We]);
+      _e("id", { type: "string", value: pe.id });
+      let Kn = pe.createdAt;
+      Kn && _e(Dr, { type: "date", value: new Date(Kn).toISOString() });
+      let Qn = pe.updatedAt;
+      Qn && _e(Vr, { type: "date", value: new Date(Qn).toISOString() });
+      let Xn = Pe[oe - 1];
+      Xn && _e(Ln, { type: "string", value: Xn.id });
+      let ji = Pe[oe + 1];
+      ji && _e(Rn, { type: "string", value: ji.id });
+      let ou = {
+        resolveColor(de) {
+          return u.addColor(de);
+        },
+        resolveFile(de) {
+          return l.resolve(de)?.src;
+        },
+        resolveImage(de, We) {
+          return l.resolveResponsiveImage(de, { focalPoint: We });
+        },
+        resolveLink(de) {
+          let We = s.create(de);
+          if (!O(We) && !La(We)) return We;
+        },
+        resolveRichTextPointer(de) {
+          return p.add(de);
+        },
+        resolveVectorSetItemPointer(de) {
+          return De.add(de);
+        },
+      };
+      for (let [de, We] of h) {
+        let Gi = jl(de, We, D, g, pe);
+        if (O(Gi)) continue;
+        let ru = de === R?.id ? $ : vn,
+          Hi = Gl({ control: We, controlProp: Gi, resolvers: ou, locale: ru });
+        O(Hi) || _e(de, Hi);
+      }
+      Wt.push({ fields: ft });
+    }
+    let Tt = await Tc({ items: Wt, indexes: ce, disableIndexesForSmallCollections: !0 }),
+      $e = a.addImport(z.submoduleImport, { exportSpecifier: "DatabaseDictionaryIndex" }),
+      br = Tt.itemChunks.map((oe, pe) => li(i.create(`chunk-${$.id}-${pe}`, oi, oe))),
+      gn = [];
+    for (let oe = 0; oe < Tt.indexChunks.length; oe++) {
+      let pe = Tt.indexChunks[oe];
+      C(pe, "Chunk must exist");
+      let yn = li(i.create(`indexes-${$.id}-${oe}`, oi, pe.bytes)),
+        vn = pe.indexes.map((ft) => {
+          let _e = {
+            url: yn,
+            range: ft.range,
+            fieldNames: f.dedupe("fieldNames", ft.fieldNames),
+            collation: f.dedupe("collation", ft.collation),
+            collectionSchema: b,
+          };
+          return m`new ${$e}(${_e})`;
+        });
+      gn.push(...vn);
+    }
+    let Ir = De.serialize(e, o, f),
+      Jn = {
+        id: j + $.id,
+        schema: b,
+        chunks: br,
+        indexes: gn,
+        resolveRichText: p.resolveRichTextBinding,
+        resolveVectorSetItem: Ir,
+      };
+    if (M && P) {
+      let oe = m`new ${J}(${Jn})`,
+        pe = m`${M}[${$.id}]`;
+      fe[$.id] = m`new ${P}(${oe}, ${pe}, ${Ln}, ${Rn})`;
+    } else fe[$.id] = m`new ${J}(${Jn})`;
+  }
+  p.serialize();
+  let nt = { id: j, displayName: t.resolveValue("name") ?? "Unknown", collectionByLocaleId: fe };
+  return m`${nt}`;
+}
+var Nc = Se(async (t, e, n) => Promise.all([Rc(t.id, e, !1), Rc(t.id, e, !0)]));
+async function Rc(t, e, n) {
+  let { componentLoader: o, modulesStore: r, tree: i, assetMap: a } = e,
+    l = n ? "draftCollection" : "collection",
+    s = new Po(a),
+    c = new Ho(t),
+    f = new al(l, o, r, t),
+    u = i.getNodeWithTrait(t, _);
+  C(u, "Must have a source node to serialize");
+  let d = u.moduleSourceRevision,
+    p = Cl(u);
+  await Eo(p, r, o, "codegen-collection");
+  let { module: g } = Sl(o, r, u);
+  Qe("collection_update", { moduleId: g?.id, recordCount: u.getItemCount(), source: "unknown" });
+  let h = u.getSlugVariable()?.id,
+    y = new Vt(),
+    v = new Zt(l, o, r, y),
+    S = new To(y),
+    b = new Mo(u, v, y, void 0, i),
+    D = new Co(),
+    R = await Lc(u, o, i, r, f, c, v, s, b, y, S, D, n),
+    N = Xe("", {
+      framerRecordIdKey: "id",
+      framerSlug: h,
+      framerEnumToDisplayNameUtils: "2",
+      framerCollectionUtils: "1",
+      framerCollectionId: u.id,
+      framerColorSyntax: D.hasColorsOfType("wideGamut"),
+      framerAutoSizeImages: !0,
+      framerData: !0,
+    }),
+    w = y.create("data"),
+    z = zf(u, w, i, o, v, l),
+    M = xf(
+      v,
+      S,
+      w,
+      "id",
+      h,
+      u,
+      B.isOn("localizationModelUpdate") ? Ee(i, n ? "includeDrafts" : "excludeDrafts") : void 0
+    ),
+    P = m.joinLines(
+      ...v.statements,
+      ...S.list(),
+      N,
+      m`const ${w} = ${R}`,
+      m`export default ${w}`,
+      z,
+      ...Nf(u.variables, i.root.locales),
+      M
+    );
+  return {
+    type: l,
+    revision: d,
+    source: P,
+    artifacts: {
+      assets: new Set(s.keys),
+      binaryAssets: c.assets,
+      submodules: f.serialize(),
+      metrics: { nodes: u.getItemCount() },
+    },
+  };
+}
+function Nf(t, e) {
+  let n = [],
+    o = new E();
+  for (let r of t) {
+    if (r.type !== "enum") continue;
+    let i = new T(el(r.id));
+    (n.push(m`export const ${i} = ${oc(r, e, i)};`), (o[r.id] = i));
+  }
+  return (n.push(m`export const ${new T(wo)} = ${o};`), n);
+}
+function xf(t, e, n, o, r, i, a) {
+  let l = a ? Df(i, a) : void 0,
+    s = l ? e.dedupe("contentLocaleIdByRecordId", l) : void 0;
+  return m.joinLines(
+    m`export const utils = {`,
+    m`async getSlugByRecordId(id, locale) {`,
+    r ? Vf(t, e, n, o, r) : void 0,
+    m`},`,
+    m`async getRecordIdBySlug(slug, locale) {`,
+    r ? wf(t, e, n, o, r) : void 0,
+    m`},`,
+    a
+      ? m.joinLines(
+          m`getContentLocaleIdByRecordId(id, locale) {`,
+          s ? m`return ${s}[id]?.[locale?.id ?? ${st}]` : void 0,
+          m`},`
+        )
+      : void 0,
+    m`}`
+  );
+}
+function Df(t, e) {
+  let n = {},
+    o = e.find((i) => i.id === st) ?? e[0];
+  if (!o) return;
+  let r = new Set(e.map((i) => i.id));
+  for (let i of t.getSortedChildren("public-only", "group-drafts")) {
+    let a = {};
+    for (let l of e) {
+      if (Ro(i, l.id) !== "fallback") continue;
+      let s = No(i, l, o.id, r);
+      s !== l.id && (a[l.id] = s);
+    }
+    Object.keys(a).length > 0 && (n[i.id] = a);
+  }
+  if (Object.keys(n).length !== 0) return n;
+}
+function xc(t, e) {
+  let n = t.addImport("framer", { exportSpecifier: "QueryEngine" });
+  return e.dedupe("queryEngine", m`new ${n}()`);
+}
+function Vf(t, e, n, o, r) {
+  let i = xc(t, e),
+    a = {
+      from: { type: "Collection", data: n },
+      select: [{ type: "Identifier", name: r }],
+      where: {
+        type: "BinaryOperation",
+        operator: "==",
+        left: { type: "Identifier", name: o },
+        right: { type: "LiteralValue", value: m`id` },
+      },
+      limit: { type: "LiteralValue", value: 1 },
+    };
+  return m.joinLines(m`const [item] = await ${i}.query(${a}, locale)`, m`return item?.[${r}]`);
+}
+function wf(t, e, n, o, r) {
+  let i = xc(t, e),
+    a = {
+      from: { type: "Collection", data: n },
+      select: [{ type: "Identifier", name: o }],
+      where: {
+        type: "BinaryOperation",
+        operator: "==",
+        left: { type: "Identifier", name: r },
+        right: { type: "LiteralValue", value: m`slug` },
+      },
+      limit: { type: "LiteralValue", value: 1 },
+    };
+  return m.joinLines(m`const [item] = await ${i}.query(${a}, locale)`, m`return item?.[${o}]`);
+}
+function zf(t, e, n, o, r, i) {
+  let a = ai(t, o, n, r, void 0, i, "ContentManagement");
+  if (O(a)) return;
+  let l = r.addImport("framer", { exportSpecifier: "addPropertyControls" });
+  return T.fn(l, e, a);
+}
+function or({
+  componentName: t,
+  fontObjects: e,
+  fontReferences: n,
+  imports: o,
+  declarations: r,
+  sharedFontArrays: i = [],
+}) {
+  return m.joinLines(
+    ...r.list(),
+    T.fn(
+      o.addImport("framer", { exportSpecifier: "addFonts" }),
+      t,
+      En({ fontObjects: e, fontReferences: n, sharedFontArrays: i }),
+      { supportsExplicitInterCodegen: !0 }
+    )
+  );
+}
+function En({ fontObjects: t, fontReferences: e, sharedFontArrays: n = [] }) {
+  let o = [],
+    r = { explicitInter: !0, fonts: [] };
+  for (let i of t) {
+    try {
+      new URL(i.url);
+    } catch (a) {
+      throw new Error(
+        `Expected URL for font "${i.uiFamilyName}" to be a valid, absolute URL, but got: ${i.url}`,
+        { cause: a }
+      );
+    }
+    r.fonts.push(i);
+  }
+  o.push(r);
+  for (let i of e.values()) o.push(m`...${i}`);
+  for (let i of n) o.push(m`...${i}`);
+  return o;
+}
+var Dc = Se(async (t, { componentLoader: e, assetMap: n, tree: o, modulesStore: r }) => {
+  let i = new Vt(),
+    a = new Po(n),
+    l = new Zt("componentPresets", e, r, i),
+    s = new Mo(t, l, i, void 0, o),
+    c = new To(i),
+    f = new Ms(t, i),
+    u = new rl(t, o, f, c, i, l, a),
+    d = new il(i, f, u, a, s),
+    p = t.moduleSourceRevision,
+    g = {},
+    h = {},
+    y = t.getComponentPresets();
+  await Eo(
+    y.map((b) => b.componentIdentifier),
+    r,
+    e,
+    "codegen-component-presets"
+  );
+  let v = new Vt(),
+    S = new Lo(v);
+  for (let b of y) {
+    let D = e.reactComponentForIdentifier(b.componentIdentifier);
+    C(D, "Can't find react component for preset");
+    let R = b.getFontsForCodeGeneration(e);
+    await Oa.loadFonts(R);
+    let N = new Oo(S),
+      w = zt(Do(D, "onlyPresets"), b.getRawControlProps()),
+      z = Ml(b, D.properties, w, {
+        context: { assets: a, imports: l, links: s, fonts: N, fetches: d },
+      });
+    ((g[b.id] = new E(z)),
+      (N.fontObjects.size > 0 || N.fontReferences.size > 0) &&
+        (h[b.id] = En({ fontObjects: N.fontObjects, fontReferences: N.fontReferences })));
+  }
+  return [
+    {
+      revision: p,
+      type: "componentPresets",
+      source: m.joinLines(
+        ...l.statements,
+        m`export const props = ${g}`,
+        ...S.list(),
+        m`export const fonts = ${h}`
+      ),
+      artifacts: { assets: a.keys, metrics: { nodes: Object.keys(g).length } },
+    },
+  ];
+});
+var Pf = Z("CodeGenerationStore");
+function Vc(t, e, n) {
+  return (
+    n.add(t),
+    e[t]?.forEach((o) => {
+      n.has(o) || Vc(o, e, n);
+    }),
+    n
+  );
+}
+function Mf(t, e) {
+  let n = {};
+  for (let { fromNode: o, toNode: r } of e) {
+    let i = n[o] ?? new Set();
+    (i.add(r), (n[o] = i));
+  }
+  return Vc(t, n, new Set([t]));
+}
+var wc = Se(async (t, { componentLoader: e, tree: n, treeStore: o, modulesStore: r }) => {
+  let i = o.treeIndex,
+    a = U(`Prototype/${t.name || "Generated Prototype"}`),
+    l = n.get(t.homeNodeId);
+  C(l, () => `Can't serialize ${a}: home node must exist.`);
+  let s = n.getRect(l),
+    c = new Zt("prototype", e, r);
+  (c.addImport("react", { exportSpecifier: "*", importBinding: "React" }),
+    c.addImport("framer-motion", { exportSpecifier: "LayoutGroup" }),
+    c.addImport("framer", { exportSpecifier: "PageRoot" }),
+    c.addImport("framer", { exportSpecifier: "useInitialRouteComponent" }));
+  let f = {};
+  for (let h of Mf(l.id, i.getPrototypeScreenLinks(n, t.id))) {
+    let v = `../${ae("screen", h)}`;
+    try {
+      await gl(e, [Ge("screen", h, "default").value], r, "codegen-prototype");
+      let S = c.addImport(v, {
+        exportSpecifier: "default",
+        importBinding: "Screen",
+        lazy: h !== t.homeNodeId,
+      });
+      f[h] = { page: S, path: h };
+    } catch {
+      Pf.error("Missing module for prototype screen", { screenId: h });
+    }
+  }
+  let u = U(t.homeNodeId),
+    d = U(f),
+    p = m`${c.addImport("react", { exportSpecifier: "*", importBinding: "React" })}.useId`,
+    g = new T(
+      F.sections(
+        F.linesFrom(c.statements),
+        `const routes = ${d}`,
+        F.lines(
+          "function Prototype({ layoutId }: { layoutId?: string }): JSX.Element {",
+          `  const InitialRouteComponent = useInitialRouteComponent(routes, "${t.homeNodeId}")`,
+          `  const defaultLayoutId = ${T.fn(p)};`,
+          "  if (!InitialRouteComponent) return null",
+          "  return (",
+          "    <LayoutGroup id={layoutId ?? defaultLayoutId} inherit={false}>",
+          `      <PageRoot RootComponent={InitialRouteComponent} isWebsite={false} routeId={${u}} routes={routes} />`,
+          "    </LayoutGroup>",
+          "  )",
+          "}"
+        ),
+        F.lines(
+          Xe("This is a generated Framer component.", {
+            framerIntrinsicHeight: s?.height,
+            framerIntrinsicWidth: s?.width,
+            framerSupportedLayoutWidth: "fixed",
+            framerSupportedLayoutHeight: "fixed",
+            framerPrototype: !0,
+          }),
+          "const Component: React.ComponentType<{}> = React.memo(Prototype)",
+          "export default Component;"
+        ),
+        `Component.displayName = ${a};`
+      )
+    );
+  return [{ type: "prototype", source: g, revision: void 0 }];
+});
+async function rr(t, e, n, o, r, i) {
+  return Sa(e) &&
+    e.usesDOMRectCached() &&
+    !e.getDOMRect() &&
+    (await kf(e, o, n, r), !e.cache.getRawDOMRect(e.id) && i)
+    ? Zn.atOrigin(i)
+    : t.getRect(e);
+}
+async function kf(t, e, n, o) {
+  if (e) {
+    let a = (await e([t.id]))?.[0];
+    if (a) {
+      let { layoutMetrics: l } = a,
+        s = Zn.from(l);
+      t.cache.setRawDOMRect(t.id, s);
+      return;
+    }
+  }
+  if (!n) return;
+  let r = Ef(n, o);
+  if (r) {
+    let i = Zn.atOrigin(r);
+    t.cache.setRawDOMRect(t.id, i);
+  }
+}
+function Ef(t, e) {
+  if (!pt(t)) return;
+  let n = e.getPersistedModuleByLocalIdentifier(t);
+  if (!n) return;
+  let { intrinsicWidth: o, intrinsicHeight: r } = n.metadata;
+  if (A(o) && A(r)) return { width: o, height: r };
+}
+function fn(t, e) {
+  for (let [n, o] of t.rules) {
+    let r = e.get(o);
+    r ? r.push(n) : e.set(o, [n]);
+  }
+}
+function pn(t) {
+  let e = [];
+  for (let [n, o] of t) e.push(xe`${xe.join(o, ", ")} { ${n} }`);
+  return e;
+}
+function ir(t, e, n, o, r, i) {
+  return F.lines(
+    Xe("This is a generated Framer component.", r),
+    m`const ${t}: React.ComponentType<Props> = ${T.fn(i.addImport("framer", { exportSpecifier: "withCSS" }), n, o, e)} as typeof ${n};`,
+    m`export default ${t};`
+  );
+}
+var Ae = {
+    Screen: m`Screen`,
+    css: I.css,
+    ref: I.ref,
+    serializationHash: I.serializationHash,
+    sharedStyleClassNames: I.sharedStyleClassNames,
+    restProps: I.restProps,
+    refBinding: I.refBinding,
+  },
+  Bf = new Set(Object.values(Ae).map((t) => U(t))),
+  zc = Se(async (t, e, { serializationId: n, initialIntrinsicSize: o }) => {
+    let { modulesStore: r, tree: i } = e,
+      a = i.getScopeNodeFor(t);
+    if (!Re(a)) return [];
+    let l = i.get(t.id);
+    (C(l, "Must have a source node to serialize. This should be a primary variant."),
+      C(Re(a), "Must have a scope node to serialize. This should be a CanvasPage Node."));
+    let s = `FramerScreen${gt(t.id)}`,
+      c = Ge("screen", t.id, "default").value,
+      { jsx: f, ctx: u } = await Uo(l, a, e, new Set(Bf).add(s), n);
+    C(f, "There must be JSX to serialize.");
+    let d = u.imports,
+      p = await rr(i, l, c, e.measureNodes, r, o),
+      g = u.events.navigationTargets.size > 0,
+      h = u.events.variantOnAppearId.get(t.id),
+      y = u.events.keyBindHooks.size > 0,
+      v = [];
+    for (let j of u.events.navigationTargets) j !== Ol && v.push(j);
+    let S = u.fonts.fontObjects,
+      b = new Map(u.fonts.fontReferences),
+      D = [],
+      R = new Set(u.css.sharedStyleIds),
+      N = [];
+    for (let j of R) {
+      let J = ae("css", j),
+        fe = d.addImport(`../${J}`, { exportSpecifier: "*", importBinding: "sharedStyle" });
+      (N.push(fe),
+        D.push(
+          T.fn(
+            d.addImport("framer", { exportSpecifier: "getFontsFromSharedStyle" }),
+            m`${fe}.fonts`
+          )
+        ));
+    }
+    let w;
+    for (let j of u.componentPresetIds) {
+      w ??= d.addImport(`../${Fo}`, { exportSpecifier: "*", importBinding: "componentPresets" });
+      let J = m`${w}.fonts?.[${j}]`;
+      D.push(
+        m`(${J} ? ${T.fn(u.imports.addImport("framer", { exportSpecifier: "getFontsFromComponentPreset" }), J)} : [])`
+      );
+    }
+    let z = new Map();
+    fn(u.css.get(), z);
+    let M = new T(s),
+      P = d.addImport("react", { exportSpecifier: "useRef" }),
+      Y = a.resolveValue("name"),
+      ne = F.lines(
+        g && `const preload = ${U(v)};`,
+        ...u.variables.fallbackDeclarations(),
+        ...u.declarations.file.list(),
+        m`const ${Ae.serializationHash} = ${n}`,
+        m`const ${Ae.Screen} = ${Ff({ props: m`style, className` }, m`const fallbackRef = ${T.fn(m`${P}<HTMLElement>`, m`null`)}`, m`const ${Ae.refBinding} = ${Ae.ref} ?? fallbackRef`, g ? m`const navigate = ${T.fn(d.addImport("framer", { exportSpecifier: "usePrototypeNavigate" }), { preload: m`preload` })}` : void 0, m`const ${Ae.sharedStyleClassNames} = ${N.map((j) => m`${j}.className`)}`, ...u.declarations.component.list(), y && F.linesFrom(u.events.keyBindHooks), h && T.fn(d.addImport("framer", { exportSpecifier: "useOnAppear" }), h), m`return ${f}`)}`,
+        m`const ${Ae.css} = ${[...u.css.conditionalRules(n), ...pn(z), ...N.map((j) => m`...${j}.css`)]}`,
+        ir(
+          M,
+          n,
+          Ae.Screen,
+          Ae.css,
+          {
+            framerIntrinsicHeight: p.height,
+            framerIntrinsicWidth: p.width,
+            framerSupportedLayoutWidth: "fixed",
+            framerSupportedLayoutHeight: "fixed",
+            framerScreen: void 0,
+            framerDisplayContentsDiv: !1,
+          },
+          d
+        ),
+        m`${M}.displayName = ${`Screens/${Y ? Y.trim() : "Generated Component"}`};`,
+        m`${M}.defaultProps = ${{ width: p.width, height: p.height }};`,
+        or({
+          componentName: M,
+          fontObjects: S,
+          fontReferences: b,
+          imports: d,
+          declarations: u.declarations.font,
+          sharedFontArrays: D,
+        })
+      );
+    return [
+      {
+        type: "screen",
+        revision: void 0,
+        source: new T(F.sections(F.linesFrom(d.statements), ne)),
+        artifacts: {
+          assets: u.assets.keys,
+          packageDependencies: u.packages.dependencies,
+          metrics: u.metrics.get(),
+          cmsVersion: _o(d),
+        },
+      },
+    ];
+  });
+function Ff({ props: t }, ...e) {
+  return new T(
+    F.lines(m`React.forwardRef(function({ ${t}, ...${Ae.restProps} }, ${Ae.ref}) {`, ...e, m`});`)
+  );
+}
+var Mc = "{serializationId}";
+function Pc(t) {
+  return `.${Mc} ${t}`;
+}
+var kc = Se(async (t, { componentLoader: e, tree: n }, { serializationId: o }) => {
+  let r = new Vt(),
+    i = new Lo(r),
+    a = new Oo(i),
+    l = t.getFontsForCodeGeneration(),
+    s = t.moduleSourceRevision,
+    c = za(t);
+  for (let S of l) a.addFontObjectBySelector(S, c);
+  let f = [],
+    u = new Co(),
+    d = { componentLoader: e, colors: u };
+  for (let { selectors: S, declarations: b } of t.getCSS(d)) {
+    let D = S.map(Pc);
+    f.push(`${D.join(", ")} { ${b} }`);
+  }
+  let p = n
+    .getNodesWithTrait(t.cache.replicaInstances ?? [], Hs)
+    .filter(As)
+    .sort((S, b) => (b.breakpointWidth ?? 0) - (S.breakpointWidth ?? 0));
+  for (let S = 0; S < p.length; S++) {
+    let b = p[S];
+    if (O(b)) continue;
+    let D = p[S + 1],
+      R = b.breakpointWidth - 1,
+      N = D?.breakpointWidth ?? 0;
+    for (let { selectors: w, declarations: z } of b.getCSS(d)) {
+      let P = `${w.map(Pc).join(", ")} { ${z} }`;
+      f.push(`@media (max-width: ${R}px) and (min-width: ${N}px) { ${P} }`);
+    }
+  }
+  let g = u.getWideGamutColorRules(`.${o}`);
+  g.length && f.push(`@supports (color: color(display-p3 1 1 1)) { ${g.join(" ")} }`);
+  let h = f.map((S) => S.replaceAll(Mc, o)),
+    y = En({ fontObjects: a.fontObjects, fontReferences: a.fontReferences }),
+    v = m.joinLines(
+      m`import { fontStore } from "framer";`,
+      m`fontStore.loadFonts(${l});`,
+      ...i.list(),
+      m`export const fonts = ${y};`,
+      m`export const css = ${h};`,
+      m`export const className = ${o};`
+    );
+  return [{ revision: s, type: "css", source: v, artifacts: { metrics: { nodes: f.length } } }];
+});
+function hi(t) {
+  if (ba(t))
+    return {
+      widthType: t.widthType,
+      heightType: t.heightType,
+      ...(Ta(t)
+        ? {
+            minHeight: t.minHeight,
+            maxHeight: t.maxHeight,
+            minWidth: t.minWidth,
+            maxWidth: t.maxWidth,
+          }
+        : Ca),
+    };
+}
+function gi(t, e) {
+  if (va(e)) return { min: t.getRect(e).width };
+}
+var Af = new Set(Object.values(I).map((t) => U(t)));
+function Of(t, e) {
+  if (Gt(t)) {
+    let n = e.get(t.parentid);
+    return !ke(n) || !n.isLoaded() ? null : n;
+  }
+  return e.current(t);
+}
+var yi = Se(async (t, e, { serializationId: n, initialIntrinsicSize: o }) => {
+  let { modulesStore: r, tree: i, measureNodes: a } = e,
+    l = we(t, i) ? t.moduleSourceRevision : void 0,
+    s = Of(t, i);
+  C(s?.isLoaded(), "The scope node must be valid.");
+  let c = _l(s),
+    f = Be(s) ? s.baseVariantId : t.id,
+    u = i.get(f);
+  C(u, "Must have a source node to serialize. This should be a primary variant.");
+  let d = `Framer${t.id}`,
+    p = new T(d),
+    { jsx: g, ctx: h } = await Uo(u, s, e, new Set(Af).add(d), n);
+  C(g, "There must be JSX to serialize.");
+  let y = h.imports,
+    v = ke(s),
+    S = v ? void 0 : s.instanceIdentifier,
+    b = await rr(i, u, S, a, r, o),
+    D = Be(s) ? s.getReplicaVariants() : [],
+    { variants: R, hook: N } = h.preload.getHook(),
+    { gestures: w, breakpoints: z, classNames: M, sizes: P, appearEventMap: Y } = np(u, D, h, R),
+    ne = te(s) ? [s.baseVariantId, ...s.getTopLevelReplicaVariants().map(Wo)] : [],
+    j = ne.length > 1,
+    J = !mt(w),
+    fe = !mt(Y),
+    ie = !mt(z),
+    ut = m`${y.addImport("react", { exportSpecifier: "*", importBinding: "React" })}.useId`,
+    { mediaQueries: nt, sharedStyleImports: $, sharedFontArrays: ce, css: De } = Yf(n, h, D, z, s),
+    Pe = tp(s, h.componentLoader, h.declarations),
+    Wt = Je.applyTransforms(g, op(s, h, Xf(s, u, D, nt, i, h), ie ? I.baseVariant : void 0, Pe)),
+    Tt = Wf(s, h),
+    $e = Gf(s, h),
+    br = $e ? h.cmsCodegen.createDetailPageDataCode($e) : void 0,
+    gn = h.preload.getRouteLoaderCode(),
+    { props: Ir, types: Jn, propertyControls: oe, variableMap: pe } = Qo(s, h, an(s), c, Pe),
+    yn =
+      !ie &&
+      m`const ${I.layoutDependency} = ${T.fn(h.declarations.file.dedupe("createLayoutDependency", m`(props, variants) => {${m.joinLines(m`if (props.layoutDependency) return variants.join('-') + props.layoutDependency`, m`return variants.join('-')`)}}`), I.props, I.variants)}`,
+    { cursors: vn } = h.customCursors,
+    ft = y.addImport("react", { exportSpecifier: "useRef" }),
+    _e = Qf(s),
+    Kn = F.sections(
+      J && m`const ${I.enabledGestures} = ${w};`,
+      j && `const ${I.cycleOrder} = ${U(ne)};`,
+      ie && `const ${I.breakpoints} = ${U(nt)}`,
+      ie && `const ${I.isBrowser} = () => typeof document !== "undefined";`,
+      v && m`const ${I.variant} = undefined;`,
+      v && m`const ${I.breakpoints} = undefined;`,
+      v && m`const ${I.layoutId} = undefined;`,
+      v && m`const ${I.className} = undefined;`,
+      v && m`const ${I.style} = undefined;`,
+      x(s) && m`export const ${I.queryParamNames} = ${_e}`,
+      m`const ${I.serializationHash} = ${n}`,
+      `const ${I.variantClassNames} = ${U(M)};`,
+      !ie && Hf,
+      m.linesFrom(h.variables.fallbackDeclarations()),
+      ...h.declarations.file.list(),
+      `export interface Props extends React.HTMLAttributes<HTMLDivElement> { ${Jn} }`,
+      `const ${I.Component} = ${$f(m`const fallbackRef = ${T.fn(m`${ft}<HTMLElement>`, m`null`)}`, m`const ${I.refBinding} = ${I.ref} ?? fallbackRef`, m`const ${I.defaultLayoutId} = ${T.fn(ut)}`, B.isOn("localizationModelUpdate") ? m`const { ${I.activeLocale}, ${I.contentLocale}, ${I.setLocale} } = ${T.fn(y.addImport("framer", { exportSpecifier: "useLocaleInfo" }))}` : m`const { ${I.activeLocale}, ${I.setLocale} } = ${T.fn(y.addImport("framer", { exportSpecifier: "useLocaleInfo" }))}`, h.variables.shouldProvideLayoutDirection ? m`const ${I.layoutDirection} = ${T.fn(y.addImport("framer", { exportSpecifier: "useLayoutDirection" }))}` : void 0, te(s) || x(s) ? m`const ${I.componentViewport} = ${T.fn(h.imports.addImport("framer", { exportSpecifier: "useComponentViewport" }))}` : void 0, br, x(s) && Kf(i, e.componentLoader, s, y, h.variables), Ir, x(s) && qf({ webPageNodeId: t.id, metadataDependencies: Tt, imports: y, bindings: h.bindings }), ie ? m.joinLines(m`const [${I.baseVariant}, ${I.hydratedBaseVariant}] = ${T.fn(y.addImport("framer", { exportSpecifier: "useHydratedBreakpointVariants" }), I.variant, I.breakpoints, m`false`)};`, m`const ${I.gestureVariant} = undefined;`) : Uf(u.id, J, j, y), yn, ep(h), m`const ${I.sharedStyleClassNames} = ${$.map((Xn) => m`${Xn}.className`)}`, ...h.declarations.component.list(), fe && T.fn(y.addImport("framer", { exportSpecifier: "useOnVariantChange" }), ie ? I.hydratedBaseVariant : I.baseVariant, Y), vn, N?.(J ? I.enabledGestures : m`undefined`), m`return (${Wt})`)}`,
+      De,
+      ir(p, n, I.Component, I.css, _f(s, h, b, P, pe), y),
+      `${d}.displayName = ${U(s.resolveValue("name")?.trim() || "Generated Component")};`,
+      `${d}.defaultProps = ${U({ width: b.width, height: b.height })};`,
+      oe &&
+        T.fn(
+          y.addImport("framer", { exportSpecifier: "addPropertyControls" }),
+          p,
+          new T(`${U(oe)} as any`)
+        ),
+      or({
+        componentName: p,
+        fontObjects: h.fonts.fontObjects,
+        fontReferences: h.fonts.fontReferences,
+        imports: y,
+        declarations: h.declarations.font,
+        sharedFontArrays: ce,
+      }),
+      gn && m`${p}.loader = ${gn}`
+    ),
+    [Qn] = x(s) ? await cl(s, e, { serializationId: n }) : [];
+  return ko([
+    {
+      type: c,
+      revision: l,
+      source: new T(F.sections(F.linesFrom(y.statements), Kn)),
+      artifacts: {
+        packageDependencies: h.packages.dependencies,
+        errors: h.errors.errors,
+        assets: h.assets.keys,
+        metrics: h.metrics.get(),
+        cmsVersion: _o(y),
+      },
+    },
+    Qn,
+    h.localizedValues.module(l),
+  ]);
+});
+function Uf(t, e, n, o) {
+  let r = E.fromEntries([
+      [I.defaultVariant, t],
+      [I.variant, I.variant],
+      [I.variantClassNames, I.variantClassNames],
+      [I.enabledGestures, e ? I.enabledGestures : void 0],
+      [I.cycleOrder, n ? I.cycleOrder : void 0],
+      [I.ref, I.refBinding],
+    ]),
+    i = T.fn(o.addImport("framer", { exportSpecifier: "useVariantState" }), r),
+    a = I.variants,
+    l = I.baseVariant,
+    s = m`setVariant`,
+    c = I.gestureVariant,
+    f = I.classNames,
+    u = I.setGestureState,
+    d = I.gestureHandlers,
+    p = I.clearLoadingGesture,
+    g = I.isLoading;
+  return F.lines(
+    m`const ${{ variants: a, baseVariant: l, setVariant: s, gestureVariant: c, classNames: f, setGestureState: u, gestureHandlers: d, clearLoadingGesture: p, isLoading: g }} = ${i}`
+  );
+}
+function $f(...t) {
+  return F.sections(
+    m`React.forwardRef<HTMLDivElement, Props>(function(${I.props}, ${I.ref}) {`,
+    ...t,
+    m`});`
+  );
+}
+function _f(t, e, n, o, r) {
+  let { height: i, width: a } = n,
+    l = {
+      propertyName: "variant",
+      data: Object.fromEntries(Object.entries(o).map(([c, f]) => [c, Os(f)])),
+    },
+    s = {
+      framerIntrinsicHeight: i,
+      framerIntrinsicWidth: a,
+      framerRootFontSize: Ua(t) ? t.getPrimaryVariant()?.rootFontSize : void 0,
+      framerCanvasComponentVariantDetails: JSON.stringify(l),
+      framerVariables: r && JSON.stringify(r),
+      framerImmutableVariables: !0,
+      framerResolvesOwnDefaults: B.isOn("smartComponentResolvesOwnDefaults") ? !0 : void 0,
+      framerDisplayContentsDiv: !1,
+      framerAutoSizeImages: !0,
+      framerComponentViewportWidth: !0,
+      framerColorSyntax: !0,
+      framerVectorSets: e.vectorSets.annotation(),
+    };
+  if (q(t)) {
+    let c = {},
+      f = t.getBreakpointValues();
+    for (let u in f) {
+      let d = e.tree.get(u);
+      c[u] = {
+        ...f[u],
+        canvasClassName: Ac(u),
+        minHeight: d?.height,
+        viewportHeight: d?.viewportHeight,
+        name: d?.resolveValue("name") ?? void 0,
+        width: d?.widthType === 0 ? d?.width : void 0,
+        rootFontSize: d?.rootFontSize ?? Va,
+      };
+    }
+    ((s.framerHitTargets = e.hitTargets.annotation()),
+      (s.framerBreakpoints = JSON.stringify(c)),
+      (s.framerDefaultVariant = t.baseVariantId),
+      (s.framerTrackingIds = e.trackingIds.annotation()),
+      (s.framerLayoutTemplate = !0));
+  } else
+    x(t)
+      ? ((s.framerAcceptsLayoutTemplate = e.acceptsLayoutTemplate),
+        (s.framerTrackingIds = e.trackingIds.annotation()),
+        (s.framerScrollSections = e.elementIds.annotation() ?? !1),
+        (s.framerResponsiveScreen = !0),
+        (s.framerLayoutTemplateFlowEffect = !0))
+      : te(t)
+        ? (s.framerTrackingIds = e.trackingIds.annotation())
+        : ke(t)
+          ? (s.framerDesign = !0)
+          : te(t) || (s.framerScreen = !0);
+  return s;
+}
+function Wf(t, e) {
+  if (!x(t)) return {};
+  let n = jf(t, e),
+    o = dl(t, n),
+    r = {};
+  for (let i of o) {
+    let a = ua(i, t.id);
+    r[i] = e.variables.create(a);
+  }
+  return r;
+}
+function jf(t, e) {
+  if (Nn(t) && Mt(e.tree, t))
+    return (
+      t.getProvidedControlMap(
+        e.tree,
+        void 0,
+        e.componentLoader,
+        e.componentLoader.activeBundleHash
+      ) ?? wr
+    );
+}
+function Gf(t, e) {
+  if (!x(t) || !Nn(t) || !Mt(e.tree, t)) return;
+  let o =
+      t.getProvidedControlMap(
+        e.tree,
+        void 0,
+        e.componentLoader,
+        e.componentLoader.activeBundleHash
+      ) ?? wr,
+    r = e.variables.getBindings(t.id),
+    i = new Set();
+  for (let [a] of o) r.has(a) && i.add(a);
+  return { scopeNode: t, controlMap: o, usedVariableIds: i };
+}
+var Hf = F.lines(
+  "function addPropertyOverrides(overrides, ...variants) {",
+  "const nextOverrides = {}",
+  "variants?.forEach(variant => variant && Object.assign(nextOverrides, overrides[variant]))",
+  "return nextOverrides",
+  "}"
+);
+function qf({ webPageNodeId: t, metadataDependencies: e, imports: n, bindings: o }) {
+  let r = n.addImport(`../${sl(t).localId}`, {
+      exportSpecifier: "default",
+      importBinding: "metadataProvider",
+    }),
+    i = o.create("metadata"),
+    a = n.addImport("framer", { exportSpecifier: "useMetadata" }),
+    l = B.isOn("localizationModelUpdate") ? I.contentLocale : I.activeLocale,
+    s = T.fn(r, e, l),
+    c = Object.values(e).concat(l);
+  return F.lines(m`const ${i} = React.useMemo(() => ${s}, ${c})`, T.fn(a, i));
+}
+function Jf(t) {
+  if (ya(t)) return { type: t.gesture, topLevel: t.replicaInfo.inheritsFrom };
+}
+function Kf(t, e, n, o, r) {
+  let i = n.variables.filter(Ce);
+  if (i.length === 0) return;
+  let a = r.getBindings(n.id),
+    l = [];
+  for (let s of i) {
+    if (!Pr(s)) continue;
+    let c = qr(s),
+      f;
+    switch (s.type) {
+      case "boolean": {
+        let g = o.addImport("framer", { exportSpecifier: "useBooleanQueryParam" }),
+          h = new E({
+            initialValue: s.optional ? void 0 : s.initialValue,
+            parameterName: c,
+            optional: s.optional ? !0 : void 0,
+          });
+        f = T.fn(g, h);
+        break;
+      }
+      case "string": {
+        let g = o.addImport("framer", { exportSpecifier: "useStringQueryParam" }),
+          h = new E({
+            initialValue: s.optional ? void 0 : s.initialValue,
+            parameterName: c,
+            optional: s.optional === !0 ? !0 : void 0,
+          });
+        f = T.fn(g, h);
+        break;
+      }
+      case "number": {
+        let g = o.addImport("framer", { exportSpecifier: "useNumberQueryParam" }),
+          h = new E({
+            initialValue: s.optional ? void 0 : s.initialValue,
+            parameterName: c,
+            optional: s.optional === !0 ? !0 : void 0,
+          });
+        f = T.fn(g, h);
+        break;
+      }
+      case "date": {
+        let g = o.addImport("framer", { exportSpecifier: "useDateQueryParam" }),
+          h = new E({
+            initialValue: s.optional ? void 0 : s.initialValue,
+            parameterName: c,
+            displayTime: s.options?.displayTime === !0 ? !0 : void 0,
+            optional: s.optional === !0 ? !0 : void 0,
+          });
+        f = T.fn(g, h);
+        break;
+      }
+      case "collectionreference": {
+        let g = o.addImport("framer", { exportSpecifier: "useCollectionReferenceQueryParam" }),
+          h = new E({
+            collectionId: zr(s.dataIdentifier),
+            initialValue: s.optional ? void 0 : s.initialValue,
+            parameterName: c,
+            optional: s.optional === !0 ? !0 : void 0,
+          });
+        f = T.fn(g, h);
+        break;
+      }
+      case "multicollectionreference": {
+        let g = o.addImport("framer", { exportSpecifier: "useMultiCollectionReferenceQueryParam" }),
+          h = new E({
+            collectionId: zr(s.dataIdentifier),
+            initialValue: s.optional ? void 0 : s.initialValue,
+            parameterName: c,
+            optional: s.optional === !0 ? !0 : void 0,
+          });
+        f = T.fn(g, h);
+        break;
+      }
+      case "controlReference": {
+        if (s.expectedType !== "enum") continue;
+        let g = os(t, e, s);
+        if (!g || g.type !== "enum") continue;
+        let h = o.addImport("framer", { exportSpecifier: "useEnumQueryParam" }),
+          y = s.entityIdentifier,
+          v = H(y);
+        if (!ot(v)) continue;
+        let S = s.controlKey,
+          D = e.dataForIdentifier(y)?.annotations?.framerEnumToDisplayNameUtils;
+        C(L(D) && Number.parseInt(D, 10) === 2, "Unexpected FramerEnumToDisplayNameUtils version");
+        let R = o.addModuleImport(v, { exportSpecifier: wo });
+        if (!R) continue;
+        let N = o.addModuleImport(v, { importBinding: `${ys(S)}CollectionData` });
+        if (!N) continue;
+        let w = L(s.initialValue) ? s.initialValue : yo("enum"),
+          z;
+        (s.optional === !0 || !w
+          ? (z = new E({
+              getOptionTitle: m`${R}?.[${S}]`,
+              initialValue: void 0,
+              optional: !0,
+              options: m`${N}.propertyControls?.[${S}]?.options`,
+              parameterName: c,
+            }))
+          : (z = new E({
+              getOptionTitle: m`${R}?.[${S}]`,
+              initialValue: w,
+              options: m`${N}.propertyControls?.[${S}]?.options`,
+              parameterName: c,
+            })),
+          (f = T.fn(h, z)));
+        break;
+      }
+      default:
+        ee(s);
+    }
+    let u = a.get(s.id);
+    if (!u) continue;
+    let d = r.getSetterBinding(s.id),
+      p = [u];
+    (d && p.push(d), l.push(m`const ${p} = ${f};`));
+  }
+  return m.joinLines(...l);
+}
+function Qf(t) {
+  return x(t) ? t.variables.flatMap((e) => (Ce(e) ? (Pr(e) ? [qr(e)] : []) : [])) : [];
+}
+function Ac(t) {
+  return `framer-${gt(t)}-override`;
+}
+function Ec(t, e) {
+  if (!(!Na(t) || (xa(t) && !t.fillEnabled)))
+    return t.fillType === "color" && Ne(t.fillColor) ? e(t.fillColor, t, "fill") : Es(t);
+}
+function Bc(t) {
+  if (!wa(t)) return;
+  let e = (t.rootFontSize / 16) * 100;
+  return Ia(e, "%");
+}
+function Fc(t, e) {
+  return L(t) ? t : T.fn(e.imports.addImport("framer", { exportSpecifier: "safeCSSValue" }), t);
+}
+function Xf(t, e, n, o, r, i) {
+  if (!q(t) && !x(t)) return;
+  let a = $l(r, i.declarations, i.variables, i.valueTransforms),
+    l = q(t) ? ":root" : "html",
+    s = `${l} body`,
+    c = Bc(e),
+    f = Ec(e, a) ?? "none",
+    u = [xe`${s} { background: ${Fc(f, i)}; }`];
+  L(c) && u.push(`${l} { font-size: ${c}; }`);
+  for (let d of n) {
+    let p = o[d.id];
+    if (p) {
+      let g = Ec(d, a) ?? "none",
+        h = Bc(d),
+        y = [];
+      if (
+        (Yr(f, g) || y.push(xe`${s} { background: ${Fc(g, i)}; }`),
+        Yr(c, h) || y.push(`${l} { font-size: ${h}; }`),
+        y.length === 0)
+      )
+        continue;
+      u.push(xe`@media ${p} { ${xe.join(y, " ")} }`);
+    }
+  }
+  return xe.join(u, " ");
+}
+function Yf(t, e, n, o, r) {
+  let i = Qs(Ks(o)),
+    a = [],
+    l = new Map();
+  if (q(r)) {
+    let h = r.getPrimaryVariant(),
+      y = { marginBottom: Wr(h, e) };
+    e.css.createRule(`[${Xr}="true"] > #overlay`, _r(y));
+    for (let v of n) {
+      let S = { marginBottom: Wr(v, e) },
+        b = kl(S, y);
+      !b || mt(b) || e.css.createRule(`[${Xr}="true"] > #overlay`, _r(b), v.id);
+    }
+  }
+  fn(e.css.get(), l);
+  let s = {},
+    c = {};
+  for (let h of n) {
+    let y = i[h.id];
+    if (y) {
+      let v = new Map();
+      if ((fn(e.css.get(h.id), v), !v.size)) continue;
+      q(r)
+        ? ((s[h.id] = pn(v)), (c[h.id] = `.${Ac(h.id)}`))
+        : a.push(xe`@media ${y} { ${xe.join(pn(v), " ")}}`);
+    } else fn(e.css.get(h.id), l);
+  }
+  let f = [],
+    u = [];
+  for (let h of e.css.sharedStyleIds) {
+    let y = ae("css", h),
+      v = e.imports.addImport(`../${y}`, { exportSpecifier: "*", importBinding: "sharedStyle" });
+    (u.push(v),
+      f.push(
+        T.fn(
+          e.imports.addImport("framer", { exportSpecifier: "getFontsFromSharedStyle" }),
+          m`${v}.fonts`
+        )
+      ));
+  }
+  let d;
+  for (let h of e.componentPresetIds) {
+    d ??= e.imports.addImport(`../${Fo}`, {
+      exportSpecifier: "*",
+      importBinding: "componentPresets",
+    });
+    let y = m`${d}.fonts?.[${h}]`;
+    f.push(
+      m`(${y} ? ${T.fn(e.imports.addImport("framer", { exportSpecifier: "getFontsFromComponentPreset" }), y)} : [])`
+    );
+  }
+  let p = [...pn(l), ...u.map((h) => m`...${h}.css`), ...e.css.conditionalRules(t)],
+    g = Zf(r, e, p, a, s, c, i);
+  return {
+    sharedStyleImports: u,
+    sharedFontArrays: f,
+    mediaQueries: i,
+    css: m`const ${I.css} = ${g}`,
+  };
+}
+function Zf(t, e, n, o, r, i, a) {
+  if (te(t) || ke(t)) return n;
+  if (x(t)) return [...n, ...o];
+  if (q(t)) {
+    let l = e.declarations.file.dedupe("breakpointRules", r),
+      s = e.declarations.file.dedupe("breakpointKeys", m`Object.keys(${l})`),
+      c = e.declarations.file.dedupe("selectors", i),
+      f = e.declarations.file.dedupe("rules", n),
+      u = e.declarations.file.dedupe("mediaQueries", a),
+      d = e.bindings.create("target"),
+      p = e.bindings.create("query"),
+      g = e.bindings.create("selector"),
+      h = e.bindings.create("rule"),
+      y = e.imports.addImport("framer", { exportSpecifier: "RenderTarget" });
+    return m`(target) => {${m.joinLines(m`const isStaticRenderer = ${d} === ${y}.canvas || ${d} === ${y}.export`, m`if (!isStaticRenderer) {${m.joinLines(m`return [...${f}, ...${s}.map(key => {${m.joinLines(m`const ${p} = ${u}[key]`, m`return ${xe`@media ${p} { ${m`${l}[key].join(" ")`} }`}`)}})]`)}}`, m`return [...${f}, ...${s}.flatMap(key => {${m.joinLines(m`const ${g} = ${c}[key]`, m`return ${l}[key].map(${h} => ${xe`${g} {${h}}`})`)}})]`)}}`;
+  }
+  ee(t);
+}
+function ep(t) {
+  if (t.events.needsPathVariables)
+    return `const ${Ul} = React.useContext(${t.imports.addImport("framer", { exportSpecifier: "PathVariablesContext" })});`;
+}
+function tp(t, e, n) {
+  let o = Be(t) ? t.getTopLevelVariants() : [];
+  if (o.length < 2) return;
+  let r = new E();
+  for (let i of o) {
+    let a = i.resolveValue("name") ?? Fe(e, i);
+    r[a] = i.id;
+  }
+  return n.file.dedupe("humanReadableVariantMap", r);
+}
+function np(t, e, n, o) {
+  let r = hi(t);
+  C(r, "The primary variant should have a default size as it must be a FrameNode.");
+  let i = { default: r },
+    a = { [t.id]: `framer-v-${gt(t.id)}` },
+    l = {},
+    s = {},
+    c = {},
+    f = gi(n.tree, t);
+  f && (c[t.id] = f);
+  let u = n.events.variantOnAppearId.get(t.id),
+    d = {};
+  !O(u) && !T.isUndefined(u) && (d.default = u);
+  for (let p of e) {
+    n.metrics.count("variants");
+    let g = Jf(p);
+    if (g) {
+      let b = l[g.topLevel] ?? {};
+      ((b[g.type] = g.type === "loading" ? o?.has(g.topLevel) : !0),
+        (l[g.topLevel] = b),
+        (s[g.topLevel] = [...(s[g.topLevel] ?? []), p.id]));
+    } else a[p.id] = `framer-v-${gt(p.id)}`;
+    let h = hi(p);
+    h && (i[p.id] = h);
+    let y = gi(n.tree, p);
+    y && (c[p.id] = y);
+    let v = n.events.variantOnAppearId.get(p.id),
+      S = U(d[p.replicaInfo.inheritsFrom ?? ""] ?? u);
+    !O(v) && U(v) !== S && (d[p.id] = v);
+  }
+  return { gestures: l, breakpoints: c, classNames: a, sizes: i, appearEventMap: d };
+}
+function op(t, e, n, o, r) {
+  let i = [];
+  if ((q(t) || x(t)) && n) {
+    let l = e.declarations.file.dedupe(
+      "HTMLStyle",
+      m`({value}) => {${m.joinLines(m`const onCanvas = ${T.fn(e.imports.addImport("framer", { exportSpecifier: "useIsOnFramerCanvas" }))}`, m`if (onCanvas) return null`, m`return ${Je.tag("style", new E({ "data-framer-html-style": "", dangerouslySetInnerHTML: { __html: m`value` } }))}`)}}`
+    );
+    i.push((s) => Je`${m.joinLines(Je.tag(l, new E({ value: n })), s)}`);
+  }
+  if (te(t)) {
+    let l = e.imports.addImport("react", { exportSpecifier: "*", importBinding: "React" }),
+      s = e.imports.addImport("framer-motion", { exportSpecifier: "motion.create" }),
+      c = e.declarations.file.dedupe("Variants", T.fn(s, m`${l}.Fragment`));
+    i.push((f) => Je.tag(c, new E({ initial: !1, animate: I.variants }), f));
+  }
+  if (x(t) || q(t) || ke(t)) {
+    let l = new E({ id: q(t) ? pa : fa });
+    i.push((s) => Je`${m.joinLines(s, Je.tag("div", l))}`);
+  }
+  let a = e.imports.addImport("framer-motion", { exportSpecifier: "LayoutGroup" });
+  if (
+    (i.push((l) => Je.tag(a, new E({ id: m`layoutId ?? ${I.defaultLayoutId}` }), l)), x(t) || q(t))
+  ) {
+    let l = e.imports.addImport("framer", { exportSpecifier: "GeneratedComponentContext" });
+    i.push((s) =>
+      Je.tag(
+        m`${l}.Provider`,
+        new E({
+          value: {
+            primaryVariantId: t.baseVariantId,
+            variantClassNames: I.variantClassNames,
+            activeVariantId: o,
+            humanReadableVariantMap: r,
+            isLayoutTemplate: q(t) ? !0 : void 0,
+          },
+        }),
+        s
+      )
+    );
+  }
+  return i;
+}
+function Oc() {
+  let t = new T("c142a8f");
+  return m`// Generated by Framer (${t})`;
+}
+var vi = {
+    ref: I.ref,
+    restProps: I.restProps,
+    style: I.style,
+    props: I.props,
+    className: I.className,
+    layoutId: I.layoutId,
+  },
+  Si = m`css`,
+  Bn = m`Icon`,
+  ar = m`Component`,
+  Fn = m`Props`,
+  rp = [...Object.values(vi), Si, Bn, ar, Fn].map((t) => U(t)),
+  Uc = Se(async (t, e, n) => {
+    let { serializationId: o } = n,
+      { modulesStore: r, tree: i, vectorsStore: a } = e,
+      l = i.getScopeNodeFor(t);
+    C(ge(l), "Vector set item must be in a VectorSetNode.");
+    let s = i.get(t.id);
+    C(s, "Must have a source node to serialize");
+    let { ctx: c, jsx: f, svg: u, type: d } = ks(s, l, e, o, rp),
+      p = Ge("vectorSet", l.id, "default").localId,
+      g = r.getPersistedModuleByLocalId(p);
+    C(g, "VectorSet must be persisted.");
+    let h = i.getRect(t),
+      {
+        propertyControls: y,
+        variableMap: v,
+        types: S,
+        props: b,
+      } = Qo(l, { ...e, ...c, cssVariableDefinitions: void 0 }, "VectorSet", "vector", void 0),
+      D = ip(c),
+      R = {
+        name: s.resolveValue("name") ?? "Vector",
+        empty: ap(s) ? !0 : void 0,
+        color: D,
+        set: { localId: p, id: l.id, moduleId: g.id },
+      },
+      N = c.imports.addImport("react", { exportSpecifier: "*", importBinding: "React" }),
+      w = c.imports.addImport("framer", { exportSpecifier: "withCSS" }),
+      z = sp[d],
+      M = F.lines(
+        ...c.variables.fallbackDeclarations(),
+        ...c.declarations.file.list(),
+        m`interface ${Fn} extends ${N}.HTMLAttributes<${N}.${z}> { ${S ?? m``} }`,
+        m`const ${ar}: ${N}.ComponentType<${Fn}> = ${N}.forwardRef<${N}.${z}, ${Fn}>(function(${vi.props}, ${vi.ref}) {${m.joinLines(b, ...c.declarations.component.list(), m`return (${f})`)}})`,
+        m`const ${Si} = ${c.css.rules}`,
+        Xe("This is a generated Framer component.", {
+          framerIntrinsicWidth: h.width,
+          framerIntrinsicHeight: h.height,
+          framerSupportedLayoutWidth: "any-prefer-fixed",
+          framerSupportedLayoutHeight: "any-prefer-fixed",
+          framerVariables: v && JSON.stringify(v),
+          framerImmutableVariables: !0,
+          framerVector: JSON.stringify(R),
+          framerDisableUnlink: Nl.has(R.set.moduleId) ? !0 : void 0,
+        }),
+        m`const ${Bn}: ${N}.ComponentType<${Fn}> = ${T.fn(w, ar, Si, o)} as typeof ${ar};`,
+        m`${Bn}.displayName = ${s.resolveValue("name") ?? "Vector"};`,
+        m`export default ${Bn}`,
+        y &&
+          T.fn(
+            c.imports.addImport("framer", { exportSpecifier: "addPropertyControls" }),
+            Bn,
+            new T(`${U(y)} as any`)
+          )
+      );
+    return (
+      a.cache(t.id, { svg: U(u), color: D }),
+      ko([
+        {
+          revision: s.moduleSourceRevision,
+          type: "vector",
+          source: new T(F.sections(F.linesFrom(c.imports.statements), M)),
+          artifacts: { files: [{ name: xs, type: "svgIcon", content: U(u) }] },
+        },
+      ])
+    );
+  });
+function ip(t) {
+  if (t.colors.uniqueColorCount !== 1) return;
+  let e = t.colors.singleColor;
+  if (e) return { type: "static", value: e };
+  let n = t.colors.singleVariableColor;
+  if (n) return { type: "variable", value: gt(n) };
+}
+function ap(t) {
+  return !t.children || t.children.length === 0 ? !0 : t.children.every((e) => e.visible === !1);
+}
+var sp = {
+  0: m`HTMLImageElement`,
+  1: m`HTMLDivElement`,
+  3: m`HTMLSVGElement`,
+  2: m`HTMLSVGElement`,
+};
+var $c = Se(async (t, { modulesStore: e }, n) => {
+  let o = [];
+  for (let a of t.getVectorSetItems()) {
+    let l = Ge("vector", a.id, "default").localId,
+      s = e.getPersistedModuleByLocalId(l);
+    s &&
+      o.push({
+        id: a.id,
+        name: a.resolveValue("name") ?? "Vector",
+        moduleId: s.id,
+        saveId: n.includeVectorSetSaveIds ? s.saveId : void 0,
+      });
+  }
+  let r = { framerVectorSet: JSON.stringify({ name: t.resolveValue("name") ?? "Set", items: o }) },
+    i = new T(
+      F.lines(
+        Xe("This is a generated Framer component.", r),
+        m`const VectorSet: React.ComponentType<unknown> = function VectorSet() { return null; };`,
+        m`export default VectorSet;`
+      )
+    );
+  return [{ revision: t.moduleSourceRevision, type: "vectorSet", source: i }];
+});
+function jc(t) {
+  return Math.ceil(t / Math.ceil(t / 100));
+}
+var _c = class {
+    status = null;
+    results;
+    reportProgress;
+    onDone;
+    constructor(e, n) {
+      ((this.reportProgress = e), (this.onDone = n));
+    }
+    async import(e, n, o) {
+      ((this.status = "importing"), (this.results = { scopeId: n, vectors: [], targetLayout: o }));
+      let r = o ? { left: o.x + o.width * 2, top: o.y } : { left: 0, top: 0 };
+      for (let i = 0; i < e.length; i++) {
+        let a = e[i];
+        if (!a) continue;
+        let l = await cp(a, n, r);
+        if (this.status !== "importing") return;
+        (l && this.results.vectors.push(l),
+          this.reportProgress?.({ status: this.status, finishedCount: i + 1 }));
+      }
+      await this.done();
+    }
+    cancel() {
+      this.status = "canceled";
+    }
+    async done() {
+      (this.results && (await this.onDone?.(this.results)), (this.status = "done"));
+    }
+  },
+  Wc = "run-svgo",
+  lp = 1e6;
+async function cp(t, e, n) {
+  if (t.size > lp) {
+    zn({
+      type: "add",
+      variant: "error",
+      key: Wc,
+      primaryText: "SVG is too large.",
+      secondaryText: "You may need a PNG.",
+      duration: 5e3,
+    });
+    return;
+  }
+  try {
+    let o = await t.text(),
+      r = Jl(o),
+      i = up(t.name),
+      a = ml(o, ol.createEmpty, r);
+    return a
+      ? (a.setProp("parentid", e),
+        a.set({ name: i, isVectorSetItem: !0, ...n }),
+        { node: a, size: r })
+      : void 0;
+  } catch (o) {
+    (console.error("Failed to insert SVG:", o),
+      zn({
+        type: "add",
+        variant: "error",
+        key: Wc,
+        primaryText: "Failed to insert",
+        secondaryText: "your SVG.",
+      }));
+    return;
+  }
+}
+var dp = /[_-]/gu;
+function up(t) {
+  let [e] = ql(t);
+  return ca(e.replace(dp, " "));
+}
+var fp = {
+  cache: !0,
+  mutable: !0,
+  update: !0,
+  parentid: !0,
+  originalid: !0,
+  duplicatedFrom: !0,
+  moduleSourceRevision: !0,
+  moduleSourceRevisionHint: !0,
+  moduleSourceRevisionCommittedHint: !0,
+  kitSectionsStructure: !0,
+  kitSectionHash: !0,
+  kitSectionSource: !0,
+  kitPageHTMLHash: !0,
+  customizations: !0,
+  customizationsDescription: !0,
+  customizationsSectionId: !0,
+  customizationsCategory: !0,
+  customizationsRules: !0,
+  isApplyingCustomizations: !0,
+  layoutTemplateIdentifierOverride: !0,
+  abTestingParentId: !0,
+  abTestingDistributionWeightPpm: !0,
+};
+function ct(t, e) {
+  if (!O(e)) {
+    if (t === "children" && e instanceof Aa) return e.toArray();
+    if (!fp[t] && !t.startsWith("export") && !hs(t)) return e;
+  }
+}
+function pp(t, e) {
+  if (t !== "children") return ct(t, e);
+}
+function mp(t, e, n, o, r) {
+  if (!Tn(t) || !Nt(e)) return e;
+  if (e.type === "slot")
+    return !Rr(e.value) || (ye(n) && n.slotsAreChildNodes)
+      ? e
+      : e.value.map((i) => {
+          let a = r.get(i.reference);
+          return zo(o, a) ? a : void 0;
+        });
+  if (e.type === "componentinstance") {
+    if (!L(e.value)) return e;
+    let i = r.get(e.value);
+    return zo(o, i) ? i : void 0;
+  } else if (e.type === "array") {
+    if (!Rr(e.value)) return e;
+    let i = [],
+      a = !1;
+    for (let l of e.value) {
+      if (!Nt(l) || l.type !== "componentinstance" || ((a = !0), !L(l.value))) continue;
+      let s = r.get(l.value);
+      zo(o, s) && i.push(s);
+    }
+    return a ? i : e;
+  }
+  return e;
+}
+function hp(t, e) {
+  return (n, o, r) => ct(n, mp(n, o, r, e, t));
+}
+var An = Z("ModuleSourceRevision");
+function aT(t) {
+  return V(K({ path: t.path, targetUrl: t.targetUrl }));
+}
+function gp(t) {
+  return V(K(t, ct));
+}
+function sT(t, e) {
+  return gp(t.cloneWithIds({ id: e }));
+}
+function yp(t, e) {
+  switch (t.__class) {
+    case "CollectionItemNode":
+    case "ImageStylePresetNode":
+    case "InlineCodeStylePresetNode":
+    case "LayoutTemplateNode":
+    case "LinkStylePresetNode":
+    case "SmartComponentNode":
+    case "TableStylePresetNode":
+    case "WebPageNode":
+      return V(K(t, ct));
+    case "FrameNode": {
+      let n = e.get(t.parentid);
+      return !n || !ke(n) ? void 0 : V(K(t, hp(e, n.id)));
+    }
+    case "CollectionNode": {
+      C(_(t), "Expected collection node");
+      let n = K(e.root.locales),
+        o = K(e.root.webMetadata?.translatePagePaths),
+        r = K(t, pp);
+      if (B.isOn("cmsDatabase")) return V(n + o + r);
+      let i = K(t.getUnsortedChildren()?.map((a) => a.moduleSourceRevision));
+      return V(n + o + r + i);
+    }
+    case "PresetsListNode": {
+      let n = t.children?.filter((o) => !Vs(o, e)) ?? [];
+      return V(K(n, ct));
+    }
+    case "TextStylePresetNode":
+    case "BlockquoteStylePresetNode": {
+      if (xr(t)) return t.moduleSourceRevision;
+      let n = K(t, ct);
+      return (
+        t.cache.replicaInstances?.forEach((o) => {
+          let r = e.getNodeWithTrait(o, xr);
+          r && (n += K(r, ct));
+        }),
+        V(n)
+      );
+    }
+    case "VectorSetNode": {
+      C(ge(t), "Expected VectorSetNode");
+      let n = t.getVectorSetItems().map((o) => {
+        let r = Ge("vector", o.id, "default").localId,
+          i = e.getNodeWithTrait(r, Io);
+        return i ? i.save.moduleId : "";
+      });
+      return V(K(n) + t.name);
+    }
+    case "ShapeContainerNode": {
+      if (!Ke(t)) return;
+      let n = e.getScopeNodeFor(t);
+      if (!ge(n)) return;
+      let o = K(t, ct);
+      return V(o + K(n.variables));
+    }
+    case "CustomCodeScopeNode": {
+      C(Lt(t), "Expected CustomCodeScopeNode");
+      let n = t.loaded;
+      C(n, "Expected CustomCodeScopeNode to be loaded");
+      let o = {};
+      for (let i of n.children)
+        if (!(!la(i) || !i.pageIds))
+          for (let a of i.pageIds) {
+            let l = e.getNodeWithTrait(a, Nn);
+            l && (o[a] = l.dataIdentifier);
+          }
+      let r = K(t, ct);
+      return V(r + K(o));
+    }
+    case "CanvasPageNode":
+    case "RootNode":
+      return;
+    case "ComponentPresetNode":
+      return;
+    case "AbTestsEntityTypeRootNode":
+    case "AgentPanelTool":
+    case "AgentDragSelectTool":
+    case "AgentSelectTool":
+    case "AgentSkillNode":
+    case "AgentSkillsListNode":
+    case "AnalyticsScopeNode":
+    case "BlockquoteEntityTypeRootNode":
+    case "BooleanShapeNode":
+    case "BoxShadow":
+    case "BranchNode":
+    case "BranchesNode":
+    case "CanvasNode":
+    case "CanvasScopeNode":
+    case "CustomCodeNode":
+    case "DatabaseListNode":
+    case "DatabaseNode":
+    case "DatabaseTableNode":
+    case "DesignPageNode":
+    case "DesignPageEntityTypeRootNode":
+    case "ChatTool":
+    case "CMSEntityTypeRootNode":
+    case "CodeComponentNode":
+    case "CodeFileEntityTypeRootNode":
+    case "CollectionReferenceVariableEditTool":
+    case "Color":
+    case "ColorEntityTypeRootNode":
+    case "ColorStyleTokenListNode":
+    case "ColorStyleTokenNode":
+    case "ComponentEntityTypeRootNode":
+    case "ConicGradient":
+    case "ContentManagementNode":
+    case "CreateCodeComponentBaseTool":
+    case "CreateFrameBaseTool":
+    case "CreateShapeBaseTool":
+    case "CreateTextTool":
+    case "EntityFolderNode":
+    case "EntityReferenceNode":
+    case "AssetsEntityTypeRootNode":
+    case "EntityRootNode":
+    case "ContentManagementEntityTypeRootNode":
+    case "ErrorListNode":
+    case "ErrorNode":
+    case "ExportOptions":
+    case "ExternalModuleNode":
+    case "ExternalModulesListNode":
+    case "FeedbackTool":
+    case "FormBooleanInputNode":
+    case "FormPlainTextInputNode":
+    case "FormSelectNode":
+    case "FunnelNode":
+    case "FunnelsEntityTypeRootNode":
+    case "FunnelStepActionNode":
+    case "FunnelStepNode":
+    case "GapTool":
+    case "GradientColorStop":
+    case "GradientToolManagerTool":
+    case "GuideMoveTool":
+    case "HeaderRouteNode":
+    case "FirewallRouteNode":
+    case "HighlightStackItemTool":
+    case "HighlightTool":
+    case "InitialTool":
+    case "InlineCodeEntityTypeRootNode":
+    case "LayoutTemplateEntityTypeRootNode":
+    case "LineAnchorMoveTool":
+    case "LinearGradient":
+    case "LinkEntityTypeRootNode":
+    case "LinkTool":
+    case "LoadingShieldTool":
+    case "LocalizationGlossaryItemNode":
+    case "LocalizationGlossaryNode":
+    case "LocalModuleNode":
+    case "LocalModulesListNode":
+    case "MoveTool":
+    case "MutableNode":
+    case "OvalShapeNode":
+    case "OverlayNode":
+    case "PaddingTool":
+    case "PageLinkTool":
+    case "PanTool":
+    case "PathCurveBendTool":
+    case "PathDefaultTool":
+    case "PathNode":
+    case "PathSegment":
+    case "PathSegmentAdditionTool":
+    case "PathSegmentHandleMoveTool":
+    case "PathSegmentMoveTool":
+    case "PathSegmentSelectTool":
+    case "PolygonShapeNode":
+    case "PreviewSettings":
+    case "ProxyRouteNode":
+    case "RadialGradient":
+    case "RadiusTool":
+    case "RecoveryTool":
+    case "RectangleShapeNode":
+    case "RedirectRouteNode":
+    case "ResizeTool":
+    case "RewriteRouteNode":
+    case "RichTextEditTool":
+    case "RichTextNode":
+    case "RichTextVariableEditTool":
+    case "RotateTool":
+    case "RouteNode":
+    case "RouteLocaleNode":
+    case "RouteSegmentNode":
+    case "RouteSegmentRootNode":
+    case "RoutesNode":
+    case "SampleColorTool":
+    case "ScaleTool":
+    case "ScopeNode":
+    case "SelectTool":
+    case "ShaderNode":
+    case "Shadow":
+    case "ShapeGroupNode":
+    case "SlotConnectTool":
+    case "SlotNode":
+    case "SlotPropertyNode":
+    case "StarShapeNode":
+    case "StringVariableEditTool":
+    case "DateVariableEditTool":
+    case "EnumVariableEditTool":
+    case "StyledTextDraft":
+    case "SVGNode":
+    case "TestTool":
+    case "TextEditTool":
+    case "TextEntityTypeRootNode":
+    case "TextNode":
+    case "VectorSetEntityTypeRootNode":
+    case "VekterGradientTool":
+    case "VekterPathEngine":
+    case "VekterTool":
+    case "ViewportResizeTool":
+    case "ZoomSelectTool":
+    case "ZoomTool":
+      return;
+    default:
+      ee(t.__class, "getModuleRevision: node.__class must be a valid value");
+  }
+}
+function Ii(t, e) {
+  let n = t.get(e);
+  return !n || !we(n, t)
+    ? !1
+    : O(n.moduleSourceRevisionHint) ||
+        n.moduleSourceRevisionCommittedHint === n.moduleSourceRevisionHint
+      ? (An.debug(`Hint hasn't changed for ${n.id}.`), !1)
+      : (An.debug(`Initial Revision: ${n.moduleSourceRevision}`), !0);
+}
+function bi(t, e) {
+  let n = t.get(e);
+  if (!n || !we(n, t)) return;
+  let o = performance.now(),
+    r = yp(n, t);
+  An.debug(`Spent ${performance.now() - o}ms computing module revision for ${n.id}`);
+  let i = A(r) && r !== n.moduleSourceRevision;
+  An.debug(`Revisions: ${n.moduleSourceRevision}, ${r}`);
+  let a = n.moduleSourceRevisionHint,
+    l = i
+      ? { moduleSourceRevision: r, moduleSourceRevisionCommittedHint: a }
+      : { moduleSourceRevisionCommittedHint: a };
+  return (
+    An.debug(
+      i
+        ? `Updating moduleSourceRevision for ${n.id}.`
+        : `Updating moduleSourceRevisionCommittedHint for ${n.id}.`
+    ),
+    n.setIgnoringReplica(l, t),
+    i ? r : void 0
+  );
+}
+function Hc(t, e) {
+  return e((n) => {
+    if (n.isViewOnly) return;
+    let o = n.get(t);
+    return (
+      _(o) &&
+        !B.isOn("cmsDatabase") &&
+        o.getUnsortedChildren()?.forEach((r) => {
+          Ii(n, r.id) && bi(n, r.id);
+        }),
+      bi(n, t)
+    );
+  });
+}
+function qc(t, e) {
+  return e((n) => {
+    if (!n.isViewOnly) return t.reduce((o, r) => ((o[r.id] = bi(n, r.id) ?? 1), o), {});
+  });
+}
+var vp = 2;
+function Ci(t) {
+  if (x(t)) return vp;
+}
+function gT(t, e, n) {
+  if (e.type === "siteMetadata" || e.type === "webPageMetadata") return !0;
+  let o = Vn(t, n).includes(e.type);
+  if ((C(t.id === e.name && o, "sourceNode and module must match"), Mn(e))) return !1;
+  let r = Ci(t);
+  if (O(r)) return !0;
+  let i = e.metadata.codeGenVersion;
+  return A(i) && i >= r;
+}
+var Ti = 1;
+function Sp(t) {
+  let e = t.metadata.compatibleTextStyleVersion;
+  return A(e) ? e : 0;
+}
+function bT(t) {
+  return Sp(t) < Ti;
+}
+var St = jt(eo(), 1);
+function Kc(t, e) {
+  if (te(t)) return "smart component";
+  if (x(t)) return "web page";
+  if (Re(e.get(t.parentid))) return "prototype screen";
+  if (Re(t)) return "prototype";
+  if (_(t)) return "CMS collection";
+}
+function Qc(t, e, n) {
+  return x(n) ? Dn(t, e, n) : (n.resolveValue("name") ?? void 0);
+}
+function Xc(t, e = "module", n) {
+  let o = "is too large and will not update";
+  zn({
+    type: "add",
+    variant: "warning",
+    text: n
+      ? (0, St.jsxs)(St.Fragment, {
+          children: [
+            (0, St.jsxs)(jo, { children: ["The ", e] }),
+            " \u201C",
+            n,
+            "\u201D ",
+            (0, St.jsx)(jo, { children: o }),
+          ],
+        })
+      : (0, St.jsxs)(jo, { children: ["A ", e, " ", o] }),
+    key: `module-too-large-${t}`,
+    duration: 1 / 0,
+    extraAction: {
+      title: "Learn more",
+      onClick() {
+        (Qe("ui_interaction", { page: "module-too-large-toast", id: "learn_more" }),
+          hl("https://www.framer.com/help/articles/how-to-fix-module-too-large-warning/"));
+      },
+    },
+  });
+  let i = `module-too-large-toast-${e.split(" ").join("-")}`;
+  Qe("ui_impression", { page: i });
+}
+var Tp = 1e4,
+  Lp = 1e3,
+  On = Z("CodeGenerationStore");
+function Rp(t) {
+  return !(_(t) || Re(t) || he(t) || Gt(t) || Ht(t) || ge(t));
+}
+function Np(t, e) {
+  if (!Ke(e)) return;
+  let n = t.getScopeNodeFor(e);
+  return (C(ge(n), "Vector set item must be in a VectorSetNode."), n.variables);
+}
+function xp(t, e) {
+  let n = e.resolveValue("name")?.trim();
+  return n || (zs(e) ? "Text" : Fe(t, e, e.__class));
+}
+function Yc(t, e, n, o, r, i) {
+  let a = {},
+    l = xp(e, n);
+  a.metadata || (a.metadata = {});
+  let s = [...(i?.files ?? [])];
+  Rp(n) &&
+    s.push({
+      name: "tree.json",
+      type: "nodeTree",
+      content: JSON.stringify(
+        Object.assign(n.toJS(), {
+          __treeSerializationVersion: t.serializationVersion,
+          __vectorSetVariables: Np(t, n),
+        })
+      ),
+    });
+  let c = Ci(n);
+  c && (a.metadata.codeGenVersion = c);
+  let f = i?.packageDependencies;
+  return (
+    f && (a.metadata.packageDependencies = Array.from(f)),
+    $o(o) && (a.metadata.compatibleCmsVersion = i?.cmsVersion ?? null),
+    sa(n) && (a.metadata.compatibleTextStyleVersion = Ti),
+    (a.assets = i?.assets ? Array.from(i.assets) : []),
+    { ...a, title: l, files: s, errors: i?.errors ?? [], type: o, name: r }
+  );
+}
+async function Dp(t, e, n, o, r) {
+  if (t && e instanceof qi && e.code === 1001) {
+    let i = qs(t, (l) => o.treeIndex.getScopeIdFor(l)) ?? void 0,
+      a = new Js({
+        type: "CodeGeneration",
+        nodeId: Be(t) ? t.baseVariantId : t.id,
+        reason: "FileTooLarge",
+        sourceNodeId: t.id,
+        scopeId: i,
+      });
+    (Xc(t.id, Kc(t, o.tree), Qc(o.tree, n, t)),
+      await r((l) => {
+        if (l.isViewOnly) return;
+        l.lineage.setEditReason("codegeneration");
+        let s = Gs.ensure(l);
+        (On.debug("Writing ClientFileTooLarge error to tree for", t.id), l.insertNode(a, s.id));
+      }));
+  } else On.reportError(e);
+}
+var sr = class {
+  constructor(e, n, o, r, i, a) {
+    this.componentLoader = e;
+    this.treeStore = n;
+    this.modulesStore = o;
+    this.runWhenIdle = r;
+    this.scheduleDocumentUpdateIgnoringUndo = i;
+    this.abortSignal = a;
+    (a?.addEventListener("abort", this.releasePersistenceHolds.bind(this), { once: !0 }),
+      (this.#t = new Bt({
+        delay: Tp,
+        task: () =>
+          this.runWhenIdle(() => {
+            this.#e.synchronize();
+          }),
+        abortSignal: a,
+      })));
+  }
+  componentLoader;
+  treeStore;
+  modulesStore;
+  runWhenIdle;
+  scheduleDocumentUpdateIgnoringUndo;
+  abortSignal;
+  #e = new Kl();
+  #t;
+  #o = { coalescedTasks: 0, peakTasks: 0, tasksStarted: 0, tasksSettled: 0, taskDurationMs: 0 };
+  getMetrics() {
+    let e = 0,
+      n = 0;
+    for (let o of new Set([...this.#e.queue, ...this.#e.capturedItems]))
+      (o.promise.state === "initial" && e++, o.promise.state === "pending" && n++);
+    return { ...this.#o, pendingTasks: e, activeTasks: n };
+  }
+  #a = new Map();
+  #n = new Map();
+  releasePersistenceHolds() {
+    for (let e of this.#n.values()) e.resolve();
+  }
+  testing = {
+    holdPersistence: (e) => {
+      if (!Me.isTest || this.abortSignal?.aborted) return () => {};
+      let n = this.#n.get(e) ?? new sn();
+      return (
+        this.#n.set(e, n),
+        () => {
+          (n.resolve(), this.#n.get(e) === n && this.#n.delete(e));
+        }
+      );
+    },
+  };
+  notifySettled(e) {
+    (this.#a.get(e)?.resolve(), this.#a.delete(e));
+  }
+  async whenSettled(e, n = this.abortSignal) {
+    for (; !n?.aborted;) {
+      if (
+        ![...this.#e.queue, ...this.#e.capturedItems].some(
+          (a) => a.id === e && !a.promise.isResolved()
+        )
+      )
+        return;
+      let r = this.#a.get(e) ?? new sn();
+      this.#a.set(e, r);
+      let i = () => {
+        this.#a.get(e) === r && this.notifySettled(e);
+      };
+      (n?.addEventListener("abort", i, { once: !0 }), await r, n?.removeEventListener("abort", i));
+    }
+  }
+  prunePendingTasks(e) {
+    let n = this.#e.capturedItems;
+    (this.#e.snapshot((o) =>
+      o.promise.isResolved()
+        ? !1
+        : o.id === e && o.promise.state === "initial"
+          ? (n.has(o) || this.#o.coalescedTasks++, !1)
+          : !0
+    ),
+      this.notifySettled(e));
+  }
+  enqueue(e, n, o) {
+    this.prunePendingTasks(n);
+    let r = e.get(n);
+    if (!r || !pl(r, e)) return;
+    let i = yt(r),
+      a = {};
+    for (let { type: c, artifacts: f } of o) {
+      let u = Yc(e, this.componentLoader, r, c, i, f);
+      a[ae(c, i)] = u;
+    }
+    let { pendingTasks: l, activeTasks: s } = this.getMetrics();
+    ((this.#o.peakTasks = Math.max(this.#o.peakTasks, l + s + 1)),
+      this.#e.request(
+        async () => {
+          let c = performance.now();
+          this.#o.tasksStarted++;
+          try {
+            if ((On.debug("Persisting transient modules for", n), Me.isTest)) {
+              let f = this.#n.get(n);
+              f && (await f);
+            }
+            await this.modulesStore.upsertBatch(a);
+          } catch (f) {
+            await Dp(
+              r,
+              f,
+              this.componentLoader,
+              this.treeStore,
+              this.scheduleDocumentUpdateIgnoringUndo
+            );
+          } finally {
+            (this.#o.tasksSettled++, (this.#o.taskDurationMs += performance.now() - c));
+          }
+        },
+        { id: n, synchronize: !1, onSettled: () => this.notifySettled(n) }
+      ));
+  }
+  async persist(e, n, o) {
+    let r = this.treeStore.getDataTreeOrPartialTree(),
+      i = r.get(e);
+    if (i)
+      return (
+        this.enqueue(r, e, n),
+        o
+          ? this.#t.debounce()
+          : (await this.#e.synchronize(),
+            wn(i, r).map((a) => this.modulesStore.getPersistedModuleByLocalId(a)))
+      );
+  }
+  async persistBatch(e) {
+    let n = this.treeStore.getDataTreeOrPartialTree(),
+      o = {},
+      r = "batch";
+    for (let l in e) {
+      let s = n.get(l),
+        c = e[l];
+      if (!s || !c) continue;
+      let f = yt(s),
+        u = new Set();
+      for (let { type: d, artifacts: p } of c) {
+        let g = ae(d, f);
+        (C(!u.has(g), () => `Duplicate local module id: ${g}`),
+          u.add(g),
+          (o[g] = Yc(n, this.componentLoader, s, d, f, p)),
+          (r += `-${g}`));
+      }
+    }
+    this.prunePendingTasks(r);
+    let { pendingTasks: i, activeTasks: a } = this.getMetrics();
+    ((this.#o.peakTasks = Math.max(this.#o.peakTasks, i + a + 1)),
+      await this.#e.request(
+        async () => {
+          let l = performance.now();
+          (this.#o.tasksStarted++, On.debug("Persisting transient modules for batch: ", r));
+          try {
+            await this.modulesStore.upsertBatch(o);
+          } catch (s) {
+            On.reportError(s);
+          } finally {
+            (this.#o.tasksSettled++, (this.#o.taskDurationMs += performance.now() - l));
+          }
+        },
+        { id: r, synchronize: !0, onSettled: () => this.notifySettled(r) }
+      ));
+  }
+  process = this.#e.synchronize;
+  debugPendingTasks() {
+    let e = this.#e.queue.filter((n) => !n.promise.isResolved());
+    return {
+      count: e.length,
+      tasks: e.slice(0, 32).map((n) => ({ nodeId: n.id, state: n.promise.state })),
+    };
+  }
+  processWithProgress = this.#e.synchronizeWithProgress;
+  changeScope = () => this.#t.debounce(Lp);
+  isIdle = () => this.#e.size === 0;
+  get size() {
+    return this.#e.size;
+  }
+  isBlocking = () => this.#e.snapshot().some((e) => e.promise.state === "pending");
+};
+var Vp = () => ({
+    stylePresets: [],
+    componentPresets: [],
+    collections: [],
+    smartComponents: [],
+    screens: [],
+    prototypes: [],
+    webpages: [],
+    metadata: [],
+    layoutTemplates: [],
+    snippets: [],
+  }),
+  G = Z("CodeGenerationStore");
+var wp = 500,
+  td = 1500,
+  zp = 5e3,
+  Pp = 6e4,
+  Mp = 5e3,
+  kp = 3e4,
+  Ep = 16,
+  Zc = 64;
+function Bp(t) {
+  for (let e in t.to) if (e in Xs) return !0;
+  return !1;
+}
+function Fp(t) {
+  return ge(t) ? wp : Cn(t) || _(t) ? zp : td;
+}
+var ed = class {
+  constructor(e, n, o, r, i, a, l, s, c, f, u, d, p = new Map()) {
+    this.scheduler = e;
+    this.componentLoader = n;
+    this.treeStore = o;
+    this.modulesStore = r;
+    this.vectorsStore = i;
+    this.assetMap = a;
+    this.timeline = l;
+    this.engineChanges = s;
+    this.scheduleDocumentUpdateIgnoringUndo = c;
+    this.updateTreeCache = f;
+    this.measureNodes = u;
+    this.abortSignal = d;
+    ((this.#t = p),
+      (this.#y = this.timeline.openNodeChangesReader()),
+      (this.#m = new Bt({
+        delay: td,
+        maxDelay: Pp,
+        task: () => {
+          let h = this.#a;
+          this.scheduler.runWhenIdle(() => {
+            d?.aborted ||
+              h !== this.#a ||
+              this.generateAndUpdateQueuedComponents(void 0, "scheduled").catch(Yn);
+          });
+        },
+        abortSignal: d,
+      })),
+      (this.#v = new Bt({
+        delay: Mp,
+        maxDelay: kp,
+        task: () =>
+          this.scheduler.runWhenIdle(() => {
+            this.regenerateCmsIncompatibleModules();
+          }),
+        abortSignal: d,
+      })));
+    let g = this.modulesStore.subscribeToModulesStorage((h) => {
+      !h.initialized || h.modulesReloading || this.#v.debounce();
+    });
+    (d?.addEventListener("abort", g),
+      (this.persistence = new sr(
+        this.componentLoader,
+        this.treeStore,
+        this.modulesStore,
+        (h) => this.scheduler.runWhenIdle(h),
+        (h) => this.scheduleDocumentUpdateIgnoringUndo(h),
+        d
+      )),
+      Ll(
+        {
+          name: "code-generation",
+          check: () => {
+            if (Me.isTest) return !1;
+            let h = this.treeStore.getDataTreeOrPartialTree();
+            return h.isViewOnly ? !1 : this.hasBlockingUpdates(h);
+          },
+          effect: () => {
+            G.debug(
+              "Showing Unsaved Changes dialog (generation queue #: ",
+              this.#t.size,
+              ", component ids to generate: ",
+              [...this.#t.keys()],
+              ")"
+            );
+            let h = this.getMetrics();
+            (h.paused > 1
+              ? G.reportError("Tab closed with paused code generations", h)
+              : (h.persisting > 5 || h.serializing > 5 || h.queue > 5) &&
+                G.reportError("Tab closed with multiple code generations in progress", h),
+              this.#e.clear(),
+              this.generateAndUpdateQueuedComponents(void 0, "unload")
+                .then(() => {
+                  this.persistence.process();
+                })
+                .catch((y) => G.reportError(y)));
+          },
+        },
+        d
+      ),
+      window.addEventListener(
+        "blur",
+        async () => {
+          try {
+            await this.flushQueuedCodeGenerationOnWindowBlur();
+          } catch (h) {
+            G.reportError(h);
+          }
+        },
+        { signal: d }
+      ));
+  }
+  scheduler;
+  componentLoader;
+  treeStore;
+  modulesStore;
+  vectorsStore;
+  assetMap;
+  timeline;
+  engineChanges;
+  scheduleDocumentUpdateIgnoringUndo;
+  updateTreeCache;
+  measureNodes;
+  abortSignal;
+  #e = new Set();
+  #t;
+  #o = new Map();
+  #a = 0;
+  #n = !1;
+  #s = new Set();
+  #g = { discoveries: 0, queuedSources: 0 };
+  #y;
+  #L = 0;
+  #h = 0;
+  #p = new Map();
+  #l = {
+    sourceRequests: 0,
+    coalescedSourceRequests: 0,
+    preparedQueuedSources: 0,
+    queueWaitMs: 0,
+    maxQueueWaitMs: 0,
+    peakQueuedSources: 0,
+    peakPreparingSources: 0,
+    fullDrainRequests: 0,
+  };
+  #R = {
+    scheduled: 0,
+    bulkScopeCompletion: 0,
+    scopeChange: 0,
+    explicitDemand: 0,
+    windowBlur: 0,
+    unload: 0,
+  };
+  #c = { attempts: 0, active: 0, peakActive: 0, outputModules: 0, durationMs: 0, storageWaitMs: 0 };
+  #f = { active: 0, peakActive: 0, durationMs: 0 };
+  #x = new ti(Ep);
+  isIdle() {
+    let e = this.#t.size > this.#s.size;
+    return (
+      !this.hasPendingRecovery(this.treeStore.getDataTreeOrPartialTree()) &&
+      !e &&
+      this.#u.size === 0 &&
+      this.#h === 0 &&
+      this.serialization.isIdle() &&
+      this.persistence.isIdle()
+    );
+  }
+  hasPendingRecovery(e) {
+    return (this.#n || this.#s.size > 0) && !e.isViewOnly && !this.modulesStore.isReadOnly();
+  }
+  getMetrics() {
+    let e = this.#p.values().next().value;
+    return {
+      queue: this.#t.size,
+      recovery: { ...this.#g, pendingDiscovery: this.#n },
+      paused: this.#e.size,
+      serializing: this.#r.size,
+      pendingGenerations: this.#u.size,
+      persisting: this.persistence.size,
+      updating: this.#h,
+      completed: this.#L,
+      scheduling: {
+        ...this.#l,
+        drainRequests: { ...this.#R },
+        oldestPendingWaitMs: e === void 0 ? 0 : performance.now() - e,
+      },
+      serialization: { ...this.#c },
+      compileOutput: { ...this.#f },
+      persistence: this.persistence.getMetrics(),
+    };
+  }
+  documentDidLoad() {
+    let e = ++this.#a;
+    (this.#m.cancel(),
+      this.#s.clear(),
+      (this.#n = B.isOn("recoverSmartComponentModules")),
+      this.#n &&
+        this.modulesStore.initialize().then(
+          () => {
+            this.abortSignal?.aborted || e !== this.#a || this.#m.debounce();
+          },
+          (n) => {
+            this.abortSignal?.aborted || e !== this.#a || ((this.#n = !1), Yn(n));
+          }
+        ),
+      this.#t.clear(),
+      this.#p.clear(),
+      this.#o.clear(),
+      this.#r.clear(),
+      this.#i.clear(),
+      this.#u.clear(),
+      this.#S.clear(),
+      this.#b.clear());
+  }
+  #m;
+  #v;
+  #S = new Set();
+  #b = new Map();
+  telemetrySession(e, n) {
+    let o = this.#b.get(n);
+    if (o) return o;
+    let r = e.get(n);
+    C(r, "TelemetrySession: source node must exist");
+    let i = new Go(r);
+    return (this.#b.set(n, i), i);
+  }
+  #I = void 0;
+  getSerializationId() {
+    return this.#I ? `framer-${this.#I}` : `framer-${xl(5)}`;
+  }
+  testing = {
+    setComponentGenerationQueue: (e) => {
+      ((this.#t = e), this.#p.clear());
+    },
+    flushQueuedCallbacks: () => {
+      this.#o.forEach((e) => e.forEach((n) => n()));
+    },
+    generateAndUpdateQueuedComponents: (e) => this.generateAndUpdateQueuedComponents(e),
+    setSerializationId: (e) => {
+      this.#I = e;
+    },
+    setModulesStore: (e) => {
+      (Object.assign(this, { modulesStore: e }),
+        Object.assign(this.persistence, { modulesStore: e }));
+    },
+    waitForProcessing: async (e) => {
+      await this.serialization.promise(e);
+    },
+    compiledBarrier: (e) => this.#i.get(e),
+    markSerializeStarted: (e) => {
+      (this.#r.get(e)?.resolve(), this.#r.delete(e));
+    },
+  };
+  persistence;
+  async flushQueuedCodeGenerationOnWindowBlur() {
+    document.visibilityState === "hidden" &&
+      (await this.generateAndPersistAllQueuedComponents("windowBlur"));
+  }
+  async generateAndPersistAllQueuedComponents(e = "explicitDemand") {
+    (this.#l.fullDrainRequests++,
+      await this.ensureSiteMetadataModule(),
+      await this.ensureSnippetsModule(),
+      await this.ensureCollectionModulesExportUtils(),
+      await this.regenerateCmsIncompatibleModules(),
+      await this.generateAndUpdateQueuedComponents(void 0, e),
+      await this.serialization.idle(),
+      await this.persistence.process());
+  }
+  debugGetComponentSourceNodes() {
+    let e = Vp();
+    C(!1, "This method should only be used in tests.");
+    let n = this.treeStore.getDataTreeOrPartialTree();
+    for (let { node: o, skipChildren: r } of n.root.walkWithSkipChildren())
+      x(o)
+        ? (e.webpages.push(o), e.metadata.push(o), r())
+        : te(o)
+          ? (e.smartComponents.push(o), r())
+          : _(o)
+            ? (e.collections.push(o), r())
+            : Hr(o)
+              ? (e.stylePresets.push(o), r())
+              : Ht(o)
+                ? e.componentPresets.push(o)
+                : fl(o, n)
+                  ? (e.screens.push(o), r())
+                  : Re(o)
+                    ? e.prototypes.push(o)
+                    : he(o)
+                      ? e.metadata.push(o)
+                      : q(o)
+                        ? e.layoutTemplates.push(o)
+                        : Lt(o) && e.snippets.push(o);
+    return e;
+  }
+  postProcess(e, n, o) {
+    if (!e.isViewOnly) {
+      if (o) {
+        this.#y.clear();
+        return;
+      }
+      (this.ingestChanges(e), this.#m.debounce(Fp(n)));
+    }
+  }
+  ingestChanges(e) {
+    for (let [n, o] of this.#y.read()) {
+      if (o.length === 0 || o.every((i) => i.ignoreInCodeGeneration)) continue;
+      let r = e.get(n);
+      if (r) {
+        if (x(r) && ds(o)) {
+          let i = e.get(Ys);
+          i && this.addChangeToQueue(i);
+        }
+        if (we(r, e)) {
+          ws(r, o) && this.addChangeToQueue(r);
+          continue;
+        }
+        if (he(r)) {
+          if (!o.some(Bp)) continue;
+          this.addChangeToQueue(r);
+        } else if (Re(r)) this.addChangeToQueue(r);
+        else {
+          let i = this.treeStore.treeIndex.getGroundNodeIdFor(n),
+            a = e.get(i);
+          if (!a || ye(a)) continue;
+          let l = e.getScopeNodeFor(a);
+          if (!Re(l)) continue;
+          this.queueCanvasPageNodesFollowingLinks(e, a);
+        }
+      }
+    }
+  }
+  queueCanvasPageNodesFollowingLinks(e, n) {
+    if ((this.addChangeToQueue(n), !(!n.cache.links || n.cache.links.size === 0)))
+      for (let o of n.cache.links) {
+        let r = this.treeStore.treeIndex.getGroundNodeIdFor(o),
+          i = e.get(r);
+        !i || ye(i) || this.queueCanvasPageNodesFollowingLinks(e, i);
+      }
+  }
+  changeScope() {
+    this.treeStore.tree.isViewOnly ||
+      Me.isTest ||
+      this.isIdle() ||
+      this.serialization
+        .idle()
+        .then(() => this.generateAndUpdateQueuedComponents(void 0, "scopeChange"))
+        .then(() => {
+          if (!B.isOn("prioritizedModuleEvaluation")) {
+            this.persistence.process();
+            return;
+          }
+          this.persistence.isIdle() || this.persistence.changeScope();
+        })
+        .catch((e) => G.reportError(e));
+  }
+  async createVectorSet(e, n) {
+    let o = e[0];
+    if (!o) return;
+    let i = this.treeStore.getDataTreeOrPartialTree().getScopeNodeFor(o);
+    C(ge(i), "VectorSet: VectorSetNode must exist.");
+    let a = performance.now(),
+      l = await this.batchSerializeVectors(e, n);
+    if (!l) return;
+    let s = {},
+      c = 0,
+      f = Object.keys(l).length,
+      u = jc(f),
+      d = [];
+    for (let p in l) {
+      let g = l[p];
+      g && ((s[p] = g), c++, !(c % u !== 0 && c !== f) && (d.push(s), (s = {})));
+    }
+    for (let p = 0; p < d.length; p++) {
+      let g = d[p];
+      g && (await this.persistence.persistBatch(g), n?.("persisting", p));
+    }
+    (await this.forceComponentUpdate(i.id),
+      G.debug("createVectorSet: Spent ", performance.now() - a, "ms creating a new vector set."));
+  }
+  async createModuleFromComponentSource(e, n) {
+    let o = this.treeStore.getDataTreeOrPartialTree();
+    if (
+      (C(
+        !o.isViewOnly,
+        "CodeGenerationStore: viewers cannot create smart components or web pages."
+      ),
+      C(kt(e, o), "CodeGenerationStore: componentSourceNode must be a valid component source."),
+      nn(e, o, this.modulesStore))
+    )
+      return;
+    (G.debug("createModuleFromComponentSource", e.id), this.serialization.prepare(e.id));
+    let i = this.#i.get(e.id);
+    return o.withPersistedCaches(async () => {
+      let a = await this.generateComponent(e.id, 1, void 0, { intrinsicSize: n });
+      if (!a) throw new Error("Code not generated");
+      return (
+        await this.compileOutput(e, a, i),
+        (o = this.treeStore.getDataTreeOrPartialTree()),
+        wn(e, o).map((l) => this.modulesStore.getPersistedModuleByLocalId(l))
+      );
+    });
+  }
+  revisionNodes(e) {
+    let n = [];
+    for (let o of e.root.children)
+      (we(o, e) && n.push(o),
+        (Ht(o) || Cn(o)) &&
+          o.children.forEach((r) => {
+            (we(r, e) && n.push(r),
+              _(r) &&
+                r.getUnsortedChildren().forEach((i) => {
+                  we(i, e) && n.push(i);
+                }));
+          }));
+    return n;
+  }
+  nodesWithStaleModules(e, n) {
+    let o = [],
+      r = n?.ignoreHint ?? !1,
+      i = this.treeStore.getDataTreeOrPartialTree();
+    for (let a of this.revisionNodes(i))
+      He(a) ||
+        (e && !e(a)) ||
+        (((!r && a.moduleSourceRevisionHint !== a.moduleSourceRevisionCommittedHint) ||
+          !this.allModulesAreAtRevision(i, a.id)) &&
+          o.push(a));
+    return o;
+  }
+  debugNodeIdsByCodeGenPhase() {
+    return {
+      stale: new Set(this.nodesWithStaleModules().map((e) => e.id)),
+      queued: new Set(this.#t.keys()),
+      generating: new Set(this.#r.keys()),
+      paused: new Set(this.#e),
+    };
+  }
+  canSerialize(e) {
+    let n = this.treeStore.getDataTreeOrPartialTree();
+    if (!n.isViewOnly) return !0;
+    let o = n.get(e);
+    if (!o || !n.isGroundNode(o)) return !1;
+    let r = n.getScopeNodeFor(o);
+    return ke(r);
+  }
+  async updateComponent(e, n = 0) {
+    C(
+      this.canSerialize(e),
+      "CodeGenerationStore: viewers cannot generate smart component or web page updates."
+    );
+    let o = this.treeStore.getDataTreeOrPartialTree(),
+      r = o.get(e);
+    if (!r || !kt(r, o)) return !1;
+    if (this.serialization.preparing(e)) {
+      let l = this.#i.get(e);
+      return (await this.serialization.promise(e), await l, !0);
+    }
+    G.debug("Update component: ", e, ", Condition: ", n);
+    let i = this.#t.get(e);
+    this.serialization.prepare(e);
+    let a = this.#i.get(e);
+    this.#h++;
+    try {
+      return await o.withPersistedCaches(async () => {
+        let l = await this.generateComponent(e, n, i);
+        return l ? this.compileOutput(r, l, a) : !1;
+      });
+    } finally {
+      this.#h--;
+    }
+  }
+  async forceComponentUpdate(e) {
+    return (
+      C(
+        this.canSerialize(e),
+        "CodeGenerationStore: viewers cannot generate smart component or web page updates."
+      ),
+      (await this.updateComponent(e, 2)) ? (await this.persistence.process(), !0) : !1
+    );
+  }
+  async updateComponentBatch(e, n, { concurrency: o, onUpdated: r, onError: i } = {}) {
+    let a = o === void 0 ? this.#x : new ti(o),
+      l = Array.from(e),
+      s = async (c) => {
+        try {
+          let f = await a.run(() =>
+            n === 2 ? this.forceComponentUpdate(c) : this.updateComponent(c, n)
+          );
+          r?.(c, f);
+        } catch (f) {
+          if (!i) throw f;
+          i(f, c);
+        }
+      };
+    for (let c = 0; c < l.length; c += Zc) await Promise.all(l.slice(c, c + Zc).map(s));
+  }
+  queueCallbackAfterComponentCompilation(e, n) {
+    let o = this.#o.get(e);
+    o ? o.push(n) : this.#o.set(e, [n]);
+  }
+  #C(e) {
+    (this.#o.get(e)?.forEach((n) => n()), this.#o.delete(e));
+  }
+  untilCompiled(e) {
+    return new Promise((n) => {
+      this.queueCallbackAfterComponentCompilation(e, n);
+    });
+  }
+  calculateNewModuleRevision(e) {
+    let n = this.treeStore.getDataTreeOrPartialTree(),
+      o = n.get(e);
+    if (!o || !we(o, n)) return 1;
+    let r = !Lt(o),
+      i = te(o) && o.moduleSourceRevision === void 0;
+    if (!((r && !i && !Ii(n, e)) || !n.has(e)))
+      return Hc(e, this.scheduleDocumentUpdateIgnoringUndo);
+  }
+  allModulesAreAtRevision(e, n, o) {
+    let r = e.get(n);
+    if (!r || !we(r, e)) return !1;
+    let i = o ?? r.moduleSourceRevision;
+    return te(r) && i === void 0
+      ? !1
+      : Vn(r, e).every(
+          (a) => this.modulesStore.forType(a).getByStableName(yt(r)).sourceRevision() === i
+        );
+  }
+  async ensureDependencyModulesExist() {
+    let e = this.treeStore.getDataTreeOrPartialTree();
+    for (let n of this.revisionNodes(e))
+      if (kt(n, e) && !nn(n, e, this.modulesStore))
+        try {
+          await this.updateComponent(n.id);
+        } catch (o) {
+          G.error("Error updating dependency module", n.id, o);
+        }
+  }
+  async ensureSourceNode(e) {
+    let n = this.treeStore.getDataTreeOrPartialTree().get(e),
+      o = lt(n) && !n.isLoaded() ? await n.load() : n;
+    if (o) {
+      if (
+        (x(o) &&
+          (await this.ensureSiteMetadataModule(),
+          C(o.loaded, "WebPageNode must be loaded"),
+          await this.ensureReferencedCollectionsExportUpToDateEnumUtils(o.loaded)),
+        _(o) && (await this.ensureDependentModulesAreCompatibleWithCollection(o)),
+        Ke(o))
+      ) {
+        let r = this.treeStore.getDataTreeOrPartialTree().getScopeNodeFor(o);
+        if (!ge(r)) return;
+        let i = ae("vectorSet", r.id);
+        if (this.modulesStore.getModuleEntryByLocalId(i)) return;
+        await this.createModuleFromComponentSource(r);
+      }
+      await this.ensureAllNodesWithLinksHaveLinkedScopesLoaded(o);
+    }
+  }
+  async ensureSiteMetadataModule() {
+    let e = this.treeStore.getDataTreeOrPartialTree();
+    if (e.isViewOnly) return;
+    let n = e.root;
+    if (!nn(n, e, this.modulesStore)) return this.updateComponent(n.id);
+  }
+  async ensureSnippetsModule() {
+    let e = this.treeStore.getDataTreeOrPartialTree();
+    if (e.isViewOnly) return;
+    let n = Zs.get(e);
+    if (!n) return;
+    let o = await n.load();
+    if (!(!o || nn(o, e, this.modulesStore))) return this.updateComponent(o.id);
+  }
+  async ensureCollectionModulesExportUtils() {
+    let e = this.treeStore.getDataTreeOrPartialTree();
+    if (e.isViewOnly) return;
+    let n = Ns(e);
+    if (n) {
+      C(n.isLoaded(), "ContentManagementNode is never shallow.");
+      for (let o of n.children) {
+        let r = ae("collection", o.id),
+          i = this.modulesStore.getPersistedModuleByLocalId(r);
+        if (!(!i || i.exports.includes("utils"))) {
+          Qe("ui_interaction", { page: "canvas", id: "regenerate-collection-for-utils" });
+          try {
+            await this.forceComponentUpdate(o.id);
+          } catch (a) {
+            G.error("Error regenerating collection for utils export", o.id, a);
+          }
+        }
+      }
+    }
+  }
+  async regenerateCmsIncompatibleModules() {
+    let e = this.treeStore.getDataTreeOrPartialTree();
+    if (e.isViewOnly) return;
+    if (this.modulesStore.hasPendingTreeData()) {
+      this.#v.debounce();
+      return;
+    }
+    let n = [];
+    for (let o of this.modulesStore.localModules.values()) {
+      if (!$o(o.type)) continue;
+      let r = this.modulesStore.getPersistedModuleByLocalId(o.localId);
+      !r ||
+        !Mn(r) ||
+        this.#S.has(r.name) ||
+        (e.get(r.name) && (this.#S.add(r.name), n.push(r.name)));
+    }
+    n.length !== 0 &&
+      (await this.updateComponentBatch(n, 2, {
+        concurrency: 2,
+        onError: (o, r) => G.error("Error regenerating module for CMS compatibility", r, o),
+      }));
+  }
+  hasBlockingUpdates(e) {
+    if (this.hasPendingRecovery(e) || this.#u.size > 0) return !0;
+    if (this.#t.size > 0) {
+      for (let [n, o] of this.#t) if (!this.#s.has(n) && e.has(n) && o) return !0;
+    }
+    return !this.persistence.isIdle() || !this.serialization.isIdle();
+  }
+  async updateModules(e, n) {
+    let o = this.treeStore.getDataTreeOrPartialTree(),
+      r = o.get(e),
+      i = this.timeline.remoteTreeVersion;
+    if (!r || !kt(r, o)) return !1;
+    let a = [];
+    for (let { revision: s, source: c, type: f, artifacts: u } of n) {
+      let d = {
+          assets: u?.assets,
+          submodules: u?.submodules,
+          binaryAssets: u?.binaryAssets,
+          preventCircularImports: f === "canvasComponent",
+          telemetrySession: this.telemetrySession(o, e),
+          treeVersion: i,
+          sourceRevision: s,
+          svgIcon: u?.files?.find((y) => y.type === "svgIcon")?.content,
+          stableName: !0,
+        },
+        p = this.modulesStore.forType(f).getByStableName(yt(r)),
+        g = p.sourceRevision() !== s,
+        h = F.sections(Oc(), c);
+      (!g && p.currentSourceEquals(h, d)) || a.push({ localId: p.localId, source: h, options: d });
+    }
+    if (a.length === 0) return !1;
+    let l = await this.modulesStore.updateSources(a);
+    return (Ke(r) && this.vectorsStore.delete(e), l);
+  }
+  moduleTypeOrder = {
+    localization: 0,
+    webPageMetadata: 1,
+    siteMetadata: 2,
+    collection: 3,
+    draftCollection: 4,
+    css: 5,
+    componentPresets: 6,
+    vector: 7,
+    vectorSet: 8,
+    canvasComponent: 9,
+    screen: 10,
+    ["prototype"]: 11,
+    codeFile: 12,
+    config: 13,
+    layoutTemplate: 14,
+    design: 15,
+    kit: 16,
+    snippets: 17,
+    shader: 18,
+  };
+  allModulesExistForSources(e, n) {
+    let o = yt(e);
+    for (let r of n) if (!this.modulesStore.getPersistedModuleByLocalId(ae(r.type, o))) return !1;
+    return !0;
+  }
+  async compileOutput(e, n, o) {
+    if (!this.canSerialize(e.id)) return (this.#d(e.id, o), !1);
+    let r = performance.now();
+    (this.#f.active++, (this.#f.peakActive = Math.max(this.#f.peakActive, this.#f.active)));
+    try {
+      let i = n.slice().sort((l, s) => this.moduleTypeOrder[l.type] - this.moduleTypeOrder[s.type]);
+      if (this.allModulesExistForSources(e, i)) await this.updateModules(e.id, i);
+      else
+        for (let l of i) {
+          let s = await this.updateModules(e.id, [l]),
+            c = yt(e);
+          !this.modulesStore.getPersistedModuleByLocalId(ae(l.type, c)) &&
+            s &&
+            (await this.persistence.persist(e.id, [l]));
+        }
+      _(e) && (await this.ensureDependentModulesCanRenderCollectionColors(e));
+    } catch (i) {
+      throw (this.#d(e.id, o, i), i);
+    } finally {
+      (this.#f.active--, (this.#f.durationMs += performance.now() - r));
+    }
+    return (this.#L++, this.#C(e.id), this.#d(e.id, o), this.persistence.persist(e.id, n, !0), !0);
+  }
+  pauseCodeGeneration(e) {
+    return (
+      G.debug("Pausing code generation for", e),
+      this.#e.add(e),
+      () => {
+        (G.debug("Resuming code generation for", e), this.#e.delete(e), this.#m.debounce());
+      }
+    );
+  }
+  hasSavedComponentModule(e, n) {
+    return e.moduleSourceRevision === void 0 ||
+      e.moduleSourceRevisionHint !== e.moduleSourceRevisionCommittedHint
+      ? !1
+      : wn(e, n).every((o) => {
+          let r = n.get(o);
+          return (
+            Io(r) &&
+            !!r.save.saveId &&
+            !!r.save.moduleId &&
+            r.save.sourceRevision === e.moduleSourceRevision
+          );
+        });
+  }
+  discoverUnfinishedComponentModules(e) {
+    if (
+      !(!this.#n || !this.modulesStore.initialized) &&
+      !(e.isViewOnly || this.modulesStore.isReadOnly())
+    ) {
+      ((this.#n = !1), this.#g.discoveries++);
+      for (let n of this.nodesWithStaleModules(te))
+        this.#t.has(n.id) ||
+          this.#i.has(n.id) ||
+          (this.queueSource(n.id), this.#s.add(n.id), this.#g.queuedSources++);
+    }
+  }
+  async generateAndUpdateQueuedComponents(e, n = "explicitDemand") {
+    this.#R[n]++;
+    let o = this.treeStore.getDataTreeOrPartialTree();
+    if (this.#n && !this.modulesStore.initialized) return [];
+    if ((this.discoverUnfinishedComponentModules(o), this.abortSignal?.aborted || o.isViewOnly))
+      return [];
+    await this.ensureDependencyModulesExist();
+    let r = [],
+      i = new Map();
+    for (let [s] of this.#t) {
+      if (this.#e.has(s) || this.serialization.preparing(s)) continue;
+      let c = this.treeStore.getDataTreeOrPartialTree(),
+        f = c.get(s);
+      if (this.#s.has(s)) {
+        if (c.isViewOnly || this.modulesStore.isReadOnly()) continue;
+        if (!te(f) || this.hasSavedComponentModule(f, c)) {
+          this.dequeueSource(s);
+          continue;
+        }
+      }
+      if (!f || !kt(f, c) || (e && !Vn(f, c).includes(e))) {
+        this.dequeueSource(s);
+        continue;
+      }
+      if ((this.serialization.prepare(s), Ke(f))) {
+        let u = c.getScopeNodeFor(f);
+        if (!u) continue;
+        let d = i.get(u.id) ?? [];
+        (d.push(f), i.set(u.id, d));
+      } else r.push(f);
+    }
+    let a = new Set();
+    G.debug("Batch generating queued vector nodes");
+    for (let s of i.values())
+      try {
+        let c = await this.batchSerializeVectors(s, void 0, a);
+        for (let f in c) this.persistence.persist(f, c[f], !0);
+      } catch {}
+    return (
+      G.debug("Generating queued components", { ids: r.map(Wo) }),
+      await this.treeStore.getDataTreeOrPartialTree().withPersistedCaches(async () => {
+        for (let s of r)
+          try {
+            G.debug("Flushing queue of ", s.id);
+            let c = this.#i.get(s.id),
+              f = await this.generateComponent(s.id, 1);
+            f && (await this.compileOutput(s, f, c), a.add(s.id));
+          } catch {}
+      }),
+      Array.from(a)
+    );
+  }
+  #r = new Map();
+  #i = new Map();
+  #u = new Set();
+  async batchSerializeVectors(e, n, o) {
+    let r = e[0];
+    if (!r) return;
+    let i = e.map((a) => {
+      this.serialization.prepare(a.id);
+      let l = this.#r.get(a.id),
+        s = this.#i.get(a.id);
+      return (C(l && s), { node: a, prepared: l, compiled: s });
+    });
+    try {
+      (await this.ensureSourceNode(r.id), await this.ensureSourceCache(r.id));
+      let a = await qc(e, this.scheduleDocumentUpdateIgnoringUndo);
+      C(a, "VectorSet: newModuleRevisions must exist");
+      let l = {
+          componentLoader: this.componentLoader,
+          assetMap: this.assetMap,
+          modulesStore: this.modulesStore,
+          treeStore: this.treeStore,
+          tree: this.treeStore.getDataTreeOrPartialTree(),
+          vectorsStore: this.vectorsStore,
+          engineChanges: this.engineChanges,
+          measureNodes: this.measureNodes,
+        },
+        s = await Promise.allSettled(
+          i.map(async ({ node: d, prepared: p, compiled: g }) => {
+            try {
+              if (!a[d.id]) {
+                this.#d(d.id, g);
+                return;
+              }
+              let S = (
+                await this.serializerForSourceNode(this.treeStore.getDataTreeOrPartialTree(), d)(
+                  d,
+                  l,
+                  { serializationId: this.getSerializationId() }
+                )
+              )?.[0];
+              return (
+                C(S, () => `VectorSet: source must exist. ${d.id}`),
+                { id: d.id, source: S, compiled: g }
+              );
+            } finally {
+              (p.resolve(), this.#r.get(d.id) === p && this.#r.delete(d.id));
+            }
+          })
+        ),
+        c = s.find((d) => d.status === "rejected");
+      if (c?.status === "rejected") throw c.reason;
+      let f = 0,
+        u = {};
+      for (let d of s) {
+        if (d.status !== "fulfilled" || !d.value) continue;
+        let { id: p, source: g, compiled: h } = d.value,
+          y = await this.updateModules(p, [g]);
+        (this.#d(p, h), y && ((u[p] = [g]), n?.("serializing", f), f++, o?.add(p)));
+      }
+      return u;
+    } catch (a) {
+      for (let { node: l, prepared: s, compiled: c } of i)
+        (s.resolve(),
+          this.#r.get(l.id) === s && this.#r.delete(l.id),
+          c.isResolved() || this.#d(l.id, c, a));
+      throw a;
+    }
+  }
+  async createVersionedVectorSet(e) {
+    return this.treeStore.getDataTreeOrPartialTree().withPersistedCaches(async () => {
+      await this.generateAndPersistAllQueuedComponents();
+      let o = this.#i.get(e.id),
+        r = await this.generateComponent(e.id, 2, void 0, { includeVectorSetSaveIds: !0 });
+      return !r || !(await this.compileOutput(e, r, o))
+        ? !1
+        : (await this.persistence.process(), !0);
+    });
+  }
+  serialization = {
+    idle: async () => {
+      for (; this.#r.size > 0 || this.#u.size > 0;)
+        await Promise.all([...this.#r.values(), ...Array.from(this.#u, (e) => e.catch(() => {}))]);
+    },
+    isIdle: () => this.#r.size === 0,
+    prepare: (e) => {
+      let n = this.#p.get(e);
+      if (n !== void 0) {
+        let i = performance.now() - n;
+        (this.#l.preparedQueuedSources++,
+          (this.#l.queueWaitMs += i),
+          (this.#l.maxQueueWaitMs = Math.max(this.#l.maxQueueWaitMs, i)));
+      }
+      this.dequeueSource(e);
+      let o = this.#r.get(e);
+      (this.#r.set(e, o ?? new sn()),
+        (this.#l.peakPreparingSources = Math.max(this.#l.peakPreparingSources, this.#r.size)));
+      let r = (o && this.#i.get(e)) || new sn();
+      (r.catch(() => {}), this.#i.set(e, r), this.#u.add(r));
+    },
+    cancel: (e, { prepared: n, compiled: o } = this.#N(e)) => {
+      let r = this.#r.get(e) === n && this.#i.get(e) === o;
+      (r && this.dequeueSource(e), this.#T(e, n), r && this.#C(e), this.#d(e, o));
+    },
+    preparing: (e) => this.#r.has(e),
+    promise: (e) => this.#r.get(e),
+    commit: async (e, n, o, r, i) => {
+      let a = r ? r.prepared : this.#r.get(e.id),
+        l = r?.compiled,
+        s = () => this.#T(e.id, a, !0),
+        c = performance.now();
+      (this.#c.attempts++,
+        this.#c.active++,
+        (this.#c.peakActive = Math.max(this.#c.peakActive, this.#c.active)));
+      try {
+        let f = await this.#D(e, n, o, a, i);
+        return (
+          (this.#c.outputModules += f?.length ?? 0),
+          f || (s(), this.#i.get(e.id) === l && this.#C(e.id), this.#d(e.id, l)),
+          f
+        );
+      } catch (f) {
+        throw (G.reportError(f), s(), this.#d(e.id, l, f), f);
+      } finally {
+        (this.#c.active--, (this.#c.durationMs += performance.now() - c));
+      }
+    },
+  };
+  #N(e) {
+    return { prepared: this.#r.get(e), compiled: this.#i.get(e) };
+  }
+  #T(e, n, o = !1) {
+    (o ? n?.reject() : n?.resolve(), this.#r.get(e) === n && this.#r.delete(e));
+  }
+  #d(e, n, o) {
+    if (n) {
+      if ((this.#u.delete(n), this.#i.get(e) === n && this.#i.delete(e), o !== void 0)) {
+        n.reject(o);
+        return;
+      }
+      n.resolve();
+    }
+  }
+  async #D(e, n, o, r, i) {
+    let a = this.treeStore.getDataTreeOrPartialTree();
+    if (!he(e) && !a.has(n.id)) return;
+    let l = this.telemetrySession(a, e.id),
+      s = l.start("synchronize"),
+      c = performance.now();
+    (G.debug("Waiting for ModulesStore to be idle", { id: e.id }),
+      await this.modulesStore.whenIdle());
+    let f = performance.now() - c;
+    if (
+      ((this.#c.storageWaitMs += f),
+      G.debug("Waited", Math.round((f / 1e3) * 100) / 100, "seconds for ModulesStore to be idle", {
+        id: e.id,
+      }),
+      s.end(),
+      (a = this.treeStore.getDataTreeOrPartialTree()),
+      !a.has(n.id))
+    )
+      return;
+    let u = e.draftOrCurrent();
+    if (o !== 2 && this.isSkippedEmptyScopeNode(u)) return;
+    let d = l.start("serialize");
+    _(e) && Ap(e, this.componentLoader, a, this);
+    let p = this.serializerForSourceNode(a, e);
+    this.#T(e.id, r);
+    let g = await p(
+      e,
+      {
+        componentLoader: this.componentLoader,
+        assetMap: this.assetMap,
+        modulesStore: this.modulesStore,
+        treeStore: this.treeStore,
+        tree: this.treeStore.getDataTreeOrPartialTree(),
+        vectorsStore: this.vectorsStore,
+        engineChanges: this.engineChanges,
+        measureNodes: this.measureNodes,
+      },
+      {
+        serializationId: this.getSerializationId(),
+        initialIntrinsicSize: i?.intrinsicSize,
+        includeVectorSetSaveIds: i?.includeVectorSetSaveIds,
+      }
+    );
+    return (
+      g.forEach(({ source: h, artifacts: y }) => {
+        if (
+          (G.trace(
+            "serializeComponent",
+            `
+>>>> >>>>
+`,
+            U(h),
+            `
+<<<< <<<<`
+          ),
+          y?.submodules)
+        )
+          for (let [v, S] of y.submodules)
+            G.trace(
+              "serializeComponent",
+              `
+>>>>`,
+              v,
+              `>>>>
+`,
+              S,
+              `
+<<<<`,
+              v,
+              "<<<<"
+            );
+      }),
+      d.end(g),
+      g
+    );
+  }
+  isSkippedEmptyScopeNode(e) {
+    return Lt(e) ? !1 : !!(lt(e) && (!e.isLoaded() || e.loaded.children?.length === 0));
+  }
+  async generateComponent(e, n, o, r) {
+    let i = this.#N(e);
+    try {
+      (G.debug("Ensure source node", e),
+        await this.ensureSourceNode(e),
+        G.debug("Ensure source cache", e),
+        await this.ensureSourceCache(e));
+    } catch (c) {
+      throw (this.serialization.cancel(e, i), G.error("Failed to ensure source cache", e), c);
+    }
+    let a = await this.getComponentSourceNodeAndRoot(e, n, o, i);
+    if (!a) return;
+    G.debug("Serialize", e);
+    let { componentSourceNode: l, root: s } = a;
+    return this.serialization.commit(l, s, n, i, r);
+  }
+  async getComponentSourceNodeAndRoot(e, n, o, r) {
+    try {
+      let i = await this.calculateNewModuleRevision(e),
+        a = this.treeStore.getDataTreeOrPartialTree(),
+        l = a.get(e);
+      if (!l || !kt(l, a) || !this.shouldGenerateUnderCondition(a, n, l, i, o)) {
+        (G.debug("Skipping component source node", e), this.serialization.cancel(e, r));
+        return;
+      }
+      let s = Be(l) ? l.getPrimaryVariant() : l;
+      return { componentSourceNode: l, root: s };
+    } catch (i) {
+      throw (this.serialization.cancel(e, r), i);
+    }
+  }
+  shouldGenerateUnderCondition(e, n, o, r, i) {
+    let a = i ?? this.#t.get(o.id);
+    if ((this.dequeueSource(o.id), !nn(o, e, this.modulesStore))) return !0;
+    switch (n) {
+      case 2:
+        return !0;
+      case 1:
+        return !O(r) || !this.allModulesAreAtRevision(e, o.id, r);
+      case 0:
+        return !O(r) && !!a && !this.allModulesAreAtRevision(e, o.id, r);
+      default:
+        ee(n);
+    }
+  }
+  addChangeToQueue(e) {
+    if (!this.shouldSkipChange(e)) {
+      if ((Ke(e) && this.vectorsStore.queue(e.id), He(e))) {
+        let n = e.parentid;
+        (C(n, "Collection node has no parent"), this.queueSource(n));
+        return;
+      }
+      this.queueSource(e.id);
+    }
+  }
+  dequeueSource(e) {
+    (this.#s.delete(e), this.#t.delete(e), this.#p.delete(e));
+  }
+  queueSource(e) {
+    (this.#s.delete(e),
+      this.#l.sourceRequests++,
+      this.#t.has(e) ? this.#l.coalescedSourceRequests++ : this.#p.set(e, performance.now()),
+      this.#t.set(e, !0),
+      (this.#l.peakQueuedSources = Math.max(this.#l.peakQueuedSources, this.#t.size)));
+  }
+  serializerForSourceNode(e, n) {
+    return _(n)
+      ? Nc
+      : Be(n)
+        ? yi
+        : Hr(n)
+          ? kc
+          : Re(n)
+            ? wc
+            : he(n)
+              ? ll
+              : Ht(n)
+                ? Dc
+                : ge(n)
+                  ? $c
+                  : Ke(n)
+                    ? Uc
+                    : Lt(n)
+                      ? ul
+                      : ke(e.get(n.parentid))
+                        ? yi
+                        : zc;
+  }
+  shouldSkipChange(e) {
+    if (ye(e)) {
+      let n = H(e.codeComponentIdentifier);
+      if (pt(n) && n.type === "screen") return !0;
+    }
+    return !1;
+  }
+  async ensureSourceCache(e) {
+    let n = this.treeStore.getDataTreeOrPartialTree().get(e);
+    !n ||
+      n.update === n.cache.lastUpdate ||
+      (await new Promise((o) => {
+        this.scheduler.runBeforeNextFrame(() => {
+          (lt(n) && n.update !== n.cache.lastUpdate && this.updateTreeCache(n.id), o());
+        });
+      }));
+  }
+  async ensureDependentModulesAreCompatibleWithCollection(e) {
+    let n = ae("collection", e.id),
+      o = this.modulesStore.getDependentsOfModule(n);
+    !o ||
+      o.size === 0 ||
+      (await Promise.all(
+        Array.from(o).map(async (r) => {
+          let i = r,
+            a = this.modulesStore.getPersistedModuleByLocalId(i);
+          if (!(!a || !Mn(a))) return this.forceComponentUpdate(a.name);
+        })
+      ));
+  }
+  async ensureDependentModulesCanRenderCollectionColors(e) {
+    let n = ae("collection", e.id),
+      o = this.modulesStore.getDependentsOfModule(n);
+    if (!o || o.size === 0) return;
+    let r = this.modulesStore.forType("collection").getByStableName(e.id);
+    r &&
+      r.annotations(null, "default")?.framerColorSyntax &&
+      (await Promise.all(
+        Array.from(o).map(async (i) => {
+          let [a, l] = Yi(i);
+          a === "draftCollection" ||
+            this.modulesStore.forType(a).getByStableName(l)?.annotations(null, "default")
+              ?.framerColorSyntax ||
+            (await this.forceComponentUpdate(l));
+        })
+      ));
+  }
+  async ensureReferencedCollectionsExportUpToDateEnumUtils(e) {
+    let n = new Set();
+    for (let o of e.variables) {
+      if (o.type !== "controlReference" || o.expectedType !== "enum") continue;
+      let r = H(o.entityIdentifier);
+      if (!pt(r) || r.type !== "collection") continue;
+      let l = this.modulesStore
+        .forType("collection")
+        .getByStableName(r.localIdName)
+        ?.annotations(null, "default")?.framerEnumToDisplayNameUtils;
+      (A(l) && l >= 2) || n.add(r.localIdName);
+    }
+    for (let o of n)
+      (Qe("ui_interaction", { page: "canvas", id: "regenerate-collection-for-enum-utils" }),
+        await this.forceComponentUpdate(o));
+  }
+  async ensureAllNodesWithLinksHaveLinkedScopesLoaded(e) {
+    let n = new Set(),
+      o = this.treeStore.getDataTreeOrPartialTree();
+    o.beginAllowPartialScopeAccess();
+    for (let r of e.walkWithSkipChildren()) {
+      if (!Ds(r.node)) continue;
+      let i = r.node.getLink();
+      if (!Ja(i)) continue;
+      let a = o.get(i.webPageId);
+      if (!a || a.loaded) continue;
+      let l = this.modulesStore
+        .forType("screen")
+        .getByStableName(i.webPageId)
+        ?.annotations(null, "default");
+      O(l?.framerScrollSections) && (n.add(a), r.skipChildren());
+    }
+    (o.endAllowPartialScopeAccess(), await o.loadScopes(Array.from(n)));
+  }
+};
+function Ap(t, e, n, o) {
+  let r = t.instanceIdentifier,
+    i = e.dataForIdentifier(r);
+  if (!i || !Object.values(i.properties).some((s) => s?.type === "image")) return;
+  let l = new Set();
+  for (let s of n.root.children) {
+    if (!lt(s)) continue;
+    if (x(s) && s.dataIdentifier === r) {
+      l.add(s);
+      continue;
+    }
+    s.loaded?.some((f) => ta(f) && f.dataIdentifier === r) && l.add(s);
+  }
+  l.forEach((s) => {
+    o.forceComponentUpdate(s.id).catch(Yn);
+  });
+}
+function eR(t) {
+  return typeof t.versionHostname == "string";
+}
+function tR(t) {
+  return ["ssg-pipeline-failed", "ssg-user-code-failed"].includes(t);
+}
+function Op(t) {
+  return (
+    t.status === "ssg-ready-with-warnings" ||
+    t.searchIndexStatus === "failed" ||
+    !!(t.status === "ssg-ready" && t.messages?.length)
+  );
+}
+function nR(t) {
+  let e = Op(t);
+  return { ...t, hasWarnings: e };
+}
+function le(t, e) {
+  return `${t ?? ""}.${e}`;
+}
+function ze(t, e) {
+  return `${t ?? ""}[${e}]`;
+}
+function Li(t) {
+  let e = [],
+    n = t.split(".");
+  for (let o of n) {
+    let [r, i] = o.split("[");
+    if ((r.length !== 0 && e.push({ type: "object", key: r }), i)) {
+      let a = i.slice(0, -1);
+      (C(a.length > 0), e.push({ type: "array", id: a }));
+    }
+  }
+  return e;
+}
+function Un(t) {
+  return te(t) || x(t) || q(t);
+}
+function lR(t) {
+  return Un(t) || _(t) || He(t) || he(t) || qe(t);
+}
+function k(t, e = !1) {
+  let n = (e ? is(t) : t).trim();
+  return n === "" ? 0 : n.split(/\W+\b/).length;
+}
+var Up = So((t, e, n) =>
+  String(
+    V(K({ webMetadata: t ?? null, titleLocalized: e ?? null, descriptionLocalized: n ?? null }))
+  )
+);
+function Ri(t, e) {
+  if (e !== t.root.id) return t.getResolvedSubtreeGeneration(e);
+  let { webMetadata: n, titleLocalized: o, descriptionLocalized: r } = t.root;
+  return Up(n, o, r);
+}
+function $n(t) {
+  return `${t}_html`;
+}
+function _n(t) {
+  return `${t}_fillImageLocalized`;
+}
+function bt(t, e, n) {
+  return `${t}.${e}.${n ?? ""}`;
+}
+function lr(t) {
+  if (Fa(t)) return $p(t);
+  let e = Qt(t);
+  for (let n of e.querySelectorAll("*"))
+    n.tagName !== "BR" &&
+      (n.removeAttribute("class"),
+      n.removeAttribute("style"),
+      n.removeAttribute("data-styles-preset"));
+  return e.innerHTML;
+}
+function $p(t) {
+  let e = t.variant;
+  if (!Ba(t)) return t;
+  let n = Ps(t, {
+    textBlock(o) {
+      let r = { ...o };
+      for (let i of ka) delete r[i];
+      return r;
+    },
+    text(o) {
+      let r = { ...o };
+      for (let i of Ea) delete r[i];
+      return r;
+    },
+  });
+  return (C(n.variant === e, "mapRichTextDocument must not change the document variant"), n);
+}
+var It = new Set();
+function RR(t) {
+  let e = {
+    resolvedCount: 0,
+    unresolvedCountsByModuleType: new Map(),
+    unresolvedLocalizableCount: 0,
+  };
+  It.add(e);
+  try {
+    return { result: t(), lookups: e };
+  } finally {
+    It.delete(e);
+  }
+}
+function Wn() {
+  let t = {
+    resolvedCount: 0,
+    unresolvedCountsByModuleType: new Map(),
+    unresolvedLocalizableCount: 0,
+  };
+  return (It.add(t), { lookups: t, [Zi()]: () => It.delete(t) });
+}
+function nd(t) {
+  if (t !== 0) for (let e of It) e.unresolvedLocalizableCount += t;
+}
+function mn(t, e, n) {
+  if (It.size === 0) return;
+  if (e) {
+    for (let a of It) a.resolvedCount++;
+    return;
+  }
+  let o = H(t),
+    r = o ? ("type" in o ? o.type : o.kind) : "unparsed",
+    i = _p(n());
+  for (let a of It) {
+    let l = a.unresolvedCountsByModuleType;
+    (l.set(r, (l.get(r) ?? 0) + 1), i && a.unresolvedLocalizableCount++);
+  }
+}
+function _p(t) {
+  for (let e of t)
+    switch (e) {
+      case void 0:
+        continue;
+      case null:
+      case "string":
+      case "richtext":
+      case "image":
+      case "responsiveimage":
+      case "link":
+      case "array":
+      case "object":
+        return !0;
+      default:
+        continue;
+    }
+  return !1;
+}
+var Di = "framer-module[data-module-identifier]",
+  rd = "framer-module-translation-text",
+  dr = "framer-module-translation-richtext",
+  id = "data-module-control-key",
+  ad = "data-module-control-ancestor-path",
+  sd = "data-module-control-storage-type",
+  Wp = us(fs),
+  At = class extends Error {
+    name = "RichTextModuleTranslationError";
+  };
+function jR(t) {
+  return t instanceof At;
+}
+function fr(t, e) {
+  let o = Qt(t).querySelectorAll(Di);
+  if (o.length === 0) return "";
+  let r = [];
+  for (let i of o) {
+    let a = i.getAttribute("data-module-identifier");
+    if (!L(a)) continue;
+    let l = i.getAttribute("data-module-props");
+    if (!L(l)) continue;
+    let s;
+    try {
+      s = JSON.parse(l);
+    } catch {
+      continue;
+    }
+    if (!s) continue;
+    let c = Vi(a, e, s);
+    if (!c) continue;
+    let f = zt(c, s),
+      u = [];
+    (ld(f, c, u, { suppressGeneratedIds: !0 }), u.length !== 0 && (u.sort(jp), r.push(u)));
+  }
+  return r.length === 0 ? "" : K(r);
+}
+function jp(t, e) {
+  return (
+    cr(t.controlPropKey, e.controlPropKey) ||
+    cr(t.ancestorControlKeyPath, e.ancestorControlKeyPath) ||
+    cr(t.tagName, e.tagName) ||
+    cr(t.storageType, e.storageType)
+  );
+}
+function cr(t, e) {
+  let n = t ?? "",
+    o = e ?? "";
+  return n < o ? -1 : n > o ? 1 : 0;
+}
+function GR(t, e) {
+  let n = Qt(t),
+    o = n.querySelectorAll(Di);
+  for (let r of o) {
+    let i = r.getAttribute("data-module-identifier");
+    if (!L(i)) continue;
+    let a = r.getAttribute("data-module-props");
+    if (!L(a)) continue;
+    let l;
+    try {
+      l = JSON.parse(a);
+    } catch {
+      continue;
+    }
+    if (!l) continue;
+    let s = Vi(i, e, l);
+    if (!s) continue;
+    let c = zt(s, l),
+      f = [];
+    ld(c, s, f);
+    for (let u of f) {
+      let d = n.ownerDocument.createElement(u.tagName);
+      (d.setAttribute(id, u.controlPropKey),
+        u.ancestorControlKeyPath && d.setAttribute(ad, u.ancestorControlKeyPath),
+        u.storageType && d.setAttribute(sd, u.storageType),
+        u.tagName === dr ? (d.innerHTML = u.value) : (d.textContent = u.value),
+        r.append(d));
+    }
+  }
+  return n.innerHTML;
+}
+function HR(t, e, { strict: n = !0 } = {}) {
+  let o = Qt(t),
+    r = o.querySelectorAll(Di);
+  for (let i of r) {
+    let a = i.getAttribute("data-module-identifier");
+    if (!L(a)) continue;
+    let l = i.getAttribute("data-module-props");
+    if (!L(l)) continue;
+    let s = Array.from(i.querySelectorAll(`${rd}, ${dr}`));
+    if (s.length === 0) continue;
+    let c;
+    try {
+      c = JSON.parse(l);
+    } catch {
+      if (!n) continue;
+      throw new At("Translated module props are no longer valid JSON.");
+    }
+    if (!c || !Vi(a, e, c)) continue;
+    let u = c;
+    for (let d of s) {
+      if (d.parentElement !== i) {
+        if (!n) continue;
+        throw new At(
+          "Translated module controls must remain direct children of the module element."
+        );
+      }
+      let p = d.getAttribute(id);
+      if (!L(p) || p.length === 0) {
+        if (!n) continue;
+        throw new At("Translated module control key is missing or invalid.");
+      }
+      let g = d.getAttribute(ad) ?? void 0;
+      if (d.tagName.toLowerCase() === dr) {
+        let v = Hp(d.getAttribute(sd));
+        if (!v) {
+          if (!n) continue;
+          throw new At("Translated rich text module control storage type is missing or invalid.");
+        }
+        u = od(u, p, g, qp(d.innerHTML, v), "richtext");
+      } else u = od(u, p, g, d.textContent, "string");
+      d.remove();
+    }
+    u !== c && i.setAttribute("data-module-props", JSON.stringify(u));
+  }
+  return o.innerHTML;
+}
+function ld(t, e, n, { suppressGeneratedIds: o = !1 } = {}) {
+  for (let [r, i] of Object.entries(t)) {
+    if (!i) continue;
+    let a = e[r];
+    a && Ni(r, i, a, void 0, n, o);
+  }
+}
+function Ni(t, e, n, o, r, i) {
+  switch (n.type) {
+    case "array": {
+      if (!Xa(e)) return;
+      for (let a of e.value) ho(a) && Ni(t, a, n.control, Gp(o, a.id, i), r, i);
+      return;
+    }
+    case "object": {
+      if (e.type !== "object" || !Le(e.value)) return;
+      for (let [a, l] of Object.entries(e.value)) {
+        let s = n.controls[a];
+        s && Ni(t, l, s, le(o, a), r, i);
+      }
+      return;
+    }
+    case "string": {
+      if (n.preventLocalization || e.type !== "string" || !L(e.value) || e.value.length === 0)
+        return;
+      r.push({
+        controlPropKey: t,
+        ancestorControlKeyPath: o,
+        tagName: rd,
+        storageType: void 0,
+        value: e.value,
+      });
+      return;
+    }
+    case "richtext": {
+      if (n.preventLocalization || e.type !== "richtext" || !ve(e.value)) return;
+      let a = typeof e.value == "string" ? "html" : "json",
+        l = typeof e.value == "string" ? e.value : ps(e.value, Wp);
+      if (l.length === 0) return;
+      r.push({
+        controlPropKey: t,
+        ancestorControlKeyPath: o,
+        tagName: dr,
+        storageType: a,
+        value: l,
+      });
+      return;
+    }
+    default:
+      return;
+  }
+}
+function Gp(t, e, n) {
+  return n ? `${t ?? ""}[]` : ze(t, e);
+}
+function Hp(t) {
+  return t === "html" || t === "json" ? t : null;
+}
+function Vi(t, e, n) {
+  mn(t, e.componentForIdentifier(t) !== null, () => Object.values(n).map((r) => r?.type));
+  let o = e.reactComponentForIdentifier(t);
+  return o ? Dl(Do(o, "onlyNonPresets")) : null;
+}
+function qp(t, e) {
+  return e === "json" ? vl(t, "collectionControlPropLocalized") : t;
+}
+function od(t, e, n, o, r) {
+  let i = t[e];
+  if (!i) {
+    if (!n) return { ...t, [e]: { type: r, value: o } };
+    let l = Li(n);
+    return { ...t, [e]: ur(l, r, o) };
+  }
+  let a = Jp(i, n, o, r);
+  return a === i ? t : { ...t, [e]: a };
+}
+function ur(t, e, n) {
+  if (t.length === 0) return { type: e, value: n };
+  let [o, ...r] = t;
+  C(o);
+  let i = ur(r, e, n);
+  return o.type === "array"
+    ? { type: "array", value: [{ ...i, id: o.id }] }
+    : { type: "object", value: { [o.key]: i } };
+}
+function Jp(t, e, n, o) {
+  return e ? xi(t, Li(e), n, o) : cd(t, n, o);
+}
+function xi(t, e, n, o) {
+  let [r, ...i] = e;
+  if (!r) return cd(t, n, o);
+  if (r.type === "array") {
+    if ((t.type !== "array" && t.type !== null) || !Array.isArray(t.value)) return t;
+    let s = t.value,
+      c = !1,
+      f = !1,
+      u = Il(s, (d) => {
+        if (!Nt(d) || !ho(d) || d.id !== r.id) return d;
+        c = !0;
+        let p = xi(d, i, n, o);
+        return ((f ||= p !== d), p);
+      });
+    if (!c && s.some((d) => Nt(d) && !ho(d))) return t;
+    if (!c) {
+      let d = ur(i, o, n);
+      return { ...t, value: [...s, { ...d, id: r.id }] };
+    }
+    return f ? { ...t, value: u } : t;
+  }
+  if ((t.type !== "object" && t.type !== null) || !Le(t.value)) return t;
+  let a = t.value[r.key];
+  if (!Nt(a)) {
+    let s = ur(i, o, n);
+    return { ...t, value: { ...t.value, [r.key]: s } };
+  }
+  let l = xi(a, i, n, o);
+  return l === a ? t : { ...t, value: { ...t.value, [r.key]: l } };
+}
+function cd(t, e, n) {
+  return t.type !== n && t.type !== null
+    ? t
+    : n === "string"
+      ? typeof e == "string" && t.value !== e
+        ? { ...t, type: n, value: e }
+        : t
+      : t.value !== e
+        ? { ...t, type: n, value: e }
+        : t;
+}
+var hn = {};
+Object.freeze(hn);
+function Ot(t, e) {
+  if (!t) return hn;
+  let n = t,
+    o = {},
+    r = !1;
+  for (let i of e) {
+    let a = n[i.id];
+    a !== void 0 && ((o[i.id] = a), (r = !0));
+  }
+  return r ? o : hn;
+}
+function Ut(t, e, ...n) {
+  let o = {},
+    r = !1;
+  for (let i of e) {
+    let a = t.getSubfield(...n, i.id);
+    a !== void 0 && ((o[i.id] = a), (r = !0));
+  }
+  return r ? o : hn;
+}
+function Qp(t, e) {
+  let n = rn(t);
+  if (typeof t != "string" || !t.includes("data-module-identifier")) return n;
+  let o = fr(t, e);
+  return o.length === 0 ? n : V(`${n}:${o}`);
+}
+function Ie(t, e, n, o, r, i) {
+  let a = {};
+  for (let l of e) {
+    if (r?.[l.id]) {
+      a[l.id] = "warning";
+      continue;
+    }
+    let s = i?.(l);
+    if (s) {
+      a[l.id] = s;
+      continue;
+    }
+    let c = n[l.id];
+    if (!c) {
+      a[l.id] = Et(t) ? "done" : "new";
+      continue;
+    }
+    a[l.id] = c.hash !== o || c.needsReview ? "needsReview" : "done";
+  }
+  return a;
+}
+function pr(t, e, n, o, r, i, a) {
+  if (!(!it(o) || !so(o.outputType) || o.outputType !== "string")) {
+    for (let l of o.transforms)
+      if (ao(l)) {
+        if (l.name === "convertFromEnum" && l.outputType === "string") {
+          C(Array.isArray(l.cases), "expected enum transform cases to be an array");
+          let s = lo(o) && o.startValue.id === bo;
+          for (let c of s ? [] : l.cases) {
+            if (Ve(c.to) || !L(c.to) || (c.to.length === 0 && !c.toLocalized)) continue;
+            let f = V(c.to),
+              u = Ot(c.toLocalized, a);
+            t.push({
+              type: "convertFromEnum",
+              transformId: l.id,
+              keyPath: ze(le(r, "cases"), c.id),
+              nodeId: e.id,
+              scopeId: n,
+              caseId: c.id,
+              isDefaultCase: !1,
+              value: c.to,
+              valueWordCount: k(c.to),
+              hash: f,
+              localizedValues: u,
+              localizedValueStatuses: Ie(c.to, a, u, f),
+              managedByPluginButUserEditable: !1,
+              controlPropKey: i,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+            });
+          }
+          if (l.default && !Ve(l.default) && L(l.default)) {
+            let c = V(l.default),
+              f = Ot(l.defaultLocalized, a);
+            t.push({
+              type: "convertFromEnum",
+              transformId: l.id,
+              keyPath: le(r, "default"),
+              nodeId: e.id,
+              scopeId: n,
+              caseId: null,
+              isDefaultCase: !0,
+              value: l.default,
+              valueWordCount: k(l.default),
+              hash: c,
+              localizedValues: f,
+              localizedValueStatuses: Ie(l.default, a, f, c),
+              managedByPluginButUserEditable: !1,
+              controlPropKey: i,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+            });
+          }
+        }
+        if (l.name === "convertFromBoolean")
+          for (let s of ["truthy", "falsy", "fallback"]) {
+            let c = s === "fallback" ? l.fallback : void 0,
+              f = c ? c.value : l[s],
+              u = c
+                ? c.valueLocalized
+                : s === "truthy"
+                  ? l.truthyLocalized
+                  : s === "falsy"
+                    ? l.falsyLocalized
+                    : void 0;
+            if (Ve(f) || !L(f) || (f.length === 0 && !u)) continue;
+            let d = V(f),
+              p = Ot(u, a);
+            t.push({
+              type: l.name,
+              transformId: l.id,
+              keyPath: le(r, s),
+              nodeId: e.id,
+              scopeId: n,
+              property: s,
+              value: f,
+              valueWordCount: k(f),
+              hash: d,
+              localizedValues: p,
+              localizedValueStatuses: Ie(f, a, p, d),
+              managedByPluginButUserEditable: !1,
+              controlPropKey: i,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+            });
+          }
+        if (l.name === "prefix" || l.name === "suffix") {
+          if (
+            Ve(l.value) ||
+            (C(L(l.value), "expected prefix or suffix transform value to be a string"),
+            l.value.length === 0 && !l.valueLocalized)
+          )
+            return;
+          let s = V(l.value),
+            c = Ot(l.valueLocalized, a);
+          t.push({
+            type: l.name,
+            transformId: l.id,
+            keyPath: ze(r, l.id),
+            nodeId: e.id,
+            scopeId: n,
+            value: l.value,
+            valueWordCount: k(l.value),
+            hash: s,
+            localizedValues: c,
+            localizedValueStatuses: Ie(l.value, a, c, s),
+            managedByPluginButUserEditable: !1,
+            controlPropKey: i,
+            controlPropName: void 0,
+            ancestorControlKeyPath: void 0,
+          });
+        }
+      }
+  }
+}
+function Xp(t, e, n, o, r, i, a) {
+  let l = V(i);
+  t.push({
+    type: "FormPlainTextInputNode",
+    keyPath: r,
+    nodeId: e.id,
+    scopeId: n,
+    value: i,
+    valueWordCount: k(i),
+    hash: l,
+    localizedValues: a,
+    localizedValueStatuses: Ie(i, o, a, l),
+    managedByPluginButUserEditable: !1,
+  });
+}
+function Yp(t, e, n, o) {
+  let r = e.get("formInputPlaceholder");
+  if (Ne(r)) {
+    if (Ve(r) || !e.isKeySetAndNotInherited("formInputPlaceholder")) return;
+    pr(t, e, n, r, `${e.id}_placeholder`, e.id, o);
+    return;
+  }
+  !r ||
+    !e.isKeySetAndNotInherited("formInputPlaceholder") ||
+    Xp(t, e, n, o, `${e.id}_placeholder`, r, Ut(e, o, "formInputPlaceholderLocalized"));
+}
+function Zp(t, e, n, o, r, i) {
+  let a = n.get("textContent");
+  if (it(a)) {
+    if (!n.isKeySetAndNotInherited("textContent")) return;
+    pr(t, n, o, a, n.id, n.id, r);
+    return;
+  }
+  if (Ne(n.get("htmlContent")) || Ne(a)) return;
+  let l = n.isKeySetAndNotInherited("html"),
+    s = n.isKeySetAndNotInherited("htmlLocalized");
+  if (!l && !s) return;
+  let c = n.get("html"),
+    f = on(c),
+    u = Ao(c),
+    d = i === "canvasHtmlAsTextContentIfPossible" ? u : "rich-text",
+    p = lr(c),
+    g = d === "rich-text" ? xt(p) : f,
+    h = n.get("originalid");
+  if (d === "text" && !s && h && !n.get("replicaInfo")) {
+    let D = e.getAccessor(h);
+    if (D) {
+      let R = D.get("html");
+      if (on(R) === f) return;
+    }
+  }
+  let v = rn(u === d ? g : f),
+    S = Ut(n, r, "htmlLocalized"),
+    b = Ie(g, r, S, v);
+  t.push({
+    type: "RichTextNode",
+    keyPath: $n(n.id),
+    nodeId: n.id,
+    scopeId: o,
+    value: g,
+    richTextValue: p,
+    valueWordCount: k(g, !0),
+    textType: d,
+    hash: v,
+    localizedValues: S,
+    localizedValueStatuses: b,
+    managedByPluginButUserEditable: !1,
+    inherited: !s,
+  });
+}
+function em(t, e, n, o) {
+  let r = e.get("fillImage");
+  if (e.get("fillType") !== "image" || !e.get("fillEnabled") || !L(r) || r.length === 0) return;
+  let i = e.isKeySetAndNotInherited("fillImageLocalized"),
+    a = e.isKeySetAndNotInherited("altAttributeLocalized");
+  if (
+    !e.isKeySetAndNotInherited("fillImage") &&
+    !i &&
+    !e.isKeySetAndNotInherited("altAttribute") &&
+    !a
+  )
+    return;
+  let l = e.get("altAttribute") ?? wt,
+    s = V(l),
+    c = V(r),
+    f = Ut(e, o, "altAttributeLocalized"),
+    u = Ut(e, o, "fillImageLocalized"),
+    d = e.get("fillImagePositionX"),
+    p = e.get("fillImagePositionY"),
+    g = qt(d) ? d : void 0,
+    h = qt(p) ? p : void 0;
+  t.push({
+    type: "FrameNode",
+    keyPath: _n(e.id),
+    nodeId: e.id,
+    scopeId: n,
+    value: l,
+    valueWordCount: k(l),
+    hash: s,
+    localizedValues: f,
+    localizedValueStatuses: Ie(l, o, f, s, void 0, (y) => {
+      let v = u[y.id];
+      return v ? (v.hash !== c || v.needsReview ? "needsReview" : "done") : null;
+    }),
+    managedByPluginButUserEditable: !1,
+    inherited: !a,
+    supportsAlt: !0,
+    image: r,
+    imageHash: c,
+    imageLocalizedValues: u,
+    imageInherited: !i,
+    positionX: g,
+    positionY: h,
+    supportsFocalPoint: !0,
+  });
+}
+function dd(t, e, n, o) {
+  if (!B.isOn("localizedLinks")) return;
+  let r = mo(e.get("link"));
+  if (!Dt(r)) return;
+  let i = r.url,
+    a = V(i),
+    l = Ut(e, o, "linkLocalized");
+  t.push({
+    type: "nodeLink",
+    keyPath: `${e.id}_linkLocalized`,
+    nodeId: e.id,
+    scopeId: n,
+    value: i,
+    valueWordCount: i ? 1 : 0,
+    hash: a,
+    localizedValues: l,
+    localizedValueStatuses: Ie(i, o, l, a, void 0, (s) => (l[s.id] ? null : "done")),
+    managedByPluginButUserEditable: !1,
+    aiTranslationDisabled: !0,
+  });
+}
+function tm(t, e, n, o) {
+  let r = e.get("bindingType");
+  if ((C(r === "variable" || r === "form", "unexpected form select binding type"), r === "form")) {
+    let i = e.get("formSelectOptions");
+    if (!i || i.length === 0) return;
+    for (let a of i) {
+      if (!a.title) continue;
+      let l = Ot(a.titleLocalized, o),
+        s = V(a.title),
+        c = Ie(a.title, o, l, s);
+      t.push({
+        type: "FormSelectNode",
+        keyPath: `${e.id}_${a.id}`,
+        nodeId: e.id,
+        optionId: a.id,
+        scopeId: n.id,
+        value: a.title,
+        valueWordCount: k(a.title),
+        hash: s,
+        localizedValues: l,
+        localizedValueStatuses: c,
+        managedByPluginButUserEditable: !1,
+      });
+    }
+  } else if (r === "variable") {
+    let i = e.getSubfield("variableBinding", "id");
+    if (!i || !lt(n) || !en(n)) return;
+    let a = n.getVariable(i);
+    if (!a) return;
+    let l = (s) => {
+      let f = e.get(s) || gs[s],
+        u = Ut(e, o, `${s}Localized`),
+        d = V(f);
+      t.push({
+        type: "formSelectGenericOption",
+        keyPath: `${e.id}_${s}`,
+        nodeId: e.id,
+        key: s,
+        scopeId: n.id,
+        value: f,
+        valueWordCount: k(f),
+        hash: d,
+        localizedValues: u,
+        localizedValueStatuses: Ie(f, o, u, d),
+        managedByPluginButUserEditable: !1,
+      });
+    };
+    (at(a, an(n)) && l("allItemsLabel"),
+      a.type === "boolean" && (l("booleanTrueLabel"), l("booleanFalseLabel")));
+    return;
+  }
+}
+function ud(t) {
+  return Le(t) && "type" in t;
+}
+function wi(t, e, n, o, r, i, a, l, s) {
+  if (i.type === "array" && Array.isArray(i.value)) {
+    if (a.type !== "array") return;
+    for (let d of i.value)
+      !ud(d) || !Le(d) || !L(d.id) || wi(t, e, n, o, r, d, a.control, l, ze(s, d.id));
+    return;
+  }
+  if (i.type === "object" && Le(i.value)) {
+    if (a.type !== "object") return;
+    for (let [d, p] of Object.entries(i.value)) {
+      if (!ud(p)) continue;
+      let g = a.controls[d];
+      g && wi(t, e, n, o, r, p, g, l, le(s, d));
+    }
+    return;
+  }
+  let c = bt(e.id, r, s),
+    f = Ot("valueLocalized" in i ? i.valueLocalized : void 0, o),
+    u = {
+      keyPath: c,
+      controlPropKey: r,
+      controlPropName: a.title || Rt(r),
+      ancestorControlKeyPath: s,
+      nodeId: e.id,
+      scopeId: n,
+      localizedValues: f,
+      managedByPluginButUserEditable: !1,
+    };
+  switch (i.type) {
+    case "string": {
+      if (
+        (a.type === "string" && (a.preventLocalization || (a.optional && i.value === null))) ||
+        (it(i.value) && pr(t, e, n, i.value, le(e.id, r), r, o), !L(i.value))
+      )
+        return;
+      let d = V(i.value);
+      t.push({
+        ...u,
+        type: "string",
+        value: i.value,
+        valueWordCount: k(i.value),
+        hash: d,
+        localizedValueStatuses: Ie(i.value, o, f, d),
+      });
+      return;
+    }
+    case "link": {
+      if (
+        !B.isOn("localizedLinks") ||
+        (it(i.value) && pr(t, e, n, i.value, le(e.id, r), r, o), !Dt(i.value))
+      )
+        return;
+      let d = i.value,
+        p = V(d.url);
+      t.push({
+        ...u,
+        type: "link",
+        value: d.url,
+        valueWordCount: d.url ? 1 : 0,
+        hash: p,
+        localizedValueStatuses: Ie(d.url, o, f, p, void 0, (g) => (f[g.id] ? null : "done")),
+        aiTranslationDisabled: !0,
+      });
+      return;
+    }
+    case "richtext": {
+      if ((a.type === "richtext" && a.preventLocalization) || !ve(i.value)) return;
+      let d = xt(i.value),
+        p = Qp(i.value, l);
+      t.push({
+        ...u,
+        type: "richtext",
+        richTextValue: i.value,
+        value: d,
+        valueWordCount: k(d, !0),
+        hash: p,
+        localizedValueStatuses: Ie(d, o, f, p),
+        contentType: void 0,
+        isCollectionControlProp: !1,
+      });
+      return;
+    }
+    case "image": {
+      if ((a.type !== "image" && a.type !== "responsiveimage") || !L(i.value)) return;
+      let d = a.type === "responsiveimage",
+        p = i.alt ?? wt,
+        g = V(p),
+        h = V(i.value),
+        y = d ? Ot(i.altLocalized, o) : hn,
+        v = f;
+      t.push({
+        ...u,
+        type: "image",
+        value: p,
+        valueWordCount: k(p),
+        hash: g,
+        localizedValues: y,
+        localizedValueStatuses: Ie(p, o, y, g, void 0, (S) => {
+          let b = v[S.id];
+          return b ? (b.hash !== h || b.needsReview ? "needsReview" : "done") : null;
+        }),
+        supportsAlt: d,
+        image: i.value,
+        imageHash: h,
+        imageLocalizedValues: v,
+        supportsFocalPoint: d,
+        positionX: d ? i.positionX : void 0,
+        positionY: d ? i.positionY : void 0,
+      });
+      return;
+    }
+  }
+}
+function nm(t, e, n, o, r, i, a) {
+  let l = n.__class === "WebPageNode" ? om(t, n) : n.get("codeComponentIdentifier");
+  if (!l) return;
+  let s = i.componentForIdentifier(l);
+  if ((mn(l, s !== null, () => [...n.keys()].filter(Tn).map((d) => n.get(d)?.type)), !s)) return;
+  let c = {};
+  for (let d of n.keys()) Tn(d) && (c[Ma(d)] = n.get(d));
+  let f = s.properties,
+    u = zt(f, c);
+  for (let [d, p] of Object.entries(u)) {
+    if (!p || !n.isKeySetAndNotInherited(`$control__${d}`)) continue;
+    a?.addControlProp(p);
+    let g = f[d];
+    g && wi(e, n, o, r, d, p, g, i);
+  }
+}
+function om(t, e) {
+  let n = e.get("layoutTemplateIdentifierOverride");
+  if (n !== null) return n ?? t.root.layoutTemplateIdentifier;
+}
+function rm(t, e, n, o, r, i) {
+  let a = o.get("webMetadata"),
+    l = o.get("dataIdentifier"),
+    s = e.dataForIdentifier(l);
+  for (let c of ["title", "description"]) {
+    let f = Ut(o, r, `${c}Localized`);
+    if (!a?.[c] && f === hn) continue;
+    let u = a?.[c] ?? t.root.webMetadata?.[c] ?? "",
+      d = V(u),
+      p = {};
+    for (let g of r) {
+      let h = f[g.id];
+      if (!h || !L(h.value) || !h.value) continue;
+      let y = Vo({ collectionData: s, componentLoader: e, type: "id", value: h.value });
+      y && (p[g.id] = y);
+    }
+    i.push({
+      type: "WebPageNode",
+      keyPath: `${o.id}_${c}`,
+      nodeId: o.id,
+      scopeId: n,
+      value: u,
+      valueWordCount: k(u),
+      hash: d,
+      localizedValues: f,
+      localizedValueStatuses: Ie(u, r, f, d, p),
+      managedByPluginButUserEditable: !1,
+      key: c,
+      dataIdentifier: l,
+      warnings: p,
+    });
+  }
+}
+function zi(t, e, n, o, r, i, a, l, s) {
+  if ((l?.(), o.__class === "CodeComponentNode")) {
+    let c = o.get("codeComponentIdentifier");
+    s?.addIdentifier(c);
+  }
+  if (o.get("customCursorType") === "component") {
+    let c = o.get("customCursorSmartComponentId");
+    s?.addSmartComponentId(c);
+  }
+  (o.__class === "WebPageNode" && rm(t, e, n.id, o, r, i),
+    o.__class === "RichTextNode" && Zp(i, t, o, n.id, r, a),
+    o.__class === "FrameNode" && (em(i, o, n.id, r), dd(i, o, n.id, r)),
+    (o.__class === "SVGNode" || o.__class === "ShapeContainerNode") && dd(i, o, n.id, r),
+    o.__class === "FormPlainTextInputNode" && Yp(i, o, n.id, r),
+    o.__class === "FormSelectNode" && tm(i, o, n, r),
+    (o.__class === "CodeComponentNode" || o.__class === "WebPageNode") &&
+      nm(t, i, o, n.id, r, e, s));
+}
+function Pi(t, e) {
+  let n = ss(e).getRouteSegmentIdToRawPathMap(e).get(t.id);
+  return n ? Pt(n) : "Unknown";
+}
+function im(t, e, n) {
+  let o = e.root.homePageNodeId,
+    r = o && (t.id === o || t.abTestingParentId === o),
+    i;
+  if (r) i = "Home";
+  else {
+    let a = Mt(e, t);
+    if (!a) return "Unknown";
+    let l = t.dataIdentifier;
+    if (!l) i = Pt(a);
+    else {
+      let s = n.dataForIdentifier(l);
+      i = s ? Pt(_s(s, a)) : Pt(a);
+    }
+  }
+  if (t.abTestingParentId) {
+    let a = t.resolveValue("name") || Fe(n, t);
+    return `${i} \xB7 ${a}`;
+  }
+  return t.hasAbTestingChildren(e) ? `${i} \xB7 Control` : i;
+}
+function am(t, e) {
+  let n = e.getParent(t.id);
+  return _(n) ? (Bo(n, t) ?? "Unknown") : "Unknown";
+}
+function UN(t, e, n) {
+  if (he(t)) return "Site";
+  if (qe(t)) return Pi(t, e);
+  if (_(t)) return t.resolveValue("name") || "Unknown";
+  if (He(t)) return am(t, e) || "Unknown";
+  if (x(t)) return im(t, e, n);
+  if (te(t)) return t.resolveValue("name") || "Unknown";
+  if (q(t)) return t.resolveValue("name") || "Unknown";
+  ee(t, "Invalid localization scope");
+}
+function $t(t, e) {
+  return t === void 0 || !je(t, e) ? e : t;
+}
+function Mi(t, e) {
+  return !t || t.includes(e);
+}
+function sm(t, e) {
+  let n = new Set();
+  for (let o of e.values()) Mi(o.includedLocaleIds, t) && n.add(o.collectionNodeId);
+  return n;
+}
+function lm(t, e, n, o, r) {
+  if (t.abTestingParentId) return r(t.abTestingParentId);
+  if (!t.collectionIdentifier) return Mi(t.includedLocaleIds, e);
+  let i = n.get(t.collectionIdentifier);
+  return i ? o.has(i) : !0;
+}
+function cm(t, e, n, o) {
+  let r = new Map(),
+    i = new Set(),
+    a = (s) => {
+      let c = r.get(s);
+      if (c !== void 0) return c;
+      if (i.has(s)) return !0;
+      let f = e.get(s);
+      if (!f) return !0;
+      i.add(s);
+      let u = lm(f, t, n, o, a);
+      return (i.delete(s), r.set(s, u), u);
+    },
+    l = new Set();
+  for (let s of e.keys()) a(s) && l.add(s);
+  return l;
+}
+function dm(t, e, n) {
+  return t ? (e.has(t) ? n.has(t) : !0) : !1;
+}
+function um(t, e) {
+  for (let n of t) if (e(n)) return !0;
+  return !1;
+}
+function fm(t, e, n) {
+  let o = new Map();
+  for (let [s, c] of t) {
+    if (!c.parentRouteId) continue;
+    let f = o.get(c.parentRouteId) ?? [];
+    (f.push(s), o.set(c.parentRouteId, f));
+  }
+  let r = new Set(),
+    i = new Map(),
+    a = new Set(),
+    l = (s) => {
+      let c = i.get(s);
+      if (c !== void 0) return c;
+      if (a.has(s)) return !0;
+      let f = t.get(s);
+      if (!f) return !0;
+      a.add(s);
+      let u = dm(f.webPageId, e, n),
+        d = o.get(s) ?? [],
+        p = um(d, l);
+      a.delete(s);
+      let g = u || p;
+      return (i.set(s, g), g && r.add(s), g);
+    };
+  for (let s of t.keys()) l(s);
+  return r;
+}
+function pm(t, e, n, o) {
+  let r = o.get(t)?.get(e);
+  return r || (n.get(t) ?? []);
+}
+function mm(t, e, n, o, r) {
+  let i = new Set(),
+    a = new Set(),
+    l = Array.from(e);
+  for (let s of r.values())
+    if (Mi(s.includedLocaleIds, t))
+      for (let c of s.componentIdsByLocaleId.get(t) ?? []) (a.add(c), l.push(c));
+  for (; l.length > 0;) {
+    let s = l.pop();
+    if (!s || i.has(s)) continue;
+    i.add(s);
+    let c = pm(s, t, n, o);
+    for (let f of c) (a.add(f), !i.has(f) && l.push(f));
+  }
+  return a;
+}
+function hm(t, e, n, o) {
+  if (!o || !(o.hasTitleSource || o.hasDescriptionSource)) return !0;
+  for (let i of t) {
+    let a = e.get(i);
+    if (
+      !a ||
+      (o.hasTitleSource && !a.titleOverrideLocaleIds.has(n)) ||
+      (o.hasDescriptionSource && !a.descriptionOverrideLocaleIds.has(n))
+    )
+      return !0;
+  }
+  return !1;
+}
+function mr(t, e, n, o) {
+  let r = $t(n, o);
+  t.set(e, r);
+}
+function fd({
+  localeIds: t,
+  dependenciesByScopeId: e,
+  localizedDependenciesByScopeId: n,
+  pageFactsByPageId: o,
+  collectionIdentifierById: r,
+  itemFactsByItemId: i,
+  routeFactsByRouteId: a,
+  siteSettingsFact: l,
+  previousResult: s,
+}) {
+  let c = new Map();
+  for (let [R, N] of r) c.set(N, R);
+  let f = new Map(),
+    u = new Map(),
+    d = new Map(),
+    p = new Map(),
+    g = new Map();
+  for (let R of t) {
+    let N = sm(R, i),
+      w = cm(R, o, c, N),
+      z = fm(a, o, w),
+      M = mm(R, w, e, n, i);
+    (mr(u, R, s?.visibleCollectionIdsByLocaleId.get(R), N),
+      mr(f, R, s?.visiblePageIdsByLocaleId.get(R), w),
+      mr(d, R, s?.visibleRouteIdsByLocaleId.get(R), z),
+      mr(p, R, s?.reachableDependencyIdsByLocaleId.get(R), M));
+    let P = hm(w, o, R, l);
+    g.set(R, P);
+  }
+  let h = $t(s?.localeIds, t),
+    y = $t(s?.visiblePageIdsByLocaleId, f),
+    v = $t(s?.visibleCollectionIdsByLocaleId, u),
+    S = $t(s?.visibleRouteIdsByLocaleId, d),
+    b = $t(s?.reachableDependencyIdsByLocaleId, p),
+    D = $t(s?.siteSettingsVisibleByLocaleId, g);
+  return {
+    localeIds: h,
+    visiblePageIdsByLocaleId: y,
+    visibleCollectionIdsByLocaleId: v,
+    visibleRouteIdsByLocaleId: S,
+    reachableDependencyIdsByLocaleId: b,
+    siteSettingsVisibleByLocaleId: D,
+  };
+}
+function gm(t, e) {
+  let n = t.get(e);
+  if (n) return n;
+  let o = new Set();
+  return (t.set(e, o), o);
+}
+function hd(t, e) {
+  let n = t.get(e);
+  if (n) return n;
+  let o = new Map();
+  return (t.set(e, o), o);
+}
+var ki = class {
+  constructor(e, n) {
+    this.context = e;
+    this.checkpoint = n;
+  }
+  context;
+  checkpoint;
+  directSmartComponentIds = new Set();
+  unlocalizedSmartComponentIds = new Set();
+  richTextComponentIdsByLocaleId = new Map();
+  componentIdsByRichTextValueByVariant = new Map();
+  addIdentifier(e) {
+    if (!e) return;
+    let n = bd(e);
+    n && (this.directSmartComponentIds.add(n), this.unlocalizedSmartComponentIds.add(n));
+  }
+  addSmartComponentId(e) {
+    L(e) && (this.directSmartComponentIds.add(e), this.unlocalizedSmartComponentIds.add(e));
+  }
+  addControlProp(e) {
+    switch (e.type) {
+      case "array":
+        if (!no(e.value)) return;
+        for (let n of e.value) this.addControlProp(n);
+        return;
+      case "object":
+        if (!Le(e.value)) return;
+        for (let n of Object.values(e.value)) this.addControlProp(n);
+        return;
+      case "customcursor":
+        if (!Ka(e.value)) return;
+        this.addSmartComponentId(e.value.customCursorSmartComponentId);
+        return;
+      case "richtext":
+        this.addRichTextControlProp(e);
+    }
+  }
+  addRichTextControlProp(e) {
+    for (let [n, o] of this.context.routerLocaleById) {
+      let i = Xt(o, e.valueLocalized)?.value,
+        a = ve(i),
+        l = a ? i : e.value,
+        s = a ? "collectionControlPropLocalized" : "collectionControlProp",
+        c = this.getRichTextComponentIds(l, s);
+      if (!c) continue;
+      let f = this.getComponentIdsForLocale(n);
+      for (let u of c) (f.add(u), this.directSmartComponentIds.add(u));
+    }
+  }
+  getComponentIdsForLocale(e) {
+    let n = this.richTextComponentIdsByLocaleId.get(e);
+    if (n) return n;
+    let o = new Set();
+    return (this.richTextComponentIdsByLocaleId.set(e, o), o);
+  }
+  getRichTextComponentIds(e, n) {
+    if (!ve(e)) return;
+    let o = hd(this.componentIdsByRichTextValueByVariant, n),
+      r = o.get(e);
+    if (r) return r;
+    this.checkpoint?.();
+    let i = Id(e, n);
+    return (o.set(e, i), i);
+  }
+};
+function sx() {
+  return {
+    facts: {
+      dependenciesByScopeId: new Map(),
+      localizedDependenciesByScopeId: new Map(),
+      cmsDependenciesByItemId: new Map(),
+      pageFactsByPageId: new Map(),
+      collectionIdentifierById: new Map(),
+      routeFactsByRouteId: new Map(),
+      siteSettingsFact: void 0,
+    },
+    allScopesCached: !0,
+  };
+}
+function gd(t, e) {
+  let n = Ee(t, "includeDrafts"),
+    o = new Map();
+  for (let r of n) o.set(r.id, r);
+  return { collection: e, routerLocales: n, routerLocaleById: o };
+}
+function Ei(t, e) {
+  if (t) return new ki(t, e);
+}
+function Bi(t) {
+  if (t) return Array.from(t.directSmartComponentIds);
+}
+function Fi(t) {
+  if (!t) return;
+  let e = new Map();
+  for (let n of t.context.routerLocaleById.keys()) {
+    let o = new Set(t.unlocalizedSmartComponentIds),
+      r = t.richTextComponentIdsByLocaleId.get(n);
+    for (let i of r ?? []) o.add(i);
+    e.set(n, Array.from(o));
+  }
+  return e;
+}
+function pd(t, e, n) {
+  if (!x(e) || !po(e)) return n;
+  let o = jr(e.layoutTemplateIdentifier);
+  if (!o) return n;
+  let r = t.get(o);
+  return !q(r) || n.includes(o) ? n : [...n, o];
+}
+function jn(t, e, n, o, r, i = e, a) {
+  let l = r?.collection;
+  if (!l || !n) return;
+  let s = l.facts,
+    c = pd(t, e, n);
+  if ((s.dependenciesByScopeId.set(e.id, c), o)) {
+    let u = new Map();
+    for (let [d, p] of o) u.set(d, pd(t, e, p));
+    s.localizedDependenciesByScopeId.set(e.id, u);
+  }
+  if (!x(e)) return;
+  let f = ym(t, e, i, r, a);
+  return (s.pageFactsByPageId.set(e.id, f), f);
+}
+function ym(t, e, n, o, r) {
+  if (r) return r;
+  let i = tn(t, n);
+  return vm(e, i, o);
+}
+function md(t, e, n) {
+  let o = new Set();
+  for (let [r, i] of n.routerLocaleById) {
+    let l = Xt(i, e)?.value != null;
+    (!t && !l) || o.add(r);
+  }
+  return o;
+}
+function vm(t, e, n) {
+  return {
+    includedLocaleIds: e,
+    abTestingParentId: t.abTestingParentId,
+    collectionIdentifier: t.dataIdentifier,
+    titleOverrideLocaleIds: md(t.webMetadata?.title !== void 0, t.titleLocalized, n),
+    descriptionOverrideLocaleIds: md(
+      t.webMetadata?.description !== void 0,
+      t.descriptionLocalized,
+      n
+    ),
+  };
+}
+function yd(t, e) {
+  e && e.facts.collectionIdentifierById.set(t.id, t.instanceIdentifier);
+}
+function vd(t, e, n) {
+  if (!n) return;
+  let o = { parentRouteId: e, webPageId: t.webPageId };
+  n.facts.routeFactsByRouteId.set(t.id, o);
+}
+function Sd(t, e) {
+  e &&
+    (e.facts.siteSettingsFact = {
+      hasTitleSource: !!(t.webMetadata?.title || t.titleLocalized),
+      hasDescriptionSource: !!(t.webMetadata?.description || t.descriptionLocalized),
+    });
+}
+function Oe(t, e) {
+  return t === void 0 || !je(t, e) ? e : t;
+}
+function bd(t) {
+  return jr(t, "canvasComponent") ?? void 0;
+}
+function Id(t, e) {
+  let n = bl(t, e),
+    o = new Set(n.customCursorSmartComponentIds);
+  for (let r of n.moduleIdentifiers) {
+    let i = bd(r);
+    i && o.add(i);
+  }
+  return o;
+}
+function Sm(t, e) {
+  if (t?.type === "richtext" && ve(t.value)) return t.value;
+  if (ve(e.initialValue)) return e.initialValue;
+}
+function bm(t, e, n, o, r) {
+  function i(l, s) {
+    if (s.type !== "richtext") return;
+    let c = Sm(l, s);
+    if (c)
+      for (let f of n) {
+        let u = o.get(f.id),
+          d = l?.type === "richtext" ? l.valueLocalized : void 0,
+          g = Xt(u, d)?.value,
+          h = ve(g),
+          y = h ? g : c,
+          v = h ? "collectionControlPropLocalized" : "collectionControlProp";
+        r(f.id, y, v);
+      }
+  }
+  function a(l, s) {
+    if (s.type === "array") {
+      if (l?.type !== "array" || Ne(l.value)) return;
+      for (let c of l.value)
+        if (go(c) && c.value) for (let f of s.itemVariables) Ce(f) && a(c.value[f.id], f);
+      return;
+    }
+    i(l, s);
+  }
+  for (let l of t.variables) Ce(l) && a(e.getControlProp(l.id), l);
+}
+function Im(t, e, n, o) {
+  let r = new Map(),
+    i = new Map();
+  bm(t, e, n, o.routerLocaleById, (l, s, c) => {
+    let f = gm(i, l),
+      u = hd(r, c),
+      d = u.get(s),
+      p = o.previousDependencies?.componentIdsByRichTextValueByVariant.get(c)?.get(s),
+      g = d ?? p;
+    g || o.checkpoint?.();
+    let h = g ?? Id(s, c);
+    u.set(s, h);
+    for (let y of h) f.add(y);
+  });
+  let a = new Map();
+  for (let l of n) a.set(l.id, i.get(l.id) ?? new Set());
+  return {
+    componentIdsByRichTextValueByVariant: Oe(
+      o.previousDependencies?.componentIdsByRichTextValueByVariant,
+      r
+    ),
+    componentIdsByLocaleId: Oe(o.previousDependencies?.componentIdsByLocaleId, a),
+  };
+}
+function Cd(t, e, n, o, r) {
+  let i = Im(t, e, n, r),
+    a = r.previousDependencies;
+  if (a) {
+    let l = a.collectionNodeId === t.id,
+      s = je(a.includedLocaleIds, o),
+      c = a.componentIdsByRichTextValueByVariant === i.componentIdsByRichTextValueByVariant,
+      f = a.componentIdsByLocaleId === i.componentIdsByLocaleId;
+    if (l && s && c && f) return a;
+  }
+  return { includedLocaleIds: o, collectionNodeId: t.id, ...i };
+}
+function lx({ locales: t, facts: e, previousUsage: n }) {
+  let o = Oe(
+      n?.localeIds,
+      t.map((p) => p.id)
+    ),
+    r = Oe(n?.dependenciesByScopeId, e.dependenciesByScopeId),
+    i = Oe(n?.localizedDependenciesByScopeId, e.localizedDependenciesByScopeId),
+    a = Oe(n?.cmsDependenciesByItemId, e.cmsDependenciesByItemId),
+    l = Oe(n?.pageFactsByPageId, e.pageFactsByPageId),
+    s = Oe(n?.collectionIdentifierById, e.collectionIdentifierById),
+    c = Oe(n?.routeFactsByRouteId, e.routeFactsByRouteId),
+    f = Oe(n?.siteSettingsFact, e.siteSettingsFact);
+  if (
+    n?.localeIds === o &&
+    n.dependenciesByScopeId === r &&
+    n.localizedDependenciesByScopeId === i &&
+    n.cmsDependenciesByItemId === a &&
+    n.pageFactsByPageId === l &&
+    n.collectionIdentifierById === s &&
+    n.routeFactsByRouteId === c &&
+    n.siteSettingsFact === f
+  )
+    return n;
+  let d = fd({
+    localeIds: o,
+    dependenciesByScopeId: r,
+    localizedDependenciesByScopeId: i,
+    pageFactsByPageId: l,
+    collectionIdentifierById: s,
+    itemFactsByItemId: a,
+    routeFactsByRouteId: c,
+    siteSettingsFact: f,
+    previousResult: n?.visibility,
+  });
+  return {
+    localeIds: o,
+    dependenciesByScopeId: r,
+    localizedDependenciesByScopeId: i,
+    cmsDependenciesByItemId: a,
+    pageFactsByPageId: l,
+    collectionIdentifierById: s,
+    routeFactsByRouteId: c,
+    siteSettingsFact: f,
+    visibility: d,
+    reachableDependencyIdsByLocaleId: d.reachableDependencyIdsByLocaleId,
+  };
+}
+function Td(t) {
+  return t ? (t.abTestingParentId ? !0 : t.collectionIdentifier !== void 0) : !1;
+}
+function Cm(t, e, n) {
+  let o = n.visibility;
+  switch (t.groupType) {
+    case "component":
+    case "template":
+      return !o.reachableDependencyIdsByLocaleId.get(e)?.has(t.nodeId);
+    case "collection":
+      return !o.visibleCollectionIdsByLocaleId.get(e)?.has(t.nodeId);
+    case "settings":
+      return o.siteSettingsVisibleByLocaleId.get(e) === !1;
+    case "page": {
+      let r = n.pageFactsByPageId.get(t.nodeId);
+      return Td(r)
+        ? !o.visiblePageIdsByLocaleId.get(e)?.has(t.nodeId)
+        : n.routeFactsByRouteId.has(t.nodeId)
+          ? !o.visibleRouteIdsByLocaleId.get(e)?.has(t.nodeId)
+          : !1;
+    }
+    case "collectionItem":
+      return !1;
+  }
+}
+function cx(t, e, n) {
+  return t.map((o) => {
+    let r = e.localeIds.filter((d) => Cm(o, d, e)),
+      i = n?.get(o.nodeId)?.derivedExcludedLocaleIds,
+      a = Oe(i, r),
+      l = a.length > 0 ? a : void 0,
+      s = e.pageFactsByPageId.get(o.nodeId),
+      c = o.groupType === "page" && Td(s),
+      f = c ? !1 : o.supportsLocaleVisibility,
+      u = c ? void 0 : o.includedLocaleIds;
+    return o.derivedExcludedLocaleIds === l &&
+      o.supportsLocaleVisibility === f &&
+      o.includedLocaleIds === u
+      ? o
+      : { ...o, supportsLocaleVisibility: f, includedLocaleIds: u, derivedExcludedLocaleIds: l };
+  });
+}
+function hr() {
+  return B.isOn("fastLocalization") && tl();
+}
+var PD = ["new", "needsReview", "done"],
+  Tm = "controlPropKey";
+function MD(t) {
+  return Tm in t;
+}
+function kD(t) {
+  return "groups" in t;
+}
+function Lm(t) {
+  return t.cmsLocalizationDependencies !== void 0;
+}
+function Ld(t, e) {
+  return !(
+    !t.directSmartComponentIds ||
+    !t.localizedSmartComponentIdsByLocaleId ||
+    (x(e) && !t.pageVisibilityFact)
+  );
+}
+function Rm(t, e, n) {
+  return n ? (He(e) ? Lm(t) : Un(e) || qe(e) ? Ld(t, e) : _(e) || he(e) ? !0 : ee(e)) : !0;
+}
+var Gn = Symbol("ignoreWebPageCollection"),
+  Nm = "collectionNodeId";
+function ED(t) {
+  return Nm in t;
+}
+var xm = { string: !0, richtext: !0, image: !0, enum: !0, link: !0, slug: !0 };
+function Dm(t) {
+  return t in xm;
+}
+function xd(t) {
+  return Ce(t) && Dm(t.type);
+}
+var Vm = { string: !0, richtext: !0, image: !0, link: !0 };
+function Dd(t) {
+  return t in Vm;
+}
+function BD(t) {
+  return t
+    ? t.type === "richtext"
+      ? !0
+      : t.type === "RichTextNode"
+        ? t.textType === "rich-text"
+        : !1
+    : !1;
+}
+function FD(t) {
+  return t?.type === "richtext";
+}
+function AD(t) {
+  return t.type === "richtext" || t.type === "RichTextNode"
+    ? typeof t.richTextValue == "string"
+    : !1;
+}
+function OD(t) {
+  return t ? t.type === "image" || t.type === "FrameNode" : !1;
+}
+function UD(t) {
+  return t ? t.type === "nodeLink" || t.type === "link" : !1;
+}
+function $D(t) {
+  return t ? t.type === "RootNode" || t.type === "WebPageNode" : !1;
+}
+function _D(t) {
+  return t?.type === "slug" || wm(t);
+}
+function wm(t) {
+  return t?.type === "RouteSegmentNode";
+}
+function zm(t) {
+  return oo(t) || t === "" || Et(t);
+}
+function WD(t, e) {
+  if (!t) return !1;
+  if (
+    t.value.includes(`
+`)
+  )
+    return !0;
+  let n = t.localizedValues[e.id];
+  return vo(n)
+    ? !!kr(n, { preserveNewLines: !0 }).includes(`
+`)
+    : !1;
+}
+function Vd(t, e, n) {
+  return e ? (e.hash !== n || e.needsReview ? "needsReview" : "done") : zm(t) ? "done" : "new";
+}
+function X(t, e, n, o, r, i) {
+  return Object.fromEntries(
+    e.map((a) => {
+      let l = n[a.id];
+      if (r?.[a.id]) return [a.id, "warning"];
+      if (i) {
+        let s = i(a);
+        if (s) return [a.id, s];
+      }
+      return [a.id, Vd(t, l, o)];
+    })
+  );
+}
+function $i(t) {
+  return (e) => (t[e.id] ? null : "done");
+}
+function _i(t, e, n) {
+  return (o) => {
+    if (L(t) && e) {
+      let r = e[o.id];
+      if (r) return Vd(t, r, n);
+    }
+    return null;
+  };
+}
+var W = {};
+Object.freeze(W);
+function Pm(t, e, n, o, r, i, a) {
+  let l = (s, c, f) => {
+    if (Ve(c) || !L(c) || (c.length === 0 && !f)) return;
+    let u = V(c),
+      d = f ?? W,
+      p = X(c, i, d, u);
+    a.push({
+      type: t.name,
+      transformId: t.id,
+      keyPath: le(e, s),
+      nodeId: r.id,
+      scopeId: o.id,
+      property: s,
+      value: c,
+      controlPropKey: n,
+      controlPropName: void 0,
+      ancestorControlKeyPath: void 0,
+      valueWordCount: k(c),
+      hash: u,
+      localizedValues: d,
+      localizedValueStatuses: p,
+      managedByPluginButUserEditable: !1,
+    });
+  };
+  (l("truthy", t.truthy, t.truthyLocalized),
+    l("falsy", t.falsy, t.falsyLocalized),
+    t.fallback && l("fallback", t.fallback.value, t.fallback.valueLocalized));
+}
+function Mm(t, e, n, o, r, i, a, l) {
+  if (e.outputType !== "string") return;
+  for (let u of e.cases) {
+    if (lo(t) && t.startValue.id === bo) break;
+    if (Ve(u.to) || !L(u.to) || (u.to.length === 0 && !u.toLocalized)) continue;
+    let d = V(u.to),
+      p = u.toLocalized ?? W,
+      g = X(u.to, a, p, d),
+      h = le(n, "cases");
+    l.push({
+      type: "convertFromEnum",
+      transformId: e.id,
+      keyPath: ze(h, u.id),
+      nodeId: i.id,
+      scopeId: r.id,
+      caseId: u.id,
+      isDefaultCase: !1,
+      value: u.to,
+      ancestorControlKeyPath: void 0,
+      controlPropKey: o,
+      controlPropName: void 0,
+      valueWordCount: k(u.to),
+      hash: d,
+      localizedValues: p,
+      localizedValueStatuses: g,
+      managedByPluginButUserEditable: !1,
+    });
+  }
+  if (!e.default || Ve(e.default) || !L(e.default)) return;
+  let s = V(e.default),
+    c = e.defaultLocalized ?? W,
+    f = X(e.default, a, c, s);
+  l.push({
+    type: "convertFromEnum",
+    transformId: e.id,
+    keyPath: le(n, "default"),
+    nodeId: i.id,
+    scopeId: r.id,
+    caseId: null,
+    isDefaultCase: !0,
+    ancestorControlKeyPath: void 0,
+    value: e.default,
+    controlPropKey: o,
+    controlPropName: void 0,
+    valueWordCount: k(e.default),
+    hash: s,
+    localizedValues: c,
+    localizedValueStatuses: f,
+    managedByPluginButUserEditable: !1,
+  });
+}
+function gr(t, e, n, o, r, i, a) {
+  if (!(!so(n.outputType) || n.outputType !== "string")) {
+    for (let l of n.transforms)
+      if (ao(l))
+        switch (l.name) {
+          case "convertFromEnum": {
+            Mm(n, l, o, r, t, e, i, a);
+            break;
+          }
+          case "convertFromBoolean": {
+            Pm(l, o, r, t, e, i, a);
+            break;
+          }
+          case "prefix":
+          case "suffix": {
+            if (Ve(l.value) || (l.value.length === 0 && !l.valueLocalized)) return;
+            let s = V(l.value),
+              c = l.valueLocalized ?? W,
+              f = X(l.value, i, c, s);
+            a.push({
+              type: l.name,
+              transformId: l.id,
+              keyPath: ze(o, l.id),
+              controlPropKey: r,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+              nodeId: e.id,
+              scopeId: t.id,
+              value: l.value,
+              valueWordCount: k(l.value),
+              hash: s,
+              localizedValues: c,
+              localizedValueStatuses: f,
+              managedByPluginButUserEditable: !1,
+            });
+            continue;
+          }
+          default:
+        }
+  }
+}
+function km(t, e, n, o, r, i) {
+  if (it(n.textContent)) {
+    if (!be(t, n, "textContent")) return;
+    gr(e, n, n.textContent, n.id, n.id, o, r);
+    return;
+  }
+  if (Ne(n.htmlContent) || Ne(n.textContent)) return;
+  let a = be(t, n, "html"),
+    l = be(t, n, "htmlLocalized");
+  if (!a && !l) return;
+  let s = n.html,
+    c = on(s),
+    f = Ao(s),
+    u = i === "canvasHtmlAsTextContentIfPossible" ? f : "rich-text",
+    d = lr(s),
+    p = u === "rich-text" ? xt(d) : c;
+  if (u === "text" && !l && ga(n)) {
+    let S = t.getNode(n.originalid);
+    if (S && on(S.html) === c) return;
+  }
+  let h = rn(f === u ? p : c),
+    y = n.htmlLocalized ?? W,
+    v = X(p, o, y, h);
+  r.push({
+    type: "RichTextNode",
+    keyPath: $n(n.id),
+    nodeId: n.id,
+    scopeId: e.id,
+    value: p,
+    richTextValue: d,
+    valueWordCount: k(p, !0),
+    textType: u,
+    hash: h,
+    localizedValues: y,
+    localizedValueStatuses: v,
+    managedByPluginButUserEditable: !1,
+    inherited: !l,
+  });
+}
+function Rd(t) {
+  if (he(t)) return "RootNode";
+  if (x(t)) return "WebPageNode";
+  ee(t);
+}
+function Nd(t, e, n, o) {
+  let r = {};
+  for (let i of e) {
+    let a = n[i.id];
+    if (!a || !L(a.value) || !a.value) continue;
+    let l = Vo({ collectionData: o, componentLoader: t, type: "id", value: a.value });
+    l && (r[i.id] = l);
+  }
+  return r;
+}
+function wd(t, e, n, o, r, i) {
+  let a = null;
+  if (
+    (x(o) && (a = e.dataForIdentifier(o.dataIdentifier)), o.webMetadata?.title || o.titleLocalized)
+  ) {
+    let l = o.webMetadata?.title ?? t.root.webMetadata?.title ?? "",
+      s = V(l),
+      c = o.titleLocalized ?? W,
+      f = Nd(e, r, c, a),
+      u = X(l, r, c, s, f);
+    i.push({
+      type: Rd(o),
+      keyPath: `${o.id}_title`,
+      nodeId: o.id,
+      scopeId: n.id,
+      value: l,
+      valueWordCount: k(l),
+      hash: s,
+      localizedValues: c,
+      localizedValueStatuses: u,
+      managedByPluginButUserEditable: !1,
+      key: "title",
+      dataIdentifier: Er(o) ? o.dataIdentifier : void 0,
+      warnings: f,
+    });
+  }
+  if (o.webMetadata?.description || o.descriptionLocalized) {
+    let l = o.webMetadata?.description ?? t.root.webMetadata?.description ?? "",
+      s = V(l),
+      c = o.descriptionLocalized ?? W,
+      f = Nd(e, r, c, a),
+      u = X(l, r, c, s, f);
+    i.push({
+      type: Rd(o),
+      keyPath: `${o.id}_description`,
+      nodeId: o.id,
+      scopeId: n.id,
+      value: l,
+      valueWordCount: k(l),
+      hash: s,
+      localizedValues: c,
+      localizedValueStatuses: u,
+      managedByPluginButUserEditable: !1,
+      key: "description",
+      dataIdentifier: Er(o) ? o.dataIdentifier : void 0,
+      warnings: f,
+    });
+  }
+}
+function Em(t, e, n, o, r) {
+  if (!Da(n) || !L(n.fillImage) || n.fillImage.length === 0) return;
+  let i = be(t, n, "fillImage"),
+    a = be(t, n, "fillImageLocalized"),
+    l = be(t, n, "altAttribute"),
+    s = be(t, n, "altAttributeLocalized");
+  if (!i && !a && !l && !s) return;
+  let c = n.altAttribute ?? wt,
+    f = V(c),
+    u = n.altAttributeLocalized ?? W,
+    d = n.fillImage,
+    p = V(d),
+    g = n.fillImageLocalized ?? W,
+    h = X(c, o, u, f, void 0, _i(d, g, p));
+  r.push({
+    type: "FrameNode",
+    keyPath: _n(n.id),
+    nodeId: n.id,
+    scopeId: e.id,
+    value: c,
+    valueWordCount: k(c),
+    hash: f,
+    localizedValues: u,
+    localizedValueStatuses: h,
+    managedByPluginButUserEditable: !1,
+    inherited: !s,
+    supportsAlt: !0,
+    image: d,
+    imageHash: p,
+    imageLocalizedValues: g,
+    imageInherited: !a,
+    positionX: qt(n.fillImagePositionX) ? n.fillImagePositionX : void 0,
+    positionY: qt(n.fillImagePositionY) ? n.fillImagePositionY : void 0,
+    supportsFocalPoint: !0,
+  });
+}
+function zd(t, e, n, o) {
+  if (!B.isOn("localizedLinks")) return;
+  let r = e.getLink();
+  if (!Dt(r)) return;
+  let i = r.url,
+    a = V(i),
+    l = e.linkLocalized ?? W,
+    s = X(i, n, l, a, void 0, $i(l));
+  o.push({
+    type: "nodeLink",
+    keyPath: `${e.id}_linkLocalized`,
+    nodeId: e.id,
+    scopeId: t.id,
+    value: i,
+    valueWordCount: i ? 1 : 0,
+    hash: a,
+    localizedValues: l,
+    localizedValueStatuses: s,
+    managedByPluginButUserEditable: !1,
+    aiTranslationDisabled: !0,
+  });
+}
+function Bm(t, e, n, o, r) {
+  (Em(t, e, n, o, r), zd(e, n, o, r));
+}
+function yr(t) {
+  return !!(Dd(t) || t === "array" || t === "object");
+}
+function Fm(t) {
+  if (x(t) && po(t)) return t.layoutTemplateIdentifier;
+  if (ye(t)) return t.codeComponentIdentifier;
+}
+function Pd(t, e) {
+  let n = rn(t);
+  if (typeof t != "string" || !t.includes("data-module-identifier")) return n;
+  let o = fr(t, e);
+  return o.length === 0 ? n : V(`${n}:${o}`);
+}
+function Am(t, e, n, o, r, i, a) {
+  let l = Fm(o);
+  if (!l) return;
+  let s = e.componentForIdentifier(l);
+  if ((mn(l, s !== null, () => Object.values(o.getRawControlProps()).map((u) => u?.type)), !s))
+    return;
+  let c = o.getControlProps(s.properties);
+  function f(u, d, p, g) {
+    let h = d.type;
+    if (h === "array" && no(d.value)) {
+      if (p.type !== "array") return;
+      let y = p.control;
+      for (let v of d.value) {
+        if (!yr(v.type)) continue;
+        let S = ze(g, v.id);
+        f(u, v, y, S);
+      }
+    }
+    if (h === "object" && Le(d.value)) {
+      if (p.type !== "object") return;
+      for (let y in d.value) {
+        let v = d.value[y];
+        if (!v || !yr(v.type)) continue;
+        let S = le(g, y),
+          b = p.controls[y];
+        b && f(u, v, b, S);
+      }
+    }
+    if (Dd(h))
+      switch (h) {
+        case "string": {
+          if (
+            !be(t, o, Jt(u)) ||
+            (p.type === "string" && (p.preventLocalization || (p.optional && rt(d.value)))) ||
+            (it(d.value) && gr(n, o, d.value, le(o.id, u), u, r, i), !L(d.value))
+          )
+            break;
+          let y = d.value,
+            v = V(y),
+            S = d.valueLocalized ?? W,
+            b = X(y, r, S, v);
+          i.push({
+            type: "string",
+            keyPath: bt(o.id, u, g),
+            controlPropKey: u,
+            controlPropName: p.title || Rt(u),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: n.id,
+            value: y,
+            valueWordCount: k(y),
+            hash: v,
+            localizedValues: S,
+            localizedValueStatuses: b,
+            managedByPluginButUserEditable: !1,
+          });
+          break;
+        }
+        case "link": {
+          if (
+            !B.isOn("localizedLinks") ||
+            !be(t, o, Jt(u)) ||
+            (it(d.value) && gr(n, o, d.value, le(o.id, u), u, r, i), !Dt(d.value))
+          )
+            break;
+          let y = d.value.url,
+            v = V(y),
+            S = d.valueLocalized ?? W,
+            b = X(y, r, S, v, void 0, $i(S));
+          i.push({
+            type: "link",
+            keyPath: bt(o.id, u, g),
+            controlPropKey: u,
+            controlPropName: p.title || Rt(u),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: n.id,
+            value: y,
+            valueWordCount: y ? 1 : 0,
+            hash: v,
+            localizedValues: S,
+            localizedValueStatuses: b,
+            managedByPluginButUserEditable: !1,
+            aiTranslationDisabled: !0,
+          });
+          break;
+        }
+        case "richtext": {
+          if (
+            h !== "richtext" ||
+            !ve(d.value) ||
+            (p.type === "richtext" && p.preventLocalization) ||
+            !be(t, o, Jt(u))
+          )
+            break;
+          let y = d.value,
+            v = xt(y),
+            S = Pd(y, e),
+            b = d.valueLocalized ?? W,
+            D = X(v, r, b, S);
+          i.push({
+            type: "richtext",
+            keyPath: bt(o.id, u, g),
+            controlPropKey: u,
+            controlPropName: p.title || Rt(u),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: n.id,
+            richTextValue: y,
+            value: v,
+            valueWordCount: k(v, !0),
+            hash: S,
+            localizedValues: b,
+            localizedValueStatuses: D,
+            managedByPluginButUserEditable: !1,
+            contentType: void 0,
+            isCollectionControlProp: !1,
+          });
+          break;
+        }
+        case "image": {
+          if (
+            !d ||
+            d.type !== "image" ||
+            !L(d.value) ||
+            (p.type !== "responsiveimage" && p.type !== "image") ||
+            !be(t, o, Jt(u))
+          )
+            break;
+          let y = p.type === "responsiveimage",
+            v = d.alt ?? wt,
+            S = V(v),
+            b = y ? (d.altLocalized ?? W) : W,
+            D = d.value,
+            R = V(D),
+            N = d.valueLocalized ?? W,
+            w = X(v, r, b, S, void 0, _i(D, N, R)),
+            z = p.type === "responsiveimage";
+          i.push({
+            type: "image",
+            keyPath: bt(o.id, u, g),
+            controlPropKey: u,
+            controlPropName: p.title || Rt(u),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: n.id,
+            value: v,
+            valueWordCount: k(v),
+            hash: S,
+            localizedValues: b,
+            localizedValueStatuses: w,
+            managedByPluginButUserEditable: !1,
+            supportsAlt: y,
+            image: D,
+            imageHash: R,
+            imageLocalizedValues: N,
+            supportsFocalPoint: z,
+            positionX: z ? d.positionX : void 0,
+            positionY: z ? d.positionY : void 0,
+          });
+          break;
+        }
+        default:
+      }
+  }
+  for (let u in c) {
+    let d = c[u];
+    if (!d) continue;
+    a && be(t, o, Jt(u)) && a.addControlProp(d);
+    let p = s.properties[u];
+    p && f(u, d, p);
+  }
+}
+function Om(t, e, n, o) {
+  switch (e.bindingType) {
+    case "form": {
+      let r = e.formSelectOptions;
+      if (!r || r.length === 0) return;
+      for (let i of r) {
+        let a = i.title;
+        if (!a) continue;
+        let l = i.titleLocalized ?? W,
+          s = V(a),
+          c = X(a, n, l, s);
+        o.push({
+          type: "FormSelectNode",
+          keyPath: `${e.id}_${i.id}`,
+          nodeId: e.id,
+          optionId: i.id,
+          scopeId: t.id,
+          value: a,
+          valueWordCount: k(a),
+          hash: s,
+          localizedValues: l,
+          localizedValueStatuses: c,
+          managedByPluginButUserEditable: !1,
+        });
+      }
+      break;
+    }
+    case "variable": {
+      if (!e.variableBinding || !lt(t) || !en(t)) return;
+      let r = t.getVariable(e.variableBinding.id);
+      if (!r) return;
+      (at(r, an(t)) &&
+        o.push(Ai(e, t, n, "allItemsLabel", e.allItemsLabelWithDefault, e.allItemsLabelLocalized)),
+        r.type === "boolean" &&
+          (o.push(
+            Ai(
+              e,
+              t,
+              n,
+              "booleanTrueLabel",
+              e.booleanTrueLabelWithDefault,
+              e.booleanTrueLabelLocalized
+            )
+          ),
+          o.push(
+            Ai(
+              e,
+              t,
+              n,
+              "booleanFalseLabel",
+              e.booleanFalseLabelWithDefault,
+              e.booleanFalseLabelLocalized
+            )
+          )));
+      break;
+    }
+    default:
+      ee(e.bindingType);
+  }
+}
+function Ai(t, e, n, o, r, i) {
+  let a = i ?? W,
+    l = V(r),
+    s = X(r, n, a, l);
+  return {
+    type: "formSelectGenericOption",
+    keyPath: `${t.id}_${o}`,
+    nodeId: t.id,
+    key: o,
+    scopeId: e.id,
+    value: r,
+    valueWordCount: k(r),
+    hash: l,
+    localizedValues: a,
+    localizedValueStatuses: s,
+    managedByPluginButUserEditable: !1,
+  };
+}
+function Um(t, e, n, o, r) {
+  let i = `${n.id}_placeholder`;
+  if (Ne(n.formInputPlaceholder)) {
+    if (Ve(n.formInputPlaceholder) || !be(t, n, "formInputPlaceholder")) return;
+    gr(e, n, n.formInputPlaceholder, i, n.id, o, r);
+    return;
+  }
+  if (!n.formInputPlaceholder || !be(t, n, "formInputPlaceholder")) return;
+  let a = V(n.formInputPlaceholder),
+    l = n.formInputPlaceholderLocalized ?? W;
+  r.push({
+    keyPath: i,
+    type: "FormPlainTextInputNode",
+    nodeId: n.id,
+    scopeId: e.id,
+    value: n.formInputPlaceholder,
+    valueWordCount: k(n.formInputPlaceholder),
+    hash: V(n.formInputPlaceholder),
+    localizedValues: l,
+    localizedValueStatuses: X(n.formInputPlaceholder, o, l, a),
+    managedByPluginButUserEditable: !1,
+  });
+}
+function Md(t, e, n, o, r, i, a, l, s) {
+  (l?.(),
+    ye(o) && s?.addIdentifier(o.codeComponentIdentifier),
+    Qa(o) &&
+      o.customCursorType === "component" &&
+      s?.addSmartComponentId(o.customCursorSmartComponentId),
+    x(o) && wd(t, e, n, o, r, i),
+    na(o) && km(t, n, o, r, i, a),
+    (ye(o) || x(o)) && Am(t, e, n, o, r, i, s),
+    Gt(o) && Bm(t, n, o, r, i),
+    (oa(o) || ra(o)) && zd(n, o, r, i),
+    ia(o) && Um(t, n, o, r, i),
+    aa(o) && Om(n, o, r, i));
+}
+function kd(t, e) {
+  return e
+    ? `r:${t.cache.localizationSourceRevision}-${e.cache.localizationSourceRevision}`
+    : `r:${t.cache.localizationSourceRevision}`;
+}
+function Ed(t, e) {
+  return e
+    ? `t:${t.cache.localizationTranslationRevision}-${e.cache.localizationTranslationRevision}`
+    : `t:${t.cache.localizationTranslationRevision}`;
+}
+function Bd(t, e) {
+  return e ? `u:${t.update}-${e.update}` : `u:${t.update}`;
+}
+function Fd(t) {
+  return t !== "canvasHtmlAsHtml";
+}
+function Ad(t) {
+  return hr() && !he(t);
+}
+function Od(t) {
+  return B.isOn("localizationProgressSummaries") && t.isDataTree();
+}
+function vr(t) {
+  return !B.isOn("localizationProgressSummaries") && t.isDataTree();
+}
+function Ud(t, e) {
+  let n = t.get("originalid");
+  if (!n || (e.add(n), ea(t.id, n))) return;
+  let o = t.get("replicaInfo")?.inheritsFrom;
+  o && e.add(o);
+}
+function $d(t, e) {
+  co(t) && (e.add(t.originalid), ha(t) && e.add(t.replicaInfo.inheritsFrom));
+}
+function $m(t, e, n) {
+  if (!n) return [];
+  let o = new Set();
+  for (let r of n) {
+    let i = t.getCanvasScopeNodeFor(t.get(r));
+    i && i.id !== e.id && o.add(i.id);
+  }
+  return Array.from(o);
+}
+function _d(t, e) {
+  let n = [];
+  for (let o of e) {
+    let r = t.get(o);
+    if (!r) return;
+    n.push(`${r.cache.localizationSourceRevision}:${r.cache.localizationTranslationRevision}`);
+  }
+  return n.join(",");
+}
+function Sr(t, e) {
+  return Array.from(e, (n) => [n, t.getDefinitionHash(n)]);
+}
+var _m = [];
+function dt(t, e) {
+  if (t) for (let [n, o] of e) t.set(n, o);
+}
+var Ue = Z("localization:cache");
+function Wm(t, e, n, o, r, i, a, l, s, c) {
+  if (!Fd(c) || e.mutable || n?.mutable) return;
+  let f = e.cache.localizationSourceGroup;
+  if (!f) return;
+  let u = Ad(e),
+    d,
+    p;
+  if (
+    (u
+      ? ((d = f.sourceRevision !== kd(e, n) || f.translationRevision !== Ed(e, n)),
+        (p = f.parentSourceOwnRevision !== a))
+      : ((d = f.sourceRevision !== Bd(e, n)), (p = f.parentVariables !== i)),
+    d)
+  ) {
+    Ue.trace("Stale cache for", e.id, "->", "revision changed");
+    return;
+  }
+  if (p) {
+    Ue.trace("Stale cache for", e.id, "->", "parent revision / variables changed");
+    return;
+  }
+  if (f.locales !== o) {
+    Ue.trace("Stale cache for", e.id, "->", "Locales changed");
+    return;
+  }
+  if (!ht(f.subGroups, l)) {
+    Ue.trace("Stale cache for", e.id, "->", "Subgroups changed");
+    return;
+  }
+  if (!ht(f.settings, s)) {
+    Ue.trace("Stale cache for", e.id, "->", "Settings changed");
+    return;
+  }
+  for (let [g, h] of f.loaderDependencies)
+    if (r.getDefinitionHash(g) !== h) {
+      Ue.trace("Stale cache for", e.id, "->", "Component dependency", g, "changed");
+      return;
+    }
+  if (xn(t, e)) {
+    if (f.includedLocaleIds !== e.includedLocales) {
+      Ue.trace("Stale cache for", e.id, "->", "Included locale ids changed");
+      return;
+    }
+    if (f.localeConfig !== e.localeConfig) {
+      Ue.trace("Stale cache for", e.id, "->", "Locale config changed");
+      return;
+    }
+  }
+  if (Od(t)) {
+    let g = Ri(t, e.id);
+    if (g === void 0 || f.resolvedSubtreeGeneration !== g) {
+      Ue.trace("Stale cache for", e.id, "->", "Resolved subtree generation changed or unavailable");
+      return;
+    }
+    if (n) {
+      let h = t.getResolvedSubtreeGeneration(n.id);
+      if (h === void 0 || f.additionalDependencyResolvedSubtreeGeneration !== h) {
+        Ue.trace(
+          "Stale cache for",
+          e.id,
+          "->",
+          "Additional dependency resolved subtree generation changed or unavailable"
+        );
+        return;
+      }
+    }
+  }
+  if (vr(t) && (f.masterScopeIds === void 0 || f.masterScopeRevision !== _d(t, f.masterScopeIds))) {
+    Ue.trace("Stale cache for", e.id, "->", "Master scope revision changed or unavailable");
+    return;
+  }
+  return f;
+}
+function Hn(t, e, n, o, r, i, a, l, s, c, f, u) {
+  let d = Wm(t, e, n, o, r, i, a, l, s, c);
+  if (d) {
+    let g = Rm(d, e, f),
+      h = u === Gn || d.includesWebPage === u;
+    if (g && h) return (nd(d.unresolvedLocalizableCount), d);
+  }
+  let p = f?.collection;
+  p && (p.allScopesCached = !1);
+}
+function qn(t, e, n) {
+  let {
+    additionalDependencyNode: o,
+    group: r,
+    locales: i,
+    loaderDependencies: a,
+    unresolvedLocalizableCount: l,
+    parentVariables: s,
+    parentSourceOwnRevision: c,
+    subGroups: f,
+    settings: u,
+    richTextBehavior: d,
+    includesWebPage: p,
+    directSmartComponentIds: g,
+    localizedSmartComponentIdsByLocaleId: h,
+    cmsLocalizationDependencies: y,
+    pageVisibilityFact: v,
+    replicaMasterNodeIds: S,
+  } = n;
+  if (!Fd(d) || e.mutable || o?.mutable) return;
+  let b, D;
+  if (vr(t) && ((b = $m(t, e, S)), (D = _d(t, b)), D === void 0)) return;
+  let R, N;
+  if (
+    Od(t) &&
+    ((R = Ri(t, e.id)),
+    R === void 0 || (o && ((N = t.getResolvedSubtreeGeneration(o.id)), N === void 0)))
+  )
+    return;
+  let w = xn(t, e),
+    z,
+    M;
+  (Ad(e) ? ((z = kd(e, o)), (M = Ed(e, o))) : ((z = Bd(e, o)), (M = z)),
+    (e.cache.localizationSourceGroup = {
+      sourceRevision: z,
+      translationRevision: M,
+      resolvedSubtreeGeneration: R,
+      additionalDependencyResolvedSubtreeGeneration: N,
+      masterScopeIds: b,
+      masterScopeRevision: D,
+      locales: i,
+      loaderDependencies: a,
+      unresolvedLocalizableCount: l,
+      parentVariables: s,
+      parentSourceOwnRevision: c,
+      group: r,
+      includedLocaleIds: w ? e.includedLocales : void 0,
+      localeConfig: w ? e.localeConfig : void 0,
+      subGroups: f,
+      settings: u,
+      includesWebPage: p,
+      directSmartComponentIds: g,
+      localizedSmartComponentIdsByLocaleId: h,
+      cmsLocalizationDependencies: y,
+      pageVisibilityFact: v,
+    }));
+}
+function jm(t) {
+  let e = t.get(as);
+  return Nr(e) && e.parentid === t.root.id;
+}
+function Gm(t) {
+  return x(t) ? "page" : q(t) ? "template" : "component";
+}
+function Hm(t, e, n, o) {
+  let r = n.resolveValue("name") ?? "Unknown",
+    i = x(n) ? Dn(t, e, n) : r;
+  if (!o) return i;
+  let a = n.resolveValue("name") || Fe(e, n);
+  return `${i} \xB7 ${a}`;
+}
+function Wd(t, e, n, o, r, i, a, l) {
+  var P = [];
+  try {
+    let { checkpoint: s, loaderDependenciesByIdentifier: c, dependencies: f } = l ?? {};
+    s?.();
+    let u = x(n) && n.abTestingParentId !== void 0;
+    let d = u ? (t.getNodeWithTrait(n.abTestingParentId, x) ?? void 0) : void 0;
+    let p = d ?? n;
+    if (rh(t, n) && !u) return;
+    let g = Hn(t, n, d, o, e, ue, ue, void 0, void 0, i, f, Gn);
+    if (g) {
+      (dt(c, g.loaderDependencies),
+        jn(
+          t,
+          n,
+          g.directSmartComponentIds,
+          g.localizedSmartComponentIdsByLocaleId,
+          f,
+          p,
+          g.pageVisibilityFact
+        ),
+        g.group && r.push(g.group));
+      return;
+    }
+    let h = [];
+    let y;
+    let v = Ei(f, s);
+    let S = vr(t);
+    let b = new Set();
+    let D = new Set();
+    let R = Sn(P, Wn());
+    e.trackEntityReads(D, () => {
+      if (a) for (let ce of n.fastWalk()) (S && Ud(ce, b), zi(t, e, n, ce, o, h, i, s, v));
+      else for (let ce of n.walk()) (S && $d(ce, b), Md(t, e, n, ce, o, h, i, s, v));
+      let J = h.length === 0,
+        fe = B.isOn("localizationUiUpdate") && x(n) && jm(t);
+      if (J && !fe) return;
+      let ie = !u && xn(t, n);
+      if (J && !(fe && ie)) return;
+      let nt = Hm(t, e, n, u),
+        $ = Gm(n);
+      ((y = {
+        type: "sourceGroup",
+        name: nt,
+        groupType: $,
+        nodeId: n.id,
+        supportsLocaleVisibility: ie,
+        supportsLocaleExclusion: B.isOn("localizationModelUpdate") && Gr(t, n),
+        includedLocaleIds: tn(t, p),
+        fallbackLocaleIds: xo(t, p),
+        items: h,
+      }),
+        r.push(y));
+    });
+    let N = Sr(e, D);
+    let w = Bi(v);
+    let z = Fi(v);
+    dt(c, N);
+    let M = jn(t, n, w, z, f, p);
+    qn(t, n, {
+      additionalDependencyNode: d,
+      group: y,
+      locales: o,
+      loaderDependencies: N,
+      unresolvedLocalizableCount: R.lookups.unresolvedLocalizableCount,
+      parentVariables: ue,
+      parentSourceOwnRevision: ue,
+      richTextBehavior: i,
+      directSmartComponentIds: w,
+      localizedSmartComponentIdsByLocaleId: z,
+      pageVisibilityFact: M,
+      replicaMasterNodeIds: b,
+    });
+  } catch (Y) {
+    var ne = Y,
+      j = !0;
+  } finally {
+    bn(P, ne, j);
+  }
+}
+function _t(t, e, n) {
+  return n ? `${t}.${e}.${n}` : `${t}.${e}`;
+}
+function jD(t, e = t.collectionItemId) {
+  if (t.type === "collectionField") return _t(e, t.variableId);
+  if (t.type === "arrayItemField") {
+    let n = ze(void 0, t.arrayItemId),
+      o = le(n, t.variableId);
+    return _t(e, t.arrayVariableId, o);
+  }
+  return ee(t);
+}
+function qm(t) {
+  return kr(t).length;
+}
+function Oi(t, e, n) {
+  let o = n.required,
+    r = n.type === "link" ? void 0 : n.options?.maxLength;
+  if (!o && !A(r)) return;
+  let i = {};
+  for (let a of t) {
+    let l = e[a.id];
+    if (!vo(l)) continue;
+    let s = qm(l);
+    o && s === 0 ? (i[a.id] = Ql(n.name)) : A(r) && s > r && (i[a.id] = Xl(s, r));
+  }
+  return i;
+}
+function jd(t, e, n, o) {
+  let r = {};
+  for (let i of t) {
+    let a = e[i.id];
+    if (!vo(a) || !L(a.value)) continue;
+    let s = n[i.id]?.get(a.value);
+    s && s > 1 && (r[i.id] = o);
+  }
+  return r;
+}
+function Jm(t, e, n, o, r, i, a, l, s, c) {
+  let f = a.type;
+  switch (f) {
+    case "string": {
+      if (Kt(a)) return;
+      let u;
+      if (s) {
+        if (s.type !== f || !L(s.value)) return;
+        u = s.value;
+      } else {
+        if (rs(a)) return;
+        u = a.initialValue;
+      }
+      let d = V(u),
+        p = s?.valueLocalized ?? W,
+        g = Oi(r, p, a),
+        h = X(u, r, p, d, g);
+      return {
+        type: "string",
+        keyPath: _t(o.id, l, i),
+        nodeId: o.id,
+        scopeId: n,
+        controlPropKey: l,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        value: u,
+        valueWordCount: k(u),
+        hash: d,
+        localizedValues: p,
+        localizedValueStatuses: h,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: g,
+      };
+    }
+    case "link": {
+      if (!s || s.type !== f || !Dt(s.value) || !B.isOn("localizedLinks")) return;
+      let u = s.value.url,
+        d = V(u),
+        p = s?.valueLocalized ?? W,
+        g = Oi(r, p, a),
+        h = X(u, r, p, d, g);
+      return {
+        type: "link",
+        keyPath: _t(o.id, l, i),
+        nodeId: o.id,
+        scopeId: n,
+        controlPropKey: l,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        value: u,
+        valueWordCount: u ? 1 : 0,
+        hash: d,
+        localizedValues: p,
+        localizedValueStatuses: h,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: g,
+        aiTranslationDisabled: !0,
+      };
+    }
+    case "slug": {
+      if (t.root.translatePagePaths === "no" || !s) return;
+      (C(s.type === "string", "expected slug controlType to be a string"),
+        C(L(s.value), "expected slug value to be a string"));
+      let u = s.value,
+        d = V(u),
+        p = s?.valueLocalized ?? W,
+        g = jd(r, p, c, "Each item in the collection must have a unique slug"),
+        h = X(u, r, p, d, g, t.root.translatePagePaths === "legacy" ? $i(p) : void 0);
+      return {
+        type: "slug",
+        keyPath: _t(o.id, l, i),
+        controlPropKey: l,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        nodeId: o.id,
+        scopeId: n,
+        value: u,
+        valueWordCount: k(u),
+        hash: d,
+        localizedValues: p,
+        localizedValueStatuses: h,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: g,
+        aiTranslationDisabled: !t.root.translatePagePathsWithAI,
+        collectionItemIsDraft: o.isDraft ?? !1,
+      };
+    }
+    case "richtext": {
+      let u;
+      if (Kt(a)) return;
+      if (s) {
+        if (s.type !== f || !ve(s.value)) return;
+        u = s.value;
+      } else u = a.initialValue;
+      let d = xt(u),
+        p = Pd(u, e),
+        g = s?.valueLocalized ?? W,
+        h = Oi(r, g, a),
+        y = X(d, r, g, p, h);
+      return {
+        type: "richtext",
+        keyPath: _t(o.id, l, i),
+        nodeId: o.id,
+        scopeId: n,
+        controlPropKey: l,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        richTextValue: u,
+        value: d,
+        valueWordCount: k(d, !0),
+        hash: p,
+        localizedValues: g,
+        localizedValueStatuses: y,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: h,
+        contentType: a.type === "richtext" ? a.contentType : void 0,
+        isCollectionControlProp: !0,
+      };
+    }
+    case "image": {
+      let u;
+      if (s) {
+        if (s.type !== f || !L(s.value)) return;
+        u = s.value;
+      } else {
+        if (!L(a.initialValue)) return;
+        u = a.initialValue;
+      }
+      let d = V(u),
+        p = s?.valueLocalized ?? W,
+        g = s?.alt ?? wt,
+        h = V(g),
+        y = s?.altLocalized ?? W,
+        v = X(g, r, y, h, void 0, _i(u, p, d));
+      return {
+        type: "image",
+        keyPath: _t(o.id, l, i),
+        nodeId: o.id,
+        scopeId: n,
+        controlPropKey: l,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        value: g,
+        valueWordCount: k(g),
+        hash: h,
+        localizedValues: y,
+        localizedValueStatuses: v,
+        supportsAlt: !0,
+        image: u,
+        imageHash: d,
+        imageLocalizedValues: p,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        supportsFocalPoint: !0,
+        positionX: s?.positionX,
+        positionY: s?.positionY,
+      };
+    }
+    case "enum":
+      return;
+    default:
+  }
+}
+function Km(t, e, n, o, r, i, a) {
+  let l = o.id;
+  function s(c, f, u, d) {
+    if (f && f.type === "array") {
+      if (u.type !== "array" || Ne(f.value)) return;
+      for (let g of f.value) {
+        if (!yr(g.type) || !go(g) || !g.value) continue;
+        let h = ze(d, g.id);
+        for (let y of u.itemVariables) {
+          if (!Ce(y)) continue;
+          let v = g.value[y.id];
+          if (!v || !yr(v.type)) continue;
+          let S = le(h, y.id);
+          s(c, v, y, S);
+        }
+      }
+    }
+    if (!xd(u)) return;
+    let p = Jm(t, e, l, o, r, d, u, c, f, a);
+    p && i.push(p);
+  }
+  for (let c of n.variables) {
+    if (!Ce(c)) continue;
+    let f = o.getControlProp(c.id);
+    s(c.id, f, c);
+  }
+}
+var Gd = So((t, e) => ({ translatePagePaths: t, translatePagePathsWithAI: e }));
+function Hd(t, e, n, o, r, i, a, l) {
+  var N = [];
+  try {
+    let { checkpoint: s, loaderDependenciesByIdentifier: c, dependencies: f } = l ?? {};
+    s?.();
+    let u = Gd(t.root.translatePagePaths, t.root.translatePagePathsWithAI);
+    let d = o.cache.localizationSourceGroup?.cmsLocalizationDependencies;
+    let p = Hn(
+      t,
+      o,
+      void 0,
+      r,
+      e,
+      n.variables,
+      n.cache.localizationSourceOwnRevision,
+      void 0,
+      u,
+      void 0,
+      f,
+      Gn
+    );
+    if (p) {
+      dt(c, p.loaderDependencies);
+      let P = f?.collection;
+      (P &&
+        p.cmsLocalizationDependencies &&
+        P.facts.cmsDependenciesByItemId.set(o.id, p.cmsLocalizationDependencies),
+        p.group && a.push(p.group));
+      return;
+    }
+    let g = [];
+    let h = tn(t, o);
+    let y = xo(t, o);
+    let v = new Set();
+    let S = Sn(N, Wn());
+    e.trackEntityReads(v, () => {
+      Km(t, e, n, o, r, g, i);
+    });
+    let b;
+    if (g.length > 0) {
+      for (let P of g) P.insetLevel = 1;
+      ((b = {
+        type: "sourceGroup",
+        groupType: "collectionItem",
+        collectionName: n.resolveValue("name") ?? "Unknown",
+        collectionNodeId: n.id,
+        supportsLocaleVisibility: !0,
+        supportsLocaleExclusion: !0,
+        includedLocaleIds: h,
+        fallbackLocaleIds: y,
+        name: Bo(n, o) ?? "Unknown",
+        nodeId: o.id,
+        items: g,
+      }),
+        a.push(b));
+    }
+    let D = Sr(e, v);
+    let R;
+    if (f) {
+      let P = { routerLocaleById: f.routerLocaleById, checkpoint: s, previousDependencies: d };
+      R = Cd(n, o, r, h, P);
+    }
+    R && f?.collection && f.collection.facts.cmsDependenciesByItemId.set(o.id, R);
+    dt(c, D);
+    qn(t, o, {
+      group: b,
+      locales: r,
+      loaderDependencies: D,
+      unresolvedLocalizableCount: S.lookups.unresolvedLocalizableCount,
+      parentVariables: n.variables,
+      parentSourceOwnRevision: n.cache.localizationSourceOwnRevision,
+      settings: u,
+      cmsLocalizationDependencies: R,
+    });
+  } catch (w) {
+    var z = w,
+      M = !0;
+  } finally {
+    bn(N, z, M);
+  }
+}
+function Qm(t, e, n, o) {
+  let r = n.name,
+    i = V(r),
+    a = n.nameLocalized ?? W,
+    l = X(r, o, a, i);
+  return {
+    type: "enum",
+    keyPath: `${t.id}_${e.id}_${n.id}`,
+    nodeId: t.id,
+    scopeId: t.id,
+    variableId: e.id,
+    enumCaseId: n.id,
+    value: r,
+    valueWordCount: k(r),
+    hash: i,
+    localizedValues: a,
+    localizedValueStatuses: l,
+    managedByPluginButUserEditable: !1,
+  };
+}
+function qd(t, e, n, o, r, i) {
+  let { checkpoint: a, loaderDependenciesByIdentifier: l, dependencies: s } = i ?? {};
+  (a?.(), yd(n, s?.collection));
+  let c = [],
+    f = Jd(o, n);
+  for (let h of n.getUnsortedChildren()) Hd(t, e, n, h, o, f, c, i);
+  let u = Hn(t, n, void 0, o, e, ue, ue, c, void 0, void 0, s, Gn);
+  if (u) {
+    (dt(l, u.loaderDependencies), u.group && r.push(u.group));
+    return;
+  }
+  let d = n.variables.filter(xd),
+    p = [];
+  for (let h of d) {
+    let y = h.type;
+    switch (y) {
+      case "enum": {
+        if (Kt(h)) break;
+        for (let v of h.cases) p.push(Qm(n, h, v, o));
+        break;
+      }
+      case "string":
+      case "richtext":
+      case "image":
+      case "link":
+      case "slug":
+        break;
+      default:
+    }
+  }
+  let g =
+    p.length > 0 || c.length > 0
+      ? {
+          type: "sourceGroup",
+          groupType: "collection",
+          name: n.resolveValue("name") ?? "Unknown",
+          nodeId: n.id,
+          supportsLocaleVisibility: !1,
+          supportsLocaleExclusion: !1,
+          includedLocaleIds: void 0,
+          fallbackLocaleIds: void 0,
+          items: p,
+          groups: c,
+        }
+      : void 0;
+  (qn(t, n, {
+    group: g,
+    locales: o,
+    loaderDependencies: _m,
+    unresolvedLocalizableCount: 0,
+    parentVariables: ue,
+    parentSourceOwnRevision: ue,
+    subGroups: c,
+  }),
+    g && r.push(g));
+}
+function Jd(t, e) {
+  let n = {};
+  for (let r of t) n[r.id] = new Map();
+  let o = e.getSlugVariable();
+  if (!o) return n;
+  for (let r of e.getUnsortedChildren()) {
+    let i = r.getControlProp(o.id);
+    if (
+      i &&
+      (C(i.type === "string", "expect slug control type to be be of type string"),
+      C(L(i.value), "expected slug control prop value to be string"),
+      !!i.valueLocalized)
+    )
+      for (let a in i.valueLocalized) {
+        let l = i.valueLocalized[a],
+          s = n[a];
+        if (!s || !L(l?.value) || !l.value) continue;
+        let c = (s.get(l.value) ?? 0) + 1;
+        s.set(l.value, c);
+      }
+  }
+  return n;
+}
+function Xm(t, e, n) {
+  let o = t.getParent(n.id)?.children ?? [],
+    r = {};
+  for (let i of e) i.id !== st && (r[i.id] = new Map());
+  for (let i of o) {
+    if (!qe(i)) continue;
+    let { segment: a, segmentLocalized: l } = i;
+    for (let s of e) {
+      if (s.id === st) continue;
+      let c = Xt(s, l)?.value,
+        u = (L(c) ? c : void 0) || a,
+        d = r[s.id];
+      if (!d) continue;
+      let p = (d.get(u) ?? 0) + 1;
+      d.set(u, p);
+    }
+  }
+  return r;
+}
+function Kd(t, e, n, o, r, i) {
+  var p = [];
+  try {
+    let a = i?.collection;
+    Sd(t.root, a);
+    let l = Hn(t, t.root, void 0, n, e, ue, ue, void 0, void 0, void 0, i, Gn);
+    if (l) {
+      (dt(r, l.loaderDependencies), l.group && o.push(l.group));
+      return;
+    }
+    let s = [];
+    let c = new Set();
+    let f = Sn(p, Wn());
+    e.trackEntityReads(c, () => {
+      wd(t, e, t.root, t.root, n, s);
+    });
+    let u =
+      s.length > 0
+        ? {
+            type: "sourceGroup",
+            groupType: "settings",
+            name: "Site settings",
+            nodeId: t.root.id,
+            supportsLocaleVisibility: !1,
+            supportsLocaleExclusion: !1,
+            includedLocaleIds: void 0,
+            fallbackLocaleIds: void 0,
+            items: s,
+          }
+        : void 0;
+    let d = Sr(e, c);
+    dt(r, d);
+    qn(t, t.root, {
+      group: u,
+      locales: n,
+      loaderDependencies: d,
+      unresolvedLocalizableCount: f.lookups.unresolvedLocalizableCount,
+      parentVariables: ue,
+      parentSourceOwnRevision: ue,
+    });
+    u && o.push(u);
+  } catch (g) {
+    var h = g,
+      y = !0;
+  } finally {
+    bn(p, h, y);
+  }
+}
+function Ym(t, e, n, o, r, i, a) {
+  for (let l of n.children) qd(t, e, l, o, r, { checkpoint: i, dependencies: a });
+}
+function Zm(t, e, n, o, r, i) {
+  if (!ls(n)) return;
+  let a = Pt(n.segment),
+    l = V(n.segment),
+    s = n.segmentLocalized ?? W,
+    c = jd(o, s, Xm(t, r, n), "Sibling pages must have unique slugs");
+  i.push({
+    keyPath: n.id,
+    type: "RouteSegmentNode",
+    nodeId: n.id,
+    scopeId: e.id,
+    value: a,
+    valueWordCount: k(a),
+    hash: V(n.segment),
+    localizedValues: s,
+    localizedValueStatuses: X(n.segment, o, s, l, c, void 0),
+    managedByPluginButUserEditable: !1,
+    warnings: c,
+    aiTranslationDisabled: !t.root.translatePagePathsWithAI,
+  });
+}
+function eh(t, e, n, o, r, i, a, l) {
+  let c = l?.dependencies?.routerLocales ?? Ee(t, "includeDrafts"),
+    f = new Set();
+  for (let u of n.walk()) qe(u) && Ui(t, e, u, o, c, r, i, f, a, l);
+}
+function th(t, e, n, o, r) {
+  let i = Ws(Pi(n, t)),
+    a = x(o) ? Dn(t, e, o) : i,
+    l = nh(e, r, a);
+  return n.segment === "" ? `${l} /` : l;
+}
+function nh(t, e, n) {
+  if (!x(e) || !e.abTestingParentId) return n;
+  let o = e.resolveValue("name") || Fe(t, e);
+  return `${n} \xB7 ${o}`;
+}
+function Ui(t, e, n, o, r, i, a, l, s, c) {
+  var De = [];
+  try {
+    let { checkpoint: f, loaderDependenciesByIdentifier: u, dependencies: d } = c ?? {};
+    f?.();
+    let p = t.getParent(n.id);
+    let g = qe(p) ? p.id : void 0;
+    vd(n, g, d?.collection);
+    let h = n.webPageId ? (t.get(n.webPageId) ?? void 0) : void 0;
+    let y = x(h) && h.isLoaded() ? h : void 0;
+    let v = Gd(t.root.translatePagePaths, t.root.translatePagePathsWithAI);
+    let S = h && l.has(h.id);
+    let b = y || n;
+    let D = b === y ? n : void 0;
+    let R = !!(h && !S);
+    let N = Hn(t, b, D, o, e, ue, ue, void 0, v, a, d, R);
+    if (N) {
+      (dt(u, N.loaderDependencies),
+        R &&
+          x(b) &&
+          jn(
+            t,
+            b,
+            N.directSmartComponentIds,
+            N.localizedSmartComponentIdsByLocaleId,
+            d,
+            b,
+            N.pageVisibilityFact
+          ),
+        N.group && i.push(N.group),
+        R && h && l.add(h.id));
+      return;
+    }
+    let w = [];
+    let z = Ei(d, f);
+    let M = vr(t);
+    let P = new Set();
+    let Y = new Set();
+    let ne = Sn(De, Wn());
+    let j = e.trackEntityReads(Y, () => {
+      if ((t.root.translatePagePaths === "yes" && Zm(t, b, n, o, r, w), h && !S)) {
+        if (s) for (let $e of h.fastWalk()) (M && Ud($e, P), zi(t, e, b, $e, o, w, a, f, z));
+        else for (let $e of h.walk()) (M && $d($e, P), Md(t, e, b, $e, o, w, a, f, z));
+        l.add(h.id);
+      }
+      return th(t, e, n, h, b);
+    });
+    let J = xn(t, b);
+    let fe = B.isOn("localizationUiUpdate") && J && !S;
+    let ie;
+    (w.length > 0 || fe) &&
+      ((ie = {
+        type: "sourceGroup",
+        name: j,
+        groupType: "page",
+        nodeId: b.id,
+        supportsLocaleVisibility: J,
+        supportsLocaleExclusion: B.isOn("localizationModelUpdate") && Gr(t, b),
+        includedLocaleIds: J ? tn(t, b) : void 0,
+        fallbackLocaleIds: J ? xo(t, b) : void 0,
+        items: w,
+      }),
+      i.push(ie));
+    let ut = Sr(e, Y);
+    let nt = Bi(z);
+    let $ = Fi(z);
+    dt(u, ut);
+    let ce = R && x(b) ? jn(t, b, nt, $, d) : void 0;
+    qn(t, b, {
+      additionalDependencyNode: D,
+      unresolvedLocalizableCount: ne.lookups.unresolvedLocalizableCount,
+      group: ie,
+      locales: o,
+      loaderDependencies: ut,
+      parentVariables: ue,
+      parentSourceOwnRevision: ue,
+      settings: v,
+      richTextBehavior: a,
+      includesWebPage: R,
+      directSmartComponentIds: nt,
+      localizedSmartComponentIdsByLocaleId: $,
+      pageVisibilityFact: ce,
+      replicaMasterNodeIds: P,
+    });
+  } catch (Pe) {
+    var Wt = Pe,
+      Tt = !0;
+  } finally {
+    bn(De, Wt, Tt);
+  }
+}
+function GD(t, e, n, o, r, i) {
+  let a = [],
+    l = n.id,
+    s = hr() && t.isDataTree(),
+    c = new Map(),
+    f = { checkpoint: i, loaderDependenciesByIdentifier: c },
+    u = (d) => ({
+      canonicalScopeId: d,
+      groups: a,
+      loaderDependencies: Array.from(c, ([p, g]) => [p, g]),
+    });
+  if (he(n)) return (Kd(t, e, o, a, c), u(n.id));
+  if (He(n)) {
+    let d = t.getNodeWithTrait(n.parentid, _);
+    return (d && Hd(t, e, d, n, o, Jd(o, d), a, f), u(n.id));
+  }
+  if (_(n)) return (qd(t, e, n, o, a, f), u(n.id));
+  if (qe(n)) {
+    Ui(t, e, n, o, Ee(t, "includeDrafts"), a, r, new Set(), s, f);
+    let d = n.webPageId ? t.get(n.webPageId) : void 0;
+    return u(x(d) && d.isLoaded() ? d.id : n.id);
+  }
+  if (Un(n)) {
+    let d = x(n) ? cs(t, n.id) : void 0,
+      p = x(n) && n.abTestingParentId !== void 0;
+    return (
+      d && n.id !== t.root.homePageNodeId && !p
+        ? Ui(t, e, d, o, Ee(t, "includeDrafts"), a, r, new Set(), s, f)
+        : Wd(t, e, n, o, a, r, s, f),
+      u(n.id)
+    );
+  }
+  return u(l);
+}
+function HD(t, e, n, o, r, i = hr(), a) {
+  let l = [];
+  if (!n || n.length === 0) return l;
+  let s = a ? gd(t, a) : void 0;
+  Kd(t, e, n, l, void 0, s);
+  let c = { checkpoint: r, dependencies: s };
+  i &&= t.isDataTree();
+  for (let f of t.root.children) oh(t, e, f, n, o, i, l, c);
+  return l;
+}
+function oh(t, e, n, o, r, i, a, l) {
+  let { checkpoint: s, dependencies: c } = l ?? {},
+    f = !1;
+  (x(n) && ((f = n.abTestingParentId !== void 0), !f && t.root.homePageNodeId !== n.id)) ||
+    (Un(n) && (C(n.isLoaded(), "Scope node must be fully loaded"), Wd(t, e, n, o, a, r, i, l)),
+    Cn(n) && (C(n.isLoaded(), "Scope node must be fully loaded"), Ym(t, e, n, o, a, s, c)),
+    Nr(n) && eh(t, e, n, o, a, r, i, l));
+}
+function rh(t, e) {
+  return x(e) && e.id !== t.root.homePageNodeId;
+}
+function qD(t, e) {
+  return je(t, e);
+}
+function JD(t, e) {
+  return ht(t, e);
+}
+function ZD(t) {
+  return new URL(`/multiplayer${t}`, Tl().api).href;
+}
+function eV(t) {
+  try {
+    return new URL(t).pathname.startsWith("/multiplayer");
+  } catch {
+    return !1;
+  }
+}
+async function rV(t, e, n) {
+  let o = e && e !== Fs ? { branchId: e } : void 0;
+  return Rl.get(`/web/v1/sites/hostnames/${t}`, o, n);
+}
+var Qd = class {
+  constructor(e) {
+    this.scheduler = e;
+  }
+  scheduler;
+};
+var Ct = jt(Ji(), 1);
+var Xd = Symbol("uninitialized");
+function ih(t) {
+  return t + 1;
+}
+function cV(t, e, n, o) {
+  let r = $a(),
+    [, i] = (0, Ct.useReducer)(ih, 0),
+    a = (0, Ct.useRef)(Xd);
+  a.current === Xd && (a.current = e());
+  let l = (0, Ct.useRef)(e);
+  l.current = e;
+  let s = (0, Ct.useRef)(n);
+  if (!ht(n, s.current)) {
+    s.current = n;
+    let f = a.current,
+      u = l.current();
+    (o ? !je(f, u) : !ht(f, u)) && (a.current = u);
+  }
+  let c = Array.isArray(t) ? t : [t];
+  return (
+    (0, Ct.useEffect)(() => {
+      let f = () => {
+          let p = a.current,
+            g = l.current();
+          (o ? je(p, g) : ht(p, g)) || ((a.current = g), i());
+        },
+        u = [...c, f],
+        d = r.scheduler.changes.observe(...u);
+      return () => r.scheduler.changes.removeObserver(d);
+    }, c),
+    a.current
+  );
+}
+function ah(t) {
+  return ye(t) || ro(t);
+}
+function Wi(t) {
+  if (ye(t)) return t.codeComponentIdentifier;
+  if (ro(t)) return t.shaderModuleIdentifier;
+}
+function sh(t, e) {
+  (ye(t) && t.set({ codeComponentIdentifier: e }), ro(t) && t.set({ shaderModuleIdentifier: e }));
+}
+function lh(t, e) {
+  return e.moduleId === t.moduleId && e.saveId !== t.saveId;
+}
+function Yd(t, e) {
+  switch (e?.type) {
+    case "canvasComponent":
+    case "codeFile":
+    case "shader": {
+      let n = H(e.codeComponentIdentifier);
+      return lh(t, n);
+    }
+    default:
+      return !1;
+  }
+}
+function ch(t, e) {
+  let n = H(t),
+    o = H(e);
+  return (
+    C(n.moduleId === o.moduleId, "Module id should be the same"),
+    C(n.saveId !== o.saveId, "Module identifier should have a different save id than the instance"),
+    Xi(n.moduleId, o.saveId, n.file, n.exportSpecifier).value
+  );
+}
+function hV(t, e) {
+  let n = t.tree.getNodeWithTrait(e, ah);
+  if (!n) return;
+  C(!co(n), "Module instance node should not be a replica or replica child");
+  let o = Wi(n),
+    r = H(o);
+  C(r?.kind === "externalModuleExport", "Module identifier should be external");
+  let i = t.tree.getNodeWithTrait(r.moduleId, io);
+  C(i, "Module node should exist");
+  let a = ch(r.value, i.codeComponentIdentifier);
+  sh(n, a);
+}
+function Zd(t, e, n, o, r) {
+  let i = H(t);
+  if (!Qi(i)) return;
+  let a = Ki(i);
+  if (a && !i.moduleId) return;
+  let l = a ? n.getNodeWithTrait(i.moduleId, io) : null,
+    s = a ? (l?.type ?? "codeFile") : i.type,
+    c = s === "shader" ? !!e.shaderForIdentifier(i.value) : !!e.componentForIdentifier(i.value);
+  return a
+    ? {
+        type: s,
+        hasDefinition: c,
+        hasModuleEntry: o.hasModuleForIdentifier(i),
+        hasLocalModuleError: !1,
+        isModuleEvaluationPending: !1,
+        outdatedInstance: Yd(i, l),
+      }
+    : {
+        type: s,
+        hasDefinition: c,
+        hasModuleEntry: !!r.getModuleEntryByLocalId(i.localId),
+        hasLocalModuleError: Pn(e.componentForIdentifier(to(i))),
+        isModuleEvaluationPending: r.isLocalModuleEvaluationPending(i.localId),
+        outdatedInstance: !1,
+      };
+}
+function dh(t, e, n, o, r) {
+  let i = Wi(t);
+  if (!i) return;
+  let a = Zd(i, e, n, o, r);
+  if (!a) return;
+  let {
+    hasDefinition: l,
+    hasModuleEntry: s,
+    hasLocalModuleError: c,
+    isModuleEvaluationPending: f,
+    type: u,
+    outdatedInstance: d,
+  } = a;
+  if (!l || !s)
+    switch (u) {
+      case "codeFile":
+        if (s) {
+          if (l) break;
+          return { kind: "code", codeError: 2 };
+        } else return { kind: "code", codeError: 5 };
+      case "shader":
+        if (s) {
+          if (l) break;
+          return { kind: "code", codeError: 4 };
+        } else return { kind: "code", codeError: 6 };
+      case "canvasComponent":
+        return s && f && !c ? void 0 : { kind: "code", codeError: 3 };
+      default:
+        return { kind: "code", codeError: 1 };
+    }
+  if (d) return { kind: "outdatedInstance", originalNodeId: t.getPrimaryId() };
+}
+function uh(t, e, n, o, r) {
+  if (!ms(t)) return;
+  let i = Zd(t.codeOverrideIdentifier, e, n, o, r);
+  if (!i) return;
+  let { hasDefinition: a, hasModuleEntry: l } = i;
+  if (!a) return l ? { kind: "code", codeError: 7 } : { kind: "code", codeError: 8 };
+}
+function fh(t, e) {
+  let n = e[t.id];
+  if (n)
+    switch (n.type) {
+      case "Form":
+        return { kind: "form", reason: n.reason };
+      case "CodeGeneration":
+        return n.reason === "FileTooLarge" ? { kind: "code", codeError: 0 } : void 0;
+      default:
+        ee(n.type);
+    }
+}
+function RV(t, e, n, o, r, i) {
+  return dh(t, e, n, o, r) || uh(t, e, n, o, r) || (i && fh(t, i));
+}
+function ph(t) {
+  switch (t.type) {
+    case "Form":
+      return !0;
+    case "CodeGeneration":
+      return t.reason === "FileTooLarge";
+    default:
+      return !1;
+  }
+}
+function NV(t) {
+  let e = {},
+    n = t.get(js);
+  return (
+    n &&
+      n.children?.forEach((o) => {
+        o.nodeId &&
+          (!o.type ||
+            !ph(o) ||
+            !o.reason ||
+            o.nodeId in e ||
+            (e[o.nodeId] = { type: o.type, reason: o.reason }));
+      }),
+    e
+  );
+}
+var mh = Z("exportToHTML");
+function eu(t, e, n, o = new Set([n]), r = new Set()) {
+  for (let { node: i, skipChildren: a } of n.walkWithSkipChildren()) {
+    if (r.has(i)) {
+      a();
+      continue;
+    }
+    r.add(i);
+    for (let l of $s(i, e)) {
+      let s = Us(l);
+      if (!s) continue;
+      let c = t.getNode(s);
+      if (c) {
+        if (!t.isGroundNode(c)) {
+          mh.reportError("Navigation target node must be ground node", {
+            sourceId: i.id,
+            targetId: c.id,
+          });
+          continue;
+        }
+        (o.add(c), eu(t, e, c, o, r));
+      }
+    }
+    ye(i) &&
+      Object.values(nl(t, i, e))
+        .flat()
+        .forEach((l) => eu(t, e, l.node, o, r));
+  }
+  return o;
+}
+function kV(t, e) {
+  let n = e.getPrimaryVariant();
+  Ur(n) && (t.routes[e.id] = n.pageEffects);
+}
+function EV(t, e, n) {
+  let o = e.getPrimaryVariant();
+  if (Ur(o)) {
+    let r = {};
+    for (let i in o.pageEffects) r[i] = n.dedupe("effect", o.pageEffects[i]);
+    t.routes[e.id] = r;
+  }
+}
+var tu = "utils";
+function nu(t, e) {
+  let n = H(e);
+  if (!ot(n) || n.kind !== "localModuleExport") return;
+  let o = t.getPersistedModuleByLocalId(n.localId);
+  if (o && o.exports.includes(tu))
+    return { exportIdentifier: tu, moduleURL: o.moduleURL, collectionId: n.localIdName };
+}
+function UV(t, e) {
+  if (x(e) && e.dataIdentifier) return nu(t, e.dataIdentifier);
+}
+function $V(t, e, n) {
+  for (let o of e.variables) {
+    if (!Za(o)) continue;
+    let r = nu(t, o.dataIdentifier);
+    r && n(r);
+  }
+}
+var KV = Bs({
+  canvas: () => {
+    let t = hh();
+    return (Kr(t), Jr(t));
+  },
+  onPageCanvas: () => {
+    let t = gh();
+    Kr(t);
+    let { url: e, isCrossOriginProtected: n } = Jr(t),
+      o = vh(e);
+    return { url: o, origin: new URL(o).origin, isCrossOriginProtected: n };
+  },
+});
+function hh() {
+  let t = Me.isDebugBuild ? "canvas-sandbox.debug.html" : "canvas-sandbox.html",
+    e = Br(`./${t}`),
+    n = Me.debugPerformance ? `?${Tr}` : "",
+    o = JSON.stringify(Cr());
+  return e + n + `#services=${encodeURIComponent(o)}`;
+}
+function gh() {
+  let t = Me.isDebugBuild ? "canvas-sandbox-on-page.debug.html" : "canvas-sandbox-on-page.html",
+    e = Br(`./${t}`),
+    n = Me.debugPerformance ? `?${Tr}` : "",
+    o = JSON.stringify(Cr());
+  return e + n + `#services=${encodeURIComponent(o)}`;
+}
+var yh = 63;
+function vh(t) {
+  let e = new URL(t);
+  if (
+    e.hostname === "localhost" ||
+    e.hostname === "127.0.0.1" ||
+    e.hostname.split(".").length - 2 >= 2
+  )
+    return t;
+  let o = new URLSearchParams(window.location.search).get("framerSiteId");
+  C(o, "onPageCanvas must be loaded with a framerSiteId");
+  let r = `site-${o}`.slice(0, yh);
+  return ((e.hostname = `${r}.${e.hostname}`), e.toString());
+}
+export {
+  Zl as a,
+  ec as b,
+  Bt as c,
+  ri as d,
+  Tu as e,
+  kn as f,
+  Zo as g,
+  re as h,
+  er as i,
+  cn as j,
+  Ft as k,
+  dn as l,
+  Te as m,
+  qy as n,
+  jc as o,
+  _c as p,
+  ct as q,
+  mp as r,
+  aT as s,
+  gp as t,
+  sT as u,
+  yp as v,
+  gT as w,
+  bT as x,
+  ed as y,
+  Un as z,
+  lR as A,
+  le as B,
+  ze as C,
+  Li as D,
+  Ri as E,
+  $n as F,
+  _n as G,
+  bt as H,
+  lr as I,
+  RR as J,
+  Wn as K,
+  jR as L,
+  GR as M,
+  HR as N,
+  UN as O,
+  sx as P,
+  lx as Q,
+  cx as R,
+  hr as S,
+  PD as T,
+  MD as U,
+  kD as V,
+  ED as W,
+  BD as X,
+  FD as Y,
+  AD as Z,
+  OD as _,
+  UD as $,
+  $D as aa,
+  _D as ba,
+  wm as ca,
+  zm as da,
+  WD as ea,
+  wd as fa,
+  Md as ga,
+  _t as ha,
+  jD as ia,
+  Jm as ja,
+  Km as ka,
+  Qm as la,
+  Jd as ma,
+  Ym as na,
+  Zm as oa,
+  GD as pa,
+  HD as qa,
+  qD as ra,
+  JD as sa,
+  ZD as ta,
+  eV as ua,
+  eu as va,
+  kV as wa,
+  EV as xa,
+  nu as ya,
+  UV as za,
+  $V as Aa,
+  eR as Ba,
+  tR as Ca,
+  Op as Da,
+  nR as Ea,
+  KV as Fa,
+  yh as Ga,
+  rV as Ha,
+  Qd as Ia,
+  cV as Ja,
+  hV as Ka,
+  RV as La,
+  NV as Ma,
+};
+//# sourceMappingURL=chunk-HJWH2T47.mjs.map

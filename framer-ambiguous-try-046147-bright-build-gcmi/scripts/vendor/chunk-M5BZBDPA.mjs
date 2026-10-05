@@ -1,0 +1,41 @@
+import { a as i, b as a } from "chunk-YMRC7YNO.mjs";
+import { j as r } from "chunk-UBSW2TNM.mjs";
+var t = {
+  demoAnalytics: "off",
+  disableAIAgentMessageRedaction: "off",
+  disableLazyModuleLoading: "off",
+  disablePartialDocumentLoading: "off",
+  editableLegacyProjects: "off",
+  moduleTools: "off",
+  openPrimaryForBuiltInModules: "on",
+  sandboxExportDebugging: "off",
+  sandboxNodeDebugging: "off",
+  showAdditionalAutosaves: "off",
+  showDOMLayoutDebuggingPanel: "off",
+  showErrorForOutdatedBuiltInModules: "on",
+  showImportMap: "off",
+  showShaderTools: "off",
+  showDebugBar: "off",
+  showStatusBar: "on",
+  suppressDocumentLoading: "off",
+  suppressUIMount: "off",
+  userIsViewer: "off",
+};
+var f = Object.fromEntries(Object.keys(t).map((e) => [e, "off"])),
+  s = new r(f);
+s.update(l());
+var g = i(s);
+function d(e) {
+  return a(s, e, (o) => o === "on");
+}
+function l() {
+  if (globalThis?.framerUser?.isFramerEmployee !== !0) return {};
+  let o = { ...t };
+  try {
+    let n = JSON.parse(localStorage.employeesOnlySettings || "{}");
+    Object.assign(o, n);
+  } catch {}
+  return o;
+}
+export { t as a, s as b, g as c, d };
+//# sourceMappingURL=chunk-M5BZBDPA.mjs.map

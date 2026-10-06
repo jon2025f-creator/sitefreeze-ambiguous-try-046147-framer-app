@@ -1,0 +1,2093 @@
+import {
+  Ca as Gt,
+  Da as Dt,
+  Ea as Ee,
+  Fa as Ot,
+  Ia as Bt,
+  Ka as Wt,
+  Oa as jt,
+  Qa as Ie,
+  Ra as Kt,
+  Sa as zt,
+  Ta as Ut,
+} from "chunk-BHIEIXJS.mjs";
+import {
+  $ as Lt,
+  Z as Et,
+  _ as It,
+  aa as he,
+  ba as Tt,
+  ca as At,
+  da as Rt,
+  fa as Vt,
+} from "chunk-MZWJ4T3O.mjs";
+import { Pa as St } from "chunk-N4TAVXNG.mjs";
+import { a as we, b as fe } from "chunk-QMFC3AZT.mjs";
+import { Ba as kt, l as Ct, u as vt } from "chunk-LANRVDEN.mjs";
+import { Db as xt } from "chunk-SFO7GQVS.mjs";
+import { e as bt } from "chunk-BIHMMN5H.mjs";
+import { a as Pe, b as Z } from "chunk-AS5WE2AV.mjs";
+import { Gm as gt, ko as yt, tm as xe, zm as ht } from "chunk-DHVDZZZR.mjs";
+import { Rk as mt, Wr as ft, pl as ke } from "chunk-V6SO7RRW.mjs";
+import { a as Ft, b as _t } from "chunk-2TKFYKDT.mjs";
+import { g as Mt, j as Nt } from "chunk-BZJFDFZQ.mjs";
+import { a as Ht } from "chunk-KCB43FMJ.mjs";
+import { b as H } from "chunk-WDDZ5DYW.mjs";
+import { b as be, c as wt, t as Se } from "chunk-4ITXAZLA.mjs";
+import { f as U } from "chunk-J6DOD5P5.mjs";
+import { a as me } from "chunk-QFU6OGL3.mjs";
+import { a as Pt } from "chunk-24G7FGVN.mjs";
+import { a as dt } from "chunk-6TFWVVAP.mjs";
+import { a as l } from "chunk-2FCXHKEL.mjs";
+import { a as K } from "chunk-SWYZG2NI.mjs";
+import { b as ve, p as de } from "chunk-PD6AXQBN.mjs";
+import { b as g, c as ue } from "chunk-4JY5UMT2.mjs";
+import { b as ut, i as ce } from "chunk-VJ7UYMJI.mjs";
+import { e as a } from "chunk-WLHSDIGQ.mjs";
+var ge = a(K(), 1);
+var f = a(l(), 1),
+  ro = ge.default.memo(function r({
+    nodeIds: e,
+    controlKey: t,
+    control: o,
+    controlPath: c = t,
+    onChange: i,
+    onImageUpload: p,
+    onContextMenu: s,
+    controlProp: n,
+    controlSourceIdentifier: x,
+    controlSourceControlKey: M,
+    sortable: v,
+    supportsVariables: d,
+    supportsComputedValues: b,
+    supportsFetchDataValues: E = b,
+    displayInPopover: R,
+    icons: B,
+    controlKeyIsTraitTypeKey: T,
+    popoutId: A,
+    hiddenControlsByNodeId: F,
+    scopeType: N,
+    deleteEnabled: y,
+    deleteTitle: C,
+    onDelete: h,
+  }) {
+    let m, V;
+    o.description && (V = (0, f.jsx)(Bt, { description: o.description }));
+    let u = ge.default.useMemo(() => (T ? [mt(t)] : void 0), [t, T]),
+      k = ge.default.useCallback(
+        (ct, Dr) => {
+          i(Dr, () => ct, e);
+        },
+        [e, i]
+      ),
+      {
+        ArrayControlPropRow: ae,
+        BooleanControlPropRow: O,
+        BorderControlPropRow: le,
+        BorderRadiusControlPropRow: pe,
+        BoxShadowControlPropRow: W,
+        CanvasPageInstanceRow: w,
+        CollectionReferenceControlPropRow: G,
+        ColorArrayControlPropRow: I,
+        ColorControlPropRow: j,
+        LocationControlPropRow: Fe,
+        CursorControlPropRow: _e,
+        CustomCursorControlPropRow: He,
+        DateControlPropRow: We,
+        DimensionControlPropRow: je,
+        EnumControlPropRow: Ke,
+        FileControlPropRow: ze,
+        FontControlPropRow: Ue,
+        FusedNumberControlPropRow: Ze,
+        GapControlPropRow: $e,
+        ImageControlPropRow: Qe,
+        LinkControlPropRow: qe,
+        LinkRelValuesControlPropRow: Ye,
+        MultiCollectionReferenceControlPropRow: Xe,
+        NumberControlPropRow: Je,
+        ObjectControlPropRow: et,
+        PaddingControlPropRow: tt,
+        PageScopeControlPropRow: rt,
+        RichTextControlPropRow: ot,
+        ScrollSectionRefControlPropRow: nt,
+        SlotControlPropRow: it,
+        StringControlPropRow: st,
+        TrackingIdControlPropRow: at,
+        TransitionControlPropRow: lt,
+        VectorSetItemControlPropRow: pt,
+      } = Wt();
+    switch (o.type) {
+      case "boolean":
+        if ((g(n.type === "boolean"), !O)) return;
+        m = (0, f.jsx)(O, {
+          nodeIds: e,
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          supportsFetchDataValues: E,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "number":
+        if ((g(n.type === "number"), !Je)) return;
+        m = (0, f.jsx)(Je, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          nodeIds: e,
+          supportsFetchDataValues: E,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "dimension":
+        if ((g(n.type === "dimension"), !je)) return;
+        m = (0, f.jsx)(je, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+          supportsVariables: d,
+        });
+        break;
+      case "string":
+        if ((g(n.type === "string"), !st)) return;
+        m = (0, f.jsx)(st, {
+          nodeIds: e,
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: i,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsFetchDataValues: E,
+          supportsComputedValues: b,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "trackingid":
+        if ((g(n.type === "trackingid"), !at)) return;
+        m = (0, f.jsx)(at, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "richtext":
+        if ((g(n.type === "richtext"), !ot)) return;
+        m = (0, f.jsx)(ot, {
+          nodeIds: e,
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          controlSourceIdentifier: x,
+          onChange: i,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          scopeType: N,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "fusednumber":
+        if ((g(n.type === "fusednumber"), !Ze)) return;
+        m = (0, f.jsx)(Ze, {
+          nodeIds: e,
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          sortable: v,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "enum":
+        if ((g(n.type === "enum"), !Ke)) return;
+        m = (0, f.jsx)(Ke, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          sortable: v,
+          icons: B,
+          controlSourceIdentifier: x,
+          controlSourceControlKey: M,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "color":
+        if ((g(n.type === "color"), !j)) return;
+        m = (0, f.jsx)(j, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          displayInPopover: R,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          supportsFetchDataValues: E,
+          nodeIds: e,
+          popoutId: A,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "responsiveimage":
+      case "image":
+        if ((g(n.type === "image" || n.type === "responsiveimage"), !Qe)) return;
+        m = (0, f.jsx)(Qe, {
+          nodeIds: e,
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: i,
+          onUpload: p,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          displayInPopover: R,
+          supportsFetchDataValues: E,
+          supportsVariables: d,
+          popoutId: A,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "file":
+        if ((g(n.type === "file"), !ze)) return;
+        m = (0, f.jsx)(ze, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          controlSourceIdentifier: x,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "slot": {
+        if ((g(n.type === "slot"), e.length !== 1)) return null;
+        if (x === "framer/Prototype") {
+          if (!w) return;
+          m = (0, f.jsx)(w, {
+            nodeIds: e,
+            control: o,
+            controlKey: t,
+            controlProp: n,
+            onChange: k,
+            deleteEnabled: y,
+            deleteTitle: C,
+            onDelete: h,
+          });
+        } else {
+          if (!it) return;
+          m = (0, f.jsx)(it, {
+            nodeIds: e,
+            control: o,
+            controlKey: t,
+            controlPath: c,
+            controlProp: n,
+            traitTypeKeys: u,
+            onChange: i,
+            deleteEnabled: y,
+            deleteTitle: C,
+            onDelete: h,
+          });
+        }
+        break;
+      }
+      case "transition":
+        if ((g(n.type === "transition"), !lt)) return;
+        m = (0, f.jsx)(lt, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          sortable: v,
+          supportsVariables: d,
+          traitTypeKeys: u,
+          popoutId: A,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "boxshadow":
+        if ((g(n.type === "boxshadow"), !W)) return;
+        m = (0, f.jsx)(W, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: i,
+          onContextMenu: s,
+          supportsVariables: d,
+          traitTypeKeys: u,
+          popoutId: A,
+          nodeIds: e,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "font":
+        if ((g(n.type === "font"), !Ue)) return;
+        m = (0, f.jsx)(Ue, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: i,
+          nodeIds: e,
+          traitTypeKeys: u,
+          popoutId: A,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "object":
+        if ((g(n.type === "object"), !et)) return;
+        m = (0, f.jsx)(et, {
+          control: o,
+          controlKey: t,
+          controlPath: c,
+          controlProp: n,
+          onChange: i,
+          nodeIds: e,
+          ControlPropRow: r,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          popoutId: A,
+          scopeType: N,
+          hiddenControlsByNodeId: F,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "link":
+        if ((g(n.type === "link"), !qe)) return;
+        m = (0, f.jsx)(qe, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: i,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          supportsFetchDataValues: E,
+          nodeIds: e,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "linkrelvalues":
+        if ((g(n.type === "linkrelvalues"), !Ye)) return;
+        m = (0, f.jsx)(Ye, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: k,
+          supportsVariables: d,
+          traitTypeKeys: u,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "pagescope":
+        if ((g(n.type === "pagescope"), !rt)) return;
+        m = (0, f.jsx)(rt, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          traitTypeKeys: u,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "date":
+        if ((g(n.type === "date"), !We)) return;
+        m = (0, f.jsx)(We, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          sortable: v,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "scrollsectionref":
+        if ((g(n.type === "scrollsectionref"), !nt)) return;
+        m = (0, f.jsx)(nt, {
+          nodeIds: e,
+          traitTypeKeys: u,
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onContextMenu: s,
+          onChange: i,
+          scopeType: N,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "customcursor":
+        if ((g(n.type === "customcursor"), !He)) return;
+        m = (0, f.jsx)(He, {
+          nodeIds: e,
+          traitTypeKeys: u,
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onContextMenu: s,
+          onChange: i,
+          scopeType: N,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "cursor":
+        if ((g(n.type === "cursor"), !_e)) return;
+        m = (0, f.jsx)(_e, {
+          popoutId: t,
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "array": {
+        if ((g(n.type === "array"), o.control.type === "color" && I)) {
+          m = (0, f.jsx)(I, {
+            nodeIds: e,
+            control: o,
+            scopeType: N,
+            controlKey: t,
+            controlPath: c,
+            controlProp: n,
+            traitTypeKeys: u,
+            onChange: i,
+            supportsVariables: d,
+            deleteEnabled: y,
+            deleteTitle: C,
+            onDelete: h,
+          });
+          break;
+        }
+        if (!ae) return;
+        m = (0, f.jsx)(ae, {
+          nodeIds: e,
+          control: o,
+          scopeType: N,
+          controlKey: t,
+          controlPath: c,
+          controlProp: n,
+          traitTypeKeys: u,
+          hiddenControlsByNodeId: F,
+          ControlPropRow: r,
+          displayInPopover: R,
+          onChange: i,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      }
+      case "border": {
+        if ((g(n.type === "border"), !le)) return;
+        m = (0, f.jsx)(le, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: i,
+          onContextMenu: s,
+          nodeIds: e,
+          traitTypeKeys: u,
+          popoutId: t,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      }
+      case "padding": {
+        if ((g(n.type === "padding"), !tt)) return;
+        m = (0, f.jsx)(tt, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      }
+      case "gap":
+        if ((g(n.type === "gap"), !$e)) return;
+        m = (0, f.jsx)($e, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: i,
+          nodeIds: e,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "borderradius":
+        if ((g(n.type === "borderradius"), !pe)) return;
+        m = (0, f.jsx)(pe, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          supportsComputedValues: b,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "collectionreference":
+        if ((g(n.type === "collectionreference"), !G)) return;
+        m = (0, f.jsx)(G, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "multicollectionreference":
+        if ((g(n.type === "multicollectionreference"), !Xe)) return;
+        m = (0, f.jsx)(Xe, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          supportsComputedValues: b,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "vectorsetitem":
+        if ((g(n.type === "vectorsetitem"), !pt)) return;
+        m = (0, f.jsx)(pt, {
+          control: o,
+          controlKey: t,
+          controlProp: n,
+          onChange: k,
+          supportsVariables: d,
+          traitTypeKeys: u,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "location":
+        if ((g(n.type === "location"), !Fe)) return;
+        m = (0, f.jsx)(Fe, {
+          controlKey: t,
+          control: o,
+          controlProp: n,
+          onChange: k,
+          onContextMenu: s,
+          traitTypeKeys: u,
+          supportsVariables: d,
+          deleteEnabled: y,
+          deleteTitle: C,
+          onDelete: h,
+        });
+        break;
+      case "eventhandler":
+      case "changehandler":
+        break;
+      default:
+        ue(o);
+    }
+    return (0, f.jsxs)(f.Fragment, { children: [m, V] });
+  });
+var Zt = "l7g1830";
+var $t = a(l());
+function lo({ children: r, htmlFor: e, className: t }) {
+  return (0, $t.jsx)("label", { className: me(Zt, t), htmlFor: e, children: r });
+}
+var Br = 3,
+  L = ce("PartialTreeSender"),
+  Le = dt();
+function Qt() {
+  return new Promise((r, e) => {
+    if (typeof MessageChannel < "u") {
+      let t = new MessageChannel();
+      ((t.port1.onmessage = () => r()),
+        (t.port1.onmessageerror = () => e()),
+        t.port2.postMessage(null));
+    } else setTimeout(r, 0);
+  });
+}
+var qt = class {
+  constructor(e, t, o) {
+    this.timeline = e;
+    ((this.name = t + "-" + String(Math.round(Math.random() * 1e3))),
+      (this.chunkingConfig = { maxNodesPerChunk: o?.maxNodesPerChunk ?? 1e3 }));
+  }
+  timeline;
+  name;
+  currentScopeId = "";
+  timelineCursor;
+  scopeBufferMap = new Map();
+  chunkQueue = [];
+  chunkIndex = 0;
+  chunkingConfig;
+  drainingPromise;
+  get crdtStore() {
+    if (St(this.timeline)) return this.timeline.store;
+  }
+  getScopeAsValue(e, t) {
+    let o = e.get(t);
+    if (o) return this.scopeAsValue(o, e.root.id, e.getService("metadata")?.version !== void 0);
+  }
+  scopeAsValue(e, t, o) {
+    (g(e.parentid === t, "Scope must be a direct child of the root"),
+      yt(e) && g(e.isLoaded(), "Scope must be loaded"));
+    let c = e.cache.getSerializedCache(e);
+    if (c) return c;
+    if (!o) {
+      let i = this.crdtStore,
+        p = e.cache.serialized?.hadError;
+      if (i && !p) {
+        let s = i.getObject(e.id);
+        if (s && s.parentid !== bt) return s;
+      }
+    }
+    return vt.valueFromNode(e);
+  }
+  shouldUseChunking(e, t) {
+    if (this.timelineCursor) return !1;
+    let o = e.chunkingHints;
+    if (!o || o.size === 0) return !1;
+    let c = ye();
+    t && c.add(t);
+    for (let i of c)
+      if (o.has(i)) return (L.debug(this.name, `chunking required - large page hint: ${i}`), !0);
+    return !1;
+  }
+  serializeTreeChunks(e, t) {
+    let o = [],
+      c = crypto.randomUUID(),
+      i = new Map(),
+      p = new Map(),
+      s = 0,
+      n = ye();
+    t && n.add(t);
+    let x = () => {
+        i.size > 0 &&
+          (o.push({
+            name: this.name,
+            timestamp: Date.now(),
+            treeChunks: {
+              chunkId: c,
+              chunkIndex: o.length,
+              totalChunks: -1,
+              nodes: i,
+              childrenMap: p,
+              rootId: o.length === 0 ? e.root.id : void 0,
+            },
+          }),
+          (i = new Map()),
+          (p = new Map()));
+      },
+      M = (T) => {
+        let A = T.children ?? Le;
+        (i.set(T.id, { ...T, children: Le }),
+          p.set(
+            T.id,
+            A.map((F) => F.id)
+          ),
+          s++,
+          i.size >= this.chunkingConfig.maxNodesPerChunk && x());
+        for (let F of A) M(F);
+      },
+      v = e.root,
+      d,
+      b = {};
+    for (d in v) ke[d] || (b[d] = v[d]);
+    let E = e.getNodes(n),
+      R = { ...b, __class: "RootNode", id: e.root.id, children: Le };
+    (i.set(e.root.id, R),
+      p.set(
+        e.root.id,
+        E.map((T) => T.id)
+      ),
+      s++,
+      i.size >= this.chunkingConfig.maxNodesPerChunk && x());
+    for (let T of E)
+      M(this.scopeAsValue(T, e.root.id, e.getService("metadata")?.version !== void 0));
+    x();
+    let B = o.length;
+    for (let T of o) T.treeChunks.totalChunks = B;
+    return (
+      L.debug(this.name, `directly chunked tree into ${o.length} chunks with ${s} total nodes`),
+      o
+    );
+  }
+  getNextChunk() {
+    if (this.chunkQueue.length === 0) return;
+    let e = this.chunkQueue[this.chunkIndex];
+    return (
+      this.chunkIndex++,
+      this.chunkIndex >= this.chunkQueue.length && ((this.chunkQueue = []), (this.chunkIndex = 0)),
+      e
+    );
+  }
+  hasMoreChunks() {
+    return (
+      g(this.chunkIndex >= 0, "Chunk index should not be negative"),
+      g(this.chunkIndex <= this.chunkQueue.length, "Chunk index should not exceed queue length"),
+      this.chunkIndex < this.chunkQueue.length
+    );
+  }
+  async *drainChunks(e) {
+    if (!this.hasMoreChunks()) return;
+    let t = this.drainingPromise;
+    ((this.drainingPromise = new Pt()),
+      t &&
+        (L.debug(this.name, "drainChunks already in progress, waiting for it to finish"), await t),
+      L.debug(this.name, "drainChunks started"));
+    let o = 0,
+      c = performance.now();
+    try {
+      for (; this.hasMoreChunks();) {
+        if (e?.aborted) {
+          (L.debug(this.name, "drainChunks aborted, clearing chunk queue"),
+            (this.chunkQueue = []),
+            (this.chunkIndex = 0));
+          return;
+        }
+        let i = this.getNextChunk();
+        (i &&
+          (o++,
+          L.debug(
+            this.name,
+            `sending chunk ${i.treeChunks.chunkIndex + 1} of ${i.treeChunks.totalChunks}`
+          ),
+          yield i),
+          await Qt());
+      }
+    } finally {
+      (await Qt(), (this.timelineCursor = this.timeline.getChangeTrackingCursor()));
+      let i = performance.now() - c,
+        p = i > 1e3 ? `${(i / 1e3).toFixed(2)}s` : `${Math.round(i)}ms`;
+      (L.debug(this.name, `completed sending ${o} chunks in ${p}`),
+        L.debug(this.name, "drainChunks completed"),
+        this.drainingPromise?.resolve(),
+        (this.drainingPromise = void 0));
+    }
+  }
+  resetScopeBuffer(e) {
+    (this.scopeBufferMap.clear(),
+      (this.currentScopeId = e ?? ""),
+      e && ((this.timelineCursor = void 0), this.scopeBufferMap.set(e, performance.now())));
+  }
+  updateScopeBuffer(e) {
+    if (this.currentScopeId === e) return [void 0, void 0];
+    if (e === xe) return [void 0, void 0];
+    if (((this.currentScopeId = e), this.scopeBufferMap.has(this.currentScopeId)))
+      return (this.scopeBufferMap.set(this.currentScopeId, performance.now()), [void 0, void 0]);
+    let t;
+    if (this.scopeBufferMap.size >= Br) {
+      let o = ye(),
+        c = 1 / 0,
+        i;
+      for (let [p, s] of this.scopeBufferMap) o.has(p) || (c > s && ((c = s), (i = p)));
+      i && (this.scopeBufferMap.delete(i), (t = i));
+    }
+    return (this.scopeBufferMap.set(this.currentScopeId, performance.now()), [t, e]);
+  }
+  reset(e) {
+    let t = this.timeline.tree;
+    if ((this.resetScopeBuffer(e), this.shouldUseChunking(t, e)))
+      return (
+        (this.chunkQueue = this.serializeTreeChunks(t, e)),
+        (this.chunkIndex = 0),
+        L.debug(this.name, "initiated direct chunked transfer for tree"),
+        null
+      );
+    let o = this.serializeTree(t, e);
+    return ((this.chunkQueue = []), (this.chunkIndex = 0), o);
+  }
+  update(e) {
+    if (!e) return {};
+    if (this.hasMoreChunks()) return {};
+    let t = this.timeline.tree,
+      o = this.timeline.fetchForwardChanges(this.timelineCursor);
+    if (!o) {
+      if (this.timeline.invalidatedByLoadCompletedDocument(this.timelineCursor))
+        return (
+          L.debug(
+            this.name,
+            "cursor invalidated, sending empty update for load completed document"
+          ),
+          (this.timelineCursor = this.timeline.getChangeTrackingCursor()),
+          {}
+        );
+      if ((this.resetScopeBuffer(e), this.shouldUseChunking(t, e))) {
+        ((this.chunkQueue = this.serializeTreeChunks(t, e)), (this.chunkIndex = 0));
+        let n = this.getNextChunk();
+        if (n)
+          return (
+            L.debug(
+              this.name,
+              `starting direct chunked resend with ${this.chunkQueue.length} chunks`
+            ),
+            n
+          );
+      }
+      let s = this.serializeTree(t, e);
+      return (
+        L.debug(this.name, "cursor invalidated, sending tree with scope:", e),
+        (this.timelineCursor = this.timeline.getChangeTrackingCursor()),
+        { name: this.name, tree: s, timestamp: Date.now() }
+      );
+    }
+    let [c, i] = this.updateScopeBuffer(e);
+    (c && (L.debug(this.name, "deleting scope by diff:", c), Yt(c, o)),
+      o.length === 0 && (o = void 0));
+    let p;
+    if (
+      (i && (L.debug(this.name, "adding scope by subtree:", i), (p = this.getScopeAsValue(t, i))),
+      o)
+    ) {
+      let s = this.getAffectedScopeIDsAfterCrossScopeMove(t, o);
+      for (let n of s) {
+        if (n !== this.currentScopeId) {
+          this.scopeBufferMap.has(n) &&
+            (L.debug(this.name, "deleting scope due to cross-scope move:", n),
+            Yt(n, o),
+            this.scopeBufferMap.delete(n));
+          continue;
+        }
+        p ||
+          (L.debug(this.name, "resending tree with scope due to cross-scope move:", n),
+          (p = this.getScopeAsValue(t, n)));
+      }
+    }
+    return { changes: o, scopes: p ? [p] : void 0, timestamp: Date.now() };
+  }
+  serializeTree(e, t) {
+    let o = ye();
+    t && o.add(t);
+    let c = [];
+    for (let n of o) {
+      let x = this.getScopeAsValue(e, n);
+      x && c.push(x);
+    }
+    let i = e.root,
+      p,
+      s = {};
+    for (p in i) ke[p] || (s[p] = i[p]);
+    return { version: Ct, root: { ...s, __class: "RootNode", id: e.root.id, children: c } };
+  }
+  getAffectedScopeIDsAfterCrossScopeMove(e, t) {
+    let o = new Set();
+    for (let c of t) {
+      if (!c.previousScope || !c.to.parentid) continue;
+      let i = e.get(c.id),
+        p = e.getScopeNodeFor(i);
+      p && o.add(p.id);
+    }
+    return o;
+  }
+};
+function Yt(r, e) {
+  e.push({ id: r, removed: "CanvasNode", to: {} });
+}
+function ye() {
+  return new Set([xt, kt, ft, gt, ht, xe]);
+}
+var Fr =
+    "autoplay; ambient-light-sensor; accelerometer; camera; display-capture; encrypted-media; fullscreen; geolocation; gyroscope; magnetometer; microphone; midi; picture-in-picture; usb; xr-spatial-tracking",
+  _r = "autoplay",
+  Hr =
+    "autoplay; ambient-light-sensor; accelerometer; camera; display-capture; encrypted-media; fullscreen; geolocation; gyroscope; magnetometer; microphone; midi; picture-in-picture; usb; xr-spatial-tracking; clipboard-read; clipboard-write";
+function To(r) {
+  let e;
+  switch (r) {
+    case "on_page":
+      e = _r;
+      break;
+    case "editor":
+      e = Fr;
+      break;
+    case "preview":
+      e = Hr;
+      break;
+    default:
+      ue(r);
+  }
+  return e;
+}
+var Te = class {
+    constructor(e) {
+      this.callbacks = e;
+    }
+    callbacks;
+    experimentListeners = new Map();
+    employeesOnlySettingsListeners = new Map();
+    projectFeaturesListeners = new Map();
+    startUpdatesStream() {
+      (Object.keys(ve).forEach((e) => {
+        let t = (o) => {
+          this.callbacks.updateExperiments({ [e]: o });
+        };
+        (de.addListener(e, t), this.experimentListeners.set(e, t));
+      }),
+        Object.keys(we).forEach((e) => {
+          let t = (o) => {
+            this.callbacks.updateEmployeesOnlySettings({ [e]: o });
+          };
+          (fe.addListener(e, t), this.employeesOnlySettingsListeners.set(e, t));
+        }));
+    }
+    getInitialExperiments() {
+      let e = {};
+      return (
+        Object.keys(ve).forEach((t) => {
+          e[t] = de.get(t);
+        }),
+        e
+      );
+    }
+    getInitialEmployeesOnlySettings() {
+      let e = {};
+      return (
+        Object.keys(we).forEach((t) => {
+          e[t] = fe.get(t);
+        }),
+        e
+      );
+    }
+    initProjectFeatures() {
+      Z.updated
+        .then(() => {
+          let e = {};
+          (Object.keys(Pe).forEach((t) => {
+            e[t] = Z.get(t);
+          }),
+            this.callbacks.updateProjectFeatures(e),
+            this.projectFeaturesListeners.size === 0 &&
+              Object.keys(Pe).forEach((t) => {
+                let o = (c) => {
+                  this.callbacks.updateProjectFeatures({ [t]: c });
+                };
+                (Z.addListener(t, o), this.projectFeaturesListeners.set(t, o));
+              }));
+        })
+        .catch(ut);
+    }
+    stopUpdatesStream() {
+      for (let [e, t] of this.experimentListeners) de.removeListener(e, t);
+      for (let [e, t] of this.employeesOnlySettingsListeners) fe.removeListener(e, t);
+      for (let [e, t] of this.projectFeaturesListeners) Z.removeListener(e, t);
+      (this.experimentListeners.clear(),
+        this.employeesOnlySettingsListeners.clear(),
+        this.projectFeaturesListeners.clear());
+    }
+  },
+  Xt = class {
+    constructor(e, t) {
+      this.remoteFlags = e;
+      let o = new Te(this.remoteFlags);
+      (o.startUpdatesStream(),
+        this.remoteFlags.updateExperiments(o.getInitialExperiments()),
+        this.remoteFlags.updateEmployeesOnlySettings(o.getInitialEmployeesOnlySettings()),
+        t?.addEventListener("abort", () => o.stopUpdatesStream(), { once: !0 }));
+    }
+    remoteFlags;
+  };
+var Jt = a(K(), 1);
+function Fo() {
+  let r = H.values.panelPadding;
+  return (0, Jt.useMemo)(() => ({ top: r, right: -r, bottom: -r, left: r }), [r]);
+}
+var er = a(l(), 1);
+function Wr(r, e) {
+  switch (r) {
+    case "left":
+    case "right":
+      return { x: e };
+    case "top":
+    case "bottom":
+    case void 0:
+      return { y: e };
+  }
+}
+function jo({
+  children: r,
+  className: e,
+  colorVariant: t,
+  direction: o,
+  enabled: c,
+  offsetDelta: i = 0,
+  text: p,
+  shortcut: s,
+}) {
+  let n = H.values.tooltipOffset + i;
+  return c
+    ? (0, er.jsx)(Mt, {
+        text: p,
+        shortcut: s,
+        colorVariant: t,
+        direction: o,
+        className: e,
+        variant: "toolbar",
+        positionOffset: Wr(o, n),
+        children: r,
+      })
+    : r;
+}
+var Ae = a(l());
+function tr(r) {
+  return (0, Ae.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Ae.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M4.25 2.25a1.5 1.5 0 0 1 1.5-1.5h4a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1-1.5 1.5H8v2a1.5 1.5 0 0 1-1.5 1.5h-4A1.5 1.5 0 0 1 1 9.75v-4a1.5 1.5 0 0 1 1.5-1.5h1.75Z",
+    }),
+  });
+}
+var rr = a(K()),
+  _ = a(l());
+function or(r) {
+  let e = `layer-breakpoint-icon-${(0, rr.useId)().replace(/:/gu, "")}`;
+  return (0, _.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, _.jsx)("defs", {
+        children: (0, _.jsx)("clipPath", {
+          id: e,
+          children: (0, _.jsx)("path", {
+            d: "M.5 3.5a3 3 0 0 1 3-3h5a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3h-5a3 3 0 0 1-3-3Z",
+          }),
+        }),
+      }),
+      (0, _.jsx)("path", {
+        d: "M.5 3.5a3 3 0 0 1 3-3h5a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3h-5a3 3 0 0 1-3-3Z",
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "3",
+        clipPath: `url(#${e})`,
+      }),
+      (0, _.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M10 1.5H2.5l-1 1v2H11v-1Z",
+      }),
+    ],
+  });
+}
+var Re = a(l());
+function nr(r) {
+  return (0, Re.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Re.jsx)("path", {
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "m1.25 5.5 2.189 2.189a1.5 1.5 0 0 0 2.122 0L10.5 2.75",
+    }),
+  });
+}
+var $ = a(l());
+function ir(r) {
+  return (0, $.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, $.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        d: "M1.5 8.75v-5.5C1.5 1.869 3.515.75 6 .75s4.5 1.119 4.5 2.5v5.5m0 0c0 1.381-2.015 2.5-4.5 2.5s-4.5-1.119-4.5-2.5",
+      }),
+      (0, $.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        d: "M10.25 3.25c0 1.105-1.903 2-4.25 2s-4.25-.895-4.25-2",
+      }),
+    ],
+  });
+}
+var Ve = a(l());
+function sr(r) {
+  return (0, Ve.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Ve.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+    }),
+  });
+}
+var Q = a(l());
+function ar() {
+  return (0, Q.jsxs)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "presentation",
+    width: "12",
+    height: "12",
+    children: [
+      (0, Q.jsx)("path", {
+        d: "M 1.25 4.25 L 1.25 4.25 L 1.25 9 C 1.25 9.966 2.034 10.75 3 10.75 L 9 10.75 C 9.966 10.75 10.75 9.966 10.75 9 L 10.75 5.75 C 10.75 4.922 10.078 4.25 9.25 4.25 L 8 4.25 C 7.448 4.25 7 3.802 7 3.25 L 7 2.75 C 7 1.922 6.328 1.25 5.5 1.25 L 2.75 1.25 C 1.922 1.25 1.25 1.922 1.25 2.75 Z",
+        fill: "currentColor",
+        fillOpacity: "0.15",
+        strokeWidth: "1.5",
+        stroke: "currentColor",
+      }),
+      (0, Q.jsx)("path", {
+        d: "M 8.5 4.25 L 1.5 4.25",
+        fill: "transparent",
+        strokeWidth: "1.5",
+        stroke: "currentColor",
+      }),
+    ],
+  });
+}
+var q = a(l());
+function lr(r) {
+  return (0, q.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, q.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, q.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M4.25 4.25v3.5h3.5",
+      }),
+    ],
+  });
+}
+var Y = a(l());
+function pr(r) {
+  return (0, Y.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, Y.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, Y.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        d: "M6 2v8M2 5h3.5M6.5 7H10",
+      }),
+    ],
+  });
+}
+var X = a(l());
+function cr(r) {
+  return (0, X.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, X.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M9 .75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M3 6.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5",
+      }),
+      (0, X.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        d: "M4.5 7.5 6 6l1.5-1.5",
+      }),
+    ],
+  });
+}
+var J = a(l());
+function ur(r) {
+  return (0, J.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, J.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        d: "M.75 3.75a3 3 0 0 1 3-3h4.5a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-4.5a3 3 0 0 1-3-3Z",
+      }),
+      (0, J.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1 4V3a2 2 0 0 1 2-2h1M10.75 4V3a2 2 0 0 0-2-2h-1M10.75 7.75v1a2 2 0 0 1-2 2h-1M1 7.75v1a2 2 0 0 0 2 2h1",
+      }),
+    ],
+  });
+}
+var Me = a(l());
+function dr(r) {
+  return (0, Me.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Me.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M5.293 1.05a1 1 0 0 1 1.414 0l4.243 4.243a1 1 0 0 1 0 1.414L6.707 10.95a1 1 0 0 1-1.414 0L1.05 6.707a1 1 0 0 1 0-1.414Z",
+    }),
+  });
+}
+var ee = a(l());
+function mr(r) {
+  return (0, ee.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, ee.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        d: "M6 1a5 5 0 1 1-.001 10.001A5 5 0 0 1 6 1Z",
+      }),
+      (0, ee.jsx)("path", {
+        fill: "currentColor",
+        d: "M6 4.5a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 6 4.5",
+      }),
+    ],
+  });
+}
+var Ne = a(l());
+function fr(r) {
+  return (0, Ne.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Ne.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+    }),
+  });
+}
+var Ge = a(l());
+function De(r) {
+  return (0, Ge.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Ge.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      d: "M6 1a5 5 0 1 1-.001 10.001A5 5 0 0 1 6 1Z",
+    }),
+  });
+}
+var te = a(l());
+function hr(r) {
+  return (0, te.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, te.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, te.jsx)("path", { fill: "transparent", stroke: "currentColor", d: "M1.5 6h9" }),
+    ],
+  });
+}
+var re = a(l());
+function gr(r) {
+  return (0, re.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, re.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, re.jsx)("path", { fill: "transparent", stroke: "currentColor", d: "M6 2v8" }),
+    ],
+  });
+}
+var oe = a(l());
+function yr(r) {
+  return (0, oe.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    viewBox: "0 0 12 12",
+    fill: "none",
+    "aria-hidden": "true",
+    focusable: "false",
+    ...r,
+    children: [
+      (0, oe.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        d: "M1.5 8.75v-5.5C1.5 1.869 3.515.75 6 .75s4.5 1.119 4.5 2.5v5.5m0 0c0 1.381-2.015 2.5-4.5 2.5s-4.5-1.119-4.5-2.5",
+      }),
+      (0, oe.jsx)("path", {
+        fill: "none",
+        stroke: "currentColor",
+        d: "M10.25 3.25c0 1.105-1.903 2-4.25 2s-4.25-.895-4.25-2M10.25 6c0 1.105-1.903 2-4.25 2s-4.25-.895-4.25-2",
+      }),
+    ],
+  });
+}
+var ne = a(l());
+function Cr(r) {
+  return (0, ne.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, ne.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, ne.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        d: "M2 6h8M5 2v3.5M7 6.5V10",
+      }),
+    ],
+  });
+}
+var ie = a(l());
+function vr(r) {
+  return (0, ie.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, ie.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1.25 3.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2Z",
+      }),
+      (0, ie.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        d: "M6 2v8M2 5h3.5M6.5 7H10",
+      }),
+    ],
+  });
+}
+var Oe = a(l());
+function kr(r) {
+  return (0, Oe.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Oe.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "m6 .775 1.94 2.83 3.291.971-2.093 2.719.095 3.43L6 9.575l-3.233 1.15.095-3.43L.769 4.576l3.291-.971Z",
+    }),
+  });
+}
+var Be = a(l());
+function xr(r) {
+  return (0, Be.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: (0, Be.jsx)("path", {
+      fill: "currentColor",
+      fillOpacity: 0.15,
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.5",
+      d: "M5.148 1.884a1 1 0 0 1 1.704 0l4.21 6.842a1 1 0 0 1-.852 1.524H1.79a1 1 0 0 1-.852-1.524Z",
+    }),
+  });
+}
+var se = a(l());
+function br(r) {
+  return (0, se.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    fill: "none",
+    ...r,
+    children: [
+      (0, se.jsx)("path", {
+        fill: "currentColor",
+        fillOpacity: 0.15,
+        d: "M.75 3.75a3 3 0 0 1 3-3h4.5a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-4.5a3 3 0 0 1-3-3Z",
+      }),
+      (0, se.jsx)("path", {
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: "1.5",
+        d: "M1 4V3a2 2 0 0 1 2-2h1M10.75 4V3a2 2 0 0 0-2-2h-1M10.75 7.75v1a2 2 0 0 1-2 2h-1M1 7.75v1a2 2 0 0 0 2 2h1",
+      }),
+    ],
+  });
+}
+var zn = {
+  component: Gt,
+  label: lr,
+  checkbox: nr,
+  radio: mr,
+  breakpoint: or,
+  grid: Dt,
+  masonry: pr,
+  frame: sr,
+  "frame-round": De,
+  stack: hr,
+  "stack-horizontal": gr,
+  "stack-with-data": yr,
+  "stack-wrap-horizontal": Cr,
+  "stack-wrap-vertical": vr,
+  form: Ie,
+  "form-container": Ie,
+  "form-input": Kt,
+  "form-select": jt,
+  text: zt,
+  svg: Ee,
+  path: cr,
+  placeholder: ur,
+  boolean: tr,
+  star: kr,
+  polygon: dr,
+  oval: De,
+  overlay: Ut,
+  rectangle: fr,
+  image: Ee,
+  group: ar,
+  "collection-item": ir,
+  "view-box": br,
+  vector: xr,
+  shader: Ot,
+};
+var S = a(K(), 1);
+function Ce(r, e, t) {
+  return { source: r, rangeDays: Et(e.startDate, e.endDate), eventCount: t };
+}
+function Sr(r, e, t) {
+  U("analytics_export_start", Ce(r, e, t));
+}
+function wr(r, e, t) {
+  U("analytics_export_success", Ce(r, e, t));
+}
+function Pr(r, e, t) {
+  U("analytics_export_cancel", Ce(r, e, t));
+}
+function Er(r, e, t, o) {
+  U("analytics_export_fail", { ...Ce(r, e, t), reason: o });
+}
+var z = a(K(), 1);
+function Ir(r, e) {
+  if (r === e) return r;
+  if (e > r) {
+    let t = Math.max(1, Math.ceil((e - r) / 6));
+    return Math.min(r + t, e);
+  }
+  return e;
+}
+function Lr({ transferredEvents: r, totalEvents: e, isComplete: t }) {
+  return t ? 1 : e <= 0 ? 0 : Math.min(r / e, 0.99);
+}
+function Tr({ phase: r, totalEvents: e, transferredEvents: t }) {
+  let o = r === "complete" ? e : t,
+    [c, i] = (0, z.useState)(0);
+  ((0, z.useEffect)(() => {
+    r === "inactive" && i(0);
+  }, [r]),
+    (0, z.useEffect)(() => {
+      r === "complete" && i(e);
+    }, [r, e]),
+    (0, z.useEffect)(() => {
+      if (r !== "exporting") return;
+      let s = () => {
+        i((x) => Ir(x, o));
+      };
+      s();
+      let n = window.setInterval(s, 100);
+      return () => window.clearInterval(n);
+    }, [r, o]));
+  let p =
+    r === "inactive"
+      ? 0
+      : Lr({ transferredEvents: c, totalEvents: e, isComplete: r === "complete" });
+  return { displayedEventCount: c, progress: p };
+}
+var Ar = ce("useAnalyticsExport");
+function Rr(r) {
+  return r instanceof be && r.status === 403;
+}
+function Kr(r) {
+  return Rr(r)
+    ? "Analytics export is not available on this plan."
+    : r instanceof he
+      ? r.message
+      : "Something went wrong while exporting. Please try again.";
+}
+function zr(r) {
+  return r instanceof he
+    ? "incomplete"
+    : r instanceof be && r.status === wt.Forbidden
+      ? "entitlement"
+      : "unknown";
+}
+function si(r, e, t, o, c) {
+  let [i, p] = (0, S.useState)("idle"),
+    [s, n] = (0, S.useState)(0),
+    [x, M] = (0, S.useState)(),
+    [v, d] = (0, S.useState)(0),
+    [b, E] = (0, S.useState)(0),
+    [R, B] = (0, S.useState)("inactive"),
+    [T, A] = (0, S.useState)(),
+    [F, N] = (0, S.useState)(),
+    { displayedEventCount: y, progress: C } = Tr({
+      phase: R,
+      totalEvents: v,
+      transferredEvents: b,
+    }),
+    h = (0, S.useRef)(),
+    m = (0, S.useRef)(!1),
+    V = (0, S.useRef)(!1);
+  (0, S.useEffect)(() => () => h.current?.abort(), []);
+  let u = e?.startDate,
+    k = e?.endDate;
+  (0, S.useEffect)(() => {
+    if (!u || !k) {
+      p("idle");
+      return;
+    }
+    let w = new AbortController();
+    return (
+      p("loading"),
+      M(void 0),
+      Vt(r, { startDate: u, endDate: k }, w.signal)
+        .then(({ eventCount: I }) => {
+          if (w.signal.aborted) return;
+          d(I);
+          let j = t !== null && It(I, t);
+          p(j ? "over_limit" : "ready");
+        })
+        .catch((I) => {
+          w.signal.aborted || Se(I) || (Ar.reportError(I), p("error"));
+        }),
+      () => w.abort()
+    );
+  }, [u, k, r, t, s]);
+  let ae = (0, S.useCallback)(() => n((w) => w + 1), []),
+    O = (0, S.useCallback)(
+      (w) => {
+        !o || !V.current || ((V.current = !1), Pr(o, w, v));
+      },
+      [o, v]
+    ),
+    le = (0, S.useCallback)(async () => {
+      if (!u || !k || i !== "ready" || m.current) return;
+      let w = { startDate: u, endDate: k };
+      ((m.current = !0), A(void 0), N(void 0), E(0));
+      let G = new AbortController();
+      ((h.current = G), (V.current = !1), o && (Sr(o, w, v), (V.current = !0)));
+      try {
+        let I = Tt() ? await At(w, G.signal) : void 0,
+          j = performance.now();
+        return (
+          B("exporting"),
+          await Rt(r, w, { signal: G.signal, writable: I, onTransferredEvents: E }),
+          G.signal.aborted
+            ? (O(w), "aborted")
+            : (N(performance.now() - j),
+              B("complete"),
+              o && V.current && ((V.current = !1), wr(o, w, v)),
+              "complete")
+        );
+      } catch (I) {
+        return G.signal.aborted || (B("inactive"), Se(I))
+          ? (O(w), "aborted")
+          : (!Rr(I) && !(I instanceof he) && Ar.reportError(I),
+            o && V.current && ((V.current = !1), Er(o, w, v, zr(I))),
+            A(Kr(I)),
+            "failed");
+      } finally {
+        h.current === G && (m.current = !1);
+      }
+    }, [r, u, k, i, o, v, O]),
+    pe = (0, S.useCallback)(() => {
+      (h.current?.abort(),
+        (m.current = !1),
+        B("inactive"),
+        E(0),
+        A(void 0),
+        N(void 0),
+        u && k && O({ startDate: u, endDate: k }));
+    }, [u, k, O]),
+    W;
+  return (
+    i === "over_limit" && t !== null
+      ? (W = Lt(v, t, c))
+      : i === "error" && (W = x ?? "Could not estimate export size for this range. Try again."),
+    {
+      volumeCheck: i,
+      volumeMessage: W,
+      retryVolumeCheck: ae,
+      totalEvents: v,
+      phase: R,
+      errorMessage: T,
+      exportDurationMs: F,
+      setErrorMessage: A,
+      displayedEventCount: y,
+      progress: C,
+      start: le,
+      cancel: pe,
+    }
+  );
+}
+var P = a(K());
+var Vr = "p1j5whaq",
+  ui = "i190xtw4",
+  di = "sptrpar",
+  mi = "s1laaeki",
+  fi = "ir4tltr",
+  hi = "pvix4vs",
+  gi = "i1tmo59k",
+  yi = "e1ojgdqj",
+  Ci = "i1wtmfop",
+  vi = "slyvz40",
+  ki = "h166ubuf",
+  xi = "p1797vmk",
+  Mr = "d13gkfvk",
+  Nr = "ltrjzs0";
+var D = a(l()),
+  Zr = ["bottom", "top"];
+function Li({ enabled: r, defaultOpen: e }) {
+  let [t, o] = (0, P.useState)(null),
+    [c, i] = (0, P.useState)(e),
+    p = (0, P.useCallback)(() => {
+      r && (i(!0), t?.setAttribute("aria-expanded", "true"));
+    }, [r, t]),
+    s = (0, P.useCallback)(() => {
+      (i(!1), t?.removeAttribute("aria-expanded"));
+    }, [t]);
+  return { anchorElement: t, setAnchorElement: o, isPopoverOpen: c, open: p, close: s };
+}
+function Ti(r) {
+  return (0, P.useMemo)(() => {
+    let e = new Map();
+    return (r.forEach((t) => Gr(t, e)), e);
+  }, [r]);
+}
+function Gr(r, e) {
+  if (r.type === "section") {
+    r.items.forEach((t) => Gr(t, e));
+    return;
+  }
+  e.set(r.value, r);
+}
+function Ai() {
+  let [r, e] = (0, P.useState)(-1),
+    [t, o] = (0, P.useState)("nearest-edge"),
+    c = (0, P.useCallback)((i, p) => {
+      (e(i), o(p));
+    }, []);
+  return { scrollToIndex: r, scrollToAlignment: t, scrollItemIntoView: c };
+}
+function Ri({ inputRef: r, focusHandler: e, initialInputValue: t, changeHandler: o }) {
+  (0, P.useLayoutEffect)(() => {
+    let p = r.current;
+    p && (p.focus(), e());
+  }, [e, r]);
+  let c = P.default.useRef(!1);
+  return (
+    (0, P.useLayoutEffect)(() => {
+      c.current || ((c.current = !0), t && o(t, !1, () => {}));
+    }),
+    {
+      handleInputChange: (0, P.useCallback)(
+        (p, s, n, x) => {
+          s || o(p, s, n, x);
+        },
+        [o]
+      ),
+    }
+  );
+}
+function Vi({
+  anchorElement: r,
+  isOpen: e,
+  menuClassName: t,
+  menuWidth: o,
+  menuMinWidth: c,
+  alignSelf: i = "start",
+  attachTo: p = Zr,
+  onClose: s,
+  children: n,
+}) {
+  let [x, M] = (0, P.useState)(0);
+  (0, P.useLayoutEffect)(() => {
+    if (!r) return;
+    let d = () => {
+      let E = r.getBoundingClientRect().height;
+      M(E);
+    };
+    d();
+    let b = new ResizeObserver(d);
+    return (b.observe(r), () => b.disconnect());
+  }, [r]);
+  let v = (0, P.useMemo)(
+    () =>
+      r
+        ? { x: H.values.popoverAnchorInset, y: -(x - H.values.popoverAnchorInset) }
+        : { x: 0, y: 0 },
+    [r, x]
+  );
+  return !e || !r
+    ? null
+    : (0, D.jsx)(Nt, {
+        className: me(Vr, t),
+        style: { width: o, minWidth: c },
+        showArrow: !1,
+        focusTrapEnabled: !1,
+        anchor: r,
+        alignSelf: i,
+        attachTo: p,
+        offset: v,
+        animateAppear: !1,
+        backdropEnabled: !0,
+        onClose: s,
+        children: n,
+      });
+}
+function Mi({
+  listBoxId: r,
+  showList: e,
+  large: t,
+  displayItems: o,
+  checkedItems: c,
+  highlightedIndex: i,
+  scrollToIndex: p,
+  scrollToAlignment: s,
+  onSelect: n,
+  onHighlight: x,
+  stickySectionHeaders: M,
+  noSearchResultsEnabled: v,
+  isOpen: d,
+  flatList: b,
+}) {
+  let E = v && d && b.length === 0,
+    R = e && !E;
+  return (0, D.jsxs)(D.Fragment, {
+    children: [
+      R && (0, D.jsx)("div", { className: Mr }),
+      R &&
+        (0, D.jsx)("div", {
+          id: r,
+          role: "listbox",
+          className: Nr,
+          children: (0, D.jsx)(_t, {
+            large: t,
+            items: o,
+            checkedItems: c,
+            highlightedIndex: i,
+            scrollToIndex: p,
+            scrollToAlignment: s,
+            onSelect: n,
+            onHighlight: x,
+            shrinkCompletionLabel: !0,
+            stickySectionHeaders: M,
+          }),
+        }),
+      E && (0, D.jsx)(Ht, { className: Ft, icon: null, title: void 0, body: "No search results" }),
+    ],
+  });
+}
+function Ni(r) {
+  r.target instanceof HTMLInputElement || r.preventDefault();
+}
+export {
+  To as a,
+  Te as b,
+  Xt as c,
+  qt as d,
+  Fo as e,
+  nr as f,
+  ro as g,
+  jo as h,
+  or as i,
+  ir as j,
+  br as k,
+  zn as l,
+  lo as m,
+  si as n,
+  ui as o,
+  di as p,
+  mi as q,
+  fi as r,
+  hi as s,
+  gi as t,
+  yi as u,
+  Ci as v,
+  vi as w,
+  ki as x,
+  xi as y,
+  Zr as z,
+  Li as A,
+  Ti as B,
+  Ai as C,
+  Ri as D,
+  Vi as E,
+  Mi as F,
+  Ni as G,
+};
+//# sourceMappingURL=chunk-5PN26LDD.mjs.map

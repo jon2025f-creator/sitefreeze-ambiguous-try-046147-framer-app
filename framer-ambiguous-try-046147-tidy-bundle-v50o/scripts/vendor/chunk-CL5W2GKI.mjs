@@ -1,0 +1,16259 @@
+import {
+  Ah as rt,
+  Bc as vr,
+  Bh as fa,
+  Ci as Tu,
+  Di as Lu,
+  Eh as hu,
+  Hf as ua,
+  Ic as Mc,
+  Jc as xc,
+  Jd as Dc,
+  Jf as qc,
+  Kd as Vc,
+  L as mc,
+  Lc as Rc,
+  Lh as ma,
+  Mf as Tr,
+  Mh as ha,
+  Nf as An,
+  Oc as Nc,
+  Qb as Sc,
+  U as hc,
+  V as gc,
+  Vf as Hc,
+  Wf as Jc,
+  Xf as Kc,
+  Yf as Lr,
+  Zf as Mr,
+  ag as Qc,
+  bf as zc,
+  bi as Vr,
+  cf as Ir,
+  ci as Pt,
+  dh as Rr,
+  eh as co,
+  ei as gu,
+  fg as Yc,
+  fh as Nr,
+  gg as Xc,
+  gh as De,
+  gi as yu,
+  hc as Ic,
+  hf as kc,
+  hh as wr,
+  ic as Cc,
+  ig as xr,
+  ih as ou,
+  ii as ya,
+  jf as _c,
+  jh as ru,
+  kc as bc,
+  kf as la,
+  kh as iu,
+  lc as ra,
+  lh as au,
+  mc as Sr,
+  mi as Pr,
+  nh as uo,
+  ni as Su,
+  of as da,
+  pf as $c,
+  qf as Wc,
+  qh as su,
+  rf as Gc,
+  rh as po,
+  ri as vu,
+  sf as jc,
+  si as Iu,
+  th as cu,
+  uh as uu,
+  vf as lo,
+  wa as Bn,
+  wc as Lc,
+  wf as ca,
+  wh as St,
+  xf as cn,
+  xh as fo,
+  yh as Vt,
+  zf as Cr,
+  zh as pu,
+} from "chunk-S2XVV6PX.mjs";
+import { m as Ec, o as du } from "chunk-YZCJ4RKH.mjs";
+import { a as Cu } from "chunk-V3C5CSFI.mjs";
+import { a as Zc, b as eu, c as tu, d as nu } from "chunk-PKJ7GGMU.mjs";
+import { A as un, D as lu, c as yc, f as Fn, j as Tc, p as br } from "chunk-A442DOOD.mjs";
+import {
+  Ge as yr,
+  Ke as pc,
+  Me as fc,
+  Pb as Jd,
+  Qb as Kd,
+  S as ln,
+  Sb as Yd,
+  Ub as Xd,
+  V as Gd,
+  _ as dn,
+  ae as lc,
+  ba as so,
+  be as dc,
+  db as qd,
+  ea as ur,
+  fa as pr,
+  hc as Zd,
+  ic as ec,
+  ma as jd,
+  mb as na,
+  ob as Hd,
+  pa as ta,
+  qc as hr,
+  va as kn,
+  wa as fr,
+  xd as ac,
+  yc as tc,
+} from "chunk-AGRH3GOR.mjs";
+import {
+  Ga as Xi,
+  He as cc,
+  Ie as gr,
+  Jc as ic,
+  Ta as Ud,
+  W as qe,
+  X as zd,
+  Y as Ji,
+  ea as Ki,
+  fc as nc,
+  kc as oc,
+  lb as oa,
+  nb as Qd,
+  ob as ot,
+  vc as rc,
+} from "chunk-FAGFJV35.mjs";
+import { k as uc } from "chunk-2CMM7QDM.mjs";
+import { i as pa, n as fu, o as mu, s as ga } from "chunk-Y3GGHNCV.mjs";
+import {
+  e as Fc,
+  q as Bc,
+  r as Ac,
+  s as Oc,
+  v as Uc,
+  w as sa,
+  x as mo,
+  y as bu,
+} from "chunk-PP3ZAKQU.mjs";
+import { b as mr } from "chunk-SPYOA764.mjs";
+import {
+  $j as Gi,
+  $t as _d,
+  Af as Nl,
+  Ag as kl,
+  Cg as Fl,
+  Dg as Bl,
+  Ff as Xe,
+  Gs as re,
+  Hk as ar,
+  Hs as Qi,
+  Jk as Le,
+  Jp as Ed,
+  Ks as lr,
+  Mf as wl,
+  Ng as Zo,
+  Nk as wt,
+  Ns as dr,
+  Od as Ot,
+  Ok as wd,
+  Or as b,
+  Os as cr,
+  Pk as Dd,
+  Pu as ze,
+  Qg as zi,
+  Qs as Fd,
+  Rk as Vd,
+  Rr as kd,
+  Rt as Zi,
+  Sg as Ul,
+  Uk as sr,
+  Vg as _l,
+  Vh as nd,
+  Xg as $l,
+  Xh as od,
+  Xk as Dt,
+  Xs as Yi,
+  Yg as Wl,
+  Zh as rn,
+  Zj as vd,
+  Zk as Pd,
+  Zs as Bd,
+  _i as an,
+  _j as Id,
+  ak as Cd,
+  d as Es,
+  dh as Gl,
+  ge as Ni,
+  gh as jl,
+  hi as ad,
+  ih as wn,
+  ii as Ai,
+  ji as Oi,
+  ki as sd,
+  kt as Ad,
+  kv as ea,
+  li as Ui,
+  lu as $d,
+  mc as ml,
+  mh as ql,
+  nq as yt,
+  oa as ol,
+  oh as Hl,
+  ou as Wd,
+  pf as wi,
+  ph as on,
+  qg as El,
+  qh as Jl,
+  rg as Xo,
+  rh as Dn,
+  sh as Kl,
+  ta as il,
+  tf as xl,
+  ug as Vi,
+  va as al,
+  wg as Pi,
+  xf as Di,
+  yf as ro,
+  yg as zl,
+  zf as Rl,
+  zm as gt,
+} from "chunk-IPJAMXIN.mjs";
+import { a as Ei, b as Ol } from "chunk-J24KBFV2.mjs";
+import {
+  $b as Us,
+  $d as We,
+  $i as el,
+  $k as oo,
+  $p as sn,
+  Aa as Tn,
+  Ab as q,
+  Ac as $s,
+  Ad as jo,
+  Aj as rl,
+  Ba as _o,
+  Bb as Qe,
+  Ca as ye,
+  Da as Vs,
+  Dp as ld,
+  E as Ii,
+  Ea as Be,
+  Eb as Bs,
+  Ej as J,
+  Ep as _i,
+  Fa as E,
+  Fj as L,
+  Fr as pd,
+  Gj as sl,
+  Go as nr,
+  Hd as Ye,
+  Hj as U,
+  Hp as dd,
+  Id as qs,
+  Io as id,
+  Jj as $,
+  Jo as or,
+  Js as ji,
+  Ka as Ci,
+  Ki as Ri,
+  Kj as m,
+  Km as Ll,
+  Lj as Ge,
+  Lm as tn,
+  Ma as bi,
+  Mg as Qs,
+  Mh as xn,
+  Mi as Xs,
+  Mk as pl,
+  Mm as Ml,
+  Mr as fd,
+  Ni as Zs,
+  Nj as ft,
+  Oi as en,
+  Om as Yo,
+  Pa as Se,
+  Pk as fl,
+  Pp as cd,
+  Pr as $i,
+  Qa as Li,
+  Rj as ll,
+  Td as qo,
+  Ud as Rt,
+  Vf as Js,
+  Vn as Yl,
+  Wb as As,
+  Wd as Ho,
+  Wf as Ks,
+  Wl as Jo,
+  Xc as js,
+  Yb as Os,
+  Yk as hl,
+  Zk as mt,
+  Zr as En,
+  Zt as zn,
+  _b as Mn,
+  al as gl,
+  am as Ko,
+  as as md,
+  bl as Rn,
+  bo as tr,
+  bs as hd,
+  cb as Ne,
+  cn as Dl,
+  co as nt,
+  el as yl,
+  es as gd,
+  fs as yd,
+  ft as io,
+  gb as Ln,
+  gn as Vl,
+  go as Zl,
+  gt as bd,
+  hj as tl,
+  hl as Sl,
+  hs as Wi,
+  ht as Td,
+  io as ed,
+  it as ao,
+  jc as pt,
+  jk as dl,
+  jm as Tl,
+  jo as td,
+  js as Sd,
+  jt as Ld,
+  kc as Mi,
+  kk as cl,
+  lj as nl,
+  ln as Ut,
+  lo as Fi,
+  lt as qi,
+  m as Uo,
+  mb as zs,
+  ml as vl,
+  mn as Nt,
+  mt as Md,
+  nb as ee,
+  no as ve,
+  nt as Hi,
+  ob as X,
+  om as Qo,
+  ot as xd,
+  pb as we,
+  pc as _s,
+  qb as V,
+  qc as tt,
+  qn as Vn,
+  rb as et,
+  rl as Il,
+  rn as Ql,
+  rp as Bi,
+  rr,
+  sb as $e,
+  sr as ht,
+  ss as ir,
+  st as Rd,
+  tb as no,
+  ua as Cn,
+  uk as ul,
+  va as Ee,
+  vb as ks,
+  vn as er,
+  wa as Te,
+  wb as fe,
+  wi as Ys,
+  wl as Cl,
+  wn as ki,
+  wr as ud,
+  wt as Nd,
+  xa as te,
+  xb as Go,
+  xn as Pn,
+  xo as rd,
+  xr as je,
+  ya as Ds,
+  yr as Ie,
+  za as bn,
+  zb as Fs,
+  zc as Xt,
+} from "chunk-NOSAYYBH.mjs";
+import { c as He } from "chunk-F44HGEZI.mjs";
+import { a as vc } from "chunk-K6L5GVTR.mjs";
+import { a as pn } from "chunk-4HRYW54D.mjs";
+import { v as Pc } from "chunk-2NB736XJ.mjs";
+import { a as Dr } from "chunk-7WJ42D6X.mjs";
+import { a as Od } from "chunk-MYL546Y2.mjs";
+import { f as ke } from "chunk-3AYSHUTT.mjs";
+import { a as sc } from "chunk-WOUQLJ5W.mjs";
+import { a as On } from "chunk-24G7FGVN.mjs";
+import { g as bl } from "chunk-NXOC42YT.mjs";
+import { b as Nn, c as Pl } from "chunk-PLQ4BOSL.mjs";
+import { ea as Xl, ha as _t } from "chunk-KU6N7BL4.mjs";
+import { c as Gs, e as Zt, g as xi } from "chunk-K3IJ2B65.mjs";
+import { b as wc, d as ia, e as aa } from "chunk-GBWZWM2Q.mjs";
+import { c as Al, d as nn } from "chunk-K6375COG.mjs";
+import { a as Hs } from "chunk-RNHTTH2C.mjs";
+import { a as ut } from "chunk-7BWPFUCH.mjs";
+import { b as Ws } from "chunk-YSP5ZHDJ.mjs";
+import { b as Ns } from "chunk-AUNF3KWQ.mjs";
+import { a as In } from "chunk-2FCXHKEL.mjs";
+import { i as Ps, l as P, p as B } from "chunk-5VQJ4RRO.mjs";
+import {
+  a as Yt,
+  b as T,
+  e as _,
+  f as se,
+  h as Ti,
+  k as $o,
+  n as A,
+  q as Ke,
+  t as Wo,
+} from "chunk-Y3GZLMBF.mjs";
+import { a as ws } from "chunk-SWYZG2NI.mjs";
+import { b as C, c as Y } from "chunk-4JY5UMT2.mjs";
+import { b as Si, l as vi, m as _e } from "chunk-I5EFRSXX.mjs";
+import { c as Rs } from "chunk-V23FJ5ZD.mjs";
+import { b as Je, i as K } from "chunk-WBI6GGAG.mjs";
+import { a as to } from "chunk-YRQ7G4QH.mjs";
+import {
+  e as At,
+  f as Ms,
+  g as xs,
+  h as Ue,
+  i as Qt,
+  j as Re,
+  k as ge,
+  l as Pe,
+  m as xt,
+  p as Zn,
+  q as eo,
+} from "chunk-WLHSDIGQ.mjs";
+function Sa({ identifier: n, file: e, error: t, custom: o }) {
+  let r = Nm(e);
+  return {
+    depth: n.startsWith(".") ? 0 : 1,
+    error: t,
+    file: e,
+    identifier: n,
+    name: r,
+    packageIdentifier: "<unknown>",
+    properties: {},
+    type: "component",
+    update: 0,
+    ...o,
+  };
+}
+function Nm(n) {
+  return n.startsWith("./") ? n.slice(2) : n;
+}
+var Mu = K("componentloader");
+function xu(n) {
+  return P(
+    re({
+      type: n.type,
+      name: n.name,
+      title: "title" in n ? n.title : void 0,
+      annotations: n.annotations,
+      properties: n.properties,
+      ...(lo(n) ? { outputs: n.outputs } : void 0),
+    })
+  );
+}
+var Ru = class {
+  environment = "editor";
+  activeBundleHash = void 0;
+  modulesRevision = -1;
+  entities = new Map();
+  definitionHashes = new Map();
+  readTrackers = new Set();
+  constructor(e) {
+    e &&
+      ((this.entities = new Map(e.entities)),
+      (this.definitionHashes = new Map(e.definitionHashes)),
+      (this.activeBundleHash = e.activeBundleHash),
+      (this.modulesRevision = e.modulesRevision));
+  }
+  localPackageIdentifier() {
+    return "|local|";
+  }
+  getAllEntities() {
+    return this.entities.values();
+  }
+  *getAllLocalModules() {
+    for (let e of this.entities.values()) e.packageIdentifier === "|local|" && (yield e);
+  }
+  setModuleRevision(e, t) {
+    ((this.activeBundleHash = `${e}_${t}`), (this.modulesRevision = e));
+  }
+  updateEntity(e, t) {
+    (Mu.trace("updateEntity:", e, t),
+      C(t.properties, () => `Entities must have properties: ${JSON.stringify(t)}`),
+      this.entities.set(e, t),
+      this.definitionHashes.set(e, xu(t)));
+  }
+  deleteEntity(e) {
+    (Mu.trace("deleteEntity:", e), this.entities.delete(e), this.definitionHashes.delete(e));
+  }
+  componentForIdentifier(e) {
+    for (let t of this.readTrackers) t.add(e);
+    return this.entities.get(e) ?? null;
+  }
+  getDefinitionHash(e) {
+    return this.definitionHashes.get(e) ?? 0;
+  }
+  trackEntityReads(e, t) {
+    this.readTrackers.add(e);
+    try {
+      return t();
+    } finally {
+      this.readTrackers.delete(e);
+    }
+  }
+  reactComponentForIdentifier(e) {
+    let t = this.componentForIdentifier(e);
+    return !t || !Gc(t) ? null : t;
+  }
+  shaderForIdentifier(e) {
+    let t = this.componentForIdentifier(e);
+    return !t || !Wc(t) ? null : t;
+  }
+  getPropertyControlsForIdentifier(e) {
+    return this.componentForIdentifier(e)?.properties ?? null;
+  }
+  hookForIdentifier(e) {
+    let t = this.componentForIdentifier(e);
+    return lo(t) ? t : null;
+  }
+  actionForIdentifier(e) {
+    let t = this.componentForIdentifier(e);
+    return !t || !jc(t) ? null : t;
+  }
+  dataForIdentifier(e) {
+    if (!e) return null;
+    let t = this.componentForIdentifier(e);
+    return !t || !ca(t) ? null : t;
+  }
+  getData() {
+    let e = [];
+    for (let t of this.entities.values()) ca(t) && e.push(t);
+    return e;
+  }
+  errorForIdentifier(e) {
+    let t = this.entities.get(e);
+    if (t) return cn(t) ? t : null;
+    let o = E(e);
+    if (!o)
+      return Sa({ identifier: e, file: e, error: "Components that are not modules do not exist." });
+    let r = Cn(o),
+      i = o.value === r,
+      a = this.entities.get(r);
+    if (cn(a)) return a;
+    if (Te(o) || i) {
+      let s = "Component does not exist.";
+      return (
+        Te(o) && o.type === "codeFile" && (s = "Component file does not exist."),
+        Sa({ identifier: e, file: o.value, error: s })
+      );
+    }
+    return null;
+  }
+  testing = {
+    setEntity: (e) => {
+      (this.entities.set(e.identifier, e),
+        this.definitionHashes.set(e.identifier, xu(e)),
+        (this.activeBundleHash = Math.random().toString(36).substring(2)));
+    },
+    clearEntities: () => {
+      (this.entities.clear(), this.definitionHashes.clear(), (this.activeBundleHash = void 0));
+    },
+  };
+};
+var Et = At(In(), 1),
+  Nu = "dismissedInstantNPMToast",
+  wu = "showedInstantNPMToast",
+  Du = "instant-npm-toast",
+  Ev = () => window.localStorage.getItem(wu) === "true",
+  Vu = () => window.localStorage.getItem(Nu) === "true";
+function wm() {
+  return (0, Et.jsxs)(Et.Fragment, {
+    children: [
+      (0, Et.jsx)(pn, { children: "Installed NPM library." }),
+      (0, Et.jsxs)("a", {
+        href: "https://www.framer.com/developers/#faq",
+        target: "_blank",
+        children: [" ", (0, Et.jsx)(pn, { children: "Learn more." })],
+      }),
+    ],
+  });
+}
+function Pu() {
+  (window.localStorage.setItem(wu, "true"),
+    He({
+      type: "add",
+      variant: "info",
+      text: (0, Et.jsx)(wm, {}),
+      key: Du,
+      duration: 1 / 0,
+      showCloseButton: "never",
+      action: { title: "Dismiss", onClick: () => window.localStorage.setItem(Nu, "true") },
+    }));
+}
+function zv() {
+  He({ type: "remove", key: Du });
+}
+function Eu(n) {
+  return Number.isFinite(n);
+}
+function zu() {}
+var vt = class {
+  #t;
+  #e = 0;
+  #n;
+  #o = !0;
+  #i;
+  #m = zu;
+  constructor({ delay: e, maxDelay: t, task: o, abortSignal: r }) {
+    ((this.#e = e),
+      (this.#n = t),
+      (this.#m = o),
+      r?.addEventListener(
+        "abort",
+        () => {
+          (this.#t && (clearTimeout(this.#t), (this.#t = void 0)),
+            (this.#i = void 0),
+            (this.#m = zu),
+            (this.#o = !1));
+        },
+        { once: !0 }
+      ));
+  }
+  set enabled(e) {
+    this.#o = e;
+  }
+  set delay(e) {
+    this.#e = e;
+  }
+  cancel() {
+    (this.#t && (clearTimeout(this.#t), (this.#t = void 0)), (this.#i = void 0));
+  }
+  debounce(e = this.#e) {
+    if (!this.#o) return;
+    (this.#t && clearTimeout(this.#t),
+      Eu(this.#n) && Eu(this.#i) && performance.now() - this.#i > this.#n
+        ? ((this.#t = void 0), (this.#i = void 0), this.#m())
+        : ((this.#t = window.setTimeout(() => {
+            ((this.#t = void 0), (this.#i = void 0), this.#m());
+          }, e)),
+          (this.#i = this.#i ?? performance.now())));
+  }
+};
+var Dm = { track: !0 };
+function ku(n) {
+  let e = { ...n, event: "external_component_insert" };
+  Ns(e, Dm);
+}
+var Vm = K("CodeGenerationStore"),
+  Pm = "transform",
+  Er = class {
+    constructor(e, t = () => !1) {
+      this.sourceNode = e;
+      this.isRecoveryBuild = t;
+    }
+    sourceNode;
+    isRecoveryBuild;
+    #t = [];
+    #e = void 0;
+    start(e) {
+      let t = performance.now();
+      return {
+        end: (o) => {
+          (this.#t.push([e, performance.now() - t]),
+            (this.#e = this.#e ?? o),
+            e === Pm && this.completeSession());
+        },
+      };
+    }
+    restartSession() {
+      ((this.#t = []), (this.#e = void 0));
+    }
+    completeSession() {
+      (this.#e?.forEach(({ type: e, source: t, artifacts: o }) => {
+        let r = Em(e, this.sourceNode);
+        if (!r) return;
+        let i = {
+          codeType: r,
+          durationMs: 0,
+          updateCount: 0,
+          updateDurationMs: 0,
+          serializationDurationMs: 0,
+          compilationDurationMs: 0,
+          synchronizationDurationMs: 0,
+          size: t.length,
+          id: this.sourceNode.id,
+          nodes: o?.metrics?.nodes ?? 1,
+          variants: o?.metrics?.variants ?? 0,
+          svgBytes: o?.metrics?.svgBytes,
+          textBytes: o?.metrics?.textBytes,
+          ...(this.isRecoveryBuild() ? { recovery: !0 } : {}),
+        };
+        for (let [s, l] of this.#t)
+          switch (((i.durationMs += l), s)) {
+            case "update":
+              (i.updateCount++, (i.updateDurationMs += l));
+              break;
+            case "serialize":
+              i.serializationDurationMs += l;
+              break;
+            case "transform":
+              i.compilationDurationMs += l;
+              break;
+            case "synchronize":
+              i.synchronizationDurationMs += l;
+              break;
+            default:
+              Y(s);
+          }
+        let a;
+        for (a in i) {
+          let s = i[a];
+          _(s) && (i[a] = Math.round(s));
+        }
+        (Vm.trace("Code Generation Metrics", i), ke("code_generation", i));
+      }),
+        this.restartSession());
+    }
+  };
+function Em(n, e) {
+  switch (n) {
+    case "canvasComponent":
+      return "smart_component";
+    case "css":
+      return "styles_preset";
+    case "collection":
+      return "collection";
+    case "draftCollection":
+      return "draft_collection";
+    case "componentPresets":
+      return "component_presets";
+    case "screen":
+      return V(e) ? "web_page" : "prototype_screen";
+    case "prototype":
+      return "prototype";
+    case "vector":
+      return "vector";
+    case "vectorSet":
+      return "vector_set";
+    case "snippets":
+      return "snippets";
+    case "codeFile":
+    case "config":
+    case "siteMetadata":
+    case "webPageMetadata":
+    case "layoutTemplate":
+    case "localization":
+    case "design":
+    case "shader":
+      return;
+    default:
+      Y(n);
+  }
+}
+var zm = K("jsdoc");
+function It(n, e = {}) {
+  let t = "/**";
+  n &&
+    (t += `
+ * ${n}`);
+  for (let o in e) {
+    let r = e[o];
+    if (!A(r) && km(o, r))
+      if (
+        ((t += `
+ * @${o}`),
+        T(r))
+      ) {
+        let i = r.trim();
+        i && (t += ` ${i}`);
+      } else (Yt(r) || _(r)) && (t += ` ${r}`);
+  }
+  return new L(
+    t +
+      `
+ */`
+  );
+}
+function km(n, e) {
+  return Yt(e) || _(e) || (T(e) && e.trim() !== "")
+    ? !0
+    : (zm.reportError(
+        new Error(
+          `Annotation ${n} must be a boolean, number, or non-empty string, but found "${e}" it will be omitted from the generated code. Use undefined if intentional.`
+        )
+      ),
+      !1);
+}
+function Fm(n, e) {
+  let t = {};
+  if (!e || En(n)) return t;
+  for (let o of n.cases)
+    for (let r of e) {
+      let i = o.nameLocalized;
+      if (!i) continue;
+      let a = i[r.id]?.value;
+      if (!T(a)) continue;
+      let s = t[o.id] ?? {};
+      ((t[o.id] = s), (s[r.id] = a));
+    }
+  return t;
+}
+function Fu(n, e, t) {
+  if (n.cases.length === 0) return m`(value) => value`;
+  let o = Fm(n, e),
+    r = m`value`,
+    i = m`locale`,
+    a = m`fallbackLocale`;
+  return new L(
+    $.lines(
+      m`(${r}, ${i}) => {`,
+      m`const ${a} = ${i}?.fallback;`,
+      m`switch (${r}) {`,
+      ...n.cases.map(({ id: s, name: l }) => {
+        let d = o[s];
+        return d
+          ? new L(
+              $.lines(
+                m`case ${s}:`,
+                m`switch (${i}?.id) {`,
+                ...Object.entries(d).map(([u, p]) => m`case ${u}: return ${p};`),
+                m`default:`,
+                m`if (${a}) return ${L.fn(t, r, a)};`,
+                m`return ${l};`,
+                m`}`
+              )
+            )
+          : m`case ${s}: return ${l};`;
+      }),
+      m`default: return "";`,
+      m`}`,
+      m`}`
+    )
+  );
+}
+var va = "framercms";
+function Bu(n, e, t) {
+  return `${n}-${e}.${t}`;
+}
+var zr = class {
+  constructor(e) {
+    this.componentSourceNodeId = e;
+  }
+  componentSourceNodeId;
+  assets = {};
+  create(e, t, o) {
+    let r = Bu(this.componentSourceNodeId, e, t);
+    return ((this.assets[r] = o), m`new URL(${`./${r}`}, import.meta.url).href`);
+  }
+};
+function ho(n) {
+  return `on${n}Change`;
+}
+function Au(n, e) {
+  let t =
+      n.itemVariables.length === 1 && n.itemVariables[0]?.type === "image"
+        ? n.itemVariables[0]
+        : void 0,
+    o = m`item`,
+    r = { id: m`typeof ${o}?.[${"id"}] === "string" ? ${o}[${"id"}] : undefined` };
+  for (let a of n.itemVariables) {
+    let s = Nn(a.name);
+    s ? (r[a.id] = m`${o}?.[${s}] ?? ${o}?.[${a.id}]`) : (r[a.id] = m`${o}?.[${a.id}]`);
+  }
+  let i = e.bindings.create("arrayFromHumanReadable" + n.id);
+  return (
+    e.declarations.file.create(
+      m.joinLines(
+        m`const ${i} = (value) => {${m.joinLines(m`if (!Array.isArray(value)) return`, m`return value.map(${o} => {${m.joinLines(t ? m`if (typeof ${o} === "string") return { [${t.id}]: ${o} }` : void 0, m`return ${r}`)}})`)}}`
+      )
+    ),
+    i
+  );
+}
+function Ou(n, e) {
+  let t = m`value`,
+    o = {};
+  for (let i of n.fieldVariables) {
+    let a = Nn(i.name);
+    a ? (o[i.id] = m`${t}[${a}] ?? ${t}[${i.id}]`) : (o[i.id] = m`${t}[${i.id}]`);
+  }
+  let r = e.bindings.create("objectFromHumanReadable" + n.id);
+  return (
+    e.declarations.file.create(
+      m.joinLines(
+        m`const ${r} = (${t}) => {${m.joinLines(m`if (typeof ${t} !== "object" || ${t} === null) return`, m`return ${o}`)}}`
+      )
+    ),
+    r
+  );
+}
+function Am(n) {
+  return [n[1], n[0]];
+}
+var Om = new Map(Object.entries(Se).map(Am));
+function Ct(n, e) {
+  let t = e.addImport("framer", { exportSpecifier: "ControlType" }),
+    o = Om.get(n),
+    r = new L(o);
+  return m`${t}.${r}`;
+}
+var Uu = {
+  boolean: "boolean",
+  number: "number",
+  dimension: "string",
+  string: "string",
+  richtext: "string",
+  fusednumber: "any",
+  enum: "string",
+  segmentedenum: "string",
+  color: "string",
+  image: "string",
+  responsiveimage: "{src: string; srcSet?: string; alt?: string}",
+  file: "string",
+  componentinstance: "any",
+  slot: "any",
+  array: "any[]",
+  eventhandler: "any",
+  changehandler: "(value: any) => void",
+  transition: "Record<string, any>",
+  link: "string",
+  linkrelvalues: "string[] | undefined",
+  pagescope: "string",
+  date: "string",
+  object: "Record<string, any>",
+  font: "Record<string, any> | undefined",
+  scrollsectionref: "React.MutableRefObject<HTMLElement>",
+  customcursor: "string",
+  border: "Record<string, any>",
+  cursor: "string",
+  boxshadow: "string",
+  gap: "string",
+  padding: "string",
+  borderradius: "string",
+  collectionreference: "string | undefined",
+  multicollectionreference: "string[] | undefined",
+  trackingid: "string | undefined",
+  vectorsetitem: "React.ComponentType<any> | undefined",
+  location: "Record<string, any>",
+};
+function Um(n, e) {
+  if (!n) return m`any`;
+  if (n.type === "motionvalue") {
+    let t = e.addImport("framer-motion", { exportSpecifier: "MotionValue" });
+    return m`${t}<${new L(Uu[n.valueType])}>`;
+  }
+  return new L(Uu[n.type]);
+}
+var $u = "variant";
+function _m(n) {
+  return !A(n?.defaultValue);
+}
+function $m(n, e, t) {
+  if (!ee(n)) return {};
+  C(n.isLoaded(), "Node must be loaded to generate controls");
+  let o = n.getTopLevelVariants();
+  if (o?.length < 2) return {};
+  let r = [],
+    i = [];
+  for (let a of o) {
+    let s = a.resolveValue("name") ?? ot(e, a);
+    (r.push(a.id), i.push(s));
+  }
+  return { [$u]: { type: Ct("enum", t), title: "Variant", options: r, optionTitles: i } };
+}
+function Wm(n, e, t, o) {
+  if (n.type === "responsiveimage" && Ui(n) && Oi(n.__vekterDefault)) {
+    let { assetReference: r, alt: i } = n.__vekterDefault,
+      a = t.assets?.resolveResponsiveImage(r, { focalPoint: n.__vekterDefault });
+    return (a && T(i) && (a.alt = i), a);
+  } else if (Ai(n))
+    switch (n.type) {
+      case "responsiveimage": {
+        let r = t.assets?.resolveResponsiveImage(n.__defaultAssetReference);
+        return r || void 0;
+      }
+      case "file": {
+        let r = t.assets?.resolve(n.__defaultAssetReference);
+        return r ? r.src : void 0;
+      }
+    }
+  else {
+    if (e?.type === "array")
+      return e.initialValue
+        ? e.initialValue.map((r) => {
+            let i = {};
+            if (!r || r.type !== "object" || !se(r.value)) return i;
+            for (let a of e.itemVariables) {
+              if (!Ie(a)) continue;
+              let s = r.value[a.id],
+                l = kr(s, t, o);
+              (A(l) && !_u(s) && (l = kr(md(e, a, o), t, o)), A(l) || (i[a.id] = l));
+            }
+            return i;
+          })
+        : [];
+    if (e?.type === "object") {
+      if (je(e, o)) return;
+      let r = {};
+      for (let i of e.fieldVariables) {
+        let a = e.initialValue[i.id],
+          s = kr(a, t, o);
+        if (A(s) && !_u(a)) {
+          let l = hd(i, o);
+          s = kr(l, t, o);
+        }
+        A(s) || (r[i.id] = s);
+      }
+      return r;
+    } else if (_m(n)) {
+      if (e && je(e, o)) return;
+      let r = n.defaultValue;
+      if (n.type === "vectorsetitem")
+        return (
+          C(Tc(r), "Vector set item must be a module export identifier"),
+          t.imports.addModuleImport(r.identifier)
+        );
+      if (n.type === "richtext" && T(r))
+        return sa(r, { collectors: t, useFramerMotion: o === "SmartComponent" });
+      if (n.type === "boxshadow" && nd(r))
+        return od(r, "emptyStringWhenEmpty", (i) => (Ko(i) ? Jo(i) : Ii.toFormatString(i)));
+      if (Qi(r)) return Ko(r) ? Jo(r) : r;
+    }
+  }
+}
+function kr(n, e, t) {
+  if (n && js(n.type))
+    switch (n.type) {
+      case "image": {
+        if (!T(n.value)) return;
+        let o = e.assets?.resolveResponsiveImage(n.value, { focalPoint: n });
+        return o ? ((o.alt = n.alt ?? ""), o) : void 0;
+      }
+      case "boolean":
+        return Yt(n.value) ? n.value : void 0;
+      case "number":
+        return _(n.value) ? n.value : void 0;
+      case "string":
+      case "date":
+        return T(n.value) ? n.value : void 0;
+      case "file":
+        return T(n.value) ? e.assets?.resolve(n.value)?.src : void 0;
+      case "richtext":
+        return !ve(n.value) || un(n.value)
+          ? void 0
+          : sa(n.value, { collectors: e, useFramerMotion: t === "SmartComponent" });
+      case "link":
+        return e.links?.create(Yo(n.value));
+      case "color":
+        return T(n.value) ? (Ko(n.value) ? Jo(n.value) : Ii.toFormatString(n.value)) : void 0;
+      case "vectorsetitem":
+        return !T(n.value) || !te(n.value) ? void 0 : e.imports.addModuleImport(n.value);
+      default:
+        Y(n.type);
+    }
+}
+function _u(n) {
+  return n?.type !== "richtext" ? !1 : ve(n.value) && un(n.value);
+}
+function Br(n, e) {
+  return m`${n}?: ${e};`;
+}
+var Wu = ["id", "width", "height"],
+  Gm = Object.fromEntries(
+    Wu.map((n) => {
+      let e = new L(n);
+      return [e, e];
+    })
+  );
+function jm(n, e) {
+  let t = new U(n);
+  return (U.addSpreadAtEnd(t, e), t);
+}
+var Gu = [
+  { name: b.style, type: m`Record<string, unknown>` },
+  { name: b.className, type: m`string` },
+  { name: b.layoutId, type: m`string | number` },
+];
+function qm(n, e) {
+  if (!ee(n) && !V(n) && !X(n) && !we(n)) return [];
+  let t = Gu.map(({ name: r, type: i }) => ({ key: J(r), type: Br(r, i) })),
+    o = J(b.variant);
+  return e && Xe(n)
+    ? t.concat([
+        {
+          key: o,
+          type: Br(b.variant, m`keyof typeof ${e}`),
+          value: m`${e}[props.${b.variant}] ?? props.${b.variant} ?? ${n.baseVariantId}`,
+        },
+      ])
+    : t.concat([{ key: o }]);
+}
+function Fr(n, e, t) {
+  let o = m`props.${new L(n)}`;
+  return (e && (o = m`${e} ?? ${o}`), A(t) || (o = m`${o} ?? ${t}`), o);
+}
+function ju(n, e, t) {
+  if (!V(n) || !dn(t, n)) return;
+  let r = n.getProvidedVariableMap(t, void 0, e, e.activeBundleHash);
+  if (!r) return;
+  let i = new Map();
+  for (let [a, s] of r) (V(n) && n.hasVariable(a)) || i.set(a, s);
+  if (i.size !== 0) return i;
+}
+var Hm = [...Hl, $u, ...Wu, ...Gu.map(({ name: n }) => n.toString()), "name"];
+function Jm(n, e, t, o, r) {
+  let i = new Set(Hm),
+    a = Object.entries(n).map(([y, { control: I, variable: x, binding: M }]) => {
+      if (!I) return { key: y, binding: M };
+      let R = Jl(Nn(I.title) ?? y, i),
+        N = new L(R),
+        w = Wm(I, x, t, o),
+        F = Br(N, Um(I, t.imports)),
+        D;
+      if (I.type === "enum" && I.options && I.optionTitles && N) {
+        let k = new U();
+        I.options.forEach((W, Z) => {
+          if (!T(W) || !I.optionTitles) return;
+          let he = I.optionTitles[Z];
+          T(he) && (k[he] = W);
+        });
+        let z = t.declarations.file.dedupe("humanReadableEnumMap", k);
+        ((F = Br(N, m`keyof typeof ${z}`)), (D = Fr(y, N, w)), (D = m`${z}[${N}] ?? ${D}`));
+      } else if (x?.type === "array") {
+        let k = Au(x, t),
+          z = L.fn(k, N);
+        D = Fr(y, z, w);
+      } else if (x?.type === "object") {
+        let k = Ou(x, t),
+          z = L.fn(k, N);
+        D = Fr(y, z, w);
+      } else D = Fr(y, N, w);
+      return { key: y, binding: M, name: R, type: F, value: D };
+    }),
+    s = "",
+    l = [],
+    d = [],
+    u = new U(),
+    p = ju(e, t.componentLoader, t.tree),
+    c = {},
+    f = { ...Gm },
+    g = qm(e, r);
+  for (let { key: y, binding: I, type: x, value: M, name: R } of [...g, ...a]) {
+    let N = p?.get(y),
+      w = I ?? new L(y);
+    if (N) {
+      let F = m`${w} = ${b.currentRouteData}[${N.id}]`;
+      if (hl(N.type)) {
+        let D = rr(N.type);
+        Qi(D) && (F = m`${F} ?? ${D}`);
+      }
+      l.push(F);
+    } else {
+      let F = t.variables.getSetterBinding(y);
+      if (F) {
+        let D = ho(y),
+          k = J(w),
+          z = t.bindings.create(`external${k}`),
+          W = t.bindings.create(`setExternal${k}`);
+        (l.push(m`${y}: ${z}`), l.push(m`${D}: ${W}`));
+        let Z = t.declarations.file.dedupe(
+          "useStateVariable",
+          m.joinLines(
+            m`(externalState, setExternalState) => {`,
+            m`    const [internalState, setInternalState] = React.useState(externalState)`,
+            m`    const [previousExternalState, setPreviousExternalState] = React.useState(externalState)`,
+            m`    if (setExternalState) {`,
+            m`        return [externalState, setExternalState]`,
+            m`    }`,
+            m`    if (externalState !== previousExternalState) {`,
+            m`        setInternalState(externalState)`,
+            m`        setPreviousExternalState(externalState)`,
+            m`    }`,
+            m`    return [internalState, setInternalState]`,
+            m`}`
+          )
+        );
+        d.push(m`const [${w}, ${F}] = ${L.fn(Z, z, W)}`);
+      } else J(w) !== y ? l.push(m`${y}: ${w}`) : l.push(w);
+    }
+    (x && (s += x), M && (u[y] = M), R && ((c[y] = R), (f[R] = new L(R))));
+  }
+  for (let { variable: y, binding: I } of Object.values(n))
+    if (!(y?.type !== "object" || !I))
+      for (let x of y.fieldVariables) {
+        let M = t.variables.getBinding(e.id, Nd(y.id, x.id));
+        M && d.push(m`const ${M} = ${I}?.[${x.id}]`);
+      }
+  (o === "LayoutTemplate" && l.push(b.children),
+    o === "DesignPage" && l.push(b.style),
+    U.addSpreadAtStart(u, b.props));
+  let h = t.declarations.file.dedupe("getProps", m`(${jm(f, b.props)}) => { return ${u} }`),
+    S = l.join(", "),
+    v = S.length > 0 ? new L(`{ ${S}, ...${b.restProps} }`) : b.restProps;
+  return {
+    variableMap: Ut(c) ? void 0 : c,
+    types: new L(s),
+    props: m.joinSections(m`const ${v} = ${L.fn(h, b.props)}`, ...d),
+  };
+}
+function Km(n, e) {
+  let t = [],
+    o = we(n),
+    r = qu(n),
+    i = e.variables.getBindings(n.id);
+  for (let s of r) {
+    if (!Ie(s)) continue;
+    let l = i.get(s.id) ?? Qm(s, n.id, e),
+      d = e.variables.getSetterBinding(s.id);
+    (!o && s.type !== "motionvalue" && !l && !d) || t.push({ id: s.id, binding: l, definition: s });
+  }
+  let a = ju(n, e.componentLoader, e.tree);
+  if (a)
+    for (let [s] of a) {
+      let l = i.get(s);
+      l && t.push({ id: s, binding: l });
+    }
+  return t;
+}
+function Qm(n, e, t) {
+  if (n.type === "object") {
+    for (let o of t.variables.getBindings(e).keys())
+      if (Rd(o, n.id)) return t.variables.create({ id: n.id, providerId: e });
+  }
+}
+function Ym(n, e) {
+  let { hidden: t, ...o } = n;
+  if (!e) return o;
+  let { description: r, ...i } = o;
+  return i;
+}
+function Xm(n, e, t, o, r, i, a, s, l) {
+  let { id: d, type: u } = e;
+  switch (u) {
+    case "controlReference": {
+      let p = E(gd(o, e.entityIdentifier));
+      if (!p || !e.entityIdentifier || !te(p)) return;
+      let c = r.addModuleImport(p, {
+        composeWithImports: [r.addImport("framer", { exportSpecifier: "getPropertyControls" })],
+      });
+      if (!c) return;
+      let f = new U({ hidden: m`undefined`, description: m`undefined` });
+      return (
+        U.addSpreadAtStart(f, m`${c}[${e.controlKey}]`),
+        T(t.title) && (f.title = t.title),
+        T(t.description) && (f.description = t.description),
+        ud(e, l) && (f.optional = je(e, l) ? !0 : m`undefined`),
+        t.type === "responsiveimage" &&
+          Ui(t) &&
+          Oi(t.__vekterDefault) &&
+          (f[sd] = L.fromValue(t.__vekterDefault)),
+        je(e, l)
+          ? (f.defaultValue = m`undefined`)
+          : Ai(t)
+            ? (f[ad] = L.fromValue(t.__defaultAssetReference))
+            : Wo(e.initialValue) || (f.defaultValue = L.fromValue(e.initialValue)),
+        m`${c}?.[${e.controlKey}] && ${f}`
+      );
+    }
+    case "nodePropertyControlReference":
+    case "array":
+    case "object":
+    case "vectorsetitem":
+    case "boolean":
+    case "color":
+    case "date":
+    case "enum":
+    case "eventhandler":
+    case "file":
+    case "image":
+    case "link":
+    case "linkrelvalues":
+    case "number":
+    case "motionvalue":
+    case "dimension":
+    case "richtext":
+    case "scrollsectionref":
+    case "customcursor":
+    case "cursor":
+    case "transition":
+    case "boxshadow":
+    case "string":
+    case "border":
+    case "borderradius":
+    case "gap":
+    case "padding":
+    case "collectionreference":
+    case "multicollectionreference":
+    case "trackingid":
+    case "location":
+    case "slug": {
+      let p = { ...Ym(t, a), type: Ct(t.type, r) };
+      if (
+        (s === "vector" && i && (p.hidden = !i.getBinding(n.id, d)),
+        t.type === "array" && t.control.type === "object")
+      ) {
+        let c = t.control.controls;
+        return { ...p, control: { ...t.control, controls: new U(c, 1) } };
+      }
+      if (t.type === "object") {
+        let c = t.controls;
+        return { ...p, controls: new U(c, 1) };
+      }
+      return p;
+    }
+    default:
+      Y(u);
+  }
+}
+function qu(n) {
+  return zn(n) ? n.variables : [];
+}
+function ba(n, e, t, o, r, i, a, s = qu(n)) {
+  let l = $m(n, e, o),
+    d = i === "canvasComponent",
+    u = ll(n),
+    p = [...s];
+  if (q(n)) {
+    let c = Md();
+    p.push(c);
+    let f = xd();
+    p.push(f);
+    let g = bd(n);
+    p.push(g);
+    let h = Ld(n);
+    p.push(h);
+  }
+  for (let c of p) {
+    if (!Ie(c)) continue;
+    let f = Wi(t, e, c, a);
+    if (Ke(f)) continue;
+    C(f.type !== "image", "Image variables should become responsive images");
+    let g = Xm(n, c, f, t, o, r, u, i, a);
+    if (A(g) || ((l[c.id] = g), !d) || !Cr(c)) continue;
+    let h = { type: "changehandler", changes: c.id };
+    l[ho(c.id)] = { ...h, type: Ct("changehandler", o) };
+  }
+  if (!Ut(l)) return new U(l, 1);
+}
+function Ar(n, e, t, o, r) {
+  let i = {},
+    a = [];
+  for (let { id: s, binding: l, definition: d } of Km(n, e)) {
+    if (d && V(n) && n.hasVariable(d.id)) continue;
+    if (d?.type === "motionvalue") {
+      a.push(d);
+      continue;
+    }
+    let p = d ? Wi(e.tree, e.componentLoader, d, t) : void 0;
+    ((i[s] = { control: p ?? void 0, variable: d, binding: l }), d && a.push(d));
+  }
+  return {
+    propertyControls: ba(n, e.componentLoader, e.tree, e.imports, e.variables, o, t, a),
+    ...Jm(i, n, e, t, r),
+  };
+}
+var Hu = At(ws(), 1);
+function ie(n, ...e) {
+  if (!n) throw Error("Assertion Error" + (e.length > 0 ? ": " + e.join(" ") : ""));
+}
+function go(n) {
+  throw new Error(`Unexpected value: ${n}`);
+}
+var Zm = At(In(), 1);
+function Ta(n, e, t) {
+  for (let [o, r] of Object.entries(e)) {
+    let i = n[o];
+    if (typeof r == "number") {
+      n[o] = t(r, i);
+      continue;
+    }
+    Ju(i, r, t);
+  }
+}
+function Ju(n, e, t) {
+  if (typeof e != "number") {
+    if (Array.isArray(e)) {
+      if (!Array.isArray(n)) return;
+      let [o] = e;
+      for (let r = 0; r < n.length; r++) {
+        let i = n[r];
+        typeof o == "number" ? (n[r] = t(o, i)) : Ju(i, o, t);
+      }
+      return;
+    }
+    n === null || typeof n != "object" || Array.isArray(n) || Ta(n, e, t);
+  }
+}
+var Ku = `// src/code-generation/components/cms/bundled/getRichTextJsonResolver.tsx?bundle
+import { AutoBreakpointVariant, ComponentPresetsConsumer, Link, motion } from "framer";
+
+// ../../library/src/router/lazy.tsx
+import { forwardRef, isValidElement, useEffect } from "react";
+
+// ../../library/src/utils/utils.ts
+var isWindow = typeof window !== "undefined";
+var supportsRequestIdleCallback = isWindow && typeof window.requestIdleCallback === "function";
+
+// ../../library/src/router/lazy.tsx
+var preloadKey = "preload";
+function isLazyComponentType(componentType) {
+  return typeof componentType === "object" && componentType !== null && !isValidElement(componentType) && preloadKey in componentType;
+}
+
+// src/code-generation/components/cms/bundled/getRichTextJsonResolver.tsx?bundle
+import { Fragment, createElement } from "react";
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+
+// src/code-generation/components/cms/bundled/getRichTextJsonResolver.tsx?bundle
+var RichTextJsonType = /* @__PURE__ */ ((RichTextJsonType2) => {
+  RichTextJsonType2[RichTextJsonType2["Fragment"] = 1] = "Fragment";
+  RichTextJsonType2[RichTextJsonType2["Link"] = 2] = "Link";
+  RichTextJsonType2[RichTextJsonType2["Module"] = 3] = "Module";
+  RichTextJsonType2[RichTextJsonType2["Tag"] = 4] = "Tag";
+  RichTextJsonType2[RichTextJsonType2["Text"] = 5] = "Text";
+  return RichTextJsonType2;
+})(RichTextJsonType || {});
+var RichTextJsonPropKind = /* @__PURE__ */ ((RichTextJsonPropKind2) => {
+  RichTextJsonPropKind2[RichTextJsonPropKind2["RichText"] = 1] = "RichText";
+  RichTextJsonPropKind2[RichTextJsonPropKind2["VectorSetItem"] = 2] = "VectorSetItem";
+  return RichTextJsonPropKind2;
+})(RichTextJsonPropKind || {});
+function mapRichTextJsonProps(props, schema, mapLeaf) {
+  for (const [key, entry] of Object.entries(schema)) {
+    const value = props[key];
+    if (typeof entry === "number") {
+      props[key] = mapLeaf(entry, value);
+      continue;
+    }
+    mapRichTextJsonPropValue(value, entry, mapLeaf);
+  }
+}
+function mapRichTextJsonPropValue(value, entry, mapLeaf) {
+  if (typeof entry === "number") return;
+  if (Array.isArray(entry)) {
+    if (!Array.isArray(value)) return;
+    const [itemEntry] = entry;
+    for (let index = 0; index < value.length; index++) {
+      const item = value[index];
+      if (typeof itemEntry === "number") {
+        value[index] = mapLeaf(itemEntry, item);
+      } else {
+        mapRichTextJsonPropValue(item, itemEntry, mapLeaf);
+      }
+    }
+    return;
+  }
+  if (value === null || typeof value !== "object" || Array.isArray(value)) return;
+  mapRichTextJsonProps(value, entry, mapLeaf);
+}
+function getRichTextJsonResolver(components) {
+  const cache = /* @__PURE__ */ new Map();
+  function deserializeChildren(children) {
+    return children.map(deserializeNode);
+  }
+  function deserializeNode(node) {
+    switch (node[0]) {
+      case 1 /* Fragment */: {
+        const [, ...children] = node;
+        const childNodes = deserializeChildren(children);
+        return createElement(Fragment, void 0, ...childNodes);
+      }
+      case 2 /* Link */: {
+        const [, props, ...children] = node;
+        const childNodes = deserializeChildren(children);
+        return createElement(Link, props, ...childNodes);
+      }
+      case 3 /* Module */: {
+        const [, identifier, props, schema] = node;
+        mapRichTextJsonProps(props, schema, (kind, value) => {
+          if (kind === 1 /* RichText */) {
+            return value ? deserializeNode(value) : value;
+          }
+          if (typeof value !== "string") return value;
+          const VectorSetItem = components[value];
+          if (!VectorSetItem) return value;
+          if (isLazyComponentType(VectorSetItem)) {
+            void VectorSetItem.preload();
+          }
+          return VectorSetItem;
+        });
+        const Component = components[identifier];
+        assert(Component, "Module not found");
+        if (isLazyComponentType(Component)) {
+          void Component.preload();
+        }
+        return <ComponentPresetsConsumer componentIdentifier={identifier}>
+						{(presetProps) => <AutoBreakpointVariant component={Component} props={{ ...presetProps, ...props }} />}
+					</ComponentPresetsConsumer>;
+      }
+      case 4 /* Tag */: {
+        const [, tag, props, ...children] = node;
+        const childNodes = deserializeChildren(children);
+        if (tag === "a") {
+          return createElement(motion.a, props, ...childNodes);
+        }
+        return createElement(tag, props, ...childNodes);
+      }
+      case 5 /* Text */: {
+        const [, text] = node;
+        return text;
+      }
+    }
+  }
+  return (pointer) => {
+    const cached = cache.get(pointer);
+    if (cached) return cached;
+    const json = JSON.parse(pointer);
+    const result = deserializeNode(json);
+    cache.set(pointer, result);
+    return result;
+  };
+}
+export {
+  RichTextJsonPropKind,
+  RichTextJsonType,
+  getRichTextJsonResolver,
+  mapRichTextJsonProps
+};
+`;
+var Or = class {
+  constructor(e, t, o, r, i, a, s, l, d) {
+    this.componentLoader = t;
+    this.tree = o;
+    this.imports = r;
+    this.submodules = i;
+    this.bindings = a;
+    this.declarations = s;
+    this.assets = l;
+    this.links = d;
+    this.resolveRichTextBinding = this.bindings.create("resolveRichText");
+    let u = this.tree.getScopeNodeFor(e);
+    ((this.options = { nodeId: e.id, scopeId: u?.id }),
+      (this.resolvers = Uc(this.assets, this.links, void 0, void 0)));
+  }
+  componentLoader;
+  tree;
+  imports;
+  submodules;
+  bindings;
+  declarations;
+  assets;
+  links;
+  cache = new Map();
+  components = {};
+  options;
+  resolvers;
+  serializers = {
+    fragment: (e) => [1, ...e],
+    link: (e, t) => [2, e, ...t],
+    module: (e, t, o, r) => {
+      if (!this.addModuleImport(e)) return;
+      let a = this.componentLoader.reactComponentForIdentifier(e);
+      C(a, "Component must exist for module");
+      let s = Bc(
+          this.tree,
+          this.componentLoader,
+          e,
+          t,
+          this.resolvers,
+          this.serializers,
+          this.options
+        ),
+        l = Qu(a.properties);
+      Ta(s, l, (c, f) => (c === 2 && T(f) && te(f) && this.addModuleImport(f), f));
+      let d = Ac(e, t),
+        u = Qs(o, r, d),
+        p = [3, e, s, l];
+      return [4, "div", u, p];
+    },
+    tag: (e, t, o) => [4, e, t, ...o],
+    text: (e) => [5, e],
+  };
+  resolveRichTextBinding;
+  addModuleImport(e) {
+    if (e in this.components) return !0;
+    let t = E(e),
+      o = this.imports.addModuleImport(t, { lazy: !0 });
+    return o ? ((this.components[e] = o), !0) : !1;
+  }
+  add(e) {
+    let t = eh(e),
+      o = this.cache.get(t);
+    if (o) return o;
+    let r = Oc(e, this.resolvers, this.serializers, this.options),
+      i = JSON.stringify(r);
+    return (this.cache.set(t, i), i);
+  }
+  serialize() {
+    let e = this.imports.addImport(this.submodules.create(Ku).submoduleImport, {
+        exportSpecifier: "getRichTextJsonResolver",
+      }),
+      t = this.declarations.dedupe("richTextComponents", this.components);
+    this.declarations.create(m`const ${this.resolveRichTextBinding} = ${L.fn(e, t)}`);
+  }
+};
+function Qu(n) {
+  let e = {};
+  for (let [t, o] of Object.entries(n)) {
+    let r = Yu(o);
+    r !== void 0 && (e[t] = r);
+  }
+  return e;
+}
+function Yu(n) {
+  switch (n.type) {
+    case "richtext":
+      return 1;
+    case "vectorsetitem":
+      return 2;
+    case "object": {
+      let e = Qu(n.controls);
+      return Object.keys(e).length > 0 ? e : void 0;
+    }
+    case "array": {
+      let e = Yu(n.control);
+      return e === void 0 ? void 0 : [e];
+    }
+    default:
+      return;
+  }
+}
+function eh(n) {
+  return typeof n == "string" ? `html:${n}` : `document:${JSON.stringify(n)}`;
+}
+var Ur = class {
+  values = new Map();
+  add(e) {
+    let t = this.values.get(e);
+    if (_(t)) return t;
+    let o = this.values.size;
+    return (this.values.set(e, o), o);
+  }
+  serialize(e, t, o) {
+    let r = [];
+    for (let [a, s] of this.values) {
+      let l = E(a),
+        { importSpecifier: d } = Kl(l, "collection", e, t);
+      (C(d, "Import specifier must be defined"), (r[s] = m`() => import(${d})`));
+    }
+    let i = o.dedupe("vectors", r);
+    return o.dedupe(
+      "resolveVectorSetItem",
+      m`(pointer: number) => {${m.joinLines(m`const vector = ${i}[pointer]`, m`if (vector) return vector().then(v => v.default)`)}}`
+    );
+  }
+};
+var Xu = `var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __commonJS = (cb, mod) => function __require() {
+  try {
+    return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  } catch (e) {
+    throw mod = 0, e;
+  }
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+
+// ../../../node_modules/dataloader/index.js
+var require_dataloader = __commonJS({
+  "../../../node_modules/dataloader/index.js"(exports, module) {
+    "use strict";
+    var DataLoader2 = /* @__PURE__ */ (function() {
+      function DataLoader3(batchLoadFn, options) {
+        if (typeof batchLoadFn !== "function") {
+          throw new TypeError("DataLoader must be constructed with a function which accepts " + ("Array<key> and returns Promise<Array<value>>, but got: " + batchLoadFn + "."));
+        }
+        this._batchLoadFn = batchLoadFn;
+        this._maxBatchSize = getValidMaxBatchSize(options);
+        this._batchScheduleFn = getValidBatchScheduleFn(options);
+        this._cacheKeyFn = getValidCacheKeyFn(options);
+        this._cacheMap = getValidCacheMap(options);
+        this._batch = null;
+        this.name = getValidName(options);
+      }
+      var _proto = DataLoader3.prototype;
+      _proto.load = function load(key) {
+        if (key === null || key === void 0) {
+          throw new TypeError("The loader.load() function must be called with a value, " + ("but got: " + String(key) + "."));
+        }
+        var batch = getCurrentBatch(this);
+        var cacheMap = this._cacheMap;
+        var cacheKey = this._cacheKeyFn(key);
+        if (cacheMap) {
+          var cachedPromise = cacheMap.get(cacheKey);
+          if (cachedPromise) {
+            var cacheHits = batch.cacheHits || (batch.cacheHits = []);
+            return new Promise(function(resolve) {
+              cacheHits.push(function() {
+                resolve(cachedPromise);
+              });
+            });
+          }
+        }
+        batch.keys.push(key);
+        var promise = new Promise(function(resolve, reject) {
+          batch.callbacks.push({
+            resolve,
+            reject
+          });
+        });
+        if (cacheMap) {
+          cacheMap.set(cacheKey, promise);
+        }
+        return promise;
+      };
+      _proto.loadMany = function loadMany(keys) {
+        if (!isArrayLike(keys)) {
+          throw new TypeError("The loader.loadMany() function must be called with Array<key> " + ("but got: " + keys + "."));
+        }
+        var loadPromises = [];
+        for (var i = 0; i < keys.length; i++) {
+          loadPromises.push(this.load(keys[i])["catch"](function(error) {
+            return error;
+          }));
+        }
+        return Promise.all(loadPromises);
+      };
+      _proto.clear = function clear(key) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          cacheMap["delete"](cacheKey);
+        }
+        return this;
+      };
+      _proto.clearAll = function clearAll() {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          cacheMap.clear();
+        }
+        return this;
+      };
+      _proto.prime = function prime(key, value) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          if (cacheMap.get(cacheKey) === void 0) {
+            var promise;
+            if (value instanceof Error) {
+              promise = Promise.reject(value);
+              promise["catch"](function() {
+              });
+            } else {
+              promise = Promise.resolve(value);
+            }
+            cacheMap.set(cacheKey, promise);
+          }
+        }
+        return this;
+      };
+      return DataLoader3;
+    })();
+    var enqueuePostPromiseJob = typeof process === "object" && typeof process.nextTick === "function" ? function(fn) {
+      if (!resolvedPromise) {
+        resolvedPromise = Promise.resolve();
+      }
+      resolvedPromise.then(function() {
+        process.nextTick(fn);
+      });
+    } : typeof setImmediate === "function" ? function(fn) {
+      setImmediate(fn);
+    } : function(fn) {
+      setTimeout(fn);
+    };
+    var resolvedPromise;
+    function getCurrentBatch(loader) {
+      var existingBatch = loader._batch;
+      if (existingBatch !== null && !existingBatch.hasDispatched && existingBatch.keys.length < loader._maxBatchSize) {
+        return existingBatch;
+      }
+      var newBatch = {
+        hasDispatched: false,
+        keys: [],
+        callbacks: []
+      };
+      loader._batch = newBatch;
+      loader._batchScheduleFn(function() {
+        dispatchBatch(loader, newBatch);
+      });
+      return newBatch;
+    }
+    function dispatchBatch(loader, batch) {
+      batch.hasDispatched = true;
+      if (batch.keys.length === 0) {
+        resolveCacheHits(batch);
+        return;
+      }
+      var batchPromise;
+      try {
+        batchPromise = loader._batchLoadFn(batch.keys);
+      } catch (e) {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function " + ("errored synchronously: " + String(e) + ".")));
+      }
+      if (!batchPromise || typeof batchPromise.then !== "function") {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise: " + String(batchPromise) + ".")));
+      }
+      batchPromise.then(function(values) {
+        if (!isArrayLike(values)) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise of an Array: " + String(values) + "."));
+        }
+        if (values.length !== batch.keys.length) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did not return a Promise of an Array of the same length as the Array of keys." + ("\\n\\nKeys:\\n" + String(batch.keys)) + ("\\n\\nValues:\\n" + String(values)));
+        }
+        resolveCacheHits(batch);
+        for (var i = 0; i < batch.callbacks.length; i++) {
+          var value = values[i];
+          if (value instanceof Error) {
+            batch.callbacks[i].reject(value);
+          } else {
+            batch.callbacks[i].resolve(value);
+          }
+        }
+      })["catch"](function(error) {
+        failedDispatch(loader, batch, error);
+      });
+    }
+    function failedDispatch(loader, batch, error) {
+      resolveCacheHits(batch);
+      for (var i = 0; i < batch.keys.length; i++) {
+        loader.clear(batch.keys[i]);
+        batch.callbacks[i].reject(error);
+      }
+    }
+    function resolveCacheHits(batch) {
+      if (batch.cacheHits) {
+        for (var i = 0; i < batch.cacheHits.length; i++) {
+          batch.cacheHits[i]();
+        }
+      }
+    }
+    function getValidMaxBatchSize(options) {
+      var shouldBatch = !options || options.batch !== false;
+      if (!shouldBatch) {
+        return 1;
+      }
+      var maxBatchSize = options && options.maxBatchSize;
+      if (maxBatchSize === void 0) {
+        return Infinity;
+      }
+      if (typeof maxBatchSize !== "number" || maxBatchSize < 1) {
+        throw new TypeError("maxBatchSize must be a positive number: " + maxBatchSize);
+      }
+      return maxBatchSize;
+    }
+    function getValidBatchScheduleFn(options) {
+      var batchScheduleFn = options && options.batchScheduleFn;
+      if (batchScheduleFn === void 0) {
+        return enqueuePostPromiseJob;
+      }
+      if (typeof batchScheduleFn !== "function") {
+        throw new TypeError("batchScheduleFn must be a function: " + batchScheduleFn);
+      }
+      return batchScheduleFn;
+    }
+    function getValidCacheKeyFn(options) {
+      var cacheKeyFn = options && options.cacheKeyFn;
+      if (cacheKeyFn === void 0) {
+        return function(key) {
+          return key;
+        };
+      }
+      if (typeof cacheKeyFn !== "function") {
+        throw new TypeError("cacheKeyFn must be a function: " + cacheKeyFn);
+      }
+      return cacheKeyFn;
+    }
+    function getValidCacheMap(options) {
+      var shouldCache = !options || options.cache !== false;
+      if (!shouldCache) {
+        return null;
+      }
+      var cacheMap = options && options.cacheMap;
+      if (cacheMap === void 0) {
+        return /* @__PURE__ */ new Map();
+      }
+      if (cacheMap !== null) {
+        var cacheFunctions = ["get", "set", "delete", "clear"];
+        var missingFunctions = cacheFunctions.filter(function(fnName) {
+          return cacheMap && typeof cacheMap[fnName] !== "function";
+        });
+        if (missingFunctions.length !== 0) {
+          throw new TypeError("Custom cacheMap missing methods: " + missingFunctions.join(", "));
+        }
+      }
+      return cacheMap;
+    }
+    function getValidName(options) {
+      if (options && options.name) {
+        return options.name;
+      }
+      return null;
+    }
+    function isArrayLike(x) {
+      return typeof x === "object" && x !== null && typeof x.length === "number" && (x.length === 0 || x.length > 0 && Object.prototype.hasOwnProperty.call(x, x.length - 1));
+    }
+    module.exports = DataLoader2;
+  }
+});
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.legacy.ts?bundle
+var import_dataloader = __toESM(require_dataloader(), 1);
+
+// src/code-generation/components/cms/bundled/BufferReader.ts
+var BYTE_LENGTH = {
+  Uint8: 1,
+  Uint16: 2,
+  Uint32: 4,
+  BigUint64: 8,
+  Int8: 1,
+  Int16: 2,
+  Int32: 4,
+  BigInt64: 8,
+  Float32: 4,
+  Float64: 8
+};
+var BufferReader = class _BufferReader {
+  constructor(bytes) {
+    this.bytes = bytes;
+    this.view = getDataView(this.bytes);
+  }
+  bytes;
+  // TextDecoder has no per-decode state unless streaming is enabled. Reusing one class-owned decoder
+  // avoids constructing one for every CMS item, where each item gets its own BufferReader.
+  static textDecoder = new TextDecoder();
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  view;
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    throw new Error("Reading out of bounds");
+  }
+  readUint8() {
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    const value = this.view.getUint8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint16() {
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    const value = this.view.getUint16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint32() {
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    const value = this.view.getUint32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint64() {
+    const bigint = this.readBigUint64();
+    return Number(bigint);
+  }
+  readBigUint64() {
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    const value = this.view.getBigUint64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt8() {
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    const value = this.view.getInt8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt16() {
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    const value = this.view.getInt16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt32() {
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    const value = this.view.getInt32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt64() {
+    const bigint = this.readBigInt64();
+    return Number(bigint);
+  }
+  readBigInt64() {
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    const value = this.view.getBigInt64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat32() {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    const value = this.view.getFloat32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat64() {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    const value = this.view.getFloat64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readBytes(length) {
+    const start = this.offset;
+    const end = start + length;
+    const value = this.bytes.subarray(start, end);
+    this.offset = end;
+    return value;
+  }
+  readString() {
+    const length = this.readUint32();
+    const bytes = this.readBytes(length);
+    return _BufferReader.textDecoder.decode(bytes);
+  }
+  readJson() {
+    const string = this.readString();
+    return JSON.parse(string);
+  }
+};
+function getDataView(bytes) {
+  return new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.legacy.ts
+import { ControlType as ControlType2 } from "framer";
+
+// ../../library/src/utils/utils.ts
+var isWindow = typeof window !== "undefined";
+var supportsRequestIdleCallback = isWindow && typeof window.requestIdleCallback === "function";
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+function assertNever(condition) {
+  throw new Error(\`Unexpected value: \${condition}\`);
+}
+
+// src/code-generation/components/cms/bundled/BufferWriter.ts
+var INITIAL_BUFFER_SIZE = 1024;
+var GROWTH_FACTOR = 1.5;
+var maxUnsignedNumber = (bits) => 2 ** bits - 1;
+var minSignedNumber = (bits) => -(2 ** (bits - 1));
+var maxSignedNumber = (bits) => 2 ** (bits - 1) - 1;
+var MIN_VALUE = {
+  Uint8: 0,
+  Uint16: 0,
+  Uint32: 0,
+  Uint64: 0,
+  BigUint64: 0,
+  Int8: minSignedNumber(8),
+  Int16: minSignedNumber(16),
+  Int32: minSignedNumber(32),
+  Int64: Number.MIN_SAFE_INTEGER,
+  BigInt64: -(BigInt(2) ** BigInt(63))
+};
+var MAX_VALUE = {
+  Uint8: maxUnsignedNumber(8),
+  Uint16: maxUnsignedNumber(16),
+  Uint32: maxUnsignedNumber(32),
+  Uint64: Number.MAX_SAFE_INTEGER,
+  BigUint64: BigInt(2) ** BigInt(64) - BigInt(1),
+  Int8: maxSignedNumber(8),
+  Int16: maxSignedNumber(16),
+  Int32: maxSignedNumber(32),
+  Int64: Number.MAX_SAFE_INTEGER,
+  BigInt64: BigInt(2) ** BigInt(63) - BigInt(1)
+};
+function assertRange(value, min, max, dataType) {
+  assert(value >= min, value, "outside lower bound for", dataType);
+  assert(value <= max, value, "outside upper bound for", dataType);
+}
+var BufferWriter = class {
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  bytes = new Uint8Array(INITIAL_BUFFER_SIZE);
+  view = getDataView(this.bytes);
+  slice(start = 0, end = this.offset) {
+    return this.bytes.slice(start, end);
+  }
+  subarray(start = 0, end = this.offset) {
+    return this.bytes.subarray(start, end);
+  }
+  encoder = new TextEncoder();
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    const newLength = Math.ceil(oldLength * GROWTH_FACTOR) + requiredBytes;
+    const newBytes = new Uint8Array(newLength);
+    newBytes.set(this.bytes);
+    this.bytes = newBytes;
+    this.view = getDataView(newBytes);
+  }
+  writeUint8(value) {
+    assertRange(value, MIN_VALUE.Uint8, MAX_VALUE.Uint8, "Uint8");
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    this.view.setUint8(this.offset, value);
+    this.offset += size;
+  }
+  writeUint16(value) {
+    assertRange(value, MIN_VALUE.Uint16, MAX_VALUE.Uint16, "Uint16");
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    this.view.setUint16(this.offset, value);
+    this.offset += size;
+  }
+  writeUint32(value) {
+    assertRange(value, MIN_VALUE.Uint32, MAX_VALUE.Uint32, "Uint32");
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    this.view.setUint32(this.offset, value);
+    this.offset += size;
+  }
+  writeUint64(value) {
+    assertRange(value, MIN_VALUE.Uint64, MAX_VALUE.Uint64, "Uint64");
+    const bigint = BigInt(value);
+    this.writeBigUint64(bigint);
+  }
+  writeBigUint64(value) {
+    assertRange(value, MIN_VALUE.BigUint64, MAX_VALUE.BigUint64, "BigUint64");
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    this.view.setBigUint64(this.offset, value);
+    this.offset += size;
+  }
+  writeInt8(value) {
+    assertRange(value, MIN_VALUE.Int8, MAX_VALUE.Int8, "Int8");
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    this.view.setInt8(this.offset, value);
+    this.offset += size;
+  }
+  writeInt16(value) {
+    assertRange(value, MIN_VALUE.Int16, MAX_VALUE.Int16, "Int16");
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    this.view.setInt16(this.offset, value);
+    this.offset += size;
+  }
+  writeInt32(value) {
+    assertRange(value, MIN_VALUE.Int32, MAX_VALUE.Int32, "Int32");
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    this.view.setInt32(this.offset, value);
+    this.offset += size;
+  }
+  writeInt64(value) {
+    assertRange(value, MIN_VALUE.Int64, MAX_VALUE.Int64, "Int64");
+    const bigint = BigInt(value);
+    this.writeBigInt64(bigint);
+  }
+  writeBigInt64(value) {
+    assertRange(value, MIN_VALUE.BigInt64, MAX_VALUE.BigInt64, "BigInt64");
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    this.view.setBigInt64(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat32(value) {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    this.view.setFloat32(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat64(value) {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    this.view.setFloat64(this.offset, value);
+    this.offset += size;
+  }
+  writeBytes(value) {
+    const size = value.length;
+    this.ensureLength(size);
+    this.bytes.set(value, this.offset);
+    this.offset += size;
+  }
+  encodedStrings = /* @__PURE__ */ new Map();
+  encodeString(value) {
+    const cached = this.encodedStrings.get(value);
+    if (cached) return cached;
+    const bytes = this.encoder.encode(value);
+    this.encodedStrings.set(value, bytes);
+    return bytes;
+  }
+  writeString(value) {
+    const bytes = this.encodeString(value);
+    const size = bytes.length;
+    this.writeUint32(size);
+    this.writeBytes(bytes);
+  }
+  writeJson(value) {
+    const json = JSON.stringify(value);
+    this.writeString(json);
+  }
+};
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+function isNull(value) {
+  return value === null;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemPointerModel.ts
+var DatabaseItemPointerModel = class _DatabaseItemPointerModel {
+  constructor(chunkId, offset, length) {
+    this.chunkId = chunkId;
+    this.offset = offset;
+    this.length = length;
+  }
+  chunkId;
+  offset;
+  length;
+  static fromString(value) {
+    const [chunkId, offset, length] = value.split("/").map(Number);
+    assert(isNumber(chunkId), "Invalid chunkId");
+    assert(isNumber(offset), "Invalid offset");
+    assert(isNumber(length), "Invalid length");
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  toString() {
+    return \`\${this.chunkId}/\${this.offset}/\${this.length}\`;
+  }
+  static read(reader) {
+    const chunkId = reader.readUint16();
+    const offset = reader.readUint32();
+    const length = reader.readUint32();
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  write(writer) {
+    writer.writeUint16(this.chunkId);
+    writer.writeUint32(this.offset);
+    writer.writeUint32(this.length);
+  }
+  compare(other) {
+    if (this.chunkId < other.chunkId) return -1;
+    if (this.chunkId > other.chunkId) return 1;
+    if (this.offset < other.offset) return -1;
+    if (this.offset > other.offset) return 1;
+    assert(this.length === other.length);
+    return 0;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseValueModel.ts
+function getValueType(value) {
+  if (isNull(value)) {
+    return 0 /* Null */;
+  }
+  switch (value.type) {
+    case "array" /* Array */:
+      return 1 /* Array */;
+    case "boolean" /* Boolean */:
+      return 2 /* Boolean */;
+    case "color" /* Color */:
+      return 3 /* Color */;
+    case "date" /* Date */:
+      return 4 /* Date */;
+    case "enum" /* Enum */:
+      return 5 /* Enum */;
+    case "file" /* File */:
+      return 6 /* File */;
+    case "responsiveimage" /* ResponsiveImage */:
+      return 10 /* ResponsiveImage */;
+    case "link" /* Link */:
+      return 7 /* Link */;
+    case "number" /* Number */:
+      return 8 /* Number */;
+    case "object" /* Object */:
+      return 9 /* Object */;
+    case "richtext" /* RichText */:
+      return 11 /* RichText */;
+    case "string" /* String */:
+      return 12 /* String */;
+    case "vectorsetitem" /* VectorSetItem */:
+      return 13 /* VectorSetItem */;
+    default:
+      assertNever(value);
+  }
+}
+var DatabaseValueModel;
+((DatabaseValueModel2) => {
+  function read(reader) {
+    const type = reader.readUint8();
+    switch (type) {
+      case 0 /* Null */:
+        return null;
+      case 1 /* Array */:
+        return readArray(reader);
+      case 2 /* Boolean */:
+        return readBoolean(reader);
+      case 3 /* Color */:
+        return readColor(reader);
+      case 4 /* Date */:
+        return readDate(reader);
+      case 5 /* Enum */:
+        return readEnum(reader);
+      case 6 /* File */:
+        return readFile(reader);
+      case 7 /* Link */:
+        return readLink(reader);
+      case 8 /* Number */:
+        return readNumber(reader);
+      case 9 /* Object */:
+        return readObject(reader);
+      case 10 /* ResponsiveImage */:
+        return readResponsiveImage(reader);
+      case 11 /* RichText */:
+        return readRichText(reader);
+      case 12 /* String */:
+        return readString(reader);
+      case 13 /* VectorSetItem */:
+        return readVectorSetItem(reader);
+      default:
+        assertNever(type);
+    }
+  }
+  DatabaseValueModel2.read = read;
+  function write(writer, value) {
+    const type = getValueType(value);
+    writer.writeUint8(type);
+    if (isNull(value)) return;
+    switch (value.type) {
+      case "array" /* Array */:
+        return writeArray(writer, value);
+      case "boolean" /* Boolean */:
+        return writeBoolean(writer, value);
+      case "color" /* Color */:
+        return writeColor(writer, value);
+      case "date" /* Date */:
+        return writeDate(writer, value);
+      case "enum" /* Enum */:
+        return writeEnum(writer, value);
+      case "file" /* File */:
+        return writeFile(writer, value);
+      case "link" /* Link */:
+        return writeLink(writer, value);
+      case "number" /* Number */:
+        return writeNumber(writer, value);
+      case "object" /* Object */:
+        return writeObject(writer, value);
+      case "responsiveimage" /* ResponsiveImage */:
+        return writeResponsiveImage(writer, value);
+      case "richtext" /* RichText */:
+        return writeRichText(writer, value);
+      case "vectorsetitem" /* VectorSetItem */:
+        return writeVectorSetItem(writer, value);
+      case "string" /* String */:
+        return writeString(writer, value);
+      default:
+        assertNever(value);
+    }
+  }
+  DatabaseValueModel2.write = write;
+  function compare(left, right, collation) {
+    const leftType = getValueType(left);
+    const rightType = getValueType(right);
+    if (leftType < rightType) return -1;
+    if (leftType > rightType) return 1;
+    if (isNull(left) || isNull(right)) return 0;
+    switch (left.type) {
+      case "array" /* Array */:
+        assert(right.type === "array" /* Array */);
+        return compareArray(left, right, collation);
+      case "boolean" /* Boolean */:
+        assert(right.type === "boolean" /* Boolean */);
+        return compareBoolean(left, right);
+      case "color" /* Color */:
+        assert(right.type === "color" /* Color */);
+        return compareColor(left, right);
+      case "date" /* Date */:
+        assert(right.type === "date" /* Date */);
+        return compareDate(left, right);
+      case "enum" /* Enum */:
+        assert(right.type === "enum" /* Enum */);
+        return compareEnum(left, right);
+      case "file" /* File */:
+        assert(right.type === "file" /* File */);
+        return compareFile(left, right);
+      case "link" /* Link */:
+        assert(right.type === "link" /* Link */);
+        return compareLink(left, right);
+      case "number" /* Number */:
+        assert(right.type === "number" /* Number */);
+        return compareNumber(left, right);
+      case "object" /* Object */:
+        assert(right.type === "object" /* Object */);
+        return compareObject(left, right, collation);
+      case "responsiveimage" /* ResponsiveImage */:
+        assert(right.type === "responsiveimage" /* ResponsiveImage */);
+        return compareResponsiveImage(left, right);
+      case "richtext" /* RichText */:
+        assert(right.type === "richtext" /* RichText */);
+        return compareRichText(left, right);
+      case "vectorsetitem" /* VectorSetItem */:
+        assert(right.type === "vectorsetitem" /* VectorSetItem */);
+        return compareVectorSetItem(left, right);
+      case "string" /* String */:
+        assert(right.type === "string" /* String */);
+        return compareString(left, right, collation);
+      default:
+        assertNever(left);
+    }
+  }
+  DatabaseValueModel2.compare = compare;
+})(DatabaseValueModel || (DatabaseValueModel = {}));
+function readArray(reader) {
+  const length = reader.readUint16();
+  const value = [];
+  for (let i = 0; i < length; i++) {
+    const item = DatabaseValueModel.read(reader);
+    value.push(item);
+  }
+  return {
+    type: "array" /* Array */,
+    value
+  };
+}
+function writeArray(writer, value) {
+  writer.writeUint16(value.value.length);
+  for (const item of value.value) {
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareArray(left, right, collation) {
+  const leftLength = left.value.length;
+  const rightLength = right.value.length;
+  if (leftLength < rightLength) return -1;
+  if (leftLength > rightLength) return 1;
+  for (let i = 0; i < leftLength; i++) {
+    const leftItem = left.value[i];
+    const rightItem = right.value[i];
+    const result = DatabaseValueModel.compare(leftItem, rightItem, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readBoolean(reader) {
+  return {
+    type: "boolean" /* Boolean */,
+    value: reader.readUint8() !== 0
+  };
+}
+function writeBoolean(writer, value) {
+  writer.writeUint8(value.value ? 1 : 0);
+}
+function compareBoolean(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readColor(reader) {
+  return {
+    type: "color" /* Color */,
+    value: reader.readString()
+  };
+}
+function writeColor(writer, value) {
+  writer.writeString(value.value);
+}
+function compareColor(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readDate(reader) {
+  const timestamp = reader.readInt64();
+  const date = new Date(timestamp);
+  return {
+    type: "date" /* Date */,
+    value: date.toISOString()
+  };
+}
+function writeDate(writer, value) {
+  const date = new Date(value.value);
+  const timestamp = date.getTime();
+  writer.writeInt64(timestamp);
+}
+function compareDate(left, right) {
+  const leftDate = new Date(left.value);
+  const rightDate = new Date(right.value);
+  if (leftDate < rightDate) return -1;
+  if (leftDate > rightDate) return 1;
+  return 0;
+}
+function readEnum(reader) {
+  return {
+    type: "enum" /* Enum */,
+    value: reader.readString()
+  };
+}
+function writeEnum(writer, value) {
+  writer.writeString(value.value);
+}
+function compareEnum(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readFile(reader) {
+  return {
+    type: "file" /* File */,
+    value: reader.readString()
+  };
+}
+function writeFile(writer, value) {
+  writer.writeString(value.value);
+}
+function compareFile(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readLink(reader) {
+  return {
+    type: "link" /* Link */,
+    value: reader.readJson()
+  };
+}
+function writeLink(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareLink(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readNumber(reader) {
+  return {
+    type: "number" /* Number */,
+    value: reader.readFloat64()
+  };
+}
+function writeNumber(writer, value) {
+  writer.writeFloat64(value.value);
+}
+function compareNumber(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readObject(reader) {
+  const length = reader.readUint16();
+  const result = {};
+  for (let i = 0; i < length; i++) {
+    const key = reader.readString();
+    result[key] = DatabaseValueModel.read(reader);
+  }
+  return {
+    type: "object" /* Object */,
+    value: result
+  };
+}
+function writeObject(writer, value) {
+  const entries = Object.entries(value.value);
+  writer.writeUint16(entries.length);
+  for (const [key, item] of entries) {
+    writer.writeString(key);
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareObject(left, right, collation) {
+  const leftKeys = Object.keys(left.value).sort();
+  const rightKeys = Object.keys(right.value).sort();
+  if (leftKeys.length < rightKeys.length) return -1;
+  if (leftKeys.length > rightKeys.length) return 1;
+  for (let i = 0; i < leftKeys.length; i++) {
+    const leftKey = leftKeys[i];
+    const rightKey = rightKeys[i];
+    if (leftKey < rightKey) return -1;
+    if (leftKey > rightKey) return 1;
+    const leftValue = left.value[leftKey] ?? null;
+    const rightValue = right.value[rightKey] ?? null;
+    const result = DatabaseValueModel.compare(leftValue, rightValue, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readResponsiveImage(reader) {
+  return {
+    type: "responsiveimage" /* ResponsiveImage */,
+    value: reader.readJson()
+  };
+}
+function writeResponsiveImage(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareResponsiveImage(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readRichText(reader) {
+  const type = reader.readInt8();
+  if (type === 0) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readUint32()
+    };
+  }
+  if (type === 1) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readString()
+    };
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function writeRichText(writer, value) {
+  if (isNumber(value.value)) {
+    writer.writeInt8(0);
+    writer.writeUint32(value.value);
+    return;
+  }
+  if (isString(value.value)) {
+    writer.writeInt8(1);
+    writer.writeString(value.value);
+    return;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function compareRichText(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (isNumber(leftValue) && isNumber(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  if (isString(leftValue) && isString(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function readString(reader) {
+  return {
+    type: "string" /* String */,
+    value: reader.readString()
+  };
+}
+function writeString(writer, value) {
+  writer.writeString(value.value);
+}
+function compareString(left, right, collation) {
+  let leftValue = left.value;
+  let rightValue = right.value;
+  if (collation.type === 0 /* CaseInsensitive */) {
+    leftValue = left.value.toLowerCase();
+    rightValue = right.value.toLowerCase();
+  }
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+function readVectorSetItem(reader) {
+  return {
+    type: "vectorsetitem" /* VectorSetItem */,
+    value: reader.readUint32()
+  };
+}
+function writeVectorSetItem(writer, value) {
+  writer.writeUint32(value.value);
+}
+function compareVectorSetItem(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseDictionaryIndexModel.ts
+var DatabaseDictionaryIndexModel = class _DatabaseDictionaryIndexModel {
+  constructor(fieldNames, options) {
+    this.fieldNames = fieldNames;
+    this.options = options;
+  }
+  fieldNames;
+  options;
+  entries = [];
+  sortEntries() {
+    this.entries.sort((left, right) => {
+      for (let i = 0; i < this.fieldNames.length; i++) {
+        const leftValue = left.values[i];
+        const rightValue = right.values[i];
+        const result = DatabaseValueModel.compare(leftValue, rightValue, this.options.collation);
+        if (result !== 0) return result;
+      }
+      return left.pointer.compare(right.pointer);
+    });
+  }
+  static async deserialize(bytes, yieldBeforeEntry) {
+    const reader = new BufferReader(bytes);
+    const collation = reader.readJson();
+    const fieldCount = reader.readUint8();
+    const fieldNames = [];
+    for (let i = 0; i < fieldCount; i++) {
+      const fieldName = reader.readString();
+      fieldNames.push(fieldName);
+    }
+    const index = new _DatabaseDictionaryIndexModel(fieldNames, {
+      collation
+    });
+    const entryCount = reader.readUint32();
+    const readEntry = () => {
+      const values = [];
+      for (let j = 0; j < fieldCount; j++) {
+        const fieldValue = DatabaseValueModel.read(reader);
+        values.push(fieldValue);
+      }
+      const pointer = DatabaseItemPointerModel.read(reader);
+      index.entries.push({ values, pointer });
+    };
+    for (let i = 0; i < entryCount; i++) {
+      const yieldPromise = yieldBeforeEntry?.();
+      if (yieldPromise) await yieldPromise;
+      readEntry();
+    }
+    return index;
+  }
+  serialize() {
+    const writer = new BufferWriter();
+    writer.writeJson(this.options.collation);
+    writer.writeUint8(this.fieldNames.length);
+    for (const fieldName of this.fieldNames) {
+      writer.writeString(fieldName);
+    }
+    this.sortEntries();
+    writer.writeUint32(this.entries.length);
+    for (const entry of this.entries) {
+      const { values, pointer } = entry;
+      for (const value of values) {
+        DatabaseValueModel.write(writer, value);
+      }
+      pointer.write(writer);
+    }
+    return writer.subarray();
+  }
+  addItem(item, pointer) {
+    const values = this.fieldNames.map((fieldName) => {
+      return item.getField(fieldName) ?? null;
+    });
+    this.entries.push({ values, pointer });
+  }
+};
+
+// src/code-generation/components/cms/bundled/fetchWithRetries.ts
+var maxRetries = 3;
+var baseDelay = 250;
+var retriableHTTPCodes = [
+  408,
+  // Request Timeout
+  429,
+  // Too Many Requests
+  500,
+  // Internal Server Error
+  502,
+  // Bad Gateway
+  503,
+  // Service Unavailable
+  504
+  // Gateway Timeout
+];
+var fetchWithRetries = async (input, init) => {
+  let retryCount = 0;
+  while (true) {
+    try {
+      const res = await fetch(input, init);
+      if (!retriableHTTPCodes.includes(res.status) || ++retryCount > maxRetries) {
+        return res;
+      }
+    } catch (error) {
+      if (init?.signal?.aborted || ++retryCount > maxRetries) {
+        throw error;
+      }
+    }
+    await retryDelay(retryCount);
+  }
+};
+async function retryDelay(retryCount) {
+  const backoffExponent = retryCount - 1;
+  const jitter = Math.random() + 1;
+  const timeout = Math.floor(baseDelay * jitter * 2 ** backoffExponent);
+  await new Promise((resolve) => {
+    setTimeout(resolve, timeout);
+  });
+}
+
+// src/code-generation/components/cms/bundled/rangeRequest.ts
+async function rangeRequest(url, ranges) {
+  const collapsedRanges = collapseRanges(ranges);
+  const rangeStrings = [];
+  let expectedLength = 0;
+  for (const range of collapsedRanges) {
+    rangeStrings.push(\`\${range.from}-\${range.to - 1}\`);
+    expectedLength += range.to - range.from;
+  }
+  const rangeUrl = new URL(url);
+  const rangeQuery = rangeStrings.join(",");
+  rangeUrl.searchParams.set("range", rangeQuery);
+  const response = await fetchWithRetries(rangeUrl);
+  if (response.status !== 200) {
+    throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+  }
+  const buffer = await response.arrayBuffer();
+  const bytes = new Uint8Array(buffer);
+  if (bytes.length !== expectedLength) {
+    throw new Error("Request failed: Unexpected response length");
+  }
+  const file = new PartialFile();
+  let start = 0;
+  for (const range of collapsedRanges) {
+    const length = range.to - range.from;
+    const end = start + length;
+    const part = bytes.subarray(start, end);
+    file.write(range.from, part);
+    start = end;
+  }
+  return ranges.map((range) => {
+    return file.read(range.from, range.to - range.from);
+  });
+}
+var PartialFile = class {
+  chunks = [];
+  read(position, length) {
+    for (const chunk of this.chunks) {
+      if (position < chunk.start) {
+        throw new Error("Missing data");
+      }
+      if (position > chunk.end) {
+        continue;
+      }
+      if (position + length > chunk.end) {
+        throw new Error("Missing data");
+      }
+      const from = position - chunk.start;
+      const to = from + length;
+      return chunk.data.slice(from, to);
+    }
+    throw new Error("Missing data");
+  }
+  write(position, data) {
+    let start = position;
+    let end = start + data.length;
+    let fromIndex = 0;
+    let toIndex = this.chunks.length;
+    for (; fromIndex < toIndex; fromIndex++) {
+      const chunk2 = this.chunks[fromIndex];
+      assert(chunk2, "Missing chunk");
+      if (start > chunk2.end) {
+        continue;
+      }
+      if (start > chunk2.start) {
+        const offset = start - chunk2.start;
+        const prefix = chunk2.data.subarray(0, offset);
+        data = join(prefix, data);
+        start = chunk2.start;
+      }
+      break;
+    }
+    for (; toIndex > fromIndex; toIndex--) {
+      const chunk2 = this.chunks[toIndex - 1];
+      assert(chunk2, "Missing chunk");
+      if (end < chunk2.start) {
+        continue;
+      }
+      if (end < chunk2.end) {
+        const offset = end - chunk2.start;
+        const suffix = chunk2.data.subarray(offset);
+        data = join(data, suffix);
+        end = chunk2.end;
+      }
+      break;
+    }
+    const chunk = {
+      start,
+      end,
+      data
+    };
+    const deleteCount = toIndex - fromIndex;
+    this.chunks.splice(fromIndex, deleteCount, chunk);
+  }
+};
+function join(left, right) {
+  const length = left.length + right.length;
+  const result = new Uint8Array(length);
+  result.set(left, 0);
+  result.set(right, left.length);
+  return result;
+}
+function collapseRanges(ranges) {
+  assert(ranges.length > 0, "Must have at least one range");
+  const sorted = [...ranges].sort((a, b) => a.from - b.from);
+  const collapsed = [];
+  for (const range of sorted) {
+    const index = collapsed.length - 1;
+    const previous = collapsed[index];
+    if (previous && range.from <= previous.to) {
+      collapsed[index] = {
+        from: previous.from,
+        to: Math.max(previous.to, range.to)
+      };
+    } else {
+      collapsed.push(range);
+    }
+  }
+  return collapsed;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.legacy.ts
+var DatabaseDictionaryIndex = class {
+  constructor(options) {
+    this.options = options;
+    const schema = {};
+    const fields = [];
+    for (const fieldName of this.options.fieldNames) {
+      const definition = this.options.collectionSchema[fieldName];
+      assert(definition, "Missing definition for field", fieldName);
+      schema[fieldName] = definition;
+      fields.push({ type: "Identifier", name: fieldName });
+    }
+    this.schema = schema;
+    this.fields = fields;
+    this.collation = this.options.collation;
+  }
+  options;
+  schema;
+  fields;
+  supportedLookupTypes = [
+    "All" /* All */,
+    "Equals" /* Equals */,
+    "NotEquals" /* NotEquals */,
+    "LessThan" /* LessThan */,
+    "GreaterThan" /* GreaterThan */,
+    "Contains" /* Contains */,
+    "StartsWith" /* StartsWith */,
+    "EndsWith" /* EndsWith */
+  ];
+  modelPromise;
+  model;
+  collation;
+  async loadModel() {
+    const [bytes] = await rangeRequest(this.options.url, [this.options.range]);
+    assert(bytes, "Failed to load model");
+    return DatabaseDictionaryIndexModel.deserialize(bytes);
+  }
+  async getModel() {
+    this.modelPromise ??= this.loadModel();
+    this.model ??= await this.modelPromise;
+    return this.model;
+  }
+  async lookupItems(queries) {
+    assert(queries.length === this.fields.length, "Invalid query length");
+    const model = await this.getModel();
+    const chunks = queries.reduce(
+      (memo, query, position) => memo.flatMap((entries) => {
+        switch (query.type) {
+          case "All" /* All */:
+            return [entries];
+          case "Equals" /* Equals */:
+            return this.queryEquals(entries, query, position);
+          case "NotEquals" /* NotEquals */:
+            return this.queryNotEquals(entries, query, position);
+          case "LessThan" /* LessThan */:
+            return this.queryLessThan(entries, query, position);
+          case "GreaterThan" /* GreaterThan */:
+            return this.queryGreaterThan(entries, query, position);
+          case "Contains" /* Contains */:
+            return this.queryContains(entries, query, position);
+          case "StartsWith" /* StartsWith */:
+            return this.queryStartsWith(entries, query, position);
+          case "EndsWith" /* EndsWith */:
+            return this.queryEndsWith(entries, query, position);
+          default:
+            assertNever(query);
+        }
+      }),
+      [model.entries]
+    );
+    const result = [];
+    for (const entries of chunks) {
+      for (const entry of entries) {
+        const data = {};
+        for (let i = 0; i < this.options.fieldNames.length; i++) {
+          const fieldName = this.options.fieldNames[i];
+          const fieldValue = entry.values[i];
+          data[fieldName] = fieldValue;
+        }
+        result.push({ pointer: entry.pointer.toString(), data });
+      }
+    }
+    return result;
+  }
+  queryEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(leftMost, rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryNotEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const result = [];
+    const before = entries.slice(0, leftMost);
+    if (before.length > 0) result.push(before);
+    const after = entries.slice(rightMost + 1);
+    if (after.length > 0) result.push(after);
+    return result;
+  }
+  queryLessThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const rightMost = this.getRightMost(entries, position, query.value);
+      const slice2 = entries.slice(0, rightMost + 1);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const slice = entries.slice(0, leftMost);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryGreaterThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const leftMost = this.getLeftMost(entries, position, query.value);
+      const slice2 = entries.slice(leftMost);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryContains(entries, query, position) {
+    return this.findItems(entries, position, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.includes(target);
+    });
+  }
+  queryStartsWith(entries, query, position) {
+    return this.findItems(entries, position, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.startsWith(target);
+    });
+  }
+  queryEndsWith(entries, query, position) {
+    return this.findItems(entries, position, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.endsWith(target);
+    });
+  }
+  /**
+   * Returns the index of the left most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *   Left most
+   *       \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the left most entry that is equal to the target.
+   */
+  getLeftMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) < 0) {
+        left = middle + 1;
+      } else {
+        right = middle;
+      }
+    }
+    return left;
+  }
+  /**
+   * Returns the index of the right most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *              Right most
+   *                   \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the right most entry that is equal to the target.
+   */
+  getRightMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) > 0) {
+        right = middle;
+      } else {
+        left = middle + 1;
+      }
+    }
+    return right - 1;
+  }
+  /**
+   * Finds all items that are matching the predicate and groups adjacent items together.
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param predicate The predicate to match the values against.
+   * @returns An array of chunks that match the predicate.
+   */
+  findItems(entries, position, predicate) {
+    const result = [];
+    let start = 0;
+    for (let i = 0; i < entries.length; i++) {
+      const entry = entries[i];
+      const value = entry.values[position];
+      const isMatching = predicate(value);
+      if (isMatching) continue;
+      if (start < i) {
+        const slice = entries.slice(start, i);
+        result.push(slice);
+      }
+      start = i + 1;
+    }
+    if (start < entries.length) {
+      const slice = entries.slice(start);
+      result.push(slice);
+    }
+    return result;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemModel.ts
+function readDatabaseItemData(reader) {
+  const data = {};
+  const fieldCount = reader.readUint16();
+  for (let i = 0; i < fieldCount; i++) {
+    const key = reader.readString();
+    data[key] = DatabaseValueModel.read(reader);
+  }
+  return data;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.legacy.ts?bundle
+var DatabaseChunk = class {
+  constructor(id, url) {
+    this.id = id;
+    this.url = url;
+  }
+  id;
+  url;
+  itemsPromise;
+  itemLoader = new import_dataloader.default(
+    async (pointers) => {
+      const ranges = pointers.map((pointer) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        return { from: pointerModel.offset, to: pointerModel.offset + pointerModel.length };
+      });
+      const rangeBytes = await rangeRequest(this.url, ranges);
+      return rangeBytes.map((bytes, index) => {
+        const reader = new BufferReader(bytes);
+        const data = readDatabaseItemData(reader);
+        const pointer = pointers[index];
+        assert(pointer, "Missing pointer");
+        return {
+          pointer,
+          data
+        };
+      });
+    },
+    { maxBatchSize: 250 }
+  );
+  scanItems() {
+    this.itemsPromise ??= fetchWithRetries(this.url).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+      }
+      const buffer = await response.arrayBuffer();
+      const bytes = new Uint8Array(buffer);
+      const reader = new BufferReader(bytes);
+      const items = [];
+      const itemCount = reader.readUint32();
+      for (let i = 0; i < itemCount; i++) {
+        const offset = reader.getOffset();
+        const data = readDatabaseItemData(reader);
+        const length = reader.getOffset() - offset;
+        const pointerModel = new DatabaseItemPointerModel(this.id, offset, length);
+        const pointer = pointerModel.toString();
+        const item = {
+          pointer,
+          data
+        };
+        this.itemLoader.prime(pointer, item);
+        items.push(item);
+      }
+      return items;
+    });
+    return this.itemsPromise;
+  }
+  resolveItem(pointer) {
+    return this.itemLoader.load(pointer);
+  }
+};
+var DatabaseCollection = class {
+  constructor(options) {
+    this.options = options;
+    this.chunks = this.options.chunks.map((url, id) => {
+      return new DatabaseChunk(id, url);
+    });
+    this.schema = options.schema;
+    this.indexes = options.indexes;
+    this.resolveRichText = options.resolveRichText;
+    this.resolveVectorSetItem = options.resolveVectorSetItem;
+    this.id = options.id;
+  }
+  options;
+  id;
+  schema;
+  indexes;
+  resolveRichText;
+  resolveVectorSetItem;
+  chunks;
+  async scanItems() {
+    const chunkedItems = await Promise.all(
+      this.chunks.map(async (chunk) => {
+        return chunk.scanItems();
+      })
+    );
+    return chunkedItems.flat();
+  }
+  resolveItems(pointers) {
+    return Promise.all(
+      pointers.map((pointer) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        const chunk = this.chunks[pointerModel.chunkId];
+        assert(chunk, "Missing chunk");
+        return chunk.resolveItem(pointer);
+      })
+    );
+  }
+  compareItems(left, right) {
+    const leftModel = DatabaseItemPointerModel.fromString(left.pointer);
+    const rightModel = DatabaseItemPointerModel.fromString(right.pointer);
+    return leftModel.compare(rightModel);
+  }
+  compareValues(left, right, collation) {
+    return DatabaseValueModel.compare(left, right, collation);
+  }
+};
+export {
+  DatabaseCollection,
+  DatabaseDictionaryIndex
+};
+`;
+var Zu = `var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __commonJS = (cb, mod) => function __require() {
+  try {
+    return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  } catch (e) {
+    throw mod = 0, e;
+  }
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+
+// ../../../node_modules/dataloader/index.js
+var require_dataloader = __commonJS({
+  "../../../node_modules/dataloader/index.js"(exports, module) {
+    "use strict";
+    var DataLoader2 = /* @__PURE__ */ (function() {
+      function DataLoader3(batchLoadFn, options) {
+        if (typeof batchLoadFn !== "function") {
+          throw new TypeError("DataLoader must be constructed with a function which accepts " + ("Array<key> and returns Promise<Array<value>>, but got: " + batchLoadFn + "."));
+        }
+        this._batchLoadFn = batchLoadFn;
+        this._maxBatchSize = getValidMaxBatchSize(options);
+        this._batchScheduleFn = getValidBatchScheduleFn(options);
+        this._cacheKeyFn = getValidCacheKeyFn(options);
+        this._cacheMap = getValidCacheMap(options);
+        this._batch = null;
+        this.name = getValidName(options);
+      }
+      var _proto = DataLoader3.prototype;
+      _proto.load = function load(key) {
+        if (key === null || key === void 0) {
+          throw new TypeError("The loader.load() function must be called with a value, " + ("but got: " + String(key) + "."));
+        }
+        var batch = getCurrentBatch(this);
+        var cacheMap = this._cacheMap;
+        var cacheKey = this._cacheKeyFn(key);
+        if (cacheMap) {
+          var cachedPromise = cacheMap.get(cacheKey);
+          if (cachedPromise) {
+            var cacheHits = batch.cacheHits || (batch.cacheHits = []);
+            return new Promise(function(resolve) {
+              cacheHits.push(function() {
+                resolve(cachedPromise);
+              });
+            });
+          }
+        }
+        batch.keys.push(key);
+        var promise = new Promise(function(resolve, reject) {
+          batch.callbacks.push({
+            resolve,
+            reject
+          });
+        });
+        if (cacheMap) {
+          cacheMap.set(cacheKey, promise);
+        }
+        return promise;
+      };
+      _proto.loadMany = function loadMany(keys) {
+        if (!isArrayLike(keys)) {
+          throw new TypeError("The loader.loadMany() function must be called with Array<key> " + ("but got: " + keys + "."));
+        }
+        var loadPromises = [];
+        for (var i = 0; i < keys.length; i++) {
+          loadPromises.push(this.load(keys[i])["catch"](function(error) {
+            return error;
+          }));
+        }
+        return Promise.all(loadPromises);
+      };
+      _proto.clear = function clear(key) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          cacheMap["delete"](cacheKey);
+        }
+        return this;
+      };
+      _proto.clearAll = function clearAll() {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          cacheMap.clear();
+        }
+        return this;
+      };
+      _proto.prime = function prime(key, value) {
+        var cacheMap = this._cacheMap;
+        if (cacheMap) {
+          var cacheKey = this._cacheKeyFn(key);
+          if (cacheMap.get(cacheKey) === void 0) {
+            var promise;
+            if (value instanceof Error) {
+              promise = Promise.reject(value);
+              promise["catch"](function() {
+              });
+            } else {
+              promise = Promise.resolve(value);
+            }
+            cacheMap.set(cacheKey, promise);
+          }
+        }
+        return this;
+      };
+      return DataLoader3;
+    })();
+    var enqueuePostPromiseJob = typeof process === "object" && typeof process.nextTick === "function" ? function(fn) {
+      if (!resolvedPromise) {
+        resolvedPromise = Promise.resolve();
+      }
+      resolvedPromise.then(function() {
+        process.nextTick(fn);
+      });
+    } : typeof setImmediate === "function" ? function(fn) {
+      setImmediate(fn);
+    } : function(fn) {
+      setTimeout(fn);
+    };
+    var resolvedPromise;
+    function getCurrentBatch(loader) {
+      var existingBatch = loader._batch;
+      if (existingBatch !== null && !existingBatch.hasDispatched && existingBatch.keys.length < loader._maxBatchSize) {
+        return existingBatch;
+      }
+      var newBatch = {
+        hasDispatched: false,
+        keys: [],
+        callbacks: []
+      };
+      loader._batch = newBatch;
+      loader._batchScheduleFn(function() {
+        dispatchBatch(loader, newBatch);
+      });
+      return newBatch;
+    }
+    function dispatchBatch(loader, batch) {
+      batch.hasDispatched = true;
+      if (batch.keys.length === 0) {
+        resolveCacheHits(batch);
+        return;
+      }
+      var batchPromise;
+      try {
+        batchPromise = loader._batchLoadFn(batch.keys);
+      } catch (e) {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function " + ("errored synchronously: " + String(e) + ".")));
+      }
+      if (!batchPromise || typeof batchPromise.then !== "function") {
+        return failedDispatch(loader, batch, new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise: " + String(batchPromise) + ".")));
+      }
+      batchPromise.then(function(values) {
+        if (!isArrayLike(values)) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did " + ("not return a Promise of an Array: " + String(values) + "."));
+        }
+        if (values.length !== batch.keys.length) {
+          throw new TypeError("DataLoader must be constructed with a function which accepts Array<key> and returns Promise<Array<value>>, but the function did not return a Promise of an Array of the same length as the Array of keys." + ("\\n\\nKeys:\\n" + String(batch.keys)) + ("\\n\\nValues:\\n" + String(values)));
+        }
+        resolveCacheHits(batch);
+        for (var i = 0; i < batch.callbacks.length; i++) {
+          var value = values[i];
+          if (value instanceof Error) {
+            batch.callbacks[i].reject(value);
+          } else {
+            batch.callbacks[i].resolve(value);
+          }
+        }
+      })["catch"](function(error) {
+        failedDispatch(loader, batch, error);
+      });
+    }
+    function failedDispatch(loader, batch, error) {
+      resolveCacheHits(batch);
+      for (var i = 0; i < batch.keys.length; i++) {
+        loader.clear(batch.keys[i]);
+        batch.callbacks[i].reject(error);
+      }
+    }
+    function resolveCacheHits(batch) {
+      if (batch.cacheHits) {
+        for (var i = 0; i < batch.cacheHits.length; i++) {
+          batch.cacheHits[i]();
+        }
+      }
+    }
+    function getValidMaxBatchSize(options) {
+      var shouldBatch = !options || options.batch !== false;
+      if (!shouldBatch) {
+        return 1;
+      }
+      var maxBatchSize = options && options.maxBatchSize;
+      if (maxBatchSize === void 0) {
+        return Infinity;
+      }
+      if (typeof maxBatchSize !== "number" || maxBatchSize < 1) {
+        throw new TypeError("maxBatchSize must be a positive number: " + maxBatchSize);
+      }
+      return maxBatchSize;
+    }
+    function getValidBatchScheduleFn(options) {
+      var batchScheduleFn = options && options.batchScheduleFn;
+      if (batchScheduleFn === void 0) {
+        return enqueuePostPromiseJob;
+      }
+      if (typeof batchScheduleFn !== "function") {
+        throw new TypeError("batchScheduleFn must be a function: " + batchScheduleFn);
+      }
+      return batchScheduleFn;
+    }
+    function getValidCacheKeyFn(options) {
+      var cacheKeyFn = options && options.cacheKeyFn;
+      if (cacheKeyFn === void 0) {
+        return function(key) {
+          return key;
+        };
+      }
+      if (typeof cacheKeyFn !== "function") {
+        throw new TypeError("cacheKeyFn must be a function: " + cacheKeyFn);
+      }
+      return cacheKeyFn;
+    }
+    function getValidCacheMap(options) {
+      var shouldCache = !options || options.cache !== false;
+      if (!shouldCache) {
+        return null;
+      }
+      var cacheMap = options && options.cacheMap;
+      if (cacheMap === void 0) {
+        return /* @__PURE__ */ new Map();
+      }
+      if (cacheMap !== null) {
+        var cacheFunctions = ["get", "set", "delete", "clear"];
+        var missingFunctions = cacheFunctions.filter(function(fnName) {
+          return cacheMap && typeof cacheMap[fnName] !== "function";
+        });
+        if (missingFunctions.length !== 0) {
+          throw new TypeError("Custom cacheMap missing methods: " + missingFunctions.join(", "));
+        }
+      }
+      return cacheMap;
+    }
+    function getValidName(options) {
+      if (options && options.name) {
+        return options.name;
+      }
+      return null;
+    }
+    function isArrayLike(x) {
+      return typeof x === "object" && x !== null && typeof x.length === "number" && (x.length === 0 || x.length > 0 && Object.prototype.hasOwnProperty.call(x, x.length - 1));
+    }
+    module.exports = DataLoader2;
+  }
+});
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.ts?bundle
+var import_dataloader = __toESM(require_dataloader(), 1);
+import { yieldToMain as yieldToMain2 } from "framer";
+
+// ../../shared/src/yield.ts
+function resolveSchedulerPriority(priority) {
+  return typeof priority === "function" ? priority() : priority;
+}
+var schedulerPriorityRank = /* @__PURE__ */ (() => ({
+  background: 0,
+  "user-visible": 1,
+  "user-blocking": 2
+}))();
+function isHigherSchedulerPriority(requested, current) {
+  return schedulerPriorityRank[requested] > schedulerPriorityRank[current];
+}
+
+// ../../library/src/utils/schedulerPriority.ts
+function getHighestSchedulerPriority(prioritySources) {
+  let highestPriority;
+  for (const source of prioritySources) {
+    const priority = resolveSchedulerPriority(source);
+    if (highestPriority === void 0 || isHigherSchedulerPriority(priority, highestPriority)) {
+      highestPriority = priority;
+    }
+    if (highestPriority === "user-blocking") return highestPriority;
+  }
+  return highestPriority;
+}
+
+// src/code-generation/components/cms/bundled/BufferReader.ts
+var BYTE_LENGTH = {
+  Uint8: 1,
+  Uint16: 2,
+  Uint32: 4,
+  BigUint64: 8,
+  Int8: 1,
+  Int16: 2,
+  Int32: 4,
+  BigInt64: 8,
+  Float32: 4,
+  Float64: 8
+};
+var BufferReader = class _BufferReader {
+  constructor(bytes) {
+    this.bytes = bytes;
+    this.view = getDataView(this.bytes);
+  }
+  bytes;
+  // TextDecoder has no per-decode state unless streaming is enabled. Reusing one class-owned decoder
+  // avoids constructing one for every CMS item, where each item gets its own BufferReader.
+  static textDecoder = new TextDecoder();
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  view;
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    throw new Error("Reading out of bounds");
+  }
+  readUint8() {
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    const value = this.view.getUint8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint16() {
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    const value = this.view.getUint16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint32() {
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    const value = this.view.getUint32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readUint64() {
+    const bigint = this.readBigUint64();
+    return Number(bigint);
+  }
+  readBigUint64() {
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    const value = this.view.getBigUint64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt8() {
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    const value = this.view.getInt8(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt16() {
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    const value = this.view.getInt16(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt32() {
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    const value = this.view.getInt32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readInt64() {
+    const bigint = this.readBigInt64();
+    return Number(bigint);
+  }
+  readBigInt64() {
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    const value = this.view.getBigInt64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat32() {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    const value = this.view.getFloat32(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readFloat64() {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    const value = this.view.getFloat64(this.offset);
+    this.offset += size;
+    return value;
+  }
+  readBytes(length) {
+    const start = this.offset;
+    const end = start + length;
+    const value = this.bytes.subarray(start, end);
+    this.offset = end;
+    return value;
+  }
+  readString() {
+    const length = this.readUint32();
+    const bytes = this.readBytes(length);
+    return _BufferReader.textDecoder.decode(bytes);
+  }
+  readJson() {
+    const string = this.readString();
+    return JSON.parse(string);
+  }
+};
+function getDataView(bytes) {
+  return new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.ts
+import { ControlType as ControlType2, yieldToMain } from "framer";
+
+// ../../library/src/utils/utils.ts
+var isWindow = typeof window !== "undefined";
+var supportsRequestIdleCallback = isWindow && typeof window.requestIdleCallback === "function";
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+function assertNever(condition) {
+  throw new Error(\`Unexpected value: \${condition}\`);
+}
+
+// src/code-generation/components/cms/bundled/BufferWriter.ts
+var INITIAL_BUFFER_SIZE = 1024;
+var GROWTH_FACTOR = 1.5;
+var maxUnsignedNumber = (bits) => 2 ** bits - 1;
+var minSignedNumber = (bits) => -(2 ** (bits - 1));
+var maxSignedNumber = (bits) => 2 ** (bits - 1) - 1;
+var MIN_VALUE = {
+  Uint8: 0,
+  Uint16: 0,
+  Uint32: 0,
+  Uint64: 0,
+  BigUint64: 0,
+  Int8: minSignedNumber(8),
+  Int16: minSignedNumber(16),
+  Int32: minSignedNumber(32),
+  Int64: Number.MIN_SAFE_INTEGER,
+  BigInt64: -(BigInt(2) ** BigInt(63))
+};
+var MAX_VALUE = {
+  Uint8: maxUnsignedNumber(8),
+  Uint16: maxUnsignedNumber(16),
+  Uint32: maxUnsignedNumber(32),
+  Uint64: Number.MAX_SAFE_INTEGER,
+  BigUint64: BigInt(2) ** BigInt(64) - BigInt(1),
+  Int8: maxSignedNumber(8),
+  Int16: maxSignedNumber(16),
+  Int32: maxSignedNumber(32),
+  Int64: Number.MAX_SAFE_INTEGER,
+  BigInt64: BigInt(2) ** BigInt(63) - BigInt(1)
+};
+function assertRange(value, min, max, dataType) {
+  assert(value >= min, value, "outside lower bound for", dataType);
+  assert(value <= max, value, "outside upper bound for", dataType);
+}
+var BufferWriter = class {
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  bytes = new Uint8Array(INITIAL_BUFFER_SIZE);
+  view = getDataView(this.bytes);
+  slice(start = 0, end = this.offset) {
+    return this.bytes.slice(start, end);
+  }
+  subarray(start = 0, end = this.offset) {
+    return this.bytes.subarray(start, end);
+  }
+  encoder = new TextEncoder();
+  ensureLength(requiredBytes) {
+    const oldLength = this.bytes.length;
+    if (this.offset + requiredBytes <= oldLength) return;
+    const newLength = Math.ceil(oldLength * GROWTH_FACTOR) + requiredBytes;
+    const newBytes = new Uint8Array(newLength);
+    newBytes.set(this.bytes);
+    this.bytes = newBytes;
+    this.view = getDataView(newBytes);
+  }
+  writeUint8(value) {
+    assertRange(value, MIN_VALUE.Uint8, MAX_VALUE.Uint8, "Uint8");
+    const size = BYTE_LENGTH.Uint8;
+    this.ensureLength(size);
+    this.view.setUint8(this.offset, value);
+    this.offset += size;
+  }
+  writeUint16(value) {
+    assertRange(value, MIN_VALUE.Uint16, MAX_VALUE.Uint16, "Uint16");
+    const size = BYTE_LENGTH.Uint16;
+    this.ensureLength(size);
+    this.view.setUint16(this.offset, value);
+    this.offset += size;
+  }
+  writeUint32(value) {
+    assertRange(value, MIN_VALUE.Uint32, MAX_VALUE.Uint32, "Uint32");
+    const size = BYTE_LENGTH.Uint32;
+    this.ensureLength(size);
+    this.view.setUint32(this.offset, value);
+    this.offset += size;
+  }
+  writeUint64(value) {
+    assertRange(value, MIN_VALUE.Uint64, MAX_VALUE.Uint64, "Uint64");
+    const bigint = BigInt(value);
+    this.writeBigUint64(bigint);
+  }
+  writeBigUint64(value) {
+    assertRange(value, MIN_VALUE.BigUint64, MAX_VALUE.BigUint64, "BigUint64");
+    const size = BYTE_LENGTH.BigUint64;
+    this.ensureLength(size);
+    this.view.setBigUint64(this.offset, value);
+    this.offset += size;
+  }
+  writeInt8(value) {
+    assertRange(value, MIN_VALUE.Int8, MAX_VALUE.Int8, "Int8");
+    const size = BYTE_LENGTH.Int8;
+    this.ensureLength(size);
+    this.view.setInt8(this.offset, value);
+    this.offset += size;
+  }
+  writeInt16(value) {
+    assertRange(value, MIN_VALUE.Int16, MAX_VALUE.Int16, "Int16");
+    const size = BYTE_LENGTH.Int16;
+    this.ensureLength(size);
+    this.view.setInt16(this.offset, value);
+    this.offset += size;
+  }
+  writeInt32(value) {
+    assertRange(value, MIN_VALUE.Int32, MAX_VALUE.Int32, "Int32");
+    const size = BYTE_LENGTH.Int32;
+    this.ensureLength(size);
+    this.view.setInt32(this.offset, value);
+    this.offset += size;
+  }
+  writeInt64(value) {
+    assertRange(value, MIN_VALUE.Int64, MAX_VALUE.Int64, "Int64");
+    const bigint = BigInt(value);
+    this.writeBigInt64(bigint);
+  }
+  writeBigInt64(value) {
+    assertRange(value, MIN_VALUE.BigInt64, MAX_VALUE.BigInt64, "BigInt64");
+    const size = BYTE_LENGTH.BigInt64;
+    this.ensureLength(size);
+    this.view.setBigInt64(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat32(value) {
+    const size = BYTE_LENGTH.Float32;
+    this.ensureLength(size);
+    this.view.setFloat32(this.offset, value);
+    this.offset += size;
+  }
+  writeFloat64(value) {
+    const size = BYTE_LENGTH.Float64;
+    this.ensureLength(size);
+    this.view.setFloat64(this.offset, value);
+    this.offset += size;
+  }
+  writeBytes(value) {
+    const size = value.length;
+    this.ensureLength(size);
+    this.bytes.set(value, this.offset);
+    this.offset += size;
+  }
+  encodedStrings = /* @__PURE__ */ new Map();
+  encodeString(value) {
+    const cached = this.encodedStrings.get(value);
+    if (cached) return cached;
+    const bytes = this.encoder.encode(value);
+    this.encodedStrings.set(value, bytes);
+    return bytes;
+  }
+  writeString(value) {
+    const bytes = this.encodeString(value);
+    const size = bytes.length;
+    this.writeUint32(size);
+    this.writeBytes(bytes);
+  }
+  writeJson(value) {
+    const json = JSON.stringify(value);
+    this.writeString(json);
+  }
+};
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+function isNull(value) {
+  return value === null;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemPointerModel.ts
+var DatabaseItemPointerModel = class _DatabaseItemPointerModel {
+  constructor(chunkId, offset, length) {
+    this.chunkId = chunkId;
+    this.offset = offset;
+    this.length = length;
+  }
+  chunkId;
+  offset;
+  length;
+  static fromString(value) {
+    const [chunkId, offset, length] = value.split("/").map(Number);
+    assert(isNumber(chunkId), "Invalid chunkId");
+    assert(isNumber(offset), "Invalid offset");
+    assert(isNumber(length), "Invalid length");
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  toString() {
+    return \`\${this.chunkId}/\${this.offset}/\${this.length}\`;
+  }
+  static read(reader) {
+    const chunkId = reader.readUint16();
+    const offset = reader.readUint32();
+    const length = reader.readUint32();
+    return new _DatabaseItemPointerModel(chunkId, offset, length);
+  }
+  write(writer) {
+    writer.writeUint16(this.chunkId);
+    writer.writeUint32(this.offset);
+    writer.writeUint32(this.length);
+  }
+  compare(other) {
+    if (this.chunkId < other.chunkId) return -1;
+    if (this.chunkId > other.chunkId) return 1;
+    if (this.offset < other.offset) return -1;
+    if (this.offset > other.offset) return 1;
+    assert(this.length === other.length);
+    return 0;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseValueModel.ts
+function getValueType(value) {
+  if (isNull(value)) {
+    return 0 /* Null */;
+  }
+  switch (value.type) {
+    case "array" /* Array */:
+      return 1 /* Array */;
+    case "boolean" /* Boolean */:
+      return 2 /* Boolean */;
+    case "color" /* Color */:
+      return 3 /* Color */;
+    case "date" /* Date */:
+      return 4 /* Date */;
+    case "enum" /* Enum */:
+      return 5 /* Enum */;
+    case "file" /* File */:
+      return 6 /* File */;
+    case "responsiveimage" /* ResponsiveImage */:
+      return 10 /* ResponsiveImage */;
+    case "link" /* Link */:
+      return 7 /* Link */;
+    case "number" /* Number */:
+      return 8 /* Number */;
+    case "object" /* Object */:
+      return 9 /* Object */;
+    case "richtext" /* RichText */:
+      return 11 /* RichText */;
+    case "string" /* String */:
+      return 12 /* String */;
+    case "vectorsetitem" /* VectorSetItem */:
+      return 13 /* VectorSetItem */;
+    default:
+      assertNever(value);
+  }
+}
+var DatabaseValueModel;
+((DatabaseValueModel2) => {
+  function read(reader) {
+    const type = reader.readUint8();
+    switch (type) {
+      case 0 /* Null */:
+        return null;
+      case 1 /* Array */:
+        return readArray(reader);
+      case 2 /* Boolean */:
+        return readBoolean(reader);
+      case 3 /* Color */:
+        return readColor(reader);
+      case 4 /* Date */:
+        return readDate(reader);
+      case 5 /* Enum */:
+        return readEnum(reader);
+      case 6 /* File */:
+        return readFile(reader);
+      case 7 /* Link */:
+        return readLink(reader);
+      case 8 /* Number */:
+        return readNumber(reader);
+      case 9 /* Object */:
+        return readObject(reader);
+      case 10 /* ResponsiveImage */:
+        return readResponsiveImage(reader);
+      case 11 /* RichText */:
+        return readRichText(reader);
+      case 12 /* String */:
+        return readString(reader);
+      case 13 /* VectorSetItem */:
+        return readVectorSetItem(reader);
+      default:
+        assertNever(type);
+    }
+  }
+  DatabaseValueModel2.read = read;
+  function write(writer, value) {
+    const type = getValueType(value);
+    writer.writeUint8(type);
+    if (isNull(value)) return;
+    switch (value.type) {
+      case "array" /* Array */:
+        return writeArray(writer, value);
+      case "boolean" /* Boolean */:
+        return writeBoolean(writer, value);
+      case "color" /* Color */:
+        return writeColor(writer, value);
+      case "date" /* Date */:
+        return writeDate(writer, value);
+      case "enum" /* Enum */:
+        return writeEnum(writer, value);
+      case "file" /* File */:
+        return writeFile(writer, value);
+      case "link" /* Link */:
+        return writeLink(writer, value);
+      case "number" /* Number */:
+        return writeNumber(writer, value);
+      case "object" /* Object */:
+        return writeObject(writer, value);
+      case "responsiveimage" /* ResponsiveImage */:
+        return writeResponsiveImage(writer, value);
+      case "richtext" /* RichText */:
+        return writeRichText(writer, value);
+      case "vectorsetitem" /* VectorSetItem */:
+        return writeVectorSetItem(writer, value);
+      case "string" /* String */:
+        return writeString(writer, value);
+      default:
+        assertNever(value);
+    }
+  }
+  DatabaseValueModel2.write = write;
+  function compare(left, right, collation) {
+    const leftType = getValueType(left);
+    const rightType = getValueType(right);
+    if (leftType < rightType) return -1;
+    if (leftType > rightType) return 1;
+    if (isNull(left) || isNull(right)) return 0;
+    switch (left.type) {
+      case "array" /* Array */:
+        assert(right.type === "array" /* Array */);
+        return compareArray(left, right, collation);
+      case "boolean" /* Boolean */:
+        assert(right.type === "boolean" /* Boolean */);
+        return compareBoolean(left, right);
+      case "color" /* Color */:
+        assert(right.type === "color" /* Color */);
+        return compareColor(left, right);
+      case "date" /* Date */:
+        assert(right.type === "date" /* Date */);
+        return compareDate(left, right);
+      case "enum" /* Enum */:
+        assert(right.type === "enum" /* Enum */);
+        return compareEnum(left, right);
+      case "file" /* File */:
+        assert(right.type === "file" /* File */);
+        return compareFile(left, right);
+      case "link" /* Link */:
+        assert(right.type === "link" /* Link */);
+        return compareLink(left, right);
+      case "number" /* Number */:
+        assert(right.type === "number" /* Number */);
+        return compareNumber(left, right);
+      case "object" /* Object */:
+        assert(right.type === "object" /* Object */);
+        return compareObject(left, right, collation);
+      case "responsiveimage" /* ResponsiveImage */:
+        assert(right.type === "responsiveimage" /* ResponsiveImage */);
+        return compareResponsiveImage(left, right);
+      case "richtext" /* RichText */:
+        assert(right.type === "richtext" /* RichText */);
+        return compareRichText(left, right);
+      case "vectorsetitem" /* VectorSetItem */:
+        assert(right.type === "vectorsetitem" /* VectorSetItem */);
+        return compareVectorSetItem(left, right);
+      case "string" /* String */:
+        assert(right.type === "string" /* String */);
+        return compareString(left, right, collation);
+      default:
+        assertNever(left);
+    }
+  }
+  DatabaseValueModel2.compare = compare;
+})(DatabaseValueModel || (DatabaseValueModel = {}));
+function readArray(reader) {
+  const length = reader.readUint16();
+  const value = [];
+  for (let i = 0; i < length; i++) {
+    const item = DatabaseValueModel.read(reader);
+    value.push(item);
+  }
+  return {
+    type: "array" /* Array */,
+    value
+  };
+}
+function writeArray(writer, value) {
+  writer.writeUint16(value.value.length);
+  for (const item of value.value) {
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareArray(left, right, collation) {
+  const leftLength = left.value.length;
+  const rightLength = right.value.length;
+  if (leftLength < rightLength) return -1;
+  if (leftLength > rightLength) return 1;
+  for (let i = 0; i < leftLength; i++) {
+    const leftItem = left.value[i];
+    const rightItem = right.value[i];
+    const result = DatabaseValueModel.compare(leftItem, rightItem, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readBoolean(reader) {
+  return {
+    type: "boolean" /* Boolean */,
+    value: reader.readUint8() !== 0
+  };
+}
+function writeBoolean(writer, value) {
+  writer.writeUint8(value.value ? 1 : 0);
+}
+function compareBoolean(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readColor(reader) {
+  return {
+    type: "color" /* Color */,
+    value: reader.readString()
+  };
+}
+function writeColor(writer, value) {
+  writer.writeString(value.value);
+}
+function compareColor(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readDate(reader) {
+  const timestamp = reader.readInt64();
+  const date = new Date(timestamp);
+  return {
+    type: "date" /* Date */,
+    value: date.toISOString()
+  };
+}
+function writeDate(writer, value) {
+  const date = new Date(value.value);
+  const timestamp = date.getTime();
+  writer.writeInt64(timestamp);
+}
+function compareDate(left, right) {
+  const leftDate = new Date(left.value);
+  const rightDate = new Date(right.value);
+  if (leftDate < rightDate) return -1;
+  if (leftDate > rightDate) return 1;
+  return 0;
+}
+function readEnum(reader) {
+  return {
+    type: "enum" /* Enum */,
+    value: reader.readString()
+  };
+}
+function writeEnum(writer, value) {
+  writer.writeString(value.value);
+}
+function compareEnum(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readFile(reader) {
+  return {
+    type: "file" /* File */,
+    value: reader.readString()
+  };
+}
+function writeFile(writer, value) {
+  writer.writeString(value.value);
+}
+function compareFile(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readLink(reader) {
+  return {
+    type: "link" /* Link */,
+    value: reader.readJson()
+  };
+}
+function writeLink(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareLink(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readNumber(reader) {
+  return {
+    type: "number" /* Number */,
+    value: reader.readFloat64()
+  };
+}
+function writeNumber(writer, value) {
+  writer.writeFloat64(value.value);
+}
+function compareNumber(left, right) {
+  if (left.value < right.value) return -1;
+  if (left.value > right.value) return 1;
+  return 0;
+}
+function readObject(reader) {
+  const length = reader.readUint16();
+  const result = {};
+  for (let i = 0; i < length; i++) {
+    const key = reader.readString();
+    result[key] = DatabaseValueModel.read(reader);
+  }
+  return {
+    type: "object" /* Object */,
+    value: result
+  };
+}
+function writeObject(writer, value) {
+  const entries = Object.entries(value.value);
+  writer.writeUint16(entries.length);
+  for (const [key, item] of entries) {
+    writer.writeString(key);
+    DatabaseValueModel.write(writer, item);
+  }
+}
+function compareObject(left, right, collation) {
+  const leftKeys = Object.keys(left.value).sort();
+  const rightKeys = Object.keys(right.value).sort();
+  if (leftKeys.length < rightKeys.length) return -1;
+  if (leftKeys.length > rightKeys.length) return 1;
+  for (let i = 0; i < leftKeys.length; i++) {
+    const leftKey = leftKeys[i];
+    const rightKey = rightKeys[i];
+    if (leftKey < rightKey) return -1;
+    if (leftKey > rightKey) return 1;
+    const leftValue = left.value[leftKey] ?? null;
+    const rightValue = right.value[rightKey] ?? null;
+    const result = DatabaseValueModel.compare(leftValue, rightValue, collation);
+    if (result !== 0) return result;
+  }
+  return 0;
+}
+function readResponsiveImage(reader) {
+  return {
+    type: "responsiveimage" /* ResponsiveImage */,
+    value: reader.readJson()
+  };
+}
+function writeResponsiveImage(writer, value) {
+  writer.writeJson(value.value);
+}
+function compareResponsiveImage(left, right) {
+  const leftEncoded = JSON.stringify(left.value);
+  const rightEncoded = JSON.stringify(right.value);
+  if (leftEncoded < rightEncoded) return -1;
+  if (leftEncoded > rightEncoded) return 1;
+  return 0;
+}
+function readRichText(reader) {
+  const type = reader.readInt8();
+  if (type === 0) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readUint32()
+    };
+  }
+  if (type === 1) {
+    return {
+      type: "richtext" /* RichText */,
+      value: reader.readString()
+    };
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function writeRichText(writer, value) {
+  if (isNumber(value.value)) {
+    writer.writeInt8(0);
+    writer.writeUint32(value.value);
+    return;
+  }
+  if (isString(value.value)) {
+    writer.writeInt8(1);
+    writer.writeString(value.value);
+    return;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function compareRichText(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (isNumber(leftValue) && isNumber(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  if (isString(leftValue) && isString(rightValue)) {
+    if (leftValue < rightValue) return -1;
+    if (leftValue > rightValue) return 1;
+    return 0;
+  }
+  throw new Error(\`Invalid rich text pointer\`);
+}
+function readString(reader) {
+  return {
+    type: "string" /* String */,
+    value: reader.readString()
+  };
+}
+function writeString(writer, value) {
+  writer.writeString(value.value);
+}
+function compareString(left, right, collation) {
+  let leftValue = left.value;
+  let rightValue = right.value;
+  if (collation.type === 0 /* CaseInsensitive */) {
+    leftValue = left.value.toLowerCase();
+    rightValue = right.value.toLowerCase();
+  }
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+function readVectorSetItem(reader) {
+  return {
+    type: "vectorsetitem" /* VectorSetItem */,
+    value: reader.readUint32()
+  };
+}
+function writeVectorSetItem(writer, value) {
+  writer.writeUint32(value.value);
+}
+function compareVectorSetItem(left, right) {
+  const leftValue = left.value;
+  const rightValue = right.value;
+  if (leftValue < rightValue) return -1;
+  if (leftValue > rightValue) return 1;
+  return 0;
+}
+
+// src/code-generation/components/cms/bundled/models/DatabaseDictionaryIndexModel.ts
+var DatabaseDictionaryIndexModel = class _DatabaseDictionaryIndexModel {
+  constructor(fieldNames, options) {
+    this.fieldNames = fieldNames;
+    this.options = options;
+  }
+  fieldNames;
+  options;
+  entries = [];
+  sortEntries() {
+    this.entries.sort((left, right) => {
+      for (let i = 0; i < this.fieldNames.length; i++) {
+        const leftValue = left.values[i];
+        const rightValue = right.values[i];
+        const result = DatabaseValueModel.compare(leftValue, rightValue, this.options.collation);
+        if (result !== 0) return result;
+      }
+      return left.pointer.compare(right.pointer);
+    });
+  }
+  static async deserialize(bytes, yieldBeforeEntry) {
+    const reader = new BufferReader(bytes);
+    const collation = reader.readJson();
+    const fieldCount = reader.readUint8();
+    const fieldNames = [];
+    for (let i = 0; i < fieldCount; i++) {
+      const fieldName = reader.readString();
+      fieldNames.push(fieldName);
+    }
+    const index = new _DatabaseDictionaryIndexModel(fieldNames, {
+      collation
+    });
+    const entryCount = reader.readUint32();
+    const readEntry = () => {
+      const values = [];
+      for (let j = 0; j < fieldCount; j++) {
+        const fieldValue = DatabaseValueModel.read(reader);
+        values.push(fieldValue);
+      }
+      const pointer = DatabaseItemPointerModel.read(reader);
+      index.entries.push({ values, pointer });
+    };
+    for (let i = 0; i < entryCount; i++) {
+      const yieldPromise = yieldBeforeEntry?.();
+      if (yieldPromise) await yieldPromise;
+      readEntry();
+    }
+    return index;
+  }
+  serialize() {
+    const writer = new BufferWriter();
+    writer.writeJson(this.options.collation);
+    writer.writeUint8(this.fieldNames.length);
+    for (const fieldName of this.fieldNames) {
+      writer.writeString(fieldName);
+    }
+    this.sortEntries();
+    writer.writeUint32(this.entries.length);
+    for (const entry of this.entries) {
+      const { values, pointer } = entry;
+      for (const value of values) {
+        DatabaseValueModel.write(writer, value);
+      }
+      pointer.write(writer);
+    }
+    return writer.subarray();
+  }
+  addItem(item, pointer) {
+    const values = this.fieldNames.map((fieldName) => {
+      return item.getField(fieldName) ?? null;
+    });
+    this.entries.push({ values, pointer });
+  }
+};
+
+// src/code-generation/components/cms/bundled/fetchWithRetries.ts
+var maxRetries = 3;
+var baseDelay = 250;
+var retriableHTTPCodes = [
+  408,
+  // Request Timeout
+  429,
+  // Too Many Requests
+  500,
+  // Internal Server Error
+  502,
+  // Bad Gateway
+  503,
+  // Service Unavailable
+  504
+  // Gateway Timeout
+];
+var fetchWithRetries = async (input, init) => {
+  let retryCount = 0;
+  while (true) {
+    try {
+      const res = await fetch(input, init);
+      if (!retriableHTTPCodes.includes(res.status) || ++retryCount > maxRetries) {
+        return res;
+      }
+    } catch (error) {
+      if (init?.signal?.aborted || ++retryCount > maxRetries) {
+        throw error;
+      }
+    }
+    await retryDelay(retryCount);
+  }
+};
+async function retryDelay(retryCount) {
+  const backoffExponent = retryCount - 1;
+  const jitter = Math.random() + 1;
+  const timeout = Math.floor(baseDelay * jitter * 2 ** backoffExponent);
+  await new Promise((resolve) => {
+    setTimeout(resolve, timeout);
+  });
+}
+
+// src/code-generation/components/cms/bundled/rangeRequest.ts
+async function rangeRequest(url, ranges) {
+  const collapsedRanges = collapseRanges(ranges);
+  const rangeStrings = [];
+  let expectedLength = 0;
+  for (const range of collapsedRanges) {
+    rangeStrings.push(\`\${range.from}-\${range.to - 1}\`);
+    expectedLength += range.to - range.from;
+  }
+  const rangeUrl = new URL(url);
+  const rangeQuery = rangeStrings.join(",");
+  rangeUrl.searchParams.set("range", rangeQuery);
+  const response = await fetchWithRetries(rangeUrl);
+  if (response.status !== 200) {
+    throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+  }
+  const buffer = await response.arrayBuffer();
+  const bytes = new Uint8Array(buffer);
+  if (bytes.length !== expectedLength) {
+    throw new Error("Request failed: Unexpected response length");
+  }
+  const file = new PartialFile();
+  let start = 0;
+  for (const range of collapsedRanges) {
+    const length = range.to - range.from;
+    const end = start + length;
+    const part = bytes.subarray(start, end);
+    file.write(range.from, part);
+    start = end;
+  }
+  return ranges.map((range) => {
+    return file.read(range.from, range.to - range.from);
+  });
+}
+var PartialFile = class {
+  chunks = [];
+  read(position, length) {
+    for (const chunk of this.chunks) {
+      if (position < chunk.start) {
+        throw new Error("Missing data");
+      }
+      if (position > chunk.end) {
+        continue;
+      }
+      if (position + length > chunk.end) {
+        throw new Error("Missing data");
+      }
+      const from = position - chunk.start;
+      const to = from + length;
+      return chunk.data.slice(from, to);
+    }
+    throw new Error("Missing data");
+  }
+  write(position, data) {
+    let start = position;
+    let end = start + data.length;
+    let fromIndex = 0;
+    let toIndex = this.chunks.length;
+    for (; fromIndex < toIndex; fromIndex++) {
+      const chunk2 = this.chunks[fromIndex];
+      assert(chunk2, "Missing chunk");
+      if (start > chunk2.end) {
+        continue;
+      }
+      if (start > chunk2.start) {
+        const offset = start - chunk2.start;
+        const prefix = chunk2.data.subarray(0, offset);
+        data = join(prefix, data);
+        start = chunk2.start;
+      }
+      break;
+    }
+    for (; toIndex > fromIndex; toIndex--) {
+      const chunk2 = this.chunks[toIndex - 1];
+      assert(chunk2, "Missing chunk");
+      if (end < chunk2.start) {
+        continue;
+      }
+      if (end < chunk2.end) {
+        const offset = end - chunk2.start;
+        const suffix = chunk2.data.subarray(offset);
+        data = join(data, suffix);
+        end = chunk2.end;
+      }
+      break;
+    }
+    const chunk = {
+      start,
+      end,
+      data
+    };
+    const deleteCount = toIndex - fromIndex;
+    this.chunks.splice(fromIndex, deleteCount, chunk);
+  }
+};
+function join(left, right) {
+  const length = left.length + right.length;
+  const result = new Uint8Array(length);
+  result.set(left, 0);
+  result.set(right, left.length);
+  return result;
+}
+function collapseRanges(ranges) {
+  assert(ranges.length > 0, "Must have at least one range");
+  const sorted = [...ranges].sort((a, b) => a.from - b.from);
+  const collapsed = [];
+  for (const range of sorted) {
+    const index = collapsed.length - 1;
+    const previous = collapsed[index];
+    if (previous && range.from <= previous.to) {
+      collapsed[index] = {
+        from: previous.from,
+        to: Math.max(previous.to, range.to)
+      };
+    } else {
+      collapsed.push(range);
+    }
+  }
+  return collapsed;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseDictionaryIndex.ts
+var DatabaseDictionaryIndex = class {
+  constructor(options) {
+    this.options = options;
+    const schema = {};
+    const fields = [];
+    for (const fieldName of this.options.fieldNames) {
+      const definition = this.options.collectionSchema[fieldName];
+      assert(definition, "Missing definition for field", fieldName);
+      schema[fieldName] = definition;
+      fields.push({ type: "Identifier", name: fieldName });
+    }
+    this.schema = schema;
+    this.fields = fields;
+    this.collation = this.options.collation;
+  }
+  options;
+  schema;
+  fields;
+  supportedLookupTypes = [
+    "All" /* All */,
+    "Equals" /* Equals */,
+    "NotEquals" /* NotEquals */,
+    "LessThan" /* LessThan */,
+    "GreaterThan" /* GreaterThan */,
+    "Contains" /* Contains */,
+    "StartsWith" /* StartsWith */,
+    "EndsWith" /* EndsWith */
+  ];
+  modelPromise;
+  model;
+  modelPrioritySources = /* @__PURE__ */ new Set();
+  collation;
+  async loadModel() {
+    const [bytes] = await rangeRequest(this.options.url, [this.options.range]);
+    assert(bytes, "Failed to load model");
+    return DatabaseDictionaryIndexModel.deserialize(bytes, () => {
+      const priority = getHighestSchedulerPriority(this.modelPrioritySources);
+      return priority ? yieldToMain({ batch: true, priority }) : void 0;
+    });
+  }
+  async getModel(priority) {
+    if (this.model) return this.model;
+    if (priority) this.modelPrioritySources.add(priority);
+    this.modelPromise ??= this.loadModel().finally(() => {
+      this.modelPrioritySources.clear();
+    });
+    this.model ??= await this.modelPromise;
+    return this.model;
+  }
+  async lookupItems(queries, priority) {
+    assert(queries.length === this.fields.length, "Invalid query length");
+    const model = await this.getModel(priority);
+    let chunks = [model.entries];
+    for (const [position, query] of queries.entries()) {
+      const nextChunks = [];
+      for (const entries of chunks) {
+        const yieldPromise = priority ? yieldToMain({ batch: true, priority: resolveSchedulerPriority(priority) }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        let matchingChunks;
+        switch (query.type) {
+          case "All" /* All */:
+            matchingChunks = [entries];
+            break;
+          case "Equals" /* Equals */:
+            matchingChunks = this.queryEquals(entries, query, position);
+            break;
+          case "NotEquals" /* NotEquals */:
+            matchingChunks = this.queryNotEquals(entries, query, position);
+            break;
+          case "LessThan" /* LessThan */:
+            matchingChunks = this.queryLessThan(entries, query, position);
+            break;
+          case "GreaterThan" /* GreaterThan */:
+            matchingChunks = this.queryGreaterThan(entries, query, position);
+            break;
+          case "Contains" /* Contains */:
+            matchingChunks = await this.queryContains(entries, query, position, priority);
+            break;
+          case "StartsWith" /* StartsWith */:
+            matchingChunks = await this.queryStartsWith(entries, query, position, priority);
+            break;
+          case "EndsWith" /* EndsWith */:
+            matchingChunks = await this.queryEndsWith(entries, query, position, priority);
+            break;
+          default:
+            assertNever(query);
+        }
+        nextChunks.push(...matchingChunks);
+      }
+      chunks = nextChunks;
+    }
+    const result = [];
+    for (const entries of chunks) {
+      for (const entry of entries) {
+        const yieldPromise = priority ? yieldToMain({ batch: true, priority: resolveSchedulerPriority(priority) }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        const data = {};
+        for (let i = 0; i < this.options.fieldNames.length; i++) {
+          const fieldName = this.options.fieldNames[i];
+          const fieldValue = entry.values[i];
+          data[fieldName] = fieldValue;
+        }
+        result.push({ pointer: entry.pointer.toString(), data });
+      }
+    }
+    return result;
+  }
+  queryEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(leftMost, rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryNotEquals(entries, query, position) {
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const result = [];
+    const before = entries.slice(0, leftMost);
+    if (before.length > 0) result.push(before);
+    const after = entries.slice(rightMost + 1);
+    if (after.length > 0) result.push(after);
+    return result;
+  }
+  queryLessThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const rightMost = this.getRightMost(entries, position, query.value);
+      const slice2 = entries.slice(0, rightMost + 1);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const leftMost = this.getLeftMost(entries, position, query.value);
+    const slice = entries.slice(0, leftMost);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryGreaterThan(entries, query, position) {
+    const nullBound = this.getRightMost(entries, position, null);
+    entries = entries.slice(nullBound + 1);
+    if (query.inclusive) {
+      const leftMost = this.getLeftMost(entries, position, query.value);
+      const slice2 = entries.slice(leftMost);
+      return slice2.length > 0 ? [slice2] : [];
+    }
+    const rightMost = this.getRightMost(entries, position, query.value);
+    const slice = entries.slice(rightMost + 1);
+    return slice.length > 0 ? [slice] : [];
+  }
+  queryContains(entries, query, position, priority) {
+    return this.findItems(entries, position, priority, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.includes(target);
+    });
+  }
+  queryStartsWith(entries, query, position, priority) {
+    return this.findItems(entries, position, priority, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.startsWith(target);
+    });
+  }
+  queryEndsWith(entries, query, position, priority) {
+    return this.findItems(entries, position, priority, (current) => {
+      if (current?.type !== ControlType2.String) return false;
+      if (query.value?.type !== ControlType2.String) return false;
+      let source = current.value;
+      let target = query.value.value;
+      if (this.collation.type === 0 /* CaseInsensitive */) {
+        source = source.toLowerCase();
+        target = target.toLowerCase();
+      }
+      return source.endsWith(target);
+    });
+  }
+  /**
+   * Returns the index of the left most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *   Left most
+   *       \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the left most entry that is equal to the target.
+   */
+  getLeftMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) < 0) {
+        left = middle + 1;
+      } else {
+        right = middle;
+      }
+    }
+    return left;
+  }
+  /**
+   * Returns the index of the right most entry that is equal to the target.
+   *
+   * \`\`\`text
+   *              Right most
+   *                   \u2193
+   * \u250C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u252C\u2500\u2500\u2500\u2510
+   * \u2502 1 \u2502 2 \u2502 2 \u2502 2 \u2502 2 \u2502 3 \u2502
+   * \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518
+   * \`\`\`
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param target The target value to search for.
+   * @returns The index of the right most entry that is equal to the target.
+   */
+  getRightMost(entries, position, target) {
+    let left = 0;
+    let right = entries.length;
+    while (left < right) {
+      const middle = left + right >> 1;
+      const entry = entries[middle];
+      const value = entry.values[position];
+      if (DatabaseValueModel.compare(value, target, this.collation) > 0) {
+        right = middle;
+      } else {
+        left = middle + 1;
+      }
+    }
+    return right - 1;
+  }
+  /**
+   * Finds all items that are matching the predicate and groups adjacent items together.
+   *
+   * @param entries The entries array to search in.
+   * @param position The position of the value in the entry.
+   * @param predicate The predicate to match the values against.
+   * @returns An array of chunks that match the predicate.
+   */
+  async findItems(entries, position, priority, predicate) {
+    const result = [];
+    let start = 0;
+    for (let i = 0; i < entries.length; i++) {
+      const yieldPromise = priority ? yieldToMain({ batch: true, priority: resolveSchedulerPriority(priority) }) : void 0;
+      if (yieldPromise) await yieldPromise;
+      const entry = entries[i];
+      const value = entry.values[position];
+      const isMatching = predicate(value);
+      if (isMatching) continue;
+      if (start < i) {
+        const slice = entries.slice(start, i);
+        result.push(slice);
+      }
+      start = i + 1;
+    }
+    if (start < entries.length) {
+      const slice = entries.slice(start);
+      result.push(slice);
+    }
+    return result;
+  }
+};
+
+// src/code-generation/components/cms/bundled/models/DatabaseItemModel.ts
+function readDatabaseItemData(reader) {
+  const data = {};
+  const fieldCount = reader.readUint16();
+  for (let i = 0; i < fieldCount; i++) {
+    const key = reader.readString();
+    data[key] = DatabaseValueModel.read(reader);
+  }
+  return data;
+}
+
+// src/code-generation/components/cms/bundled/DatabaseCollection.ts?bundle
+function* getRequestPrioritySources(requests) {
+  for (const request of requests) {
+    yield* request.prioritySources;
+  }
+}
+var DatabaseChunk = class {
+  constructor(id, url) {
+    this.id = id;
+    this.url = url;
+  }
+  id;
+  url;
+  itemsPromise;
+  isScanning = false;
+  scanPrioritySources = /* @__PURE__ */ new Set();
+  itemPrioritySources = /* @__PURE__ */ new Map();
+  itemLoader = new import_dataloader.default(
+    async (requests) => {
+      const ranges = requests.map(({ pointer }) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        return { from: pointerModel.offset, to: pointerModel.offset + pointerModel.length };
+      });
+      const rangeBytes = await rangeRequest(this.url, ranges);
+      const items = [];
+      for (let index = 0; index < rangeBytes.length; index++) {
+        const priority = getHighestSchedulerPriority(getRequestPrioritySources(requests));
+        const yieldPromise = priority ? yieldToMain2({ batch: true, priority }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        const bytes = rangeBytes[index];
+        assert(bytes, "Missing range bytes");
+        const reader = new BufferReader(bytes);
+        const data = readDatabaseItemData(reader);
+        const pointer = requests[index]?.pointer;
+        assert(pointer, "Missing pointer");
+        items.push({
+          pointer,
+          data
+        });
+      }
+      return items;
+    },
+    {
+      // capping to 250 avoids overly long URLs that can cause requests to fail with 414
+      maxBatchSize: 250,
+      // Different route workflows can request the same item. Keep DataLoader's cache keyed by the
+      // pointer while still carrying the strongest scheduling priority into the shared batch
+      cacheKeyFn: (request) => request.pointer
+    }
+  );
+  scanItems(priority) {
+    if (this.itemsPromise) {
+      if (this.isScanning && priority) this.scanPrioritySources.add(priority);
+      return this.itemsPromise;
+    }
+    this.isScanning = true;
+    if (priority) this.scanPrioritySources.add(priority);
+    this.itemsPromise = fetchWithRetries(this.url).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(\`Request failed: \${response.status} \${response.statusText}\`);
+      }
+      const buffer = await response.arrayBuffer();
+      const bytes = new Uint8Array(buffer);
+      const reader = new BufferReader(bytes);
+      const items = [];
+      const itemCount = reader.readUint32();
+      for (let i = 0; i < itemCount; i++) {
+        const priority2 = getHighestSchedulerPriority(this.scanPrioritySources);
+        const yieldPromise = priority2 ? yieldToMain2({ batch: true, priority: priority2 }) : void 0;
+        if (yieldPromise) await yieldPromise;
+        const offset = reader.getOffset();
+        const data = readDatabaseItemData(reader);
+        const length = reader.getOffset() - offset;
+        const pointerModel = new DatabaseItemPointerModel(this.id, offset, length);
+        const pointer = pointerModel.toString();
+        const item = {
+          pointer,
+          data
+        };
+        this.itemLoader.prime({ pointer, prioritySources: /* @__PURE__ */ new Set() }, item);
+        items.push(item);
+      }
+      return items;
+    }).finally(() => {
+      this.isScanning = false;
+      this.scanPrioritySources.clear();
+    });
+    return this.itemsPromise;
+  }
+  resolveItem(pointer, priority) {
+    let prioritySources = this.itemPrioritySources.get(pointer);
+    if (!prioritySources) {
+      prioritySources = /* @__PURE__ */ new Set();
+      this.itemPrioritySources.set(pointer, prioritySources);
+    }
+    if (priority) prioritySources.add(priority);
+    const itemPromise = this.itemLoader.load({ pointer, prioritySources });
+    const removePointer = () => this.itemPrioritySources.delete(pointer);
+    void itemPromise.then(removePointer, removePointer);
+    return itemPromise;
+  }
+};
+var DatabaseCollection = class {
+  constructor(options) {
+    this.options = options;
+    this.chunks = this.options.chunks.map((url, id) => {
+      return new DatabaseChunk(id, url);
+    });
+    this.schema = options.schema;
+    this.indexes = options.indexes;
+    this.resolveRichText = options.resolveRichText;
+    this.resolveVectorSetItem = options.resolveVectorSetItem;
+    this.id = options.id;
+  }
+  options;
+  id;
+  schema;
+  indexes;
+  resolveRichText;
+  resolveVectorSetItem;
+  chunks;
+  async scanItems(priority) {
+    const chunkedItems = await Promise.all(
+      this.chunks.map(async (chunk) => {
+        return chunk.scanItems(priority);
+      })
+    );
+    return chunkedItems.flat();
+  }
+  resolveItems(pointers, priority) {
+    return Promise.all(
+      pointers.map((pointer) => {
+        const pointerModel = DatabaseItemPointerModel.fromString(pointer);
+        const chunk = this.chunks[pointerModel.chunkId];
+        assert(chunk, "Missing chunk");
+        return chunk.resolveItem(pointer, priority);
+      })
+    );
+  }
+  compareItems(left, right) {
+    const leftModel = DatabaseItemPointerModel.fromString(left.pointer);
+    const rightModel = DatabaseItemPointerModel.fromString(right.pointer);
+    return leftModel.compare(rightModel);
+  }
+  compareValues(left, right, collation) {
+    return DatabaseValueModel.compare(left, right, collation);
+  }
+};
+export {
+  DatabaseCollection,
+  DatabaseDictionaryIndex
+};
+`;
+var ep = `// src/code-generation/components/cms/bundled/DraftDatabaseCollection.legacy.ts?bundle
+import { ControlType } from "framer";
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+
+// src/code-generation/components/cms/bundled/DraftDatabaseCollection.legacy.ts?bundle
+var DraftDatabaseCollection = class {
+  constructor(draftCollection, originalCollection, previousItemId, nextItemId) {
+    this.draftCollection = draftCollection;
+    this.originalCollection = originalCollection;
+    this.previousItemId = previousItemId;
+    this.nextItemId = nextItemId;
+    this.schema = originalCollection.schema;
+  }
+  draftCollection;
+  originalCollection;
+  previousItemId;
+  nextItemId;
+  schema;
+  // We cannot use the original indexes because the draft items
+  // are not in the original collection.
+  // Having no indexes means that we perform a full collection scan for every query.
+  indexes = [];
+  itemsPromise;
+  async getItems() {
+    const [[...draftItems], [...originalItems]] = await Promise.all([
+      this.draftCollection.scanItems(),
+      this.originalCollection.scanItems()
+    ]);
+    const lastDraftItem = draftItems.pop();
+    const firstOriginalItem = originalItems.shift();
+    if (lastDraftItem) {
+      draftItems.push({
+        ...lastDraftItem,
+        data: {
+          ...lastDraftItem.data,
+          [this.nextItemId]: firstOriginalItem?.data.id ?? null
+        }
+      });
+    }
+    if (firstOriginalItem) {
+      originalItems.unshift({
+        ...firstOriginalItem,
+        data: {
+          ...firstOriginalItem.data,
+          [this.previousItemId]: lastDraftItem?.data.id ?? null
+        }
+      });
+    }
+    return draftItems.map(draftItem).concat(...originalItems);
+  }
+  /**
+   * Get all items, updating pointers for draft items.
+   */
+  scanItems() {
+    this.itemsPromise ??= this.getItems();
+    return this.itemsPromise;
+  }
+  /**
+   * Depending on the pointer, resolve draft rich text from the draft
+   * collection, and original rich text from the original collection.
+   */
+  resolveRichText(pointer) {
+    if (isDraftRichTextPointer(pointer)) {
+      const originalPointer = undraftRichTextPointer(pointer);
+      return this.draftCollection.resolveRichText(originalPointer);
+    }
+    return this.originalCollection.resolveRichText(pointer);
+  }
+  resolveVectorSetItem(pointer) {
+    if (isDraftVectorSetItemPointer(pointer)) {
+      const originalPointer = undraftVectorSetItemPointer(pointer);
+      return this.draftCollection.resolveVectorSetItem?.(originalPointer);
+    }
+    return this.originalCollection.resolveVectorSetItem?.(pointer);
+  }
+  async resolveItems(pointers) {
+    const items = await this.scanItems();
+    return pointers.map((pointer) => {
+      const item = items.find((current) => current.pointer === pointer);
+      assert(item, "Item must exist");
+      return item;
+    });
+  }
+  /**
+   * Compare two items, the draft items should come first.
+   */
+  compareItems(left, right) {
+    const leftIsDraft = isDraftPointer(left.pointer);
+    const rightIsDraft = isDraftPointer(right.pointer);
+    if (leftIsDraft && rightIsDraft) {
+      const originalLeft = undraftItem(left);
+      const originalRight = undraftItem(right);
+      return this.draftCollection.compareItems(originalLeft, originalRight);
+    }
+    if (leftIsDraft) return -1;
+    if (rightIsDraft) return 1;
+    return this.originalCollection.compareItems(left, right);
+  }
+};
+var draftPrefix = "draft:";
+function isDraftPointer(pointer) {
+  return pointer.startsWith(draftPrefix);
+}
+function draftPointer(pointer) {
+  assert(!isDraftPointer(pointer), "Should be a non-draft pointer");
+  return draftPrefix + pointer;
+}
+function undraftPointer(pointer) {
+  assert(isDraftPointer(pointer), "Should be a draft pointer");
+  return pointer.slice(draftPrefix.length);
+}
+function isDraftRichTextPointer(pointer) {
+  if (isNumber(pointer)) {
+    return pointer < 0;
+  }
+  if (isString(pointer)) {
+    return pointer.startsWith(draftPrefix);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function draftRichTextPointer(pointer) {
+  assert(!isDraftRichTextPointer(pointer), "Should be a non-draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return draftPrefix + pointer;
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function undraftRichTextPointer(pointer) {
+  assert(isDraftRichTextPointer(pointer), "Should be a draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return pointer.slice(draftPrefix.length);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function isDraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  return pointer < 0;
+}
+function draftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(!isDraftVectorSetItemPointer(pointer), "Should be a non-draft vector set item pointer");
+  return -pointer - 1;
+}
+function undraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(isDraftVectorSetItemPointer(pointer), "Should be a draft vector set item pointer");
+  return -pointer - 1;
+}
+function draftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: draftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: draftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: draftPointer(item.pointer),
+    data
+  };
+}
+function undraftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: undraftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: undraftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: undraftPointer(item.pointer),
+    data
+  };
+}
+export {
+  DraftDatabaseCollection
+};
+`;
+var tp = `// src/code-generation/components/cms/bundled/DraftDatabaseCollection.ts?bundle
+import { ControlType, yieldToMain } from "framer";
+
+// src/utils/typeChecks.ts
+function isString(value) {
+  return typeof value === "string";
+}
+function isNumber(value) {
+  return Number.isFinite(value);
+}
+
+// src/code-generation/components/cms/bundled/assert.ts
+function assert(condition, ...msg) {
+  if (condition) return;
+  throw Error("Assertion Error" + (msg.length > 0 ? ": " + msg.join(" ") : ""));
+}
+
+// src/code-generation/components/cms/bundled/DraftDatabaseCollection.ts?bundle
+var DraftDatabaseCollection = class {
+  constructor(draftCollection, originalCollection, previousItemId, nextItemId) {
+    this.draftCollection = draftCollection;
+    this.originalCollection = originalCollection;
+    this.previousItemId = previousItemId;
+    this.nextItemId = nextItemId;
+    this.schema = originalCollection.schema;
+  }
+  draftCollection;
+  originalCollection;
+  previousItemId;
+  nextItemId;
+  schema;
+  // We cannot use the original indexes because the draft items
+  // are not in the original collection.
+  // Having no indexes means that we perform a full collection scan for every query.
+  indexes = [];
+  itemsPromise;
+  async getItems() {
+    const [[...draftItems], [...originalItems]] = await Promise.all([
+      this.draftCollection.scanItems(),
+      this.originalCollection.scanItems()
+    ]);
+    const lastDraftItem = draftItems.pop();
+    const firstOriginalItem = originalItems.shift();
+    if (lastDraftItem) {
+      draftItems.push({
+        ...lastDraftItem,
+        data: {
+          ...lastDraftItem.data,
+          [this.nextItemId]: firstOriginalItem?.data.id ?? null
+        }
+      });
+    }
+    if (firstOriginalItem) {
+      originalItems.unshift({
+        ...firstOriginalItem,
+        data: {
+          ...firstOriginalItem.data,
+          [this.previousItemId]: lastDraftItem?.data.id ?? null
+        }
+      });
+    }
+    return draftItems.map(draftItem).concat(...originalItems);
+  }
+  /**
+   * Get all items, updating pointers for draft items.
+   */
+  scanItems() {
+    this.itemsPromise ??= this.getItems();
+    return this.itemsPromise;
+  }
+  /**
+   * Depending on the pointer, resolve draft rich text from the draft
+   * collection, and original rich text from the original collection.
+   */
+  resolveRichText(pointer) {
+    if (isDraftRichTextPointer(pointer)) {
+      const originalPointer = undraftRichTextPointer(pointer);
+      return this.draftCollection.resolveRichText(originalPointer);
+    }
+    return this.originalCollection.resolveRichText(pointer);
+  }
+  resolveVectorSetItem(pointer) {
+    if (isDraftVectorSetItemPointer(pointer)) {
+      const originalPointer = undraftVectorSetItemPointer(pointer);
+      return this.draftCollection.resolveVectorSetItem?.(originalPointer);
+    }
+    return this.originalCollection.resolveVectorSetItem?.(pointer);
+  }
+  async resolveItems(pointers, priority) {
+    const items = await this.scanItems();
+    const resolvedItems = [];
+    for (const pointer of pointers) {
+      const resolvedPriority = typeof priority === "function" ? priority() : priority;
+      const yieldPromise = resolvedPriority ? yieldToMain({ batch: true, priority: resolvedPriority }) : void 0;
+      if (yieldPromise) await yieldPromise;
+      const item = items.find((current) => current.pointer === pointer);
+      assert(item, "Item must exist");
+      resolvedItems.push(item);
+    }
+    return resolvedItems;
+  }
+  /**
+   * Compare two items, the draft items should come first.
+   */
+  compareItems(left, right) {
+    const leftIsDraft = isDraftPointer(left.pointer);
+    const rightIsDraft = isDraftPointer(right.pointer);
+    if (leftIsDraft && rightIsDraft) {
+      const originalLeft = undraftItem(left);
+      const originalRight = undraftItem(right);
+      return this.draftCollection.compareItems(originalLeft, originalRight);
+    }
+    if (leftIsDraft) return -1;
+    if (rightIsDraft) return 1;
+    return this.originalCollection.compareItems(left, right);
+  }
+};
+var draftPrefix = "draft:";
+function isDraftPointer(pointer) {
+  return pointer.startsWith(draftPrefix);
+}
+function draftPointer(pointer) {
+  assert(!isDraftPointer(pointer), "Should be a non-draft pointer");
+  return draftPrefix + pointer;
+}
+function undraftPointer(pointer) {
+  assert(isDraftPointer(pointer), "Should be a draft pointer");
+  return pointer.slice(draftPrefix.length);
+}
+function isDraftRichTextPointer(pointer) {
+  if (isNumber(pointer)) {
+    return pointer < 0;
+  }
+  if (isString(pointer)) {
+    return pointer.startsWith(draftPrefix);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function draftRichTextPointer(pointer) {
+  assert(!isDraftRichTextPointer(pointer), "Should be a non-draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return draftPrefix + pointer;
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function undraftRichTextPointer(pointer) {
+  assert(isDraftRichTextPointer(pointer), "Should be a draft rich text pointer");
+  if (isNumber(pointer)) {
+    return -pointer - 1;
+  }
+  if (isString(pointer)) {
+    return pointer.slice(draftPrefix.length);
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function isDraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  return pointer < 0;
+}
+function draftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(!isDraftVectorSetItemPointer(pointer), "Should be a non-draft vector set item pointer");
+  return -pointer - 1;
+}
+function undraftVectorSetItemPointer(pointer) {
+  assert(isNumber(pointer), "Invalid vector set item pointer");
+  assert(isDraftVectorSetItemPointer(pointer), "Should be a draft vector set item pointer");
+  return -pointer - 1;
+}
+function draftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: draftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: draftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: draftPointer(item.pointer),
+    data
+  };
+}
+function undraftItem(item) {
+  const data = {};
+  for (const [key, value] of Object.entries(item.data)) {
+    if (value?.type === ControlType.RichText) {
+      data[key] = {
+        type: ControlType.RichText,
+        value: undraftRichTextPointer(value.value)
+      };
+    } else if (value?.type === ControlType.VectorSetItem) {
+      data[key] = {
+        type: ControlType.VectorSetItem,
+        value: undraftVectorSetItemPointer(value.value)
+      };
+    } else {
+      data[key] = value;
+    }
+  }
+  return {
+    pointer: undraftPointer(item.pointer),
+    data
+  };
+}
+export {
+  DraftDatabaseCollection
+};
+`;
+function La(n) {
+  return m`${n}.replace("/modules/", "/cms/")`;
+}
+function th(n) {
+  return n !== null && typeof n == "object" && "requestId" in n && typeof n.requestId == "number";
+}
+function nh(n) {
+  return th(n) && "data" in n;
+}
+var _r = class {
+  constructor(e, t = {}) {
+    this.url = e;
+    this.options = t;
+  }
+  url;
+  options;
+  worker;
+  disabled = !1;
+  idleTimer;
+  requestId = 0;
+  pendingResponses = new Map();
+  get enabled() {
+    return !this.disabled;
+  }
+  get pending() {
+    let e = Array.from(this.pendingResponses.values(), (t) => t.promise);
+    if (e.length !== 0) return Promise.all(e).then(() => {});
+  }
+  postMessage(e) {
+    if (this.disabled) return;
+    let t = this.getWorker();
+    if (!t) return;
+    let o = ++this.requestId,
+      r = { requestId: o, data: e },
+      i = () => {},
+      a = new Promise((l) => {
+        i = l;
+      }),
+      s;
+    (this.options.responseTimeoutMs !== void 0 &&
+      (s = setTimeout(() => {
+        (this.options.onFailure?.(`worker response timed out for request ${o}`), this.dispose());
+      }, this.options.responseTimeoutMs)),
+      this.pendingResponses.set(o, { resolve: i, promise: a, timer: s }));
+    try {
+      t.postMessage(r);
+    } catch (l) {
+      (this.options.onFailure?.("worker postMessage failed", l), this.dispose());
+    }
+    return a;
+  }
+  dispose() {
+    ((this.disabled = !0), this.terminateWorker(), this.resolvePendingResponses(void 0));
+  }
+  getWorker() {
+    if (!this.disabled && !(typeof Worker > "u")) {
+      if (
+        (this.idleTimer !== void 0 && (clearTimeout(this.idleTimer), (this.idleTimer = void 0)),
+        !this.worker)
+      ) {
+        try {
+          let e = {};
+          (this.options.credentials !== void 0 && (e.credentials = this.options.credentials),
+            this.options.name !== void 0 && (e.name = this.options.name),
+            this.options.type !== void 0 && (e.type = this.options.type),
+            (this.worker = new Worker(this.url, e)));
+        } catch (e) {
+          (this.options.onFailure?.("worker failed to start", e), this.dispose());
+          return;
+        }
+        (this.worker.addEventListener("message", (e) => {
+          nh(e.data) && this.resolvePendingResponse(e.data.requestId, e.data.data);
+        }),
+          this.worker.addEventListener("error", (e) => {
+            (this.options.onFailure?.("worker error", e), this.dispose());
+          }),
+          this.worker.addEventListener("messageerror", (e) => {
+            (this.options.onFailure?.("worker message error", e), this.dispose());
+          }));
+      }
+      return this.worker;
+    }
+  }
+  resolvePendingResponse(e, t) {
+    let o = this.pendingResponses.get(e);
+    o &&
+      (o.timer !== void 0 && clearTimeout(o.timer),
+      o.resolve(t),
+      this.pendingResponses.delete(e),
+      this.scheduleTermination());
+  }
+  resolvePendingResponses(e) {
+    for (let t of Array.from(this.pendingResponses.keys())) this.resolvePendingResponse(t, e);
+  }
+  terminateWorker() {
+    (this.idleTimer !== void 0 && (clearTimeout(this.idleTimer), (this.idleTimer = void 0)),
+      this.worker?.terminate(),
+      (this.worker = void 0));
+  }
+  scheduleTermination() {
+    !this.worker ||
+      this.options.idleTimeoutMs === void 0 ||
+      (this.idleTimer !== void 0 && clearTimeout(this.idleTimer),
+      (this.idleTimer = setTimeout(() => {
+        if (this.pendingResponses.size > 0) {
+          this.scheduleTermination();
+          return;
+        }
+        this.terminateWorker();
+      }, this.options.idleTimeoutMs)));
+  }
+};
+var ce = {
+    Uint8: 1,
+    Uint16: 2,
+    Uint32: 4,
+    BigUint64: 8,
+    Int8: 1,
+    Int16: 2,
+    Int32: 4,
+    BigInt64: 8,
+    Float32: 4,
+    Float64: 8,
+  },
+  $r = class n {
+    constructor(e) {
+      this.bytes = e;
+      this.view = Un(this.bytes);
+    }
+    bytes;
+    static textDecoder = new TextDecoder();
+    offset = 0;
+    getOffset() {
+      return this.offset;
+    }
+    view;
+    ensureLength(e) {
+      let t = this.bytes.length;
+      if (!(this.offset + e <= t)) throw new Error("Reading out of bounds");
+    }
+    readUint8() {
+      let e = ce.Uint8;
+      this.ensureLength(e);
+      let t = this.view.getUint8(this.offset);
+      return ((this.offset += e), t);
+    }
+    readUint16() {
+      let e = ce.Uint16;
+      this.ensureLength(e);
+      let t = this.view.getUint16(this.offset);
+      return ((this.offset += e), t);
+    }
+    readUint32() {
+      let e = ce.Uint32;
+      this.ensureLength(e);
+      let t = this.view.getUint32(this.offset);
+      return ((this.offset += e), t);
+    }
+    readUint64() {
+      let e = this.readBigUint64();
+      return Number(e);
+    }
+    readBigUint64() {
+      let e = ce.BigUint64;
+      this.ensureLength(e);
+      let t = this.view.getBigUint64(this.offset);
+      return ((this.offset += e), t);
+    }
+    readInt8() {
+      let e = ce.Int8;
+      this.ensureLength(e);
+      let t = this.view.getInt8(this.offset);
+      return ((this.offset += e), t);
+    }
+    readInt16() {
+      let e = ce.Int16;
+      this.ensureLength(e);
+      let t = this.view.getInt16(this.offset);
+      return ((this.offset += e), t);
+    }
+    readInt32() {
+      let e = ce.Int32;
+      this.ensureLength(e);
+      let t = this.view.getInt32(this.offset);
+      return ((this.offset += e), t);
+    }
+    readInt64() {
+      let e = this.readBigInt64();
+      return Number(e);
+    }
+    readBigInt64() {
+      let e = ce.BigInt64;
+      this.ensureLength(e);
+      let t = this.view.getBigInt64(this.offset);
+      return ((this.offset += e), t);
+    }
+    readFloat32() {
+      let e = ce.Float32;
+      this.ensureLength(e);
+      let t = this.view.getFloat32(this.offset);
+      return ((this.offset += e), t);
+    }
+    readFloat64() {
+      let e = ce.Float64;
+      this.ensureLength(e);
+      let t = this.view.getFloat64(this.offset);
+      return ((this.offset += e), t);
+    }
+    readBytes(e) {
+      let t = this.offset,
+        o = t + e,
+        r = this.bytes.subarray(t, o);
+      return ((this.offset = o), r);
+    }
+    readString() {
+      let e = this.readUint32(),
+        t = this.readBytes(e);
+      return n.textDecoder.decode(t);
+    }
+    readJson() {
+      let e = this.readString();
+      return JSON.parse(e);
+    }
+  };
+function Un(n) {
+  return new DataView(n.buffer, n.byteOffset, n.byteLength);
+}
+var oh = 1024,
+  rh = 1.5,
+  Ma = (n) => 2 ** n - 1,
+  xa = (n) => -(2 ** (n - 1)),
+  Ra = (n) => 2 ** (n - 1) - 1,
+  bt = {
+    Uint8: 0,
+    Uint16: 0,
+    Uint32: 0,
+    Uint64: 0,
+    BigUint64: 0,
+    Int8: xa(8),
+    Int16: xa(16),
+    Int32: xa(32),
+    Int64: Number.MIN_SAFE_INTEGER,
+    BigInt64: -(BigInt(2) ** BigInt(63)),
+  },
+  Tt = {
+    Uint8: Ma(8),
+    Uint16: Ma(16),
+    Uint32: Ma(32),
+    Uint64: Number.MAX_SAFE_INTEGER,
+    BigUint64: BigInt(2) ** BigInt(64) - BigInt(1),
+    Int8: Ra(8),
+    Int16: Ra(16),
+    Int32: Ra(32),
+    Int64: Number.MAX_SAFE_INTEGER,
+    BigInt64: BigInt(2) ** BigInt(63) - BigInt(1),
+  };
+function Lt(n, e, t, o) {
+  (ie(n >= e, n, "outside lower bound for", o), ie(n <= t, n, "outside upper bound for", o));
+}
+var mn = class {
+  offset = 0;
+  getOffset() {
+    return this.offset;
+  }
+  bytes = new Uint8Array(oh);
+  view = Un(this.bytes);
+  slice(e = 0, t = this.offset) {
+    return this.bytes.slice(e, t);
+  }
+  subarray(e = 0, t = this.offset) {
+    return this.bytes.subarray(e, t);
+  }
+  encoder = new TextEncoder();
+  ensureLength(e) {
+    let t = this.bytes.length;
+    if (this.offset + e <= t) return;
+    let o = Math.ceil(t * rh) + e,
+      r = new Uint8Array(o);
+    (r.set(this.bytes), (this.bytes = r), (this.view = Un(r)));
+  }
+  writeUint8(e) {
+    Lt(e, bt.Uint8, Tt.Uint8, "Uint8");
+    let t = ce.Uint8;
+    (this.ensureLength(t), this.view.setUint8(this.offset, e), (this.offset += t));
+  }
+  writeUint16(e) {
+    Lt(e, bt.Uint16, Tt.Uint16, "Uint16");
+    let t = ce.Uint16;
+    (this.ensureLength(t), this.view.setUint16(this.offset, e), (this.offset += t));
+  }
+  writeUint32(e) {
+    Lt(e, bt.Uint32, Tt.Uint32, "Uint32");
+    let t = ce.Uint32;
+    (this.ensureLength(t), this.view.setUint32(this.offset, e), (this.offset += t));
+  }
+  writeUint64(e) {
+    Lt(e, bt.Uint64, Tt.Uint64, "Uint64");
+    let t = BigInt(e);
+    this.writeBigUint64(t);
+  }
+  writeBigUint64(e) {
+    Lt(e, bt.BigUint64, Tt.BigUint64, "BigUint64");
+    let t = ce.BigUint64;
+    (this.ensureLength(t), this.view.setBigUint64(this.offset, e), (this.offset += t));
+  }
+  writeInt8(e) {
+    Lt(e, bt.Int8, Tt.Int8, "Int8");
+    let t = ce.Int8;
+    (this.ensureLength(t), this.view.setInt8(this.offset, e), (this.offset += t));
+  }
+  writeInt16(e) {
+    Lt(e, bt.Int16, Tt.Int16, "Int16");
+    let t = ce.Int16;
+    (this.ensureLength(t), this.view.setInt16(this.offset, e), (this.offset += t));
+  }
+  writeInt32(e) {
+    Lt(e, bt.Int32, Tt.Int32, "Int32");
+    let t = ce.Int32;
+    (this.ensureLength(t), this.view.setInt32(this.offset, e), (this.offset += t));
+  }
+  writeInt64(e) {
+    Lt(e, bt.Int64, Tt.Int64, "Int64");
+    let t = BigInt(e);
+    this.writeBigInt64(t);
+  }
+  writeBigInt64(e) {
+    Lt(e, bt.BigInt64, Tt.BigInt64, "BigInt64");
+    let t = ce.BigInt64;
+    (this.ensureLength(t), this.view.setBigInt64(this.offset, e), (this.offset += t));
+  }
+  writeFloat32(e) {
+    let t = ce.Float32;
+    (this.ensureLength(t), this.view.setFloat32(this.offset, e), (this.offset += t));
+  }
+  writeFloat64(e) {
+    let t = ce.Float64;
+    (this.ensureLength(t), this.view.setFloat64(this.offset, e), (this.offset += t));
+  }
+  writeBytes(e) {
+    let t = e.length;
+    (this.ensureLength(t), this.bytes.set(e, this.offset), (this.offset += t));
+  }
+  encodedStrings = new Map();
+  encodeString(e) {
+    let t = this.encodedStrings.get(e);
+    if (t) return t;
+    let o = this.encoder.encode(e);
+    return (this.encodedStrings.set(e, o), o);
+  }
+  writeString(e) {
+    let t = this.encodeString(e),
+      o = t.length;
+    (this.writeUint32(o), this.writeBytes(t));
+  }
+  writeJson(e) {
+    let t = JSON.stringify(e);
+    this.writeString(t);
+  }
+};
+var _n = class n {
+  constructor(e, t, o) {
+    this.chunkId = e;
+    this.offset = t;
+    this.length = o;
+  }
+  chunkId;
+  offset;
+  length;
+  static fromString(e) {
+    let [t, o, r] = e.split("/").map(Number);
+    return (
+      ie(_(t), "Invalid chunkId"),
+      ie(_(o), "Invalid offset"),
+      ie(_(r), "Invalid length"),
+      new n(t, o, r)
+    );
+  }
+  toString() {
+    return `${this.chunkId}/${this.offset}/${this.length}`;
+  }
+  static read(e) {
+    let t = e.readUint16(),
+      o = e.readUint32(),
+      r = e.readUint32();
+    return new n(t, o, r);
+  }
+  write(e) {
+    (e.writeUint16(this.chunkId), e.writeUint32(this.offset), e.writeUint32(this.length));
+  }
+  compare(e) {
+    return this.chunkId < e.chunkId
+      ? -1
+      : this.chunkId > e.chunkId
+        ? 1
+        : this.offset < e.offset
+          ? -1
+          : this.offset > e.offset
+            ? 1
+            : (ie(this.length === e.length), 0);
+  }
+};
+function Na(n) {
+  if (Ke(n)) return 0;
+  switch (n.type) {
+    case "array":
+      return 1;
+    case "boolean":
+      return 2;
+    case "color":
+      return 3;
+    case "date":
+      return 4;
+    case "enum":
+      return 5;
+    case "file":
+      return 6;
+    case "responsiveimage":
+      return 10;
+    case "link":
+      return 7;
+    case "number":
+      return 8;
+    case "object":
+      return 9;
+    case "richtext":
+      return 11;
+    case "string":
+      return 12;
+    case "vectorsetitem":
+      return 13;
+    default:
+      go(n);
+  }
+}
+var Ae;
+((o) => {
+  function n(r) {
+    let i = r.readUint8();
+    switch (i) {
+      case 0:
+        return null;
+      case 1:
+        return ah(r);
+      case 2:
+        return dh(r);
+      case 3:
+        return ph(r);
+      case 4:
+        return hh(r);
+      case 5:
+        return Sh(r);
+      case 6:
+        return Ch(r);
+      case 7:
+        return Lh(r);
+      case 8:
+        return Rh(r);
+      case 9:
+        return Dh(r);
+      case 10:
+        return Eh(r);
+      case 11:
+        return Fh(r);
+      case 12:
+        return Oh(r);
+      case 13:
+        return $h(r);
+      default:
+        go(i);
+    }
+  }
+  o.read = n;
+  function e(r, i) {
+    let a = Na(i);
+    if ((r.writeUint8(a), !Ke(i)))
+      switch (i.type) {
+        case "array":
+          return sh(r, i);
+        case "boolean":
+          return ch(r, i);
+        case "color":
+          return fh(r, i);
+        case "date":
+          return gh(r, i);
+        case "enum":
+          return vh(r, i);
+        case "file":
+          return bh(r, i);
+        case "link":
+          return Mh(r, i);
+        case "number":
+          return Nh(r, i);
+        case "object":
+          return Vh(r, i);
+        case "responsiveimage":
+          return zh(r, i);
+        case "richtext":
+          return Bh(r, i);
+        case "vectorsetitem":
+          return Wh(r, i);
+        case "string":
+          return Uh(r, i);
+        default:
+          go(i);
+      }
+  }
+  o.write = e;
+  function t(r, i, a) {
+    let s = Na(r),
+      l = Na(i);
+    if (s < l) return -1;
+    if (s > l) return 1;
+    if (Ke(r) || Ke(i)) return 0;
+    switch (r.type) {
+      case "array":
+        return (ie(i.type === "array"), lh(r, i, a));
+      case "boolean":
+        return (ie(i.type === "boolean"), uh(r, i));
+      case "color":
+        return (ie(i.type === "color"), mh(r, i));
+      case "date":
+        return (ie(i.type === "date"), yh(r, i));
+      case "enum":
+        return (ie(i.type === "enum"), Ih(r, i));
+      case "file":
+        return (ie(i.type === "file"), Th(r, i));
+      case "link":
+        return (ie(i.type === "link"), xh(r, i));
+      case "number":
+        return (ie(i.type === "number"), wh(r, i));
+      case "object":
+        return (ie(i.type === "object"), Ph(r, i, a));
+      case "responsiveimage":
+        return (ie(i.type === "responsiveimage"), kh(r, i));
+      case "richtext":
+        return (ie(i.type === "richtext"), Ah(r, i));
+      case "vectorsetitem":
+        return (ie(i.type === "vectorsetitem"), Gh(r, i));
+      case "string":
+        return (ie(i.type === "string"), _h(r, i, a));
+      default:
+        go(r);
+    }
+  }
+  o.compare = t;
+})((Ae ||= {}));
+function ah(n) {
+  let e = n.readUint16(),
+    t = [];
+  for (let o = 0; o < e; o++) {
+    let r = Ae.read(n);
+    t.push(r);
+  }
+  return { type: "array", value: t };
+}
+function sh(n, e) {
+  n.writeUint16(e.value.length);
+  for (let t of e.value) Ae.write(n, t);
+}
+function lh(n, e, t) {
+  let o = n.value.length,
+    r = e.value.length;
+  if (o < r) return -1;
+  if (o > r) return 1;
+  for (let i = 0; i < o; i++) {
+    let a = n.value[i],
+      s = e.value[i],
+      l = Ae.compare(a, s, t);
+    if (l !== 0) return l;
+  }
+  return 0;
+}
+function dh(n) {
+  return { type: "boolean", value: n.readUint8() !== 0 };
+}
+function ch(n, e) {
+  n.writeUint8(e.value ? 1 : 0);
+}
+function uh(n, e) {
+  return n.value < e.value ? -1 : n.value > e.value ? 1 : 0;
+}
+function ph(n) {
+  return { type: "color", value: n.readString() };
+}
+function fh(n, e) {
+  n.writeString(e.value);
+}
+function mh(n, e) {
+  return n.value < e.value ? -1 : n.value > e.value ? 1 : 0;
+}
+function hh(n) {
+  let e = n.readInt64(),
+    t = new Date(e);
+  return { type: "date", value: t.toISOString() };
+}
+function gh(n, e) {
+  let o = new Date(e.value).getTime();
+  n.writeInt64(o);
+}
+function yh(n, e) {
+  let t = new Date(n.value),
+    o = new Date(e.value);
+  return t < o ? -1 : t > o ? 1 : 0;
+}
+function Sh(n) {
+  return { type: "enum", value: n.readString() };
+}
+function vh(n, e) {
+  n.writeString(e.value);
+}
+function Ih(n, e) {
+  return n.value < e.value ? -1 : n.value > e.value ? 1 : 0;
+}
+function Ch(n) {
+  return { type: "file", value: n.readString() };
+}
+function bh(n, e) {
+  n.writeString(e.value);
+}
+function Th(n, e) {
+  return n.value < e.value ? -1 : n.value > e.value ? 1 : 0;
+}
+function Lh(n) {
+  return { type: "link", value: n.readJson() };
+}
+function Mh(n, e) {
+  n.writeJson(e.value);
+}
+function xh(n, e) {
+  let t = JSON.stringify(n.value),
+    o = JSON.stringify(e.value);
+  return t < o ? -1 : t > o ? 1 : 0;
+}
+function Rh(n) {
+  return { type: "number", value: n.readFloat64() };
+}
+function Nh(n, e) {
+  n.writeFloat64(e.value);
+}
+function wh(n, e) {
+  return n.value < e.value ? -1 : n.value > e.value ? 1 : 0;
+}
+function Dh(n) {
+  let e = n.readUint16(),
+    t = {};
+  for (let o = 0; o < e; o++) {
+    let r = n.readString();
+    t[r] = Ae.read(n);
+  }
+  return { type: "object", value: t };
+}
+function Vh(n, e) {
+  let t = Object.entries(e.value);
+  n.writeUint16(t.length);
+  for (let [o, r] of t) (n.writeString(o), Ae.write(n, r));
+}
+function Ph(n, e, t) {
+  let o = Object.keys(n.value).sort(),
+    r = Object.keys(e.value).sort();
+  if (o.length < r.length) return -1;
+  if (o.length > r.length) return 1;
+  for (let i = 0; i < o.length; i++) {
+    let a = o[i],
+      s = r[i];
+    if (a < s) return -1;
+    if (a > s) return 1;
+    let l = n.value[a] ?? null,
+      d = e.value[s] ?? null,
+      u = Ae.compare(l, d, t);
+    if (u !== 0) return u;
+  }
+  return 0;
+}
+function Eh(n) {
+  return { type: "responsiveimage", value: n.readJson() };
+}
+function zh(n, e) {
+  n.writeJson(e.value);
+}
+function kh(n, e) {
+  let t = JSON.stringify(n.value),
+    o = JSON.stringify(e.value);
+  return t < o ? -1 : t > o ? 1 : 0;
+}
+function Fh(n) {
+  let e = n.readInt8();
+  if (e === 0) return { type: "richtext", value: n.readUint32() };
+  if (e === 1) return { type: "richtext", value: n.readString() };
+  throw new Error("Invalid rich text pointer");
+}
+function Bh(n, e) {
+  if (_(e.value)) {
+    (n.writeInt8(0), n.writeUint32(e.value));
+    return;
+  }
+  if (T(e.value)) {
+    (n.writeInt8(1), n.writeString(e.value));
+    return;
+  }
+  throw new Error("Invalid rich text pointer");
+}
+function Ah(n, e) {
+  let t = n.value,
+    o = e.value;
+  if ((_(t) && _(o)) || (T(t) && T(o))) return t < o ? -1 : t > o ? 1 : 0;
+  throw new Error("Invalid rich text pointer");
+}
+function Oh(n) {
+  return { type: "string", value: n.readString() };
+}
+function Uh(n, e) {
+  n.writeString(e.value);
+}
+function _h(n, e, t) {
+  let o = n.value,
+    r = e.value;
+  return (
+    t.type === 0 && ((o = n.value.toLowerCase()), (r = e.value.toLowerCase())),
+    o < r ? -1 : o > r ? 1 : 0
+  );
+}
+function $h(n) {
+  return { type: "vectorsetitem", value: n.readUint32() };
+}
+function Wh(n, e) {
+  n.writeUint32(e.value);
+}
+function Gh(n, e) {
+  let t = n.value,
+    o = e.value;
+  return t < o ? -1 : t > o ? 1 : 0;
+}
+var Wr = class n {
+  constructor(e, t) {
+    this.fieldNames = e;
+    this.options = t;
+  }
+  fieldNames;
+  options;
+  entries = [];
+  sortEntries() {
+    this.entries.sort((e, t) => {
+      for (let o = 0; o < this.fieldNames.length; o++) {
+        let r = e.values[o],
+          i = t.values[o],
+          a = Ae.compare(r, i, this.options.collation);
+        if (a !== 0) return a;
+      }
+      return e.pointer.compare(t.pointer);
+    });
+  }
+  static async deserialize(e, t) {
+    let o = new $r(e),
+      r = o.readJson(),
+      i = o.readUint8(),
+      a = [];
+    for (let u = 0; u < i; u++) {
+      let p = o.readString();
+      a.push(p);
+    }
+    let s = new n(a, { collation: r }),
+      l = o.readUint32(),
+      d = () => {
+        let u = [];
+        for (let c = 0; c < i; c++) {
+          let f = Ae.read(o);
+          u.push(f);
+        }
+        let p = _n.read(o);
+        s.entries.push({ values: u, pointer: p });
+      };
+    for (let u = 0; u < l; u++) {
+      let p = t?.();
+      (p && (await p), d());
+    }
+    return s;
+  }
+  serialize() {
+    let e = new mn();
+    (e.writeJson(this.options.collation), e.writeUint8(this.fieldNames.length));
+    for (let t of this.fieldNames) e.writeString(t);
+    (this.sortEntries(), e.writeUint32(this.entries.length));
+    for (let t of this.entries) {
+      let { values: o, pointer: r } = t;
+      for (let i of o) Ae.write(e, i);
+      r.write(e);
+    }
+    return e.subarray();
+  }
+  addItem(e, t) {
+    let o = this.fieldNames.map((r) => e.getField(r) ?? null);
+    this.entries.push({ values: o, pointer: t });
+  }
+};
+var Gr = class {
+  fields = new Map();
+  write(e) {
+    e.writeUint16(this.fields.size);
+    for (let [t, o] of this.fields) (e.writeString(t), Ae.write(e, o));
+  }
+  setField(e, t) {
+    this.fields.set(e, t);
+  }
+  getField(e) {
+    return this.fields.get(e);
+  }
+};
+function ob(n) {
+  let e = {},
+    t = n.readUint16();
+  for (let o = 0; o < t; o++) {
+    let r = n.readString();
+    e[r] = Ae.read(n);
+  }
+  return e;
+}
+var jh = K("serializeDatabase"),
+  wa = 4 * 1024 * 1024,
+  qh = 5e3;
+function Da(n) {
+  let e = n.items.map(({ fields: c }) => {
+      let f = new Gr();
+      for (let [g, h] of c) f.setField(g, h);
+      return f;
+    }),
+    t = n.indexes.map(({ fieldNames: c, collation: f }) => new Wr(c, { collation: f }));
+  function o() {
+    let c = new mn();
+    return (c.writeUint32(0), c);
+  }
+  let r = [],
+    i = 0,
+    a = o();
+  function s(c) {
+    let f = a.subarray(0, c);
+    (Un(f).setUint32(0, i), r.push(f));
+  }
+  for (let c of e) {
+    let f = a.getOffset();
+    (c.write(a),
+      a.getOffset() > wa && (s(f), (a = o()), (f = a.getOffset()), (i = 0), c.write(a)),
+      i++);
+    let g = new _n(r.length, f, a.getOffset() - f);
+    for (let h of t) h.addItem(c, g);
+  }
+  a.getOffset() > 0 && s();
+  let l = r.reduce((c, f) => c + f.length, 0);
+  n.disableIndexesForSmallCollections && l < qh && (t.length = 0);
+  let d = [],
+    u = 1 / 0;
+  for (let c of t) {
+    let f = c.serialize();
+    if (f.length >= wa) {
+      jh.warn("Skipping index:", f.length);
+      continue;
+    }
+    u + f.length > wa && (d.push([]), (u = 0));
+    let g = d.at(-1);
+    (C(g, "Chunk must exist"), g.push({ model: c, bytes: f }), (u += f.length));
+  }
+  let p = d.map((c) => {
+    let f = new mn(),
+      g = c.map(({ model: h, bytes: S }) => {
+        let v = f.getOffset();
+        f.writeBytes(S);
+        let y = f.getOffset();
+        return {
+          fieldNames: h.fieldNames,
+          collation: h.options.collation,
+          range: { from: v, to: y },
+        };
+      });
+    return { bytes: f.subarray(), indexes: g };
+  });
+  return { itemChunks: r, indexChunks: p };
+}
+var Hh = K("serializeDatabase"),
+  Jh = new _r(Ol("./serializeDatabaseWorker.js"), {
+    type: "module",
+    idleTimeoutMs: 3e4,
+    responseTimeoutMs: 12e4,
+    onFailure: (n, e) =>
+      Hh.reportErrorOncePerMinute(new Error("Database serialization worker failed"), {
+        message: n,
+        error: e,
+      }),
+  });
+async function np(n) {
+  return B.isOn("cmsCodeGenWorker") ? ((await Jh.postMessage(n)) ?? Da(n)) : Da(n);
+}
+async function op(n, e, t, o, r, i, a, s, l, d, u, p, c) {
+  let f = new Or(n, e, t, a, r, d, u, s, l),
+    g = n.getPropertyControls(t, e),
+    h = Object.entries(g),
+    S = nt(t, "includeDrafts"),
+    v = {
+      id: { type: Ct("string", a), isNullable: !1 },
+      [qi]: { type: Ct("date", a), isNullable: !0 },
+      [Hi]: { type: Ct("date", a), isNullable: !0 },
+      [io]: { type: Ct("string", a), isNullable: !0 },
+      [ao]: { type: Ct("string", a), isNullable: !0 },
+    };
+  function y(j) {
+    return Ct(j, a);
+  }
+  for (let [j, pe] of h) {
+    let H = nu(pe, y);
+    H && (v[j] = H);
+  }
+  let I = u.dedupe("schema", new U(v, 0)),
+    x = Zc(n.variables),
+    M = n.getSlugVariable(),
+    R = B.isOn("preloadLoaderScheduling"),
+    N = R ? Zu : Xu,
+    w = r.create(N),
+    F,
+    D,
+    k = c ? !0 : void 0,
+    z = B.isOn("cmsSqlite")
+      ? []
+      : n.getSortedChildren("public-only", "group-drafts").filter((j) => j.isDraft === k),
+    W = crypto.randomUUID();
+  if (c) {
+    let j = ye("collection", n.id);
+    if (
+      ((F = m`${a.addImport(`../${j}`, { exportSpecifier: "default", importBinding: "originalCollection" })}.collectionByLocaleId`),
+      z.length === 0)
+    ) {
+      let le = { id: W, displayName: n.resolveValue("name") ?? "Unknown", collectionByLocaleId: F };
+      return m`${le}`;
+    }
+    let pe = R ? tp : ep,
+      H = r.create(pe);
+    D = a.addImport(H.submoduleImport, { exportSpecifier: "DraftDatabaseCollection" });
+  }
+  let Z = a.addImport(w.submoduleImport, { exportSpecifier: "DatabaseCollection" }),
+    he = {},
+    ne = new Map(),
+    Oe = new Set();
+  for (let j of nt(t, c ? "includeDrafts" : "excludeDrafts")) (ne.set(j.id, j), Oe.add(j.id));
+  for (let j of S) {
+    let pe = [
+      { fieldNames: ["id"], collation: { type: 1 } },
+      { fieldNames: [io], collation: { type: 1 } },
+      { fieldNames: [ao], collation: { type: 1 } },
+    ];
+    M &&
+      pe.push(
+        { fieldNames: ["id", M.id], collation: { type: 1 } },
+        { fieldNames: [M.id, "id"], collation: { type: 0 } }
+      );
+    for (let [de] of h) pe.push({ fieldNames: [de], collation: { type: 0 } });
+    let H = new Ur(),
+      le = z.filter((de) => ur(de, j.id) !== "exclude"),
+      Me = [];
+    for (let de = 0; de < le.length; de++) {
+      let xe = le[de];
+      C(xe, "Node must exist");
+      let Yn = pr(xe, j, Nt, Oe),
+        Xn = ne.get(Yn) ?? ne.get(Nt),
+        Bt = [],
+        dt = (be, ct) => Bt.push([be, ct]);
+      dt("id", { type: "string", value: xe.id });
+      let Bo = xe.createdAt;
+      Bo && dt(qi, { type: "date", value: new Date(Bo).toISOString() });
+      let Ao = xe.updatedAt;
+      Ao && dt(Hi, { type: "date", value: new Date(Ao).toISOString() });
+      let Oo = le[de - 1];
+      Oo && dt(io, { type: "string", value: Oo.id });
+      let bs = le[de + 1];
+      bs && dt(ao, { type: "string", value: bs.id });
+      let xm = {
+        resolveColor(be) {
+          return p.addColor(be);
+        },
+        resolveFile(be) {
+          return s.resolve(be)?.src;
+        },
+        resolveImage(be, ct) {
+          return s.resolveResponsiveImage(be, { focalPoint: ct });
+        },
+        resolveLink(be) {
+          let ct = l.create(be);
+          if (!A(ct) && !sl(ct)) return ct;
+        },
+        resolveRichTextPointer(be) {
+          return f.add(be);
+        },
+        resolveVectorSetItemPointer(be) {
+          return H.add(be);
+        },
+      };
+      for (let [be, ct] of h) {
+        let Ts = eu(be, ct, x, g, xe);
+        if (A(Ts)) continue;
+        let Rm = be === M?.id ? j : Xn,
+          Ls = tu({ control: ct, controlProp: Ts, resolvers: xm, locale: Rm });
+        A(Ls) || dt(be, Ls);
+      }
+      Me.push({ fields: Bt });
+    }
+    let Mt = await np({ items: Me, indexes: pe, disableIndexesForSmallCollections: !0 }),
+      lt = a.addImport(w.submoduleImport, { exportSpecifier: "DatabaseDictionaryIndex" }),
+      gi = Mt.itemChunks.map((de, xe) => La(i.create(`chunk-${j.id}-${xe}`, va, de))),
+      Qn = [];
+    for (let de = 0; de < Mt.indexChunks.length; de++) {
+      let xe = Mt.indexChunks[de];
+      C(xe, "Chunk must exist");
+      let Yn = La(i.create(`indexes-${j.id}-${de}`, va, xe.bytes)),
+        Xn = xe.indexes.map((Bt) => {
+          let dt = {
+            url: u.dedupe("chunkUrl", Yn),
+            range: Bt.range,
+            fieldNames: u.dedupe("fieldNames", Bt.fieldNames),
+            collation: u.dedupe("collation", Bt.collation),
+            collectionSchema: I,
+          };
+          return m`new ${lt}(${dt})`;
+        });
+      Qn.push(...Xn);
+    }
+    let yi = H.serialize(e, o, u),
+      Fo = {
+        id: W + j.id,
+        schema: I,
+        chunks: gi,
+        indexes: Qn,
+        resolveRichText: f.resolveRichTextBinding,
+        resolveVectorSetItem: yi,
+      };
+    if (F && D) {
+      let de = m`new ${Z}(${Fo})`,
+        xe = m`${F}[${j.id}]`;
+      he[j.id] = m`new ${D}(${de}, ${xe}, ${io}, ${ao})`;
+    } else he[j.id] = m`new ${Z}(${Fo})`;
+  }
+  f.serialize();
+  let Ve = { id: W, displayName: n.resolveValue("name") ?? "Unknown", collectionByLocaleId: he };
+  return m`${Ve}`;
+}
+var ip = De(async (n, e, t) => Promise.all([rp(n.id, e, !1), rp(n.id, e, !0)]));
+async function rp(n, e, t) {
+  let { componentLoader: o, modulesStore: r, tree: i, assetMap: a } = e,
+    s = t ? "draftCollection" : "collection",
+    l = new Tr(a),
+    d = new zr(n),
+    u = new Qc(s, o, r, n),
+    p = i.getNodeWithTrait(n, q);
+  C(p, "Must have a source node to serialize");
+  let c = p.moduleSourceRevision,
+    f = Nc(p);
+  await Sr(f, r, o, "codegen-collection");
+  let { module: g } = Lc(o, r, p);
+  ke("collection_update", { moduleId: g?.id, recordCount: p.getItemCount(), source: "unknown" });
+  let h = p.getSlugVariable()?.id,
+    S = new on(),
+    v = new Dn(s, o, r, S),
+    y = new dr(S),
+    I = new Mr(p, v, S, void 0, i),
+    x = new lr(),
+    M = await op(p, o, i, r, u, d, v, l, I, S, y, x, t),
+    R = It("", {
+      framerRecordIdKey: "id",
+      framerSlug: h,
+      framerEnumToDisplayNameUtils: "2",
+      framerCollectionUtils: "1",
+      framerCollectionId: p.id,
+      framerColorSyntax: x.hasColorsOfType("wideGamut"),
+      framerAutoSizeImages: !0,
+      framerData: !0,
+    }),
+    N = S.create("data"),
+    w = eg(p, N, i, o, v, s),
+    F = Qh(
+      v,
+      y,
+      N,
+      "id",
+      h,
+      p,
+      B.isOn("localizationModelUpdate") ? nt(i, t ? "includeDrafts" : "excludeDrafts") : void 0
+    ),
+    D = m.joinLines(
+      ...v.statements,
+      ...y.list(),
+      R,
+      m`const ${N} = ${M}`,
+      m`export default ${N}`,
+      w,
+      ...Kh(p.variables, i.root.locales),
+      F
+    );
+  return {
+    type: s,
+    revision: c,
+    source: D,
+    artifacts: {
+      assets: new Set(l.keys),
+      binaryAssets: d.assets,
+      submodules: u.serialize(),
+      metrics: { nodes: p.getItemCount() },
+    },
+  };
+}
+function Kh(n, e) {
+  let t = [],
+    o = new U();
+  for (let r of n) {
+    if (r.type !== "enum") continue;
+    let i = new L(cc(r.id));
+    (t.push(m`export const ${i} = ${Fu(r, e, i)};`), (o[r.id] = i));
+  }
+  return (t.push(m`export const ${new L(gr)} = ${o};`), t);
+}
+function Qh(n, e, t, o, r, i, a) {
+  let s = a ? Yh(i, a) : void 0,
+    l = s ? e.dedupe("contentLocaleIdByRecordId", s) : void 0;
+  return m.joinLines(
+    m`export const utils = {`,
+    m`async getSlugByRecordId(id, locale) {`,
+    r ? Xh(n, e, t, o, r) : void 0,
+    m`},`,
+    m`async getRecordIdBySlug(slug, locale) {`,
+    r ? Zh(n, e, t, o, r) : void 0,
+    m`},`,
+    a
+      ? m.joinLines(
+          m`getContentLocaleIdByRecordId(id, locale) {`,
+          l ? m`return ${l}[id]?.[locale?.id ?? ${Nt}]` : void 0,
+          m`},`
+        )
+      : void 0,
+    m`}`
+  );
+}
+function Yh(n, e) {
+  let t = {},
+    o = e.find((i) => i.id === Nt) ?? e[0];
+  if (!o) return;
+  let r = new Set(e.map((i) => i.id));
+  for (let i of n.getSortedChildren("public-only", "group-drafts")) {
+    let a = {};
+    for (let s of e) {
+      if (ur(i, s.id) !== "fallback") continue;
+      let l = pr(i, s, o.id, r);
+      l !== s.id && (a[s.id] = l);
+    }
+    Object.keys(a).length > 0 && (t[i.id] = a);
+  }
+  if (Object.keys(t).length !== 0) return t;
+}
+function ap(n, e) {
+  let t = n.addImport("framer", { exportSpecifier: "QueryEngine" });
+  return e.dedupe("queryEngine", m`new ${t}()`);
+}
+function Xh(n, e, t, o, r) {
+  let i = ap(n, e),
+    a = {
+      from: { type: "Collection", data: t },
+      select: [{ type: "Identifier", name: r }],
+      where: {
+        type: "BinaryOperation",
+        operator: "==",
+        left: { type: "Identifier", name: o },
+        right: { type: "LiteralValue", value: m`id` },
+      },
+      limit: { type: "LiteralValue", value: 1 },
+    };
+  return m.joinLines(m`const [item] = await ${i}.query(${a}, locale)`, m`return item?.[${r}]`);
+}
+function Zh(n, e, t, o, r) {
+  let i = ap(n, e),
+    a = {
+      from: { type: "Collection", data: t },
+      select: [{ type: "Identifier", name: o }],
+      where: {
+        type: "BinaryOperation",
+        operator: "==",
+        left: { type: "Identifier", name: r },
+        right: { type: "LiteralValue", value: m`slug` },
+      },
+      limit: { type: "LiteralValue", value: 1 },
+    };
+  return m.joinLines(m`const [item] = await ${i}.query(${a}, locale)`, m`return item?.[${o}]`);
+}
+function eg(n, e, t, o, r, i) {
+  let a = ba(n, o, t, r, void 0, i, "ContentManagement");
+  if (A(a)) return;
+  let s = r.addImport("framer", { exportSpecifier: "addPropertyControls" });
+  return L.fn(s, e, a);
+}
+function jr({
+  componentName: n,
+  fontObjects: e,
+  fontReferences: t,
+  imports: o,
+  declarations: r,
+  sharedFontArrays: i = [],
+}) {
+  return m.joinLines(
+    ...r.list(),
+    L.fn(
+      o.addImport("framer", { exportSpecifier: "addFonts" }),
+      n,
+      yo({ fontObjects: e, fontReferences: t, sharedFontArrays: i }),
+      { supportsExplicitInterCodegen: !0 }
+    )
+  );
+}
+function yo({ fontObjects: n, fontReferences: e, sharedFontArrays: t = [] }) {
+  let o = [],
+    r = { explicitInter: !0, fonts: [] };
+  for (let i of n) {
+    try {
+      new URL(i.url);
+    } catch (a) {
+      throw new Error(
+        `Expected URL for font "${i.uiFamilyName}" to be a valid, absolute URL, but got: ${i.url}`,
+        { cause: a }
+      );
+    }
+    r.fonts.push(i);
+  }
+  o.push(r);
+  for (let i of e.values()) o.push(m`...${i}`);
+  for (let i of t) o.push(m`...${i}`);
+  return o;
+}
+var sp = De(async (n, { componentLoader: e, assetMap: t, tree: o, modulesStore: r }) => {
+  let i = new on(),
+    a = new Tr(t),
+    s = new Dn("componentPresets", e, r, i),
+    l = new Mr(n, s, i, void 0, o),
+    d = new dr(i),
+    u = new Fd(n, i),
+    p = new qc(n, o, u, d, i, s, a),
+    c = new Kc(i, u, p, a, l),
+    f = n.moduleSourceRevision,
+    g = {},
+    h = {},
+    S = n.getComponentPresets();
+  await Sr(
+    S.map((I) => I.componentIdentifier),
+    r,
+    e,
+    "codegen-component-presets"
+  );
+  let v = new on(),
+    y = new cr(v);
+  for (let I of S) {
+    let x = e.reactComponentForIdentifier(I.componentIdentifier);
+    C(x, "Can't find react component for preset");
+    let M = I.getFontsForCodeGeneration(e);
+    await bl.loadFonts(M);
+    let R = new Lr(y),
+      N = an(mr(x, "onlyPresets"), I.getRawControlProps()),
+      w = _c(I, x.properties, N, {
+        context: { assets: a, imports: s, links: l, fonts: R, fetches: c },
+      });
+    ((g[I.id] = new U(w)),
+      (R.fontObjects.size > 0 || R.fontReferences.size > 0) &&
+        (h[I.id] = yo({ fontObjects: R.fontObjects, fontReferences: R.fontReferences })));
+  }
+  return [
+    {
+      revision: f,
+      type: "componentPresets",
+      source: m.joinLines(
+        ...s.statements,
+        m`export const props = ${g}`,
+        ...y.list(),
+        m`export const fonts = ${h}`
+      ),
+      artifacts: { assets: a.keys, metrics: { nodes: Object.keys(g).length } },
+    },
+  ];
+});
+var tg = K("CodeGenerationStore");
+function lp(n, e, t) {
+  return (
+    t.add(n),
+    e[n]?.forEach((o) => {
+      t.has(o) || lp(o, e, t);
+    }),
+    t
+  );
+}
+function ng(n, e) {
+  let t = {};
+  for (let { fromNode: o, toNode: r } of e) {
+    let i = t[o] ?? new Set();
+    (i.add(r), (t[o] = i));
+  }
+  return lp(n, t, new Set([n]));
+}
+var dp = De(async (n, { componentLoader: e, tree: t, treeStore: o, modulesStore: r }) => {
+  let i = o.treeIndex,
+    a = J(`Prototype/${n.name || "Generated Prototype"}`),
+    s = t.get(n.homeNodeId);
+  C(s, () => `Can't serialize ${a}: home node must exist.`);
+  let l = t.getRect(s),
+    d = new Dn("prototype", e, r);
+  (d.addImport("react", { exportSpecifier: "*", importBinding: "React" }),
+    d.addImport("framer-motion", { exportSpecifier: "LayoutGroup" }),
+    d.addImport("framer", { exportSpecifier: "PageRoot" }),
+    d.addImport("framer", { exportSpecifier: "useInitialRouteComponent" }));
+  let u = {};
+  for (let h of ng(s.id, i.getPrototypeScreenLinks(t, n.id))) {
+    let v = `../${ye("screen", h)}`;
+    try {
+      await bc(e, [Be("screen", h, "default").value], r, "codegen-prototype");
+      let y = d.addImport(v, {
+        exportSpecifier: "default",
+        importBinding: "Screen",
+        lazy: h !== n.homeNodeId,
+      });
+      u[h] = { page: y, path: h };
+    } catch {
+      tg.error("Missing module for prototype screen", { screenId: h });
+    }
+  }
+  let p = J(n.homeNodeId),
+    c = J(u),
+    f = m`${d.addImport("react", { exportSpecifier: "*", importBinding: "React" })}.useId`,
+    g = new L(
+      $.sections(
+        $.linesFrom(d.statements),
+        `const routes = ${c}`,
+        $.lines(
+          "function Prototype({ layoutId }: { layoutId?: string }): JSX.Element {",
+          `  const InitialRouteComponent = useInitialRouteComponent(routes, "${n.homeNodeId}")`,
+          `  const defaultLayoutId = ${L.fn(f)};`,
+          "  if (!InitialRouteComponent) return null",
+          "  return (",
+          "    <LayoutGroup id={layoutId ?? defaultLayoutId} inherit={false}>",
+          `      <PageRoot RootComponent={InitialRouteComponent} isWebsite={false} routeId={${p}} routes={routes} />`,
+          "    </LayoutGroup>",
+          "  )",
+          "}"
+        ),
+        $.lines(
+          It("This is a generated Framer component.", {
+            framerIntrinsicHeight: l?.height,
+            framerIntrinsicWidth: l?.width,
+            framerSupportedLayoutWidth: "fixed",
+            framerSupportedLayoutHeight: "fixed",
+            framerPrototype: !0,
+          }),
+          "const Component: React.ComponentType<{}> = React.memo(Prototype)",
+          "export default Component;"
+        ),
+        `Component.displayName = ${a};`
+      )
+    );
+  return [{ type: "prototype", source: g, revision: void 0 }];
+});
+async function qr(n, e, t, o, r, i) {
+  return nl(e) &&
+    e.usesDOMRectCached() &&
+    !e.getDOMRect() &&
+    (await og(e, o, t, r), !e.cache.getRawDOMRect(e.id) && i)
+    ? Uo.atOrigin(i)
+    : n.getRect(e);
+}
+async function og(n, e, t, o) {
+  if (e) {
+    let a = (await e([n.id]))?.[0];
+    if (a) {
+      let { layoutMetrics: s } = a,
+        l = Uo.from(s);
+      n.cache.setRawDOMRect(n.id, l);
+      return;
+    }
+  }
+  if (!t) return;
+  let r = rg(t, o);
+  if (r) {
+    let i = Uo.atOrigin(r);
+    n.cache.setRawDOMRect(n.id, i);
+  }
+}
+function rg(n, e) {
+  if (!Te(n)) return;
+  let t = e.getPersistedModuleByLocalIdentifier(n);
+  if (!t) return;
+  let { intrinsicWidth: o, intrinsicHeight: r } = t.metadata;
+  if (_(o) && _(r)) return { width: o, height: r };
+}
+function $n(n, e) {
+  for (let [t, o] of n.rules) {
+    let r = e.get(o);
+    r ? r.push(t) : e.set(o, [t]);
+  }
+}
+function Wn(n) {
+  let e = [];
+  for (let [t, o] of n) e.push(Ge`${Ge.join(o, ", ")} { ${t} }`);
+  return e;
+}
+function Hr(n, e, t, o, r, i) {
+  return $.lines(
+    It("This is a generated Framer component.", r),
+    m`const ${n}: React.ComponentType<Props> = ${L.fn(i.addImport("framer", { exportSpecifier: "withCSS" }), t, o, e)} as typeof ${t};`,
+    m`export default ${n};`
+  );
+}
+var it = {
+    Screen: m`Screen`,
+    css: b.css,
+    ref: b.ref,
+    serializationHash: b.serializationHash,
+    sharedStyleClassNames: b.sharedStyleClassNames,
+    restProps: b.restProps,
+    refBinding: b.refBinding,
+  },
+  ig = new Set(Object.values(it).map((n) => J(n))),
+  cp = De(async (n, e, { serializationId: t, initialIntrinsicSize: o }) => {
+    let { modulesStore: r, tree: i } = e,
+      a = i.getScopeNodeFor(n);
+    if (!$e(a)) return [];
+    let s = i.get(n.id);
+    (C(s, "Must have a source node to serialize. This should be a primary variant."),
+      C($e(a), "Must have a scope node to serialize. This should be a CanvasPage Node."));
+    let l = `FramerScreen${Ot(n.id)}`,
+      d = Be("screen", n.id, "default").value,
+      { jsx: u, ctx: p } = await xr(s, a, e, new Set(ig).add(l), t);
+    C(u, "There must be JSX to serialize.");
+    let c = p.imports,
+      f = await qr(i, s, d, e.measureNodes, r, o),
+      g = p.events.navigationTargets.size > 0,
+      h = p.events.variantOnAppearId.get(n.id),
+      S = p.events.keyBindHooks.size > 0,
+      v = [];
+    for (let W of p.events.navigationTargets) W !== Hc && v.push(W);
+    let y = p.fonts.fontObjects,
+      I = new Map(p.fonts.fontReferences),
+      x = [],
+      M = new Set(p.css.sharedStyleIds),
+      R = [];
+    for (let W of M) {
+      let Z = ye("css", W),
+        he = c.addImport(`../${Z}`, { exportSpecifier: "*", importBinding: "sharedStyle" });
+      (R.push(he),
+        x.push(
+          L.fn(
+            c.addImport("framer", { exportSpecifier: "getFontsFromSharedStyle" }),
+            m`${he}.fonts`
+          )
+        ));
+    }
+    let N;
+    for (let W of p.componentPresetIds) {
+      N ??= c.addImport(`../${Ir}`, { exportSpecifier: "*", importBinding: "componentPresets" });
+      let Z = m`${N}.fonts?.[${W}]`;
+      x.push(
+        m`(${Z} ? ${L.fn(p.imports.addImport("framer", { exportSpecifier: "getFontsFromComponentPreset" }), Z)} : [])`
+      );
+    }
+    let w = new Map();
+    $n(p.css.get(), w);
+    let F = new L(l),
+      D = c.addImport("react", { exportSpecifier: "useRef" }),
+      k = a.resolveValue("name"),
+      z = $.lines(
+        g && `const preload = ${J(v)};`,
+        ...p.variables.fallbackDeclarations(),
+        ...p.declarations.file.list(),
+        m`const ${it.serializationHash} = ${t}`,
+        m`const ${it.Screen} = ${ag({ props: m`style, className` }, m`const fallbackRef = ${L.fn(m`${D}<HTMLElement>`, m`null`)}`, m`const ${it.refBinding} = ${it.ref} ?? fallbackRef`, g ? m`const navigate = ${L.fn(c.addImport("framer", { exportSpecifier: "usePrototypeNavigate" }), { preload: m`preload` })}` : void 0, m`const ${it.sharedStyleClassNames} = ${R.map((W) => m`${W}.className`)}`, ...p.declarations.component.list(), S && $.linesFrom(p.events.keyBindHooks), h && L.fn(c.addImport("framer", { exportSpecifier: "useOnAppear" }), h), m`return ${u}`)}`,
+        m`const ${it.css} = ${[...p.css.conditionalRules(t), ...Wn(w), ...R.map((W) => m`...${W}.css`)]}`,
+        Hr(
+          F,
+          t,
+          it.Screen,
+          it.css,
+          {
+            framerIntrinsicHeight: f.height,
+            framerIntrinsicWidth: f.width,
+            framerSupportedLayoutWidth: "fixed",
+            framerSupportedLayoutHeight: "fixed",
+            framerScreen: void 0,
+            framerDisplayContentsDiv: !1,
+          },
+          c
+        ),
+        m`${F}.displayName = ${`Screens/${k ? k.trim() : "Generated Component"}`};`,
+        m`${F}.defaultProps = ${{ width: f.width, height: f.height }};`,
+        jr({
+          componentName: F,
+          fontObjects: y,
+          fontReferences: I,
+          imports: c,
+          declarations: p.declarations.font,
+          sharedFontArrays: x,
+        })
+      );
+    return [
+      {
+        type: "screen",
+        revision: void 0,
+        source: new L($.sections($.linesFrom(c.statements), z)),
+        artifacts: {
+          assets: p.assets.keys,
+          packageDependencies: p.packages.dependencies,
+          metrics: p.metrics.get(),
+          cmsVersion: Nr(c),
+        },
+      },
+    ];
+  });
+function ag({ props: n }, ...e) {
+  return new L(
+    $.lines(m`React.forwardRef(function({ ${n}, ...${it.restProps} }, ${it.ref}) {`, ...e, m`});`)
+  );
+}
+var pp = "{serializationId}";
+function up(n) {
+  return `.${pp} ${n}`;
+}
+var fp = De(async (n, { componentLoader: e, tree: t }, { serializationId: o }) => {
+  let r = new on(),
+    i = new cr(r),
+    a = new Lr(i),
+    s = n.getFontsForCodeGeneration(),
+    l = n.moduleSourceRevision,
+    d = ml(n);
+  for (let y of s) a.addFontObjectBySelector(y, d);
+  let u = [],
+    p = new lr(),
+    c = { componentLoader: e, colors: p };
+  for (let { selectors: y, declarations: I } of n.getCSS(c)) {
+    let x = y.map(up);
+    u.push(`${x.join(", ")} { ${I} }`);
+  }
+  let f = t
+    .getNodesWithTrait(n.cache.replicaInstances ?? [], Qd)
+    .filter(Ud)
+    .sort((y, I) => (I.breakpointWidth ?? 0) - (y.breakpointWidth ?? 0));
+  for (let y = 0; y < f.length; y++) {
+    let I = f[y];
+    if (A(I)) continue;
+    let x = f[y + 1],
+      M = I.breakpointWidth - 1,
+      R = x?.breakpointWidth ?? 0;
+    for (let { selectors: N, declarations: w } of I.getCSS(c)) {
+      let D = `${N.map(up).join(", ")} { ${w} }`;
+      u.push(`@media (max-width: ${M}px) and (min-width: ${R}px) { ${D} }`);
+    }
+  }
+  let g = p.getWideGamutColorRules(`.${o}`);
+  g.length && u.push(`@supports (color: color(display-p3 1 1 1)) { ${g.join(" ")} }`);
+  let h = u.map((y) => y.replaceAll(pp, o)),
+    S = yo({ fontObjects: a.fontObjects, fontReferences: a.fontReferences }),
+    v = m.joinLines(
+      m`import { fontStore } from "framer";`,
+      m`fontStore.loadFonts(${s});`,
+      ...i.list(),
+      m`export const fonts = ${S};`,
+      m`export const css = ${h};`,
+      m`export const className = ${o};`
+    );
+  return [{ revision: l, type: "css", source: v, artifacts: { metrics: { nodes: u.length } } }];
+});
+function Va(n) {
+  if (ol(n))
+    return {
+      widthType: n.widthType,
+      heightType: n.heightType,
+      ...(al(n)
+        ? {
+            minHeight: n.minHeight,
+            maxHeight: n.maxHeight,
+            minWidth: n.minWidth,
+            maxWidth: n.maxWidth,
+          }
+        : il),
+    };
+}
+function Pa(n, e) {
+  if (tl(e)) return { min: n.getRect(e).width };
+}
+var sg = new Set(Object.values(b).map((n) => J(n)));
+function lg(n, e) {
+  if (Ln(n)) {
+    let t = e.get(n.parentid);
+    return !et(t) || !t.isLoaded() ? null : t;
+  }
+  return e.current(n);
+}
+var Ea = De(async (n, e, { serializationId: t, initialIntrinsicSize: o }) => {
+  let { modulesStore: r, tree: i, measureNodes: a } = e,
+    s = qe(n, i) ? n.moduleSourceRevision : void 0,
+    l = lg(n, i);
+  C(l?.isLoaded(), "The scope node must be valid.");
+  let d = Xc(l),
+    u = Xe(l) ? l.baseVariantId : n.id,
+    p = i.get(u);
+  C(p, "Must have a source node to serialize. This should be a primary variant.");
+  let c = `Framer${n.id}`,
+    f = new L(c),
+    { jsx: g, ctx: h } = await xr(p, l, e, new Set(sg).add(c), t);
+  C(g, "There must be JSX to serialize.");
+  let S = h.imports,
+    v = et(l),
+    y = v ? void 0 : l.instanceIdentifier,
+    I = await qr(i, p, y, a, r, o),
+    x = Xe(l) ? l.getReplicaVariants() : [],
+    { variants: M, hook: R } = h.preload.getHook(),
+    { gestures: N, breakpoints: w, classNames: F, sizes: D, appearEventMap: k } = Mg(p, x, h, M),
+    z = ee(l) ? [l.baseVariantId, ...l.getTopLevelReplicaVariants().map(Dr)] : [],
+    W = z.length > 1,
+    Z = !Ut(N),
+    he = !Ut(k),
+    ne = !Ut(w),
+    Oe = m`${S.addImport("react", { exportSpecifier: "*", importBinding: "React" })}.useId`,
+    { mediaQueries: Ve, sharedStyleImports: j, sharedFontArrays: pe, css: H } = Cg(t, h, x, w, l),
+    le = Lg(l, h.componentLoader, h.declarations),
+    Me = ft.applyTransforms(g, xg(l, h, Ig(l, p, x, Ve, i, h), ne ? b.baseVariant : void 0, le)),
+    Mt = pg(l, h),
+    lt = mg(l, h),
+    gi = lt ? h.cmsCodegen.createDetailPageDataCode(lt) : void 0,
+    Qn = h.preload.getRouteLoaderCode(),
+    { props: yi, types: Fo, propertyControls: de, variableMap: xe } = Ar(l, h, An(l), d, le),
+    Yn =
+      !ne &&
+      m`const ${b.layoutDependency} = ${L.fn(h.declarations.file.dedupe("createLayoutDependency", m`(props, variants) => {${m.joinLines(m`if (props.layoutDependency) return variants.join('-') + props.layoutDependency`, m`return variants.join('-')`)}}`), b.props, b.variants)}`,
+    { cursors: Xn } = h.customCursors,
+    Bt = S.addImport("react", { exportSpecifier: "useRef" }),
+    dt = vg(l),
+    Bo = $.sections(
+      Z && m`const ${b.enabledGestures} = ${N};`,
+      W && `const ${b.cycleOrder} = ${J(z)};`,
+      ne && `const ${b.breakpoints} = ${J(Ve)}`,
+      ne && `const ${b.isBrowser} = () => typeof document !== "undefined";`,
+      v && m`const ${b.variant} = undefined;`,
+      v && m`const ${b.breakpoints} = undefined;`,
+      v && m`const ${b.layoutId} = undefined;`,
+      v && m`const ${b.className} = undefined;`,
+      v && m`const ${b.style} = undefined;`,
+      V(l) && m`export const ${b.queryParamNames} = ${dt}`,
+      m`const ${b.serializationHash} = ${t}`,
+      `const ${b.variantClassNames} = ${J(F)};`,
+      !ne && hg,
+      m.linesFrom(h.variables.fallbackDeclarations()),
+      ...h.declarations.file.list(),
+      `export interface Props extends React.HTMLAttributes<HTMLDivElement> { ${Fo} }`,
+      `const ${b.Component} = ${cg(m`const fallbackRef = ${L.fn(m`${Bt}<HTMLElement>`, m`null`)}`, m`const ${b.refBinding} = ${b.ref} ?? fallbackRef`, m`const ${b.defaultLayoutId} = ${L.fn(Oe)}`, B.isOn("localizationModelUpdate") ? m`const { ${b.activeLocale}, ${b.contentLocale}, ${b.setLocale} } = ${L.fn(S.addImport("framer", { exportSpecifier: "useLocaleInfo" }))}` : m`const { ${b.activeLocale}, ${b.setLocale} } = ${L.fn(S.addImport("framer", { exportSpecifier: "useLocaleInfo" }))}`, h.variables.shouldProvideLayoutDirection ? m`const ${b.layoutDirection} = ${L.fn(S.addImport("framer", { exportSpecifier: "useLayoutDirection" }))}` : void 0, ee(l) || V(l) ? m`const ${b.componentViewport} = ${L.fn(h.imports.addImport("framer", { exportSpecifier: "useComponentViewport" }))}` : void 0, gi, V(l) && Sg(i, e.componentLoader, l, S, h.variables), yi, V(l) && gg({ webPageNodeId: n.id, metadataDependencies: Mt, imports: S, bindings: h.bindings }), ne ? m.joinLines(m`const [${b.baseVariant}, ${b.hydratedBaseVariant}] = ${L.fn(S.addImport("framer", { exportSpecifier: "useHydratedBreakpointVariants" }), b.variant, b.breakpoints, m`false`)};`, m`const ${b.gestureVariant} = undefined;`) : dg(p.id, Z, W, S), Yn, Tg(h), m`const ${b.sharedStyleClassNames} = ${j.map((Oo) => m`${Oo}.className`)}`, ...h.declarations.component.list(), he && L.fn(S.addImport("framer", { exportSpecifier: "useOnVariantChange" }), ne ? b.hydratedBaseVariant : b.baseVariant, k), Xn, R?.(Z ? b.enabledGestures : m`undefined`), m`return (${Me})`)}`,
+      H,
+      Hr(f, t, b.Component, b.css, ug(l, h, I, D, xe), S),
+      `${c}.displayName = ${J(l.resolveValue("name")?.trim() || "Generated Component")};`,
+      `${c}.defaultProps = ${J({ width: I.width, height: I.height })};`,
+      de &&
+        L.fn(
+          S.addImport("framer", { exportSpecifier: "addPropertyControls" }),
+          f,
+          new L(`${J(de)} as any`)
+        ),
+      jr({
+        componentName: f,
+        fontObjects: h.fonts.fontObjects,
+        fontReferences: h.fonts.fontReferences,
+        imports: S,
+        declarations: h.declarations.font,
+        sharedFontArrays: pe,
+      }),
+      Qn && m`${f}.loader = ${Qn}`
+    ),
+    [Ao] = V(l) ? await iu(l, e, { serializationId: t }) : [];
+  return wr([
+    {
+      type: d,
+      revision: s,
+      source: new L($.sections($.linesFrom(S.statements), Bo)),
+      artifacts: {
+        packageDependencies: h.packages.dependencies,
+        errors: h.errors.errors,
+        assets: h.assets.keys,
+        metrics: h.metrics.get(),
+        cmsVersion: Nr(S),
+      },
+    },
+    Ao,
+    h.localizedValues.module(s),
+  ]);
+});
+function dg(n, e, t, o) {
+  let r = U.fromEntries([
+      [b.defaultVariant, n],
+      [b.variant, b.variant],
+      [b.variantClassNames, b.variantClassNames],
+      [b.enabledGestures, e ? b.enabledGestures : void 0],
+      [b.cycleOrder, t ? b.cycleOrder : void 0],
+      [b.ref, b.refBinding],
+    ]),
+    i = L.fn(o.addImport("framer", { exportSpecifier: "useVariantState" }), r),
+    a = b.variants,
+    s = b.baseVariant,
+    l = m`setVariant`,
+    d = b.gestureVariant,
+    u = b.classNames,
+    p = b.setGestureState,
+    c = b.gestureHandlers,
+    f = b.clearLoadingGesture,
+    g = b.isLoading;
+  return $.lines(
+    m`const ${{ variants: a, baseVariant: s, setVariant: l, gestureVariant: d, classNames: u, setGestureState: p, gestureHandlers: c, clearLoadingGesture: f, isLoading: g }} = ${i}`
+  );
+}
+function cg(...n) {
+  return $.sections(
+    m`React.forwardRef<HTMLDivElement, Props>(function(${b.props}, ${b.ref}) {`,
+    ...n,
+    m`});`
+  );
+}
+function ug(n, e, t, o, r) {
+  let { height: i, width: a } = t,
+    s = {
+      propertyName: "variant",
+      data: Object.fromEntries(Object.entries(o).map(([d, u]) => [d, _d(u)])),
+    },
+    l = {
+      framerIntrinsicHeight: i,
+      framerIntrinsicWidth: a,
+      framerRootFontSize: Tl(n) ? n.getPrimaryVariant()?.rootFontSize : void 0,
+      framerCanvasComponentVariantDetails: JSON.stringify(s),
+      framerVariables: r && JSON.stringify(r),
+      framerImmutableVariables: !0,
+      framerResolvesOwnDefaults: B.isOn("smartComponentResolvesOwnDefaults") ? !0 : void 0,
+      framerDisplayContentsDiv: !1,
+      framerAutoSizeImages: !0,
+      framerComponentViewportWidth: !0,
+      framerColorSyntax: !0,
+      framerVectorSets: e.vectorSets.annotation(),
+    };
+  if (X(n)) {
+    let d = {},
+      u = n.getBreakpointValues();
+    for (let p in u) {
+      let c = e.tree.get(p);
+      d[p] = {
+        ...u[p],
+        canvasClassName: yp(p),
+        minHeight: c?.height,
+        viewportHeight: c?.viewportHeight,
+        name: c?.resolveValue("name") ?? void 0,
+        width: c?.widthType === 0 ? c?.width : void 0,
+        rootFontSize: c?.rootFontSize ?? pl,
+      };
+    }
+    ((l.framerHitTargets = e.hitTargets.annotation()),
+      (l.framerBreakpoints = JSON.stringify(d)),
+      (l.framerDefaultVariant = n.baseVariantId),
+      (l.framerTrackingIds = e.trackingIds.annotation()),
+      (l.framerLayoutTemplate = !0));
+  } else
+    V(n)
+      ? ((l.framerAcceptsLayoutTemplate = e.acceptsLayoutTemplate),
+        (l.framerTrackingIds = e.trackingIds.annotation()),
+        (l.framerScrollSections = e.elementIds.annotation() ?? !1),
+        (l.framerResponsiveScreen = !0),
+        (l.framerLayoutTemplateFlowEffect = !0))
+      : ee(n)
+        ? (l.framerTrackingIds = e.trackingIds.annotation())
+        : et(n)
+          ? (l.framerDesign = !0)
+          : ee(n) || (l.framerScreen = !0);
+  return l;
+}
+function pg(n, e) {
+  if (!V(n)) return {};
+  let t = fg(n, e),
+    o = au(n, t),
+    r = {};
+  for (let i of o) {
+    let a = qs(i, n.id);
+    r[i] = e.variables.create(a);
+  }
+  return r;
+}
+function fg(n, e) {
+  if (ro(n) && dn(e.tree, n))
+    return (
+      n.getProvidedControlMap(
+        e.tree,
+        void 0,
+        e.componentLoader,
+        e.componentLoader.activeBundleHash
+      ) ?? ji
+    );
+}
+function mg(n, e) {
+  if (!V(n) || !ro(n) || !dn(e.tree, n)) return;
+  let o =
+      n.getProvidedControlMap(
+        e.tree,
+        void 0,
+        e.componentLoader,
+        e.componentLoader.activeBundleHash
+      ) ?? ji,
+    r = e.variables.getBindings(n.id),
+    i = new Set();
+  for (let [a] of o) r.has(a) && i.add(a);
+  return { scopeNode: n, controlMap: o, usedVariableIds: i };
+}
+var hg = $.lines(
+  "function addPropertyOverrides(overrides, ...variants) {",
+  "const nextOverrides = {}",
+  "variants?.forEach(variant => variant && Object.assign(nextOverrides, overrides[variant]))",
+  "return nextOverrides",
+  "}"
+);
+function gg({ webPageNodeId: n, metadataDependencies: e, imports: t, bindings: o }) {
+  let r = t.addImport(`../${ou(n).localId}`, {
+      exportSpecifier: "default",
+      importBinding: "metadataProvider",
+    }),
+    i = o.create("metadata"),
+    a = t.addImport("framer", { exportSpecifier: "useMetadata" }),
+    s = B.isOn("localizationModelUpdate") ? b.contentLocale : b.activeLocale,
+    l = L.fn(r, e, s),
+    d = Object.values(e).concat(s);
+  return $.lines(m`const ${i} = React.useMemo(() => ${l}, ${d})`, L.fn(a, i));
+}
+function yg(n) {
+  if (el(n)) return { type: n.gesture, topLevel: n.replicaInfo.inheritsFrom };
+}
+function Sg(n, e, t, o, r) {
+  let i = t.variables.filter(Ie);
+  if (i.length === 0) return;
+  let a = r.getBindings(t.id),
+    s = [];
+  for (let l of i) {
+    if (!$i(l)) continue;
+    let d = ua(l),
+      u;
+    switch (l.type) {
+      case "boolean": {
+        let g = o.addImport("framer", { exportSpecifier: "useBooleanQueryParam" }),
+          h = new U({
+            initialValue: l.optional ? void 0 : l.initialValue,
+            parameterName: d,
+            optional: l.optional ? !0 : void 0,
+          });
+        u = L.fn(g, h);
+        break;
+      }
+      case "string": {
+        let g = o.addImport("framer", { exportSpecifier: "useStringQueryParam" }),
+          h = new U({
+            initialValue: l.optional ? void 0 : l.initialValue,
+            parameterName: d,
+            optional: l.optional === !0 ? !0 : void 0,
+          });
+        u = L.fn(g, h);
+        break;
+      }
+      case "number": {
+        let g = o.addImport("framer", { exportSpecifier: "useNumberQueryParam" }),
+          h = new U({
+            initialValue: l.optional ? void 0 : l.initialValue,
+            parameterName: d,
+            optional: l.optional === !0 ? !0 : void 0,
+          });
+        u = L.fn(g, h);
+        break;
+      }
+      case "date": {
+        let g = o.addImport("framer", { exportSpecifier: "useDateQueryParam" }),
+          h = new U({
+            initialValue: l.optional ? void 0 : l.initialValue,
+            parameterName: d,
+            displayTime: l.options?.displayTime === !0 ? !0 : void 0,
+            optional: l.optional === !0 ? !0 : void 0,
+          });
+        u = L.fn(g, h);
+        break;
+      }
+      case "collectionreference": {
+        let g = o.addImport("framer", { exportSpecifier: "useCollectionReferenceQueryParam" }),
+          h = new U({
+            collectionId: Fi(l.dataIdentifier),
+            initialValue: l.optional ? void 0 : l.initialValue,
+            parameterName: d,
+            optional: l.optional === !0 ? !0 : void 0,
+          });
+        u = L.fn(g, h);
+        break;
+      }
+      case "multicollectionreference": {
+        let g = o.addImport("framer", { exportSpecifier: "useMultiCollectionReferenceQueryParam" }),
+          h = new U({
+            collectionId: Fi(l.dataIdentifier),
+            initialValue: l.optional ? void 0 : l.initialValue,
+            parameterName: d,
+            optional: l.optional === !0 ? !0 : void 0,
+          });
+        u = L.fn(g, h);
+        break;
+      }
+      case "controlReference": {
+        if (l.expectedType !== "enum") continue;
+        let g = yd(n, e, l);
+        if (!g || g.type !== "enum") continue;
+        let h = o.addImport("framer", { exportSpecifier: "useEnumQueryParam" }),
+          S = l.entityIdentifier,
+          v = E(S);
+        if (!te(v)) continue;
+        let y = l.controlKey,
+          x = e.dataForIdentifier(S)?.annotations?.framerEnumToDisplayNameUtils;
+        C(T(x) && Number.parseInt(x, 10) === 2, "Unexpected FramerEnumToDisplayNameUtils version");
+        let M = o.addModuleImport(v, { exportSpecifier: gr });
+        if (!M) continue;
+        let R = o.addModuleImport(v, { importBinding: `${Pl(y)}CollectionData` });
+        if (!R) continue;
+        let N = T(l.initialValue) ? l.initialValue : rr("enum"),
+          w;
+        (l.optional === !0 || !N
+          ? (w = new U({
+              getOptionTitle: m`${M}?.[${y}]`,
+              initialValue: void 0,
+              optional: !0,
+              options: m`${R}.propertyControls?.[${y}]?.options`,
+              parameterName: d,
+            }))
+          : (w = new U({
+              getOptionTitle: m`${M}?.[${y}]`,
+              initialValue: N,
+              options: m`${R}.propertyControls?.[${y}]?.options`,
+              parameterName: d,
+            })),
+          (u = L.fn(h, w)));
+        break;
+      }
+      default:
+        Y(l);
+    }
+    let p = a.get(l.id);
+    if (!p) continue;
+    let c = r.getSetterBinding(l.id),
+      f = [p];
+    (c && f.push(c), s.push(m`const ${f} = ${u};`));
+  }
+  return m.joinLines(...s);
+}
+function vg(n) {
+  return V(n) ? n.variables.flatMap((e) => (Ie(e) ? ($i(e) ? [ua(e)] : []) : [])) : [];
+}
+function yp(n) {
+  return `framer-${Ot(n)}-override`;
+}
+function mp(n, e) {
+  if (!(!dl(n) || (cl(n) && !n.fillEnabled)))
+    return n.fillType === "color" && We(n.fillColor) ? e(n.fillColor, n, "fill") : Ad(n);
+}
+function hp(n) {
+  if (!fl(n)) return;
+  let e = (n.rootFontSize / 16) * 100;
+  return rl(e, "%");
+}
+function gp(n, e) {
+  return T(n) ? n : L.fn(e.imports.addImport("framer", { exportSpecifier: "safeCSSValue" }), n);
+}
+function Ig(n, e, t, o, r, i) {
+  if (!X(n) && !V(n)) return;
+  let a = Yc(r, i.declarations, i.variables, i.valueTransforms),
+    s = X(n) ? ":root" : "html",
+    l = `${s} body`,
+    d = hp(e),
+    u = mp(e, a) ?? "none",
+    p = [Ge`${l} { background: ${gp(u, i)}; }`];
+  T(d) && p.push(`${s} { font-size: ${d}; }`);
+  for (let c of t) {
+    let f = o[c.id];
+    if (f) {
+      let g = mp(c, a) ?? "none",
+        h = hp(c),
+        S = [];
+      if (
+        (da(u, g) || S.push(Ge`${l} { background: ${gp(g, i)}; }`),
+        da(d, h) || S.push(`${s} { font-size: ${h}; }`),
+        S.length === 0)
+      )
+        continue;
+      p.push(Ge`@media ${f} { ${Ge.join(S, " ")} }`);
+    }
+  }
+  return Ge.join(p, " ");
+}
+function Cg(n, e, t, o, r) {
+  let i = ec(Zd(o)),
+    a = [],
+    s = new Map();
+  if (X(r)) {
+    let h = r.getPrimaryVariant(),
+      S = { marginBottom: Xi(h, e) };
+    e.css.createRule(`[${la}="true"] > #overlay`, Yi(S));
+    for (let v of t) {
+      let y = { marginBottom: Xi(v, e) },
+        I = $c(y, S);
+      !I || Ut(I) || e.css.createRule(`[${la}="true"] > #overlay`, Yi(I), v.id);
+    }
+  }
+  $n(e.css.get(), s);
+  let l = {},
+    d = {};
+  for (let h of t) {
+    let S = i[h.id];
+    if (S) {
+      let v = new Map();
+      if (($n(e.css.get(h.id), v), !v.size)) continue;
+      X(r)
+        ? ((l[h.id] = Wn(v)), (d[h.id] = `.${yp(h.id)}`))
+        : a.push(Ge`@media ${S} { ${Ge.join(Wn(v), " ")}}`);
+    } else $n(e.css.get(h.id), s);
+  }
+  let u = [],
+    p = [];
+  for (let h of e.css.sharedStyleIds) {
+    let S = ye("css", h),
+      v = e.imports.addImport(`../${S}`, { exportSpecifier: "*", importBinding: "sharedStyle" });
+    (p.push(v),
+      u.push(
+        L.fn(
+          e.imports.addImport("framer", { exportSpecifier: "getFontsFromSharedStyle" }),
+          m`${v}.fonts`
+        )
+      ));
+  }
+  let c;
+  for (let h of e.componentPresetIds) {
+    c ??= e.imports.addImport(`../${Ir}`, {
+      exportSpecifier: "*",
+      importBinding: "componentPresets",
+    });
+    let S = m`${c}.fonts?.[${h}]`;
+    u.push(
+      m`(${S} ? ${L.fn(e.imports.addImport("framer", { exportSpecifier: "getFontsFromComponentPreset" }), S)} : [])`
+    );
+  }
+  let f = [...Wn(s), ...p.map((h) => m`...${h}.css`), ...e.css.conditionalRules(n)],
+    g = bg(r, e, f, a, l, d, i);
+  return {
+    sharedStyleImports: p,
+    sharedFontArrays: u,
+    mediaQueries: i,
+    css: m`const ${b.css} = ${g}`,
+  };
+}
+function bg(n, e, t, o, r, i, a) {
+  if (ee(n) || et(n)) return t;
+  if (V(n)) return [...t, ...o];
+  if (X(n)) {
+    let s = e.declarations.file.dedupe("breakpointRules", r),
+      l = e.declarations.file.dedupe("breakpointKeys", m`Object.keys(${s})`),
+      d = e.declarations.file.dedupe("selectors", i),
+      u = e.declarations.file.dedupe("rules", t),
+      p = e.declarations.file.dedupe("mediaQueries", a),
+      c = e.bindings.create("target"),
+      f = e.bindings.create("query"),
+      g = e.bindings.create("selector"),
+      h = e.bindings.create("rule"),
+      S = e.imports.addImport("framer", { exportSpecifier: "RenderTarget" });
+    return m`(target) => {${m.joinLines(m`const isStaticRenderer = ${c} === ${S}.canvas || ${c} === ${S}.export`, m`if (!isStaticRenderer) {${m.joinLines(m`return [...${u}, ...${l}.map(key => {${m.joinLines(m`const ${f} = ${p}[key]`, m`return ${Ge`@media ${f} { ${m`${s}[key].join(" ")`} }`}`)}})]`)}}`, m`return [...${u}, ...${l}.flatMap(key => {${m.joinLines(m`const ${g} = ${d}[key]`, m`return ${s}[key].map(${h} => ${Ge`${g} {${h}}`})`)}})]`)}}`;
+  }
+  Y(n);
+}
+function Tg(n) {
+  if (n.events.needsPathVariables)
+    return `const ${Jc} = React.useContext(${n.imports.addImport("framer", { exportSpecifier: "PathVariablesContext" })});`;
+}
+function Lg(n, e, t) {
+  let o = Xe(n) ? n.getTopLevelVariants() : [];
+  if (o.length < 2) return;
+  let r = new U();
+  for (let i of o) {
+    let a = i.resolveValue("name") ?? ot(e, i);
+    r[a] = i.id;
+  }
+  return t.file.dedupe("humanReadableVariantMap", r);
+}
+function Mg(n, e, t, o) {
+  let r = Va(n);
+  C(r, "The primary variant should have a default size as it must be a FrameNode.");
+  let i = { default: r },
+    a = { [n.id]: `framer-v-${Ot(n.id)}` },
+    s = {},
+    l = {},
+    d = {},
+    u = Pa(t.tree, n);
+  u && (d[n.id] = u);
+  let p = t.events.variantOnAppearId.get(n.id),
+    c = {};
+  !A(p) && !L.isUndefined(p) && (c.default = p);
+  for (let f of e) {
+    t.metrics.count("variants");
+    let g = yg(f);
+    if (g) {
+      let I = s[g.topLevel] ?? {};
+      ((I[g.type] = g.type === "loading" ? o?.has(g.topLevel) : !0),
+        (s[g.topLevel] = I),
+        (l[g.topLevel] = [...(l[g.topLevel] ?? []), f.id]));
+    } else a[f.id] = `framer-v-${Ot(f.id)}`;
+    let h = Va(f);
+    h && (i[f.id] = h);
+    let S = Pa(t.tree, f);
+    S && (d[f.id] = S);
+    let v = t.events.variantOnAppearId.get(f.id),
+      y = J(c[f.replicaInfo.inheritsFrom ?? ""] ?? p);
+    !A(v) && J(v) !== y && (c[f.id] = v);
+  }
+  return { gestures: s, breakpoints: d, classNames: a, sizes: i, appearEventMap: c };
+}
+function xg(n, e, t, o, r) {
+  let i = [];
+  if ((X(n) || V(n)) && t) {
+    let s = e.declarations.file.dedupe(
+      "HTMLStyle",
+      m`({value}) => {${m.joinLines(m`const onCanvas = ${L.fn(e.imports.addImport("framer", { exportSpecifier: "useIsOnFramerCanvas" }))}`, m`if (onCanvas) return null`, m`return ${ft.tag("style", new U({ "data-framer-html-style": "", dangerouslySetInnerHTML: { __html: m`value` } }))}`)}}`
+    );
+    i.push((l) => ft`${m.joinLines(ft.tag(s, new U({ value: t })), l)}`);
+  }
+  if (ee(n)) {
+    let s = e.imports.addImport("react", { exportSpecifier: "*", importBinding: "React" }),
+      l = e.imports.addImport("framer-motion", { exportSpecifier: "motion.create" }),
+      d = e.declarations.file.dedupe("Variants", L.fn(l, m`${s}.Fragment`));
+    i.push((u) => ft.tag(d, new U({ initial: !1, animate: b.variants }), u));
+  }
+  if (V(n) || X(n) || et(n)) {
+    let s = new U({ id: X(n) ? Ks : Js });
+    i.push((l) => ft`${m.joinLines(l, ft.tag("div", s))}`);
+  }
+  let a = e.imports.addImport("framer-motion", { exportSpecifier: "LayoutGroup" });
+  if (
+    (i.push((s) =>
+      ft.tag(
+        a,
+        new U({
+          id:
+            (V(n) || X(n)) && B.isOn("scopedComponentElementIds")
+              ? m`${b.layoutId} ?? ${e.elementIds.getComponentScopeId()}`
+              : m`${b.layoutId} ?? ${b.defaultLayoutId}`,
+        }),
+        s
+      )
+    ),
+    V(n) || X(n))
+  ) {
+    let s = e.imports.addImport("framer", { exportSpecifier: "GeneratedComponentContext" });
+    i.push((l) =>
+      ft.tag(
+        m`${s}.Provider`,
+        new U({
+          value: {
+            primaryVariantId: n.baseVariantId,
+            variantClassNames: b.variantClassNames,
+            activeVariantId: o,
+            humanReadableVariantMap: r,
+            isLayoutTemplate: X(n) ? !0 : void 0,
+          },
+        }),
+        l
+      )
+    );
+  }
+  return i;
+}
+function za() {
+  let n = new L(globalThis.framerBuildInfo.version ?? "unknown");
+  return m`// Generated by Framer (${n})`;
+}
+var ka = {
+    ref: b.ref,
+    restProps: b.restProps,
+    style: b.style,
+    props: b.props,
+    className: b.className,
+    layoutId: b.layoutId,
+  },
+  Fa = m`css`,
+  So = m`Icon`,
+  Jr = m`Component`,
+  vo = m`Props`,
+  Rg = [...Object.values(ka), Fa, So, Jr, vo].map((n) => J(n)),
+  Sp = De(async (n, e, t) => {
+    let { serializationId: o } = t,
+      { modulesStore: r, tree: i, vectorsStore: a } = e,
+      s = i.getScopeNodeFor(n);
+    C(we(s), "Vector set item must be in a VectorSetNode.");
+    let l = i.get(n.id);
+    C(l, "Must have a source node to serialize");
+    let { ctx: d, jsx: u, svg: p, type: c } = Bd(l, s, e, o, Rg),
+      f = Be("vectorSet", s.id, "default").localId,
+      g = r.getPersistedModuleByLocalId(f);
+    C(g, "VectorSet must be persisted.");
+    let h = i.getRect(n),
+      {
+        propertyControls: S,
+        variableMap: v,
+        types: y,
+        props: I,
+      } = Ar(s, { ...e, ...d, cssVariableDefinitions: void 0 }, "VectorSet", "vector", void 0),
+      x = Ng(d),
+      M = {
+        name: l.resolveValue("name") ?? "Vector",
+        empty: wg(l) ? !0 : void 0,
+        color: x,
+        set: { localId: f, id: s.id, moduleId: g.id },
+      },
+      R = d.imports.addImport("react", { exportSpecifier: "*", importBinding: "React" }),
+      N = d.imports.addImport("framer", { exportSpecifier: "withCSS" }),
+      w = Dg[c],
+      F = $.lines(
+        ...d.variables.fallbackDeclarations(),
+        ...d.declarations.file.list(),
+        m`interface ${vo} extends ${R}.HTMLAttributes<${R}.${w}> { ${y ?? m``} }`,
+        m`const ${Jr}: ${R}.ComponentType<${vo}> = ${R}.forwardRef<${R}.${w}, ${vo}>(function(${ka.props}, ${ka.ref}) {${m.joinLines(I, ...d.declarations.component.list(), m`return (${u})`)}})`,
+        m`const ${Fa} = ${d.css.rules}`,
+        It("This is a generated Framer component.", {
+          framerIntrinsicWidth: h.width,
+          framerIntrinsicHeight: h.height,
+          framerSupportedLayoutWidth: "any-prefer-fixed",
+          framerSupportedLayoutHeight: "any-prefer-fixed",
+          framerVariables: v && JSON.stringify(v),
+          framerImmutableVariables: !0,
+          framerVector: JSON.stringify(M),
+          framerDisableUnlink: Ec.has(M.set.moduleId) ? !0 : void 0,
+        }),
+        m`const ${So}: ${R}.ComponentType<${vo}> = ${L.fn(N, Jr, Fa, o)} as typeof ${Jr};`,
+        m`${So}.displayName = ${l.resolveValue("name") ?? "Vector"};`,
+        m`export default ${So}`,
+        S &&
+          L.fn(
+            d.imports.addImport("framer", { exportSpecifier: "addPropertyControls" }),
+            So,
+            new L(`${J(S)} as any`)
+          )
+      );
+    return (
+      a.cache(n.id, { svg: J(p), color: x }),
+      wr([
+        {
+          revision: l.moduleSourceRevision,
+          type: "vector",
+          source: new L($.sections($.linesFrom(d.imports.statements), F)),
+          artifacts: { files: [{ name: Pd, type: "svgIcon", content: J(p) }] },
+        },
+      ])
+    );
+  });
+function Ng(n) {
+  if (n.colors.uniqueColorCount !== 1) return;
+  let e = n.colors.singleColor;
+  if (e) return { type: "static", value: e };
+  let t = n.colors.singleVariableColor;
+  if (t) return { type: "variable", value: Ot(t) };
+}
+function wg(n) {
+  return !n.children || n.children.length === 0 ? !0 : n.children.every((e) => e.visible === !1);
+}
+var Dg = {
+  0: m`HTMLImageElement`,
+  1: m`HTMLDivElement`,
+  3: m`HTMLSVGElement`,
+  2: m`HTMLSVGElement`,
+};
+var vp = De(async (n, { modulesStore: e }, t) => {
+  let o = [];
+  for (let a of n.getVectorSetItems()) {
+    let s = Be("vector", a.id, "default").localId,
+      l = e.getPersistedModuleByLocalId(s);
+    l &&
+      o.push({
+        id: a.id,
+        name: a.resolveValue("name") ?? "Vector",
+        moduleId: l.id,
+        saveId: t.includeVectorSetSaveIds ? l.saveId : void 0,
+      });
+  }
+  let r = { framerVectorSet: JSON.stringify({ name: n.resolveValue("name") ?? "Set", items: o }) },
+    i = new L(
+      $.lines(
+        It("This is a generated Framer component.", r),
+        m`const VectorSet: React.ComponentType<unknown> = function VectorSet() { return null; };`,
+        m`export default VectorSet;`
+      )
+    );
+  return [{ revision: n.moduleSourceRevision, type: "vectorSet", source: i }];
+});
+function bp(n) {
+  return Math.ceil(n / Math.ceil(n / 100));
+}
+var Ip = class {
+    status = null;
+    results;
+    reportProgress;
+    onDone;
+    constructor(e, t) {
+      ((this.reportProgress = e), (this.onDone = t));
+    }
+    async import(e, t, o) {
+      ((this.status = "importing"), (this.results = { scopeId: t, vectors: [], targetLayout: o }));
+      let r = o ? { left: o.x + o.width * 2, top: o.y } : { left: 0, top: 0 };
+      for (let i = 0; i < e.length; i++) {
+        let a = e[i];
+        if (!a) continue;
+        let s = await Pg(a, t, r);
+        if (this.status !== "importing") return;
+        (s && this.results.vectors.push(s),
+          this.reportProgress?.({ status: this.status, finishedCount: i + 1 }));
+      }
+      await this.done();
+    }
+    cancel() {
+      this.status = "canceled";
+    }
+    async done() {
+      (this.results && (await this.onDone?.(this.results)), (this.status = "done"));
+    }
+  },
+  Cp = "run-svgo",
+  Vg = 1e6;
+async function Pg(n, e, t) {
+  if (n.size > Vg) {
+    He({
+      type: "add",
+      variant: "error",
+      key: Cp,
+      primaryText: "SVG is too large.",
+      secondaryText: "You may need a PNG.",
+      duration: 5e3,
+    });
+    return;
+  }
+  try {
+    let o = await n.text(),
+      r = du(o),
+      i = zg(n.name),
+      a = Sc(o, fc.createEmpty, r);
+    return a
+      ? (a.setProp("parentid", e),
+        a.set({ name: i, isVectorSetItem: !0, ...t }),
+        { node: a, size: r })
+      : void 0;
+  } catch (o) {
+    (console.error("Failed to insert SVG:", o),
+      He({
+        type: "add",
+        variant: "error",
+        key: Cp,
+        primaryText: "Failed to insert",
+        secondaryText: "your SVG.",
+      }));
+    return;
+  }
+}
+var Eg = /[_-]/gu;
+function zg(n) {
+  let [e] = lu(n);
+  return Gs(e.replace(Eg, " "));
+}
+var kg = {
+  cache: !0,
+  mutable: !0,
+  update: !0,
+  parentid: !0,
+  originalid: !0,
+  duplicatedFrom: !0,
+  moduleSourceRevision: !0,
+  moduleSourceRevisionHint: !0,
+  moduleSourceRevisionCommittedHint: !0,
+  layoutTemplateIdentifierOverride: !0,
+  abTestingParentId: !0,
+  abTestingDistributionWeightPpm: !0,
+};
+function zt(n, e) {
+  if (!A(e)) {
+    if (n === "children" && e instanceof Cl) return e.toArray();
+    if (!kg[n] && !n.startsWith("export") && !Nl(n)) return e;
+  }
+}
+function Fg(n, e) {
+  if (n !== "children") return zt(n, e);
+}
+function Bg(n, e, t, o, r) {
+  if (!oo(n) || !mt(e)) return e;
+  if (e.type === "slot")
+    return !Ti(e.value) || (fe(t) && t.slotsAreChildNodes)
+      ? e
+      : e.value.map((i) => {
+          let a = r.get(i.reference);
+          return yr(o, a) ? a : void 0;
+        });
+  if (e.type === "componentinstance") {
+    if (!T(e.value)) return e;
+    let i = r.get(e.value);
+    return yr(o, i) ? i : void 0;
+  } else if (e.type === "array") {
+    if (!Ti(e.value)) return e;
+    let i = [],
+      a = !1;
+    for (let s of e.value) {
+      if (!mt(s) || s.type !== "componentinstance" || ((a = !0), !T(s.value))) continue;
+      let l = r.get(s.value);
+      yr(o, l) && i.push(l);
+    }
+    return a ? i : e;
+  }
+  return e;
+}
+function Ag(n, e) {
+  return (t, o, r) => zt(t, Bg(t, o, r, e, n));
+}
+var Io = K("ModuleSourceRevision");
+function gR(n) {
+  return P(re({ path: n.path, targetUrl: n.targetUrl }));
+}
+function Og(n) {
+  return P(re(n, zt));
+}
+function yR(n, e) {
+  return Og(n.cloneWithIds({ id: e }));
+}
+function Ug(n, e) {
+  switch (n.__class) {
+    case "CollectionItemNode":
+    case "ImageStylePresetNode":
+    case "InlineCodeStylePresetNode":
+    case "LayoutTemplateNode":
+    case "LinkStylePresetNode":
+    case "SmartComponentNode":
+    case "TableStylePresetNode":
+    case "WebPageNode":
+      return P(re(n, zt));
+    case "FrameNode": {
+      let t = e.get(n.parentid);
+      return !t || !et(t) ? void 0 : P(re(n, Ag(e, t.id)));
+    }
+    case "CollectionNode": {
+      C(q(n), "Expected collection node");
+      let t = re(e.root.locales),
+        o = re(e.root.webMetadata?.translatePagePaths),
+        r = re(n, Fg);
+      if (B.isOn("cmsSqlite")) return P(t + o + r);
+      let i = re(n.getUnsortedChildren()?.map((a) => a.moduleSourceRevision));
+      return P(t + o + r + i);
+    }
+    case "PresetsListNode": {
+      let t = n.children?.filter((o) => !zd(o, e)) ?? [];
+      return P(re(t, zt));
+    }
+    case "TextStylePresetNode":
+    case "BlockquoteStylePresetNode": {
+      if (Ri(n)) return n.moduleSourceRevision;
+      let t = re(n, zt);
+      return (
+        n.cache.replicaInstances?.forEach((o) => {
+          let r = e.getNodeWithTrait(o, Ri);
+          r && (t += re(r, zt));
+        }),
+        P(t)
+      );
+    }
+    case "VectorSetNode": {
+      C(we(n), "Expected VectorSetNode");
+      let t = n.getVectorSetItems().map((o) => {
+        let r = Be("vector", o.id, "default").localId,
+          i = e.getNodeWithTrait(r, Dt);
+        return i ? i.save.moduleId : "";
+      });
+      return P(re(t) + n.name);
+    }
+    case "ShapeContainerNode": {
+      if (!yt(n)) return;
+      let t = e.getScopeNodeFor(n);
+      if (!we(t)) return;
+      let o = re(n, zt);
+      return P(o + re(t.variables));
+    }
+    case "CustomCodeScopeNode": {
+      C(Xt(n), "Expected CustomCodeScopeNode");
+      let t = n.loaded;
+      C(t, "Expected CustomCodeScopeNode to be loaded");
+      let o = {};
+      for (let i of t.children)
+        if (!(!$s(i) || !i.pageIds))
+          for (let a of i.pageIds) {
+            let s = e.getNodeWithTrait(a, ro);
+            s && (o[a] = s.dataIdentifier);
+          }
+      let r = re(n, zt);
+      return P(r + re(o));
+    }
+    case "CanvasPageNode":
+    case "RootNode":
+      return;
+    case "ComponentPresetNode":
+      return;
+    case "AbTestsEntityTypeRootNode":
+    case "AgentPanelTool":
+    case "AgentDragSelectTool":
+    case "AgentSelectTool":
+    case "AgentSkillNode":
+    case "AgentSkillsListNode":
+    case "AnalyticsScopeNode":
+    case "BlockquoteEntityTypeRootNode":
+    case "BooleanShapeNode":
+    case "BoxShadow":
+    case "BranchNode":
+    case "BranchesNode":
+    case "CanvasNode":
+    case "CanvasScopeNode":
+    case "CustomCodeNode":
+    case "DatabaseListNode":
+    case "DatabaseNode":
+    case "DatabaseTableNode":
+    case "DesignPageNode":
+    case "DesignPageEntityTypeRootNode":
+    case "ChatTool":
+    case "CMSEntityTypeRootNode":
+    case "CodeComponentNode":
+    case "CodeFileEntityTypeRootNode":
+    case "CollectionReferenceVariableEditTool":
+    case "Color":
+    case "ColorEntityTypeRootNode":
+    case "ColorStyleTokenListNode":
+    case "ColorStyleTokenNode":
+    case "ComponentEntityTypeRootNode":
+    case "ConicGradient":
+    case "ContentManagementNode":
+    case "CreateCodeComponentBaseTool":
+    case "CreateFrameBaseTool":
+    case "CreateShapeBaseTool":
+    case "CreateTextTool":
+    case "EntityFolderNode":
+    case "EntityReferenceNode":
+    case "AssetsEntityTypeRootNode":
+    case "ContentManagementEntityTypeRootNode":
+    case "ErrorListNode":
+    case "ErrorNode":
+    case "ExportOptions":
+    case "ExternalModuleNode":
+    case "ExternalModulesListNode":
+    case "FeedbackTool":
+    case "FormBooleanInputNode":
+    case "FormPlainTextInputNode":
+    case "FormSelectNode":
+    case "FunnelNode":
+    case "FunnelsEntityTypeRootNode":
+    case "FunnelStepActionNode":
+    case "FunnelStepNode":
+    case "GapTool":
+    case "GradientColorStop":
+    case "GradientToolManagerTool":
+    case "GuideMoveTool":
+    case "HeaderRouteNode":
+    case "FirewallRouteNode":
+    case "HighlightStackItemTool":
+    case "HighlightTool":
+    case "InitialTool":
+    case "InlineCodeEntityTypeRootNode":
+    case "LayoutTemplateEntityTypeRootNode":
+    case "LineAnchorMoveTool":
+    case "LinearGradient":
+    case "LinkEntityTypeRootNode":
+    case "LinkTool":
+    case "LoadingShieldTool":
+    case "LocalizationGlossaryItemNode":
+    case "LocalizationGlossaryNode":
+    case "LocalModuleNode":
+    case "LocalModulesListNode":
+    case "MoveTool":
+    case "MutableNode":
+    case "OvalShapeNode":
+    case "OverlayNode":
+    case "PaddingTool":
+    case "PageLinkTool":
+    case "PanTool":
+    case "PathCurveBendTool":
+    case "PathDefaultTool":
+    case "PathNode":
+    case "PathSegment":
+    case "PathSegmentAdditionTool":
+    case "PathSegmentHandleMoveTool":
+    case "PathSegmentMoveTool":
+    case "PathSegmentSelectTool":
+    case "PolygonShapeNode":
+    case "PreviewSettings":
+    case "ProxyRouteNode":
+    case "RadialGradient":
+    case "RadiusTool":
+    case "RecoveryTool":
+    case "RectangleShapeNode":
+    case "RedirectRouteNode":
+    case "ResizeTool":
+    case "RewriteRouteNode":
+    case "RichTextEditTool":
+    case "RichTextNode":
+    case "RichTextVariableEditTool":
+    case "RotateTool":
+    case "RouteNode":
+    case "RouteLocaleNode":
+    case "RouteSegmentNode":
+    case "RouteSegmentRootNode":
+    case "RoutesNode":
+    case "SampleColorTool":
+    case "ScaleTool":
+    case "ScopeNode":
+    case "SelectTool":
+    case "ShaderNode":
+    case "Shadow":
+    case "ShapeGroupNode":
+    case "SlotConnectTool":
+    case "SlotNode":
+    case "SlotPropertyNode":
+    case "StarShapeNode":
+    case "StringVariableEditTool":
+    case "DateVariableEditTool":
+    case "EnumVariableEditTool":
+    case "StyledTextDraft":
+    case "SVGNode":
+    case "TestTool":
+    case "TextEditTool":
+    case "TextEntityTypeRootNode":
+    case "TextNode":
+    case "VectorSetEntityTypeRootNode":
+    case "VekterGradientTool":
+    case "VekterPathEngine":
+    case "VekterTool":
+    case "ViewportResizeTool":
+    case "ZoomSelectTool":
+    case "ZoomTool":
+      return;
+    default:
+      Y(n.__class, "getModuleRevision: node.__class must be a valid value");
+  }
+}
+function Aa(n, e) {
+  let t = n.get(e);
+  return !t || !qe(t, n)
+    ? !1
+    : A(t.moduleSourceRevisionHint) ||
+        t.moduleSourceRevisionCommittedHint === t.moduleSourceRevisionHint
+      ? (Io.debug(`Hint hasn't changed for ${t.id}.`), !1)
+      : (Io.debug(`Initial Revision: ${t.moduleSourceRevision}`), !0);
+}
+function Ba(n, e) {
+  let t = n.get(e);
+  if (!t || !qe(t, n)) return;
+  let o = performance.now(),
+    r = Ug(t, n);
+  Io.debug(`Spent ${performance.now() - o}ms computing module revision for ${t.id}`);
+  let i = _(r) && r !== t.moduleSourceRevision;
+  Io.debug(`Revisions: ${t.moduleSourceRevision}, ${r}`);
+  let a = t.moduleSourceRevisionHint,
+    s = i
+      ? { moduleSourceRevision: r, moduleSourceRevisionCommittedHint: a }
+      : { moduleSourceRevisionCommittedHint: a };
+  return (
+    Io.debug(
+      i
+        ? `Updating moduleSourceRevision for ${t.id}.`
+        : `Updating moduleSourceRevisionCommittedHint for ${t.id}.`
+    ),
+    t.setIgnoringReplica(s, n),
+    i ? r : void 0
+  );
+}
+function Lp(n, e) {
+  return e((t) => {
+    if (t.isViewOnly) return;
+    let o = t.get(n);
+    return (
+      q(o) &&
+        !B.isOn("cmsSqlite") &&
+        o.getUnsortedChildren()?.forEach((r) => {
+          Aa(t, r.id) && Ba(t, r.id);
+        }),
+      Ba(t, n)
+    );
+  });
+}
+function Mp(n, e) {
+  return e((t) => {
+    if (!t.isViewOnly) return n.reduce((o, r) => ((o[r.id] = Ba(t, r.id) ?? 1), o), {});
+  });
+}
+var xp = 500,
+  Oa = 1500,
+  Rp = 5e3,
+  Np = 1e3,
+  wp = 6e4,
+  Dp = 5e3,
+  Vp = 3e4,
+  Pp = _e.isTest ? 0 : 1e4;
+var _g = 2;
+function _a(n) {
+  if (V(n)) return _g;
+}
+function NR(n, e, t) {
+  if (e.type === "siteMetadata" || e.type === "webPageMetadata") return !0;
+  let o = po(n, t).includes(e.type);
+  if ((C(n.id === e.name && o, "sourceNode and module must match"), co(e))) return !1;
+  let r = _a(n);
+  if (A(r)) return !0;
+  let i = e.metadata.codeGenVersion;
+  return _(i) && i >= r;
+}
+var $a = 1;
+function $g(n) {
+  let e = n.metadata.compatibleTextStyleVersion;
+  return _(e) ? e : 0;
+}
+function PR(n) {
+  return $g(n) < $a;
+}
+var Gt = At(In(), 1);
+function Ep(n, e) {
+  if (ee(n)) return "smart component";
+  if (V(n)) return "web page";
+  if ($e(e.get(n.parentid))) return "prototype screen";
+  if ($e(n)) return "prototype";
+  if (q(n)) return "CMS collection";
+}
+function zp(n, e, t) {
+  return V(t) ? uo(n, e, t) : (t.resolveValue("name") ?? void 0);
+}
+function kp(n, e = "module", t) {
+  let o = "is too large and will not update";
+  He({
+    type: "add",
+    variant: "warning",
+    text: t
+      ? (0, Gt.jsxs)(Gt.Fragment, {
+          children: [
+            (0, Gt.jsxs)(pn, { children: ["The ", e] }),
+            " \u201C",
+            t,
+            "\u201D ",
+            (0, Gt.jsx)(pn, { children: o }),
+          ],
+        })
+      : (0, Gt.jsxs)(pn, { children: ["A ", e, " ", o] }),
+    key: `module-too-large-${n}`,
+    duration: 1 / 0,
+    extraAction: {
+      title: "Learn more",
+      onClick() {
+        (ke("ui_interaction", { page: "module-too-large-toast", id: "learn_more" }),
+          vc("https://www.framer.com/help/articles/how-to-fix-module-too-large-warning/"));
+      },
+    },
+  });
+  let i = `module-too-large-toast-${e.split(" ").join("-")}`;
+  ke("ui_impression", { page: i });
+}
+var qg = 1e3,
+  Co = K("CodeGenerationStore");
+function Hg(n) {
+  return !(q(n) || $e(n) || Ne(n) || Ln(n) || Mn(n) || we(n));
+}
+function Jg(n, e) {
+  if (!yt(e)) return;
+  let t = n.getScopeNodeFor(e);
+  return (C(we(t), "Vector set item must be in a VectorSetNode."), t.variables);
+}
+function Kg(n, e) {
+  let t = e.resolveValue("name")?.trim();
+  return t || (kd(e) ? "Text" : ot(n, e, e.__class));
+}
+function Fp(n, e, t, o, r, i) {
+  let a = {},
+    s = Kg(e, t);
+  a.metadata || (a.metadata = {});
+  let l = [...(i?.files ?? [])];
+  Hg(t) &&
+    l.push({
+      name: "tree.json",
+      type: "nodeTree",
+      content: JSON.stringify(
+        Object.assign(t.toJS(), {
+          __treeSerializationVersion: n.serializationVersion,
+          __vectorSetVariables: Jg(n, t),
+        })
+      ),
+    });
+  let d = _a(t);
+  d && (a.metadata.codeGenVersion = d);
+  let u = i?.packageDependencies;
+  return (
+    u && (a.metadata.packageDependencies = Array.from(u)),
+    Rr(o) && (a.metadata.compatibleCmsVersion = i?.cmsVersion ?? null),
+    Us(t) && (a.metadata.compatibleTextStyleVersion = $a),
+    (a.assets = i?.assets ? Array.from(i.assets) : []),
+    { ...a, title: s, files: l, errors: i?.errors ?? [], type: o, name: r }
+  );
+}
+async function Qg(n, e, t, o, r) {
+  if (n && e instanceof Rs && e.code === 1001) {
+    let i = Yd(n, (s) => o.treeIndex.getScopeIdFor(s)) ?? void 0,
+      a = new Xd({
+        type: "CodeGeneration",
+        nodeId: Xe(n) ? n.baseVariantId : n.id,
+        reason: "FileTooLarge",
+        sourceNodeId: n.id,
+        scopeId: i,
+      });
+    (kp(n.id, Ep(n, o.tree), zp(o.tree, t, n)),
+      await r((s) => {
+        if (s.isViewOnly) return;
+        s.lineage.setEditReason("codegeneration");
+        let l = Kd.ensure(s);
+        (Co.debug("Writing ClientFileTooLarge error to tree for", n.id), s.insertNode(a, l.id));
+      }));
+  } else Co.reportError(e);
+}
+var Kr = class {
+  constructor(e, t, o, r, i, a) {
+    this.componentLoader = e;
+    this.treeStore = t;
+    this.modulesStore = o;
+    this.runWhenIdle = r;
+    this.scheduleDocumentUpdateIgnoringUndo = i;
+    this.#e = new vt({
+      delay: Pp,
+      task: () =>
+        this.runWhenIdle(() => {
+          this.#t.synchronize();
+        }),
+      abortSignal: a,
+    });
+  }
+  componentLoader;
+  treeStore;
+  modulesStore;
+  runWhenIdle;
+  scheduleDocumentUpdateIgnoringUndo;
+  #t = new cu();
+  #e;
+  #n = {
+    coalescedTasks: 0,
+    peakTasks: 0,
+    tasksStarted: 0,
+    tasksSettled: 0,
+    tasksFailed: 0,
+    taskDurationMs: 0,
+  };
+  getMetrics() {
+    let e = 0,
+      t = 0;
+    for (let o of new Set([...this.#t.queue, ...this.#t.capturedItems]))
+      (o.promise.state === "initial" && e++, o.promise.state === "pending" && t++);
+    return { ...this.#n, pendingTasks: e, activeTasks: t };
+  }
+  prunePendingTasks(e) {
+    let t = this.#t.capturedItems;
+    this.#t.snapshot((o) =>
+      o.promise.isResolved()
+        ? !1
+        : o.id === e && o.promise.state === "initial"
+          ? (t.has(o) || this.#n.coalescedTasks++, !1)
+          : !0
+    );
+  }
+  enqueue(e, t, o, r) {
+    this.prunePendingTasks(t);
+    let i = e.get(t);
+    if (!i || !pu(i, e)) return;
+    let a = St(i),
+      s = () => {
+        let p = {};
+        for (let { type: c, artifacts: f } of o) {
+          let g = Fp(e, this.componentLoader, i, c, a, f);
+          p[ye(c, a)] = g;
+        }
+        return p;
+      },
+      l = r?.deferTreeJSON ? void 0 : s(),
+      { pendingTasks: d, activeTasks: u } = this.getMetrics();
+    ((this.#n.peakTasks = Math.max(this.#n.peakTasks, d + u + 1)),
+      this.#t.request(
+        async () => {
+          let p = performance.now();
+          this.#n.tasksStarted++;
+          try {
+            (Co.debug("Persisting transient modules for", t),
+              await this.modulesStore.upsertBatch(l ?? s()));
+          } catch (c) {
+            (this.#n.tasksFailed++,
+              await Qg(
+                i,
+                c,
+                this.componentLoader,
+                this.treeStore,
+                this.scheduleDocumentUpdateIgnoringUndo
+              ));
+          } finally {
+            (this.#n.tasksSettled++, (this.#n.taskDurationMs += performance.now() - p));
+          }
+        },
+        { id: t, synchronize: !1 }
+      ));
+  }
+  async persist(e, t, o, r) {
+    let i = this.treeStore.getDataTree(),
+      a = i.get(e);
+    if (a)
+      return (
+        this.enqueue(i, e, t, r),
+        o
+          ? this.#e.debounce()
+          : (await this.#t.synchronize(),
+            fo(a, i).map((s) => this.modulesStore.getPersistedModuleByLocalId(s)))
+      );
+  }
+  async persistBatch(e) {
+    let t = this.treeStore.getDataTree(),
+      o = {},
+      r = "batch";
+    for (let s in e) {
+      let l = t.get(s),
+        d = e[s];
+      if (!l || !d) continue;
+      let u = St(l),
+        p = new Set();
+      for (let { type: c, artifacts: f } of d) {
+        let g = ye(c, u);
+        (C(!p.has(g), () => `Duplicate local module id: ${g}`),
+          p.add(g),
+          (o[g] = Fp(t, this.componentLoader, l, c, u, f)),
+          (r += `-${g}`));
+      }
+    }
+    this.prunePendingTasks(r);
+    let { pendingTasks: i, activeTasks: a } = this.getMetrics();
+    ((this.#n.peakTasks = Math.max(this.#n.peakTasks, i + a + 1)),
+      await this.#t.request(
+        async () => {
+          let s = performance.now();
+          (this.#n.tasksStarted++, Co.debug("Persisting transient modules for batch: ", r));
+          try {
+            await this.modulesStore.upsertBatch(o);
+          } catch (l) {
+            (this.#n.tasksFailed++, Co.reportError(l));
+          } finally {
+            (this.#n.tasksSettled++, (this.#n.taskDurationMs += performance.now() - s));
+          }
+        },
+        { id: r, synchronize: !0 }
+      ));
+  }
+  process = this.#t.synchronize;
+  watchFailedUploads() {
+    let { tasksFailed: e } = this.#n;
+    return () => this.#n.tasksFailed !== e;
+  }
+  debugPendingTasks() {
+    let e = this.#t.queue.filter((t) => !t.promise.isResolved());
+    return {
+      count: e.length,
+      tasks: e.slice(0, 32).map((t) => ({ nodeId: t.id, state: t.promise.state })),
+    };
+  }
+  processWithProgress = this.#t.synchronizeWithProgress;
+  changeScope = () => this.#e.debounce(qg);
+  isIdle = () => this.#t.size === 0;
+  get size() {
+    return this.#t.size;
+  }
+  isBlocking = () => this.#t.snapshot().some((e) => e.promise.state === "pending");
+};
+var Ga = 3e4,
+  Bp = 1e4,
+  Yg = 5e3,
+  Xg = 1e3,
+  Wa = class {
+    constructor(e, t) {
+      this.value = e;
+      this.finish = t;
+    }
+    value;
+    finish;
+    sentAt = performance.now();
+    handleReply(e) {
+      let t = this.resultFor(e);
+      t && this.finish(t);
+    }
+    resultFor(e) {
+      let { resourceId: t, leaseId: o, action: r } = this.value;
+      if (
+        !(
+          "resourceId" in e &&
+          e.resourceId === t &&
+          "leaseId" in e &&
+          e.leaseId === o &&
+          "action" in e &&
+          e.action === r
+        ) ||
+        !("status" in e) ||
+        !("remainingMs" in e)
+      )
+        return;
+      let { status: a, remainingMs: s } = e;
+      if (typeof s == "number" && Number.isSafeInteger(s) && s >= 0)
+        switch (a) {
+          case "granted":
+            return r === "release" ? void 0 : { status: a, deadline: this.sentAt + s - Xg };
+          case "busy":
+            return r === "acquire" ? { status: a, remainingMs: s } : void 0;
+          case "released":
+            return r === "release" ? { status: a } : void 0;
+          case "lost":
+            return r === "acquire" ? void 0 : { status: a };
+          case "error": {
+            if (s !== 0 || !("errorCode" in e)) return;
+            let { errorCode: d } = e;
+            if (d === "invalid_request") return { status: "invalid" };
+            if (d === "forbidden" || d === "unavailable") return { status: d };
+          }
+        }
+    }
+  },
+  Ap = class {
+    constructor(e, t, o) {
+      this.send = e;
+      this.available = t;
+      this.signal = o;
+      o.addEventListener("abort", this.reset.bind(this), { once: !0 });
+    }
+    send;
+    available;
+    signal;
+    #t = 0;
+    #e = new Map();
+    #n = new Set();
+    #o = new Set();
+    testing = {
+      dropLeaseResults: !1,
+      pauseRenewal: (e) => (_e.isTest && this.#o.add(e), () => this.#o.delete(e)),
+    };
+    reset() {
+      this.#t++;
+      for (let e of this.#n) e();
+      for (let e of this.#e.values()) e.finish({ status: "unavailable" });
+    }
+    async acquire(e) {
+      let t = this.#t,
+        o = crypto.randomUUID(),
+        r = await this.request(e, o, "acquire");
+      return t !== this.#t || this.signal.aborted
+        ? { status: "unavailable" }
+        : r.status === "granted"
+          ? performance.now() >= r.deadline
+            ? { status: "timeout" }
+            : { status: "granted", handle: this.createHandle(e, o, r.deadline) }
+          : r.status === "released" || r.status === "lost"
+            ? { status: "unavailable" }
+            : r.status === "busy"
+              ? r
+              : { status: r.status };
+    }
+    request(e, t, o) {
+      if (this.signal.aborted || !this.available())
+        return Promise.resolve({ status: "unavailable" });
+      let r = { requestId: crypto.randomUUID(), resourceId: e, leaseId: t, action: o };
+      return (
+        o !== "release" && (r.ttlMs = Ga),
+        new Promise((i) => {
+          let a = (l) => {
+              this.#e.delete(r.requestId) && (clearTimeout(s), i(l));
+            },
+            s = setTimeout(a, Yg, { status: "timeout" });
+          this.#e.set(r.requestId, new Wa(r, a));
+          try {
+            this.send({ type: "lease", value: r });
+          } catch {
+            a({ status: "unavailable" });
+          }
+        })
+      );
+    }
+    onResult(e) {
+      (_e.isTest && this.testing.dropLeaseResults) ||
+        typeof e != "object" ||
+        e === null ||
+        !("requestId" in e) ||
+        typeof e.requestId != "string" ||
+        this.#e.get(e.requestId)?.handleReply(e);
+    }
+    createHandle(e, t, o) {
+      let r = !0,
+        i,
+        a,
+        s = () => {
+          ((r = !1), clearTimeout(i), clearTimeout(a), this.#n.delete(s));
+        },
+        l = () => (performance.now() >= o && s(), r),
+        d = async () => {
+          if (!l()) return;
+          if (this.#o.has(e)) {
+            i = setTimeout(d, Bp);
+            return;
+          }
+          let p = await this.request(e, t, "renew");
+          if (l()) {
+            if (p.status !== "granted" || performance.now() >= p.deadline) return s();
+            ((o = p.deadline), u());
+          }
+        },
+        u = () => {
+          (clearTimeout(a),
+            (a = setTimeout(s, Math.max(0, o - performance.now()))),
+            (i = setTimeout(d, Bp)));
+        };
+      return (
+        this.#n.add(s),
+        u(),
+        {
+          isValid: l,
+          release: () => {
+            let p = l();
+            (s(), p && this.request(e, t, "release"));
+          },
+        }
+      );
+    }
+  };
+var Op = K("CodeGenerationStore"),
+  Zg = 3 * 6e4,
+  ey = 10,
+  Qr = class {
+    constructor(e, t) {
+      this.send = e;
+      this.abortSignal = t;
+    }
+    send;
+    abortSignal;
+    discovered = new Set();
+    failedSourceIds = new Set();
+    counts = {
+      skippedSaved: 0,
+      generated: 0,
+      persisted: 0,
+      buildFailed: 0,
+      uploadFailed: 0,
+      stillStaleAfterUpload: 0,
+      generationMs: 0,
+      persistenceMs: 0,
+    };
+    pending = 0;
+    moduleInProgress = !1;
+    backlogBefore;
+    backlogAfter;
+    #t = { granted: 0, busy: 0, timeout: 0, unavailable: 0, forbidden: 0, invalid: 0 };
+    #e;
+    #n;
+    #o = !1;
+    #i = new AbortController();
+    requestingLease() {
+      if (this.#e !== void 0) return;
+      this.#e = performance.now();
+      let { signal: e } = this.#i;
+      (window.addEventListener("pagehide", () => this.report("pagehide"), { signal: e }),
+        this.abortSignal?.addEventListener("abort", () => this.report("stopped"), { signal: e }));
+    }
+    leaseAnswered(e) {
+      (this.#t[e]++, e === "granted" && (this.#n ??= performance.now()));
+    }
+    fail(e, t) {
+      (this.counts[t]++, this.failedSourceIds.size < ey && this.failedSourceIds.add(e));
+    }
+    report(e) {
+      (this.#i.abort(),
+        !(this.#o || this.#e === void 0) &&
+          ((this.#o = !0), this.send({ outcome: e, ...this.summary() })));
+    }
+    summary() {
+      let { counts: e } = this,
+        t = this.#t,
+        o = this.#e,
+        r = this.#n,
+        i = this.backlogBefore,
+        a = this.backlogAfter;
+      return {
+        discovered: this.discovered.size,
+        skippedSaved: e.skippedSaved,
+        generated: e.generated,
+        persisted: e.persisted,
+        buildFailed: e.buildFailed,
+        uploadFailed: e.uploadFailed,
+        stillStaleAfterUpload: e.stillStaleAfterUpload,
+        failedSourceIds: [...this.failedSourceIds],
+        leaseGranted: t.granted,
+        leaseBusy: t.busy,
+        leaseTimeout: t.timeout,
+        leaseUnavailable: t.unavailable,
+        leaseForbidden: t.forbidden,
+        leaseInvalid: t.invalid,
+        ...(o === void 0 || r === void 0 ? {} : { msUntilLeaseGranted: Math.round(r - o) }),
+        runMs: o === void 0 ? 0 : Math.round(performance.now() - o),
+        generationMs: Math.round(e.generationMs),
+        persistenceMs: Math.round(e.persistenceMs),
+        moduleInProgress: this.moduleInProgress,
+        ...(i === void 0
+          ? {}
+          : { sources: i.sources, staleBefore: i.stale, eligibleBefore: i.eligible }),
+        ...(a === void 0 ? {} : { staleAfter: a.stale, eligibleAfter: a.eligible }),
+      };
+    }
+  },
+  Yr = class {
+    constructor(e, t) {
+      this.dependencies = e;
+      this.abortSignal = t;
+      t?.addEventListener("abort", this.cancel.bind(this), { once: !0 });
+    }
+    dependencies;
+    abortSignal;
+    #t = new AbortController();
+    #e = new Set();
+    #n = new Map();
+    #o = Zg;
+    #i = new Qr(Hs);
+    get metrics() {
+      return { ...this.#i.summary(), pending: this.#i.pending };
+    }
+    testing = {
+      skipDelay: () => {
+        this.#o = 0;
+      },
+    };
+    reset() {
+      (this.cancel(), (this.#t = new AbortController()), this.#e.clear(), this.#n.clear());
+      let e = this.dependencies.getLeaseClient();
+      e &&
+        B.isOn("recoverStaleModules") &&
+        !this.abortSignal?.aborted &&
+        this.run(e, this.#t.signal).catch(Je);
+    }
+    handOff(e) {
+      B.isOn("recoverStaleModules") && this.#e.add(e);
+    }
+    noteChangedElsewhere(e) {
+      B.isOn("recoverStaleModules") && this.#n.set(e, performance.now());
+    }
+    backlog() {
+      let e = this.dependencies.staleSources();
+      return {
+        stale: e,
+        eligible: e.filter((t) => this.dependencies.needsRecovery(t) && !this.beingEdited(t)),
+      };
+    }
+    beingEdited(e) {
+      let t = this.#n.get(e) ?? Number.NEGATIVE_INFINITY;
+      return this.#e.has(e) || performance.now() - t < this.#o;
+    }
+    cancel() {
+      (this.#t.abort(), (this.#i.pending = 0));
+    }
+    opportunity(e, t) {
+      return e.aborted
+        ? Promise.resolve()
+        : new Promise((o) => {
+            let r,
+              i = () => {
+                (clearTimeout(r), e.removeEventListener("abort", i), o());
+              };
+            (e.addEventListener("abort", i, { once: !0 }),
+              t === void 0 ? this.dependencies.runWhenIdle(i) : (r = setTimeout(i, t)));
+          });
+    }
+    async run(e, t) {
+      let o = this.dependencies.branchId(),
+        r = new Qr((i) => this.dependencies.report(i, o), this.abortSignal);
+      this.#i = r;
+      try {
+        r.report(await this.recoverUntilDone(e, t, r, o));
+      } catch (i) {
+        throw (r.report("stopped"), i);
+      }
+    }
+    async recoverUntilDone(e, t, o, r) {
+      let { dependencies: i } = this,
+        a = () => !t.aborted && i.branchId() === r;
+      try {
+        await i.initializeModules();
+      } catch (l) {
+        return (t.aborted || Je(l), "stopped");
+      }
+      await this.opportunity(t, this.#o);
+      let s = !1;
+      for (; a();) {
+        if ((i.canWrite() || (s = !1), !i.canWrite() || s)) {
+          await this.opportunity(t, Np);
+          continue;
+        }
+        o.requestingLease();
+        let l = await e.acquire(`stale-module-recovery:${encodeURIComponent(r)}`);
+        if ((o.leaseAnswered(l.status), l.status === "invalid"))
+          return (Op.reportError("Invalid module recovery lease request"), "stopped");
+        if (l.status === "granted") {
+          let u = () => l.handle.release();
+          this.abortSignal?.addEventListener("abort", u, { once: !0 });
+          try {
+            if ((await this.recoverWithLease(l.handle, a, t, o)) && a()) {
+              let { stale: c, eligible: f } = this.backlog();
+              return ((o.backlogAfter = { stale: c.length, eligible: f.length }), "finished");
+            }
+          } finally {
+            (this.abortSignal?.removeEventListener("abort", u), l.handle.release());
+          }
+          continue;
+        }
+        l.status === "forbidden" && (s = !0);
+        let d = l.status === "busy" ? l.remainingMs : Ga;
+        await this.opportunity(t, Math.min(6e4, d + Math.random() * 5e3));
+      }
+      return this.abortSignal?.aborted ? "stopped" : "replaced";
+    }
+    async recoverWithLease(e, t, o, r) {
+      if (!t()) return !1;
+      let { stale: i, eligible: a } = this.backlog();
+      r.backlogBefore ??= {
+        sources: this.dependencies.sourceCount(),
+        stale: i.length,
+        eligible: a.length,
+      };
+      for (let u of a) r.discovered.add(u);
+      r.pending = a.length;
+      let s = new Set(a),
+        l = () => t() && this.dependencies.canWrite() && e.isValid(),
+        d = async (u) => {
+          if ((s.delete(u), await this.opportunity(o), !l())) return "stop";
+          if (((r.pending = s.size), !this.shouldRecover(u, r))) return "next";
+          let p = await this.dependencies.nestedComponentsWithoutModule(u);
+          if (p.length === 0) return this.recover(u, r, l);
+          let c = p.filter((f) => s.has(f));
+          if (c.length === 0) return "next";
+          for (let f of c) if ((await d(f)) === "stop") return "stop";
+          return d(u);
+        };
+      for (let u of a) if (s.has(u) && (await d(u)) === "stop") return !1;
+      return !0;
+    }
+    shouldRecover(e, t) {
+      return this.beingEdited(e)
+        ? !1
+        : this.dependencies.needsRecovery(e)
+          ? !0
+          : (t.counts.skippedSaved++, !1);
+    }
+    async recover(e, t, o) {
+      if (!o()) return "stop";
+      if (!this.shouldRecover(e, t)) return "next";
+      let r = "buildFailed",
+        i = this.dependencies.watchFailedUploads();
+      t.moduleInProgress = !0;
+      try {
+        let a = await this.timed(t, "generationMs", () => this.dependencies.build(e));
+        if ((a && t.counts.generated++, this.abortSignal?.aborted)) return "stop";
+        ((r = "uploadFailed"),
+          await this.timed(t, "persistenceMs", () => this.dependencies.upload()),
+          this.dependencies.needsRecovery(e)
+            ? a
+              ? t.fail(e, i() ? "uploadFailed" : "stillStaleAfterUpload")
+              : t.fail(e, "buildFailed")
+            : t.counts.persisted++);
+      } catch (a) {
+        (t.fail(e, r), Op.reportError(a));
+      } finally {
+        t.moduleInProgress = !1;
+      }
+      return "next";
+    }
+    async timed(e, t, o) {
+      let r = performance.now();
+      try {
+        return await o();
+      } finally {
+        e.counts[t] += performance.now() - r;
+      }
+    }
+  };
+function Up(n) {
+  let e = n.remoteTreeVersion;
+  return e < 1e13 ? e : Math.floor(e / 1e3);
+}
+var ty = K("ensureComponentsLoadedWithTargetedLoad"),
+  ny = 2e4,
+  oy = 50,
+  ry = 5e3;
+async function $p(n, e, t, o, r = ny) {
+  let i = performance.now(),
+    a = i + r,
+    s,
+    l = _p(t, n);
+  for (; l.length > 0 && performance.now() < a;) {
+    let p = Math.min(performance.now() + ry, a);
+    try {
+      await Promise.race([e(l), xi(p - performance.now())]);
+    } catch (c) {
+      s = c;
+      break;
+    }
+    for (; performance.now() < p && ((l = _p(t, n)), l.length !== 0);) await xi(oy);
+  }
+  let d = ra(t, n);
+  if (d.length === 0) return;
+  let u = d.filter((p) => Wp(p, n));
+  throw (
+    ty.debug("targeted load did not produce definitions", {
+      callSite: o,
+      missing: d,
+      errored: u,
+      loadRequestError: s,
+    }),
+    ke("component_loader_wait_failed", {
+      callSite: o,
+      reason: s === void 0 ? "modules-missing" : "load-request-failed",
+      durationMs: performance.now() - i,
+      missingCount: d.length,
+      errorCount: u.length,
+    }),
+    new Ic(
+      "ensureComponentsInLoader: Some modules are missing.",
+      o,
+      d,
+      u,
+      s === void 0 && l.length > 0
+    )
+  );
+}
+function _p(n, e) {
+  return ra(n, e).filter((t) => !Wp(t, e));
+}
+function Wp(n, e) {
+  let t = E(n);
+  return t ? cn(e.componentForIdentifier(Cn(t))) : !1;
+}
+function Gp(n, e) {
+  if (!n || n.length === 0) return e?.placeholder ?? "";
+  if (n.length === 1) return n[0] && n[0] !== "" ? n[0] : (e?.placeholder ?? "");
+  let t = [...n],
+    o = "";
+  if (e?.max && e.max < n.length) {
+    let r = n.length - e.max;
+    ((t = t.slice(0, e.max)), (o = `${r} ${r > 1 ? "others" : "other"}`));
+  } else o = t.pop() ?? "";
+  return t.length > 1 ? `${t.join(", ")}, and ${o}` : `${t.join(", ")} and ${o}`;
+}
+function bo(n) {
+  let e = E(n);
+  if (!(!e || !te(e) || !Ee(e))) return `${e.moduleId}:${e.exportSpecifier}`;
+}
+function jp(n) {
+  let e = new Map();
+  for (let t of n) {
+    let o = bo(t);
+    o && e.set(o, t);
+  }
+  return e;
+}
+function qp(n, e) {
+  let t = n.getRawControlProps();
+  for (let o in t) {
+    let r = t[o]?.type,
+      i = t[o]?.value;
+    if (r !== "vectorsetitem" || !T(i) || !te(i)) continue;
+    let a = bo(i);
+    if (!a || !e.has(a)) continue;
+    let s = e.get(a);
+    s && n.setControlProp(o, { type: "vectorsetitem", value: s });
+  }
+}
+function Hp(n, e) {
+  for (let t of e) {
+    qp(t, n);
+    let o = bo(t.codeComponentIdentifier);
+    if (!o || !n.has(o)) continue;
+    let r = n.get(o);
+    r && t.set({ codeComponentIdentifier: r });
+  }
+}
+function Jp(n, e) {
+  let t = ar(e);
+  if (t) {
+    C(t.isLoaded(), "CMS Should always be loaded.");
+    for (let { node: o, skipChildren: r } of t.walkWithSkipChildren()) {
+      if (q(o)) {
+        if (!o.variables.some((s) => s.type === "vectorsetitem")) {
+          r();
+          continue;
+        }
+        Kp(o, n);
+      }
+      if (!Qe(o)) continue;
+      let i = o.getControlProps();
+      for (let a in i) {
+        let s = i[a]?.value;
+        if (i[a]?.type !== "vectorsetitem" || !T(s) || !te(s)) continue;
+        let d = bo(s);
+        if (!d || !n.has(d)) continue;
+        let u = n.get(d);
+        u && o.setControlProp(a, { ...i[a], value: u });
+      }
+    }
+  }
+}
+function Kp(n, e) {
+  let t = !1,
+    o = n.variables.map((r) => {
+      if (r.type !== "vectorsetitem") return r;
+      let { initialValue: i } = r,
+        a = i.identifier;
+      if (!a) return r;
+      let s = bo(a);
+      if (!s || !e.has(s)) return r;
+      let l = e.get(s);
+      return l ? ((t = !0), { ...r, initialValue: { ...i, identifier: l } }) : r;
+    });
+  t && n.set({ variables: o });
+}
+function Qp(n, e) {
+  for (let t of e.root.children) {
+    if (V(t)) {
+      qp(t, n);
+      continue;
+    }
+    (ee(t) || X(t)) && Kp(t, n);
+  }
+}
+function tf(n) {
+  return n.type === "controlReference";
+}
+function nf(n, e, t, o) {
+  let r = E(n.identifier);
+  if (!(!r || !te(r))) {
+    if (Te(r)) {
+      let i = e.getObjectKey(r.localId, "save");
+      if (Pt(r.type)) {
+        let l = Xr(i?.propertyControls);
+        if (l !== void 0) return af(l, r.exportSpecifier, o, t);
+      }
+      let a = i?.moduleId,
+        s = n.moduleId ?? (typeof a == "string" ? a : void 0);
+      return s ? Yp(s, void 0, r.exportSpecifier, o, e, t) : void 0;
+    }
+    if (Ee(r)) return Yp(n.moduleId ?? r.moduleId, r.saveId, r.exportSpecifier, o, e, t);
+  }
+}
+function Yp(n, e, t, o, r, i) {
+  return af(of(n, e, r), t, o, i);
+}
+function of(n, e, t) {
+  let o = e ?? ay(n, t);
+  if (!o) return;
+  let r = t.getObjectKey(n, "propertyControlsBySaveId");
+  if (se(r)) return Xr(r[o]);
+}
+function ay(n, e) {
+  let t = e.getObjectKey(n, "codeComponentIdentifier");
+  if (!T(t)) return;
+  let o = E(t);
+  return Ee(o) ? o.saveId : void 0;
+}
+function Xr(n) {
+  if (n === null) return null;
+  if (!se(n)) return;
+  let e = {};
+  for (let t in n) {
+    let o = n[t];
+    if (!se(o)) return;
+    let r = {};
+    (T(o.controls) && (r.controls = o.controls),
+      T(o.displayName) && (r.displayName = o.displayName),
+      T(o.type) && (r.type = o.type),
+      T(o.outputControls) && (r.outputControls = o.outputControls),
+      (e[t] = r));
+  }
+  return e;
+}
+function sy(n, e) {
+  if (!T(n)) return;
+  let t = e.get(n);
+  if (t !== void 0) return t ?? void 0;
+  let o = ly(n);
+  return (e.set(n, o ?? null), o);
+}
+function ly(n) {
+  try {
+    let e = JSON.parse(n);
+    if (!se(e)) return;
+    let t = {};
+    for (let o in e) {
+      let r = e[o];
+      if (!se(r)) return;
+      t[o] = r;
+    }
+    return t;
+  } catch {
+    return;
+  }
+}
+function Gn(n) {
+  return n === null ? !0 : Xr(n) !== void 0;
+}
+function Xp(n, e, t) {
+  if (n === null || typeof n == "string") return;
+  let o = n?.[e]?.[t];
+  return T(o) ? o : void 0;
+}
+function lw(n, e) {
+  return rf(n, e, "displayName");
+}
+function dw(n, e) {
+  return rf(n, e, "type");
+}
+function rf(n, e, t) {
+  let o = E(n);
+  if (!(!o || !te(o))) {
+    if (Te(o)) {
+      if (Pt(o.type)) {
+        let r = e.getObjectKey(o.localId, "save");
+        return Xp(Xr(r?.propertyControls), o.exportSpecifier, t);
+      }
+      return;
+    }
+    if (Ee(o)) return Xp(of(o.moduleId, o.saveId, e), o.exportSpecifier, t);
+  }
+}
+function af(n, e, t, o) {
+  if (n === null) return null;
+  if (typeof n == "string") return;
+  let r = n?.[e];
+  if (r) return sy(r[t], o);
+}
+function dy(n, e) {
+  if (!(!n || !te(n)))
+    switch (n.kind) {
+      case "localModuleExport": {
+        let t = e.getObjectKey(n.localId, "save")?.moduleId;
+        return t ? t : void 0;
+      }
+      case "externalModuleExport":
+        return n.moduleId;
+      default:
+        Y(n);
+    }
+}
+function cy(n, e, t) {
+  let o = uy(e, n.entityIdentifier),
+    r = E(o);
+  if (!(!r || !te(r)))
+    return {
+      type: "controlReference",
+      controlKey: n.controlKey,
+      title: n.name || "Unknown",
+      description: n.description,
+      defaultValue: n.initialValue,
+      optional: je(n, t) ? !0 : void 0,
+      __defaultAssetReference:
+        n.expectedType === "file" && T(n.initialValue) ? n.initialValue : void 0,
+      module: { identifier: r.value, moduleId: dy(r, e) },
+    };
+}
+function uy(n, e) {
+  let t = E(e);
+  if (!Ee(t)) return e;
+  let o = n.getObjectKey(t.moduleId, "codeComponentIdentifier");
+  return T(o) ? o : e;
+}
+function Zp(n, e) {
+  Cr(e) && (n[ho(e.id)] = { type: "changehandler", changes: e.id });
+}
+function Zr(n, e) {
+  let t = n.getObjectKey(e, "variables");
+  if (t === void 0 && n.has(e)) return [];
+  if (!Array.isArray(t)) return;
+  let o = [];
+  for (let r of t) Ie(r) && o.push(r);
+  return o;
+}
+function py(n, e, t) {
+  let o = Zr(e, n);
+  if (!o) return;
+  let r = Be("collection", n, "default").value,
+    i = To(o, e, "ContentManagement", !1, {}, t),
+    a = e.getObjectKey(n, "name"),
+    s = Td({ name: T(a) && a ? a : void 0, dataIdentifier: r });
+  return To(s, e, "ContentManagement", !1, i, t);
+}
+function ja(n, e, t, o) {
+  let r = e.name || "Unknown",
+    i = je(e, t) ? !0 : void 0;
+  switch (e.type) {
+    case "array":
+      return fy(n, e, t, o);
+    case "object":
+      return my(n, e, t, o);
+    case "boolean":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: i ? void 0 : ht(e.type, e.initialValue),
+        disabledTitle: e.options?.disabledTitle,
+        enabledTitle: e.options?.enabledTitle,
+        optional: i,
+      };
+    case "number":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: i ? void 0 : ht(e.type, e.initialValue),
+        displayStepper: e.options?.displayStepper,
+        max: e.options?.max,
+        min: e.options?.min,
+        optional: i,
+        step: e.options?.step,
+        unit: e.options?.unit,
+      };
+    case "color":
+      return { type: e.type, title: r, description: e.description, defaultValue: e.initialValue };
+    case "string":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: i ? void 0 : ht(e.type, e.initialValue),
+        displayTextArea: e.options?.displayTextArea,
+        maxLength: e.options?.maxLength,
+        optional: i,
+        placeholder: e.options?.placeholder,
+        preventLocalization: e.preventLocalization,
+      };
+    case "richtext":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: ht(e.type, e.initialValue),
+        maxLength: e.options?.maxLength,
+        placeholder: e.options?.placeholder,
+        preventLocalization: e.preventLocalization,
+      };
+    case "image":
+      return T(e.initialValue)
+        ? {
+            type: "responsiveimage",
+            title: r,
+            description: e.description,
+            __defaultAssetReference: e.initialValue,
+          }
+        : !mt(e.initialValue) || !T(e.initialValue.value)
+          ? { type: "responsiveimage", title: r, description: e.description }
+          : {
+              type: "responsiveimage",
+              title: r,
+              description: e.description,
+              __defaultAssetReference: e.initialValue.value,
+              __vekterDefault: {
+                assetReference: e.initialValue.value,
+                ...(_i(e.initialValue) && T(e.initialValue.alt) ? { alt: e.initialValue.alt } : {}),
+                ...(Bi(e.initialValue)
+                  ? { positionX: e.initialValue.positionX, positionY: e.initialValue.positionY }
+                  : {}),
+              },
+            };
+    case "eventhandler":
+      return { type: e.type, title: r };
+    case "link":
+    case "scrollsectionref":
+    case "customcursor":
+    case "trackingid":
+      return { type: e.type, title: r, description: e.description };
+    case "linkrelvalues":
+    case "cursor":
+    case "gap":
+    case "padding":
+    case "borderradius":
+    case "location":
+      return { type: e.type, title: r, description: e.description, defaultValue: e.initialValue };
+    case "date":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: i ? void 0 : ht(e.type, e.initialValue),
+        displayTime: e.options?.displayTime ? !0 : void 0,
+        optional: i,
+      };
+    case "enum": {
+      let a = [],
+        s = [];
+      for (let l of e.cases) (a.push(l.id), s.push(l.name));
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: i ? void 0 : ht(e.type, e.initialValue),
+        optional: i,
+        options: a,
+        optionTitles: s,
+      };
+    }
+    case "file": {
+      let a = new Set();
+      for (let s of e.allowedFileTypes) s.extension && a.add(s.extension);
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        allowedFileTypes: Array.from(a),
+        __defaultAssetReference: ht(e.type, e.initialValue),
+      };
+    }
+    case "transition": {
+      let a = ht(e.type, e.initialValue);
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: a ? Ys(a) : void 0,
+      };
+    }
+    case "border": {
+      let a = ht(e.type, e.initialValue);
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: a ? rd(a) : void 0,
+      };
+    }
+    case "boxshadow":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: e.initialValue.map(ld),
+      };
+    case "motionvalue":
+      return dd(e, r);
+    case "dimension":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: i ? void 0 : e.initialValue,
+        optional: i,
+        min: e.options?.min,
+        max: e.options?.max,
+        step: e.options?.step,
+        units: e.options?.units,
+        literals: e.options?.literals,
+      };
+    case "collectionreference":
+    case "multicollectionreference":
+      return {
+        type: e.type,
+        title: r,
+        dataIdentifier: e.dataIdentifier,
+        description: e.description,
+        defaultValue: i ? void 0 : e.initialValue,
+        optional: i,
+      };
+    case "vectorsetitem":
+      return {
+        type: e.type,
+        title: r,
+        description: e.description,
+        defaultValue: e.initialValue,
+        setModuleId: e.setModuleId,
+      };
+    case "slug":
+      return { type: "string", title: r, description: e.description, preventLocalization: gy(n) };
+    case "nodePropertyControlReference":
+    case "controlReference":
+      return null;
+    default:
+      Y(e);
+  }
+}
+function fy(n, e, t, o) {
+  let r = {},
+    i = fd(e);
+  for (let a of e.itemVariables) {
+    if (!Ie(a)) continue;
+    let s = ja(n, a, t, o),
+      l = s ? mo({ control: s }).control : void 0;
+    if (!(!l || !Li(l))) {
+      if (i) {
+        (C(l.type === "responsiveimage", "Gallery array items must be responsive images"),
+          (r[a.id] = hy(l)));
+        continue;
+      }
+      r[a.id] = l;
+    }
+  }
+  return {
+    type: e.type,
+    title: e.name || "Unknown",
+    control: { type: "object", controls: r },
+    description: e.description,
+    displayGalleryAsArray: e.displayGalleryAsArray === !0 ? !0 : void 0,
+    maxCount: e.maxCount,
+    minCount: e.minCount,
+    __vekterDefault: e.initialValue?.map((a) => {
+      let s = {};
+      if (!a || a.type !== "object" || !se(a.value)) return s;
+      for (let l of e.itemVariables) {
+        if (l.type === "divider") continue;
+        let d = a.value[l.id];
+        if (!d) continue;
+        let u = sf(d, l.type);
+        A(u) || (s[l.id] = u);
+      }
+      return s;
+    }),
+  };
+}
+function my(n, e, t, o) {
+  let r = {};
+  for (let s of e.fieldVariables) {
+    let l = ja(n, s, t, o),
+      d = l ? mo({ control: l }).control : void 0;
+    !d || !Li(d) || (r[s.id] = d);
+  }
+  let i = je(e, t),
+    a = {};
+  if (!i)
+    for (let s of e.fieldVariables) {
+      let l = sf(e.initialValue[s.id], s.type);
+      A(l) || (a[s.id] = l);
+    }
+  return {
+    type: e.type,
+    title: e.name || "Unknown",
+    controls: r,
+    description: e.description,
+    optional: i ? !0 : void 0,
+    __vekterDefault: i ? void 0 : a,
+  };
+}
+function hy(n) {
+  let { __defaultAssetReference: e, __vekterDefault: t, ...o } = n;
+  return o;
+}
+function sf(n, e) {
+  if (mt(n) && n.type === e)
+    switch (e) {
+      case "image": {
+        if (!T(n.value)) return;
+        let t = Bi(n);
+        return {
+          assetReference: n.value,
+          alt: _i(n) ? n.alt : void 0,
+          positionX: t ? n.positionX : void 0,
+          positionY: t ? n.positionY : void 0,
+        };
+      }
+      case "boolean":
+        return Yt(n.value) ? n.value : void 0;
+      case "number":
+        return _(n.value) ? n.value : void 0;
+      case "string":
+      case "color":
+      case "date":
+      case "file":
+        return T(n.value) ? n.value : void 0;
+      case "richtext":
+        return ve(n.value) ? n.value : void 0;
+      case "link":
+        return Ll(n.value) ? n.value : void 0;
+      case "vectorsetitem":
+        return T(n.value) && te(n.value) ? n.value : void 0;
+      default:
+        Y(e);
+    }
+}
+function gy(n) {
+  let e = n.getHierarchy().getRootId();
+  if (!e) return !1;
+  let t = n.getObjectKey(e, "webMetadata");
+  return se(t) ? t.translatePagePaths === !1 : !1;
+}
+function ef(n, e, t) {
+  let o = n.getObjectKey(`${e}.replicaInfo`, "master");
+  if (!T(o)) return n.getObjectKey(e, t);
+  let r = [`${e}.replicaInfo.overrides.${o}`],
+    i = n.getObjectKey(`${e}.replicaInfo`, "inheritsFrom");
+  T(i) && r.push(`${i}.replicaInfo.overrides.${o}`);
+  for (let a of r) {
+    let s = n.getObjectKey(a, t);
+    if (s !== void 0) return s;
+    let l = n.getObjectKey(a, "_deleted");
+    if (Array.isArray(l) && l.includes(t)) return;
+  }
+  return n.getObjectKey(o, t);
+}
+function yy(n, e) {
+  let t = n.getObjectKey(`${e}.replicaInfo`, "master");
+  return T(t)
+    ? n.getObjectKey(`${e}.replicaInfo.overrides.${t}`, "name")
+    : n.getObjectKey(e, "name");
+}
+function Sy(n, e) {
+  let t = e.getObjectKey(n, "baseVariantId");
+  if (!T(t) || !e.has(t)) return {};
+  let o = [t];
+  for (let s of e.getChildrenIds(n))
+    s !== t && ef(e, s, "isVariant") === !0 && (ef(e, s, "gesture") || o.push(s));
+  if (o.length < 2) return {};
+  let r = [],
+    i = [],
+    a = new Set();
+  for (let s of o) {
+    let l = yy(e, s),
+      d = (T(l) && l) || ic("Variant", a, { startIndex: a.size + 1, omitCountIfFirst: !1 });
+    (a.add(d), r.push(s), i.push(d));
+  }
+  return { variant: { type: "enum", title: "Variant", options: r, optionTitles: i } };
+}
+function To(n, e, t, o, r, i) {
+  for (let a of n) {
+    if (!Ie(a)) continue;
+    let s = tf(a) ? cy(a, e, t) : void 0;
+    if (s) {
+      ((r[a.id] = s), o && Zp(r, a));
+      continue;
+    }
+    let l = ja(e, a, t, i);
+    Ke(l) || ((r[a.id] = l), o && Zp(r, a));
+  }
+  return r;
+}
+function vy(n, e, t, o) {
+  let r = Zr(t, n);
+  if (!r) return;
+  let i = Iy(e, t),
+    a = i ? r.filter((s) => i.has(s.id)) : r;
+  return To(a, t, "SmartComponent", !0, Sy(n, t), o);
+}
+function Iy(n, e) {
+  let t = e.getObjectKey(n, "save")?.annotations?.default;
+  if (t?.framerImmutableVariables !== !0) return;
+  let o = t.framerVariables;
+  if (A(o)) return new Set();
+  if (se(o)) return new Set(Object.keys(o));
+}
+function Cy(n, e, t) {
+  let o = Zr(e, n);
+  if (o) return To(o, e, "LayoutTemplate", !1, {}, t);
+}
+function by(n, e, t) {
+  let o = e.getParentId(n);
+  if (!o || o === uc || e.getObjectKey(o, "__class") !== "VectorSetNode") return;
+  let r = Zr(e, o);
+  if (r) return To(r, e, "VectorSet", !1, {}, t);
+}
+function Ty(n, e, t) {
+  let o = E(n.identifier);
+  if (!o || !te(o) || !Te(o) || o.exportSpecifier !== "default") return;
+  let r = o.localIdName;
+  switch (o.type) {
+    case "canvasComponent":
+      return vy(r, o.localId, e, t);
+    case "layoutTemplate":
+      return Cy(r, e, t);
+    case "collection":
+    case "draftCollection":
+      return py(r, e, t);
+    case "vector":
+      return by(r, e, t);
+    case "codeFile":
+    case "componentPresets":
+    case "config":
+    case "prototype":
+    case "screen":
+    case "css":
+    case "webPageMetadata":
+    case "siteMetadata":
+    case "snippets":
+    case "localization":
+    case "vectorSet":
+    case "design":
+    case "shader":
+      return;
+    default:
+      Y(o.type);
+  }
+}
+function Ly(n, e, t, o) {
+  let r = Ty(n, e, o);
+  return r !== void 0 ? r : nf(n, e, t.parsedPropertyControls, "controls");
+}
+function lf(n, e, t) {
+  return {
+    getStoredPropertyControls: (r, i) => Ly(r, n, i, e),
+    verifyControls: t,
+    cache: new Map(),
+    parsedPropertyControls: new Map(),
+    resolving: new Set(),
+    resolvingReferences: new Set(),
+  };
+}
+function My(n, e) {
+  let t = `${n.module.identifier}\0${n.module.moduleId ?? ""}\0${n.controlKey}`;
+  if (e.resolvingReferences.has(t)) return;
+  e.resolvingReferences.add(t);
+  let r = e.getStoredPropertyControls(n.module, e)?.[n.controlKey];
+  if (!r) {
+    e.resolvingReferences.delete(t);
+    return;
+  }
+  let i = df(r, e);
+  if ((e.resolvingReferences.delete(t), !!i))
+    return mo({
+      control: {
+        ...i,
+        title: n.title,
+        description: n.description,
+        defaultValue: n.defaultValue,
+        optional: n.optional,
+        __defaultAssetReference: n.__defaultAssetReference,
+      },
+    }).control;
+}
+function df(n, e) {
+  let t = e.cache.get(n);
+  if (t !== void 0) return t ?? void 0;
+  if (e.resolving.has(n)) return;
+  e.resolving.add(n);
+  let o = tf(n) ? My(n, e) : e.verifyControls({ control: n }).control;
+  return (e.resolving.delete(n), e.cache.set(n, o ?? null), o);
+}
+function cf(n, e) {
+  let t = {};
+  for (let o in n) {
+    let r = n[o];
+    if (!r) continue;
+    let i = df(r, e);
+    i && (t[o] = i);
+  }
+  return t;
+}
+function cw(n, e, t) {
+  return xy({ identifier: n.instanceIdentifier }, e, t);
+}
+function xy(n, e, t) {
+  if (!t.enabled) return;
+  let o = lf(e, t, mo),
+    r = o.getStoredPropertyControls(n, o);
+  if (Ke(r)) return {};
+  if (!A(r)) return cf(r, o);
+}
+function uw(n, e, t) {
+  if (!t.enabled) return;
+  let o = lf(e, t, bu),
+    r = nf(n, e, o.parsedPropertyControls, "outputControls");
+  if (r) return cf(r, o);
+}
+function qa(n, e, t) {
+  let o = n.get(e);
+  if (o) return o;
+  let r = t();
+  return (n.set(e, r), r);
+}
+function uf() {
+  return {};
+}
+function pf(n) {
+  let e = { controls: wi(n.properties), displayName: n.name, type: n.type };
+  return (lo(n) && (e.outputControls = wi(n.outputs)), e);
+}
+function ei(n, e) {
+  let t = new Map();
+  for (let o of n) {
+    let r = E(o.identifier);
+    if (!Te(r) || !te(r) || !Pt(r.type) || (e && !e.has(r.localId))) continue;
+    let i = qa(t, r.localId, uf);
+    i[r.exportSpecifier] = pf(o);
+  }
+  return t;
+}
+function ti(n, e) {
+  let t = new Map();
+  for (let o of n) {
+    let r = E(o.identifier);
+    if (!Ee(r) || !te(r) || (e && !e.has(r.moduleId))) continue;
+    let i = qa(t, r.moduleId, () => new Map()),
+      a = qa(i, r.saveId, uf);
+    a[r.exportSpecifier] = pf(o);
+  }
+  return t;
+}
+function ff(n) {
+  let e = E(n.codeComponentIdentifier);
+  if (Ee(e)) return e.saveId;
+}
+function ni(n, e, t) {
+  return n.get(e)?.get(t);
+}
+function Ha(n, e, t) {
+  return { ...n?.propertyControlsBySaveId, [e]: Vr(t) };
+}
+function mf(n) {
+  for (let e of wt.getModuleNodes(n)) {
+    let t = ff(e);
+    if (t && !Gn(e.propertyControlsBySaveId?.[t])) return !0;
+  }
+  return !1;
+}
+function Ja(n) {
+  let e = [];
+  for (let t of wt.getModuleNodes(n)) {
+    let o = ff(t);
+    if (!o || Gn(t.propertyControlsBySaveId?.[o])) continue;
+    let r = E(t.codeComponentIdentifier);
+    Ee(r) && e.push(r);
+  }
+  return e;
+}
+var oe = K("modules-store"),
+  Ry = 5e3,
+  Lo = new Set(["codeFile", "canvasComponent", "screen", "layoutTemplate", "vector"]),
+  LD = 0,
+  Ny = 500,
+  wy = 100,
+  Dy = 10 * 6e4;
+function Vy(n, e, t) {
+  let o = Hd(n, qd);
+  if (o !== na) return;
+  let r = Vd(t ?? "");
+  if (r.length === 0 || !hc(n, r, o)) return;
+  let i = gc(n, r, o);
+  mc(n, i, e);
+}
+function Py(n) {
+  return "sourceContent" in n && T(n.sourceContent);
+}
+function oi(n) {
+  let { module: e, exportSpecifier: t } = n,
+    { id: o, saveId: r, files: i } = e;
+  return (C(i.module, "module file must exist for a saved module"), bn(o, r, i.module, t));
+}
+var hf, gf, yf, Sf, vf, If, me, Ka, Qa, Ya, Xa, Za, es, Mo, jn, xo, qn, Ro, jt, qt, Hn;
+((If = [nn()]), (vf = [nn()]), (Sf = [nn()]), (yf = [nn()]), (gf = [nn()]), (hf = [nn()]));
+var kt = class {
+  constructor(e, t, o, r, i, a, s, l, d, u, p) {
+    this.scheduler = e;
+    this.componentLoader = t;
+    this.treeStore = o;
+    this.loadedExternalModulesStore = r;
+    this.chromeStore = i;
+    this.modulesAPIServicePromise = a;
+    this.makeDocumentReadOnly = s;
+    this.insertTemporaryImportMap = l;
+    this.loadLocalModules = d;
+    this.loadAllLocalModules = u;
+    this.abortSignal = p;
+    (Pe(this, Ka, Ue(me, 8, this)), Ue(me, 11, this));
+    (Pe(this, Qa, Ue(me, 12, this, new Map())), Ue(me, 15, this));
+    (Pe(this, Ya, Ue(me, 16, this, new Map())), Ue(me, 19, this));
+    (Pe(this, Xa, Ue(me, 20, this, new Map())), Ue(me, 23, this));
+    (Pe(this, Za, Ue(me, 24, this, 0)), Ue(me, 27, this));
+    (Pe(this, es, Ue(me, 28, this, 0)), Ue(me, 31, this));
+    Re(this, "pendingLocalModuleIds", new Set());
+    Re(this, "_localModuleEvaluationMode");
+    Re(this, "moduleDepsGraph", {});
+    Re(this, "modulesStorage");
+    Re(this, "fastPreviewSyncSchedule");
+    Re(this, "moduleUpdatesEmitter", new Si());
+    Re(this, "fastRefreshModulesEmitter", new Si());
+    Pe(this, Mo);
+    Pe(this, jn);
+    Pe(this, xo, 0);
+    Pe(this, qn, !1);
+    Re(this, "prepareForPersistence", async (e, t) => {
+      if (
+        !Pt(e) ||
+        t.length === 0 ||
+        (!B.isOn("harness2") && this.localCodeModuleIdsWithStoredPropertyControls(t).size === 0)
+      )
+        return;
+      let o = new Set(t.map((r) => Tn(r, "default").value));
+      (await this.loadLocalModules(o, "current"),
+        await Cc(this.componentLoader, this, "code-file-persistence"));
+    });
+    Pe(this, Ro, new Map());
+    Pe(this, jt, new Map());
+    Re(this, "requestTargetedModuleLoad", async (e) => {
+      let t = new Map(),
+        o = [];
+      for (let r of e) {
+        let i = E(r);
+        (C(i, () => `requestTargetedModuleLoad: not a module identifier: ${r}`),
+          i.kind === "externalModuleExport" ? o.push(i) : t.set(i.localId, i.value));
+      }
+      if ((o.length > 0 && (await this.preloadExternalModules(o)), t.size > 0)) {
+        if (this.modulesStorage.initialized) {
+          for (let [r, i] of t)
+            if (!this.localModuleIsKnown(r))
+              throw new Error(`requestTargetedModuleLoad: no local module for ${i}`);
+        }
+        await this.loadLocalModules(new Set(t.values()), "lazy");
+      }
+    });
+    Pe(this, qt);
+    Pe(this, Hn, !1);
+    Re(
+      this,
+      "debugModuleStoreAndComponentLoaderRevisionsMatch",
+      () => this.revision === this.componentLoader.modulesRevision
+    );
+    Re(this, "checkForExternalModuleUpdates", async () => {
+      if (this.treeStore.tree.isViewOnly) return;
+      let e = wt.get(this.treeStore.tree);
+      if (!e?.children?.length) return;
+      let t = [],
+        o = new Map();
+      e.children.forEach((s) => {
+        let l = E(s.codeComponentIdentifier);
+        if (
+          (C(
+            l?.kind === "externalModuleExport",
+            "expected ExternalModuleNode identifier to be of kind externalModuleExport"
+          ),
+          s.type === "vector")
+        ) {
+          let d = s.annotation("framerVector");
+          if (!vd(d)) return;
+          let u = d.set.moduleId,
+            p = o.get(u) ?? [];
+          (p.push(l), o.set(u, p));
+        } else t.push(l);
+      });
+      for (let [s, l] of o) {
+        let d = this.treeStore.tree.get(s);
+        if (!tt(d)) continue;
+        let u = d.annotation("framerVectorSet");
+        Gi(u) && (Cd(u) || t.push(...l));
+      }
+      let r = t.map(({ moduleId: s, saveId: l }) => ({ moduleId: s, saveId: l }));
+      if (!r.length) return;
+      let i = [],
+        a = [];
+      for (let s = 0; s < r.length; s++) {
+        let l = r[s];
+        if (
+          (C(l, "query is expected to be defined."), i.push(l), i.length < Ny && s < r.length - 1)
+        )
+          continue;
+        let { modules: d } = await this.lookUpModules(i, { includeStatus: !0 });
+        (a.push(...d), (i = []));
+      }
+      this.treeStore.tree.isViewOnly ||
+        this.updateExternalModuleNodes(
+          a.map((s, l) => {
+            let d = t[l];
+            return (
+              C(d, "External module missing a matching identifier"),
+              { module: s, exportSpecifier: d.exportSpecifier }
+            );
+          }),
+          { onTreeUpdate() {} }
+        ).catch(Je);
+    });
+    Re(this, "updatesPollId");
+    Re(
+      this,
+      "compileFastRefreshModuleEntry",
+      async ({
+        localId: e,
+        name: t,
+        source: o,
+        includeSourceMap: r = !0,
+        moduleURL: i,
+        sourceRevision: a,
+      }) => {
+        let { type: s, name: l } = Vs(e);
+        if (!Lo.has(s)) return;
+        let d = s === "codeFile" ? ga(t).source : l,
+          u = s === "codeFile" ? _o(t)[1] : l,
+          {
+            code: p,
+            imports: c,
+            sourceMap: f,
+            submoduleContents: g = {},
+          } = await gu({ localId: e, source: o, name: d, includeSourceMap: r }),
+          h = this.localModules.get(t),
+          S = i ?? (h && "moduleURL" in h ? h.moduleURL : void 0),
+          v = {
+            kind: "fast-refresh",
+            localId: e,
+            type: s,
+            name: u,
+            sourceContent: o,
+            moduleContent: p,
+            relativeImports: c.relative,
+            sourceMapContent: f,
+            binaryAssetContents: void 0,
+            submoduleContents: g,
+            update: 0,
+          };
+        return (S !== void 0 && (v.moduleURL = S), a !== void 0 && (v.sourceRevision = a), v);
+      }
+    );
+    Re(this, "compileFastRefreshModule", async (e) => {
+      let { name: t } = e,
+        o = await this.compileFastRefreshModuleEntry(e);
+      if (!o) return;
+      let [r, i] = mu(this.fastRefreshModules, (a) => {
+        a.set(t, o);
+      });
+      ((this.fastRefreshModules = r),
+        this.fastRefreshModulesEmitter.emit({ patches: i, initialized: !0 }));
+    });
+    Re(
+      this,
+      "compile",
+      ({
+        localId: e,
+        name: t,
+        source: o,
+        includeSourceMap: r = !0,
+        type: i,
+        telemetrySession: a,
+      }) => {
+        let s = yu({ name: t, source: o, includeSourceMap: r, type: i, telemetrySession: a });
+        return (
+          this.fastRefreshEnabled &&
+            e &&
+            this.compileFastRefreshModule({
+              localId: e,
+              name: t,
+              source: o,
+              includeSourceMap: r,
+            }).catch(Je),
+          s
+        );
+      }
+    );
+    ((this.modulesStorage = new Iu(
+      () =>
+        this.modulesAPIServicePromise.catch((c) => {
+          throw (oe.error(c, { context: "Failed to discover ModulesAPI service:" }), c);
+        }),
+      this.compile,
+      (c, f) => this.scheduler.process(c, f),
+      (c, f) => this.scheduler.processWhenReadyStrict(c, f),
+      () => this.scheduler.markCurrentCommitHasUserModuleEdit(),
+      (c) => this.scheduler.runWhenIdle(c),
+      (c, f, g) => this.scheduler.scheduleAgentChanges(c, f, g),
+      o,
+      () => this.getActiveScope(),
+      () => this.makeDocumentReadOnly(),
+      this.abortSignal,
+      this.prepareForPersistence,
+      this.propertyControlsSnapshotForCurrentRevision.bind(this),
+      (c) => {
+        this.invalidSavePointerQuarantineSize = c;
+      }
+    )),
+      (this.fastRefreshModulesEmitter.onNewStream = (c) => (
+        oe.debug("onNewStream - fast refresh", c),
+        { latest: this.getAllFastRefreshModulesAsUpdateEvent() }
+      )),
+      (this.moduleUpdatesEmitter.onNewStream = (c) => (
+        oe.debug("onNewStream - module updates", c),
+        { latest: this.getAllModulesAsUpdateEvent() }
+      )),
+      xt(
+        this,
+        qt,
+        new vt({
+          delay: Ry,
+          task: () => {
+            this.processImportMapPrune();
+          },
+          abortSignal: this.abortSignal,
+        })
+      ),
+      this.modulesStorage.subscribe((c) => {
+        let f = c.dependenciesModule?.importMapContent,
+          g = this.dependenciesModule?.importMapContent,
+          h = $l(g, f),
+          S = !0;
+        B.isOn("importMapPruning") && (S = h);
+        let v = !1;
+        if (f && f !== g) {
+          let D = _l(f);
+          v = c.metadata.multiplayerChange || h;
+        }
+        (f !== g &&
+          (h
+            ? oe.info("Import map resolutions changed, re-evaluating all modules")
+            : S
+              ? oe.info("Import map updated, re-evaluating all modules")
+              : oe.info(
+                  "Import map updated without existing resolution changes, skipping blanket re-eval"
+                )),
+          v && c.metadata.multiplayerChange,
+          (this.dependenciesModule = c.dependenciesModule),
+          (this.localModules = c.modules));
+        let y = this.moduleDepsGraph;
+        this.moduleDepsGraph = c.depsGraph;
+        let I = c.metadata.patches,
+          x = new Set(),
+          M = [],
+          R = [],
+          N;
+        for (let D of I) {
+          let k = D.path[0];
+          if ((C(typeof k == "string"), k === pa)) {
+            if (((N = D), S)) for (let z of c.modules.keys()) x.add(z);
+            break;
+          }
+          D.op === "remove" && D.path.length === 1 ? R.push(k) : M.push(k);
+        }
+        let w = new Set();
+        if (!N) {
+          let D = this.getActiveScope(),
+            k = ya(D);
+          oe.debug("Calculated visible code component module typeSlashNames", k);
+          for (let z of M) ma(c.depsGraph, z, x, k, w);
+          for (let z of R) ma(y, z, x, k, w);
+          (M.forEach((z) => {
+            x.delete(z);
+          }),
+            R.forEach((z) => {
+              (x.delete(z), w.delete(z));
+            }));
+        }
+        oe.debug(
+          "prioritized evaluation sending to sandbox",
+          { dependentModules: x, visibleDependentModules: w },
+          "highprio size",
+          w.size,
+          "dep size",
+          x.size
+        );
+        let F = {
+          patches: I,
+          dependentModules: Array.from(x),
+          prioritizedModules: Array.from(w),
+          revision: I.length === 0 ? this.revision : ++this.revision,
+          initialized: c.initialized,
+          modulesReloading: c.modulesReloading,
+        };
+        if ((this.moduleUpdatesEmitter.emit(F), this.fastRefreshEnabled)) {
+          let D = I.filter(
+            (z) =>
+              z.path.length === 1 &&
+              z.path[0] !== pa &&
+              (z.op === "remove" || (z.op === "add" && !this.fastRefreshModules.has(z.path[0])))
+          );
+          this.fastRefreshModules = fu(this.fastRefreshModules, (z) => {
+            for (let W of D) W.op === "remove" && z.delete(W.path[0]);
+          });
+          let k = [...(N ? [N] : []), ...D];
+          k.length > 0 &&
+            this.fastRefreshModulesEmitter.emit({ patches: k, initialized: c.initialized });
+        }
+        if (this.fastRefreshEnabled && !N)
+          for (let D of M) {
+            let k = this.fastRefreshModules.get(D);
+            if (!k) continue;
+            let z = this.localModules.get(D);
+            z && z.sourceContent !== k.sourceContent && this.createFastRefreshModuleFromModule(z);
+          }
+        B.isOn("fastPreview") && this.fastPreviewSyncSchedule?.("modules snapshot");
+      }));
+  }
+  scheduler;
+  componentLoader;
+  treeStore;
+  loadedExternalModulesStore;
+  chromeStore;
+  modulesAPIServicePromise;
+  makeDocumentReadOnly;
+  insertTemporaryImportMap;
+  loadLocalModules;
+  loadAllLocalModules;
+  abortSignal;
+  get localModuleEvaluationMode() {
+    return this._localModuleEvaluationMode;
+  }
+  get hasPendingLocalModuleEvaluations() {
+    return this.pendingLocalModuleIds.size > 0;
+  }
+  updateLocalModuleEvaluationState(e, t) {
+    ((this.pendingLocalModuleIds = new Set(e.map(Ci))), (this._localModuleEvaluationMode = t));
+  }
+  isLocalModuleEvaluationPending(e) {
+    return (
+      this.componentLoader.modulesRevision < this.revision || this.pendingLocalModuleIds.has(e)
+    );
+  }
+  propertyControlsSnapshotForCurrentRevision(e) {
+    let t = B.isOn("harness2") ? void 0 : this.localCodeModuleIdsWithStoredPropertyControls(e);
+    return t?.size === 0
+      ? { revision: this.revision, controlsByLocalId: new Map() }
+      : this.debugModuleStoreAndComponentLoaderRevisionsMatch()
+        ? {
+            revision: this.revision,
+            controlsByLocalId: ei(this.componentLoader.getAllEntities(), t),
+          }
+        : { revision: -1, controlsByLocalId: new Map() };
+  }
+  localCodeModuleIdsWithStoredPropertyControls(e) {
+    return new Set(
+      e.filter((t) => {
+        let o = this.treeStore.tree.get(t);
+        return !Dt(o) || !Pt(o.save.type) ? !1 : Gn(o.save.propertyControls);
+      })
+    );
+  }
+  localCodeModuleIdsMissingPropertyControls() {
+    let e = [];
+    for (let t of sr.getModuleNodes(this.treeStore.tree))
+      Pt(t.save.type) && (Gn(t.save.propertyControls) || e.push(t.id));
+    return e;
+  }
+  async backfillMissingCrdtModuleControls() {
+    if (this.treeStore.tree.isViewOnly) return;
+    let e = this.localCodeModuleIdsMissingPropertyControls(),
+      t = mf(this.treeStore.tree);
+    if (e.length === 0 && !t) return;
+    if (e.length > 0) {
+      let d = new Set(e.map((u) => Tn(u, "default").value));
+      await this.loadLocalModules(d, "eager");
+    }
+    let o = Ja(this.treeStore.tree);
+    await Promise.allSettled(
+      o.map((d) => this.loadedExternalModulesStore.ensureModuleEvaluatedInSandbox(d))
+    );
+    let r = this.loadedExternalModulesStore.usesNoopExternalModuleEvaluation?.() === !0,
+      i = [...this.componentLoader.getAllEntities()],
+      a = ei(i),
+      s = ti(i),
+      l = new Set(e.filter((d) => !this.isLocalModuleEvaluationPending(d)));
+    await this.scheduler.processWhenReadyAsync(() => {
+      this.treeStore.tree.isViewOnly ||
+        this.writeMissingPropertyControls(
+          (d) => a.get(d) ?? (l.has(d) ? null : void 0),
+          ({ moduleId: d, saveId: u }) => ni(s, d, u) ?? (r ? null : void 0)
+        );
+    });
+  }
+  persistEvaluatedPropertyControls(e) {
+    if (!B.isOn("harness2") || this.treeStore.tree.isViewOnly || ge(this, qn)) return;
+    let t = e > ge(this, xo);
+    if ((xt(this, xo, e), e === 0)) return;
+    let o = t ? 1 : wy + 1;
+    this.countEvaluatedPropertyControlsGaps(o) >= o &&
+      (xt(this, qn, !0),
+      this.scheduler.scheduleDocumentUpdateIgnoringUndo(() => {
+        (xt(this, qn, !1),
+          !this.treeStore.tree.isViewOnly && this.writeEvaluatedPropertyControls());
+      }));
+  }
+  countEvaluatedPropertyControlsGaps(e) {
+    let { localIds: t, externalIdentifiers: o } = this.getPropertyControlsGaps(),
+      r = 0;
+    for (let i of o) if (this.hasEvaluatedExternalPropertyControls(i) && (r++, r >= e)) return r;
+    for (let i of t) if (this.hasEvaluatedPropertyControlsForSave(i) && (r++, r >= e)) return r;
+    return r;
+  }
+  writeEvaluatedPropertyControls() {
+    let e = this.getPropertyControlsGaps(),
+      t = e.localIds.filter((a) => this.hasEvaluatedPropertyControlsForSave(a)),
+      o = ei(this.componentLoader.getAllEntities(), new Set(t)),
+      r = e.externalIdentifiers.filter((a) => this.hasEvaluatedExternalPropertyControls(a)),
+      i = ti(this.componentLoader.getAllEntities(), new Set(r.map((a) => a.moduleId)));
+    this.writeMissingPropertyControls(
+      (a) => o.get(a),
+      ({ moduleId: a, saveId: s }) => ni(i, a, s)
+    );
+  }
+  writeMissingPropertyControls(e, t) {
+    let o = this.treeStore.tree,
+      { localIds: r, externalIdentifiers: i } = this.getPropertyControlsGaps();
+    for (let a of r) {
+      let s = o.getNodeWithTrait(a, Dt),
+        l = e(a);
+      !s || l === void 0 || s.set({ save: { ...s.save, propertyControls: Vr(l) } });
+    }
+    for (let a of i) {
+      let s = o.getNodeWithTrait(a.moduleId, tt),
+        l = t(a);
+      !s || l === void 0 || s.set({ propertyControlsBySaveId: Ha(s, a.saveId, l) });
+    }
+  }
+  getPropertyControlsGaps() {
+    let e = this.treeStore.tree,
+      t = sr.get(e),
+      o = wt.get(e),
+      r = ge(this, jn),
+      i = r !== void 0 && r.localModulesList === t,
+      a = r !== void 0 && r.externalModulesList === o;
+    return i && a
+      ? r
+      : (xt(this, jn, {
+          localModulesList: t,
+          externalModulesList: o,
+          localIds: i ? r.localIds : this.localCodeModuleIdsMissingPropertyControls(),
+          externalIdentifiers: a ? r.externalIdentifiers : Ja(e),
+        }),
+        ge(this, jn));
+  }
+  hasEvaluatedExternalPropertyControls(e) {
+    return this.componentLoader.getDefinitionHash(e.value) !== 0;
+  }
+  hasEvaluatedPropertyControlsForSave(e) {
+    if (this.isLocalModuleEvaluationPending(e)) return !1;
+    let t = this.getPersistedModuleByLocalId(e);
+    if (
+      !t ||
+      !(Up(this.treeStore) - new Date(t.savedAt).getTime() >= Dy) ||
+      !t.exports.some((s) => this.componentLoader.getDefinitionHash(Tn(e, s).value) !== 0)
+    )
+      return !1;
+    let a = new Set();
+    ha(this.moduleDepsGraph, wn(t), a);
+    for (let s of a) {
+      let l = this.localModules.get(s);
+      if (!(l !== void 0 && this.isStoredAtTreeSave(l.localId))) return !1;
+    }
+    return !0;
+  }
+  isStoredAtTreeSave(e) {
+    if (this.getTransientSave(e)) return !1;
+    let t = this.treeStore.tree.getNodeWithTrait(e, Dt)?.save,
+      o = this.getPersistedModuleByLocalId(e);
+    return !t || !o ? !1 : o.id === t.moduleId && o.saveId === t.saveId;
+  }
+  getActiveScope() {
+    if (this.chromeStore.mainView === 5) return;
+    let e = this.treeStore.tree.get(ge(this, Mo));
+    if (e) return (C(e?.loaded, "Active scope node should be loaded"), e.loaded);
+  }
+  setActiveScope(e) {
+    xt(this, Mo, e);
+  }
+  getLatestDependencyGraph() {
+    return this.moduleDepsGraph;
+  }
+  setFastPreviewSyncSchedule(e) {
+    this.fastPreviewSyncSchedule = e;
+  }
+  initialize() {
+    return this.initialized
+      ? this.modulesStorage.refresh()
+      : (this.setupPollingExternalModulesUpdates(), this.modulesStorage.initialize());
+  }
+  get initialized() {
+    return this.modulesStorage.initialized;
+  }
+  whenInitialized() {
+    return this.modulesStorage.whenInitialized();
+  }
+  whenIdle() {
+    return this.modulesStorage.whenIdle();
+  }
+  debugProcessingState() {
+    return {
+      ...this.modulesStorage.debugProcessingState(),
+      revision: this.revision,
+      componentLoaderRevision: this.componentLoader.modulesRevision,
+    };
+  }
+  getInvalidSavePointerQuarantine() {
+    return this.modulesStorage.getInvalidSavePointerQuarantine();
+  }
+  clearInvalidSavePointerQuarantine(e) {
+    this.modulesStorage.clearInvalidSavePointerQuarantine(e);
+  }
+  startDivergenceReporter() {
+    this.modulesStorage.startDivergenceReporter();
+  }
+  sampleDivergencesNow() {
+    this.modulesStorage.sampleDivergencesNow();
+  }
+  getImportMapTraceCacheText() {
+    return this.modulesStorage.getImportMapTraceCacheText();
+  }
+  refresh() {
+    return this.modulesStorage.refresh();
+  }
+  deleteModules(e) {
+    return this.modulesStorage.delete(e);
+  }
+  softDeleteModulesInBackend(e) {
+    return this.modulesStorage.softDeleteModulesInBackend(e);
+  }
+  restoreModulesInBackend(e) {
+    return this.modulesStorage.restoreModulesInBackend(e);
+  }
+  restoreModule(e, t) {
+    return this.modulesStorage.restore(e, t);
+  }
+  upsertBatch(e) {
+    return this.modulesStorage.upsertBatch(e);
+  }
+  promoteModuleSaves(e) {
+    return this.modulesStorage.promoteModuleSaves(e);
+  }
+  forType(e) {
+    return new vu(this.modulesStorage, e, this.debugModuleStoreAndComponentLoaderRevisionsMatch);
+  }
+  async addNpmDependencies(e) {
+    let o = typeof this.dependenciesModule > "u" && !Vu(),
+      r = await Pr(this.modulesStorage.addNpmDependencies(e)),
+      i = Array.isArray(e) ? e : [e],
+      a = i.filter(({ target: d }) => !zi(d));
+    if (!r.ok) {
+      let d = r.error instanceof Error ? r.error.message : String(r.error);
+      for (let u of a) {
+        let p = El(u);
+        ke("npm_dependency_add_fail", { name: p, reason: d });
+      }
+      throw (
+        a.length > 0 &&
+          oe.reportError(r.error, {
+            context: "Failed to add npm dependencies",
+            descriptors: a.map(({ target: u }) => u),
+          }),
+        r.error
+      );
+    }
+    o && Pu();
+    let s = Object.keys(r.value.dependenciesMap.dependencies),
+      l = i.map(({ target: d }) => d).filter((d) => !s.includes(d) && zi(d));
+    if (l.length > 0) {
+      let d = Gp(l, { max: 5, placeholder: "package" });
+      He({
+        type: "add",
+        variant: "warning",
+        primaryText: d,
+        secondaryText: `${l.length === 1 ? "is" : "are"} incompatible.`,
+        duration: 5e3,
+      });
+    }
+    return r.value;
+  }
+  changeScope(e) {
+    (this.setActiveScope(e.id), this.modulesStorage.changeScope(e));
+  }
+  async uninstallBlockedNpmDependencies() {
+    return { importMap: await this.modulesStorage.uninstallBlockedNpmDependencies() };
+  }
+  async unsafeUpgradeDependency(e, t, o) {
+    return { importMap: await this.modulesStorage.unsafeUpgradeDependency(e, t, o) };
+  }
+  async clearNpmDependencies() {
+    return this.modulesStorage.clearNpmDependencies();
+  }
+  async removeBlockedNpmDependencies() {
+    return { dependenciesMap: await this.modulesStorage.removeBlockedNpmDependencies() };
+  }
+  async pruneProjectImportMapFromEntryPoints(e = !1) {
+    let t = await this.modulesStorage.pruneProjectImportMapFromEntryPoints(
+      () => this.getEntryPointModuleNames(),
+      { dryRun: e }
+    );
+    return (C(t, "Prune discarded: its inputs changed during the trace"), { importMap: t });
+  }
+  getEntryPointModuleNames() {
+    let e = [];
+    for (let t of this.localModules.values()) {
+      if (
+        t.kind === "fast-refresh" ||
+        (t.type !== "codeFile" && t.type !== "canvasComponent" && t.type !== "screen")
+      )
+        continue;
+      let o = t.files?.module;
+      if (!o) continue;
+      let r = bi(t.localId, o);
+      e.push(r);
+    }
+    for (let t of wt.getModuleNodes(this.treeStore.tree)) {
+      if (t.type !== "codeFile" && t.type !== "canvasComponent" && t.type !== "shader") continue;
+      let o = E(t.codeComponentIdentifier);
+      Ee(o) && e.push(o.importSpecifier);
+    }
+    return [...new Set(e)];
+  }
+  async updateSources(e) {
+    return this.modulesStorage.updateSources(e);
+  }
+  async updateDependenciesSource(e, t, o) {
+    await this.modulesStorage.updateDependenciesSource(e, t, o);
+  }
+  getDependentsOfModule(e) {
+    return this.modulesStorage.getDependentsOfModule(e);
+  }
+  subscribeToModulesStorage(e) {
+    return this.modulesStorage.subscribe(e);
+  }
+  async getModuleDependencies(e) {
+    let t = await this.modulesAPIServicePromise;
+    return (
+      C(t, "Modules API service not initialized correctly"),
+      await t.getModuleDependencies(e)
+    );
+  }
+  getModuleEntryByLocalId(e) {
+    for (let t of this.localModules.values()) if (t.localId === e) return t;
+  }
+  getModuleEntryByUniqueName(e) {
+    for (let t of this.localModules.values()) if (t.name === e) return t;
+  }
+  getPersistedDependenciesModule() {
+    return this.modulesStorage.getPersistedDependenciesModule();
+  }
+  getPersistedModuleByGlobalId(e) {
+    return this.modulesStorage.getPersistedModuleByGlobalId(e);
+  }
+  getPersistedModuleByLocalId(e) {
+    return this.modulesStorage.getPersistedModuleByLocalId(e);
+  }
+  getServerModuleSourceContent(e) {
+    let t = this.getPersistedModuleByLocalId(e);
+    if (t?.kind === "server") return this.modulesStorage.fetchSourceContentForModule(t);
+  }
+  getPersistedModuleByLocalIdentifier(e) {
+    let t = E(e);
+    if (Te(t)) return this.getPersistedModuleByLocalId(t.localId);
+  }
+  tryConvertExternalCodeComponentIdentifierToLocal(e) {
+    let t = E(e);
+    if (t?.kind !== "externalModuleExport") return;
+    let o = this.getPersistedModuleByGlobalId(t.moduleId);
+    if (o) return Tn(o.localId, t.exportSpecifier).value;
+  }
+  async listNamespaces() {
+    let e = await this.modulesAPIServicePromise;
+    return (C(e, "Modules API service not initialized correctly"), await e.listNamespaces());
+  }
+  async createNamespace(e, t) {
+    let o = await this.modulesAPIServicePromise;
+    return (
+      C(o, "Modules API service not initialized correctly"),
+      await o.createNamespace({ ownerId: e, ownerType: t })
+    );
+  }
+  async lookUpModule(e, t) {
+    let { modules: o, dependencies: r } = await this.lookUpModules([e], t),
+      i = o[0];
+    C(i, () => `Module does not exist, looking up: ${JSON.stringify(e)}`);
+    let a = { module: i };
+    return (r && (a.dependencies = r[i.ownerType]?.[i.ownerId]), a);
+  }
+  async lookUpModuleURL(e) {
+    let t = new URL(e),
+      o = t.hash.substring(1).split(","),
+      r = o[0] || "default",
+      i = o.some((p, c) => c > 0 && p === "unlink"),
+      { module: a } = await this.lookUpModule({ url: t.href }),
+      s = a.id,
+      l = this.getPersistedModuleByGlobalId(s);
+    C(a.files.module, "Module file must be defined");
+    let d = bn(s, a.saveId, a.files.module, r),
+      u = l ? Tn(l.localId, r) : d;
+    return { module: a, moduleIdentifier: u, externalIdentifier: d, insertUnlinked: i };
+  }
+  async getSourceContentForModuleSave(e) {
+    let { module: t } = await this.lookUpModule(e);
+    if (Py(t)) return t.sourceContent;
+    let o = t.baseURL + t.files.source,
+      r = await Pr(fetch(o));
+    if (!r.ok)
+      throw (
+        oe.reportError(r.error, {
+          context: "Failed to fetch source content for module save",
+          moduleId: e.moduleId,
+          saveId: e.saveId,
+          sourceURL: o,
+        }),
+        r.error
+      );
+    if (!r.value.ok) {
+      let a = new Error(
+        `Failed to fetch source content for module save ${e.moduleId}@${e.saveId}: ${r.value.status} ${r.value.statusText}`
+      );
+      throw (
+        oe.reportError(a, {
+          context: "Failed to fetch source content for module save",
+          moduleId: e.moduleId,
+          saveId: e.saveId,
+          sourceURL: o,
+          httpStatus: r.value.status,
+        }),
+        a
+      );
+    }
+    let i = await Pr(r.value.text());
+    if (!i.ok)
+      throw (
+        oe.reportError(i.error, {
+          context: "Failed to read source content for module save",
+          moduleId: e.moduleId,
+          saveId: e.saveId,
+          sourceURL: o,
+        }),
+        i.error
+      );
+    return i.value;
+  }
+  async lookUpModules(e, t) {
+    let o = await this.modulesAPIServicePromise;
+    if (!o)
+      return (
+        oe.error("Modules API service not initialized correctly"),
+        { modules: [], dependencies: {} }
+      );
+    let { data: r, dependencies: i } = await o.lookUpModules({ queries: e, ...t }),
+      a = new Map(this.externalModulesDynamicInfo);
+    for (let l of r) {
+      let d = l.id,
+        { localId: u, title: p, description: c, lastPublish: f, status: g } = l;
+      a.set(d, {
+        localId: u,
+        title: p,
+        description: c,
+        lastPublish: f,
+        status: g ?? a.get(d)?.status,
+      });
+    }
+    this.externalModulesDynamicInfo = a;
+    let s = { modules: r };
+    return (i && (s.dependencies = i), s);
+  }
+  trackExternalComponentInsert(e, t) {
+    let o = Ws();
+    for (let r of e) ku({ insertId: o, insertType: t, codeComponentId: r });
+  }
+  async installExternalModulesDependencies(e) {
+    let t = [],
+      o = [];
+    for (let r of e) {
+      let i = ge(this, Ro).get(r);
+      i ? o.push(i) : t.push(r);
+    }
+    if (t.length > 0) {
+      let r = this.installDependenciesForModuleURLs(t);
+      for (let i of t) ge(this, Ro).set(i, r);
+      o.push(r);
+    }
+    return Promise.allSettled(o).then((r) => {
+      for (let i of r)
+        i.status !== "fulfilled" && oe.error("Failed to install external module", i.reason);
+    });
+  }
+  isProcessingModules() {
+    return this.modulesStorage.isProcessing();
+  }
+  hasLocalCodeFileChanges() {
+    return this.modulesStorage.hasLocalCodeFileChanges();
+  }
+  isReadOnly() {
+    return this.modulesStorage.isReadOnly();
+  }
+  resetModuleStateAndPermissions(e) {
+    this.modulesStorage.resetModuleStateAndPermissions(e);
+  }
+  getTransientSave(e) {
+    return this.modulesStorage.getTransientSave(e);
+  }
+  createFastRefreshModuleFromModule(e) {
+    if (Lo.has(e.type)) {
+      if (e.kind === "server") {
+        let t = this.getPersistedModuleByLocalId(e.localId);
+        (C(t?.kind === "server", "Only server modules should have no sourceContent"),
+          this.modulesStorage.createLocalModuleFromModule(t).catch(Je));
+        return;
+      }
+      this.compileFastRefreshModule({
+        name: wn(e),
+        localId: e.localId,
+        source: e.sourceContent,
+      }).catch(Je);
+    }
+  }
+  getModuleWithTypeSlashName(e) {
+    return this.modulesStorage.getModuleWithTypeSlashName(e);
+  }
+  waitForModulesToSave() {
+    return this.modulesStorage.waitForModulesToSave();
+  }
+  async insertTemporaryImportMapForExternalModules(e) {
+    let t = { imports: {} };
+    for (let { dependencies: o, module: r } of e) {
+      let i = o?.importMap;
+      if (!(!i || Xo(i))) {
+        if ((C(r.files.module, "Module must have a module file"), i.scopes)) {
+          t.scopes ??= {};
+          for (let [a, s] of Object.entries(i.scopes))
+            t.scopes[a] = Object.assign({}, s, t.scopes[a]);
+        }
+        Object.keys(i.imports).length > 0 &&
+          ((t.scopes ??= {}),
+          (t.scopes[r.baseURL] = Object.assign({}, i.imports, t.scopes[r.baseURL])));
+      }
+    }
+    Xo(t) || (await this.insertTemporaryImportMap(t));
+  }
+  async installDependenciesForExternalModules(e) {
+    let t,
+      o = {},
+      r;
+    for (let { dependencies: i, module: a } of e)
+      if (i?.importMap)
+        if (B.isOn("importMapPruning")) {
+          let { importMap: s } = zl(i.importMap, [a.baseURL], Zo);
+          t = Vi(t ?? { imports: {} }, s);
+          let l = i.dependencies ?? Pi(i.importMap);
+          Object.assign(o, kl(l, a.baseURL));
+        } else {
+          let { modulesCDN: s } = to(),
+            l = Bl(i.importMap, s, Zo),
+            d = l.importMap,
+            u =
+              l.didNormalize && i.dependencies ? Ul(i.dependencies, d) : (i.dependencies ?? Pi(d)),
+            p = {
+              dependencies: u.dependencies,
+              ...(u.resolutions ? { resolutions: u.resolutions } : {}),
+            };
+          ((r = Wl(r ?? { dependencies: {} }, p)), (t = Vi(t ?? { imports: {} }, d)));
+        }
+    if (!t || Xo(t)) return !1;
+    if (B.isOn("importMapPruning")) {
+      let i = { ...t, imports: Fl(t.imports, Zo) },
+        { changed: a } = await this.modulesStorage.extendCurrentImportMap(i, {
+          dependencies: {},
+          scopedDependencies: o,
+        });
+      return a;
+    }
+    return (r && (await this.modulesStorage.extendCurrentImportMap(t, r)), !1);
+  }
+  installDependenciesForModuleURLs(e) {
+    return (
+      oe.info(
+        `\u{1F986} Installing external modules:
+	`,
+        e.join(`
+	`)
+      ),
+      this.lookUpModules(
+        e.map((t) => ({ url: t })),
+        { includeDependencies: !0 }
+      ).then(async ({ modules: t, dependencies: o = {} }) => {
+        let r = t.map((i) => ({ module: i, dependencies: o[i.ownerType]?.[i.ownerId] }));
+        (await this.insertTemporaryImportMapForExternalModules(r),
+          await this.installDependenciesForExternalModules(r));
+      })
+    );
+  }
+  async addOrUpdateExternalVectors(e) {
+    await this.modulesStorage.whenInitialized();
+    let { modules: t } = await this.lookUpModules(
+        e.filter((i) => {
+          let a = this.treeStore.tree.getNodeWithTrait(i.moduleId, tt);
+          return a ? E(a.codeComponentIdentifier).saveId !== i.saveId : !0;
+        }),
+        { includeDependencies: !1, includeStatus: !0 }
+      ),
+      o = new Map(),
+      r = "default";
+    for (let i of t) {
+      let a = oi({ module: i, exportSpecifier: r }),
+        s = this.treeStore.tree.getNodeWithTrait(i.id, tt);
+      (te(s?.codeComponentIdentifier) && E(s.codeComponentIdentifier).saveId === i.saveId) ||
+        o.set(a.value, { module: i, exportSpecifier: r });
+    }
+    (await Promise.all(
+      Array.from(o.keys(), (i) => {
+        let a = E(i);
+        return (
+          C(a, "Identifier must be a valid module identifier"),
+          this.loadedExternalModulesStore.ensureModuleEvaluatedInSandbox(a).catch((s) => {
+            oe.error(`Failed to evaluate external module "${i}"`, s);
+          })
+        );
+      })
+    ),
+      await this.updateExternalModuleNodes(Array.from(o.values()), {
+        onTreeUpdate: () => {
+          let i = jp(o.keys()),
+            a = this.treeStore.getDataTree(),
+            s = a.query().whereClass(ea).iterate();
+          (Hp(i, s), Jp(i, a), Qp(i, a));
+        },
+        updateSave: !0,
+      }));
+  }
+  async addOrUpdateVectorSetAndVectors(e) {
+    await this.addOrUpdateExternalVectors([e]);
+    let o = this.treeStore.tree.getNodeWithTrait(e.moduleId, tt)?.annotation("framerVectorSet");
+    Gi(o) &&
+      (await this.addOrUpdateExternalVectors(
+        o.items.map((r) => ({ moduleId: r.moduleId, saveId: r.saveId ?? "" }))
+      ));
+  }
+  async addExternalModulesToProject(e, t) {
+    let o = e.map((i) => (typeof i == "string" ? E(i) : i)),
+      r = await this.preloadExternalModules(o);
+    return this.updateExternalModuleNodes(r, t);
+  }
+  usesNoopExternalModuleEvaluation() {
+    return this.loadedExternalModulesStore.usesNoopExternalModuleEvaluation?.() === !0;
+  }
+  async preloadExternalModules(e) {
+    if (e.length === 0) return [];
+    await this.modulesStorage.whenInitialized();
+    let t = new Map();
+    for (let l of e) t.set(l.bareValue, l);
+    if (this.loadedExternalModulesStore.usesNoopExternalModuleEvaluation?.() === !0)
+      return (
+        await Promise.all(
+          Array.from(t.values(), (l) =>
+            this.loadedExternalModulesStore.ensureModuleEvaluatedInSandbox(l)
+          )
+        ),
+        []
+      );
+    let o = [],
+      r = [],
+      i = [];
+    for (let [l, d] of t) {
+      let { moduleId: u, saveId: p } = d;
+      if (!!this.modulesStorage.getPersistedModuleByGlobalId(u)) {
+        oe.reportError("Attempted to treat local module as external module", { identifier: d });
+        continue;
+      }
+      let f = this.treeStore.tree.getNode(u);
+      if (
+        f &&
+        E(f.codeComponentIdentifier).saveId === p &&
+        !this.loadedExternalModulesStore.hasModuleForIdentifier(d)
+      ) {
+        r.push(d);
+        continue;
+      }
+      let g = ge(this, jt).get(l);
+      if (g) {
+        i.push({ identifier: d, preloadPromise: g });
+        continue;
+      }
+      (ge(this, jt).set(l, new On()), o.push(d));
+    }
+    let a = new Map();
+    for (let { identifier: l, preloadPromise: d } of i)
+      try {
+        let u = await d;
+        a.set(l.value, u);
+      } catch {
+        (ge(this, jt).set(l.bareValue, new On()), o.push(l));
+      }
+    if (o.length)
+      try {
+        let l = Array.from(o.values(), ({ moduleId: c, saveId: f }) => ({
+            moduleId: c,
+            saveId: f,
+          })),
+          { modules: d, dependencies: u } = await this.lookUpModules(l, {
+            includeDependencies: !0,
+            includeStatus: !0,
+          }),
+          p = 0;
+        for (let c of o) {
+          let f = d[p++];
+          (C(f, "Module must be defined"),
+            a.set(c.value, {
+              module: f,
+              dependencies: u?.[f.ownerType]?.[f.ownerId],
+              exportSpecifier: c.exportSpecifier,
+            }),
+            r.push(c));
+        }
+      } catch (l) {
+        oe.reportError(l);
+        for (let d of o) ge(this, jt).get(d.bareValue)?.reject(l);
+        throw Error(`Failed to preload modules: ${l}`);
+      }
+    let s = [];
+    for (let l of r) {
+      let d = a.get(l.value);
+      d && s.push(d);
+    }
+    (await this.insertTemporaryImportMapForExternalModules(s),
+      await Promise.all(
+        Array.from(r.values(), (l) =>
+          this.loadedExternalModulesStore.ensureModuleEvaluatedInSandbox(l).catch((d) => {
+            oe.error(`Failed to evaluate external module "${l.value}"`, d);
+          })
+        )
+      ));
+    for (let l of o) {
+      let d = a.get(l.value);
+      C(d, () => `Expected to have module information for: ${l.value}`);
+      let u = ge(this, jt).get(l.bareValue);
+      (C(u, () => `Expected to find a preload promise for: ${l.bareValue}`), u.resolve(d));
+    }
+    return [...a.values()];
+  }
+  async ensureLocalComponentsLoaded(e, t, o) {
+    await $p(this.componentLoader, this.requestTargetedModuleLoad, e, t, o);
+  }
+  localModuleIsKnown(e) {
+    return this.getModuleEntryByLocalId(e) ? !0 : Dt(this.treeStore.tree.get(e));
+  }
+  requestImportMapPrune() {
+    ge(this, qt).debounce();
+  }
+  async processImportMapPrune() {
+    if (ge(this, Hn)) {
+      ge(this, qt).debounce();
+      return;
+    }
+    xt(this, Hn, !0);
+    let e = "import-map-prune";
+    He({
+      type: "add",
+      key: e,
+      text: "Optimizing dependencies\u2026",
+      variant: "progress",
+      duration: 1 / 0,
+      showCloseButton: "never",
+    });
+    let t = () => this.getEntryPointModuleNames();
+    try {
+      let o = await this.modulesStorage.pruneProjectImportMapFromEntryPoints(t);
+      (He({ type: "remove", key: e }), o ? ge(this, qt).cancel() : ge(this, qt).debounce());
+    } catch (o) {
+      (He({
+        type: "add",
+        key: e,
+        text: "Failed to optimize dependencies.",
+        variant: "error",
+        duration: 3e3,
+      }),
+        oe.reportError(o, { context: "Failed to prune import map", entryPointCount: t().length }));
+    } finally {
+      xt(this, Hn, !1);
+    }
+  }
+  async updateExternalModuleNodes(
+    e,
+    { onTreeUpdate: t, updateSave: o = !1, scheduleTreeUpdate: r }
+  ) {
+    (await this.insertTemporaryImportMapForExternalModules(e),
+      await Promise.all(
+        e.map((l) => this.loadedExternalModulesStore.ensureModuleEvaluatedInSandbox(oi(l)))
+      ));
+    let a = await (r ?? ((l) => this.scheduler.processWhenReadyAsync(l)))(() => {
+      if (this.treeStore.tree.isViewOnly) throw Error("unable to edit");
+      let l = B.isOn("harness2"),
+        d = new Set();
+      for (let p of e) {
+        let { id: c } = p.module;
+        (l || this.treeStore.tree.getNode(c)?.propertyControlsBySaveId !== void 0) && d.add(c);
+      }
+      let u = d.size > 0 ? ti(this.componentLoader.getAllEntities(), d) : void 0;
+      for (let p of e) {
+        let { id: c } = p.module,
+          f = this.treeStore.tree.getNode(c);
+        if (f && !o) {
+          let g = oi(p),
+            h = this.externalModulesDynamicInfo.get(g.moduleId)?.status ?? p.module.status;
+          f.set({ group: h?.group, updateSaveId: h?.updateSaveId });
+        } else {
+          let { type: g, metadata: h, ownerId: S, ownerType: v } = p.module,
+            y = oi(p),
+            { title: I, status: x } = this.externalModulesDynamicInfo.get(y.moduleId) ?? p.module,
+            M = wt.get(this.treeStore.tree);
+          (M || ((M = new wt()), this.treeStore.tree.insertNode(M, this.treeStore.tree.root.id)),
+            C(_s(M)));
+          let R = h.pluginId,
+            N = {
+              codeComponentIdentifier: y.value,
+              type: g,
+              scopeNodeId: Gl(p.module),
+              intrinsicWidth: Ni(h.intrinsicWidth, !0) ?? 200,
+              intrinsicHeight: Ni(h.intrinsicHeight, !0) ?? 200,
+              ownerId: S,
+              ownerType: v,
+              group: x?.group,
+              updateSaveId: x?.updateSaveId,
+              namespaceId: p.module.lastPublish?.namespaceId,
+              pluginId: T(R) ? R : void 0,
+            };
+          if (u) {
+            let k = ni(u, c, y.saveId);
+            k !== void 0 && (N.propertyControlsBySaveId = Ha(f, y.saveId, k));
+          }
+          let w = this.componentLoader.componentForIdentifier(y.value);
+          C(w, () => `Component not found in the component loader: ${y.value}`);
+          let F = w.annotations ?? void 0;
+          if (wd(g)) {
+            let k = ql({ default: F }).default;
+            N.annotations = g === "vectorSet" ? Id(k) : k;
+          } else N.annotations = F;
+          let D = w.name ?? I;
+          if (((N.title = D), f)) f.set(N);
+          else {
+            let k = new Dd({ id: c, ...N });
+            (this.treeStore.tree.insertNode(k, M.id),
+              hu(k, na) && Vy(this.treeStore.tree, c, x?.group?.name));
+          }
+        }
+      }
+      return t();
+    });
+    return (
+      (await this.installDependenciesForExternalModules(e)) && this.requestImportMapPrune(),
+      a
+    );
+  }
+  setupPollingExternalModulesUpdates() {
+    let e = Cu(() => {
+        this.checkForExternalModuleUpdates().catch(oe.reportError);
+      }, 1e4),
+      t = !1,
+      o = () => {
+        t ||
+          (e(),
+          this.updatesPollId === void 0 &&
+            (this.updatesPollId = window.setInterval(this.checkForExternalModuleUpdates, 6e4)));
+      },
+      r = () => {
+        (window.clearInterval(this.updatesPollId), (this.updatesPollId = void 0));
+      };
+    function i() {
+      return !document.hidden && navigator.onLine;
+    }
+    i() && o();
+    function a() {
+      setTimeout(() => {
+        i() ? o() : r();
+      }, 500);
+    }
+    (document.addEventListener("visibilitychange", a, { signal: this.abortSignal }),
+      window.addEventListener("offline", a, { signal: this.abortSignal }),
+      window.addEventListener("online", a, { signal: this.abortSignal }),
+      this.abortSignal?.addEventListener("abort", () => {
+        ((t = !0), r());
+      }),
+      (this.abortSignal = void 0));
+  }
+  getCodeComponentNodesForExternalModuleExport(e) {
+    return this.treeStore
+      .query()
+      .whereClass(ea)
+      .asArray()
+      .filter((o) => {
+        if (!fe(o) || (en(o) && !o.isVectorInstance)) return !1;
+        let r = E(o.codeComponentIdentifier);
+        return r?.kind !== "externalModuleExport"
+          ? !1
+          : r.moduleId === e.moduleId && r.exportSpecifier === e.exportSpecifier;
+      });
+  }
+  getShaderNodesForExternalModuleExport(e) {
+    return this.treeStore
+      .query()
+      .whereClass(ac)
+      .asArray()
+      .filter((o) => {
+        if (en(o)) return !1;
+        let r = E(o.shaderModuleIdentifier);
+        return r?.kind !== "externalModuleExport"
+          ? !1
+          : r.moduleId === e.moduleId && r.exportSpecifier === e.exportSpecifier;
+      });
+  }
+  get fastRefreshEnabled() {
+    return this.chromeStore.codeEditorPreviewVisible;
+  }
+  async updateExternalModuleComponentInstances(e) {
+    let t = E(e);
+    C(
+      t?.kind === "externalModuleExport",
+      "parsed 'ExternalModuleNodes.id' should be of kind externalModuleExport"
+    );
+    let { moduleId: o, exportSpecifier: r } = t,
+      i = this.treeStore.tree.getNodeWithTrait(o, tt),
+      a = this.externalModulesDynamicInfo.get(o)?.status?.updateSaveId ?? i?.updateSaveId;
+    if (!a) {
+      oe.warn("Could not update module", o, "latest status missing");
+      return;
+    }
+    if (a === t.saveId) return;
+    let { module: s, dependencies: l } = await this.lookUpModule(
+      { moduleId: o, saveId: a },
+      { includeDependencies: !0, includeStatus: !0 }
+    );
+    C(s.files.module, "Module file must be defined");
+    let d = bn(o, a, s.files.module, r);
+    try {
+      (await this.updateExternalModuleNodes([{ module: s, dependencies: l, exportSpecifier: r }], {
+        onTreeUpdate: () => {
+          let u = this.treeStore.getDataTree();
+          (s.type === "shader"
+            ? this.getShaderNodesForExternalModuleExport(t).forEach((c) =>
+                c.set({ shaderModuleIdentifier: d.value })
+              )
+            : this.getCodeComponentNodesForExternalModuleExport(t).forEach((c) =>
+                c.set({ codeComponentIdentifier: d.value })
+              ),
+            Rc(u, t.value, d.value),
+            kc(u, t.value, d.value));
+        },
+        updateSave: !0,
+      }),
+        this.trackExternalComponentInsert([d.value], "update"));
+    } catch (u) {
+      oe.reportError(u);
+    }
+  }
+  async replaceRelativeImportsWithImportMapSpecifiers(e, t, o) {
+    let r = {};
+    for (let a of o) {
+      let s = jl(a, e);
+      if (!s) continue;
+      let l;
+      if (
+        ((l = this.fastRefreshModules.get(s)),
+        l || (l = this.modulesStorage.getModuleWithTypeSlashName(s)),
+        !l)
+      ) {
+        oe.error("Cannot resolve", a, "from", e);
+        continue;
+      }
+      let d,
+        { name: u, localId: p } = l;
+      if (l.kind === "fast-refresh") d = ga(u).module;
+      else {
+        let { files: c } = l;
+        (C(
+          T(c.module),
+          "Must have a module file name to build a local module import map specifier."
+        ),
+          (d = c.module));
+      }
+      r[a] = bi(p, d);
+    }
+    let i = await Su(t, r);
+    return (C(i.ok), i.value);
+  }
+  getModules(e = !1) {
+    let t = {};
+    for (let [o, r] of this.localModules) t[o] = r;
+    if (e) for (let [o, r] of this.fastRefreshModules) t[o] = r;
+    return {
+      dependenciesModule: this.dependenciesModule,
+      modules: t,
+      revision: this.revision,
+      initialized: this.modulesStorage.initialized,
+    };
+  }
+  getInitialModulePatches(e = !1) {
+    let { dependenciesModule: t, modules: o } = this.getModules(e),
+      r = [];
+    t && r.push({ op: "add", path: [`${t.type}/${t.name}`], value: t });
+    for (let i of Object.values(o)) r.push({ op: "add", path: [`${i.type}/${i.name}`], value: i });
+    return r;
+  }
+  getPrioritizedInitialModules(e) {
+    let t = new Set();
+    if (!B.isOn("prioritizedInitialModuleEvaluation")) return t;
+    let o = ya(this.getActiveScope()),
+      r = new Set();
+    for (let i of o) e[i] && ha(this.moduleDepsGraph, i, r);
+    for (let i of r) e[i] && t.add(i);
+    return t;
+  }
+  getAllModulesAsUpdateEvent() {
+    let { initialized: e, modules: t, revision: o } = this.getModules(!1),
+      r = this.getPrioritizedInitialModules(t),
+      i = r.size > 0 ? Object.keys(t).filter((a) => !r.has(a)) : [];
+    return {
+      patches: this.getInitialModulePatches(!1),
+      dependentModules: i,
+      prioritizedModules: Array.from(r),
+      initialized: e,
+      modulesReloading: this.modulesStorage.isReloadingModules(),
+      revision: o,
+    };
+  }
+  getAllFastRefreshModulesAsUpdateEvent() {
+    let { initialized: e } = this.getModules(!0);
+    return { patches: this.getInitialModulePatches(!0), initialized: e };
+  }
+  getModulesUpdatesService() {
+    return {
+      moduleUpdatesStream: () => this.moduleUpdatesEmitter.newStream({ replay: "latest" }),
+      fastRefreshModuleUpdatesStream: () =>
+        this.fastRefreshModulesEmitter.newStream({ replay: "latest" }),
+    };
+  }
+  hasScreenModuleLoaded(e) {
+    let t = Be("screen", e, "default").value;
+    return this.componentLoader.componentForIdentifier(t) !== null;
+  }
+  hasPendingTreeData() {
+    return this.modulesStorage.hasPendingTreeData();
+  }
+  isReloadingModules() {
+    return this.modulesStorage.isReloadingModules();
+  }
+  writeTreeData() {
+    this.modulesStorage.writeTreeData();
+  }
+  postProcess(e) {
+    this.modulesStorage.processTreeUpdates(e);
+  }
+  takeSnapshot() {
+    let e = this.modulesStorage.takeSnapshot();
+    return new ts(this, e);
+  }
+};
+((me = Ms(null)),
+  (Ka = new WeakMap()),
+  (Qa = new WeakMap()),
+  (Ya = new WeakMap()),
+  (Xa = new WeakMap()),
+  (Za = new WeakMap()),
+  (es = new WeakMap()),
+  (Mo = new WeakMap()),
+  (jn = new WeakMap()),
+  (xo = new WeakMap()),
+  (qn = new WeakMap()),
+  (Ro = new WeakMap()),
+  (jt = new WeakMap()),
+  (qt = new WeakMap()),
+  (Hn = new WeakMap()),
+  Qt(me, 4, "dependenciesModule", If, kt, Ka),
+  Qt(me, 4, "localModules", vf, kt, Qa),
+  Qt(me, 4, "fastRefreshModules", Sf, kt, Ya),
+  Qt(me, 4, "externalModulesDynamicInfo", yf, kt, Xa),
+  Qt(me, 4, "revision", gf, kt, Za),
+  Qt(me, 4, "invalidSavePointerQuarantineSize", hf, kt, es),
+  xs(me, kt));
+var ts = class {
+  constructor(e, t) {
+    this.modulesStorageSnapshot = t;
+    ((this.dependenciesModule = e.dependenciesModule),
+      (this.localModuleKeys = Array.from(e.localModules.keys())));
+  }
+  modulesStorageSnapshot;
+  dependenciesModule;
+  localModuleKeys;
+  getPersistedModuleByLocalId(e) {
+    return this.modulesStorageSnapshot.getPersistedModuleByLocalId(e);
+  }
+  getPersistedModuleByLocalIdentifier(e) {
+    let t = E(e);
+    if (Te(t)) return this.getPersistedModuleByLocalId(t.localId);
+  }
+  getModuleWithTypeSlashName(e) {
+    return this.modulesStorageSnapshot.getModuleWithTypeSlashName(e);
+  }
+};
+var Ey = () => ({
+    stylePresets: [],
+    componentPresets: [],
+    collections: [],
+    smartComponents: [],
+    screens: [],
+    prototypes: [],
+    webpages: [],
+    metadata: [],
+    layoutTemplates: [],
+    snippets: [],
+  }),
+  G = K("CodeGenerationStore");
+var zy = 100,
+  ky = 1e3,
+  Fy = 16,
+  Cf = 64;
+function By(n) {
+  for (let e in n.to) if (e in tc) return !0;
+  return !1;
+}
+function Ay(n) {
+  return we(n) ? xp : no(n) || q(n) ? Rp : Oa;
+}
+async function bf(n) {
+  let e = new Set(),
+    t = gt(n) && !n.isLoaded() ? await n.load() : n;
+  for (let o of t?.walk() ?? []) {
+    if (!fe(o)) continue;
+    let r = o.getLocalSmartComponentNodeId();
+    r && e.add(r);
+  }
+  return e;
+}
+var Tf = class {
+  constructor(e, t, o, r, i, a, s, l, d, u, p, c, f = new Map(), g = () => {}) {
+    this.scheduler = e;
+    this.componentLoader = t;
+    this.treeStore = o;
+    this.modulesStore = r;
+    this.vectorsStore = i;
+    this.assetMap = a;
+    this.treeUpdater = s;
+    this.engineChanges = l;
+    this.scheduleDocumentUpdateIgnoringUndo = d;
+    this.updateTreeCache = u;
+    this.measureNodes = p;
+    this.abortSignal = c;
+    ((this.#e = f),
+      (this.#i = this.treeUpdater.openNodeChangesReader()),
+      (this.#S = new vt({
+        delay: Oa,
+        maxDelay: wp,
+        task: () => {
+          let y = this.#o;
+          this.scheduler.runWhenIdle(() => {
+            c?.aborted ||
+              y !== this.#o ||
+              this.generateAndUpdateQueuedComponents(void 0, "scheduled").catch(Je);
+          });
+        },
+        abortSignal: c,
+      })),
+      (this.#v = new vt({
+        delay: zy,
+        maxDelay: ky,
+        task: () => {
+          let y = this.#o;
+          this.#V(y).catch(Je);
+        },
+        abortSignal: c,
+      })),
+      (this.#I = new vt({
+        delay: Dp,
+        maxDelay: Vp,
+        task: () =>
+          this.scheduler.runWhenIdle(() => {
+            this.regenerateCmsIncompatibleModules();
+          }),
+        abortSignal: c,
+      })));
+    let h = this.modulesStore.subscribeToModulesStorage((y) => {
+      !y.initialized || y.modulesReloading || this.#I.debounce();
+    });
+    (c?.addEventListener("abort", h),
+      (this.persistence = new Kr(
+        this.componentLoader,
+        this.treeStore,
+        this.modulesStore,
+        (y) => this.scheduler.runWhenIdle(y),
+        (y) => this.scheduleDocumentUpdateIgnoringUndo(y),
+        c
+      )));
+    let S = new AbortController(),
+      v = S.abort.bind(S);
+    (c?.addEventListener("abort", v, { once: !0 }),
+      this.scheduler.fatalErrorController.signal.addEventListener("abort", v, { once: !0 }),
+      (this.recovery = new Yr(
+        {
+          branchId: () => this.treeStore.branchId,
+          canWrite: () =>
+            !this.treeStore.getDataTree().isViewOnly && !this.modulesStore.isReadOnly(),
+          initializeModules: () => this.modulesStore.initialize(),
+          sourceCount: () => this.revisionNodes(this.treeStore.getDataTree()).filter(ee).length,
+          staleSources: () => this.nodesWithStaleModules(ee).map((y) => y.id),
+          needsRecovery: (y) => {
+            let I = this.treeStore.getDataTree(),
+              x = I.get(y);
+            return ee(x) && !this.hasSavedComponentModule(x, I);
+          },
+          nestedComponentsWithoutModule: async (y) => {
+            let I = this.treeStore.getDataTree().get(y);
+            if (!I) return [];
+            let x = await bf(I),
+              M = this.treeStore.getDataTree();
+            return [...x].filter((R) => !Vt(M.get(R), M, this.modulesStore));
+          },
+          build: async (y) => {
+            if (this.serialization.preparing(y)) return this.updateComponent(y, 1);
+            this.#T.add(y);
+            try {
+              return await this.updateComponent(y, 1);
+            } finally {
+              this.#T.delete(y);
+            }
+          },
+          upload: () => this.persistence.process(),
+          watchFailedUploads: () => this.persistence.watchFailedUploads(),
+          runWhenIdle: (y) => this.scheduler.runWhenIdle(y),
+          getLeaseClient: g,
+          report: (y, I) =>
+            ke("stale_module_recovery_run", { ...y, tabSessionId: Dc(), context: { branchId: I } }),
+        },
+        S.signal
+      )),
+      Vc(
+        {
+          name: "code-generation",
+          check: () => {
+            if (_e.isTest) return !1;
+            let y = this.treeStore.getDataTree();
+            return y.isViewOnly ? !1 : this.hasBlockingUpdates(y);
+          },
+          effect: () => {
+            G.debug(
+              "Showing Unsaved Changes dialog (generation queue #: ",
+              this.#e.size,
+              ", component ids to generate: ",
+              [...this.#e.keys()],
+              ")"
+            );
+            let y = this.getMetrics();
+            (y.paused > 1
+              ? G.reportError("Tab closed with paused code generations", y)
+              : (y.persisting > 5 || y.serializing > 5 || y.queue > 5) &&
+                G.reportError("Tab closed with multiple code generations in progress", y),
+              this.#t.clear(),
+              this.generateAndUpdateQueuedComponents(void 0, "unload")
+                .then(() => {
+                  this.persistence.process();
+                })
+                .catch((I) => G.reportError(I)));
+          },
+        },
+        c
+      ),
+      window.addEventListener(
+        "blur",
+        async () => {
+          try {
+            await this.flushQueuedCodeGenerationOnWindowBlur();
+          } catch (y) {
+            G.reportError(y);
+          }
+        },
+        { signal: c }
+      ));
+  }
+  scheduler;
+  componentLoader;
+  treeStore;
+  modulesStore;
+  vectorsStore;
+  assetMap;
+  treeUpdater;
+  engineChanges;
+  scheduleDocumentUpdateIgnoringUndo;
+  updateTreeCache;
+  measureNodes;
+  abortSignal;
+  #t = new Set();
+  #e;
+  #n = new Map();
+  #o = 0;
+  #i;
+  #m = 0;
+  #h = 0;
+  #u = new Map();
+  #s = new Map();
+  #p = new Map();
+  #y;
+  #l = {
+    sourceRequests: 0,
+    coalescedSourceRequests: 0,
+    preparedQueuedSources: 0,
+    queueWaitMs: 0,
+    maxQueueWaitMs: 0,
+    peakQueuedSources: 0,
+    peakPreparingSources: 0,
+    fullDrainRequests: 0,
+  };
+  #N = {
+    scheduled: 0,
+    bulkScopeCompletion: 0,
+    scopeChange: 0,
+    explicitDemand: 0,
+    windowBlur: 0,
+    unload: 0,
+  };
+  #d = { attempts: 0, active: 0, peakActive: 0, outputModules: 0, durationMs: 0, storageWaitMs: 0 };
+  #g = { active: 0, peakActive: 0, durationMs: 0 };
+  #D = new fa(Fy);
+  isIdle() {
+    return (
+      this.#e.size === 0 &&
+      this.#f.size === 0 &&
+      this.#h === 0 &&
+      this.serialization.isIdle() &&
+      this.persistence.isIdle()
+    );
+  }
+  getMetrics() {
+    let e = this.#u.values().next().value;
+    return {
+      queue: this.#e.size,
+      recovery: this.recovery.metrics,
+      paused: this.#t.size,
+      serializing: this.#r.size,
+      pendingGenerations: this.#f.size,
+      persisting: this.persistence.size,
+      updating: this.#h,
+      completed: this.#m,
+      scheduling: {
+        ...this.#l,
+        drainRequests: { ...this.#N },
+        oldestPendingWaitMs: e === void 0 ? 0 : performance.now() - e,
+      },
+      serialization: { ...this.#d },
+      compileOutput: { ...this.#g },
+      persistence: this.persistence.getMetrics(),
+    };
+  }
+  documentDidLoad() {
+    (++this.#o,
+      this.#S.cancel(),
+      this.recovery.reset(),
+      this.#e.clear(),
+      this.#u.clear(),
+      this.#s.clear(),
+      this.#p.clear(),
+      this.#v.cancel(),
+      this.#n.clear(),
+      this.#r.clear(),
+      this.#a.clear(),
+      this.#f.clear(),
+      this.#C.clear(),
+      this.#b.clear());
+  }
+  setFastPreviewPriorityGeneration(e) {
+    this.#y = e;
+  }
+  #S;
+  #v;
+  #I;
+  #C = new Set();
+  #b = new Map();
+  #T = new Set();
+  telemetrySession(e, t) {
+    let o = this.#b.get(t);
+    if (o) return o;
+    let r = e.get(t);
+    C(r, "TelemetrySession: source node must exist");
+    let i = new Er(r, () => this.#T.has(t));
+    return (this.#b.set(t, i), i);
+  }
+  #L = void 0;
+  getSerializationId() {
+    return this.#L ? `framer-${this.#L}` : `framer-${zc(5)}`;
+  }
+  testing = {
+    setComponentGenerationQueue: (e) => {
+      ((this.#e = e), this.#u.clear(), this.#s.clear(), this.#p.clear());
+    },
+    fastPreviewTimingCount: () => this.#s.size,
+    flushQueuedCallbacks: () => {
+      this.#n.forEach((e) => e.forEach((t) => t()));
+    },
+    generateAndUpdateQueuedComponents: (e) => this.generateAndUpdateQueuedComponents(e),
+    setSerializationId: (e) => {
+      this.#L = e;
+    },
+    setModulesStore: (e) => {
+      (Object.assign(this, { modulesStore: e }),
+        Object.assign(this.persistence, { modulesStore: e }));
+    },
+    waitForProcessing: async (e) => {
+      await this.serialization.promise(e);
+    },
+    compiledBarrier: (e) => this.#a.get(e),
+    markSerializeStarted: (e) => {
+      (this.#r.get(e)?.resolve(), this.#r.delete(e));
+    },
+  };
+  persistence;
+  recovery;
+  async flushQueuedCodeGenerationOnWindowBlur() {
+    document.visibilityState === "hidden" &&
+      (await this.generateAndPersistAllQueuedComponents("windowBlur"));
+  }
+  async generateAndPersistAllQueuedComponents(e = "explicitDemand") {
+    (this.#l.fullDrainRequests++,
+      await this.ensureSiteMetadataModule(),
+      await this.ensureSnippetsModule(),
+      await this.ensureCollectionModulesExportUtils(),
+      await this.regenerateCmsIncompatibleModules(),
+      await this.generateAndUpdateQueuedComponents(void 0, e),
+      await this.serialization.idle(),
+      await this.persistence.process());
+  }
+  debugGetComponentSourceNodes() {
+    let e = Ey();
+    C(!1, "This method should only be used in tests.");
+    let t = this.treeStore.getDataTree();
+    for (let { node: o, skipChildren: r } of t.root.walkWithSkipChildren())
+      V(o)
+        ? (e.webpages.push(o), e.metadata.push(o), r())
+        : ee(o)
+          ? (e.smartComponents.push(o), r())
+          : q(o)
+            ? (e.collections.push(o), r())
+            : oa(o)
+              ? (e.stylePresets.push(o), r())
+              : Mn(o)
+                ? e.componentPresets.push(o)
+                : uu(o, t)
+                  ? (e.screens.push(o), r())
+                  : $e(o)
+                    ? e.prototypes.push(o)
+                    : Ne(o)
+                      ? e.metadata.push(o)
+                      : X(o)
+                        ? e.layoutTemplates.push(o)
+                        : Xt(o) && e.snippets.push(o);
+    return e;
+  }
+  postProcess(e, t, o) {
+    if (e.isViewOnly) return;
+    if (o) {
+      for (let [i, a] of this.#i.read()) {
+        let s = e.get(i);
+        if (!ee(s)) continue;
+        let l = a.filter((d) => !d.added);
+        Ji(s, l) && this.recovery.noteChangedElsewhere(i);
+      }
+      return;
+    }
+    this.ingestChanges(e);
+    let r = this.#y;
+    if (r) {
+      let i = r.sourceNodeIds();
+      for (let a of i)
+        if (this.#e.has(a)) {
+          this.#v.debounce();
+          break;
+        }
+    }
+    this.#S.debounce(Ay(t));
+  }
+  async #V(e) {
+    let t = this.#y;
+    if (!t) return;
+    let o = t.sourceNodeIds();
+    for (let r of Array.from(this.#e.keys())) {
+      if (this.abortSignal?.aborted || e !== this.#o) return;
+      if (!o.has(r) || this.#t.has(r) || this.serialization.preparing(r)) continue;
+      let i = this.treeStore.getDataTree(),
+        a = i.get(r);
+      if (!a || !rt(a, i)) {
+        this.dequeueSource(r);
+        continue;
+      }
+      if (!Vt(a, i, this.modulesStore)) {
+        let s = this.#s.get(r),
+          l = this.#p.get(r),
+          d = performance.now();
+        try {
+          await this.updateComponent(r);
+        } catch (u) {
+          G.error("Error generating priority component through regular path", r, u);
+        } finally {
+          (this.#e.has(r) || (this.#s.delete(r), this.#p.delete(r)),
+            G.debug("generation", {
+              id: r,
+              names: [],
+              outcome: "fallback-regular",
+              attempt: 1,
+              queuedAt: l,
+              at: Date.now(),
+              debounceMs: s === void 0 ? 0 : d - s,
+              serializeMs: 0,
+              compileMs: 0,
+              revisionMs: 0,
+              persistMs: performance.now() - d,
+            }));
+        }
+        continue;
+      }
+      try {
+        await this.#E(r);
+      } catch (s) {
+        G.error("Error generating priority component", r, s);
+      }
+    }
+  }
+  ingestChanges(e) {
+    for (let [t, o] of this.#i.read()) {
+      if (o.length === 0 || o.every((i) => i.ignoreInCodeGeneration)) continue;
+      let r = e.get(t);
+      if (r) {
+        if (V(r) && Rl(o)) {
+          let i = e.get(lc);
+          i && this.addChangeToQueue(i);
+        }
+        if (qe(r, e)) {
+          Ji(r, o) && this.addChangeToQueue(r);
+          continue;
+        }
+        if (Ne(r)) {
+          if (!o.some(By)) continue;
+          this.addChangeToQueue(r);
+        } else if ($e(r)) this.addChangeToQueue(r);
+        else {
+          let i = this.treeStore.treeIndex.getGroundNodeIdFor(t),
+            a = e.get(i);
+          if (!a || fe(a)) continue;
+          let s = e.getScopeNodeFor(a);
+          if (!$e(s)) continue;
+          this.queueCanvasPageNodesFollowingLinks(e, a);
+        }
+      }
+    }
+  }
+  queueCanvasPageNodesFollowingLinks(e, t) {
+    if ((this.addChangeToQueue(t), !(!t.cache.links || t.cache.links.size === 0)))
+      for (let o of t.cache.links) {
+        let r = this.treeStore.treeIndex.getGroundNodeIdFor(o),
+          i = e.get(r);
+        !i || fe(i) || this.queueCanvasPageNodesFollowingLinks(e, i);
+      }
+  }
+  changeScope() {
+    this.treeStore.tree.isViewOnly ||
+      _e.isTest ||
+      this.isIdle() ||
+      this.serialization
+        .idle()
+        .then(() => this.generateAndUpdateQueuedComponents(void 0, "scopeChange"))
+        .then(() => {
+          this.persistence.isIdle() || this.persistence.changeScope();
+        })
+        .catch((e) => G.reportError(e));
+  }
+  async createVectorSet(e, t) {
+    let o = e[0];
+    if (!o) return;
+    let i = this.treeStore.getDataTree().getScopeNodeFor(o);
+    C(we(i), "VectorSet: VectorSetNode must exist.");
+    let a = performance.now(),
+      s = await this.batchSerializeVectors(e, t);
+    if (!s) return;
+    let l = {},
+      d = 0,
+      u = Object.keys(s).length,
+      p = bp(u),
+      c = [];
+    for (let f in s) {
+      let g = s[f];
+      g && ((l[f] = g), d++, !(d % p !== 0 && d !== u) && (c.push(l), (l = {})));
+    }
+    for (let f = 0; f < c.length; f++) {
+      let g = c[f];
+      g && (await this.persistence.persistBatch(g), t?.("persisting", f));
+    }
+    (await this.forceComponentUpdate(i.id),
+      G.debug("createVectorSet: Spent ", performance.now() - a, "ms creating a new vector set."));
+  }
+  async createModuleFromComponentSource(e, t) {
+    let o = this.treeStore.getDataTree();
+    if (
+      (C(
+        !o.isViewOnly,
+        "CodeGenerationStore: viewers cannot create smart components or web pages."
+      ),
+      C(rt(e, o), "CodeGenerationStore: componentSourceNode must be a valid component source."),
+      Vt(e, o, this.modulesStore))
+    )
+      return;
+    (G.debug("createModuleFromComponentSource", e.id), this.serialization.prepare(e.id));
+    let i = this.#a.get(e.id);
+    return o.withPersistedCaches(async () => {
+      let a = await this.generateComponent(e.id, 1, void 0, { intrinsicSize: t });
+      if (!a) throw new Error("Code not generated");
+      return (
+        await this.compileOutput(e, a, i),
+        (o = this.treeStore.getDataTree()),
+        fo(e, o).map((s) => this.modulesStore.getPersistedModuleByLocalId(s))
+      );
+    });
+  }
+  revisionNodes(e) {
+    let t = [];
+    for (let o of e.root.children)
+      (qe(o, e) && t.push(o),
+        (Mn(o) || no(o)) &&
+          o.children.forEach((r) => {
+            (qe(r, e) && t.push(r),
+              q(r) &&
+                r.getUnsortedChildren().forEach((i) => {
+                  qe(i, e) && t.push(i);
+                }));
+          }));
+    return t;
+  }
+  nodesWithStaleModules(e, t) {
+    let o = [],
+      r = t?.ignoreHint ?? !1,
+      i = this.treeStore.getDataTree();
+    for (let a of this.revisionNodes(i))
+      Qe(a) ||
+        (e && !e(a)) ||
+        (((!r && a.moduleSourceRevisionHint !== a.moduleSourceRevisionCommittedHint) ||
+          !this.allModulesAreAtRevision(i, a.id)) &&
+          o.push(a));
+    return o;
+  }
+  debugNodeIdsByCodeGenPhase() {
+    return {
+      stale: new Set(this.nodesWithStaleModules().map((e) => e.id)),
+      queued: new Set(this.#e.keys()),
+      generating: new Set(this.#r.keys()),
+      paused: new Set(this.#t),
+    };
+  }
+  canSerialize(e) {
+    let t = this.treeStore.getDataTree();
+    if (!t.isViewOnly) return !0;
+    let o = t.get(e);
+    if (!o || !t.isGroundNode(o)) return !1;
+    let r = t.getScopeNodeFor(o);
+    return et(r);
+  }
+  async updateComponent(e, t = 0) {
+    C(
+      this.canSerialize(e),
+      "CodeGenerationStore: viewers cannot generate smart component or web page updates."
+    );
+    let o = this.treeStore.getDataTree(),
+      r = o.get(e);
+    if (!r || !rt(r, o)) return !1;
+    if (this.serialization.preparing(e)) {
+      let s = this.#a.get(e);
+      return (await this.serialization.promise(e), await s, !0);
+    }
+    G.debug("Update component: ", e, ", Condition: ", t);
+    let i = this.#e.get(e);
+    this.serialization.prepare(e);
+    let a = this.#a.get(e);
+    this.#h++;
+    try {
+      return await o.withPersistedCaches(async () => {
+        let s = await this.generateComponent(e, t, i);
+        return s ? this.compileOutput(r, s, a) : !1;
+      });
+    } finally {
+      this.#h--;
+    }
+  }
+  async forceComponentUpdate(e) {
+    return (
+      C(
+        this.canSerialize(e),
+        "CodeGenerationStore: viewers cannot generate smart component or web page updates."
+      ),
+      (await this.updateComponent(e, 2)) ? (await this.persistence.process(), !0) : !1
+    );
+  }
+  async updateComponentBatch(e, t, { concurrency: o, onUpdated: r, onError: i } = {}) {
+    let a = o === void 0 ? this.#D : new fa(o),
+      s = Array.from(e),
+      l = async (d) => {
+        try {
+          let u = await a.run(() =>
+            t === 2 ? this.forceComponentUpdate(d) : this.updateComponent(d, t)
+          );
+          r?.(d, u);
+        } catch (u) {
+          if (!i) throw u;
+          i(u, d);
+        }
+      };
+    for (let d = 0; d < s.length; d += Cf) await Promise.all(s.slice(d, d + Cf).map(l));
+  }
+  queueCallbackAfterComponentCompilation(e, t) {
+    let o = this.#n.get(e);
+    o ? o.push(t) : this.#n.set(e, [t]);
+  }
+  #M(e) {
+    (this.#n.get(e)?.forEach((t) => t()), this.#n.delete(e));
+  }
+  untilCompiled(e) {
+    return new Promise((t) => {
+      this.queueCallbackAfterComponentCompilation(e, t);
+    });
+  }
+  calculateNewModuleRevision(e) {
+    let t = this.treeStore.getDataTree(),
+      o = t.get(e);
+    if (!o || !qe(o, t)) return 1;
+    let r = !Xt(o),
+      i = ee(o) && o.moduleSourceRevision === void 0;
+    if (!((r && !i && !Aa(t, e)) || !t.has(e)))
+      return Lp(e, this.scheduleDocumentUpdateIgnoringUndo);
+  }
+  allModulesAreAtRevision(e, t, o) {
+    let r = e.get(t);
+    if (!r || !qe(r, e)) return !1;
+    let i = o ?? r.moduleSourceRevision;
+    return ee(r) && i === void 0
+      ? !1
+      : po(r, e).every(
+          (a) => this.modulesStore.forType(a).getByStableName(St(r)).sourceRevision() === i
+        );
+  }
+  async ensureDependencyModulesExist() {
+    let e = this.treeStore.getDataTree(),
+      t = new Map();
+    for (let r of this.revisionNodes(e))
+      rt(r, e) && (Vt(r, e, this.modulesStore) || t.set(r.id, r));
+    let o = async (r) => {
+      t.delete(r.id);
+      try {
+        for (let i of await bf(r)) {
+          let a = t.get(i);
+          a && (await o(a));
+        }
+        if (Vt(r, e, this.modulesStore)) return;
+        await this.updateComponent(r.id);
+      } catch (i) {
+        G.error("Error updating dependency module", r.id, i);
+      }
+    };
+    for (let r of t.values()) await o(r);
+  }
+  async ensureSourceNode(e) {
+    let t = this.treeStore.getDataTree().get(e),
+      o = gt(t) && !t.isLoaded() ? await t.load() : t;
+    if (o) {
+      if (
+        (V(o) &&
+          (await this.ensureSiteMetadataModule(),
+          C(o.loaded, "WebPageNode must be loaded"),
+          await this.ensureReferencedCollectionsExportUpToDateEnumUtils(o.loaded)),
+        q(o) && (await this.ensureDependentModulesAreCompatibleWithCollection(o)),
+        yt(o))
+      ) {
+        let r = this.treeStore.getDataTree().getScopeNodeFor(o);
+        if (!we(r)) return;
+        let i = ye("vectorSet", r.id);
+        if (this.modulesStore.getModuleEntryByLocalId(i)) return;
+        await this.createModuleFromComponentSource(r);
+      }
+      await this.ensureAllNodesWithLinksHaveLinkedScopesLoaded(o);
+    }
+  }
+  async ensureSiteMetadataModule() {
+    let e = this.treeStore.getDataTree();
+    if (e.isViewOnly) return;
+    let t = e.root;
+    if (!Vt(t, e, this.modulesStore)) return this.updateComponent(t.id);
+  }
+  async ensureSnippetsModule() {
+    let e = this.treeStore.getDataTree();
+    if (e.isViewOnly) return;
+    let t = dc.get(e);
+    if (!t) return;
+    let o = await t.load();
+    if (!(!o || Vt(o, e, this.modulesStore))) return this.updateComponent(o.id);
+  }
+  async ensureCollectionModulesExportUtils() {
+    let e = this.treeStore.getDataTree();
+    if (e.isViewOnly) return;
+    let t = ar(e);
+    if (t) {
+      C(t.isLoaded(), "ContentManagementNode is never shallow.");
+      for (let o of t.children) {
+        let r = ye("collection", o.id),
+          i = this.modulesStore.getPersistedModuleByLocalId(r);
+        if (!(!i || i.exports.includes("utils"))) {
+          ke("ui_interaction", { page: "canvas", id: "regenerate-collection-for-utils" });
+          try {
+            await this.forceComponentUpdate(o.id);
+          } catch (a) {
+            G.error("Error regenerating collection for utils export", o.id, a);
+          }
+        }
+      }
+    }
+  }
+  async regenerateCmsIncompatibleModules() {
+    let e = this.treeStore.getDataTree();
+    if (e.isViewOnly) return;
+    if (this.modulesStore.hasPendingTreeData()) {
+      this.#I.debounce();
+      return;
+    }
+    let t = [];
+    for (let o of this.modulesStore.localModules.values()) {
+      if (!Rr(o.type)) continue;
+      let r = this.modulesStore.getPersistedModuleByLocalId(o.localId);
+      !r ||
+        !co(r) ||
+        this.#C.has(r.name) ||
+        (e.get(r.name) && (this.#C.add(r.name), t.push(r.name)));
+    }
+    t.length !== 0 &&
+      (await this.ensureDependencyModulesExist(),
+      await this.updateComponentBatch(t, 2, {
+        concurrency: 2,
+        onError: (o, r) => G.error("Error regenerating module for CMS compatibility", r, o),
+      }));
+  }
+  hasBlockingUpdates(e) {
+    if (this.#h > 0 || this.#f.size > 0) return !0;
+    if (this.#e.size > 0) {
+      for (let [t, o] of this.#e) if (e.has(t) && o) return !0;
+    }
+    return !this.persistence.isIdle() || !this.serialization.isIdle();
+  }
+  async updateModules(e, t) {
+    let o = this.treeStore.getDataTree(),
+      r = o.get(e),
+      i = this.treeUpdater.remoteTreeVersion;
+    if (!r || !rt(r, o)) return !1;
+    let a = [];
+    for (let { revision: l, source: d, type: u, artifacts: p } of t) {
+      let c = {
+          assets: p?.assets,
+          submodules: p?.submodules,
+          binaryAssets: p?.binaryAssets,
+          preventCircularImports: u === "canvasComponent",
+          telemetrySession: this.telemetrySession(o, e),
+          treeVersion: i,
+          sourceRevision: l,
+          svgIcon: p?.files?.find((S) => S.type === "svgIcon")?.content,
+          stableName: !0,
+        },
+        f = this.modulesStore.forType(u).getByStableName(St(r)),
+        g = f.sourceRevision() !== l,
+        h = $.sections(za(), d);
+      (!g && f.currentSourceEquals(h, c)) || a.push({ localId: f.localId, source: h, options: c });
+    }
+    if (a.length === 0) return !1;
+    let s = await this.modulesStore.updateSources(a);
+    return (yt(r) && this.vectorsStore.delete(e), s);
+  }
+  moduleTypeOrder = {
+    localization: 0,
+    webPageMetadata: 1,
+    siteMetadata: 2,
+    collection: 3,
+    draftCollection: 4,
+    css: 5,
+    componentPresets: 6,
+    vector: 7,
+    vectorSet: 8,
+    canvasComponent: 9,
+    screen: 10,
+    ["prototype"]: 11,
+    codeFile: 12,
+    config: 13,
+    layoutTemplate: 14,
+    design: 15,
+    snippets: 17,
+    shader: 18,
+  };
+  allModulesExistForSources(e, t) {
+    let o = St(e);
+    for (let r of t) if (!this.modulesStore.getPersistedModuleByLocalId(ye(r.type, o))) return !1;
+    return !0;
+  }
+  async compileOutput(e, t, o, r) {
+    if (!this.canSerialize(e.id)) return (this.#c(e.id, o), !1);
+    let i = performance.now();
+    (this.#g.active++, (this.#g.peakActive = Math.max(this.#g.peakActive, this.#g.active)));
+    try {
+      let a = t.slice().sort((l, d) => this.moduleTypeOrder[l.type] - this.moduleTypeOrder[d.type]);
+      if (this.allModulesExistForSources(e, a)) await this.updateModules(e.id, a);
+      else
+        for (let l of a) {
+          let d = await this.updateModules(e.id, [l]),
+            u = St(e);
+          !this.modulesStore.getPersistedModuleByLocalId(ye(l.type, u)) &&
+            d &&
+            (await this.persistence.persist(e.id, [l], !1, r));
+        }
+      q(e) && (await this.ensureDependentModulesCanRenderCollectionColors(e));
+    } catch (a) {
+      throw (this.#c(e.id, o, a), a);
+    } finally {
+      (this.#g.active--, (this.#g.durationMs += performance.now() - i));
+    }
+    return (
+      this.#m++,
+      o && t.length > 0 && this.#w.add(o),
+      this.#M(e.id),
+      this.#c(e.id, o),
+      this.persistence.persist(e.id, t, !0, r),
+      !0
+    );
+  }
+  pauseCodeGeneration(e) {
+    return (
+      G.debug("Pausing code generation for", e),
+      this.#t.add(e),
+      () => {
+        (G.debug("Resuming code generation for", e), this.#t.delete(e), this.#S.debounce());
+      }
+    );
+  }
+  hasSavedComponentModule(e, t) {
+    return e.moduleSourceRevision === void 0 ||
+      e.moduleSourceRevisionHint !== e.moduleSourceRevisionCommittedHint
+      ? !1
+      : fo(e, t).every((o) => {
+          let r = t.get(o);
+          return (
+            Dt(r) &&
+            !!r.save.saveId &&
+            !!r.save.moduleId &&
+            r.save.sourceRevision === e.moduleSourceRevision
+          );
+        });
+  }
+  async generateAndUpdateQueuedComponents(e, t = "explicitDemand") {
+    this.#N[t]++;
+    let o = this.treeStore.getDataTree();
+    if (this.abortSignal?.aborted || o.isViewOnly) return [];
+    let r = (u, p) => {
+        let c = p.get(u);
+        if (!(!c || !rt(c, p) || (e && !po(c, p).includes(e)))) return c;
+      },
+      i = new Map();
+    for (let [u, p] of this.#a) this.#t.has(u) || (r(u, o) && i.set(u, p));
+    await this.ensureDependencyModulesExist();
+    let a = [],
+      s = new Map();
+    for (let [u] of this.#e) {
+      if (this.#t.has(u) || this.serialization.preparing(u)) continue;
+      let p = this.treeStore.getDataTree(),
+        c = r(u, p);
+      if (!c) {
+        this.dequeueSource(u);
+        continue;
+      }
+      if ((this.serialization.prepare(u), yt(c))) {
+        let f = p.getScopeNodeFor(c);
+        if (!f) continue;
+        let g = s.get(f.id) ?? [];
+        (g.push(c), s.set(f.id, g));
+      } else a.push(c);
+    }
+    let l = new Set();
+    G.debug("Batch generating queued vector nodes");
+    for (let u of s.values())
+      try {
+        let p = await this.batchSerializeVectors(u, void 0, l);
+        for (let c in p) this.persistence.persist(c, p[c], !0);
+      } catch {}
+    (G.debug("Generating queued components", { ids: a.map(Dr) }),
+      await this.treeStore.getDataTree().withPersistedCaches(async () => {
+        for (let u of a)
+          try {
+            G.debug("Flushing queue of ", u.id);
+            let p = this.#a.get(u.id),
+              c = await this.generateComponent(u.id, 1);
+            c && (await this.compileOutput(u, c, p), l.add(u.id));
+          } catch {}
+      }));
+    for (let [u, p] of i)
+      try {
+        (await p, this.#w.has(p) && l.add(u));
+      } catch {}
+    return Array.from(l);
+  }
+  #r = new Map();
+  #a = new Map();
+  #w = new WeakSet();
+  #f = new Set();
+  async batchSerializeVectors(e, t, o) {
+    let r = e[0];
+    if (!r) return;
+    let i = e.map((a) => {
+      this.serialization.prepare(a.id);
+      let s = this.#r.get(a.id),
+        l = this.#a.get(a.id);
+      return (C(s && l), { node: a, prepared: s, compiled: l });
+    });
+    try {
+      (await this.ensureSourceNode(r.id), await this.ensureSourceCache(r.id));
+      let a = await Mp(e, this.scheduleDocumentUpdateIgnoringUndo);
+      C(a, "VectorSet: newModuleRevisions must exist");
+      let s = {
+          componentLoader: this.componentLoader,
+          assetMap: this.assetMap,
+          modulesStore: this.modulesStore,
+          treeStore: this.treeStore,
+          tree: this.treeStore.getDataTree(),
+          vectorsStore: this.vectorsStore,
+          engineChanges: this.engineChanges,
+          measureNodes: this.measureNodes,
+        },
+        l = await Promise.allSettled(
+          i.map(async ({ node: c, prepared: f, compiled: g }) => {
+            try {
+              if (!a[c.id]) {
+                this.#c(c.id, g);
+                return;
+              }
+              let y = (
+                await this.serializerForSourceNode(this.treeStore.getDataTree(), c)(c, s, {
+                  serializationId: this.getSerializationId(),
+                })
+              )?.[0];
+              return (
+                C(y, () => `VectorSet: source must exist. ${c.id}`),
+                { id: c.id, source: y, compiled: g }
+              );
+            } finally {
+              (f.resolve(), this.#r.get(c.id) === f && this.#r.delete(c.id));
+            }
+          })
+        ),
+        d = l.find((c) => c.status === "rejected");
+      if (d?.status === "rejected") throw d.reason;
+      let u = 0,
+        p = {};
+      for (let c of l) {
+        if (c.status !== "fulfilled" || !c.value) continue;
+        let { id: f, source: g, compiled: h } = c.value,
+          S = await this.updateModules(f, [g]);
+        (this.#c(f, h), S && ((p[f] = [g]), t?.("serializing", u), u++, o?.add(f)));
+      }
+      return p;
+    } catch (a) {
+      for (let { node: s, prepared: l, compiled: d } of i)
+        (l.resolve(),
+          this.#r.get(s.id) === l && this.#r.delete(s.id),
+          d.isResolved() || this.#c(s.id, d, a));
+      throw a;
+    }
+  }
+  async createVersionedVectorSet(e) {
+    return this.treeStore.getDataTree().withPersistedCaches(async () => {
+      await this.generateAndPersistAllQueuedComponents();
+      let o = this.#a.get(e.id),
+        r = await this.generateComponent(e.id, 2, void 0, { includeVectorSetSaveIds: !0 });
+      return !r || !(await this.compileOutput(e, r, o))
+        ? !1
+        : (await this.persistence.process(), !0);
+    });
+  }
+  serialization = {
+    idle: async () => {
+      for (; this.#r.size > 0 || this.#f.size > 0;)
+        await Promise.all([...this.#r.values(), ...Array.from(this.#f, (e) => e.catch(() => {}))]);
+    },
+    isIdle: () => this.#r.size === 0,
+    prepare: (e) => {
+      let t = this.#u.get(e);
+      if (t !== void 0) {
+        let i = performance.now() - t;
+        (this.#l.preparedQueuedSources++,
+          (this.#l.queueWaitMs += i),
+          (this.#l.maxQueueWaitMs = Math.max(this.#l.maxQueueWaitMs, i)));
+      }
+      this.dequeueSource(e);
+      let o = this.#r.get(e);
+      (this.#r.set(e, o ?? new On()),
+        (this.#l.peakPreparingSources = Math.max(this.#l.peakPreparingSources, this.#r.size)));
+      let r = (o && this.#a.get(e)) || new On();
+      (r.catch(() => {}), this.#a.set(e, r), this.#f.add(r));
+    },
+    cancel: (e, { prepared: t, compiled: o } = this.#x(e)) => {
+      let r = this.#r.get(e) === t && this.#a.get(e) === o;
+      (r && this.dequeueSource(e), this.#R(e, t), r && this.#M(e), this.#c(e, o));
+    },
+    preparing: (e) => this.#r.has(e),
+    promise: (e) => this.#r.get(e),
+    commit: async (e, t, o, r, i) => {
+      let a = r ? r.prepared : this.#r.get(e.id),
+        s = r?.compiled,
+        l = () => this.#R(e.id, a, !0),
+        d = performance.now();
+      (this.#d.attempts++,
+        this.#d.active++,
+        (this.#d.peakActive = Math.max(this.#d.peakActive, this.#d.active)));
+      try {
+        let u = await this.#P(e, t, o, a, i);
+        return (
+          (this.#d.outputModules += u?.length ?? 0),
+          u || (l(), this.#a.get(e.id) === s && this.#M(e.id), this.#c(e.id, s)),
+          u
+        );
+      } catch (u) {
+        throw (G.reportError(u), l(), this.#c(e.id, s, u), u);
+      } finally {
+        (this.#d.active--, (this.#d.durationMs += performance.now() - d));
+      }
+    },
+  };
+  #x(e) {
+    return { prepared: this.#r.get(e), compiled: this.#a.get(e) };
+  }
+  #R(e, t, o = !1) {
+    (o ? t?.reject() : t?.resolve(), this.#r.get(e) === t && this.#r.delete(e));
+  }
+  #c(e, t, o) {
+    if (t) {
+      if ((this.#f.delete(t), this.#a.get(e) === t && this.#a.delete(e), o !== void 0)) {
+        t.reject(o);
+        return;
+      }
+      t.resolve();
+    }
+  }
+  async #P(e, t, o, r, i) {
+    let a = this.treeStore.getDataTree();
+    if (!Ne(e) && !a.has(t.id)) return;
+    let s = this.telemetrySession(a, e.id);
+    if (!i?.skipModulesIdle) {
+      let c = s.start("synchronize"),
+        f = performance.now();
+      (G.debug("Waiting for ModulesStore to be idle", { id: e.id }),
+        await this.modulesStore.whenIdle());
+      let g = performance.now() - f;
+      ((this.#d.storageWaitMs += g),
+        G.debug(
+          "Waited",
+          Math.round((g / 1e3) * 100) / 100,
+          "seconds for ModulesStore to be idle",
+          { id: e.id }
+        ),
+        c.end());
+    }
+    if (((a = this.treeStore.getDataTree()), !a.has(t.id))) return;
+    let l = e.draftOrCurrent();
+    if (o !== 2 && this.isSkippedEmptyScopeNode(l)) return;
+    let d = s.start("serialize");
+    q(e) && Oy(e, this.componentLoader, a, this);
+    let u = this.serializerForSourceNode(a, e);
+    this.#R(e.id, r);
+    let p = await u(
+      e,
+      {
+        componentLoader: this.componentLoader,
+        assetMap: this.assetMap,
+        modulesStore: this.modulesStore,
+        treeStore: this.treeStore,
+        tree: this.treeStore.getDataTree(),
+        vectorsStore: this.vectorsStore,
+        engineChanges: this.engineChanges,
+        measureNodes: this.measureNodes,
+      },
+      {
+        serializationId: this.getSerializationId(),
+        initialIntrinsicSize: i?.intrinsicSize,
+        includeVectorSetSaveIds: i?.includeVectorSetSaveIds,
+      }
+    );
+    return (
+      p.forEach(({ source: c, artifacts: f }) => {
+        if (
+          (G.trace(
+            "serializeComponent",
+            `
+>>>> >>>>
+`,
+            J(c),
+            `
+<<<< <<<<`
+          ),
+          f?.submodules)
+        )
+          for (let [g, h] of f.submodules)
+            G.trace(
+              "serializeComponent",
+              `
+>>>>`,
+              g,
+              `>>>>
+`,
+              h,
+              `
+<<<<`,
+              g,
+              "<<<<"
+            );
+      }),
+      d.end(p),
+      p
+    );
+  }
+  isSkippedEmptyScopeNode(e) {
+    return Xt(e) ? !1 : !!(gt(e) && (!e.isLoaded() || e.loaded.children?.length === 0));
+  }
+  async #E(e) {
+    let t = this.#y;
+    if (!t) return;
+    let o = this.#o,
+      r = new Map(),
+      i = () => {
+        for (let a of r.keys()) t.clearGeneratedSource(a);
+        r.clear();
+      };
+    for (let a = 1; a <= 3; a++) {
+      let s = this.#s.get(e),
+        l = this.#p.get(e),
+        d = performance.now(),
+        u = s === void 0 ? 0 : d - s,
+        p = 0,
+        c = 0,
+        f = 0,
+        g = 0,
+        h = "skipped",
+        S = !1,
+        v,
+        y = new Map();
+      try {
+        C(
+          this.canSerialize(e),
+          "CodeGenerationStore: viewers cannot generate smart component or web page updates."
+        );
+        let I = this.treeStore.getDataTree(),
+          x = I.get(e);
+        if (!x || !rt(x, I)) {
+          (i(), this.dequeueSource(e), (h = "skipped"));
+          return;
+        }
+        let M = this.#e.get(e);
+        this.serialization.prepare(e);
+        let R = this.#a.get(e);
+        ((v = this.#x(e)), this.#h++);
+        try {
+          await I.withPersistedCaches(async () => {
+            let N = performance.now(),
+              w = !1;
+            try {
+              if (
+                (await this.ensureSourceNode(e),
+                await this.ensureSourceCache(e),
+                this.abortSignal?.aborted || o !== this.#o)
+              ) {
+                (i(), this.serialization.cancel(e, v), (h = "skipped"));
+                return;
+              }
+              let F = this.treeStore.getDataTree(),
+                D = F.get(e);
+              if (!D || !rt(D, F)) {
+                (i(), this.serialization.cancel(e, v), (h = "skipped"));
+                return;
+              }
+              let k = Xe(D) ? D.getPrimaryVariant() : D,
+                z = await this.serialization.commit(D, k, 1, v, { skipModulesIdle: !0 });
+              if (((p += performance.now() - N), (w = !0), !z)) {
+                (i(), (h = "skipped"));
+                return;
+              }
+              if (this.abortSignal?.aborted || o !== this.#o) {
+                (i(), this.serialization.cancel(e, v), (h = "skipped"));
+                return;
+              }
+              let W = performance.now(),
+                Z = [];
+              for (let H of z) {
+                if (!Lo.has(H.type)) continue;
+                let le = wn({ type: H.type, name: St(D) }),
+                  Me = $.sections(za(), H.source);
+                (y.set(le, Me), r.set(le, Me), Z.push(t.requestGeneratedSource(le, Me, void 0)));
+              }
+              if (
+                (await Promise.allSettled(Z),
+                (c += performance.now() - W),
+                this.abortSignal?.aborted || o !== this.#o)
+              ) {
+                (i(), this.serialization.cancel(e, v), (h = "skipped"));
+                return;
+              }
+              for (let H of Array.from(r.keys()))
+                y.has(H) || (t.clearGeneratedSource(H), r.delete(H));
+              let he = performance.now(),
+                ne;
+              try {
+                ne = await this.calculateNewModuleRevision(e);
+              } finally {
+                f += performance.now() - he;
+              }
+              if (this.abortSignal?.aborted || o !== this.#o) {
+                (i(), this.serialization.cancel(e, v), (h = "skipped"));
+                return;
+              }
+              if (this.#e.has(e)) {
+                let H = this.#e.get(e),
+                  le = this.#u.get(e),
+                  Me = this.#s.get(e);
+                (this.serialization.cancel(e, v),
+                  H !== void 0 &&
+                    (this.#e.set(e, H),
+                    le !== void 0 && this.#u.set(e, le),
+                    Me !== void 0 && this.#s.set(e, Me)),
+                  (h = "requeued"),
+                  a === 3 ? i() : (S = !0));
+                return;
+              }
+              let Oe = this.treeStore.getDataTree(),
+                Ve = Oe.get(e);
+              if (!Ve || !rt(Ve, Oe) || !this.shouldGenerateUnderCondition(Oe, 1, Ve, ne, M)) {
+                (i(), this.serialization.cancel(e, v), (h = "skipped"));
+                return;
+              }
+              for (let H of z) {
+                if (!Lo.has(H.type)) continue;
+                let le = wn({ type: H.type, name: St(D) }),
+                  Me = y.get(le);
+                if (Me === void 0) continue;
+                let Mt = qe(Ve, Oe) ? (ne ?? Ve.moduleSourceRevision) : H.revision;
+                (t.labelRevision(le, Me, Mt),
+                  H.revision !== void 0 && ne !== void 0 && (H.revision = ne));
+              }
+              let j = performance.now(),
+                pe = await this.compileOutput(D, z, R, { deferTreeJSON: !0 });
+              ((g += performance.now() - j), pe ? (h = "labelled") : (i(), (h = "skipped")));
+            } finally {
+              w || (p += performance.now() - N);
+            }
+          });
+        } finally {
+          this.#h--;
+        }
+      } catch (I) {
+        throw (i(), v && this.serialization.cancel(e, v), (S = !1), (h = "error"), I);
+      } finally {
+        (S || (this.#s.delete(e), this.#p.delete(e)),
+          G.debug("generation", {
+            id: e,
+            names: Array.from(y.keys()),
+            outcome: h,
+            attempt: a,
+            queuedAt: l,
+            at: Date.now(),
+            debounceMs: u,
+            serializeMs: p,
+            compileMs: c,
+            revisionMs: f,
+            persistMs: g,
+          }));
+      }
+      if (!S) return;
+    }
+  }
+  async generateComponent(e, t, o, r) {
+    let i = this.#x(e);
+    try {
+      (G.debug("Ensure source node", e),
+        await this.ensureSourceNode(e),
+        G.debug("Ensure source cache", e),
+        await this.ensureSourceCache(e));
+    } catch (d) {
+      throw (this.serialization.cancel(e, i), G.error("Failed to ensure source cache", e), d);
+    }
+    let a = await this.getComponentSourceNodeAndRoot(e, t, o, i);
+    if (!a) return;
+    G.debug("Serialize", e);
+    let { componentSourceNode: s, root: l } = a;
+    return this.serialization.commit(s, l, t, i, r);
+  }
+  async getComponentSourceNodeAndRoot(e, t, o, r) {
+    try {
+      let i = await this.calculateNewModuleRevision(e),
+        a = this.treeStore.getDataTree(),
+        s = a.get(e);
+      if (!s || !rt(s, a) || !this.shouldGenerateUnderCondition(a, t, s, i, o)) {
+        (G.debug("Skipping component source node", e), this.serialization.cancel(e, r));
+        return;
+      }
+      let l = Xe(s) ? s.getPrimaryVariant() : s;
+      return { componentSourceNode: s, root: l };
+    } catch (i) {
+      throw (this.serialization.cancel(e, r), i);
+    }
+  }
+  shouldGenerateUnderCondition(e, t, o, r, i) {
+    let a = i ?? this.#e.get(o.id);
+    if ((this.dequeueSource(o.id), !Vt(o, e, this.modulesStore))) return !0;
+    switch (t) {
+      case 2:
+        return !0;
+      case 1:
+        return !A(r) || !this.allModulesAreAtRevision(e, o.id, r);
+      case 0:
+        return !A(r) && !!a && !this.allModulesAreAtRevision(e, o.id, r);
+      default:
+        Y(t);
+    }
+  }
+  addChangeToQueue(e) {
+    if (!this.shouldSkipChange(e)) {
+      if ((yt(e) && this.vectorsStore.queue(e.id), Qe(e))) {
+        let t = e.parentid;
+        (C(t, "Collection node has no parent"), this.queueSource(t));
+        return;
+      }
+      this.queueSource(e.id);
+    }
+  }
+  dequeueSource(e) {
+    (this.#e.delete(e), this.#u.delete(e), this.#s.delete(e), this.#p.delete(e));
+  }
+  queueSource(e) {
+    (this.recovery.handOff(e),
+      this.#l.sourceRequests++,
+      this.#y && !this.#s.has(e) && (this.#p.set(e, Date.now()), this.#s.set(e, performance.now())),
+      this.#e.has(e) ? this.#l.coalescedSourceRequests++ : this.#u.set(e, performance.now()),
+      this.#e.set(e, !0),
+      (this.#l.peakQueuedSources = Math.max(this.#l.peakQueuedSources, this.#e.size)));
+  }
+  serializerForSourceNode(e, t) {
+    return q(t)
+      ? ip
+      : Xe(t)
+        ? Ea
+        : oa(t)
+          ? fp
+          : $e(t)
+            ? dp
+            : Ne(t)
+              ? ru
+              : Mn(t)
+                ? sp
+                : we(t)
+                  ? vp
+                  : yt(t)
+                    ? Sp
+                    : Xt(t)
+                      ? su
+                      : et(e.get(t.parentid))
+                        ? Ea
+                        : cp;
+  }
+  shouldSkipChange(e) {
+    if (fe(e)) {
+      let t = E(e.codeComponentIdentifier);
+      if (Te(t) && t.type === "screen") return !0;
+    }
+    return !1;
+  }
+  async ensureSourceCache(e) {
+    let t = this.treeStore.getDataTree().get(e);
+    !t ||
+      t.update === t.cache.lastUpdate ||
+      (await new Promise((o) => {
+        this.scheduler.runBeforeNextFrame(() => {
+          (gt(t) && t.update !== t.cache.lastUpdate && this.updateTreeCache(t.id), o());
+        });
+      }));
+  }
+  async ensureDependentModulesAreCompatibleWithCollection(e) {
+    let t = ye("collection", e.id),
+      o = this.modulesStore.getDependentsOfModule(t);
+    !o ||
+      o.size === 0 ||
+      (await Promise.all(
+        Array.from(o).map(async (r) => {
+          let i = r,
+            a = this.modulesStore.getPersistedModuleByLocalId(i);
+          if (!(!a || !co(a))) return this.forceComponentUpdate(a.name);
+        })
+      ));
+  }
+  async ensureDependentModulesCanRenderCollectionColors(e) {
+    let t = ye("collection", e.id),
+      o = this.modulesStore.getDependentsOfModule(t);
+    if (!o || o.size === 0) return;
+    let r = this.modulesStore.forType("collection").getByStableName(e.id);
+    r &&
+      r.annotations(null, "default")?.framerColorSyntax &&
+      (await Promise.all(
+        Array.from(o).map(async (i) => {
+          let [a, s] = _o(i);
+          a === "draftCollection" ||
+            this.modulesStore.forType(a).getByStableName(s)?.annotations(null, "default")
+              ?.framerColorSyntax ||
+            (await this.forceComponentUpdate(s));
+        })
+      ));
+  }
+  async ensureReferencedCollectionsExportUpToDateEnumUtils(e) {
+    let t = new Set();
+    for (let o of e.variables) {
+      if (o.type !== "controlReference" || o.expectedType !== "enum") continue;
+      let r = E(o.entityIdentifier);
+      if (!Te(r) || r.type !== "collection") continue;
+      let s = this.modulesStore
+        .forType("collection")
+        .getByStableName(r.localIdName)
+        ?.annotations(null, "default")?.framerEnumToDisplayNameUtils;
+      (_(s) && s >= 2) || t.add(r.localIdName);
+    }
+    for (let o of t)
+      (ke("ui_interaction", { page: "canvas", id: "regenerate-collection-for-enum-utils" }),
+        await this.forceComponentUpdate(o));
+  }
+  async ensureAllNodesWithLinksHaveLinkedScopesLoaded(e) {
+    let t = new Set(),
+      o = this.treeStore.getDataTree();
+    o.beginAllowPartialScopeAccess();
+    for (let r of e.walkWithSkipChildren()) {
+      if (!Ed(r.node)) continue;
+      let i = r.node.getLink();
+      if (!Ml(i)) continue;
+      let a = o.get(i.webPageId);
+      if (!a || a.loaded) continue;
+      let s = this.modulesStore
+        .forType("screen")
+        .getByStableName(i.webPageId)
+        ?.annotations(null, "default");
+      A(s?.framerScrollSections) && (t.add(a), r.skipChildren());
+    }
+    (o.endAllowPartialScopeAccess(), await o.loadScopes(Array.from(t)));
+  }
+};
+function Oy(n, e, t, o) {
+  let r = n.instanceIdentifier,
+    i = e.dataForIdentifier(r);
+  if (!i || !Object.values(i.properties).some((l) => l?.type === "image")) return;
+  let s = new Set();
+  for (let l of t.root.children) {
+    if (!gt(l)) continue;
+    if (V(l) && l.dataIdentifier === r) {
+      s.add(l);
+      continue;
+    }
+    l.loaded?.some((u) => zs(u) && u.dataIdentifier === r) && s.add(l);
+  }
+  s.forEach((l) => {
+    o.forceComponentUpdate(l.id).catch(Je);
+  });
+}
+function DV(n) {
+  return typeof n.versionHostname == "string";
+}
+function VV(n) {
+  return ["ssg-pipeline-failed", "ssg-user-code-failed"].includes(n);
+}
+function Uy(n) {
+  return (
+    n.status === "ssg-ready-with-warnings" ||
+    n.searchIndexStatus === "failed" ||
+    !!(n.status === "ssg-ready" && n.messages?.length)
+  );
+}
+function PV(n) {
+  let e = Uy(n);
+  return { ...n, hasWarnings: e };
+}
+function Ce(n, e) {
+  return `${n ?? ""}.${e}`;
+}
+function Ze(n, e) {
+  return `${n ?? ""}[${e}]`;
+}
+function ns(n) {
+  let e = [],
+    t = n.split(".");
+  for (let o of t) {
+    let [r, i] = o.split("[");
+    if ((r.length !== 0 && e.push({ type: "object", key: r }), i)) {
+      let a = i.slice(0, -1);
+      (C(a.length > 0), e.push({ type: "array", id: a }));
+    }
+  }
+  return e;
+}
+function No(n) {
+  return ee(n) || V(n) || X(n);
+}
+function AV(n) {
+  return No(n) || q(n) || Qe(n) || Ne(n) || pt(n);
+}
+function O(n, e = !1) {
+  let t = (e ? Ql(n) : n).trim();
+  return t === "" ? 0 : t.split(/\W+\b/).length;
+}
+var _y = tr((n, e, t) =>
+  String(
+    P(re({ webMetadata: n ?? null, titleLocalized: e ?? null, descriptionLocalized: t ?? null }))
+  )
+);
+function os(n, e) {
+  if (e !== n.root.id) return n.getResolvedSubtreeGeneration(e);
+  let { webMetadata: t, titleLocalized: o, descriptionLocalized: r } = n.root;
+  return _y(t, o, r);
+}
+function wo(n) {
+  return `${n}_html`;
+}
+function Do(n) {
+  return `${n}_fillImageLocalized`;
+}
+function Ht(n, e, t) {
+  return `${n}.${e}.${t ?? ""}`;
+}
+function ri(n) {
+  if (Il(n)) return $y(n);
+  let e = Vn(n);
+  for (let t of e.querySelectorAll("*"))
+    t.tagName !== "BR" &&
+      (t.removeAttribute("class"),
+      t.removeAttribute("style"),
+      t.removeAttribute("data-styles-preset"));
+  return e.innerHTML;
+}
+function $y(n) {
+  let e = n.variant;
+  if (!vl(n)) return n;
+  let t = cd(n, {
+    textBlock(o) {
+      let r = { ...o };
+      for (let i of yl) delete r[i];
+      return r;
+    },
+    text(o) {
+      let r = { ...o };
+      for (let i of Sl) delete r[i];
+      return r;
+    },
+  });
+  return (C(t.variant === e, "mapRichTextDocument must not change the document variant"), t);
+}
+var Jt = new Set();
+function tP(n) {
+  let e = {
+    resolvedCount: 0,
+    unresolvedCountsByModuleType: new Map(),
+    unresolvedLocalizableCount: 0,
+  };
+  Jt.add(e);
+  try {
+    return { result: n(), lookups: e };
+  } finally {
+    Jt.delete(e);
+  }
+}
+function Vo() {
+  let n = {
+    resolvedCount: 0,
+    unresolvedCountsByModuleType: new Map(),
+    unresolvedLocalizableCount: 0,
+  };
+  return (Jt.add(n), { lookups: n, [Ps()]: () => Jt.delete(n) });
+}
+function Lf(n) {
+  if (n !== 0) for (let e of Jt) e.unresolvedLocalizableCount += n;
+}
+function Jn(n, e, t) {
+  if (Jt.size === 0) return;
+  if (e) {
+    for (let a of Jt) a.resolvedCount++;
+    return;
+  }
+  let o = E(n),
+    r = o ? ("type" in o ? o.type : o.kind) : "unparsed",
+    i = Wy(t());
+  for (let a of Jt) {
+    let s = a.unresolvedCountsByModuleType;
+    (s.set(r, (s.get(r) ?? 0) + 1), i && a.unresolvedLocalizableCount++);
+  }
+}
+function Wy(n) {
+  for (let e of n)
+    switch (e) {
+      case void 0:
+        continue;
+      case null:
+      case "string":
+      case "richtext":
+      case "image":
+      case "responsiveimage":
+      case "link":
+      case "array":
+      case "object":
+        return !0;
+      default:
+        continue;
+    }
+  return !1;
+}
+var as = "framer-module[data-module-identifier]",
+  xf = "framer-module-translation-text",
+  ai = "framer-module-translation-richtext",
+  Rf = "data-module-control-key",
+  Nf = "data-module-control-ancestor-path",
+  wf = "data-module-control-storage-type",
+  Gy = nc(oc),
+  hn = class extends Error {
+    name = "RichTextModuleTranslationError";
+  };
+function IP(n) {
+  return n instanceof hn;
+}
+function li(n, e) {
+  let o = Vn(n).querySelectorAll(as);
+  if (o.length === 0) return "";
+  let r = [];
+  for (let i of o) {
+    let a = i.getAttribute("data-module-identifier");
+    if (!T(a)) continue;
+    let s = i.getAttribute("data-module-props");
+    if (!T(s)) continue;
+    let l;
+    try {
+      l = JSON.parse(s);
+    } catch {
+      continue;
+    }
+    if (!l) continue;
+    let d = ss(a, e, l);
+    if (!d) continue;
+    let u = an(d, l),
+      p = [];
+    (Df(u, d, p, { suppressGeneratedIds: !0 }), p.length !== 0 && (p.sort(jy), r.push(p)));
+  }
+  return r.length === 0 ? "" : re(r);
+}
+function jy(n, e) {
+  return (
+    ii(n.controlPropKey, e.controlPropKey) ||
+    ii(n.ancestorControlKeyPath, e.ancestorControlKeyPath) ||
+    ii(n.tagName, e.tagName) ||
+    ii(n.storageType, e.storageType)
+  );
+}
+function ii(n, e) {
+  let t = n ?? "",
+    o = e ?? "";
+  return t < o ? -1 : t > o ? 1 : 0;
+}
+function CP(n, e) {
+  let t = Vn(n),
+    o = t.querySelectorAll(as);
+  for (let r of o) {
+    let i = r.getAttribute("data-module-identifier");
+    if (!T(i)) continue;
+    let a = r.getAttribute("data-module-props");
+    if (!T(a)) continue;
+    let s;
+    try {
+      s = JSON.parse(a);
+    } catch {
+      continue;
+    }
+    if (!s) continue;
+    let l = ss(i, e, s);
+    if (!l) continue;
+    let d = an(l, s),
+      u = [];
+    Df(d, l, u);
+    for (let p of u) {
+      let c = t.ownerDocument.createElement(p.tagName);
+      (c.setAttribute(Rf, p.controlPropKey),
+        p.ancestorControlKeyPath && c.setAttribute(Nf, p.ancestorControlKeyPath),
+        p.storageType && c.setAttribute(wf, p.storageType),
+        p.tagName === ai ? (c.innerHTML = p.value) : (c.textContent = p.value),
+        r.append(c));
+    }
+  }
+  return t.innerHTML;
+}
+function bP(n, e, { strict: t = !0 } = {}) {
+  let o = Vn(n),
+    r = o.querySelectorAll(as);
+  for (let i of r) {
+    let a = i.getAttribute("data-module-identifier");
+    if (!T(a)) continue;
+    let s = i.getAttribute("data-module-props");
+    if (!T(s)) continue;
+    let l = Array.from(i.querySelectorAll(`${xf}, ${ai}`));
+    if (l.length === 0) continue;
+    let d;
+    try {
+      d = JSON.parse(s);
+    } catch {
+      if (!t) continue;
+      throw new hn("Translated module props are no longer valid JSON.");
+    }
+    if (!d || !ss(a, e, d)) continue;
+    let p = d;
+    for (let c of l) {
+      if (c.parentElement !== i) {
+        if (!t) continue;
+        throw new hn(
+          "Translated module controls must remain direct children of the module element."
+        );
+      }
+      let f = c.getAttribute(Rf);
+      if (!T(f) || f.length === 0) {
+        if (!t) continue;
+        throw new hn("Translated module control key is missing or invalid.");
+      }
+      let g = c.getAttribute(Nf) ?? void 0;
+      if (c.tagName.toLowerCase() === ai) {
+        let v = Hy(c.getAttribute(wf));
+        if (!v) {
+          if (!t) continue;
+          throw new hn("Translated rich text module control storage type is missing or invalid.");
+        }
+        p = Mf(p, f, g, Jy(c.innerHTML, v), "richtext");
+      } else p = Mf(p, f, g, c.textContent, "string");
+      c.remove();
+    }
+    p !== d && i.setAttribute("data-module-props", JSON.stringify(p));
+  }
+  return o.innerHTML;
+}
+function Df(n, e, t, { suppressGeneratedIds: o = !1 } = {}) {
+  for (let [r, i] of Object.entries(n)) {
+    if (!i) continue;
+    let a = e[r];
+    a && rs(r, i, a, void 0, t, o);
+  }
+}
+function rs(n, e, t, o, r, i) {
+  switch (t.type) {
+    case "array": {
+      if (!id(e)) return;
+      for (let a of e.value) nr(a) && rs(n, a, t.control, qy(o, a.id, i), r, i);
+      return;
+    }
+    case "object": {
+      if (e.type !== "object" || !se(e.value)) return;
+      for (let [a, s] of Object.entries(e.value)) {
+        let l = t.controls[a];
+        l && rs(n, s, l, Ce(o, a), r, i);
+      }
+      return;
+    }
+    case "string": {
+      if (t.preventLocalization || e.type !== "string" || !T(e.value) || e.value.length === 0)
+        return;
+      r.push({
+        controlPropKey: n,
+        ancestorControlKeyPath: o,
+        tagName: xf,
+        storageType: void 0,
+        value: e.value,
+      });
+      return;
+    }
+    case "richtext": {
+      if (t.preventLocalization || e.type !== "richtext" || !ve(e.value)) return;
+      let a = typeof e.value == "string" ? "html" : "json",
+        s = typeof e.value == "string" ? e.value : rc(e.value, Gy);
+      if (s.length === 0) return;
+      r.push({
+        controlPropKey: n,
+        ancestorControlKeyPath: o,
+        tagName: ai,
+        storageType: a,
+        value: s,
+      });
+      return;
+    }
+    default:
+      return;
+  }
+}
+function qy(n, e, t) {
+  return t ? `${n ?? ""}[]` : Ze(n, e);
+}
+function Hy(n) {
+  return n === "html" || n === "json" ? n : null;
+}
+function ss(n, e, t) {
+  Jn(n, e.componentForIdentifier(n) !== null, () => Object.values(t).map((r) => r?.type));
+  let o = e.reactComponentForIdentifier(n);
+  return o ? Fc(mr(o, "onlyNonPresets")) : null;
+}
+function Jy(n, e) {
+  return e === "json" ? yc(n, "collectionControlPropLocalized") : n;
+}
+function Mf(n, e, t, o, r) {
+  let i = n[e];
+  if (!i) {
+    if (!t) return { ...n, [e]: { type: r, value: o } };
+    let s = ns(t);
+    return { ...n, [e]: si(s, r, o) };
+  }
+  let a = Ky(i, t, o, r);
+  return a === i ? n : { ...n, [e]: a };
+}
+function si(n, e, t) {
+  if (n.length === 0) return { type: e, value: t };
+  let [o, ...r] = n;
+  C(o);
+  let i = si(r, e, t);
+  return o.type === "array"
+    ? { type: "array", value: [{ ...i, id: o.id }] }
+    : { type: "object", value: { [o.key]: i } };
+}
+function Ky(n, e, t, o) {
+  return e ? is(n, ns(e), t, o) : Vf(n, t, o);
+}
+function is(n, e, t, o) {
+  let [r, ...i] = e;
+  if (!r) return Vf(n, t, o);
+  if (r.type === "array") {
+    if ((n.type !== "array" && n.type !== null) || !Array.isArray(n.value)) return n;
+    let l = n.value,
+      d = !1,
+      u = !1,
+      p = xc(l, (c) => {
+        if (!mt(c) || !nr(c) || c.id !== r.id) return c;
+        d = !0;
+        let f = is(c, i, t, o);
+        return ((u ||= f !== c), f);
+      });
+    if (!d && l.some((c) => mt(c) && !nr(c))) return n;
+    if (!d) {
+      let c = si(i, o, t);
+      return { ...n, value: [...l, { ...c, id: r.id }] };
+    }
+    return u ? { ...n, value: p } : n;
+  }
+  if ((n.type !== "object" && n.type !== null) || !se(n.value)) return n;
+  let a = n.value[r.key];
+  if (!mt(a)) {
+    let l = si(i, o, t);
+    return { ...n, value: { ...n.value, [r.key]: l } };
+  }
+  let s = is(a, i, t, o);
+  return s === a ? n : { ...n, value: { ...n.value, [r.key]: s } };
+}
+function Vf(n, e, t) {
+  return n.type !== t && n.type !== null
+    ? n
+    : t === "string"
+      ? typeof e == "string" && n.value !== e
+        ? { ...n, type: t, value: e }
+        : n
+      : n.value !== e
+        ? { ...n, type: t, value: e }
+        : n;
+}
+var Kn = {};
+Object.freeze(Kn);
+function gn(n, e) {
+  if (!n) return Kn;
+  let t = n,
+    o = {},
+    r = !1;
+  for (let i of e) {
+    let a = t[i.id];
+    a !== void 0 && ((o[i.id] = a), (r = !0));
+  }
+  return r ? o : Kn;
+}
+function yn(n, e, ...t) {
+  let o = {},
+    r = !1;
+  for (let i of e) {
+    let a = n.getSubfield(...t, i.id);
+    a !== void 0 && ((o[i.id] = a), (r = !0));
+  }
+  return r ? o : Kn;
+}
+function Yy(n, e) {
+  let t = Bn(n);
+  if (typeof n != "string" || !n.includes("data-module-identifier")) return t;
+  let o = li(n, e);
+  return o.length === 0 ? t : P(`${t}:${o}`);
+}
+function Fe(n, e, t, o, r, i) {
+  let a = {};
+  for (let s of e) {
+    if (r?.[s.id]) {
+      a[s.id] = "warning";
+      continue;
+    }
+    let l = i?.(s);
+    if (l) {
+      a[s.id] = l;
+      continue;
+    }
+    let d = t[s.id];
+    if (!d) {
+      a[s.id] = un(n) ? "done" : "new";
+      continue;
+    }
+    a[s.id] = d.hash !== o || d.needsReview ? "needsReview" : "done";
+  }
+  return a;
+}
+function di(n, e, t, o, r, i, a) {
+  if (!(!Rt(o) || !qo(o.outputType) || o.outputType !== "string")) {
+    for (let s of o.transforms)
+      if (jo(s)) {
+        if (s.name === "convertFromEnum" && s.outputType === "string") {
+          C(Array.isArray(s.cases), "expected enum transform cases to be an array");
+          let l = Ho(o) && o.startValue.id === ir;
+          for (let d of l ? [] : s.cases) {
+            if (Ye(d.to) || !T(d.to) || (d.to.length === 0 && !d.toLocalized)) continue;
+            let u = P(d.to),
+              p = gn(d.toLocalized, a);
+            n.push({
+              type: "convertFromEnum",
+              transformId: s.id,
+              keyPath: Ze(Ce(r, "cases"), d.id),
+              nodeId: e.id,
+              scopeId: t,
+              caseId: d.id,
+              isDefaultCase: !1,
+              value: d.to,
+              valueWordCount: O(d.to),
+              hash: u,
+              localizedValues: p,
+              localizedValueStatuses: Fe(d.to, a, p, u),
+              managedByPluginButUserEditable: !1,
+              controlPropKey: i,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+            });
+          }
+          if (s.default && !Ye(s.default) && T(s.default)) {
+            let d = P(s.default),
+              u = gn(s.defaultLocalized, a);
+            n.push({
+              type: "convertFromEnum",
+              transformId: s.id,
+              keyPath: Ce(r, "default"),
+              nodeId: e.id,
+              scopeId: t,
+              caseId: null,
+              isDefaultCase: !0,
+              value: s.default,
+              valueWordCount: O(s.default),
+              hash: d,
+              localizedValues: u,
+              localizedValueStatuses: Fe(s.default, a, u, d),
+              managedByPluginButUserEditable: !1,
+              controlPropKey: i,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+            });
+          }
+        }
+        if (s.name === "convertFromBoolean")
+          for (let l of ["truthy", "falsy", "fallback"]) {
+            let d = l === "fallback" ? s.fallback : void 0,
+              u = d ? d.value : s[l],
+              p = d
+                ? d.valueLocalized
+                : l === "truthy"
+                  ? s.truthyLocalized
+                  : l === "falsy"
+                    ? s.falsyLocalized
+                    : void 0;
+            if (Ye(u) || !T(u) || (u.length === 0 && !p)) continue;
+            let c = P(u),
+              f = gn(p, a);
+            n.push({
+              type: s.name,
+              transformId: s.id,
+              keyPath: Ce(r, l),
+              nodeId: e.id,
+              scopeId: t,
+              property: l,
+              value: u,
+              valueWordCount: O(u),
+              hash: c,
+              localizedValues: f,
+              localizedValueStatuses: Fe(u, a, f, c),
+              managedByPluginButUserEditable: !1,
+              controlPropKey: i,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+            });
+          }
+        if (s.name === "prefix" || s.name === "suffix") {
+          if (
+            Ye(s.value) ||
+            (C(T(s.value), "expected prefix or suffix transform value to be a string"),
+            s.value.length === 0 && !s.valueLocalized)
+          )
+            continue;
+          let l = P(s.value),
+            d = gn(s.valueLocalized, a);
+          n.push({
+            type: s.name,
+            transformId: s.id,
+            keyPath: Ze(r, s.id),
+            nodeId: e.id,
+            scopeId: t,
+            value: s.value,
+            valueWordCount: O(s.value),
+            hash: l,
+            localizedValues: d,
+            localizedValueStatuses: Fe(s.value, a, d, l),
+            managedByPluginButUserEditable: !1,
+            controlPropKey: i,
+            controlPropName: void 0,
+            ancestorControlKeyPath: void 0,
+          });
+        }
+      }
+  }
+}
+function Xy(n, e, t, o, r, i, a) {
+  let s = P(i);
+  n.push({
+    type: "FormPlainTextInputNode",
+    keyPath: r,
+    nodeId: e.id,
+    scopeId: t,
+    value: i,
+    valueWordCount: O(i),
+    hash: s,
+    localizedValues: a,
+    localizedValueStatuses: Fe(i, o, a, s),
+    managedByPluginButUserEditable: !1,
+  });
+}
+function Zy(n, e, t, o) {
+  let r = e.get("formInputPlaceholder");
+  if (We(r)) {
+    if (Ye(r) || !e.isKeySetAndNotInherited("formInputPlaceholder")) return;
+    di(n, e, t, r, `${e.id}_placeholder`, e.id, o);
+    return;
+  }
+  !r ||
+    !e.isKeySetAndNotInherited("formInputPlaceholder") ||
+    Xy(n, e, t, o, `${e.id}_placeholder`, r, yn(e, o, "formInputPlaceholderLocalized"));
+}
+function eS(n, e, t, o, r, i) {
+  let a = t.get("textContent");
+  if (Rt(a)) {
+    if (!t.isKeySetAndNotInherited("textContent")) return;
+    di(n, t, o, a, t.id, t.id, r);
+    return;
+  }
+  if (We(t.get("htmlContent")) || We(a)) return;
+  let s = t.isKeySetAndNotInherited("html"),
+    l = t.isKeySetAndNotInherited("htmlLocalized");
+  if (!s && !l) return;
+  let d = t.get("html"),
+    u = Fn(d),
+    p = br(d),
+    c = i === "canvasHtmlAsTextContentIfPossible" ? p : "rich-text",
+    f = ri(d),
+    g = c === "rich-text" ? sn(f) : u,
+    h = t.get("originalid");
+  if (c === "text" && !l && h && !t.get("replicaInfo")) {
+    let x = e.getAccessor(h);
+    if (x) {
+      let M = x.get("html");
+      if (Fn(M) === u) return;
+    }
+  }
+  let v = Bn(p === c ? g : u),
+    y = yn(t, r, "htmlLocalized"),
+    I = Fe(g, r, y, v);
+  n.push({
+    type: "RichTextNode",
+    keyPath: wo(t.id),
+    nodeId: t.id,
+    scopeId: o,
+    value: g,
+    richTextValue: f,
+    valueWordCount: O(g, !0),
+    textType: c,
+    hash: v,
+    localizedValues: y,
+    localizedValueStatuses: I,
+    managedByPluginButUserEditable: !1,
+    inherited: !l,
+  });
+}
+function tS(n, e, t, o) {
+  let r = e.get("fillImage");
+  if (e.get("fillType") !== "image" || !e.get("fillEnabled") || !T(r) || r.length === 0) return;
+  let i = e.isKeySetAndNotInherited("fillImageLocalized"),
+    a = e.isKeySetAndNotInherited("altAttributeLocalized");
+  if (
+    !e.isKeySetAndNotInherited("fillImage") &&
+    !i &&
+    !e.isKeySetAndNotInherited("altAttribute") &&
+    !a
+  )
+    return;
+  let s = e.get("altAttribute") ?? rn,
+    l = P(s),
+    d = P(r),
+    u = yn(e, o, "altAttributeLocalized"),
+    p = yn(e, o, "fillImageLocalized"),
+    c = e.get("fillImagePositionX"),
+    f = e.get("fillImagePositionY"),
+    g = xn(c) ? c : void 0,
+    h = xn(f) ? f : void 0;
+  n.push({
+    type: "FrameNode",
+    keyPath: Do(e.id),
+    nodeId: e.id,
+    scopeId: t,
+    value: s,
+    valueWordCount: O(s),
+    hash: l,
+    localizedValues: u,
+    localizedValueStatuses: Fe(s, o, u, l, void 0, (S) => {
+      let v = p[S.id];
+      return v ? (v.hash !== d || v.needsReview ? "needsReview" : "done") : null;
+    }),
+    managedByPluginButUserEditable: !1,
+    inherited: !a,
+    supportsAlt: !0,
+    image: r,
+    imageHash: d,
+    imageLocalizedValues: p,
+    imageInherited: !i,
+    positionX: g,
+    positionY: h,
+    supportsFocalPoint: !0,
+  });
+}
+function Pf(n, e, t, o) {
+  if (!B.isOn("localizedLinks")) return;
+  let r = Yo(e.get("link"));
+  if (!tn(r)) return;
+  let i = r.url,
+    a = P(i),
+    s = yn(e, o, "linkLocalized");
+  n.push({
+    type: "nodeLink",
+    keyPath: `${e.id}_linkLocalized`,
+    nodeId: e.id,
+    scopeId: t,
+    value: i,
+    valueWordCount: i ? 1 : 0,
+    hash: a,
+    localizedValues: s,
+    localizedValueStatuses: Fe(i, o, s, a, void 0, (l) => (s[l.id] ? null : "done")),
+    managedByPluginButUserEditable: !1,
+    aiTranslationDisabled: !0,
+  });
+}
+function nS(n, e, t, o) {
+  let r = e.get("bindingType");
+  if ((C(r === "variable" || r === "form", "unexpected form select binding type"), r === "form")) {
+    let i = e.get("formSelectOptions");
+    if (!i || i.length === 0) return;
+    for (let a of i) {
+      if (!a.title) continue;
+      let s = gn(a.titleLocalized, o),
+        l = P(a.title),
+        d = Fe(a.title, o, s, l);
+      n.push({
+        type: "FormSelectNode",
+        keyPath: `${e.id}_${a.id}`,
+        nodeId: e.id,
+        optionId: a.id,
+        scopeId: t.id,
+        value: a.title,
+        valueWordCount: O(a.title),
+        hash: l,
+        localizedValues: s,
+        localizedValueStatuses: d,
+        managedByPluginButUserEditable: !1,
+      });
+    }
+  } else if (r === "variable") {
+    let i = e.getSubfield("variableBinding", "id");
+    if (!i || !gt(t) || !zn(t)) return;
+    let a = t.getVariable(i);
+    if (!a) return;
+    let s = (l) => {
+      let u = e.get(l) || wl[l],
+        p = yn(e, o, `${l}Localized`),
+        c = P(u);
+      n.push({
+        type: "formSelectGenericOption",
+        keyPath: `${e.id}_${l}`,
+        nodeId: e.id,
+        key: l,
+        scopeId: t.id,
+        value: u,
+        valueWordCount: O(u),
+        hash: c,
+        localizedValues: p,
+        localizedValueStatuses: Fe(u, o, p, c),
+        managedByPluginButUserEditable: !1,
+      });
+    };
+    (je(a, An(t)) && s("allItemsLabel"),
+      a.type === "boolean" && (s("booleanTrueLabel"), s("booleanFalseLabel")));
+    return;
+  }
+}
+function Ef(n) {
+  return se(n) && "type" in n;
+}
+function ls(n, e, t, o, r, i, a, s, l) {
+  if (i.type === "array" && Array.isArray(i.value)) {
+    if (a.type !== "array") return;
+    for (let c of i.value)
+      !Ef(c) || !se(c) || !T(c.id) || ls(n, e, t, o, r, c, a.control, s, Ze(l, c.id));
+    return;
+  }
+  if (i.type === "object" && se(i.value)) {
+    if (a.type !== "object") return;
+    for (let [c, f] of Object.entries(i.value)) {
+      if (!Ef(f)) continue;
+      let g = a.controls[c];
+      g && ls(n, e, t, o, r, f, g, s, Ce(l, c));
+    }
+    return;
+  }
+  let d = Ht(e.id, r, l),
+    u = gn("valueLocalized" in i ? i.valueLocalized : void 0, o),
+    p = {
+      keyPath: d,
+      controlPropKey: r,
+      controlPropName: a.title || Zt(r),
+      ancestorControlKeyPath: l,
+      nodeId: e.id,
+      scopeId: t,
+      localizedValues: u,
+      managedByPluginButUserEditable: !1,
+    };
+  switch (i.type) {
+    case "string": {
+      if (
+        (a.type === "string" && (a.preventLocalization || (a.optional && i.value === null))) ||
+        (Rt(i.value) && di(n, e, t, i.value, Ce(e.id, r), r, o), !T(i.value))
+      )
+        return;
+      let c = P(i.value);
+      n.push({
+        ...p,
+        type: "string",
+        value: i.value,
+        valueWordCount: O(i.value),
+        hash: c,
+        localizedValueStatuses: Fe(i.value, o, u, c),
+      });
+      return;
+    }
+    case "link": {
+      if (
+        !B.isOn("localizedLinks") ||
+        (Rt(i.value) && di(n, e, t, i.value, Ce(e.id, r), r, o), !tn(i.value))
+      )
+        return;
+      let c = i.value,
+        f = P(c.url);
+      n.push({
+        ...p,
+        type: "link",
+        value: c.url,
+        valueWordCount: c.url ? 1 : 0,
+        hash: f,
+        localizedValueStatuses: Fe(c.url, o, u, f, void 0, (g) => (u[g.id] ? null : "done")),
+        aiTranslationDisabled: !0,
+      });
+      return;
+    }
+    case "richtext": {
+      if ((a.type === "richtext" && a.preventLocalization) || !ve(i.value)) return;
+      let c = sn(i.value),
+        f = Yy(i.value, s);
+      n.push({
+        ...p,
+        type: "richtext",
+        richTextValue: i.value,
+        value: c,
+        valueWordCount: O(c, !0),
+        hash: f,
+        localizedValueStatuses: Fe(c, o, u, f),
+        contentType: void 0,
+        isCollectionControlProp: !1,
+      });
+      return;
+    }
+    case "image": {
+      if ((a.type !== "image" && a.type !== "responsiveimage") || !T(i.value)) return;
+      let c = a.type === "responsiveimage",
+        f = i.alt ?? rn,
+        g = P(f),
+        h = P(i.value),
+        S = c ? gn(i.altLocalized, o) : Kn,
+        v = u;
+      n.push({
+        ...p,
+        type: "image",
+        value: f,
+        valueWordCount: O(f),
+        hash: g,
+        localizedValues: S,
+        localizedValueStatuses: Fe(f, o, S, g, void 0, (y) => {
+          let I = v[y.id];
+          return I ? (I.hash !== h || I.needsReview ? "needsReview" : "done") : null;
+        }),
+        supportsAlt: c,
+        image: i.value,
+        imageHash: h,
+        imageLocalizedValues: v,
+        supportsFocalPoint: c,
+        positionX: c ? i.positionX : void 0,
+        positionY: c ? i.positionY : void 0,
+      });
+      return;
+    }
+  }
+}
+function oS(n, e, t, o, r, i, a) {
+  let s = t.__class === "WebPageNode" ? rS(n, t) : t.get("codeComponentIdentifier");
+  if (!s) return;
+  let l = i.componentForIdentifier(s);
+  if ((Jn(s, l !== null, () => [...t.keys()].filter(oo).map((c) => t.get(c)?.type)), !l)) return;
+  let d = {};
+  for (let c of t.keys()) oo(c) && (d[gl(c)] = t.get(c));
+  let u = l.properties,
+    p = an(u, d);
+  for (let [c, f] of Object.entries(p)) {
+    if (!f || !t.isKeySetAndNotInherited(`$control__${c}`)) continue;
+    a?.addControlProp(f);
+    let g = u[c];
+    g && ls(e, t, o, r, c, f, g, i);
+  }
+}
+function rS(n, e) {
+  let t = e.get("layoutTemplateIdentifierOverride");
+  if (t !== null) return t ?? n.root.layoutTemplateIdentifier;
+}
+function iS(n, e, t, o, r, i) {
+  let a = o.get("webMetadata"),
+    s = o.get("dataIdentifier"),
+    l = e.dataForIdentifier(s);
+  for (let d of ["title", "description"]) {
+    let u = yn(o, r, `${d}Localized`);
+    if (!a?.[d] && u === Kn) continue;
+    let p = a?.[d] ?? n.root.webMetadata?.[d] ?? "",
+      c = P(p),
+      f = {};
+    for (let g of r) {
+      let h = u[g.id];
+      if (!h || !T(h.value) || !h.value) continue;
+      let S = hr({ collectionData: l, componentLoader: e, type: "id", value: h.value });
+      S && (f[g.id] = S);
+    }
+    i.push({
+      type: "WebPageNode",
+      keyPath: `${o.id}_${d}`,
+      nodeId: o.id,
+      scopeId: t,
+      value: p,
+      valueWordCount: O(p),
+      hash: c,
+      localizedValues: u,
+      localizedValueStatuses: Fe(p, r, u, c, f),
+      managedByPluginButUserEditable: !1,
+      key: d,
+      dataIdentifier: s,
+      warnings: f,
+    });
+  }
+}
+function ds(n, e, t, o, r, i, a, s, l) {
+  if ((s?.(), o.__class === "CodeComponentNode")) {
+    let d = o.get("codeComponentIdentifier");
+    l?.addIdentifier(d);
+  }
+  if (o.get("customCursorType") === "component") {
+    let d = o.get("customCursorSmartComponentId");
+    l?.addSmartComponentId(d);
+  }
+  (o.__class === "WebPageNode" && iS(n, e, t.id, o, r, i),
+    o.__class === "RichTextNode" && eS(i, n, o, t.id, r, a),
+    o.__class === "FrameNode" && (tS(i, o, t.id, r), Pf(i, o, t.id, r)),
+    (o.__class === "SVGNode" || o.__class === "ShapeContainerNode") && Pf(i, o, t.id, r),
+    o.__class === "FormPlainTextInputNode" && Zy(i, o, t.id, r),
+    o.__class === "FormSelectNode" && nS(i, o, t, r),
+    (o.__class === "CodeComponentNode" || o.__class === "WebPageNode") &&
+      oS(n, i, o, t.id, r, e, l));
+}
+function cs(n, e) {
+  let t = Zl(e).getRouteSegmentIdToRawPathMap(e).get(n.id);
+  return t ? ln(t) : "Unknown";
+}
+function aS(n, e, t) {
+  let o = e.root.homePageNodeId,
+    r = o && (n.id === o || n.abTestingParentId === o),
+    i;
+  if (r) i = "Home";
+  else {
+    let a = dn(e, n);
+    if (!a) return "Unknown";
+    let s = n.dataIdentifier;
+    if (!s) i = ln(a);
+    else {
+      let l = t.dataForIdentifier(s);
+      i = l ? ln(Gd(l, a)) : ln(a);
+    }
+  }
+  if (n.abTestingParentId) {
+    let a = n.resolveValue("name") || ot(t, n);
+    return `${i} \xB7 ${a}`;
+  }
+  return n.hasAbTestingChildren(e) ? `${i} \xB7 Control` : i;
+}
+function sS(n, e) {
+  let t = e.getParent(n.id);
+  return q(t) ? (vr(t, n) ?? "Unknown") : "Unknown";
+}
+function gE(n, e, t) {
+  if (Ne(n)) return "Site";
+  if (pt(n)) return cs(n, e);
+  if (q(n)) return n.resolveValue("name") || "Unknown";
+  if (Qe(n)) return sS(n, e) || "Unknown";
+  if (V(n)) return aS(n, e, t);
+  if (ee(n)) return n.resolveValue("name") || "Unknown";
+  if (X(n)) return n.resolveValue("name") || "Unknown";
+  Y(n, "Invalid localization scope");
+}
+function Sn(n, e) {
+  return n === void 0 || !ut(n, e) ? e : n;
+}
+function us(n, e) {
+  return !n || n.includes(e);
+}
+function lS(n, e) {
+  let t = new Set();
+  for (let o of e.values()) us(o.includedLocaleIds, n) && t.add(o.collectionNodeId);
+  return t;
+}
+function dS(n, e, t, o, r) {
+  if (n.abTestingParentId) return r(n.abTestingParentId);
+  if (!n.collectionIdentifier) return us(n.includedLocaleIds, e);
+  let i = t.get(n.collectionIdentifier);
+  return i ? o.has(i) : !0;
+}
+function cS(n, e, t, o) {
+  let r = new Map(),
+    i = new Set(),
+    a = (l) => {
+      let d = r.get(l);
+      if (d !== void 0) return d;
+      if (i.has(l)) return !0;
+      let u = e.get(l);
+      if (!u) return !0;
+      i.add(l);
+      let p = dS(u, n, t, o, a);
+      return (i.delete(l), r.set(l, p), p);
+    },
+    s = new Set();
+  for (let l of e.keys()) a(l) && s.add(l);
+  return s;
+}
+function uS(n, e, t) {
+  return n ? (e.has(n) ? t.has(n) : !0) : !1;
+}
+function pS(n, e) {
+  for (let t of n) if (e(t)) return !0;
+  return !1;
+}
+function fS(n, e, t) {
+  let o = new Map();
+  for (let [l, d] of n) {
+    if (!d.parentRouteId) continue;
+    let u = o.get(d.parentRouteId) ?? [];
+    (u.push(l), o.set(d.parentRouteId, u));
+  }
+  let r = new Set(),
+    i = new Map(),
+    a = new Set(),
+    s = (l) => {
+      let d = i.get(l);
+      if (d !== void 0) return d;
+      if (a.has(l)) return !0;
+      let u = n.get(l);
+      if (!u) return !0;
+      a.add(l);
+      let p = o.get(l) ?? [],
+        c = !u.webPageId && p.length === 0,
+        f = uS(u.webPageId, e, t),
+        g = pS(p, s);
+      a.delete(l);
+      let h = c || f || g;
+      return (i.set(l, h), h && r.add(l), h);
+    };
+  for (let l of n.keys()) s(l);
+  return r;
+}
+function mS(n, e, t, o) {
+  let r = o.get(n)?.get(e);
+  return r || (t.get(n) ?? []);
+}
+function hS(n, e, t, o, r) {
+  let i = new Set(),
+    a = new Set(),
+    s = Array.from(e);
+  for (let l of r.values())
+    if (us(l.includedLocaleIds, n))
+      for (let d of l.componentIdsByLocaleId.get(n) ?? []) (a.add(d), s.push(d));
+  for (; s.length > 0;) {
+    let l = s.pop();
+    if (!l || i.has(l)) continue;
+    i.add(l);
+    let d = mS(l, n, t, o);
+    for (let u of d) (a.add(u), !i.has(u) && s.push(u));
+  }
+  return a;
+}
+function gS(n, e, t, o) {
+  if (!o || !(o.hasTitleSource || o.hasDescriptionSource)) return !0;
+  for (let i of n) {
+    let a = e.get(i);
+    if (
+      !a ||
+      (o.hasTitleSource && !a.titleOverrideLocaleIds.has(t)) ||
+      (o.hasDescriptionSource && !a.descriptionOverrideLocaleIds.has(t))
+    )
+      return !0;
+  }
+  return !1;
+}
+function ci(n, e, t, o) {
+  let r = Sn(t, o);
+  n.set(e, r);
+}
+function zf({
+  localeIds: n,
+  dependenciesByScopeId: e,
+  localizedDependenciesByScopeId: t,
+  pageFactsByPageId: o,
+  collectionIdentifierById: r,
+  itemFactsByItemId: i,
+  routeFactsByRouteId: a,
+  siteSettingsFact: s,
+  previousResult: l,
+}) {
+  let d = new Map();
+  for (let [M, R] of r) d.set(R, M);
+  let u = new Map(),
+    p = new Map(),
+    c = new Map(),
+    f = new Map(),
+    g = new Map();
+  for (let M of n) {
+    let R = lS(M, i),
+      N = cS(M, o, d, R),
+      w = fS(a, o, N),
+      F = hS(M, N, e, t, i);
+    (ci(p, M, l?.visibleCollectionIdsByLocaleId.get(M), R),
+      ci(u, M, l?.visiblePageIdsByLocaleId.get(M), N),
+      ci(c, M, l?.visibleRouteIdsByLocaleId.get(M), w),
+      ci(f, M, l?.reachableDependencyIdsByLocaleId.get(M), F));
+    let D = gS(N, o, M, s);
+    g.set(M, D);
+  }
+  let h = Sn(l?.localeIds, n),
+    S = Sn(l?.visiblePageIdsByLocaleId, u),
+    v = Sn(l?.visibleCollectionIdsByLocaleId, p),
+    y = Sn(l?.visibleRouteIdsByLocaleId, c),
+    I = Sn(l?.reachableDependencyIdsByLocaleId, f),
+    x = Sn(l?.siteSettingsVisibleByLocaleId, g);
+  return {
+    localeIds: h,
+    visiblePageIdsByLocaleId: S,
+    visibleCollectionIdsByLocaleId: v,
+    visibleRouteIdsByLocaleId: y,
+    reachableDependencyIdsByLocaleId: I,
+    siteSettingsVisibleByLocaleId: x,
+  };
+}
+function yS(n, e) {
+  let t = n.get(e);
+  if (t) return t;
+  let o = new Set();
+  return (n.set(e, o), o);
+}
+function Bf(n, e) {
+  let t = n.get(e);
+  if (t) return t;
+  let o = new Map();
+  return (n.set(e, o), o);
+}
+var ps = class {
+  constructor(e, t) {
+    this.context = e;
+    this.checkpoint = t;
+  }
+  context;
+  checkpoint;
+  directSmartComponentIds = new Set();
+  unlocalizedSmartComponentIds = new Set();
+  richTextComponentIdsByLocaleId = new Map();
+  componentIdsByRichTextValueByVariant = new Map();
+  addIdentifier(e) {
+    if (!e) return;
+    let t = $f(e);
+    t && (this.directSmartComponentIds.add(t), this.unlocalizedSmartComponentIds.add(t));
+  }
+  addSmartComponentId(e) {
+    T(e) && (this.directSmartComponentIds.add(e), this.unlocalizedSmartComponentIds.add(e));
+  }
+  addControlProp(e) {
+    switch (e.type) {
+      case "array":
+        if (!$o(e.value)) return;
+        for (let t of e.value) this.addControlProp(t);
+        return;
+      case "object":
+        if (!se(e.value)) return;
+        for (let t of Object.values(e.value)) this.addControlProp(t);
+        return;
+      case "customcursor":
+        if (!Dl(e.value)) return;
+        this.addSmartComponentId(e.value.customCursorSmartComponentId);
+        return;
+      case "richtext":
+        this.addRichTextControlProp(e);
+    }
+  }
+  addRichTextControlProp(e) {
+    for (let [t, o] of this.context.routerLocaleById) {
+      let i = Pn(o, e.valueLocalized)?.value,
+        a = ve(i),
+        s = a ? i : e.value,
+        l = a ? "collectionControlPropLocalized" : "collectionControlProp",
+        d = this.getRichTextComponentIds(s, l);
+      if (!d) continue;
+      let u = this.getComponentIdsForLocale(t);
+      for (let p of d) (u.add(p), this.directSmartComponentIds.add(p));
+    }
+  }
+  getComponentIdsForLocale(e) {
+    let t = this.richTextComponentIdsByLocaleId.get(e);
+    if (t) return t;
+    let o = new Set();
+    return (this.richTextComponentIdsByLocaleId.set(e, o), o);
+  }
+  getRichTextComponentIds(e, t) {
+    if (!ve(e)) return;
+    let o = Bf(this.componentIdsByRichTextValueByVariant, t),
+      r = o.get(e);
+    if (r) return r;
+    this.checkpoint?.();
+    let i = Wf(e, t);
+    return (o.set(e, i), i);
+  }
+};
+function BE() {
+  return {
+    facts: {
+      dependenciesByScopeId: new Map(),
+      localizedDependenciesByScopeId: new Map(),
+      cmsDependenciesByItemId: new Map(),
+      pageFactsByPageId: new Map(),
+      collectionIdentifierById: new Map(),
+      routeFactsByRouteId: new Map(),
+      siteSettingsFact: void 0,
+    },
+    allScopesCached: !0,
+  };
+}
+function Af(n, e) {
+  let t = nt(n, "includeDrafts"),
+    o = new Map();
+  for (let r of t) o.set(r.id, r);
+  return { collection: e, routerLocales: t, routerLocaleById: o };
+}
+function fs(n, e) {
+  if (n) return new ps(n, e);
+}
+function ms(n) {
+  if (n) return Array.from(n.directSmartComponentIds);
+}
+function hs(n) {
+  if (!n) return;
+  let e = new Map();
+  for (let t of n.context.routerLocaleById.keys()) {
+    let o = new Set(n.unlocalizedSmartComponentIds),
+      r = n.richTextComponentIdsByLocaleId.get(t);
+    for (let i of r ?? []) o.add(i);
+    e.set(t, Array.from(o));
+  }
+  return e;
+}
+function kf(n, e, t) {
+  if (!V(e) || !Qo(e)) return t;
+  let o = Zi(e.layoutTemplateIdentifier);
+  if (!o) return t;
+  let r = n.get(o);
+  return !X(r) || t.includes(o) ? t : [...t, o];
+}
+function Po(n, e, t, o, r, i = e, a) {
+  let s = r?.collection;
+  if (!s || !t) return;
+  let l = s.facts,
+    d = kf(n, e, t);
+  if ((l.dependenciesByScopeId.set(e.id, d), o)) {
+    let p = new Map();
+    for (let [c, f] of o) p.set(c, kf(n, e, f));
+    l.localizedDependenciesByScopeId.set(e.id, p);
+  }
+  if (!V(e)) return;
+  let u = SS(n, e, i, r, a);
+  return (l.pageFactsByPageId.set(e.id, u), u);
+}
+function SS(n, e, t, o, r) {
+  if (r) return r;
+  let i = kn(n, t);
+  return vS(e, i, o);
+}
+function Ff(n, e, t) {
+  let o = new Set();
+  for (let [r, i] of t.routerLocaleById) {
+    let s = Pn(i, e)?.value != null;
+    (!n && !s) || o.add(r);
+  }
+  return o;
+}
+function vS(n, e, t) {
+  return {
+    includedLocaleIds: e,
+    abTestingParentId: n.abTestingParentId,
+    collectionIdentifier: n.dataIdentifier,
+    titleOverrideLocaleIds: Ff(n.webMetadata?.title !== void 0, n.titleLocalized, t),
+    descriptionOverrideLocaleIds: Ff(
+      n.webMetadata?.description !== void 0,
+      n.descriptionLocalized,
+      t
+    ),
+  };
+}
+function Of(n, e) {
+  e && e.facts.collectionIdentifierById.set(n.id, n.instanceIdentifier);
+}
+function Uf(n, e, t) {
+  if (!t) return;
+  let o = { parentRouteId: e, webPageId: n.webPageId };
+  t.facts.routeFactsByRouteId.set(n.id, o);
+}
+function _f(n, e) {
+  e &&
+    (e.facts.siteSettingsFact = {
+      hasTitleSource: !!(n.webMetadata?.title || n.titleLocalized),
+      hasDescriptionSource: !!(n.webMetadata?.description || n.descriptionLocalized),
+    });
+}
+function at(n, e) {
+  return n === void 0 || !ut(n, e) ? e : n;
+}
+function $f(n) {
+  return Zi(n, "canvasComponent") ?? void 0;
+}
+function Wf(n, e) {
+  let t = Mc(n, e),
+    o = new Set(t.customCursorSmartComponentIds);
+  for (let r of t.moduleIdentifiers) {
+    let i = $f(r);
+    i && o.add(i);
+  }
+  return o;
+}
+function IS(n, e) {
+  if (n?.type === "richtext" && ve(n.value)) return n.value;
+  if (ve(e.initialValue)) return e.initialValue;
+}
+function CS(n, e, t, o, r) {
+  function i(s, l) {
+    if (l.type !== "richtext") return;
+    let d = IS(s, l);
+    if (d)
+      for (let u of t) {
+        let p = o.get(u.id),
+          c = s?.type === "richtext" ? s.valueLocalized : void 0,
+          g = Pn(p, c)?.value,
+          h = ve(g),
+          S = h ? g : d,
+          v = h ? "collectionControlPropLocalized" : "collectionControlProp";
+        r(u.id, S, v);
+      }
+  }
+  function a(s, l) {
+    if (l.type === "array") {
+      if (s?.type !== "array" || We(s.value)) return;
+      for (let d of s.value)
+        if (or(d) && d.value) for (let u of l.itemVariables) Ie(u) && a(d.value[u.id], u);
+      return;
+    }
+    i(s, l);
+  }
+  for (let s of n.variables) Ie(s) && a(e.getControlProp(s.id), s);
+}
+function bS(n, e, t, o) {
+  let r = new Map(),
+    i = new Map();
+  CS(n, e, t, o.routerLocaleById, (s, l, d) => {
+    let u = yS(i, s),
+      p = Bf(r, d),
+      c = p.get(l),
+      f = o.previousDependencies?.componentIdsByRichTextValueByVariant.get(d)?.get(l),
+      g = c ?? f;
+    g || o.checkpoint?.();
+    let h = g ?? Wf(l, d);
+    p.set(l, h);
+    for (let S of h) u.add(S);
+  });
+  let a = new Map();
+  for (let s of t) a.set(s.id, i.get(s.id) ?? new Set());
+  return {
+    componentIdsByRichTextValueByVariant: at(
+      o.previousDependencies?.componentIdsByRichTextValueByVariant,
+      r
+    ),
+    componentIdsByLocaleId: at(o.previousDependencies?.componentIdsByLocaleId, a),
+  };
+}
+function Gf(n, e, t, o, r) {
+  let i = bS(n, e, t, r),
+    a = r.previousDependencies;
+  if (a) {
+    let s = a.collectionNodeId === n.id,
+      l = ut(a.includedLocaleIds, o),
+      d = a.componentIdsByRichTextValueByVariant === i.componentIdsByRichTextValueByVariant,
+      u = a.componentIdsByLocaleId === i.componentIdsByLocaleId;
+    if (s && l && d && u) return a;
+  }
+  return { includedLocaleIds: o, collectionNodeId: n.id, ...i };
+}
+function AE({ locales: n, facts: e, previousUsage: t }) {
+  let o = at(
+      t?.localeIds,
+      n.map((f) => f.id)
+    ),
+    r = at(t?.dependenciesByScopeId, e.dependenciesByScopeId),
+    i = at(t?.localizedDependenciesByScopeId, e.localizedDependenciesByScopeId),
+    a = at(t?.cmsDependenciesByItemId, e.cmsDependenciesByItemId),
+    s = at(t?.pageFactsByPageId, e.pageFactsByPageId),
+    l = at(t?.collectionIdentifierById, e.collectionIdentifierById),
+    d = at(t?.routeFactsByRouteId, e.routeFactsByRouteId),
+    u = at(t?.siteSettingsFact, e.siteSettingsFact);
+  if (
+    t?.localeIds === o &&
+    t.dependenciesByScopeId === r &&
+    t.localizedDependenciesByScopeId === i &&
+    t.cmsDependenciesByItemId === a &&
+    t.pageFactsByPageId === s &&
+    t.collectionIdentifierById === l &&
+    t.routeFactsByRouteId === d &&
+    t.siteSettingsFact === u
+  )
+    return t;
+  let c = zf({
+    localeIds: o,
+    dependenciesByScopeId: r,
+    localizedDependenciesByScopeId: i,
+    pageFactsByPageId: s,
+    collectionIdentifierById: l,
+    itemFactsByItemId: a,
+    routeFactsByRouteId: d,
+    siteSettingsFact: u,
+    previousResult: t?.visibility,
+  });
+  return {
+    localeIds: o,
+    dependenciesByScopeId: r,
+    localizedDependenciesByScopeId: i,
+    cmsDependenciesByItemId: a,
+    pageFactsByPageId: s,
+    collectionIdentifierById: l,
+    routeFactsByRouteId: d,
+    siteSettingsFact: u,
+    visibility: c,
+    reachableDependencyIdsByLocaleId: c.reachableDependencyIdsByLocaleId,
+  };
+}
+function jf(n) {
+  return n ? (n.abTestingParentId ? !0 : n.collectionIdentifier !== void 0) : !1;
+}
+function TS(n, e, t) {
+  let o = t.visibility;
+  switch (n.groupType) {
+    case "component":
+    case "template":
+      return !o.reachableDependencyIdsByLocaleId.get(e)?.has(n.nodeId);
+    case "collection":
+      return !o.visibleCollectionIdsByLocaleId.get(e)?.has(n.nodeId);
+    case "settings":
+      return o.siteSettingsVisibleByLocaleId.get(e) === !1;
+    case "page": {
+      let r = t.pageFactsByPageId.get(n.nodeId);
+      return jf(r) ? !o.visiblePageIdsByLocaleId.get(e)?.has(n.nodeId) : LS(n.nodeId, e, t);
+    }
+    case "collectionItem":
+      return !1;
+  }
+}
+function LS(n, e, t) {
+  return t && t.routeFactsByRouteId.has(n)
+    ? !t.visibility.visibleRouteIdsByLocaleId.get(e)?.has(n)
+    : !1;
+}
+function OE(n, e, t) {
+  return n.map((o) => {
+    let r = e.localeIds.filter((c) => TS(o, c, e)),
+      i = t?.get(o.nodeId)?.derivedExcludedLocaleIds,
+      a = at(i, r),
+      s = a.length > 0 ? a : void 0,
+      l = e.pageFactsByPageId.get(o.nodeId),
+      d = o.groupType === "page" && jf(l),
+      u = d ? !1 : o.supportsLocaleVisibility,
+      p = d ? void 0 : o.includedLocaleIds;
+    return o.derivedExcludedLocaleIds === s &&
+      o.supportsLocaleVisibility === u &&
+      o.includedLocaleIds === p
+      ? o
+      : { ...o, supportsLocaleVisibility: u, includedLocaleIds: p, derivedExcludedLocaleIds: s };
+  });
+}
+function ui() {
+  return B.isOn("fastLocalization");
+}
+var sk = ["new", "needsReview", "done"],
+  MS = "controlPropKey";
+function lk(n) {
+  return MS in n;
+}
+function dk(n) {
+  return "groups" in n;
+}
+function xS(n) {
+  return n.cmsLocalizationDependencies !== void 0;
+}
+function qf(n, e) {
+  return !(
+    !n.directSmartComponentIds ||
+    !n.localizedSmartComponentIdsByLocaleId ||
+    (V(e) && !n.pageVisibilityFact)
+  );
+}
+function RS(n, e, t) {
+  return t ? (Qe(e) ? xS(n) : No(e) || pt(e) ? qf(n, e) : q(e) || Ne(e) ? !0 : Y(e)) : !0;
+}
+var Eo = Symbol("ignoreWebPageCollection"),
+  NS = "collectionNodeId";
+function ck(n) {
+  return NS in n;
+}
+var wS = { string: !0, richtext: !0, image: !0, enum: !0, link: !0, slug: !0 };
+function DS(n) {
+  return n in wS;
+}
+function Kf(n) {
+  return Ie(n) && DS(n.type);
+}
+var VS = { string: !0, richtext: !0, image: !0, link: !0 };
+function Qf(n) {
+  return n in VS;
+}
+function uk(n) {
+  return n
+    ? n.type === "richtext"
+      ? !0
+      : n.type === "RichTextNode"
+        ? n.textType === "rich-text"
+        : !1
+    : !1;
+}
+function pk(n) {
+  return n?.type === "richtext";
+}
+function fk(n) {
+  return n.type === "richtext" || n.type === "RichTextNode"
+    ? typeof n.richTextValue == "string"
+    : !1;
+}
+function mk(n) {
+  return n ? n.type === "image" || n.type === "FrameNode" : !1;
+}
+function hk(n) {
+  return n ? n.type === "nodeLink" || n.type === "link" : !1;
+}
+function gk(n) {
+  return n ? n.type === "RootNode" || n.type === "WebPageNode" : !1;
+}
+function yk(n) {
+  return n?.type === "slug" || PS(n);
+}
+function PS(n) {
+  return n?.type === "RouteSegmentNode";
+}
+function ES(n) {
+  return Wo(n) || n === "" || un(n);
+}
+function Sk(n, e) {
+  if (!n) return !1;
+  if (
+    n.value.includes(`
+`)
+  )
+    return !0;
+  let t = n.localizedValues[e.id];
+  return er(t)
+    ? !!ki(t, { preserveNewLines: !0 }).includes(`
+`)
+    : !1;
+}
+function Yf(n, e, t) {
+  return e ? (e.hash !== t || e.needsReview ? "needsReview" : "done") : ES(n) ? "done" : "new";
+}
+function ae(n, e, t, o, r, i) {
+  return Object.fromEntries(
+    e.map((a) => {
+      let s = t[a.id];
+      if (r?.[a.id]) return [a.id, "warning"];
+      if (i) {
+        let l = i(a);
+        if (l) return [a.id, l];
+      }
+      return [a.id, Yf(n, s, o)];
+    })
+  );
+}
+function vs(n) {
+  return (e) => (n[e.id] ? null : "done");
+}
+function Is(n, e, t) {
+  return (o) => {
+    if (T(n) && e) {
+      let r = e[o.id];
+      if (r) return Yf(n, r, t);
+    }
+    return null;
+  };
+}
+var Q = {};
+Object.freeze(Q);
+function zS(n, e, t, o, r, i, a) {
+  let s = (l, d, u) => {
+    if (Ye(d) || !T(d) || (d.length === 0 && !u)) return;
+    let p = P(d),
+      c = u ?? Q,
+      f = ae(d, i, c, p);
+    a.push({
+      type: n.name,
+      transformId: n.id,
+      keyPath: Ce(e, l),
+      nodeId: r.id,
+      scopeId: o.id,
+      property: l,
+      value: d,
+      controlPropKey: t,
+      controlPropName: void 0,
+      ancestorControlKeyPath: void 0,
+      valueWordCount: O(d),
+      hash: p,
+      localizedValues: c,
+      localizedValueStatuses: f,
+      managedByPluginButUserEditable: !1,
+    });
+  };
+  (s("truthy", n.truthy, n.truthyLocalized),
+    s("falsy", n.falsy, n.falsyLocalized),
+    n.fallback && s("fallback", n.fallback.value, n.fallback.valueLocalized));
+}
+function kS(n, e, t, o, r, i, a, s) {
+  if (e.outputType !== "string") return;
+  for (let p of e.cases) {
+    if (Ho(n) && n.startValue.id === ir) break;
+    if (Ye(p.to) || !T(p.to) || (p.to.length === 0 && !p.toLocalized)) continue;
+    let c = P(p.to),
+      f = p.toLocalized ?? Q,
+      g = ae(p.to, a, f, c),
+      h = Ce(t, "cases");
+    s.push({
+      type: "convertFromEnum",
+      transformId: e.id,
+      keyPath: Ze(h, p.id),
+      nodeId: i.id,
+      scopeId: r.id,
+      caseId: p.id,
+      isDefaultCase: !1,
+      value: p.to,
+      ancestorControlKeyPath: void 0,
+      controlPropKey: o,
+      controlPropName: void 0,
+      valueWordCount: O(p.to),
+      hash: c,
+      localizedValues: f,
+      localizedValueStatuses: g,
+      managedByPluginButUserEditable: !1,
+    });
+  }
+  if (!e.default || Ye(e.default) || !T(e.default)) return;
+  let l = P(e.default),
+    d = e.defaultLocalized ?? Q,
+    u = ae(e.default, a, d, l);
+  s.push({
+    type: "convertFromEnum",
+    transformId: e.id,
+    keyPath: Ce(t, "default"),
+    nodeId: i.id,
+    scopeId: r.id,
+    caseId: null,
+    isDefaultCase: !0,
+    ancestorControlKeyPath: void 0,
+    value: e.default,
+    controlPropKey: o,
+    controlPropName: void 0,
+    valueWordCount: O(e.default),
+    hash: l,
+    localizedValues: d,
+    localizedValueStatuses: u,
+    managedByPluginButUserEditable: !1,
+  });
+}
+function pi(n, e, t, o, r, i, a) {
+  if (!(!qo(t.outputType) || t.outputType !== "string")) {
+    for (let s of t.transforms)
+      if (jo(s))
+        switch (s.name) {
+          case "convertFromEnum": {
+            kS(t, s, o, r, n, e, i, a);
+            continue;
+          }
+          case "convertFromBoolean": {
+            zS(s, o, r, n, e, i, a);
+            continue;
+          }
+          case "prefix":
+          case "suffix": {
+            if (Ye(s.value) || (s.value.length === 0 && !s.valueLocalized)) continue;
+            let l = P(s.value),
+              d = s.valueLocalized ?? Q,
+              u = ae(s.value, i, d, l);
+            a.push({
+              type: s.name,
+              transformId: s.id,
+              keyPath: Ze(o, s.id),
+              controlPropKey: r,
+              controlPropName: void 0,
+              ancestorControlKeyPath: void 0,
+              nodeId: e.id,
+              scopeId: n.id,
+              value: s.value,
+              valueWordCount: O(s.value),
+              hash: l,
+              localizedValues: d,
+              localizedValueStatuses: u,
+              managedByPluginButUserEditable: !1,
+            });
+            continue;
+          }
+          default:
+        }
+  }
+}
+function FS(n, e, t, o, r, i) {
+  if (Rt(t.textContent)) {
+    if (!ze(n, t, "textContent")) return;
+    pi(e, t, t.textContent, t.id, t.id, o, r);
+    return;
+  }
+  if (We(t.htmlContent) || We(t.textContent)) return;
+  let a = ze(n, t, "html"),
+    s = ze(n, t, "htmlLocalized");
+  if (!a && !s) return;
+  let l = t.html,
+    d = Fn(l),
+    u = br(l),
+    p = i === "canvasHtmlAsTextContentIfPossible" ? u : "rich-text",
+    c = ri(l),
+    f = p === "rich-text" ? sn(c) : d;
+  if (p === "text" && !s && Zs(t)) {
+    let y = n.get(t.originalid);
+    if (y && Fn(y.html) === d) return;
+  }
+  let h = Bn(u === p ? f : d),
+    S = t.htmlLocalized ?? Q,
+    v = ae(f, o, S, h);
+  r.push({
+    type: "RichTextNode",
+    keyPath: wo(t.id),
+    nodeId: t.id,
+    scopeId: e.id,
+    value: f,
+    richTextValue: c,
+    valueWordCount: O(f, !0),
+    textType: p,
+    hash: h,
+    localizedValues: S,
+    localizedValueStatuses: v,
+    managedByPluginButUserEditable: !1,
+    inherited: !s,
+  });
+}
+function Hf(n) {
+  if (Ne(n)) return "RootNode";
+  if (V(n)) return "WebPageNode";
+  Y(n);
+}
+function Jf(n, e, t, o) {
+  let r = {};
+  for (let i of e) {
+    let a = t[i.id];
+    if (!a || !T(a.value) || !a.value) continue;
+    let s = hr({ collectionData: o, componentLoader: n, type: "id", value: a.value });
+    s && (r[i.id] = s);
+  }
+  return r;
+}
+function Xf(n, e, t, o, r, i) {
+  let a = null;
+  if (
+    (V(o) && (a = e.dataForIdentifier(o.dataIdentifier)), o.webMetadata?.title || o.titleLocalized)
+  ) {
+    let s = o.webMetadata?.title ?? n.root.webMetadata?.title ?? "",
+      l = P(s),
+      d = o.titleLocalized ?? Q,
+      u = Jf(e, r, d, a),
+      p = ae(s, r, d, l, u);
+    i.push({
+      type: Hf(o),
+      keyPath: `${o.id}_title`,
+      nodeId: o.id,
+      scopeId: t.id,
+      value: s,
+      valueWordCount: O(s),
+      hash: l,
+      localizedValues: d,
+      localizedValueStatuses: p,
+      managedByPluginButUserEditable: !1,
+      key: "title",
+      dataIdentifier: Di(o) ? o.dataIdentifier : void 0,
+      warnings: u,
+    });
+  }
+  if (o.webMetadata?.description || o.descriptionLocalized) {
+    let s = o.webMetadata?.description ?? n.root.webMetadata?.description ?? "",
+      l = P(s),
+      d = o.descriptionLocalized ?? Q,
+      u = Jf(e, r, d, a),
+      p = ae(s, r, d, l, u);
+    i.push({
+      type: Hf(o),
+      keyPath: `${o.id}_description`,
+      nodeId: o.id,
+      scopeId: t.id,
+      value: s,
+      valueWordCount: O(s),
+      hash: l,
+      localizedValues: d,
+      localizedValueStatuses: p,
+      managedByPluginButUserEditable: !1,
+      key: "description",
+      dataIdentifier: Di(o) ? o.dataIdentifier : void 0,
+      warnings: u,
+    });
+  }
+}
+function BS(n, e, t, o, r) {
+  if (!ul(t) || !T(t.fillImage) || t.fillImage.length === 0) return;
+  let i = ze(n, t, "fillImage"),
+    a = ze(n, t, "fillImageLocalized"),
+    s = ze(n, t, "altAttribute"),
+    l = ze(n, t, "altAttributeLocalized");
+  if (!i && !a && !s && !l) return;
+  let d = t.altAttribute ?? rn,
+    u = P(d),
+    p = t.altAttributeLocalized ?? Q,
+    c = t.fillImage,
+    f = P(c),
+    g = t.fillImageLocalized ?? Q,
+    h = ae(d, o, p, u, void 0, Is(c, g, f));
+  r.push({
+    type: "FrameNode",
+    keyPath: Do(t.id),
+    nodeId: t.id,
+    scopeId: e.id,
+    value: d,
+    valueWordCount: O(d),
+    hash: u,
+    localizedValues: p,
+    localizedValueStatuses: h,
+    managedByPluginButUserEditable: !1,
+    inherited: !l,
+    supportsAlt: !0,
+    image: c,
+    imageHash: f,
+    imageLocalizedValues: g,
+    imageInherited: !a,
+    positionX: xn(t.fillImagePositionX) ? t.fillImagePositionX : void 0,
+    positionY: xn(t.fillImagePositionY) ? t.fillImagePositionY : void 0,
+    supportsFocalPoint: !0,
+  });
+}
+function Zf(n, e, t, o) {
+  if (!B.isOn("localizedLinks")) return;
+  let r = e.getLink();
+  if (!tn(r)) return;
+  let i = r.url,
+    a = P(i),
+    s = e.linkLocalized ?? Q,
+    l = ae(i, t, s, a, void 0, vs(s));
+  o.push({
+    type: "nodeLink",
+    keyPath: `${e.id}_linkLocalized`,
+    nodeId: e.id,
+    scopeId: n.id,
+    value: i,
+    valueWordCount: i ? 1 : 0,
+    hash: a,
+    localizedValues: s,
+    localizedValueStatuses: l,
+    managedByPluginButUserEditable: !1,
+    aiTranslationDisabled: !0,
+  });
+}
+function AS(n, e, t, o, r) {
+  (BS(n, e, t, o, r), Zf(e, t, o, r));
+}
+function fi(n) {
+  return !!(Qf(n) || n === "array" || n === "object");
+}
+function OS(n) {
+  if (V(n) && Qo(n)) return n.layoutTemplateIdentifier;
+  if (fe(n)) return n.codeComponentIdentifier;
+}
+function em(n, e) {
+  let t = Bn(n);
+  if (typeof n != "string" || !n.includes("data-module-identifier")) return t;
+  let o = li(n, e);
+  return o.length === 0 ? t : P(`${t}:${o}`);
+}
+function US(n, e, t, o, r, i, a) {
+  let s = OS(o);
+  if (!s) return;
+  let l = e.componentForIdentifier(s);
+  if ((Jn(s, l !== null, () => Object.values(o.getRawControlProps()).map((p) => p?.type)), !l))
+    return;
+  let d = o.getControlProps(l.properties);
+  function u(p, c, f, g) {
+    let h = c.type;
+    if (h === "array" && $o(c.value)) {
+      if (f.type !== "array") return;
+      let S = f.control;
+      for (let v of c.value) {
+        if (!fi(v.type)) continue;
+        let y = Ze(g, v.id);
+        u(p, v, S, y);
+      }
+    }
+    if (h === "object" && se(c.value)) {
+      if (f.type !== "object") return;
+      for (let S in c.value) {
+        let v = c.value[S];
+        if (!v || !fi(v.type)) continue;
+        let y = Ce(g, S),
+          I = f.controls[S];
+        I && u(p, v, I, y);
+      }
+    }
+    if (Qf(h))
+      switch (h) {
+        case "string": {
+          if (
+            !ze(n, o, Rn(p)) ||
+            (f.type === "string" && (f.preventLocalization || (f.optional && Ke(c.value)))) ||
+            (Rt(c.value) && pi(t, o, c.value, Ce(o.id, p), p, r, i), !T(c.value))
+          )
+            break;
+          let S = c.value,
+            v = P(S),
+            y = c.valueLocalized ?? Q,
+            I = ae(S, r, y, v);
+          i.push({
+            type: "string",
+            keyPath: Ht(o.id, p, g),
+            controlPropKey: p,
+            controlPropName: f.title || Zt(p),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: t.id,
+            value: S,
+            valueWordCount: O(S),
+            hash: v,
+            localizedValues: y,
+            localizedValueStatuses: I,
+            managedByPluginButUserEditable: !1,
+          });
+          break;
+        }
+        case "link": {
+          if (
+            !B.isOn("localizedLinks") ||
+            !ze(n, o, Rn(p)) ||
+            (Rt(c.value) && pi(t, o, c.value, Ce(o.id, p), p, r, i), !tn(c.value))
+          )
+            break;
+          let S = c.value.url,
+            v = P(S),
+            y = c.valueLocalized ?? Q,
+            I = ae(S, r, y, v, void 0, vs(y));
+          i.push({
+            type: "link",
+            keyPath: Ht(o.id, p, g),
+            controlPropKey: p,
+            controlPropName: f.title || Zt(p),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: t.id,
+            value: S,
+            valueWordCount: S ? 1 : 0,
+            hash: v,
+            localizedValues: y,
+            localizedValueStatuses: I,
+            managedByPluginButUserEditable: !1,
+            aiTranslationDisabled: !0,
+          });
+          break;
+        }
+        case "richtext": {
+          if (
+            h !== "richtext" ||
+            !ve(c.value) ||
+            (f.type === "richtext" && f.preventLocalization) ||
+            !ze(n, o, Rn(p))
+          )
+            break;
+          let S = c.value,
+            v = sn(S),
+            y = em(S, e),
+            I = c.valueLocalized ?? Q,
+            x = ae(v, r, I, y);
+          i.push({
+            type: "richtext",
+            keyPath: Ht(o.id, p, g),
+            controlPropKey: p,
+            controlPropName: f.title || Zt(p),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: t.id,
+            richTextValue: S,
+            value: v,
+            valueWordCount: O(v, !0),
+            hash: y,
+            localizedValues: I,
+            localizedValueStatuses: x,
+            managedByPluginButUserEditable: !1,
+            contentType: void 0,
+            isCollectionControlProp: !1,
+          });
+          break;
+        }
+        case "image": {
+          if (
+            !c ||
+            c.type !== "image" ||
+            !T(c.value) ||
+            (f.type !== "responsiveimage" && f.type !== "image") ||
+            !ze(n, o, Rn(p))
+          )
+            break;
+          let S = f.type === "responsiveimage",
+            v = c.alt ?? rn,
+            y = P(v),
+            I = S ? (c.altLocalized ?? Q) : Q,
+            x = c.value,
+            M = P(x),
+            R = c.valueLocalized ?? Q,
+            N = ae(v, r, I, y, void 0, Is(x, R, M)),
+            w = f.type === "responsiveimage";
+          i.push({
+            type: "image",
+            keyPath: Ht(o.id, p, g),
+            controlPropKey: p,
+            controlPropName: f.title || Zt(p),
+            ancestorControlKeyPath: g,
+            nodeId: o.id,
+            scopeId: t.id,
+            value: v,
+            valueWordCount: O(v),
+            hash: y,
+            localizedValues: I,
+            localizedValueStatuses: N,
+            managedByPluginButUserEditable: !1,
+            supportsAlt: S,
+            image: x,
+            imageHash: M,
+            imageLocalizedValues: R,
+            supportsFocalPoint: w,
+            positionX: w ? c.positionX : void 0,
+            positionY: w ? c.positionY : void 0,
+          });
+          break;
+        }
+        default:
+      }
+  }
+  for (let p in d) {
+    let c = d[p];
+    if (!c) continue;
+    a && ze(n, o, Rn(p)) && a.addControlProp(c);
+    let f = l.properties[p];
+    f && u(p, c, f);
+  }
+}
+function _S(n, e, t, o) {
+  switch (e.bindingType) {
+    case "form": {
+      let r = e.formSelectOptions;
+      if (!r || r.length === 0) return;
+      for (let i of r) {
+        let a = i.title;
+        if (!a) continue;
+        let s = i.titleLocalized ?? Q,
+          l = P(a),
+          d = ae(a, t, s, l);
+        o.push({
+          type: "FormSelectNode",
+          keyPath: `${e.id}_${i.id}`,
+          nodeId: e.id,
+          optionId: i.id,
+          scopeId: n.id,
+          value: a,
+          valueWordCount: O(a),
+          hash: l,
+          localizedValues: s,
+          localizedValueStatuses: d,
+          managedByPluginButUserEditable: !1,
+        });
+      }
+      break;
+    }
+    case "variable": {
+      if (!e.variableBinding || !gt(n) || !zn(n)) return;
+      let r = n.getVariable(e.variableBinding.id);
+      if (!r) return;
+      (je(r, An(n)) &&
+        o.push(gs(e, n, t, "allItemsLabel", e.allItemsLabelWithDefault, e.allItemsLabelLocalized)),
+        r.type === "boolean" &&
+          (o.push(
+            gs(
+              e,
+              n,
+              t,
+              "booleanTrueLabel",
+              e.booleanTrueLabelWithDefault,
+              e.booleanTrueLabelLocalized
+            )
+          ),
+          o.push(
+            gs(
+              e,
+              n,
+              t,
+              "booleanFalseLabel",
+              e.booleanFalseLabelWithDefault,
+              e.booleanFalseLabelLocalized
+            )
+          )));
+      break;
+    }
+    default:
+      Y(e.bindingType);
+  }
+}
+function gs(n, e, t, o, r, i) {
+  let a = i ?? Q,
+    s = P(r),
+    l = ae(r, t, a, s);
+  return {
+    type: "formSelectGenericOption",
+    keyPath: `${n.id}_${o}`,
+    nodeId: n.id,
+    key: o,
+    scopeId: e.id,
+    value: r,
+    valueWordCount: O(r),
+    hash: s,
+    localizedValues: a,
+    localizedValueStatuses: l,
+    managedByPluginButUserEditable: !1,
+  };
+}
+function $S(n, e, t, o, r) {
+  let i = `${t.id}_placeholder`;
+  if (We(t.formInputPlaceholder)) {
+    if (Ye(t.formInputPlaceholder) || !ze(n, t, "formInputPlaceholder")) return;
+    pi(e, t, t.formInputPlaceholder, i, t.id, o, r);
+    return;
+  }
+  if (!t.formInputPlaceholder || !ze(n, t, "formInputPlaceholder")) return;
+  let a = P(t.formInputPlaceholder),
+    s = t.formInputPlaceholderLocalized ?? Q;
+  r.push({
+    keyPath: i,
+    type: "FormPlainTextInputNode",
+    nodeId: t.id,
+    scopeId: e.id,
+    value: t.formInputPlaceholder,
+    valueWordCount: O(t.formInputPlaceholder),
+    hash: P(t.formInputPlaceholder),
+    localizedValues: s,
+    localizedValueStatuses: ae(t.formInputPlaceholder, o, s, a),
+    managedByPluginButUserEditable: !1,
+  });
+}
+function tm(n, e, t, o, r, i, a, s, l) {
+  (s?.(),
+    fe(o) && l?.addIdentifier(o.codeComponentIdentifier),
+    Vl(o) &&
+      o.customCursorType === "component" &&
+      l?.addSmartComponentId(o.customCursorSmartComponentId),
+    V(o) && Xf(n, e, t, o, r, i),
+    ks(o) && FS(n, t, o, r, i, a),
+    (fe(o) || V(o)) && US(n, e, t, o, r, i, l),
+    Ln(o) && AS(n, t, o, r, i),
+    (Fs(o) || Bs(o)) && Zf(t, o, r, i),
+    As(o) && $S(n, t, o, r, i),
+    Os(o) && _S(t, o, r, i));
+}
+function nm(n, e) {
+  return e
+    ? `r:${n.cache.localizationSourceRevision}-${e.cache.localizationSourceRevision}`
+    : `r:${n.cache.localizationSourceRevision}`;
+}
+function om(n, e) {
+  return e
+    ? `t:${n.cache.localizationTranslationRevision}-${e.cache.localizationTranslationRevision}`
+    : `t:${n.cache.localizationTranslationRevision}`;
+}
+function rm(n, e) {
+  return e ? `u:${n.update}-${e.update}` : `u:${n.update}`;
+}
+function im(n) {
+  return n !== "canvasHtmlAsHtml";
+}
+function am(n) {
+  return ui() && !Ne(n);
+}
+function sm(n) {
+  return B.isOn("localizationProgressSummaries") && n.isDataTree();
+}
+function mi(n) {
+  return !B.isOn("localizationProgressSummaries") && n.isDataTree();
+}
+function lm(n, e) {
+  let t = n.get("originalid");
+  if (!t || (e.add(t), Es(n.id, t))) return;
+  let o = n.get("replicaInfo")?.inheritsFrom;
+  o && e.add(o);
+}
+function dm(n, e) {
+  en(n) && (e.add(n.originalid), Xs(n) && e.add(n.replicaInfo.inheritsFrom));
+}
+function WS(n, e, t) {
+  if (!t) return [];
+  let o = new Set();
+  for (let r of t) {
+    let i = n.getCanvasScopeNodeFor(n.get(r));
+    i && i.id !== e.id && o.add(i.id);
+  }
+  return Array.from(o);
+}
+function cm(n, e) {
+  let t = [];
+  for (let o of e) {
+    let r = n.get(o);
+    if (!r) return;
+    t.push(`${r.cache.localizationSourceRevision}:${r.cache.localizationTranslationRevision}`);
+  }
+  return t.join(",");
+}
+function hi(n, e) {
+  return Array.from(e, (t) => [t, n.getDefinitionHash(t)]);
+}
+var GS = [];
+function Ft(n, e) {
+  if (n) for (let [t, o] of e) n.set(t, o);
+}
+var st = K("localization:cache");
+function jS(n, e, t, o, r, i, a, s, l, d) {
+  if (!im(d) || e.mutable || t?.mutable) return;
+  let u = e.cache.localizationSourceGroup;
+  if (!u) return;
+  let p = am(e),
+    c,
+    f;
+  if (
+    (p
+      ? ((c = u.sourceRevision !== nm(e, t) || u.translationRevision !== om(e, t)),
+        (f = u.parentSourceOwnRevision !== a))
+      : ((c = u.sourceRevision !== rm(e, t)), (f = u.parentVariables !== i)),
+    c)
+  ) {
+    st.trace("Stale cache for", e.id, "->", "revision changed");
+    return;
+  }
+  if (f) {
+    st.trace("Stale cache for", e.id, "->", "parent revision / variables changed");
+    return;
+  }
+  if (u.locales !== o) {
+    st.trace("Stale cache for", e.id, "->", "Locales changed");
+    return;
+  }
+  if (!_t(u.subGroups, s)) {
+    st.trace("Stale cache for", e.id, "->", "Subgroups changed");
+    return;
+  }
+  if (!_t(u.settings, l)) {
+    st.trace("Stale cache for", e.id, "->", "Settings changed");
+    return;
+  }
+  for (let [g, h] of u.loaderDependencies)
+    if (r.getDefinitionHash(g) !== h) {
+      st.trace("Stale cache for", e.id, "->", "Component dependency", g, "changed");
+      return;
+    }
+  if (so(n, e)) {
+    if (u.includedLocaleIds !== e.includedLocales) {
+      st.trace("Stale cache for", e.id, "->", "Included locale ids changed");
+      return;
+    }
+    if (u.localeConfig !== e.localeConfig) {
+      st.trace("Stale cache for", e.id, "->", "Locale config changed");
+      return;
+    }
+  }
+  if (sm(n)) {
+    let g = os(n, e.id);
+    if (g === void 0 || u.resolvedSubtreeGeneration !== g) {
+      st.trace("Stale cache for", e.id, "->", "Resolved subtree generation changed or unavailable");
+      return;
+    }
+    if (t) {
+      let h = n.getResolvedSubtreeGeneration(t.id);
+      if (h === void 0 || u.additionalDependencyResolvedSubtreeGeneration !== h) {
+        st.trace(
+          "Stale cache for",
+          e.id,
+          "->",
+          "Additional dependency resolved subtree generation changed or unavailable"
+        );
+        return;
+      }
+    }
+  }
+  if (mi(n) && (u.masterScopeIds === void 0 || u.masterScopeRevision !== cm(n, u.masterScopeIds))) {
+    st.trace("Stale cache for", e.id, "->", "Master scope revision changed or unavailable");
+    return;
+  }
+  return u;
+}
+function zo(n, e, t, o, r, i, a, s, l, d, u, p) {
+  let c = jS(n, e, t, o, r, i, a, s, l, d);
+  if (c) {
+    let g = RS(c, e, u),
+      h = p === Eo || c.includesWebPage === p;
+    if (g && h) return (Lf(c.unresolvedLocalizableCount), c);
+  }
+  let f = u?.collection;
+  f && (f.allScopesCached = !1);
+}
+function ko(n, e, t) {
+  let {
+    additionalDependencyNode: o,
+    group: r,
+    locales: i,
+    loaderDependencies: a,
+    unresolvedLocalizableCount: s,
+    parentVariables: l,
+    parentSourceOwnRevision: d,
+    subGroups: u,
+    settings: p,
+    richTextBehavior: c,
+    includesWebPage: f,
+    directSmartComponentIds: g,
+    localizedSmartComponentIdsByLocaleId: h,
+    cmsLocalizationDependencies: S,
+    pageVisibilityFact: v,
+    replicaMasterNodeIds: y,
+  } = t;
+  if (!im(c) || e.mutable || o?.mutable) return;
+  let I, x;
+  if (mi(n) && ((I = WS(n, e, y)), (x = cm(n, I)), x === void 0)) return;
+  let M, R;
+  if (
+    sm(n) &&
+    ((M = os(n, e.id)),
+    M === void 0 || (o && ((R = n.getResolvedSubtreeGeneration(o.id)), R === void 0)))
+  )
+    return;
+  let N = so(n, e),
+    w,
+    F;
+  (am(e) ? ((w = nm(e, o)), (F = om(e, o))) : ((w = rm(e, o)), (F = w)),
+    (e.cache.localizationSourceGroup = {
+      sourceRevision: w,
+      translationRevision: F,
+      resolvedSubtreeGeneration: M,
+      additionalDependencyResolvedSubtreeGeneration: R,
+      masterScopeIds: I,
+      masterScopeRevision: x,
+      locales: i,
+      loaderDependencies: a,
+      unresolvedLocalizableCount: s,
+      parentVariables: l,
+      parentSourceOwnRevision: d,
+      group: r,
+      includedLocaleIds: N ? e.includedLocales : void 0,
+      localeConfig: N ? e.localeConfig : void 0,
+      subGroups: u,
+      settings: p,
+      includesWebPage: f,
+      directSmartComponentIds: g,
+      localizedSmartComponentIdsByLocaleId: h,
+      cmsLocalizationDependencies: S,
+      pageVisibilityFact: v,
+    }));
+}
+function qS(n) {
+  let e = n.get(Yl);
+  return Mi(e) && e.parentid === n.root.id;
+}
+function HS(n) {
+  return V(n) ? "page" : X(n) ? "template" : "component";
+}
+function JS(n, e, t, o) {
+  let r = t.resolveValue("name") ?? "Unknown",
+    i = V(t) ? uo(n, e, t) : r;
+  if (!o) return i;
+  let a = t.resolveValue("name") || ot(e, t);
+  return `${i} \xB7 ${a}`;
+}
+function um(n, e, t, o, r, i, a, s) {
+  var D = [];
+  try {
+    let { checkpoint: l, loaderDependenciesByIdentifier: d, dependencies: u } = s ?? {};
+    l?.();
+    let p = V(t) && t.abTestingParentId !== void 0;
+    let c = p ? (n.getNodeWithTrait(t.abTestingParentId, V) ?? void 0) : void 0;
+    let f = c ?? t;
+    if (av(n, t) && !p) return;
+    let g = zo(n, t, c, o, e, Le, Le, void 0, void 0, i, u, Eo);
+    if (g) {
+      (Ft(d, g.loaderDependencies),
+        Po(
+          n,
+          t,
+          g.directSmartComponentIds,
+          g.localizedSmartComponentIdsByLocaleId,
+          u,
+          f,
+          g.pageVisibilityFact
+        ),
+        g.group && r.push(g.group));
+      return;
+    }
+    let h = [];
+    let S;
+    let v = fs(u, l);
+    let y = mi(n);
+    let I = new Set();
+    let x = new Set();
+    let M = Zn(D, Vo());
+    e.trackEntityReads(x, () => {
+      if (a) for (let pe of t.fastWalk()) (y && lm(pe, I), ds(n, e, t, pe, o, h, i, l, v));
+      else for (let pe of t.walk()) (y && dm(pe, I), tm(n, e, t, pe, o, h, i, l, v));
+      let Z = h.length === 0,
+        he = B.isOn("localizationUiUpdate") && V(t) && qS(n);
+      if (Z && !he) return;
+      let ne = !p && so(n, t);
+      if (Z && !(he && ne)) return;
+      let Ve = JS(n, e, t, p),
+        j = HS(t);
+      ((S = {
+        type: "sourceGroup",
+        name: Ve,
+        groupType: j,
+        nodeId: t.id,
+        supportsLocaleVisibility: ne,
+        supportsLocaleExclusion: B.isOn("localizationModelUpdate") && ta(n, t),
+        includedLocaleIds: kn(n, f),
+        fallbackLocaleIds: fr(n, f),
+        items: h,
+      }),
+        r.push(S));
+    });
+    let R = hi(e, x);
+    let N = ms(v);
+    let w = hs(v);
+    Ft(d, R);
+    let F = Po(n, t, N, w, u, f);
+    ko(n, t, {
+      additionalDependencyNode: c,
+      group: S,
+      locales: o,
+      loaderDependencies: R,
+      unresolvedLocalizableCount: M.lookups.unresolvedLocalizableCount,
+      parentVariables: Le,
+      parentSourceOwnRevision: Le,
+      richTextBehavior: i,
+      directSmartComponentIds: N,
+      localizedSmartComponentIdsByLocaleId: w,
+      pageVisibilityFact: F,
+      replicaMasterNodeIds: I,
+    });
+  } catch (k) {
+    var z = k,
+      W = !0;
+  } finally {
+    eo(D, z, W);
+  }
+}
+function vn(n, e, t) {
+  return t ? `${n}.${e}.${t}` : `${n}.${e}`;
+}
+function vk(n, e = n.collectionItemId) {
+  if (n.type === "collectionField") return vn(e, n.variableId);
+  if (n.type === "arrayItemField") {
+    let t = Ze(void 0, n.arrayItemId),
+      o = Ce(t, n.variableId);
+    return vn(e, n.arrayVariableId, o);
+  }
+  return Y(n);
+}
+function KS(n) {
+  return ki(n).length;
+}
+function ys(n, e, t) {
+  let o = t.required,
+    r = t.type === "link" ? void 0 : t.options?.maxLength;
+  if (!o && !_(r)) return;
+  let i = {};
+  for (let a of n) {
+    let s = e[a.id];
+    if (!er(s)) continue;
+    let l = KS(s);
+    o && l === 0
+      ? (i[a.id] = { message: Tu(t.name), label: "Required" })
+      : _(r) && l > r && (i[a.id] = { message: Lu(l, r), label: "Too long" });
+  }
+  return i;
+}
+function pm(n, e, t, o) {
+  let r = {};
+  for (let i of n) {
+    let a = e[i.id];
+    if (!er(a) || !T(a.value)) continue;
+    let l = t[i.id]?.get(a.value);
+    l && l > 1 && (r[i.id] = { message: o, label: "Duplicate" });
+  }
+  return r;
+}
+function QS(n, e, t, o, r, i, a, s, l, d) {
+  let u = a.type;
+  switch (u) {
+    case "string": {
+      if (En(a)) return;
+      let p;
+      if (l) {
+        if (l.type !== u || !T(l.value)) return;
+        p = l.value;
+      } else {
+        if (Sd(a)) return;
+        p = a.initialValue;
+      }
+      let c = P(p),
+        f = l?.valueLocalized ?? Q,
+        g = ys(r, f, a),
+        h = ae(p, r, f, c, g);
+      return {
+        type: "string",
+        keyPath: vn(o.id, s, i),
+        nodeId: o.id,
+        scopeId: t,
+        controlPropKey: s,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        value: p,
+        valueWordCount: O(p),
+        hash: c,
+        localizedValues: f,
+        localizedValueStatuses: h,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: g,
+      };
+    }
+    case "link": {
+      if (!l || l.type !== u || !tn(l.value) || !B.isOn("localizedLinks")) return;
+      let p = l.value.url,
+        c = P(p),
+        f = l?.valueLocalized ?? Q,
+        g = ys(r, f, a),
+        h = ae(p, r, f, c, g);
+      return {
+        type: "link",
+        keyPath: vn(o.id, s, i),
+        nodeId: o.id,
+        scopeId: t,
+        controlPropKey: s,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        value: p,
+        valueWordCount: p ? 1 : 0,
+        hash: c,
+        localizedValues: f,
+        localizedValueStatuses: h,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: g,
+        aiTranslationDisabled: !0,
+      };
+    }
+    case "slug": {
+      if (n.root.translatePagePaths === "no" || !l) return;
+      (C(l.type === "string", "expected slug controlType to be a string"),
+        C(T(l.value), "expected slug value to be a string"));
+      let p = l.value,
+        c = P(p),
+        f = l?.valueLocalized ?? Q,
+        g = pm(r, f, d, "Each item in the collection must have a unique slug"),
+        h = ae(p, r, f, c, g, n.root.translatePagePaths === "legacy" ? vs(f) : void 0);
+      return {
+        type: "slug",
+        keyPath: vn(o.id, s, i),
+        controlPropKey: s,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        nodeId: o.id,
+        scopeId: t,
+        value: p,
+        valueWordCount: O(p),
+        hash: c,
+        localizedValues: f,
+        localizedValueStatuses: h,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: g,
+        aiTranslationDisabled: !n.root.translatePagePathsWithAI,
+        collectionItemIsDraft: o.isDraft ?? !1,
+      };
+    }
+    case "richtext": {
+      let p;
+      if (En(a)) return;
+      if (l) {
+        if (l.type !== u || !ve(l.value)) return;
+        p = l.value;
+      } else p = a.initialValue;
+      let c = sn(p),
+        f = em(p, e),
+        g = l?.valueLocalized ?? Q,
+        h = ys(r, g, a),
+        S = ae(c, r, g, f, h);
+      return {
+        type: "richtext",
+        keyPath: vn(o.id, s, i),
+        nodeId: o.id,
+        scopeId: t,
+        controlPropKey: s,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        richTextValue: p,
+        value: c,
+        valueWordCount: O(c, !0),
+        hash: f,
+        localizedValues: g,
+        localizedValueStatuses: S,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        warnings: h,
+        contentType: a.type === "richtext" ? a.contentType : void 0,
+        isCollectionControlProp: !0,
+      };
+    }
+    case "image": {
+      let p;
+      if (l) {
+        if (l.type !== u || !T(l.value)) return;
+        p = l.value;
+      } else {
+        if (!T(a.initialValue)) return;
+        p = a.initialValue;
+      }
+      let c = P(p),
+        f = l?.valueLocalized ?? Q,
+        g = l?.alt ?? rn,
+        h = P(g),
+        S = l?.altLocalized ?? Q,
+        v = ae(g, r, S, h, void 0, Is(p, f, c));
+      return {
+        type: "image",
+        keyPath: vn(o.id, s, i),
+        nodeId: o.id,
+        scopeId: t,
+        controlPropKey: s,
+        controlPropName: a.name,
+        ancestorControlKeyPath: i,
+        value: g,
+        valueWordCount: O(g),
+        hash: h,
+        localizedValues: S,
+        localizedValueStatuses: v,
+        supportsAlt: !0,
+        image: p,
+        imageHash: c,
+        imageLocalizedValues: f,
+        managedByPluginButUserEditable: a.userEditable ?? !1,
+        supportsFocalPoint: !0,
+        positionX: l?.positionX,
+        positionY: l?.positionY,
+      };
+    }
+    case "enum":
+      return;
+    default:
+  }
+}
+function YS(n, e, t, o, r, i, a) {
+  let s = o.id;
+  function l(d, u, p, c) {
+    if (u && u.type === "array") {
+      if (p.type !== "array" || We(u.value)) return;
+      for (let g of u.value) {
+        if (!fi(g.type) || !or(g) || !g.value) continue;
+        let h = Ze(c, g.id);
+        for (let S of p.itemVariables) {
+          if (!Ie(S)) continue;
+          let v = g.value[S.id];
+          if (!v || !fi(v.type)) continue;
+          let y = Ce(h, S.id);
+          l(d, v, S, y);
+        }
+      }
+    }
+    if (!Kf(p)) return;
+    let f = QS(n, e, s, o, r, c, p, d, u, a);
+    f && i.push(f);
+  }
+  for (let d of t.variables) {
+    if (!Ie(d)) continue;
+    let u = o.getControlProp(d.id);
+    l(d.id, u, d);
+  }
+}
+var fm = tr((n, e) => ({ translatePagePaths: n, translatePagePathsWithAI: e }));
+function mm(n, e, t, o, r, i, a, s) {
+  var R = [];
+  try {
+    let { checkpoint: l, loaderDependenciesByIdentifier: d, dependencies: u } = s ?? {};
+    l?.();
+    let p = fm(n.root.translatePagePaths, n.root.translatePagePathsWithAI);
+    let c = o.cache.localizationSourceGroup?.cmsLocalizationDependencies;
+    let f = zo(
+      n,
+      o,
+      void 0,
+      r,
+      e,
+      t.variables,
+      t.cache.localizationSourceOwnRevision,
+      void 0,
+      p,
+      void 0,
+      u,
+      Eo
+    );
+    if (f) {
+      Ft(d, f.loaderDependencies);
+      let D = u?.collection;
+      (D &&
+        f.cmsLocalizationDependencies &&
+        D.facts.cmsDependenciesByItemId.set(o.id, f.cmsLocalizationDependencies),
+        f.group && a.push(f.group));
+      return;
+    }
+    let g = [];
+    let h = kn(n, o);
+    let S = fr(n, o);
+    let v = new Set();
+    let y = Zn(R, Vo());
+    e.trackEntityReads(v, () => {
+      YS(n, e, t, o, r, g, i);
+    });
+    let I;
+    if (g.length > 0) {
+      for (let D of g) D.insetLevel = 1;
+      ((I = {
+        type: "sourceGroup",
+        groupType: "collectionItem",
+        collectionName: t.resolveValue("name") ?? "Unknown",
+        collectionNodeId: t.id,
+        supportsLocaleVisibility: !0,
+        supportsLocaleExclusion: !0,
+        includedLocaleIds: h,
+        fallbackLocaleIds: S,
+        name: vr(t, o) ?? "Unknown",
+        nodeId: o.id,
+        items: g,
+      }),
+        a.push(I));
+    }
+    let x = hi(e, v);
+    let M;
+    if (u) {
+      let D = { routerLocaleById: u.routerLocaleById, checkpoint: l, previousDependencies: c };
+      M = Gf(t, o, r, h, D);
+    }
+    M && u?.collection && u.collection.facts.cmsDependenciesByItemId.set(o.id, M);
+    Ft(d, x);
+    ko(n, o, {
+      group: I,
+      locales: r,
+      loaderDependencies: x,
+      unresolvedLocalizableCount: y.lookups.unresolvedLocalizableCount,
+      parentVariables: t.variables,
+      parentSourceOwnRevision: t.cache.localizationSourceOwnRevision,
+      settings: p,
+      cmsLocalizationDependencies: M,
+    });
+  } catch (N) {
+    var w = N,
+      F = !0;
+  } finally {
+    eo(R, w, F);
+  }
+}
+function XS(n, e, t, o) {
+  let r = t.name,
+    i = P(r),
+    a = t.nameLocalized ?? Q,
+    s = ae(r, o, a, i);
+  return {
+    type: "enum",
+    keyPath: `${n.id}_${e.id}_${t.id}`,
+    nodeId: n.id,
+    scopeId: n.id,
+    variableId: e.id,
+    enumCaseId: t.id,
+    value: r,
+    valueWordCount: O(r),
+    hash: i,
+    localizedValues: a,
+    localizedValueStatuses: s,
+    managedByPluginButUserEditable: !1,
+  };
+}
+function hm(n, e, t, o, r, i) {
+  let { checkpoint: a, loaderDependenciesByIdentifier: s, dependencies: l } = i ?? {};
+  (a?.(), Of(t, l?.collection));
+  let d = [],
+    u = gm(o, t);
+  for (let h of t.getUnsortedChildren()) mm(n, e, t, h, o, u, d, i);
+  let p = zo(n, t, void 0, o, e, Le, Le, d, void 0, void 0, l, Eo);
+  if (p) {
+    (Ft(s, p.loaderDependencies), p.group && r.push(p.group));
+    return;
+  }
+  let c = t.variables.filter(Kf),
+    f = [];
+  for (let h of c) {
+    let S = h.type;
+    switch (S) {
+      case "enum": {
+        if (En(h)) break;
+        for (let v of h.cases) f.push(XS(t, h, v, o));
+        break;
+      }
+      case "string":
+      case "richtext":
+      case "image":
+      case "link":
+      case "slug":
+        break;
+      default:
+    }
+  }
+  let g =
+    f.length > 0 || d.length > 0
+      ? {
+          type: "sourceGroup",
+          groupType: "collection",
+          name: t.resolveValue("name") ?? "Unknown",
+          nodeId: t.id,
+          supportsLocaleVisibility: !1,
+          supportsLocaleExclusion: !1,
+          includedLocaleIds: void 0,
+          fallbackLocaleIds: void 0,
+          items: f,
+          groups: d,
+        }
+      : void 0;
+  (ko(n, t, {
+    group: g,
+    locales: o,
+    loaderDependencies: GS,
+    unresolvedLocalizableCount: 0,
+    parentVariables: Le,
+    parentSourceOwnRevision: Le,
+    subGroups: d,
+  }),
+    g && r.push(g));
+}
+function gm(n, e) {
+  let t = {};
+  for (let r of n) t[r.id] = new Map();
+  let o = e.getSlugVariable();
+  if (!o) return t;
+  for (let r of e.getUnsortedChildren()) {
+    let i = r.getControlProp(o.id);
+    if (
+      i &&
+      (C(i.type === "string", "expect slug control type to be be of type string"),
+      C(T(i.value), "expected slug control prop value to be string"),
+      !!i.valueLocalized)
+    )
+      for (let a in i.valueLocalized) {
+        let s = i.valueLocalized[a],
+          l = t[a];
+        if (!l || !T(s?.value) || !s.value) continue;
+        let d = (l.get(s.value) ?? 0) + 1;
+        l.set(s.value, d);
+      }
+  }
+  return t;
+}
+function ZS(n, e, t) {
+  let o = n.getParent(t.id)?.children ?? [],
+    r = {};
+  for (let i of e) i.id !== Nt && (r[i.id] = new Map());
+  for (let i of o) {
+    if (!pt(i)) continue;
+    let { segment: a, segmentLocalized: s } = i;
+    for (let l of e) {
+      if (l.id === Nt) continue;
+      let d = Pn(l, s)?.value,
+        p = (T(d) ? d : void 0) || a,
+        c = r[l.id];
+      if (!c) continue;
+      let f = (c.get(p) ?? 0) + 1;
+      c.set(p, f);
+    }
+  }
+  return r;
+}
+function ym(n, e, t, o, r, i) {
+  var f = [];
+  try {
+    let a = i?.collection;
+    _f(n.root, a);
+    let s = zo(n, n.root, void 0, t, e, Le, Le, void 0, void 0, void 0, i, Eo);
+    if (s) {
+      (Ft(r, s.loaderDependencies), s.group && o.push(s.group));
+      return;
+    }
+    let l = [];
+    let d = new Set();
+    let u = Zn(f, Vo());
+    e.trackEntityReads(d, () => {
+      Xf(n, e, n.root, n.root, t, l);
+    });
+    let p =
+      l.length > 0
+        ? {
+            type: "sourceGroup",
+            groupType: "settings",
+            name: "Site settings",
+            nodeId: n.root.id,
+            supportsLocaleVisibility: !1,
+            supportsLocaleExclusion: !1,
+            includedLocaleIds: void 0,
+            fallbackLocaleIds: void 0,
+            items: l,
+          }
+        : void 0;
+    let c = hi(e, d);
+    Ft(r, c);
+    ko(n, n.root, {
+      group: p,
+      locales: t,
+      loaderDependencies: c,
+      unresolvedLocalizableCount: u.lookups.unresolvedLocalizableCount,
+      parentVariables: Le,
+      parentSourceOwnRevision: Le,
+    });
+    p && o.push(p);
+  } catch (g) {
+    var h = g,
+      S = !0;
+  } finally {
+    eo(f, h, S);
+  }
+}
+function ev(n, e, t, o, r, i, a) {
+  for (let s of t.children) hm(n, e, s, o, r, { checkpoint: i, dependencies: a });
+}
+function tv(n, e, t, o, r, i) {
+  if (!ed(t)) return;
+  let a = ln(t.segment),
+    s = P(t.segment),
+    l = t.segmentLocalized ?? Q,
+    d = pm(o, l, ZS(n, r, t), "Sibling pages must have unique slugs");
+  i.push({
+    keyPath: t.id,
+    type: "RouteSegmentNode",
+    nodeId: t.id,
+    scopeId: e.id,
+    value: a,
+    valueWordCount: O(a),
+    hash: P(t.segment),
+    localizedValues: l,
+    localizedValueStatuses: ae(t.segment, o, l, s, d, void 0),
+    managedByPluginButUserEditable: !1,
+    warnings: d,
+    aiTranslationDisabled: !n.root.translatePagePathsWithAI,
+  });
+}
+function nv(n, e, t, o, r, i, a, s) {
+  let d = s?.dependencies?.routerLocales ?? nt(n, "includeDrafts"),
+    u = new Set();
+  for (let p of t.walk()) pt(p) && Ss(n, e, p, o, d, r, i, u, a, s);
+}
+function ov(n, e, t, o, r) {
+  let i = jd(cs(t, n)),
+    a = V(o) ? uo(n, e, o) : i,
+    s = rv(e, r, a);
+  return t.segment === "" ? `${s} /` : s;
+}
+function rv(n, e, t) {
+  if (!V(e) || !e.abTestingParentId) return t;
+  let o = e.resolveValue("name") || ot(n, e);
+  return `${t} \xB7 ${o}`;
+}
+function Ss(n, e, t, o, r, i, a, s, l, d) {
+  var H = [];
+  try {
+    let { checkpoint: u, loaderDependenciesByIdentifier: p, dependencies: c } = d ?? {};
+    u?.();
+    let f = n.getParent(t.id);
+    let g = pt(f) ? f.id : void 0;
+    Uf(t, g, c?.collection);
+    let h = t.webPageId ? (n.get(t.webPageId) ?? void 0) : void 0;
+    let S = V(h) && h.isLoaded() ? h : void 0;
+    let v = fm(n.root.translatePagePaths, n.root.translatePagePathsWithAI);
+    let y = h && s.has(h.id);
+    let I = S || t;
+    let x = I === S ? t : void 0;
+    let M = !!(h && !y);
+    let R = zo(n, I, x, o, e, Le, Le, void 0, v, a, c, M);
+    if (R) {
+      (Ft(p, R.loaderDependencies),
+        M &&
+          V(I) &&
+          Po(
+            n,
+            I,
+            R.directSmartComponentIds,
+            R.localizedSmartComponentIdsByLocaleId,
+            c,
+            I,
+            R.pageVisibilityFact
+          ),
+        R.group && i.push(R.group),
+        M && h && s.add(h.id));
+      return;
+    }
+    let N = [];
+    let w = fs(c, u);
+    let F = mi(n);
+    let D = new Set();
+    let k = new Set();
+    let z = Zn(H, Vo());
+    let W = e.trackEntityReads(k, () => {
+      if ((n.root.translatePagePaths === "yes" && tv(n, I, t, o, r, N), h && !y)) {
+        if (l) for (let lt of h.fastWalk()) (F && lm(lt, D), ds(n, e, I, lt, o, N, a, u, w));
+        else for (let lt of h.walk()) (F && dm(lt, D), tm(n, e, I, lt, o, N, a, u, w));
+        s.add(h.id);
+      }
+      return ov(n, e, t, h, I);
+    });
+    let Z = so(n, I);
+    let he = B.isOn("localizationUiUpdate") && Z && !y;
+    let ne;
+    (N.length > 0 || he) &&
+      ((ne = {
+        type: "sourceGroup",
+        name: W,
+        groupType: "page",
+        nodeId: I.id,
+        supportsLocaleVisibility: Z,
+        supportsLocaleExclusion: B.isOn("localizationModelUpdate") && ta(n, I),
+        includedLocaleIds: Z ? kn(n, I) : void 0,
+        fallbackLocaleIds: Z ? fr(n, I) : void 0,
+        items: N,
+      }),
+      i.push(ne));
+    let Oe = hi(e, k);
+    let Ve = ms(w);
+    let j = hs(w);
+    Ft(p, Oe);
+    let pe = M && V(I) ? Po(n, I, Ve, j, c) : void 0;
+    ko(n, I, {
+      additionalDependencyNode: x,
+      unresolvedLocalizableCount: z.lookups.unresolvedLocalizableCount,
+      group: ne,
+      locales: o,
+      loaderDependencies: Oe,
+      parentVariables: Le,
+      parentSourceOwnRevision: Le,
+      settings: v,
+      richTextBehavior: a,
+      includesWebPage: M,
+      directSmartComponentIds: Ve,
+      localizedSmartComponentIdsByLocaleId: j,
+      pageVisibilityFact: pe,
+      replicaMasterNodeIds: D,
+    });
+  } catch (le) {
+    var Me = le,
+      Mt = !0;
+  } finally {
+    eo(H, Me, Mt);
+  }
+}
+function Ik(n, e, t, o, r, i) {
+  let a = [],
+    s = t.id,
+    l = ui() && n.isDataTree(),
+    d = new Map(),
+    u = { checkpoint: i, loaderDependenciesByIdentifier: d },
+    p = (c) => ({
+      canonicalScopeId: c,
+      groups: a,
+      loaderDependencies: Array.from(d, ([f, g]) => [f, g]),
+    });
+  if (Ne(t)) return (ym(n, e, o, a, d), p(t.id));
+  if (Qe(t)) {
+    let c = n.getNodeWithTrait(t.parentid, q);
+    return (c && mm(n, e, c, t, o, gm(o, c), a, u), p(t.id));
+  }
+  if (q(t)) return (hm(n, e, t, o, a, u), p(t.id));
+  if (pt(t)) {
+    Ss(n, e, t, o, nt(n, "includeDrafts"), a, r, new Set(), l, u);
+    let c = t.webPageId ? n.get(t.webPageId) : void 0;
+    return p(V(c) && c.isLoaded() ? c.id : t.id);
+  }
+  if (No(t)) {
+    let c = V(t) ? td(n, t.id) : void 0,
+      f = V(t) && t.abTestingParentId !== void 0;
+    return (
+      c && t.id !== n.root.homePageNodeId && !f
+        ? Ss(n, e, c, o, nt(n, "includeDrafts"), a, r, new Set(), l, u)
+        : um(n, e, t, o, a, r, l, u),
+      p(t.id)
+    );
+  }
+  return p(s);
+}
+function Ck(n, e, t, o, r, i = ui(), a) {
+  let s = [];
+  if (!t || t.length === 0) return s;
+  let l = a ? Af(n, a) : void 0;
+  ym(n, e, t, s, void 0, l);
+  let d = { checkpoint: r, dependencies: l };
+  i &&= n.isDataTree();
+  for (let u of n.root.children) iv(n, e, u, t, o, i, s, d);
+  return s;
+}
+function iv(n, e, t, o, r, i, a, s) {
+  let { checkpoint: l, dependencies: d } = s ?? {},
+    u = !1;
+  (V(t) && ((u = t.abTestingParentId !== void 0), !u && n.root.homePageNodeId !== t.id)) ||
+    (No(t) && (C(t.isLoaded(), "Scope node must be fully loaded"), um(n, e, t, o, a, r, i, s)),
+    no(t) && (C(t.isLoaded(), "Scope node must be fully loaded"), ev(n, e, t, o, a, l, d)),
+    Mi(t) && nv(n, e, t, o, a, r, i, s));
+}
+function av(n, e) {
+  return V(e) && e.id !== n.root.homePageNodeId;
+}
+function bk(n, e) {
+  return ut(n, e);
+}
+function Tk(n, e) {
+  return _t(n, e);
+}
+function Nk(n) {
+  return new URL(`/multiplayer${n}`, wc().api).href;
+}
+function wk(n) {
+  try {
+    return new URL(n).pathname.startsWith("/multiplayer");
+  } catch {
+    return !1;
+  }
+}
+async function Ek(n, e, t) {
+  let o = e && e !== sc ? { branchId: e } : void 0;
+  return Pc.get(`/web/v1/sites/hostnames/${n}`, o, t);
+}
+var Sm = class {
+  constructor(e) {
+    this.scheduler = e;
+  }
+  scheduler;
+};
+var Kt = At(ws(), 1);
+var vm = Symbol("uninitialized");
+function sv(n) {
+  return n + 1;
+}
+function Ak(n, e, t, o) {
+  let r = Al(),
+    [, i] = (0, Kt.useReducer)(sv, 0),
+    a = (0, Kt.useRef)(vm);
+  a.current === vm && (a.current = e());
+  let s = (0, Kt.useRef)(e);
+  s.current = e;
+  let l = (0, Kt.useRef)(t);
+  if (!_t(t, l.current)) {
+    l.current = t;
+    let u = a.current,
+      p = s.current();
+    (o ? !ut(u, p) : !_t(u, p)) && (a.current = p);
+  }
+  let d = Array.isArray(n) ? n : [n];
+  return (
+    (0, Kt.useEffect)(() => {
+      let u = () => {
+          let f = a.current,
+            g = s.current();
+          (o ? ut(f, g) : _t(f, g)) || ((a.current = g), i());
+        },
+        p = [...d, u],
+        c = r.scheduler.changes.observe(...p);
+      return () => r.scheduler.changes.removeObserver(c);
+    }, d),
+    a.current
+  );
+}
+function lv(n) {
+  return fe(n) || Go(n);
+}
+function Cs(n) {
+  if (fe(n)) return n.codeComponentIdentifier;
+  if (Go(n)) return n.shaderModuleIdentifier;
+}
+function dv(n, e) {
+  (fe(n) && n.set({ codeComponentIdentifier: e }), Go(n) && n.set({ shaderModuleIdentifier: e }));
+}
+function cv(n, e) {
+  return e.moduleId === n.moduleId && e.saveId !== n.saveId;
+}
+function Im(n, e) {
+  switch (e?.type) {
+    case "canvasComponent":
+    case "codeFile":
+    case "shader": {
+      let t = E(e.codeComponentIdentifier);
+      return cv(n, t);
+    }
+    default:
+      return !1;
+  }
+}
+function uv(n, e) {
+  let t = E(n),
+    o = E(e);
+  return (
+    C(t.moduleId === o.moduleId, "Module id should be the same"),
+    C(t.saveId !== o.saveId, "Module identifier should have a different save id than the instance"),
+    bn(t.moduleId, o.saveId, t.file, t.exportSpecifier).value
+  );
+}
+function Gk(n, e) {
+  let t = n.tree.getNodeWithTrait(e, lv);
+  if (!t) return;
+  C(!en(t), "Module instance node should not be a replica or replica child");
+  let o = Cs(t),
+    r = E(o);
+  C(r?.kind === "externalModuleExport", "Module identifier should be external");
+  let i = n.tree.getNodeWithTrait(r.moduleId, tt);
+  C(i, "Module node should exist");
+  let a = uv(r.value, i.codeComponentIdentifier);
+  dv(t, a);
+}
+function bm(n, e, t, o, r) {
+  let i = E(n);
+  if (!Ds(i)) return;
+  let a = Ee(i);
+  if (a && !i.moduleId) return;
+  let s = a ? t.getNodeWithTrait(i.moduleId, tt) : null,
+    l = a ? (s?.type ?? "codeFile") : i.type,
+    d = l === "shader" ? !!e.shaderForIdentifier(i.value) : !!e.componentForIdentifier(i.value);
+  return a
+    ? {
+        type: l,
+        hasDefinition: d,
+        hasModuleEntry: o.hasModuleForIdentifier(i),
+        hasLocalModuleError: !1,
+        isModuleEvaluationPending: !1,
+        outdatedInstance: Im(i, s),
+      }
+    : {
+        type: l,
+        hasDefinition: d,
+        hasModuleEntry: !!r.getModuleEntryByLocalId(i.localId),
+        hasLocalModuleError: cn(e.componentForIdentifier(Cn(i))),
+        isModuleEvaluationPending: r.isLocalModuleEvaluationPending(i.localId),
+        outdatedInstance: !1,
+      };
+}
+function pv(n, e, t, o, r) {
+  let i = Cs(n);
+  if (!i) return;
+  let a = bm(i, e, t, o, r);
+  if (!a) return;
+  let {
+    hasDefinition: s,
+    hasModuleEntry: l,
+    hasLocalModuleError: d,
+    isModuleEvaluationPending: u,
+    type: p,
+    outdatedInstance: c,
+  } = a;
+  if (!s || !l)
+    switch (p) {
+      case "codeFile":
+        if (l) {
+          if (s) break;
+          return { kind: "code", codeError: 2 };
+        } else return { kind: "code", codeError: 5 };
+      case "shader":
+        if (l) {
+          if (s) break;
+          return { kind: "code", codeError: 4 };
+        } else return { kind: "code", codeError: 6 };
+      case "canvasComponent":
+        return l && u && !d ? void 0 : { kind: "code", codeError: 3 };
+      default:
+        return { kind: "code", codeError: 1 };
+    }
+  if (c) return { kind: "outdatedInstance", originalNodeId: n.getPrimaryId() };
+}
+function fv(n, e, t, o, r) {
+  if (!xl(n)) return;
+  let i = bm(n.codeOverrideIdentifier, e, t, o, r);
+  if (!i) return;
+  let { hasDefinition: a, hasModuleEntry: s } = i;
+  if (!a) return s ? { kind: "code", codeError: 7 } : { kind: "code", codeError: 8 };
+}
+function mv(n, e) {
+  let t = e[n.id];
+  if (t)
+    switch (t.type) {
+      case "Form":
+        return { kind: "form", reason: t.reason };
+      case "CodeGeneration":
+        return t.reason === "FileTooLarge" ? { kind: "code", codeError: 0 } : void 0;
+      default:
+        Y(t.type);
+    }
+}
+function tF(n, e, t, o, r, i) {
+  return pv(n, e, t, o, r) || fv(n, e, t, o, r) || (i && mv(n, i));
+}
+function hv(n) {
+  switch (n.type) {
+    case "Form":
+      return !0;
+    case "CodeGeneration":
+      return n.reason === "FileTooLarge";
+    default:
+      return !1;
+  }
+}
+var gv = Object.freeze({}),
+  Cm = new WeakMap();
+function nF(n) {
+  let e = n.get(Jd);
+  if (!e) return gv;
+  let t = [];
+  e.children?.forEach((i) => t.push(i));
+  let o = Cm.get(e);
+  if (o && Xl(o.errorNodes, t)) return o.errorsByNodeId;
+  let r = {};
+  for (let i of t)
+    i.nodeId &&
+      (!i.type ||
+        !hv(i) ||
+        !i.reason ||
+        i.nodeId in r ||
+        (r[i.nodeId] = { type: i.type, reason: i.reason }));
+  return (Cm.set(e, { errorNodes: t, errorsByNodeId: r }), r);
+}
+var yv = K("exportToHTML");
+function Tm(n, e, t, o = new Set([t]), r = new Set()) {
+  for (let { node: i, skipChildren: a } of t.walkWithSkipChildren()) {
+    if (r.has(i)) {
+      a();
+      continue;
+    }
+    r.add(i);
+    for (let s of Wd(i, e)) {
+      let l = $d(s);
+      if (!l) continue;
+      let d = n.getNode(l);
+      if (d) {
+        if (!n.isGroundNode(d)) {
+          yv.reportError("Navigation target node must be ground node", {
+            sourceId: i.id,
+            targetId: d.id,
+          });
+          continue;
+        }
+        (o.add(d), Tm(n, e, d, o, r));
+      }
+    }
+    fe(i) &&
+      Object.values(pc(n, i, e))
+        .flat()
+        .forEach((s) => Tm(n, e, s.node, o, r));
+  }
+  return o;
+}
+function cF(n, e) {
+  let t = e.getPrimaryVariant();
+  Ki(t) && (n.routes[e.id] = t.pageEffects);
+}
+function uF(n, e, t) {
+  let o = e.getPrimaryVariant();
+  if (Ki(o)) {
+    let r = {};
+    for (let i in o.pageEffects) r[i] = t.dedupe("effect", o.pageEffects[i]);
+    n.routes[e.id] = r;
+  }
+}
+var Lm = "utils";
+function Mm(n, e) {
+  let t = E(e);
+  if (!te(t) || t.kind !== "localModuleExport") return;
+  let o = n.getPersistedModuleByLocalId(t.localId);
+  if (o && o.exports.includes(Lm))
+    return { exportIdentifier: Lm, moduleURL: o.moduleURL, collectionId: t.localIdName };
+}
+function gF(n, e) {
+  if (V(e) && e.dataIdentifier) return Mm(n, e.dataIdentifier);
+}
+function yF(n, e, t) {
+  for (let o of e.variables) {
+    if (!pd(o)) continue;
+    let r = Mm(n, o.dataIdentifier);
+    r && t(r);
+  }
+}
+var MF = Od({
+  canvas: () => {
+    let n = Sv();
+    return (aa(n), ia(n));
+  },
+  onPageCanvas: () => {
+    let n = vv();
+    aa(n);
+    let { url: e, isCrossOriginProtected: t } = ia(n),
+      o = Cv(e);
+    return { url: o, origin: new URL(o).origin, isCrossOriginProtected: t };
+  },
+});
+function Sv() {
+  let n = _e.isDebugBuild ? "canvas-sandbox.debug.html" : "canvas-sandbox.html",
+    e = Ei(`./${n}`),
+    t = _e.debugPerformance ? `?${vi}` : "",
+    o = JSON.stringify(to());
+  return e + t + `#services=${encodeURIComponent(o)}`;
+}
+function vv() {
+  let n = _e.isDebugBuild ? "canvas-sandbox-on-page.debug.html" : "canvas-sandbox-on-page.html",
+    e = Ei(`./${n}`),
+    t = _e.debugPerformance ? `?${vi}` : "",
+    o = JSON.stringify(to());
+  return e + t + `#services=${encodeURIComponent(o)}`;
+}
+var Iv = 63;
+function Cv(n) {
+  let e = new URL(n);
+  if (
+    e.hostname === "localhost" ||
+    e.hostname === "127.0.0.1" ||
+    e.hostname.split(".").length - 2 >= 2
+  )
+    return n;
+  let o = new URLSearchParams(window.location.search).get("framerSiteId");
+  C(o, "onPageCanvas must be loaded with a framerSiteId");
+  let r = `site-${o}`.slice(0, Iv);
+  return ((e.hostname = `${r}.${e.hostname}`), e.toString());
+}
+export {
+  xu as a,
+  Ru as b,
+  vt as c,
+  Hm as d,
+  go as e,
+  _r as f,
+  ce as g,
+  $r as h,
+  Un as i,
+  mn as j,
+  _n as k,
+  Ae as l,
+  ob as m,
+  bp as n,
+  Ip as o,
+  zt as p,
+  Bg as q,
+  gR as r,
+  Og as s,
+  yR as t,
+  Ug as u,
+  NR as v,
+  PR as w,
+  Ap as x,
+  Ev as y,
+  Vu as z,
+  Pu as A,
+  zv as B,
+  lw as C,
+  dw as D,
+  cw as E,
+  xy as F,
+  uw as G,
+  Lo as H,
+  LD as I,
+  kt as J,
+  Tf as K,
+  No as L,
+  AV as M,
+  Ce as N,
+  Ze as O,
+  ns as P,
+  os as Q,
+  wo as R,
+  Do as S,
+  Ht as T,
+  ri as U,
+  tP as V,
+  Vo as W,
+  IP as X,
+  CP as Y,
+  bP as Z,
+  gE as _,
+  BE as $,
+  AE as aa,
+  LS as ba,
+  OE as ca,
+  ui as da,
+  sk as ea,
+  lk as fa,
+  dk as ga,
+  ck as ha,
+  uk as ia,
+  pk as ja,
+  fk as ka,
+  mk as la,
+  hk as ma,
+  gk as na,
+  yk as oa,
+  PS as pa,
+  ES as qa,
+  Sk as ra,
+  Yf as sa,
+  Xf as ta,
+  tm as ua,
+  vn as va,
+  vk as wa,
+  QS as xa,
+  YS as ya,
+  XS as za,
+  gm as Aa,
+  ev as Ba,
+  tv as Ca,
+  Ik as Da,
+  Ck as Ea,
+  bk as Fa,
+  Tk as Ga,
+  Nk as Ha,
+  wk as Ia,
+  Tm as Ja,
+  cF as Ka,
+  uF as La,
+  Mm as Ma,
+  gF as Na,
+  yF as Oa,
+  DV as Pa,
+  VV as Qa,
+  Uy as Ra,
+  PV as Sa,
+  MF as Ta,
+  Iv as Ua,
+  Ek as Va,
+  Sm as Wa,
+  Ak as Xa,
+  Gk as Ya,
+  tF as Za,
+  nF as _a,
+};
+//# sourceMappingURL=chunk-CL5W2GKI.mjs.map

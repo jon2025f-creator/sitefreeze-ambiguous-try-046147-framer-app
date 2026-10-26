@@ -1,0 +1,707 @@
+import { b as m, h as y, n as C, q as S } from "chunk-Y3GZLMBF.mjs";
+import { a as v } from "chunk-EQBCTBZ3.mjs";
+import { a as E } from "chunk-UZNETSBG.mjs";
+import { b as p } from "chunk-4JY5UMT2.mjs";
+var u = typeof window < "u" && !("Deno" in globalThis) ? window.location.hostname : void 0,
+  N = !!(u && ["web.framerlocal.com", "localhost", "127.0.0.1", "[::1]"].includes(u)),
+  b = (() => {
+    if (!u) return;
+    if (N) return { main: u, previewLink: void 0 };
+    let t = /^(([^.]+\.)?beta\.)?((?:development\.)?framer\.com)$/u,
+      e = u.match(t);
+    if (e?.[3]) return { previewLink: e[2] && e[0], main: e[3] };
+  })(),
+  P = {
+    hosts: b,
+    isDevelopment: b?.main === "development.framer.com",
+    isProduction: b?.main === "framer.com",
+    isLocal: N,
+  },
+  V = /^(?:[a-z]+:\/\/)?(?:[^@/]*@)?(\[[^\]]+\]|[^:/\s?#]+)/iu,
+  F = new Set(["localhost", "127.0.0.1", "[::1]"]);
+function ee(t) {
+  return ((t.includes(":") || t.includes("/")) && (t = V.exec(t)?.[1] ?? ""), F.has(t));
+}
+function c(t) {
+  let o = t.length & 3,
+    i = t.length - o,
+    r = 0,
+    a = 0;
+  for (; a < i;) {
+    let l =
+      (t.charCodeAt(a) & 255) |
+      ((t.charCodeAt(++a) & 255) << 8) |
+      ((t.charCodeAt(++a) & 255) << 16) |
+      ((t.charCodeAt(++a) & 255) << 24);
+    (++a,
+      (l = ((l & 65535) * 3432918353 + ((((l >>> 16) * 3432918353) & 65535) << 16)) & 4294967295),
+      (l = (l << 15) | (l >>> 17)),
+      (l = ((l & 65535) * 461845907 + ((((l >>> 16) * 461845907) & 65535) << 16)) & 4294967295),
+      (r ^= l),
+      (r = (r << 13) | (r >>> 19)));
+    let x = ((r & 65535) * 5 + ((((r >>> 16) * 5) & 65535) << 16)) & 4294967295;
+    r = (x & 65535) + 27492 + ((((x >>> 16) + 58964) & 65535) << 16);
+  }
+  let s = 0;
+  return (
+    o >= 3 && (s ^= (t.charCodeAt(a + 2) & 255) << 16),
+    o >= 2 && (s ^= (t.charCodeAt(a + 1) & 255) << 8),
+    o >= 1 &&
+      ((s ^= t.charCodeAt(a) & 255),
+      (s = ((s & 65535) * 3432918353 + ((((s >>> 16) * 3432918353) & 65535) << 16)) & 4294967295),
+      (s = (s << 15) | (s >>> 17)),
+      (s = ((s & 65535) * 461845907 + ((((s >>> 16) * 461845907) & 65535) << 16)) & 4294967295),
+      (r ^= s)),
+    (r ^= t.length),
+    (r ^= r >>> 16),
+    (r = ((r & 65535) * 2246822507 + ((((r >>> 16) * 2246822507) & 65535) << 16)) & 4294967295),
+    (r ^= r >>> 13),
+    (r = ((r & 65535) * 3266489909 + ((((r >>> 16) * 3266489909) & 65535) << 16)) & 4294967295),
+    (r ^= r >>> 16),
+    r >>> 0
+  );
+}
+function R(t, e) {
+  let n = new Set(t);
+  return (n.add("on"), n.add("off"), { variants: [...n], value: e });
+}
+var U = {};
+function oe(t) {
+  return U[t];
+}
+function G(t) {
+  let e = {};
+  for (let n in t) {
+    let o = t[n];
+    if (typeof o == "object") ((e[n] = o.value), (U[n] = o.variants));
+    else if (typeof o == "string") e[n] = o;
+    else throw Error(`Invalid experiment value: ${o}`);
+  }
+  return e;
+}
+var w = G({
+    addViewBox: "off",
+    advancedAgentControls: "off",
+    advancedHostingFirewall: "on",
+    "agent-2026-w25": "on",
+    "agent-2026-w26": "on",
+    "agent-2026-w28": "on",
+    "agent-2026-w29": "on",
+    "agent-2026-w30": "on",
+    "agent-2026-w31": "on",
+    "agent-2026-w32": "on",
+    "agent-2026-w37": "off",
+    "agent-2026-w38": "off",
+    agentAlphaModels: "on",
+    agentBranchScriptApi: "on",
+    agentContextRow: "on",
+    agentControls: "off",
+    agentEffortSelect: "on",
+    agentFramerConvertTriggers: "off",
+    agentGeneratedShaders: "off",
+    agentGPT6SolLunaViaOpenRouter: "off",
+    agenticAnalyticsV2: "off",
+    agentIconSetIds: "on",
+    agentIntegrationProfound: "off",
+    agentIntegrations: "off",
+    agentLocalization: "off",
+    agentModelSpecificChecklist: "on",
+    agentNodeAttributeChangeTracking: "off",
+    agentRating: "off",
+    agentScriptComponentLookup: "on",
+    agentStyleOnSelect: "off",
+    agentTerraLunaViaOpenRouter: "on",
+    agentTsdocApi: "off",
+    agentUseAnthropicMessagesAPI: "off",
+    agentUseAnthropicServerSideCompaction: "on",
+    agentUseOpenAIResponsesAPI: "off",
+    agentUseOpenAIServerSideCompaction: "on",
+    agentVersionHistory: "off",
+    agentVisionImagePixelLimit: "on",
+    aiCreditsIntroExperiment: "off",
+    alignLocalizationAiModelPicker: "off",
+    analyticsFunnelGroupBy: "off",
+    analyticsRedesign: "off",
+    apps: "off",
+    appShortcutsWhileEditingText: "on",
+    ariaProperties: "on",
+    automations: "off",
+    bulkHierarchyRehydrate: "off",
+    canvasPerfImperativeCamera: "off",
+    canvasPerfSkipSelectionPostProcess: "off",
+    canvasRepeatSelection: "off",
+    canvasSwitch: "off",
+    carouselEffect: "off",
+    checkoutDrawer: "off",
+    checkServerSideRouter: "on",
+    clientModuleIds: "off",
+    cmsCodeGenWorker: "off",
+    cmsMultiplayerCursors: "on",
+    cmsSqlite: "off",
+    cmsTablePlaceholderRow: "on",
+    codeLinkPlugin: "off",
+    codingAgentModelSelect: "off",
+    collectionLocalModuleImportMapEntries: "off",
+    componentRichTextContentOverlay: "on",
+    componentSlotsAreChildNodes: "off",
+    confirmInviteSeats: "off",
+    crdtTreeEditUndo: "off",
+    debugEditWhileLoadingRuntimeChecks: "off",
+    deferCastleUntilLoaded: "off",
+    deferModulesUntilImported: "off",
+    deferNonVisibleModuleEvaluation: "off",
+    deferPreviewModulesUntilRequested: "off",
+    disableHoverOnMobile: "off",
+    domainsRedesign: "off",
+    dummyTest: "off",
+    earlyProjectSocket: "on",
+    editorBarDisableFrameAncestorsSecurity: "off",
+    effectsInDesignPages: "off",
+    externalVectorIcons: "on",
+    F1KeyboardCreditsWidget: "off",
+    fastLargeSelection: "off",
+    fastLocalization: "off",
+    fastPreview: "off",
+    fastPreviewLazy: "off",
+    fastTreeLibrary: "on",
+    fixedSizeImageSrcset: "off",
+    granularPermissions: "off",
+    harness2: "off",
+    hideLoadedOffscreenGroundNodes: "off",
+    imageGeneration: "off",
+    importMapPruning: "off",
+    invoke: "off",
+    jsonRichTextStorage: R(["cms", "canvas,cms"], "cms"),
+    layersVirtualization: "off",
+    layoutScroll: "off",
+    lazySmartComponentLocales: "on",
+    liveZoomStepScaleFactor: "on",
+    localCacheSyncWorker: "off",
+    localizationModelUpdate: "off",
+    localizationProgressSummaries: "off",
+    localizationTreeControls: "off",
+    localizationUiUpdate: "off",
+    localizationWaitsForAllModules: "off",
+    localizedLinks: "off",
+    locationControl: "off",
+    locationTriggerConditions: "off",
+    motionDivToDiv: "off",
+    motionValues: "off",
+    newAssetPanel: "on",
+    newQuickActions: "off",
+    noNodeSetters: "off",
+    objectVariables: "off",
+    paneEdgeDoubleClickReset: "off",
+    passkeys: "off",
+    pathRadiusSmoothing: "on",
+    persistDataTreeAcrossFrames: R(["persistOnWrite"], "off"),
+    pinnedWorkspaces: "off",
+    preloadLoaderScheduling: "on",
+    preventVariableDeletion: "on",
+    previewSharing: "off",
+    prioritizedInitialModuleEvaluation: "on",
+    projectAuditSkill: "off",
+    publishingRecoveryProgress: "off",
+    publishStaleModuleErrors: "off",
+    quietCanvasImageUploads: "off",
+    raindropSelfDiagnostics: "on",
+    rebaseBranches: "off",
+    reconnectInPlace: "off",
+    recoverStaleModules: "off",
+    replaceCanvasTreeWithDataTree: "off",
+    richTextBlockSelection: "on",
+    richTextVideoModule: "on",
+    scopedComponentElementIds: "on",
+    scrollRestoration: "on",
+    showCanonicalUrlAsDefault: "off",
+    siteCustomLogin: "off",
+    siteFramerLogin: "off",
+    skipPublishingLocalesFallingBackToDraft: "on",
+    slabLatestMap: "off",
+    smartComponentResolvesOwnDefaults: "off",
+    synchronousNavigationOnDesktop: "off",
+    syncProcessWhenReady: "on",
+    textBalanceRequiresWrap: "off",
+    transientLocalModuleTreeData: "off",
+    translateAllProgressToast: "off",
+    translationTransforms: "off",
+    treeStateGroundId: "off",
+    treeStoreReadsUpdaterTree: "off",
+    unifiedStackActions: "off",
+    verifyTreeOnCommit: "off",
+    yieldOnTap: "off",
+    yieldThirdPartyScripts: "on",
+  }),
+  B = [
+    "agentIntegrationProfound",
+    "agentIntegrations",
+    "deferModulesUntilImported",
+    "deferNonVisibleModuleEvaluation",
+    "deferPreviewModulesUntilRequested",
+    "granularPermissions",
+    "invoke",
+    "jsonRichTextStorage",
+    "noNodeSetters",
+    "replaceCanvasTreeWithDataTree",
+    "treeStoreReadsUpdaterTree",
+  ];
+function re(t) {
+  return B.includes(t);
+}
+var T = {
+    agentGeneratedShaders: "on",
+    analyticsRedesign: "on",
+    bulkHierarchyRehydrate: "on",
+    cmsCodeGenWorker: "on",
+    codeLinkPlugin: "on",
+    codingAgentModelSelect: "on",
+    crdtTreeEditUndo: "on",
+    debugEditWhileLoadingRuntimeChecks: "on",
+    deferCastleUntilLoaded: "on",
+    deferModulesUntilImported: "on",
+    fastLargeSelection: "on",
+    fastLocalization: "on",
+    jsonRichTextStorage: "canvas,cms",
+    layersVirtualization: "on",
+    layoutScroll: "on",
+    localizationModelUpdate: "on",
+    localizationUiUpdate: "on",
+    locationTriggerConditions: "on",
+    noNodeSetters: "on",
+    persistDataTreeAcrossFrames: "on",
+    quietCanvasImageUploads: "on",
+    slabLatestMap: "on",
+    smartComponentResolvesOwnDefaults: "on",
+    unifiedStackActions: "on",
+  },
+  I = {
+    addViewBox: "on",
+    "agent-2026-w37": "on",
+    "agent-2026-w38": "on",
+    agentControls: "on",
+    agentFramerConvertTriggers: "on",
+    agenticAnalyticsV2: "on",
+    agentIntegrationProfound: "on",
+    agentIntegrations: "on",
+    agentLocalization: "on",
+    agentStyleOnSelect: "on",
+    agentTsdocApi: "on",
+    agentVersionHistory: "on",
+    alignLocalizationAiModelPicker: "on",
+    automations: "on",
+    canvasPerfImperativeCamera: "on",
+    canvasPerfSkipSelectionPostProcess: "on",
+    checkoutDrawer: "on",
+    clientModuleIds: "on",
+    deferNonVisibleModuleEvaluation: "on",
+    disableHoverOnMobile: "on",
+    effectsInDesignPages: "on",
+    fastPreview: "on",
+    harness2: "on",
+    hideLoadedOffscreenGroundNodes: "on",
+    imageGeneration: "on",
+    localCacheSyncWorker: "on",
+    localizedLinks: "on",
+    motionDivToDiv: "on",
+    newQuickActions: "on",
+    paneEdgeDoubleClickReset: "on",
+    passkeys: "on",
+    pinnedWorkspaces: "on",
+    projectAuditSkill: "on",
+    recoverStaleModules: "on",
+    synchronousNavigationOnDesktop: "on",
+    textBalanceRequiresWrap: "on",
+    translateAllProgressToast: "on",
+    translationTransforms: "on",
+    treeStateGroundId: "on",
+    treeStoreReadsUpdaterTree: "on",
+    verifyTreeOnCommit: "on",
+    yieldOnTap: "on",
+  },
+  k = {
+    agentFramerConvertTriggers: {
+      sample: 1,
+      scope: "Team",
+      includeEnterprise: !1,
+      channels: ["beta"],
+      variant: "on",
+    },
+    agenticAnalyticsV2: {
+      sample: 1,
+      scope: "Team",
+      includeEnterprise: !1,
+      channels: ["beta"],
+      variant: "on",
+    },
+    checkoutDrawer: { sample: 0.05, scope: "User", includeEnterprise: !1, variant: "on" },
+    cmsCodeGenWorker: {
+      sample: 0.1,
+      scope: "Project",
+      includeEnterprise: !1,
+      channels: ["stable"],
+      variant: "on",
+    },
+    crdtTreeEditUndo: {
+      sample: 1,
+      scope: "Project",
+      includeEnterprise: !1,
+      channels: ["stable"],
+      variant: "on",
+    },
+    harness2: [
+      {
+        sample: 1,
+        scope: "Team",
+        includeEnterprise: !0,
+        channels: ["beta"],
+        dependencies: { localCacheSyncWorker: "on" },
+        variant: "on",
+      },
+      {
+        sample: 0.1,
+        scope: "Team",
+        includeEnterprise: !0,
+        channels: ["stable"],
+        dependencies: { localCacheSyncWorker: "on" },
+        variant: "on",
+      },
+    ],
+    imageGeneration: {
+      sample: 1,
+      scope: "Team",
+      includeEnterprise: !0,
+      channels: ["beta"],
+      variant: "on",
+    },
+    slabLatestMap: {
+      sample: 0.1,
+      scope: "Project",
+      includeEnterprise: !1,
+      channels: ["stable"],
+      variant: "on",
+    },
+  };
+function A() {
+  return (
+    Symbol.dispose ||
+      Object.defineProperty(Symbol, "dispose", {
+        value: Symbol.for("Symbol.dispose"),
+        writable: !1,
+        enumerable: !1,
+        configurable: !1,
+      }),
+    Symbol.dispose
+  );
+}
+var d = !1,
+  g = class {
+    activeConfig;
+    activeOverrides = [];
+    initialConfig;
+    listeners = new Map();
+    assertOnUse;
+    updated;
+    #e;
+    constructor(e, { assertIfUsedBeforeUpdate: n = !1 } = {}) {
+      ((this.initialConfig = z(e)),
+        (this.activeConfig = { ...this.initialConfig }),
+        (this.assertOnUse = !1),
+        (this.updated = new Promise((o) => {
+          this.#e = o;
+        })));
+    }
+    addListener(e, n) {
+      let o = this.listeners.get(e);
+      (o || ((o = new Set()), this.listeners.set(e, o)), o.add(n));
+    }
+    get(e) {
+      this.assertOnUse &&
+        p(d, () => `Tried to read state of ${e} before update, await on .updated first`);
+      for (let n = this.activeOverrides.length - 1; n >= 0; n--) {
+        let o = this.activeOverrides[n][e];
+        if (m(o)) return o;
+      }
+      return this.activeConfig[e];
+    }
+    getInitial(e) {
+      return this.initialConfig[e];
+    }
+    is(e, n) {
+      this.assertOnUse &&
+        p(d, () => `Tried to read state of ${e} before update, await on .updated first`);
+      let o = this.isActiveByOverrides(e, n);
+      return C(o) ? this.activeConfig[e] === n : o;
+    }
+    isOn(e) {
+      return (
+        this.assertOnUse &&
+          p(d, () => `Tried to read the state of ${e} before update, await on .updated first`),
+        this.is(e, "on")
+      );
+    }
+    getVariantName(e) {
+      this.assertOnUse &&
+        p(d, () => `Tried to read the state of ${e} before update, await on .updated first`);
+      let n = this.get(e);
+      return n === "on" || n === "off" ? e : `${e}_${n}`;
+    }
+    async didUpdateAndIsOn(e) {
+      return (await this.updated, this.isOn(e));
+    }
+    overrideForTest(e) {
+      let n = this.assertOnUse;
+      ((this.assertOnUse = !1), this.activeOverrides.push(e));
+      let o = !1,
+        i = Object.assign(
+          () => {
+            if (!o) {
+              if (this.activeOverrides.pop() !== e)
+                throw Error("Something went wrong with experiment overrides");
+              ((o = !0), (this.assertOnUse = n));
+            }
+          },
+          {
+            [A()]() {
+              i();
+            },
+          }
+        );
+      return i;
+    }
+    removeListener(e, n) {
+      this.listeners.get(e)?.delete(n);
+    }
+    update(e) {
+      this.assertOnUse = !1;
+      for (let n in e) {
+        let o = L(e[n]);
+        if (!m(o) || o === this.activeConfig[n]) continue;
+        this.activeConfig[n] = o;
+        let i = this.listeners.get(n);
+        i && i.forEach((r) => r(o, n));
+      }
+      this.#e && (this.#e(), (this.#e = void 0));
+    }
+    withOverridesForTest(e, n) {
+      let o = this.overrideForTest(e);
+      try {
+        return (this.signalForTests(e), n());
+      } finally {
+        (o(), this.signalForTests(e));
+      }
+    }
+    signalForTests(e) {
+      for (let n in e) {
+        let o = this.listeners.get(n);
+        if (!o) continue;
+        let i = this.get(n);
+        o.forEach((r) => r(i, n));
+      }
+    }
+    isActiveByOverrides(e, n) {
+      for (let o = this.activeOverrides.length - 1; o >= 0; o--) {
+        let i = this.activeOverrides[o];
+        if (e in i) return i[e] === n;
+      }
+    }
+    serialize() {
+      let e = {};
+      for (let n in this.activeConfig) e[n] = this.get(n);
+      return e;
+    }
+    diffFromInitial() {
+      let e = {};
+      for (let n in this.initialConfig) {
+        let o = this.get(n);
+        this.initialConfig[n] !== o && (e[n] = o);
+      }
+      return e;
+    }
+  };
+function L(t) {
+  return typeof t == "boolean" ? (t ? "on" : "off") : t;
+}
+function z(t) {
+  let e = {};
+  for (let n in t) e[n] = L(t[n]);
+  return e;
+}
+function ce(t, e) {
+  d = !0;
+  try {
+    return t.get(e);
+  } finally {
+    d = !1;
+  }
+}
+var H = 4294967295,
+  f = {
+    hashes: { Project: null, Team: null, User: null },
+    isEnterprise: { Project: null, Team: null, User: null },
+    channel: null,
+  };
+function he(t) {
+  ((f.isEnterprise.Project = t.license.type === "enterpriseSite"), (f.hashes.Project = c(t.id)));
+}
+function D(t) {
+  ((f.isEnterprise.User = t.spaces.some((e) => e.license?.type === "enterprise")),
+    (f.hashes.User = c(t.id)));
+}
+function xe(t, e) {
+  ((f.isEnterprise.Team = e === "enterprise"), (f.hashes.Team = c(t)));
+}
+function ve(t) {
+  f.channel = t;
+}
+function K(t, { sample: e, scope: n, variant: o, includeEnterprise: i, channels: r }) {
+  if (r)
+    if (f.channel) {
+      if (!r.includes(f.channel)) return !1;
+    } else return !1;
+  let a = e * H,
+    s = c(t),
+    l = c(o);
+  return S(f.hashes[n]) || S(f.isEnterprise[n]) || (!i && f.isEnterprise[n])
+    ? !1
+    : (f.hashes[n] ^ s ^ l) >>> 0 < a;
+}
+function M(t = k) {
+  let e = {};
+  return (
+    Object.keys(t).forEach((n) => {
+      if (!t[n]) return;
+      let o = y(t[n]) ? t[n] : [t[n]];
+      for (let i of o) {
+        if (!K(n, i)) continue;
+        e[n] = i.variant;
+        let r = i.dependencies ?? [];
+        if (y(r)) for (let a of r) e[a] = i.variant;
+        else Object.assign(e, r);
+        break;
+      }
+    }),
+    e
+  );
+}
+typeof window < "u" && window.framerUser && D(window.framerUser);
+var h = new g(Y());
+h.update(W());
+var q = [];
+function Ee() {
+  let t = {};
+  for (let e of q) t[`experiment_${e}`] = h.isOn(e);
+  return t;
+}
+function O() {
+  if (typeof window > "u") return "experiments";
+  let t = v(window)?.channel;
+  return t ? `experiments-${t}` : "experiments";
+}
+function j() {
+  let t = {};
+  if (typeof window > "u") return {};
+  let e = v(window);
+  if (!e) return t;
+  let { channel: n, override: o } = e,
+    i = o === "tunnel" && P.isDevelopment;
+  return (
+    (n === "alpha" || n === "local" || i) && Object.assign(t, T, I),
+    n === "beta" && Object.assign(t, T),
+    t
+  );
+}
+function J() {
+  let t = {};
+  try {
+    let e = JSON.parse(localStorage[O()] || "{}");
+    Object.assign(t, e);
+  } catch {}
+  return t;
+}
+function _() {
+  if (typeof window > "u") return {};
+  if (!Q(window)) return {};
+  try {
+    return JSON.parse(window.experiments);
+  } catch {}
+  return {};
+}
+function Q(t) {
+  return "experiments" in t && m(t.experiments);
+}
+function X() {
+  let t = {};
+  if (typeof window > "u") return {};
+  for (let e of new URLSearchParams(window?.location.search).getAll("experiment")) {
+    let [n, o = "on"] = e.split("=");
+    t[n] = o;
+  }
+  return t;
+}
+function Z() {
+  let t = X();
+  try {
+    let e = { ...JSON.parse(sessionStorage.getItem("experiments") || "{}"), ...t };
+    return (
+      Object.keys(t).length > 0 && sessionStorage.setItem("experiments", JSON.stringify(e)),
+      e
+    );
+  } catch {
+    return t;
+  }
+}
+function Y() {
+  return { ...w, ...j() };
+}
+function Ce({ resetStorage: t, resetSession: e } = {}) {
+  if (!(typeof window > "u")) {
+    if ((t && localStorage.removeItem(O()), e)) {
+      sessionStorage.removeItem("experiments");
+      let n = new URL(window.location.href);
+      (n.searchParams.delete("experiment"),
+        window.history.replaceState(window.history.state, "", n.href));
+    }
+    h.update({ ...w, ...W() });
+  }
+}
+function W() {
+  return { ...M(), ...j(), ...J(), ..._(), ...Z() };
+}
+typeof window < "u" && window.localStorage.removeItem("useThemeLogo");
+function Ne(t) {
+  let e = O(),
+    n = {};
+  try {
+    n = JSON.parse(localStorage[e] || "{}");
+  } catch {}
+  let o = { ...n, ...t };
+  for (let i of E(o)) h.getInitial(i) === o[i] && delete o[i];
+  try {
+    Object.keys(o).length === 0
+      ? localStorage.removeItem(e)
+      : localStorage.setItem(e, JSON.stringify(o));
+  } catch {}
+}
+export {
+  oe as a,
+  w as b,
+  re as c,
+  T as d,
+  I as e,
+  k as f,
+  P as g,
+  ee as h,
+  A as i,
+  g as j,
+  ce as k,
+  c as l,
+  he as m,
+  xe as n,
+  ve as o,
+  h as p,
+  Ee as q,
+  Y as r,
+  Ce as s,
+  Ne as t,
+};
+//# sourceMappingURL=chunk-7NUIQ7JU.mjs.map

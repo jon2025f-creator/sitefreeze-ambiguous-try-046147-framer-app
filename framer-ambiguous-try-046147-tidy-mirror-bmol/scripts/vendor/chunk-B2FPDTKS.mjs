@@ -1,0 +1,31 @@
+import { e as n } from "chunk-Y3GZLMBF.mjs";
+import { c as o } from "chunk-4JY5UMT2.mjs";
+function u(t) {
+  return t === 2 || t === 0;
+}
+function i(t) {
+  if (t?.type !== "content") return !1;
+  let e = t.stack[0];
+  return e?.type === "existing" || e?.type === "privateDraft";
+}
+function l(t) {
+  if (t?.type !== "content") return !1;
+  let e = t.stack.at(-1);
+  if (!e) return !1;
+  switch (e.type) {
+    case "existing":
+    case "privateDraft":
+    case "arrayItem":
+      return !0;
+    case "componentRichTextContent":
+      return !1;
+    default:
+      return o(e);
+  }
+}
+var r = { 0: !0, 1: !0, 2: !0, 3: !0, 4: !0, 6: !0, 5: !0 };
+function p(t) {
+  return n(t) && r[t] === !0;
+}
+export { u as a, i as b, l as c, p as d };
+//# sourceMappingURL=chunk-B2FPDTKS.mjs.map

@@ -1,0 +1,53 @@
+import { a as f } from "chunk-MYL546Y2.mjs";
+import { a as c } from "chunk-JWZEBTBN.mjs";
+import { d as m, e as d } from "chunk-GBWZWM2Q.mjs";
+import { b } from "chunk-4JY5UMT2.mjs";
+import { l as i, m as u, n as g, o as a } from "chunk-MUEZJ6DD.mjs";
+import { a as s } from "chunk-YRQ7G4QH.mjs";
+var w = f({
+  canvas: () => {
+    let n = l();
+    return (d(n), m(n));
+  },
+  onPageCanvas: () => {
+    let n = p();
+    d(n);
+    let { url: e, isCrossOriginProtected: o } = m(n),
+      t = P(e);
+    return { url: t, origin: new URL(t).origin, isCrossOriginProtected: o };
+  },
+});
+function l() {
+  let n = a.isDebugBuild ? "canvas-sandbox.debug.html" : "canvas-sandbox.html",
+    e = c(`./${n}`),
+    o = new URLSearchParams();
+  (a.debugPerformance && o.set(i, ""),
+    a.disableCustomCode && o.set(u, ""),
+    a.isApiPlugin && o.set(g, ""));
+  let t = o.size > 0 ? `?${o}` : "",
+    r = JSON.stringify(s());
+  return e + t + `#services=${encodeURIComponent(r)}`;
+}
+function p() {
+  let n = a.isDebugBuild ? "canvas-sandbox-on-page.debug.html" : "canvas-sandbox-on-page.html",
+    e = c(`./${n}`),
+    o = a.debugPerformance ? `?${i}` : "",
+    t = JSON.stringify(s());
+  return e + o + `#services=${encodeURIComponent(t)}`;
+}
+var h = 63;
+function P(n) {
+  let e = new URL(n);
+  if (
+    e.hostname === "localhost" ||
+    e.hostname === "127.0.0.1" ||
+    e.hostname.split(".").length - 2 >= 2
+  )
+    return n;
+  let t = new URLSearchParams(window.location.search).get("framerSiteId");
+  b(t, "onPageCanvas must be loaded with a framerSiteId");
+  let r = `site-${t}`.slice(0, h);
+  return ((e.hostname = `${r}.${e.hostname}`), e.toString());
+}
+export { w as a, h as b };
+//# sourceMappingURL=chunk-ZJXUWVST.mjs.map

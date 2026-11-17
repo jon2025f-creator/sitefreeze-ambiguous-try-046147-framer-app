@@ -1,0 +1,32 @@
+import { a as t } from "chunk-2FCXHKEL.mjs";
+import { e as o } from "chunk-WLHSDIGQ.mjs";
+var r = o(t());
+function n(e) {
+  return (0, r.jsxs)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12",
+    height: "12",
+    viewBox: "0 0 12 12",
+    fill: "none",
+    ...e,
+    children: [
+      (0, r.jsx)("path", {
+        d: "M 6 1 L 6 11",
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+      }),
+      (0, r.jsx)("path", {
+        d: "M 1 6 L 11 6",
+        fill: "transparent",
+        stroke: "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+      }),
+    ],
+  });
+}
+export { n as a };
+//# sourceMappingURL=chunk-PLZKQ22A.mjs.map

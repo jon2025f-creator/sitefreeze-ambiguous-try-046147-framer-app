@@ -1,0 +1,23 @@
+import { a as t } from "chunk-2FCXHKEL.mjs";
+import { e as o } from "chunk-WLHSDIGQ.mjs";
+var r = o(t());
+function n(e) {
+  return (0, r.jsx)("svg", {
+    role: "presentation",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "8",
+    height: "8",
+    viewBox: "0 0 8 8",
+    "aria-hidden": "true",
+    ...e,
+    children: (0, r.jsx)("path", {
+      d: "M 0.5 3 C 0.5 3 2.337 4.574 3.349 5.442 C 3.724 5.763 4.276 5.763 4.651 5.442 C 5.663 4.574 7.5 3 7.5 3",
+      fill: "transparent",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+    }),
+  });
+}
+export { n as a };
+//# sourceMappingURL=chunk-ZN6XA7TQ.mjs.map

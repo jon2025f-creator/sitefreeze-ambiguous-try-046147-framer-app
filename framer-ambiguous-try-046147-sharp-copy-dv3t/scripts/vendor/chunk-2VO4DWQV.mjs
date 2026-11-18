@@ -1,0 +1,799 @@
+import {
+  Ba as ue,
+  Rd as A,
+  _a as pe,
+  cb as me,
+  cd as ye,
+  cf as Ie,
+  dd as j,
+  fd as ge,
+  kc as ve,
+  l as le,
+  ld as Ce,
+  nd as T,
+  oc as he,
+  od as Ne,
+  qd as K,
+  rd as b,
+  sd as O,
+  ua as ce,
+} from "chunk-SC3IJYH4.mjs";
+import { c as g, r as I } from "chunk-E5B536XW.mjs";
+import {
+  Cg as re,
+  E as Q,
+  El as fe,
+  Fl as ae,
+  Nf as R,
+  Wf as te,
+  nn as F,
+  qg as ie,
+  xl as se,
+  zl as de,
+} from "chunk-GIDSXRDU.mjs";
+import {
+  Ai as E,
+  Bf as S,
+  Dj as ne,
+  mb as X,
+  rb as Y,
+  te as Z,
+  uf as D,
+  wh as ee,
+  xk as oe,
+  yf as y,
+} from "chunk-HB6AHKYH.mjs";
+import { a as h } from "chunk-SMHMQ5IL.mjs";
+import { g as _ } from "chunk-ARJ7WQTJ.mjs";
+import { b as N } from "chunk-4JY5UMT2.mjs";
+function We(e, n) {
+  if (e.master !== n.master || e.inheritsFrom !== n.inheritsFrom) return !1;
+  let t = e.overrides,
+    r = n.overrides;
+  if (t === r) return !0;
+  if (!t || !r) return !1;
+  let i = Object.keys(t),
+    o = Object.keys(r);
+  if (i.length !== o.length) return !1;
+  for (let s of i) {
+    let d = t[s],
+      f = r[s];
+    if (d !== f && (!d || !f || !qe(d, f))) return !1;
+  }
+  return !0;
+}
+function qe(e, n) {
+  let t = Object.keys(e),
+    r = Object.keys(n);
+  if (t.length !== r.length) return !1;
+  for (let i of t) if (!L(i, e[i], n[i])) return !1;
+  return !0;
+}
+function Pe(e) {
+  return e instanceof R ? e.toJS() : e;
+}
+function Me(e, n) {
+  return h(Pe(e), Pe(n));
+}
+function L(e, n, t) {
+  return n === t
+    ? !0
+    : !n || !t
+      ? n !== n && t !== t
+      : e === "replicaInfo"
+        ? We(n, t)
+        : e === "styledText"
+          ? Me(n, t)
+          : h(n, t);
+}
+function De(e) {
+  return e === "_deleted" ? "__deleted" : e;
+}
+function w(e) {
+  return e === "__deleted" ? "_deleted" : e;
+}
+function be(e, n) {
+  let { _deleted: t, ...r } = e,
+    i = {};
+  for (let o in r) i[w(o)] = r[o];
+  for (let o of t ?? []) i[o] = n;
+  return i;
+}
+function Ue(e, n) {
+  return `override/${e}/${n}`;
+}
+function k(e) {
+  return e.startsWith("override/");
+}
+function W(e) {
+  let [n, t, r] = e.split("/");
+  return n !== "override" || !t || !r ? [void 0, void 0] : [t, r];
+}
+function q(e, n, t, r) {
+  let i = n.replicaInfo;
+  if (!i) return null;
+  let o = i.overrides,
+    s = o[t],
+    d = s ? void 0 : {};
+  for (let a in r)
+    a !== "_deleted" &&
+      (L(a, s?.[a], r[a]) ||
+        (d || (d = { ...s }),
+        a === "masks"
+          ? (d[w(a)] = O(r[a]))
+          : a === "styledText"
+            ? (d[w(a)] = b(r[a]))
+            : (d[w(a)] = T(r[a]))));
+  let f = r._deleted;
+  if (f && s) for (let a of f) s[a] !== void 0 && (d || (d = { ...s }), delete d[a]);
+  if (!d) return null;
+  let l = n.asDraft(e),
+    u = { ...o };
+  return (
+    oe(d) ? delete u[t] : (u[t] = d),
+    l.setProp("replicaInfo", { ...i, overrides: u }),
+    (l.cache.rebuildReplica = !0),
+    l
+  );
+}
+function gn(e, n, t) {
+  let r = n.replicaInfo;
+  if (!r) return;
+  let i = r.overrides;
+  if (!i?.[t]) return;
+  let o = { ...i };
+  delete o[t];
+  let s = n.asDraft(e);
+  return (s.setProp("replicaInfo", { ...r, overrides: o }), (s.cache.rebuildReplica = !0), s);
+}
+function Se(e, n) {
+  return e === "styledText" && n?.toJS ? n.toJS() : n;
+}
+function Re(e, n, t, r, i) {
+  return n === t || ((n = Se(e, n)), (t = Se(e, t)), h(n, t))
+    ? !1
+    : (n === void 0 ? (r._deleted || (r._deleted = []), r._deleted.push(e)) : (r[De(e)] = n),
+      t === void 0 ? (i._deleted || (i._deleted = []), i._deleted.push(e)) : (i[De(e)] = t),
+      !0);
+}
+function Te(e, n, t, r) {
+  let i = !1,
+    o = {},
+    s = {};
+  for (let d in r) i = Re(d, t[d], r[d], s, o) || i;
+  for (let d in t) d in r || (i = Re(d, t[d], r[d], s, o) || i);
+  if (i) return { id: Ue(e, n), from: s, to: o };
+}
+function Oe(e, n, t) {
+  if (!(y(n) || y(t))) return;
+  let r = n ? n.id : t ? t.id : "",
+    i = n?.replicaInfo?.overrides ?? {},
+    o = t?.replicaInfo?.overrides ?? {};
+  for (let s in o) {
+    let d = o[s];
+    if (!d) continue;
+    let f = Te(r, s, i[s] ?? {}, d);
+    f && e.push(f);
+  }
+  for (let s in i) {
+    if (o[s]) continue;
+    let d = i[s];
+    if (!d) continue;
+    let f = Te(r, s, d, {});
+    f && e.push(f);
+  }
+}
+function ze(e, n) {
+  return !(e.master !== n.master || e.inheritsFrom !== n.inheritsFrom);
+}
+function we(e) {
+  return e instanceof R ? e.toJS() : e;
+}
+function Ge(e, n) {
+  return h(we(e), we(n));
+}
+function M(e, n, t) {
+  return n === t
+    ? !0
+    : !n || !t
+      ? n !== n && t !== t
+      : e === "replicaInfo"
+        ? ze(n, t)
+        : e === "styledText"
+          ? Ge(n, t)
+          : h(n, t);
+}
+function U(e, n) {
+  if (e === "replicaInfo") {
+    let t = n;
+    return (
+      t &&
+      (t.inheritsFrom ? { master: t.master, inheritsFrom: t.inheritsFrom } : { master: t.master })
+    );
+  }
+  if (e === "styledText") {
+    let t = n;
+    return t && t.toJS();
+  }
+  return n;
+}
+function ke(e) {
+  return e.startsWith("$");
+}
+function z(e) {
+  if (e instanceof I) return e;
+  if (Z(e)) return new I({ ...e });
+  if (Array.isArray(e)) return e.map(z);
+  if (_(e) && e.constructor === Object) {
+    let n = Ie(e),
+      t = {};
+    for (let r in n) t[r] = z(n[r]);
+    return t;
+  }
+  return e;
+}
+var Je = ["closure", "save", "transient"];
+function $e(e) {
+  return Je.some((n) => n === e);
+}
+function Ve(e, n) {
+  return $e(e) && _(n) && !(n instanceof I) ? new I(n) : z(n);
+}
+function xe(e) {
+  let n = { ...e };
+  for (let t in e) Reflect.set(n, t, Ve(t, e[t]));
+  return n;
+}
+var _e = new Set(["html", "textContent", "htmlContent"]);
+function V(e, n, t, r, i) {
+  if (!je(r)) return null;
+  let o = e.get(r.parentid);
+  if (!o || (F(o) && !o.isLoaded())) return null;
+  let s = Fe(e, n, t, r);
+  return (e.insertNode(s, r.parentid, i), s);
+}
+function Fe(e, n, t, r) {
+  let i = ye(t);
+  if (!i) throw new Error("Unknown node class: " + t);
+  let o = r.replicaInfo;
+  if (o) {
+    let s = e.get(o.master);
+    if (!s || !D(s)) throw Error("broken diff, replica without master: " + n + " " + o.master);
+    let d = K(o);
+    return re.create(e, s, {
+      overrides: d?.overrides,
+      owner: n,
+      inheritsFrom: d?.inheritsFrom,
+      duplicatedFrom: r.duplicatedFrom,
+      fromDiff: !0,
+    });
+  }
+  return ge(i)
+    ? (N(ue(n), "Invalid EntityReferenceNode ID: " + n), new i({ ...J(r), id: n }))
+    : new i({ ...J(r), id: n });
+}
+function je(e) {
+  return e != null && typeof e.parentid == "string";
+}
+function Ke(e, n) {
+  e.has(n) && e.remove(n);
+}
+function Ae(e, n) {
+  return e === "guidesX" || e === "guidesY"
+    ? Ne(n)
+    : (Q(e) || e === "formSelectOptions") && Array.isArray(n)
+      ? n
+      : e === "replicaInfo"
+        ? K(n)
+        : ie(e) || te(e) || Ce(e)
+          ? n
+          : e === "masks"
+            ? O(n)
+            : e === "styledText"
+              ? b(n)
+              : T(n);
+}
+function J(e) {
+  let n = {};
+  for (let t in e) t !== "_deleted" && (n[t] = Ae(t, e[t]));
+  return n;
+}
+function P(e, n, t, r = !1) {
+  let i = e.get(n);
+  if (!i) return null;
+  let o = t.to;
+  if (o.parentid && i.parentid !== o.parentid) {
+    if (!e.get(o.parentid)) return (e.remove(n), null);
+    e.move(n, o.parentid, t.position);
+  } else t.position !== t.fromPosition && e.move(n, i.parentid, t.position);
+  let s = Be(e, i, o, r);
+  return (s && o.replicaInfo && y(s) && (s.cache.rebuildReplica = !0), s);
+}
+function Ee(e, n, t) {
+  e.setProp(n, t);
+}
+function Be(e, n, t, r = !1) {
+  let i = null,
+    o = X(n),
+    s = !1,
+    d = !1;
+  for (let l in t) {
+    if (l === "_deleted") continue;
+    let u = l;
+    if (u === "id" || u === "__class") continue;
+    let a = t[l];
+    if (l === "replicaInfo" && a) {
+      let p = n.replicaInfo;
+      if (p?.master === a.master && p?.inheritsFrom === a.inheritsFrom) continue;
+      a = { ...a, overrides: p?.overrides ?? {} };
+    }
+    if (M(l, n[u], a)) continue;
+    i || (i = n.asDraft(e));
+    let c = A.reviveProperty(l, a);
+    (l.startsWith("$") ? i.setProp(l, c) : Ee(i, u, c), (s ||= o && E(l)), (d ||= _e.has(l)));
+  }
+  let f = t._deleted;
+  if (f)
+    for (let l of f) {
+      let u = l;
+      u === "id" ||
+        u === "__class" ||
+        (n[u] !== void 0 &&
+          (i || (i = n.asDraft(e)),
+          ke(l) ? i.deleteProp(l) : r ? i.resetToDefault(l) : Ee(i, u, void 0),
+          (s ||= o && E(l)),
+          (d ||= _e.has(l))));
+    }
+  return (i && d && Y(i) && i.cache.resetContent(), s && n.cache.controlPropVersion++, i);
+}
+function $(e, n, t) {
+  let r = t.replicaInfo;
+  if (r?.master) {
+    let o = e.get(r.master);
+    if (!o || !D(o)) return !0;
+  }
+  if (r?.inheritsFrom) {
+    let o = e.get(r.inheritsFrom);
+    if (!o || !(y(o) || D(o))) return !0;
+  }
+  if (!t.parentid) return !1;
+  let i = t.parentid ? e.get(t.parentid) : void 0;
+  return i ? e.isAncestorOfNode(i, n) : !0;
+}
+function He(e, n) {
+  let t = e.length;
+  if (t !== n.length) return !1;
+  for (let r = 0; r < t; r++) if (e.at(r).id !== n[r]) return !1;
+  return !0;
+}
+function Xe(e, n, t) {
+  if (He(n.children, t)) return;
+  let r = [];
+  for (let s = 0, d = t.length; s < d; s++) {
+    let f = e.get(t[s]);
+    f && f.parentid === n.id && r.push(f);
+  }
+  let i = new Set(t),
+    o = n.children;
+  for (let s of o) i.has(s.id) || r.push(s);
+  Ye(o, r) || n.asDraft(e).setProp("children", new ne(r));
+}
+function Ye(e, n) {
+  return e.length !== n.length ? !1 : e.every((t, r) => n[r] === t);
+}
+function x(e, n, t) {
+  if (!e) return;
+  if (t) for (let o of t) o !== "_deleted" && delete e[o];
+  if (!n) return;
+  let r = [];
+  for (let o of n) e[o] !== void 0 && r.push(o);
+  if (r.length === n.length) {
+    t || delete e._deleted;
+    return;
+  }
+  let i = new Set(n);
+  for (let o of r) i.delete(o);
+  if (t) for (let o of t) i.add(o);
+  i.size === 0 ? delete e._deleted : (e._deleted = Array.from(i));
+}
+function ft(e, n) {
+  N(e.id === n.id, "must be the same id");
+  let t = e.to._deleted,
+    r = n.to._deleted;
+  if ((Object.assign(e.to, n.to), x(e.to, t, r), e.from && n.from)) {
+    let i = e.from._deleted,
+      o = n.from._deleted;
+    (Object.assign(e.from, n.from, { ...e.from }), x(e.from, o, i));
+  }
+  (n.diffOverrides && (e.diffOverrides = n.diffOverrides),
+    n.toChildren && (e.toChildren = n.toChildren),
+    n.position !== void 0 && (e.position = n.position),
+    n.fromPosition !== void 0 && e.fromPosition === void 0 && (e.fromPosition = n.fromPosition),
+    n.removed
+      ? (delete e.added, (e.removed = n.removed))
+      : n.added && ((e.added = n.added), delete e.removed),
+    n.previousScope && (e.previousScope = n.previousScope));
+}
+function at(e) {
+  let n = {},
+    t = new Set();
+  for (let r of e)
+    for (let i of r.changes) {
+      let o = n[i.id];
+      if (!o)
+        ((o = { ...i }),
+          (o.to = { ...i.to }),
+          (o.from = { ...i.from }),
+          (n[i.id] = o),
+          i.added && t.add(i.id));
+      else {
+        let s = o.to?._deleted,
+          d = i.to?._deleted;
+        (Object.assign(o.to, i.to), x(o.to, s, d));
+        let f = o.from?._deleted,
+          l = i.from?._deleted;
+        (Object.assign(o.from, i.from, { ...o.from }),
+          x(o.from, l, f),
+          i.diffOverrides && (o.diffOverrides = i.diffOverrides),
+          !o.fromChildren && i.fromChildren && (o.fromChildren = i.fromChildren),
+          i.toChildren && (o.toChildren = i.toChildren),
+          i.position !== void 0 && (o.position = i.position),
+          o.fromPosition === void 0 &&
+            i.fromPosition !== void 0 &&
+            (o.fromPosition = i.fromPosition),
+          i.removed
+            ? t.has(i.id)
+              ? delete n[i.id]
+              : (delete o.added, (o.removed = i.removed))
+            : i.added && ((o.added = i.added), delete o.removed));
+      }
+    }
+  return Object.values(n);
+}
+function Qe(e, n) {
+  let t = [];
+  for (let r = 0, i = n.length; r < i; r++) {
+    let o = n[r];
+    if (!o.to.parentid) continue;
+    let s = e.get(o.id);
+    s && t.push(s.parentid);
+  }
+  return t;
+}
+function Ze(e, n, t) {
+  if (!n.to.parentid) return;
+  let r = e.get(n.id);
+  if (!r) return;
+  let i = t.indexOf(r.parentid);
+  i !== -1 && t.splice(i, 1);
+}
+function lt(e, n) {
+  e.lineage.withoutEditHooks(() => {
+    e.applyingDiffs = !0;
+    try {
+      let t = n,
+        r = Qe(e, n);
+      for (; n.length > 0;) {
+        let i = [];
+        for (let o = 0, s = n.length; o < s; o++) {
+          let d = n[o],
+            f = d.id;
+          d.added
+            ? $(e, d.id, d.to)
+              ? i.push(d)
+              : e.has(f)
+                ? P(e, f, d)
+                : V(e, f, d.added, d.to, d.position)
+            : d.removed || ($(e, d.id, d.to) ? i.push(d) : (Ze(e, d, r), P(e, f, d)));
+        }
+        if (i.length === 0 || i.length === n.length) break;
+        n = i;
+      }
+      for (let i = 0, o = t.length; i < o; i++) {
+        let s = t[i],
+          d = s.toChildren;
+        if (!d || d.length === 0) continue;
+        let f = e.get(s.id);
+        if (f) {
+          if (!f.children) throw Error("assertion failure: node has no children");
+          Xe(e, f, d);
+        }
+      }
+      for (let i = 0, o = t.length; i < o; i++) {
+        let s = t[i];
+        s.removed && Ke(e, s.id);
+      }
+      for (let i = 0, o = t.length; i < o; i++) {
+        let s = t[i];
+        if (!k(s.id)) continue;
+        let [d, f] = W(s.id);
+        if (!d || !f) continue;
+        let l = e.get(d);
+        l && q(e, l, f, s.to);
+      }
+    } finally {
+      e.applyingDiffs = !1;
+    }
+  });
+}
+function ct(e, n, t, r = !1) {
+  let i = on(n, t, r);
+  return (i && e.push(i), Oe(e, n, t), i);
+}
+var en = new Set([...ee, "id", "children", "_deleted"]),
+  nn = { parentid: !0, replicaInfo: !0, originalid: !0, duplicatedFrom: !0 };
+function tn(e, n) {
+  let t = e.length;
+  if (t !== n.length) return !1;
+  for (let r = 0; r < t; r++) if (e.at(r).id !== n.at(r).id) return !1;
+  return !0;
+}
+function rn(e, n, t) {
+  (n && t && tn(n, t)) ||
+    (n && (e.fromChildren = n.map((r) => r.id)), t && (e.toChildren = t.map((r) => r.id)));
+}
+function on(e, n, t = !1) {
+  let i = { id: n ? n.id : e ? e.id : "", from: {}, to: {} };
+  if (n)
+    if (e) {
+      if (S(n)) return;
+    } else {
+      if (S(n)) return;
+      let s = n.__class;
+      ((e = j(s)), (i.added = s));
+    }
+  else {
+    if (!e) throw Error("assertion failed: at least one node must be given");
+    if (S(e)) return;
+    let s = e.__class;
+    ((n = j(s)), (i.removed = s));
+  }
+  let o = sn(e, n, i);
+  if ((t && (delete i.to.parentid, delete i.from.parentid), !!o))
+    return (
+      (n instanceof fe ||
+        n instanceof ae ||
+        (n instanceof de &&
+          (i.added ||
+            i.removed ||
+            n.type === "vectorSet" ||
+            n.type === "vector" ||
+            !i.to.codeComponentIdentifier)) ||
+        n instanceof se ||
+        n instanceof he ||
+        (i.added && n instanceof ce) ||
+        (i.added && n instanceof le) ||
+        (i.added && n instanceof ve) ||
+        n instanceof pe ||
+        n instanceof me) &&
+        (i.ignoreInUndo = !0),
+      i
+    );
+}
+function sn(e, n, t) {
+  let r = t.from,
+    i = t.to,
+    o = y(e) || y(n),
+    s = !1,
+    d = new Set([...n.keys(), ...e.keys()]);
+  for (let f of d) {
+    if (o) {
+      if (!(f in nn)) continue;
+    } else {
+      if (f === "children") {
+        (rn(t, e.children, n.children), (t.fromChildren || t.toChildren) && (s = !0));
+        continue;
+      }
+      if (en.has(f)) continue;
+    }
+    let l = f,
+      u = e[l],
+      a = n[l];
+    M(f, u, a) ||
+      (u === void 0 ? (r._deleted || (r._deleted = []), r._deleted.push(f)) : (r[f] = U(f, u)),
+      a === void 0 ? (i._deleted || (i._deleted = []), i._deleted.push(f)) : (i[f] = U(f, a)),
+      (s = !0));
+  }
+  if (!(!s && !t.added && !t.removed)) return t;
+}
+A.setGeneric("reviveProperty", Ae);
+function G(e, n, t) {
+  if (e.removed) {
+    n.remove(e.id);
+    return;
+  }
+  if (e.added) {
+    if (!je(e.to)) return;
+    if (!n.has(e.id)) {
+      let d = Fe(n.getCanvasTreeProxy(), e.id, e.added, e.to);
+      n.insertNode(d, e.to.parentid, e.position);
+      return;
+    }
+  }
+  if (e.to.parentid || e.position !== e.fromPosition) {
+    let d = t.getParentId(e.id);
+    if (d === g) return;
+    let f = e.to.parentid ?? d;
+    f &&
+      f !== g &&
+      (n.dataNodeSharedState.retainNodeProxies && n.has(e.id)
+        ? n.move(e.id, f, e.position)
+        : t.moveNode(e.id, f, e.position));
+  }
+  let { _deleted: r, parentid: i, ...o } = e.to,
+    s = n.getAnyNode(e.id);
+  if (s) {
+    for (let d of r ?? []) o[d] = void 0;
+    s.set(J(o));
+  }
+}
+function dn(e, n, t, r, i) {
+  let o = n.to.parentid;
+  if (!o) return !1;
+  let s = e.get(o);
+  return !s || (F(s) && !s.isLoaded()) || t.getParentId(n.id) === g
+    ? !1
+    : B(e, n.id, o, n.position, t, r, n.to, i);
+}
+function B(e, n, t, r, i, o, s, d) {
+  if (e.has(n)) return !0;
+  let f = i.getObject(n);
+  if (!f || typeof f.__class != "string") return !1;
+  let { children: l, parentid: u, id: a, ...c } = f,
+    p = { ...c, ...s, ...d?.getEditedNodeFor(n), parentid: t };
+  if (!V(e, n, f.__class, p, r)) return !1;
+  for (let m of i.getChildrenIds(n))
+    o.has(m) || (i.getParentId(m) !== g && B(e, m, n, void 0, i, o, void 0, d));
+  return !0;
+}
+function fn(e, n, t, r) {
+  let i = new Set(),
+    o = new Set();
+  for (let d of n) (o.add(d.id), d.added && (e.has(d.id) || i.add(d.id)));
+  let s = (d) => {
+    if (!r) return !1;
+    let f = r.get(d);
+    if (!f) return !1;
+    let l = r.getScopeNodeFor(f)?.id;
+    if (!l) return !1;
+    let u = e.get(l);
+    return u != null && !u.isLoaded();
+  };
+  for (let d of n) {
+    if (!d.removed || e.has(d.id) || r?.get(d.id)) continue;
+    let f = t.getParentId(d.id);
+    f === void 0 || f === g || t.removeNode(d.id);
+  }
+  for (let d of i)
+    for (let f of t.getChildrenIds(d)) o.has(f) || e.has(f) || s(f) || t.removeNode(f);
+}
+function an(e, n, t, r, i) {
+  e.applyingDiffs = !0;
+  let o = i?.transient === !0;
+  t && !o && fn(e, n, t, r);
+  let s = new Set(),
+    d = new Set();
+  for (let a of n) (a.added && d.add(a.id), (a.added || a.to.parentid) && s.add(a.id));
+  let f = n,
+    l = new Set(),
+    u = n.filter((a) => !k(a.id));
+  for (; u.length > 0;) {
+    let a = [];
+    for (let c of u) {
+      let p = c.id;
+      if (l.has(p)) {
+        if (!c.added) continue;
+        l.delete(p);
+      }
+      if (t && r && !e.has(p))
+        if (c.added) {
+          let m = r.get(c.to.parentid);
+          if (!m) {
+            a.push(c);
+            continue;
+          }
+          let v = r.getScopeNodeFor(m)?.id,
+            C = e.get(v);
+          if (C && !C.isLoaded()) {
+            (d.delete(p), o || G(c, r, t));
+            continue;
+          }
+        } else if (c.removed) {
+          (l.add(p), o || G(c, r, t));
+          continue;
+        } else if (c.to.parentid && !e.has(c.to.parentid) && d.has(c.to.parentid)) {
+          a.push(c);
+          continue;
+        } else if (dn(e, c, t, s, r)) {
+          P(e, p, c, !0);
+          continue;
+        } else {
+          o || G(c, r, t);
+          continue;
+        }
+      if (c.removed) {
+        (Ke(e, p), l.add(p));
+        continue;
+      }
+      if ($(e, c.id, c.to)) {
+        a.push(c);
+        continue;
+      }
+      if (c.added) {
+        if ((d.delete(p), e.has(p))) P(e, p, c, !0);
+        else if (V(e, p, c.added, c.to, c.position) && t && !o)
+          for (let v of t.getChildrenIds(p))
+            s.has(v) || (t.getParentId(v) !== g && B(e, v, p, void 0, t, s, void 0, r));
+      } else P(e, p, c, !0);
+    }
+    if (a.length === 0 || a.length === u.length) break;
+    u = a;
+  }
+  for (let a of f) {
+    if (l.has(a.id) || !k(a.id)) continue;
+    let [c, p] = W(a.id);
+    if (!c || !p) continue;
+    let m = e.get(c);
+    if (!m && o) continue;
+    let v = m ? null : r?.get(c),
+      C = m ?? v;
+    if (!C) {
+      N(t, "Store must be defined to write data-only changes");
+      let Le = xe(be(a.to, g));
+      t.updateNestedObject([c, "replicaInfo", "overrides", p], Le);
+      continue;
+    }
+    let H = m ? e : r?.getCanvasTreeProxy();
+    (N(H), q(H, C, p, a.to));
+  }
+  e.applyingDiffs = !1;
+}
+function ut(e, n, t, r, i) {
+  let o = n
+    .map((s) => {
+      let d = s.id,
+        f = s.added,
+        l = s.removed,
+        u = s.to,
+        a = s.from;
+      if (!a) throw Error("Changes cannot be reversed if they lack the 'from' field.");
+      let c = s.diffOverrides,
+        p = s.previousScope,
+        m = s.fromPosition,
+        v = s.position;
+      return {
+        id: d,
+        added: l,
+        removed: f,
+        to: a,
+        from: u,
+        position: m,
+        fromPosition: v,
+        diffOverrides: c,
+        previousScope: p,
+      };
+    })
+    .reverse();
+  an(e, o, t, r, i);
+}
+export {
+  be as a,
+  k as b,
+  W as c,
+  q as d,
+  gn as e,
+  Oe as f,
+  ke as g,
+  Ve as h,
+  xe as i,
+  J as j,
+  Be as k,
+  ft as l,
+  at as m,
+  lt as n,
+  ct as o,
+  on as p,
+  an as q,
+  ut as r,
+};
+//# sourceMappingURL=chunk-2VO4DWQV.mjs.map

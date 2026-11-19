@@ -1,0 +1,26 @@
+import { a as t } from "chunk-QFU6OGL3.mjs";
+import { a as l } from "chunk-2FCXHKEL.mjs";
+import { a as k } from "chunk-SWYZG2NI.mjs";
+import { e as n } from "chunk-WLHSDIGQ.mjs";
+var m = n(k());
+var i = "b1arctdq",
+  d = "csx2rjz",
+  f = "n170cdb6";
+var a = n(l()),
+  s = m.default.forwardRef(function (o, e) {
+    let { variant: c, children: g, className: p, as: b = "div", ...u } = o;
+    return (0, a.jsx)(b, {
+      ...u,
+      ref: e,
+      className: t(i, c, (o.onClick || o.onMouseDown) && d, p),
+      children: g,
+    });
+  });
+var y = ({ as: r, onClick: o, onMouseDown: e, variant: c }) =>
+    (0, a.jsx)(s, { as: r, onClick: o, onMouseDown: e, variant: c, children: "Upgrade" }),
+  P = ({ className: r, onClick: o, onMouseDown: e }) =>
+    (0, a.jsx)(s, { onClick: o, onMouseDown: e, className: t(f, r), children: "New" }),
+  M = ({ onClick: r, onMouseDown: o }) =>
+    (0, a.jsx)(s, { onClick: r, onMouseDown: o, variant: "componentTintDimmed", children: "Beta" });
+export { s as a, y as b, P as c, M as d };
+//# sourceMappingURL=chunk-SQ6A2IIP.mjs.map

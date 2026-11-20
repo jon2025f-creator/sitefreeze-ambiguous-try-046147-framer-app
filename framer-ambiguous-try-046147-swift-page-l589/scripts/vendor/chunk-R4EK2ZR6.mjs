@@ -1,0 +1,33 @@
+var i = "clipboard-copy";
+async function a(t) {
+  if (navigator.clipboard)
+    return navigator.clipboard.writeText(t).catch(function (o) {
+      throw o !== void 0 ? o : new DOMException("The request is not allowed", "NotAllowedError");
+    });
+  let e = document.createElement("span");
+  (e.setAttribute(i, ""),
+    (e.textContent = t),
+    (e.style.whiteSpace = "pre"),
+    document.body.appendChild(e));
+  let n = window.getSelection(),
+    r = window.document.createRange();
+  (n?.removeAllRanges(), r.selectNode(e), n?.addRange(r));
+  let c = !1;
+  try {
+    c = window.document.execCommand("copy");
+  } catch (o) {
+    console.error("Could not copy:", o);
+  }
+  return (
+    n?.removeAllRanges(),
+    window.document.body.removeChild(e),
+    c
+      ? Promise.resolve()
+      : Promise.reject(new DOMException("The request is not allowed", "NotAllowedError"))
+  );
+}
+function l(t) {
+  return t.target instanceof HTMLElement && t.target.hasAttribute(i);
+}
+export { a, l as b };
+//# sourceMappingURL=chunk-R4EK2ZR6.mjs.map

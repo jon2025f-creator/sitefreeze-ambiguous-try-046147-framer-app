@@ -1,0 +1,1749 @@
+import { r as N } from "chunk-CHOBKQSX.mjs";
+import { a as w, h as f } from "chunk-PPVLWIXN.mjs";
+import { a as H } from "chunk-BWOBSYK2.mjs";
+import { b as c, f as D, g as m, h as $, p as h } from "chunk-ARJ7WQTJ.mjs";
+import { b as O, c as u } from "chunk-4JY5UMT2.mjs";
+var te = ["baseten", "fireworks", "cursive"],
+  t = { provider: "baseten", modelId: "contour-1", environment: "production", deployment: "" };
+function re(e) {
+  return te.some((a) => a === e);
+}
+function b(e, a, n) {
+  let o = e[a];
+  return c(o) ? o : n;
+}
+function je(e) {
+  return m(e)
+    ? {
+        provider: re(e.provider) ? e.provider : t.provider,
+        modelId: b(e, "modelId", t.modelId),
+        environment: b(e, "environment", t.environment),
+        deployment: b(e, "deployment", t.deployment),
+      }
+    : { ...t };
+}
+function Xe() {
+  return H()?.stores.persistedUserDefaults.contourOverride ?? t;
+}
+function y(e, a) {
+  return e.trim() || a;
+}
+function Q(e = t) {
+  return y(e.modelId, t.modelId);
+}
+function z(e = t) {
+  let a = Q(e),
+    n = e.deployment.trim();
+  if (e.provider === "cursive") return a;
+  if (n) return `${a}:${n}`;
+  if (e.provider === "fireworks") return a;
+  let o = y(e.environment, t.environment);
+  return o === "production" ? a : `${a}:${o}`;
+}
+function le(e = t) {
+  return e.deployment.trim().length > 0;
+}
+function qe(e = t) {
+  return (
+    e.provider !== t.provider ||
+    Q(e) !== t.modelId ||
+    y(e.environment, t.environment) !== t.environment ||
+    le(e)
+  );
+}
+var U = [
+    {
+      languageModel: "contour/dev",
+      displayName: "Contour Dev",
+      base: "dev",
+      selection: { override: "debug-bar" },
+    },
+    {
+      languageModel: "contour/iris-latest",
+      displayName: "Contour Iris Latest",
+      base: "iris",
+      selection: { provider: "baseten", alias: "contour-iris" },
+    },
+    {
+      languageModel: "contour/triton-latest",
+      displayName: "Contour Triton Latest",
+      base: "triton",
+      selection: { provider: "fireworks", modelId: "contour-triton" },
+    },
+    {
+      languageModel: "contour/glyph-latest",
+      displayName: "Contour Glyph Latest",
+      base: "glyph",
+      selection: { provider: "cursive", modelId: "glm-5.3-flash-framer" },
+    },
+  ],
+  de = [
+    ...U,
+    {
+      languageModel: "contour/glyph-fireworks",
+      displayName: "Contour Glyph (Fireworks)",
+      base: "glyph",
+      selection: { provider: "fireworks", modelId: "contour-glyph" },
+    },
+    {
+      languageModel: "contour/iris-v8",
+      displayName: "Contour Iris v8",
+      base: "iris",
+      selection: { provider: "baseten", modelId: "qvvy52rq", deployment: "w6pyrm2" },
+    },
+    {
+      languageModel: "contour/iris-v8.1",
+      displayName: "Contour Iris v8.1",
+      base: "iris",
+      selection: { provider: "baseten", modelId: "qvvy52rq", deployment: "3yv1jvl" },
+    },
+    {
+      languageModel: "contour/iris-v8.2",
+      displayName: "Contour Iris v8.2",
+      base: "iris",
+      selection: { provider: "baseten", modelId: "w7p2ke6w", deployment: "wozddm7" },
+    },
+    {
+      languageModel: "contour/iris-v12",
+      displayName: "Contour Iris v12",
+      base: "iris",
+      selection: { provider: "baseten", alias: "contour-v12think-jul19" },
+    },
+    {
+      languageModel: "contour-1",
+      displayName: "Contour",
+      base: "hex",
+      selection: { provider: "baseten", alias: "contour-1" },
+    },
+  ],
+  C = de,
+  aa = U.map((e) => e.languageModel),
+  k = new Map(C.map((e) => [e.languageModel, e]));
+function p(e) {
+  return k.has(e);
+}
+function na(e, a) {
+  let n = k.get(e);
+  O(n, "Unknown Contour variant");
+  let { selection: o } = n;
+  return "override" in o
+    ? z(a ?? t)
+    : "alias" in o
+      ? o.alias
+      : o.provider !== "baseten"
+        ? o.modelId
+        : `${o.modelId}:${o.deployment}`;
+}
+function sa(e) {
+  let a = k.get(e);
+  return (O(a, "Unknown Contour variant"), "override" in a.selection);
+}
+function L(e) {
+  let a = C.map((n) => [n.languageModel, e]);
+  return Object.fromEntries(a);
+}
+function P(e) {
+  let a = C.map((n) => [n.languageModel, e(n)]);
+  return Object.fromEntries(a);
+}
+function oa(e, a) {
+  let n = C.filter((o) => "override" in o.selection || o.selection.provider === e).map((o) => [
+    o.languageModel,
+    a(o),
+  ]);
+  return Object.fromEntries(n);
+}
+var me = {
+    "openai/gpt-3.5-turbo-1106": !1,
+    "openai/gpt-4": !1,
+    "openai/gpt-4o-2024-08-06": !1,
+    "openai/gpt-4o-mini-2024-07-18": !1,
+    "google/gemini-2.0-flash-001": !1,
+    "google/gemini-2.5-flash": !1,
+    "google/gemini-2.5-flash-lite": !1,
+    "google/gemini-2.5-pro": !1,
+    "google/gemini-3-flash-preview": !1,
+    "google/gemini-3.1-pro-preview-customtools": !1,
+    "google/gemini-3.1-flash-lite-preview": !1,
+    "google/gemini-3.5-flash": !1,
+    "google/gemini-3.7-flash": !1,
+    "google/gemini-3.8-flash": !1,
+    "openai/gpt-4.1": !1,
+    "openai/gpt-5.1": !1,
+    "openai/gpt-5.2": !1,
+    "openai/gpt-5.2-codex": !1,
+    "openai/gpt-5.1-codex-mini": !1,
+    "openai/gpt-5.3-codex": !1,
+    "openai/gpt-5.4": !1,
+    "openai/gpt-5.5": !1,
+    "openai/gpt-5.6-sol": !1,
+    "openai/gpt-5.6-terra": !1,
+    "openai/gpt-5.6-luna": !1,
+    "openai/gpt-6-astra": !1,
+    "openai/gpt-6.2-astra": !1,
+    "openai/gpt-6-sol": !1,
+    "openai/gpt-6.1-sol": !1,
+    "openai/gpt-6.2-sol": !1,
+    "openai/gpt-6.1-terra": !1,
+    "openai/gpt-6-luna": !1,
+    "openai/gpt-5.4-mini": !1,
+    "anthropic/claude-haiku-4.5": !1,
+    "anthropic/claude-haiku-5.5": !1,
+    "anthropic/claude-sonnet-4.5": !1,
+    "anthropic/claude-sonnet-4.6": !1,
+    "anthropic/claude-sonnet-5": !1,
+    "anthropic/claude-sonnet-5.5": !1,
+    "anthropic/claude-opus-4.5": !1,
+    "anthropic/claude-opus-4.6": !1,
+    "anthropic/claude-opus-4.7": !1,
+    "anthropic/claude-opus-4.8": !0,
+    "anthropic/claude-opus-5": !0,
+    "anthropic/claude-opus-5.5": !0,
+    "anthropic/claude-fable-5": !1,
+    "anthropic/claude-fable-5.1": !1,
+    "anthropic/claude-fable-5.2": !1,
+    "deepseek/deepseek-v4-pro": !1,
+    "deepseek/deepseek-v4-flash": !1,
+    "deepseek/deepseek-v4.1-flash": !1,
+    "x-ai/grok-build-0.1": !1,
+    "moonshotai/Kimi-K2.5": !1,
+    "moonshotai/Kimi-K2.6": !1,
+    "moonshotai/Kimi-K2.7-Code": !1,
+    "moonshotai/kimi-k3": !1,
+    "moonshotai/kimi-k3.1-pro": !1,
+    "meta/muse-spark-1.1": !1,
+    "meta/muse-spark-1.3": !1,
+    "qwen/qwen3-vl-235b-a22b-instruct": !1,
+    "qwen/qwen3.6-flash": !1,
+    "z-ai/glm-5.3-flash": !1,
+    "xiaomi/mimo-v2.6-pro": !1,
+    "thinkingmachines/inkling": !1,
+    "thinkingmachines/inkling-small": !1,
+    "openai/gpt-oss-120b": !1,
+    "openai/gpt-oss-20b": !1,
+    "contour-1": !1,
+    "contour/dev": !1,
+    "contour/iris-v8": !1,
+    "contour/iris-v8.1": !1,
+    "contour/iris-v8.2": !1,
+    "contour/iris-v12": !1,
+    "contour/iris-latest": !1,
+    "contour/triton-latest": !1,
+    "contour/glyph-latest": !1,
+    "contour/glyph-fireworks": !1,
+  },
+  fe = {
+    "openai/gpt-3.5-turbo-1106": !1,
+    "openai/gpt-4": !1,
+    "openai/gpt-4o-2024-08-06": !0,
+    "openai/gpt-4o-mini-2024-07-18": !0,
+    "google/gemini-2.0-flash-001": !1,
+    "google/gemini-2.5-flash": !1,
+    "google/gemini-2.5-flash-lite": !1,
+    "google/gemini-2.5-pro": !1,
+    "google/gemini-3-flash-preview": !1,
+    "google/gemini-3.1-pro-preview-customtools": !1,
+    "google/gemini-3.1-flash-lite-preview": !1,
+    "google/gemini-3.5-flash": !1,
+    "google/gemini-3.7-flash": !1,
+    "google/gemini-3.8-flash": !1,
+    "openai/gpt-4.1": !0,
+    "openai/gpt-5.1": !0,
+    "openai/gpt-5.2": !0,
+    "openai/gpt-5.2-codex": !1,
+    "openai/gpt-5.1-codex-mini": !1,
+    "openai/gpt-5.3-codex": !1,
+    "openai/gpt-5.4": !0,
+    "openai/gpt-5.5": !0,
+    "openai/gpt-5.6-sol": !0,
+    "openai/gpt-5.6-terra": !0,
+    "openai/gpt-5.6-luna": !0,
+    "openai/gpt-6-astra": !0,
+    "openai/gpt-6.2-astra": !0,
+    "openai/gpt-6-sol": !0,
+    "openai/gpt-6.1-sol": !0,
+    "openai/gpt-6.2-sol": !0,
+    "openai/gpt-6.1-terra": !0,
+    "openai/gpt-6-luna": !0,
+    "openai/gpt-5.4-mini": !0,
+    "anthropic/claude-haiku-4.5": !1,
+    "anthropic/claude-haiku-5.5": !1,
+    "anthropic/claude-sonnet-4.5": !1,
+    "anthropic/claude-sonnet-4.6": !1,
+    "anthropic/claude-sonnet-5": !1,
+    "anthropic/claude-sonnet-5.5": !1,
+    "anthropic/claude-opus-4.5": !1,
+    "anthropic/claude-opus-4.6": !1,
+    "anthropic/claude-opus-4.7": !1,
+    "anthropic/claude-opus-4.8": !1,
+    "anthropic/claude-opus-5": !1,
+    "anthropic/claude-opus-5.5": !1,
+    "anthropic/claude-fable-5": !1,
+    "anthropic/claude-fable-5.1": !1,
+    "anthropic/claude-fable-5.2": !1,
+    "deepseek/deepseek-v4-pro": !1,
+    "deepseek/deepseek-v4-flash": !1,
+    "deepseek/deepseek-v4.1-flash": !1,
+    "x-ai/grok-build-0.1": !1,
+    "moonshotai/Kimi-K2.5": !1,
+    "moonshotai/Kimi-K2.6": !1,
+    "moonshotai/Kimi-K2.7-Code": !1,
+    "moonshotai/kimi-k3": !1,
+    "moonshotai/kimi-k3.1-pro": !1,
+    "meta/muse-spark-1.1": !1,
+    "meta/muse-spark-1.3": !1,
+    "qwen/qwen3-vl-235b-a22b-instruct": !1,
+    "qwen/qwen3.6-flash": !1,
+    "z-ai/glm-5.3-flash": !1,
+    "xiaomi/mimo-v2.6-pro": !1,
+    "thinkingmachines/inkling": !1,
+    "thinkingmachines/inkling-small": !1,
+    "openai/gpt-oss-120b": !1,
+    "openai/gpt-oss-20b": !1,
+    "contour-1": !1,
+    "contour/dev": !1,
+    "contour/iris-v8": !1,
+    "contour/iris-v8.1": !1,
+    "contour/iris-v8.2": !1,
+    "contour/iris-v12": !1,
+    "contour/iris-latest": !1,
+    "contour/triton-latest": !1,
+    "contour/glyph-latest": !1,
+    "contour/glyph-fireworks": !1,
+  },
+  ca = {
+    "openai/gpt-3.5-turbo-1106": !1,
+    "openai/gpt-4": !1,
+    "openai/gpt-4o-2024-08-06": !1,
+    "openai/gpt-4o-mini-2024-07-18": !1,
+    "google/gemini-2.0-flash-001": !1,
+    "google/gemini-2.5-flash": !1,
+    "google/gemini-2.5-flash-lite": !1,
+    "google/gemini-2.5-pro": !1,
+    "google/gemini-3-flash-preview": !1,
+    "google/gemini-3.1-pro-preview-customtools": !1,
+    "google/gemini-3.1-flash-lite-preview": !1,
+    "google/gemini-3.5-flash": !1,
+    "google/gemini-3.7-flash": !1,
+    "google/gemini-3.8-flash": !1,
+    "openai/gpt-4.1": !1,
+    "openai/gpt-5.1": !1,
+    "openai/gpt-5.2": !1,
+    "openai/gpt-5.2-codex": !1,
+    "openai/gpt-5.1-codex-mini": !1,
+    "openai/gpt-5.3-codex": !1,
+    "openai/gpt-5.4": !1,
+    "openai/gpt-5.5": !1,
+    "openai/gpt-5.6-sol": !1,
+    "openai/gpt-5.6-terra": !1,
+    "openai/gpt-5.6-luna": !1,
+    "openai/gpt-6-astra": !0,
+    "openai/gpt-6.2-astra": !0,
+    "openai/gpt-6-sol": !1,
+    "openai/gpt-6.1-sol": !0,
+    "openai/gpt-6.2-sol": !0,
+    "openai/gpt-6.1-terra": !1,
+    "openai/gpt-6-luna": !1,
+    "openai/gpt-5.4-mini": !1,
+    "anthropic/claude-haiku-4.5": !1,
+    "anthropic/claude-haiku-5.5": !1,
+    "anthropic/claude-sonnet-4.5": !1,
+    "anthropic/claude-sonnet-4.6": !1,
+    "anthropic/claude-sonnet-5": !1,
+    "anthropic/claude-sonnet-5.5": !1,
+    "anthropic/claude-opus-4.5": !1,
+    "anthropic/claude-opus-4.6": !1,
+    "anthropic/claude-opus-4.7": !1,
+    "anthropic/claude-opus-4.8": !1,
+    "anthropic/claude-opus-5": !1,
+    "anthropic/claude-opus-5.5": !1,
+    "anthropic/claude-fable-5": !1,
+    "anthropic/claude-fable-5.1": !1,
+    "anthropic/claude-fable-5.2": !1,
+    "deepseek/deepseek-v4-pro": !1,
+    "deepseek/deepseek-v4-flash": !1,
+    "deepseek/deepseek-v4.1-flash": !1,
+    "x-ai/grok-build-0.1": !1,
+    "moonshotai/Kimi-K2.5": !1,
+    "moonshotai/Kimi-K2.6": !1,
+    "moonshotai/Kimi-K2.7-Code": !1,
+    "moonshotai/kimi-k3": !1,
+    "moonshotai/kimi-k3.1-pro": !1,
+    "meta/muse-spark-1.1": !1,
+    "meta/muse-spark-1.3": !1,
+    "qwen/qwen3-vl-235b-a22b-instruct": !1,
+    "qwen/qwen3.6-flash": !1,
+    "z-ai/glm-5.3-flash": !1,
+    "xiaomi/mimo-v2.6-pro": !1,
+    "thinkingmachines/inkling": !1,
+    "thinkingmachines/inkling-small": !1,
+    "openai/gpt-oss-120b": !1,
+    "openai/gpt-oss-20b": !1,
+    "contour-1": !1,
+    "contour/dev": !1,
+    "contour/iris-v8": !1,
+    "contour/iris-v8.1": !1,
+    "contour/iris-v8.2": !1,
+    "contour/iris-v12": !1,
+    "contour/iris-latest": !1,
+    "contour/triton-latest": !1,
+    "contour/glyph-latest": !1,
+    "contour/glyph-fireworks": !1,
+  },
+  W = { multiplier: 3, until: Date.parse("2027-03-01T08:00:00Z") },
+  pe = {
+    "openai/gpt-6.2-astra": { multiplier: 6, introductory: W },
+    "openai/gpt-6.2-sol": { multiplier: 6, introductory: W },
+    "openai/gpt-6-astra": { multiplier: 6 },
+    "openai/gpt-6.1-sol": { multiplier: 6 },
+  },
+  ge = 2;
+function Y(e, a) {
+  if (a === "default") return 1;
+  if (a === "fast") return ge;
+  let n = pe[e];
+  if (n)
+    return n.introductory && Date.now() < n.introductory.until
+      ? n.introductory.multiplier
+      : n.multiplier;
+}
+function ma(e, a) {
+  if (a === "default") return;
+  let n = Y(e, a);
+  if (n !== void 0)
+    return a === "fast"
+      ? `is up to 2.5\xD7 faster and uses ${n}\xD7 as many credits as Default.`
+      : `is the fastest mode OpenAI offers and uses ${n}\xD7 as many credits as Default.`;
+}
+function fa(e, a) {
+  let n = Y(e, a);
+  return n === void 0 ? void 0 : `${n}\xD7`;
+}
+function pa(e) {
+  return me[e] || fe[e];
+}
+var Ge = 0.75,
+  j = 25e4;
+var he = {
+  "openai/gpt-3.5-turbo-1106": 16385,
+  "openai/gpt-4": 8191,
+  "openai/gpt-4o-2024-08-06": 128e3,
+  "openai/gpt-4o-mini-2024-07-18": 128e3,
+  "google/gemini-2.0-flash-001": 1048576,
+  "google/gemini-2.5-flash": 1048576,
+  "google/gemini-2.5-flash-lite": 1048576,
+  "google/gemini-2.5-pro": 1048576,
+  "google/gemini-3.1-pro-preview-customtools": 1048576,
+  "google/gemini-3.1-flash-lite-preview": 1048576,
+  "google/gemini-3-flash-preview": 1048576,
+  "google/gemini-3.5-flash": 1048576,
+  "google/gemini-3.7-flash": 1048576,
+  "google/gemini-3.8-flash": 1048576,
+  "qwen/qwen3.6-flash": 1e6,
+  "openai/gpt-4.1": 1047576,
+  "openai/gpt-5.1": 4e5,
+  "openai/gpt-5.2": 4e5,
+  "openai/gpt-5.2-codex": 4e5,
+  "openai/gpt-5.1-codex-mini": 4e5,
+  "openai/gpt-5.3-codex": 4e5,
+  "openai/gpt-5.4": [272e3, 105e4],
+  "openai/gpt-5.5": [272e3, 105e4],
+  "openai/gpt-5.6-sol": [272e3, 105e4],
+  "openai/gpt-5.6-terra": [272e3, 105e4],
+  "openai/gpt-5.6-luna": [272e3, 105e4],
+  "openai/gpt-6-astra": [272e3, 105e4],
+  "openai/gpt-6.2-astra": [272e3, 105e4],
+  "openai/gpt-6-sol": [272e3, 105e4],
+  "openai/gpt-6.1-sol": [272e3, 105e4],
+  "openai/gpt-6.2-sol": [272e3, 105e4],
+  "openai/gpt-6.1-terra": [272e3, 105e4],
+  "openai/gpt-6-luna": [272e3, 105e4],
+  "openai/gpt-5.4-mini": 4e5,
+  "anthropic/claude-haiku-4.5": 2e5,
+  "anthropic/claude-haiku-5.5": [5e5, 7e5, 1e6],
+  "moonshotai/Kimi-K2.5": 262144,
+  "moonshotai/Kimi-K2.6": 262144,
+  "moonshotai/Kimi-K2.7-Code": 262144,
+  "moonshotai/kimi-k3": 1048576,
+  "moonshotai/kimi-k3.1-pro": 1048576,
+  "meta/muse-spark-1.1": 1048576,
+  "meta/muse-spark-1.3": 1048576,
+  "deepseek/deepseek-v4-pro": 1048576,
+  "deepseek/deepseek-v4-flash": 1048576,
+  "deepseek/deepseek-v4.1-flash": 1048576,
+  "x-ai/grok-build-0.1": [2e5, 256e3],
+  "qwen/qwen3-vl-235b-a22b-instruct": 262144,
+  "z-ai/glm-5.3-flash": 1048576,
+  "xiaomi/mimo-v2.6-pro": 1048576,
+  "thinkingmachines/inkling": 1048576,
+  "thinkingmachines/inkling-small": 1048576,
+  "openai/gpt-oss-120b": 131072,
+  "openai/gpt-oss-20b": 131072,
+  "anthropic/claude-opus-4.5": 2e5,
+  "anthropic/claude-sonnet-4.5": [2e5, 3e5, 1e6],
+  "anthropic/claude-sonnet-4.6": [5e5, 7e5, 1e6],
+  "anthropic/claude-sonnet-5": [5e5, 7e5, 1e6],
+  "anthropic/claude-sonnet-5.5": [5e5, 7e5, 1e6],
+  "anthropic/claude-opus-4.6": [5e5, 7e5, 1e6],
+  "anthropic/claude-opus-4.7": [5e5, 7e5, 1e6],
+  "anthropic/claude-opus-4.8": [5e5, 7e5, 1e6],
+  "anthropic/claude-opus-5": [5e5, 7e5, 1e6],
+  "anthropic/claude-opus-5.5": [5e5, 7e5, 1e6],
+  "anthropic/claude-fable-5": [5e5, 7e5, 1e6],
+  "anthropic/claude-fable-5.1": [5e5, 7e5, 1e6],
+  "anthropic/claude-fable-5.2": [5e5, 7e5, 1e6],
+  ...L(262144),
+  "contour/glyph-latest": 1048576,
+};
+function Ce(e, a) {
+  let n = he[e];
+  if (D(n)) return n;
+  let o = n.length === 2 ? n[1] : n[2];
+  switch (a) {
+    case "lower":
+      return n[0];
+    case "upper":
+      return n.length === 2 ? o : n[1];
+    case "max":
+      return o;
+    default:
+      u(a, "Context limit cap must be supported.");
+  }
+}
+function ga(e) {
+  let a = Ce(e, "lower");
+  return a > j ? j : Math.floor(a * Ge);
+}
+var J = ["none", "enabled", "minimal", "low", "medium", "high", "xhigh", "max", "interleaved"],
+  Pe = ["low", "medium", "high", "xhigh"],
+  Te = {
+    none: "None",
+    enabled: "Enabled",
+    minimal: "Minimal",
+    low: "Light",
+    medium: "Medium",
+    high: "High",
+    xhigh: "Extra High",
+    max: "Max",
+    interleaved: "Adaptive",
+  };
+function Ga(e) {
+  return Te[e];
+}
+var X = new Set(["low", "high", "max"]),
+  q = new Set(["low", "high", "max"]),
+  ee = {
+    "openai/gpt-3.5-turbo-1106": new Set(["none", "minimal", "low", "medium", "high"]),
+    "openai/gpt-4": new Set(["none", "minimal", "low", "medium", "high"]),
+    "openai/gpt-4o-2024-08-06": new Set(["none", "minimal", "low", "medium", "high"]),
+    "openai/gpt-4o-mini-2024-07-18": new Set(["none", "minimal", "low", "medium", "high"]),
+    "google/gemini-2.0-flash-001": new Set(["none", "minimal", "low", "medium", "high"]),
+    "google/gemini-2.5-flash": new Set(["none", "minimal", "low", "medium", "high"]),
+    "google/gemini-2.5-flash-lite": new Set(["none", "minimal", "low", "medium", "high"]),
+    "google/gemini-2.5-pro": new Set(["none", "minimal", "low", "medium", "high"]),
+    "google/gemini-3-flash-preview": new Set(["none", "minimal", "low", "medium", "high"]),
+    "google/gemini-3.1-pro-preview-customtools": new Set(["minimal", "low", "medium", "high"]),
+    "google/gemini-3.1-flash-lite-preview": new Set(["none", "minimal", "low", "medium", "high"]),
+    "google/gemini-3.5-flash": new Set(["minimal", "low", "medium", "high"]),
+    "google/gemini-3.7-flash": new Set(["low", "medium", "high"]),
+    "google/gemini-3.8-flash": new Set(["low", "medium", "high"]),
+    "qwen/qwen3.6-flash": new Set(["none"]),
+    "openai/gpt-4.1": new Set(["none", "minimal", "low", "medium", "high"]),
+    "openai/gpt-5.1": new Set(["none", "low", "medium", "high"]),
+    "openai/gpt-5.2": new Set(["none", "low", "medium", "high"]),
+    "openai/gpt-5.2-codex": new Set(["low", "medium", "high"]),
+    "openai/gpt-5.1-codex-mini": new Set(["low", "medium", "high"]),
+    "openai/gpt-5.3-codex": new Set(["low", "medium", "high"]),
+    "openai/gpt-5.4": new Set(["none", "low", "medium", "high"]),
+    "openai/gpt-5.5": new Set(["none", "low", "medium", "high"]),
+    "openai/gpt-5.6-sol": new Set(["none", "low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-5.6-terra": new Set(["none", "low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-5.6-luna": new Set(["none", "low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-6-astra": new Set(["low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-6.2-astra": new Set(["low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-6-sol": new Set(["none", "low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-6.1-sol": new Set(["low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-6.2-sol": new Set(["low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-6.1-terra": new Set(["none", "low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-6-luna": new Set(["none", "low", "medium", "high", "xhigh", "max"]),
+    "openai/gpt-5.4-mini": new Set(["none", "low", "medium", "high"]),
+    "openai/gpt-oss-120b": new Set(["low", "medium", "high"]),
+    "openai/gpt-oss-20b": new Set(["low", "medium", "high"]),
+    "z-ai/glm-5.3-flash": q,
+    "xiaomi/mimo-v2.6-pro": new Set(["enabled", "none"]),
+    "thinkingmachines/inkling": new Set(["none", "low", "medium", "high"]),
+    "thinkingmachines/inkling-small": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-haiku-4.5": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-haiku-5.5": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-sonnet-4.5": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-sonnet-4.6": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-sonnet-5": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-sonnet-5.5": new Set(["low", "medium", "high"]),
+    "anthropic/claude-opus-4.5": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-opus-4.6": new Set(["none", "low", "medium", "high"]),
+    "anthropic/claude-opus-4.7": new Set(["none", "low", "medium", "high", "xhigh"]),
+    "anthropic/claude-opus-4.8": new Set(["none", "low", "medium", "high", "xhigh"]),
+    "anthropic/claude-opus-5": new Set(["none", "low", "medium", "high", "xhigh"]),
+    "anthropic/claude-opus-5.5": new Set(["low", "medium", "high", "xhigh"]),
+    "anthropic/claude-fable-5": new Set(["low", "medium", "high", "xhigh"]),
+    "anthropic/claude-fable-5.1": new Set(["low", "medium", "high", "xhigh"]),
+    "anthropic/claude-fable-5.2": new Set(["low", "medium", "high", "xhigh"]),
+    "deepseek/deepseek-v4-pro": new Set(["none", "high", "xhigh"]),
+    "deepseek/deepseek-v4-flash": new Set(["none", "high", "xhigh"]),
+    "deepseek/deepseek-v4.1-flash": new Set(["none", "high", "xhigh"]),
+    "x-ai/grok-build-0.1": new Set(["enabled"]),
+    "moonshotai/Kimi-K2.5": new Set(["enabled", "none"]),
+    "moonshotai/Kimi-K2.6": new Set(["enabled", "none"]),
+    "moonshotai/Kimi-K2.7-Code": new Set(["enabled", "none"]),
+    "moonshotai/kimi-k3": X,
+    "moonshotai/kimi-k3.1-pro": new Set(["none", "low", "high", "max"]),
+    "meta/muse-spark-1.1": new Set(["minimal", "low", "medium", "high", "xhigh"]),
+    "meta/muse-spark-1.3": new Set(["minimal", "low", "medium", "high", "xhigh", "max"]),
+    "qwen/qwen3-vl-235b-a22b-instruct": new Set(["none"]),
+    ...P((e) =>
+      e.base === "dev"
+        ? new Set(J)
+        : e.base === "triton"
+          ? X
+          : e.base === "glyph"
+            ? q
+            : e.base === "iris"
+              ? new Set(["enabled"])
+              : new Set(["enabled", "none"])
+    ),
+  },
+  Se = P((e) =>
+    e.base === "glyph" || e.base === "triton" ? "low" : e.base === "hex" ? "none" : "enabled"
+  ),
+  Me = new Set(J);
+function Fe(e) {
+  return c(e) ? Me.has(e) : !1;
+}
+function ha(e) {
+  if (!m(e)) return;
+  let a = {};
+  for (let n in e) {
+    if (!w(n)) continue;
+    let o = e[n];
+    !Fe(o) || !Oe(o, n) || (a[n] = o);
+  }
+  return a;
+}
+function xe(e) {
+  return e === "default" || e === "fast" || e === "ultra";
+}
+function Ca(e) {
+  if (!m(e)) return !1;
+  for (let a in e) if (!w(a) || !xe(e[a])) return !1;
+  return !0;
+}
+function Pa(e) {
+  return ee[e];
+}
+function Oe(e, a) {
+  return ee[a].has(e);
+}
+function Ta(e) {
+  if (p(e)) return Se[e];
+  switch (e) {
+    case "openai/gpt-3.5-turbo-1106":
+    case "openai/gpt-4":
+    case "openai/gpt-4o-2024-08-06":
+    case "openai/gpt-4o-mini-2024-07-18":
+    case "google/gemini-2.0-flash-001":
+    case "google/gemini-2.5-flash":
+    case "google/gemini-2.5-flash-lite":
+    case "google/gemini-2.5-pro":
+    case "google/gemini-3-flash-preview":
+    case "google/gemini-3.1-pro-preview-customtools":
+    case "google/gemini-3.1-flash-lite-preview":
+    case "openai/gpt-4.1":
+    case "openai/gpt-5.1":
+    case "openai/gpt-5.2":
+    case "openai/gpt-5.2-codex":
+    case "openai/gpt-5.1-codex-mini":
+    case "openai/gpt-5.3-codex":
+    case "openai/gpt-5.4":
+    case "openai/gpt-5.5":
+    case "openai/gpt-5.6-sol":
+    case "openai/gpt-5.6-terra":
+    case "openai/gpt-6-astra":
+    case "openai/gpt-6.2-astra":
+    case "openai/gpt-6-sol":
+    case "openai/gpt-6.1-sol":
+    case "openai/gpt-6.2-sol":
+    case "openai/gpt-6.1-terra":
+    case "openai/gpt-5.4-mini":
+    case "openai/gpt-oss-120b":
+    case "openai/gpt-oss-20b":
+    case "anthropic/claude-haiku-4.5":
+    case "anthropic/claude-haiku-5.5":
+    case "anthropic/claude-sonnet-4.5":
+    case "anthropic/claude-sonnet-4.6":
+    case "anthropic/claude-sonnet-5":
+    case "anthropic/claude-sonnet-5.5":
+    case "anthropic/claude-opus-4.5":
+    case "anthropic/claude-opus-4.6":
+    case "anthropic/claude-opus-4.7":
+    case "anthropic/claude-opus-4.8":
+    case "anthropic/claude-opus-5":
+    case "anthropic/claude-opus-5.5":
+    case "anthropic/claude-fable-5":
+    case "anthropic/claude-fable-5.1":
+    case "anthropic/claude-fable-5.2":
+    case "moonshotai/kimi-k3":
+    case "moonshotai/kimi-k3.1-pro":
+    case "z-ai/glm-5.3-flash":
+    case "thinkingmachines/inkling":
+    case "thinkingmachines/inkling-small":
+    case "meta/muse-spark-1.1":
+    case "meta/muse-spark-1.3":
+      return "low";
+    case "openai/gpt-5.6-luna":
+      return "high";
+    case "openai/gpt-6-luna":
+    case "google/gemini-3.5-flash":
+    case "google/gemini-3.7-flash":
+    case "google/gemini-3.8-flash":
+      return "medium";
+    case "deepseek/deepseek-v4-pro":
+    case "deepseek/deepseek-v4-flash":
+    case "deepseek/deepseek-v4.1-flash":
+    case "qwen/qwen3-vl-235b-a22b-instruct":
+    case "qwen/qwen3.6-flash":
+      return "none";
+    case "x-ai/grok-build-0.1":
+    case "moonshotai/Kimi-K2.5":
+    case "moonshotai/Kimi-K2.6":
+    case "moonshotai/Kimi-K2.7-Code":
+    case "xiaomi/mimo-v2.6-pro":
+      return "enabled";
+    default:
+      u(e, "Model must have a default reasoning effort specified.");
+  }
+}
+var we = {
+  "openai/gpt-3.5-turbo-1106": !1,
+  "openai/gpt-4": !1,
+  "openai/gpt-4o-2024-08-06": !1,
+  "openai/gpt-4o-mini-2024-07-18": !1,
+  "google/gemini-2.0-flash-001": !1,
+  "google/gemini-2.5-flash": !1,
+  "google/gemini-2.5-flash-lite": !1,
+  "google/gemini-2.5-pro": !1,
+  "google/gemini-3.1-pro-preview-customtools": !1,
+  "google/gemini-3.1-flash-lite-preview": !1,
+  "google/gemini-3-flash-preview": !1,
+  "google/gemini-3.5-flash": !1,
+  "google/gemini-3.7-flash": !1,
+  "google/gemini-3.8-flash": !1,
+  "qwen/qwen3.6-flash": !1,
+  "openai/gpt-4.1": !1,
+  "openai/gpt-5.1": !1,
+  "openai/gpt-5.2": !1,
+  "openai/gpt-5.2-codex": !1,
+  "openai/gpt-5.1-codex-mini": !1,
+  "openai/gpt-5.3-codex": !1,
+  "openai/gpt-5.4": !1,
+  "openai/gpt-5.5": !1,
+  "openai/gpt-5.6-sol": !1,
+  "openai/gpt-5.6-terra": !1,
+  "openai/gpt-5.6-luna": !1,
+  "openai/gpt-6-astra": !1,
+  "openai/gpt-6.2-astra": !1,
+  "openai/gpt-6-sol": !1,
+  "openai/gpt-6.1-sol": !1,
+  "openai/gpt-6.2-sol": !1,
+  "openai/gpt-6.1-terra": !1,
+  "openai/gpt-6-luna": !1,
+  "openai/gpt-5.4-mini": !1,
+  "anthropic/claude-haiku-4.5": !1,
+  "anthropic/claude-haiku-5.5": !0,
+  "moonshotai/Kimi-K2.5": !1,
+  "moonshotai/Kimi-K2.6": !1,
+  "moonshotai/Kimi-K2.7-Code": !1,
+  "moonshotai/kimi-k3": !1,
+  "moonshotai/kimi-k3.1-pro": !1,
+  "meta/muse-spark-1.1": !1,
+  "meta/muse-spark-1.3": !1,
+  "deepseek/deepseek-v4-pro": !1,
+  "deepseek/deepseek-v4-flash": !1,
+  "deepseek/deepseek-v4.1-flash": !1,
+  "x-ai/grok-build-0.1": !1,
+  "qwen/qwen3-vl-235b-a22b-instruct": !1,
+  "openai/gpt-oss-120b": !1,
+  "openai/gpt-oss-20b": !1,
+  "z-ai/glm-5.3-flash": !1,
+  "xiaomi/mimo-v2.6-pro": !1,
+  "thinkingmachines/inkling": !1,
+  "thinkingmachines/inkling-small": !1,
+  "anthropic/claude-opus-4.5": !1,
+  "anthropic/claude-sonnet-4.5": !1,
+  "anthropic/claude-sonnet-4.6": !0,
+  "anthropic/claude-sonnet-5": !0,
+  "anthropic/claude-sonnet-5.5": !0,
+  "anthropic/claude-opus-4.6": !0,
+  "anthropic/claude-opus-4.7": !0,
+  "anthropic/claude-opus-4.8": !0,
+  "anthropic/claude-opus-5": !0,
+  "anthropic/claude-opus-5.5": !0,
+  "anthropic/claude-fable-5": !0,
+  "anthropic/claude-fable-5.1": !0,
+  "anthropic/claude-fable-5.2": !0,
+  ...L(!1),
+};
+function T(e) {
+  return we[e];
+}
+var be = {
+  "anthropic/claude-haiku-5.5": !0,
+  "anthropic/claude-sonnet-4.6": !1,
+  "anthropic/claude-sonnet-5": !0,
+  "anthropic/claude-sonnet-5.5": !1,
+  "anthropic/claude-opus-4.6": !1,
+  "anthropic/claude-opus-4.7": !1,
+  "anthropic/claude-opus-4.8": !1,
+  "anthropic/claude-opus-5": !0,
+  "anthropic/claude-opus-5.5": !1,
+  "anthropic/claude-fable-5": !1,
+  "anthropic/claude-fable-5.1": !1,
+  "anthropic/claude-fable-5.2": !1,
+};
+function ye(e) {
+  return T(e) && be[e];
+}
+var ke = new Set(Pe);
+function Le(e) {
+  return ke.has(e);
+}
+var _e = { low: 1024, medium: 2048, high: 4096 };
+function _(e, a) {
+  if (h(e)) return ve(a);
+  switch (e) {
+    case "enabled":
+      return a === "moonshotai/kimi-k3" || a === "xiaomi/mimo-v2.6-pro" ? { enabled: !0 } : void 0;
+    case "none":
+      if (ye(a)) return { effort: "none", enabled: !0 };
+      switch (a) {
+        case "anthropic/claude-haiku-4.5":
+        case "anthropic/claude-sonnet-4.5":
+        case "anthropic/claude-sonnet-4.6":
+        case "anthropic/claude-sonnet-5.5":
+        case "anthropic/claude-opus-4.5":
+        case "anthropic/claude-opus-4.6":
+        case "anthropic/claude-opus-4.7":
+        case "anthropic/claude-opus-4.8":
+        case "anthropic/claude-opus-5.5":
+        case "anthropic/claude-fable-5":
+        case "anthropic/claude-fable-5.1":
+        case "anthropic/claude-fable-5.2":
+        case "moonshotai/Kimi-K2.5":
+        case "moonshotai/Kimi-K2.6":
+        case "moonshotai/Kimi-K2.7-Code":
+        case "qwen/qwen3-vl-235b-a22b-instruct":
+          return;
+        case "moonshotai/kimi-k3":
+          return { effort: "none", enabled: !0 };
+        default:
+          return { effort: "none", enabled: !0 };
+      }
+    case "minimal":
+      return { effort: e, enabled: !0 };
+    case "interleaved":
+      return { enabled: !0 };
+    case "low":
+    case "medium":
+    case "high": {
+      if (a === "anthropic/claude-sonnet-4.6") {
+        let n = _e[e];
+        if (!h(n)) return { enabled: !0, max_tokens: n };
+      }
+      return T(a) ? { enabled: !0 } : { effort: e, enabled: !0 };
+    }
+    case "max":
+      return { effort: e, enabled: !0 };
+    case "xhigh":
+      return T(a) ? { enabled: !0 } : { effort: e, enabled: !0 };
+    default:
+      u(e, "Reasoning effort must have a reasoning config.");
+  }
+}
+function Sa(e, a) {
+  if (!(h(e) || !T(a) || !Le(e))) return { verbosity: e };
+}
+var Z = "effort";
+function Ma(e, a) {
+  let n = _(e, a);
+  if (!$(n, Z)) return;
+  let o = n[Z];
+  return c(o) ? o : void 0;
+}
+function ve(e) {
+  if (!p(e))
+    switch (e) {
+      case "google/gemini-3.5-flash":
+      case "google/gemini-3.7-flash":
+      case "google/gemini-3.8-flash":
+        return { effort: "medium", enabled: !0 };
+      case "google/gemini-2.0-flash-001":
+      case "google/gemini-2.5-flash":
+      case "google/gemini-2.5-pro":
+      case "google/gemini-3-flash-preview":
+      case "google/gemini-3.1-pro-preview-customtools":
+      case "google/gemini-3.1-flash-lite-preview":
+      case "openai/gpt-4.1":
+      case "openai/gpt-3.5-turbo-1106":
+      case "openai/gpt-4":
+      case "openai/gpt-4o-2024-08-06":
+      case "openai/gpt-4o-mini-2024-07-18":
+        return { effort: "minimal", enabled: !0 };
+      case "openai/gpt-oss-120b":
+      case "openai/gpt-oss-20b":
+      case "z-ai/glm-5.3-flash":
+      case "thinkingmachines/inkling":
+      case "thinkingmachines/inkling-small":
+      case "meta/muse-spark-1.1":
+      case "meta/muse-spark-1.3":
+      case "anthropic/claude-opus-4.5":
+        return { effort: "low", enabled: !0 };
+      case "anthropic/claude-haiku-4.5":
+      case "anthropic/claude-haiku-5.5":
+      case "anthropic/claude-sonnet-4.5":
+      case "anthropic/claude-sonnet-4.6":
+      case "anthropic/claude-sonnet-5":
+      case "anthropic/claude-sonnet-5.5":
+      case "anthropic/claude-opus-4.6":
+      case "anthropic/claude-opus-4.7":
+      case "anthropic/claude-opus-4.8":
+      case "anthropic/claude-opus-5":
+      case "anthropic/claude-opus-5.5":
+      case "anthropic/claude-fable-5":
+      case "anthropic/claude-fable-5.1":
+      case "deepseek/deepseek-v4-pro":
+      case "deepseek/deepseek-v4-flash":
+      case "deepseek/deepseek-v4.1-flash":
+      case "qwen/qwen3-vl-235b-a22b-instruct":
+        return;
+      case "qwen/qwen3.6-flash":
+        return _("none", e);
+      case "moonshotai/Kimi-K2.5":
+      case "moonshotai/Kimi-K2.6":
+      case "moonshotai/Kimi-K2.7-Code":
+      case "x-ai/grok-build-0.1":
+        return;
+      case "anthropic/claude-fable-5.2":
+        return _("low", e);
+      case "moonshotai/kimi-k3":
+      case "moonshotai/kimi-k3.1-pro":
+        return { effort: "low", enabled: !0 };
+      case "xiaomi/mimo-v2.6-pro":
+        return { enabled: !0 };
+      case "openai/gpt-5.2-codex":
+      case "openai/gpt-5.1-codex-mini":
+      case "openai/gpt-5.3-codex":
+      case "openai/gpt-6-astra":
+      case "openai/gpt-6.2-astra":
+      case "openai/gpt-6-sol":
+      case "openai/gpt-6.1-sol":
+      case "openai/gpt-6.2-sol":
+      case "openai/gpt-6.1-terra":
+      case "openai/gpt-6-luna":
+        return { effort: "low", enabled: !0 };
+      case "google/gemini-2.5-flash-lite":
+      case "openai/gpt-5.1":
+      case "openai/gpt-5.2":
+      case "openai/gpt-5.4":
+      case "openai/gpt-5.5":
+      case "openai/gpt-5.6-sol":
+      case "openai/gpt-5.6-terra":
+      case "openai/gpt-5.6-luna":
+      case "openai/gpt-5.4-mini":
+        return { effort: "none", enabled: !0 };
+      default:
+        u(e, "Model must have reasoning specified.");
+    }
+}
+var Fa = [
+  "google/gemini-3.8-flash",
+  "openai/gpt-5.4-mini",
+  "google/gemini-3-flash-preview",
+  "openai/gpt-5.5",
+  "openai/gpt-5.4",
+  "openai/gpt-5.2",
+];
+function xa(e) {
+  switch (e) {
+    case "google/gemini-3.5-flash":
+      return { effort: "minimal", enabled: !0 };
+    case "google/gemini-3.8-flash":
+    case "openai/gpt-5.3-codex":
+    case "openai/gpt-5.2":
+    case "openai/gpt-5.5":
+    case "openai/gpt-5.6-sol":
+    case "openai/gpt-5.6-terra":
+    case "openai/gpt-5.6-luna":
+    case "openai/gpt-6-astra":
+    case "openai/gpt-6.2-astra":
+    case "openai/gpt-6-sol":
+    case "openai/gpt-6.1-sol":
+    case "openai/gpt-6.2-sol":
+    case "openai/gpt-6.1-terra":
+    case "openai/gpt-6-luna":
+    case "google/gemini-3-flash-preview":
+      return { effort: "low", enabled: !0 };
+    case "openai/gpt-5.4":
+    case "openai/gpt-5.4-mini":
+      return { effort: "medium", enabled: !0 };
+    default:
+      return;
+  }
+}
+function Oa(e) {
+  if (!p(e))
+    switch (e) {
+      case "google/gemini-2.5-flash":
+      case "google/gemini-2.0-flash-001":
+      case "google/gemini-2.5-flash-lite":
+      case "google/gemini-2.5-pro":
+      case "google/gemini-3-flash-preview":
+      case "google/gemini-3.1-flash-lite-preview":
+      case "google/gemini-3.1-pro-preview-customtools":
+      case "google/gemini-3.5-flash":
+      case "z-ai/glm-5.3-flash":
+      case "xiaomi/mimo-v2.6-pro":
+      case "thinkingmachines/inkling":
+      case "thinkingmachines/inkling-small":
+      case "openai/gpt-4.1":
+      case "openai/gpt-5.1":
+      case "openai/gpt-5.2":
+      case "openai/gpt-5.2-codex":
+      case "openai/gpt-5.1-codex-mini":
+      case "openai/gpt-5.3-codex":
+      case "openai/gpt-5.4":
+      case "openai/gpt-5.5":
+      case "openai/gpt-5.6-sol":
+      case "openai/gpt-6-astra":
+      case "openai/gpt-6.2-astra":
+      case "openai/gpt-5.4-mini":
+      case "openai/gpt-3.5-turbo-1106":
+      case "openai/gpt-4":
+      case "openai/gpt-4o-2024-08-06":
+      case "openai/gpt-4o-mini-2024-07-18":
+      case "openai/gpt-oss-20b":
+      case "x-ai/grok-build-0.1":
+      case "moonshotai/Kimi-K2.5":
+      case "moonshotai/Kimi-K2.6":
+      case "moonshotai/Kimi-K2.7-Code":
+      case "meta/muse-spark-1.1":
+      case "meta/muse-spark-1.3":
+      case "moonshotai/kimi-k3.1-pro":
+        return;
+      case "moonshotai/kimi-k3":
+        return { only: ["fireworks"] };
+      case "openai/gpt-5.6-terra":
+      case "openai/gpt-5.6-luna":
+      case "openai/gpt-6-sol":
+      case "openai/gpt-6.1-sol":
+      case "openai/gpt-6.2-sol":
+      case "openai/gpt-6.1-terra":
+      case "openai/gpt-6-luna":
+        return { only: ["openai"] };
+      case "deepseek/deepseek-v4-pro":
+      case "deepseek/deepseek-v4-flash":
+      case "deepseek/deepseek-v4.1-flash":
+        return { ignore: ["deepseek", "gmicloud/fp8"] };
+      case "qwen/qwen3.6-flash":
+      case "qwen/qwen3-vl-235b-a22b-instruct":
+        return { only: ["alibaba"] };
+      case "anthropic/claude-haiku-4.5":
+      case "anthropic/claude-haiku-5.5":
+      case "anthropic/claude-sonnet-4.5":
+      case "anthropic/claude-sonnet-4.6":
+      case "anthropic/claude-sonnet-5":
+      case "anthropic/claude-sonnet-5.5":
+      case "anthropic/claude-opus-4.5":
+      case "anthropic/claude-opus-4.6":
+      case "anthropic/claude-opus-4.7":
+      case "anthropic/claude-opus-4.8":
+      case "anthropic/claude-opus-5":
+      case "anthropic/claude-opus-5.5":
+      case "anthropic/claude-fable-5":
+      case "anthropic/claude-fable-5.1":
+      case "anthropic/claude-fable-5.2":
+        return { order: ["amazon-bedrock", "anthropic/2", "anthropic"], ignore: ["google-vertex"] };
+      case "openai/gpt-oss-120b":
+        return { only: ["cerebras/fp16"] };
+      case "google/gemini-3.7-flash":
+      case "google/gemini-3.8-flash":
+        return { ignore: ["google-vertex"] };
+      default:
+        u(e, "Model must have provider specified.");
+    }
+}
+var Ve = {
+  "openai/gpt-3.5-turbo-1106": "GPT 3.5 Turbo",
+  "openai/gpt-4": "GPT 4",
+  "openai/gpt-4o-2024-08-06": "GPT 4o",
+  "openai/gpt-4o-mini-2024-07-18": "GPT 4o Mini",
+  "google/gemini-2.0-flash-001": "Gemini 2.0 Flash",
+  "google/gemini-2.5-flash": "Gemini 2.5 Flash",
+  "google/gemini-2.5-flash-lite": "Gemini 2.5 Flash Lite",
+  "google/gemini-2.5-pro": "Gemini 2.5 Pro",
+  "google/gemini-3-flash-preview": "Gemini 3 Flash",
+  "google/gemini-3.1-pro-preview-customtools": "Gemini 3.1 Pro",
+  "google/gemini-3.1-flash-lite-preview": "Gemini 3.1 Flash Lite",
+  "google/gemini-3.5-flash": "Gemini 3.5",
+  "google/gemini-3.7-flash": "Gemini 3.7",
+  "google/gemini-3.8-flash": "Gemini 3.8",
+  "qwen/qwen3.6-flash": "Qwen 3.6 Flash",
+  "z-ai/glm-5.3-flash": "GLM 5.3 Flash",
+  "xiaomi/mimo-v2.6-pro": "MiMo V2.6 Pro",
+  "thinkingmachines/inkling": "Inkling",
+  "thinkingmachines/inkling-small": "Inkling Small",
+  "openai/gpt-4.1": "GPT 4.1",
+  "openai/gpt-5.1": "GPT 5.1",
+  "openai/gpt-5.2": "GPT 5.2",
+  "openai/gpt-5.4": "GPT 5.4",
+  "openai/gpt-5.5": "GPT 5.5",
+  "openai/gpt-5.6-sol": "GPT 5.6 Sol",
+  "openai/gpt-5.6-terra": "GPT 5.6 Terra",
+  "openai/gpt-5.6-luna": "GPT 5.6 Luna",
+  "openai/gpt-6-astra": "GPT 6 Astra",
+  "openai/gpt-6.2-astra": "GPT 6.2 Astra",
+  "openai/gpt-6-sol": "GPT 6 Sol",
+  "openai/gpt-6.1-sol": "GPT 6.1 Sol",
+  "openai/gpt-6.2-sol": "GPT 6.2 Sol",
+  "openai/gpt-6.1-terra": "GPT 6.1 Terra",
+  "openai/gpt-6-luna": "GPT 6 Luna",
+  "openai/gpt-5.4-mini": "GPT 5.4 Mini",
+  "anthropic/claude-haiku-4.5": "Haiku 4.5",
+  "anthropic/claude-haiku-5.5": "Haiku 5.5",
+  "anthropic/claude-sonnet-4.5": "Sonnet 4.5",
+  "anthropic/claude-sonnet-4.6": "Sonnet 4.6",
+  "anthropic/claude-sonnet-5": "Sonnet 5",
+  "anthropic/claude-sonnet-5.5": "Sonnet 5.5",
+  "anthropic/claude-opus-4.5": "Opus 4.5",
+  "anthropic/claude-opus-4.6": "Opus 4.6",
+  "anthropic/claude-opus-4.7": "Opus 4.7",
+  "anthropic/claude-opus-4.8": "Opus 4.8",
+  "anthropic/claude-opus-5": "Opus 5",
+  "anthropic/claude-opus-5.5": "Opus 5.5",
+  "anthropic/claude-fable-5": "Fable 5",
+  "anthropic/claude-fable-5.1": "Fable 5.1",
+  "anthropic/claude-fable-5.2": "Fable 5.2",
+  "deepseek/deepseek-v4-pro": "DeepSeek V4 Pro",
+  "deepseek/deepseek-v4-flash": "DeepSeek V4 Flash",
+  "deepseek/deepseek-v4.1-flash": "DeepSeek V4.1 Flash",
+  "x-ai/grok-build-0.1": "Grok Build 0.1",
+  "moonshotai/Kimi-K2.5": "Kimi K2.5",
+  "moonshotai/Kimi-K2.6": "Kimi K2.6",
+  "moonshotai/Kimi-K2.7-Code": "Kimi K2.7 Code",
+  "moonshotai/kimi-k3": "Kimi K3",
+  "moonshotai/kimi-k3.1-pro": "Kimi K3.1 Pro",
+  "meta/muse-spark-1.1": "Muse Spark 1.1",
+  "meta/muse-spark-1.3": "Muse Spark 1.3",
+  "qwen/qwen3-vl-235b-a22b-instruct": "Qwen3 VL 235B",
+  "openai/gpt-5.1-codex-mini": "GPT-5.1 Codex Mini",
+  "openai/gpt-5.2-codex": "GPT-5.2 Codex",
+  "openai/gpt-5.3-codex": "GPT-5.3 Codex",
+  "openai/gpt-oss-120b": "GPT OSS 120B",
+  "openai/gpt-oss-20b": "GPT OSS 20B",
+  ...P((e) => e.displayName),
+};
+function wa(e) {
+  switch (e) {
+    case "openai/gpt-5.6-sol":
+    case "openai/gpt-5.6-terra":
+    case "openai/gpt-5.6-luna":
+    case "openai/gpt-6-astra":
+    case "openai/gpt-6.2-astra":
+    case "openai/gpt-6-sol":
+    case "openai/gpt-6.1-sol":
+    case "openai/gpt-6.2-sol":
+    case "openai/gpt-6.1-terra":
+    case "openai/gpt-6-luna":
+      return;
+    case "openai/gpt-3.5-turbo-1106":
+    case "openai/gpt-4":
+    case "openai/gpt-4o-2024-08-06":
+    case "openai/gpt-4o-mini-2024-07-18":
+    case "openai/gpt-4.1":
+    case "openai/gpt-5.1":
+    case "openai/gpt-5.2":
+    case "openai/gpt-5.2-codex":
+    case "openai/gpt-5.1-codex-mini":
+    case "openai/gpt-5.3-codex":
+    case "openai/gpt-5.4":
+    case "openai/gpt-5.5":
+    case "openai/gpt-5.4-mini":
+    case "openai/gpt-oss-120b":
+    case "openai/gpt-oss-20b":
+      return { promptCacheRetention: "24h" };
+    case "anthropic/claude-haiku-4.5":
+    case "anthropic/claude-haiku-5.5":
+    case "anthropic/claude-sonnet-4.5":
+    case "anthropic/claude-sonnet-4.6":
+    case "anthropic/claude-sonnet-5":
+    case "anthropic/claude-sonnet-5.5":
+    case "anthropic/claude-opus-4.5":
+    case "anthropic/claude-opus-4.6":
+    case "anthropic/claude-opus-4.7":
+    case "anthropic/claude-opus-4.8":
+    case "anthropic/claude-opus-5":
+    case "anthropic/claude-opus-5.5":
+    case "anthropic/claude-fable-5":
+    case "anthropic/claude-fable-5.1":
+    case "anthropic/claude-fable-5.2":
+    case "google/gemini-2.0-flash-001":
+    case "google/gemini-2.5-flash":
+    case "google/gemini-2.5-flash-lite":
+    case "google/gemini-2.5-pro":
+    case "google/gemini-3-flash-preview":
+    case "google/gemini-3.1-pro-preview-customtools":
+    case "google/gemini-3.1-flash-lite-preview":
+    case "google/gemini-3.5-flash":
+    case "google/gemini-3.7-flash":
+    case "google/gemini-3.8-flash":
+    case "qwen/qwen3.6-flash":
+    case "qwen/qwen3-vl-235b-a22b-instruct":
+    case "deepseek/deepseek-v4-pro":
+    case "deepseek/deepseek-v4-flash":
+    case "deepseek/deepseek-v4.1-flash":
+    case "x-ai/grok-build-0.1":
+    case "moonshotai/Kimi-K2.5":
+    case "moonshotai/Kimi-K2.6":
+    case "moonshotai/Kimi-K2.7-Code":
+    case "moonshotai/kimi-k3":
+    case "moonshotai/kimi-k3.1-pro":
+    case "meta/muse-spark-1.1":
+    case "meta/muse-spark-1.3":
+    case "z-ai/glm-5.3-flash":
+    case "xiaomi/mimo-v2.6-pro":
+    case "thinkingmachines/inkling":
+    case "thinkingmachines/inkling-small":
+    case "contour-1":
+    case "contour/dev":
+    case "contour/iris-v8":
+    case "contour/iris-v8.1":
+    case "contour/iris-v8.2":
+    case "contour/iris-v12":
+    case "contour/iris-latest":
+    case "contour/triton-latest":
+    case "contour/glyph-latest":
+    case "contour/glyph-fireworks":
+      throw new Error(`OpenAI prompt cache options requested for non-OpenAI model ${e}`);
+    default:
+      u(e, "Model must have OpenAI prompt cache options specified.");
+  }
+}
+var Ae = Ve["openai/gpt-6.1-sol"];
+function i(e, a, n) {
+  return { multiplier: a, description: { name: e, body: n(`${a}\xD7`, Ae) } };
+}
+var ba = 1,
+  v = {
+    "openai/gpt-5.6-sol": i(
+      "GPT 5.6 Sol",
+      1.7,
+      (e, a) =>
+        `is an older version of OpenAI\u2019s all-round model and uses ${e} as many credits as ${a}.`
+    ),
+    "openai/gpt-5.6-terra": i(
+      "GPT 5.6 Terra",
+      1,
+      (e, a) => `is OpenAI\u2019s balanced model and uses as many credits as ${a}.`
+    ),
+    "openai/gpt-5.6-luna": i(
+      "GPT 5.6 Luna",
+      0.7,
+      (e, a) => `is OpenAI\u2019s fastest model and uses ${e} as many credits as ${a}.`
+    ),
+    "openai/gpt-6-astra": i(
+      "GPT 6 Astra",
+      4,
+      (e, a) => `is OpenAI\u2019s previous flagship model and uses ${e} as many credits as ${a}.`
+    ),
+    "openai/gpt-6.2-astra": i(
+      "GPT 6.2 Astra",
+      3,
+      (e, a) => `is OpenAI\u2019s most intelligent model and uses ${e} as many credits as ${a}.`
+    ),
+    "openai/gpt-6-sol": i(
+      "GPT 6 Sol",
+      1,
+      (e, a) =>
+        `is a previous version of OpenAI\u2019s all-round model and uses as many credits as ${a}.`
+    ),
+    "openai/gpt-6.1-sol": i(
+      "GPT 6.1 Sol",
+      1,
+      () =>
+        "is OpenAI\u2019s previous all-round model and the baseline for credits spent in Framer."
+    ),
+    "openai/gpt-6.2-sol": i(
+      "GPT 6.2 Sol",
+      1,
+      (e, a) => `is OpenAI\u2019s newest all-round model and uses as many credits as ${a}.`
+    ),
+    "openai/gpt-6.1-terra": i(
+      "GPT 6.1 Terra",
+      0.5,
+      (e, a) => `is OpenAI\u2019s newest balanced model and uses ${e} as many credits as ${a}.`
+    ),
+    "openai/gpt-6-luna": i(
+      "GPT 6 Luna",
+      0.2,
+      (e, a) => `is OpenAI\u2019s newest fast model and uses ${e} as many credits as ${a}.`
+    ),
+    "openai/gpt-5.5": i(
+      "GPT 5.5",
+      1.7,
+      (e, a) => `is OpenAI\u2019s previous-generation model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-haiku-4.5": i(
+      "Haiku 4.5",
+      0.3,
+      (e, a) => `is Anthropic\u2019s previous fast model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-haiku-5.5": i(
+      "Haiku 5.5",
+      0.2,
+      (e, a) => `is Anthropic\u2019s fastest model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-sonnet-4.5": i(
+      "Sonnet 4.5",
+      1.5,
+      (e, a) => `is a previous-generation model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-sonnet-4.6": i(
+      "Sonnet 4.6",
+      1.5,
+      (e, a) => `is Anthropic\u2019s prior Sonnet model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-sonnet-5": i(
+      "Sonnet 5",
+      1.5,
+      (e, a) => `is Anthropic\u2019s prior Sonnet model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-sonnet-5.5": i(
+      "Sonnet 5.5",
+      1.5,
+      (e, a) => `is Anthropic\u2019s latest Sonnet model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-opus-4.5": i(
+      "Opus 4.5",
+      3,
+      (e, a) => `is an older version of Claude Opus and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-opus-4.6": i(
+      "Opus 4.6",
+      3,
+      (e, a) => `is an older version of Claude Opus and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-opus-4.7": i(
+      "Opus 4.7",
+      3,
+      (e, a) => `is an older version of Claude Opus and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-opus-4.8": i(
+      "Opus 4.8",
+      2,
+      (e, a) => `is Anthropic\u2019s prior flagship model, using ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-opus-5": i(
+      "Opus 5",
+      2,
+      (e, a) => `is Anthropic\u2019s prior flagship model, using ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-opus-5.5": i(
+      "Opus 5.5",
+      1.7,
+      (e, a) => `is Anthropic\u2019s flagship model and uses ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-fable-5": i(
+      "Fable 5",
+      3,
+      (e, a) =>
+        `is a previous version of Anthropic\u2019s top model, using ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-fable-5.1": i(
+      "Fable 5.1",
+      3,
+      (e, a) =>
+        `is a previous version of Anthropic\u2019s top model, using ${e} as many credits as ${a}.`
+    ),
+    "anthropic/claude-fable-5.2": i(
+      "Fable 5.2",
+      2.7,
+      (e, a) => `is Anthropic\u2019s most powerful model and uses ${e} as many credits as ${a}.`
+    ),
+    "google/gemini-3.5-flash": i(
+      "Gemini 3.5",
+      0.5,
+      (e, a) => `is Google\u2019s fast model and uses ${e} as many credits as ${a}.`
+    ),
+    "google/gemini-3.7-flash": i(
+      "Gemini 3.7",
+      0.2,
+      (e, a) => `is Google\u2019s fastest model and uses ${e} as many credits as ${a}.`
+    ),
+    "google/gemini-3.8-flash": i(
+      "Gemini 3.8",
+      0.2,
+      (e, a) => `is Google\u2019s fast model and uses ${e} as many credits as ${a}.`
+    ),
+  };
+function ya(e) {
+  let a = v[e];
+  if (a !== void 0) return `${a.multiplier}\xD7`;
+}
+function ka(e) {
+  return v[e]?.multiplier;
+}
+function La(e) {
+  return v[e]?.description;
+}
+var r = { maxVisionImageDimension: 1568, maxVisionImages: 20, maxVisionImageSizeKB: 5e3 },
+  Ke = 200,
+  Ie = De(50);
+function s(e) {
+  return { allowedFileTypes: ["image/*"], maxAttachments: Ke, totalSizeLimit: Ie, ...e };
+}
+var V = {
+  "openai/gpt-5.1": s(),
+  "openai/gpt-5.2": s(),
+  "openai/gpt-5.2-codex": s(),
+  "openai/gpt-5.3-codex": s(),
+  "openai/gpt-5.1-codex-mini": s(),
+  "openai/gpt-5.4": s(),
+  "openai/gpt-5.5": s(),
+  "openai/gpt-5.6-sol": s(),
+  "openai/gpt-5.6-terra": s(),
+  "openai/gpt-5.6-luna": s(),
+  "openai/gpt-6-astra": s(),
+  "openai/gpt-6.2-astra": s(),
+  "openai/gpt-6-sol": s(),
+  "openai/gpt-6.1-sol": s(),
+  "openai/gpt-6.2-sol": s(),
+  "openai/gpt-6.1-terra": s(),
+  "openai/gpt-6-luna": s(),
+  "openai/gpt-5.4-mini": s(),
+  "meta/muse-spark-1.1": s(),
+  "meta/muse-spark-1.3": s(),
+  "moonshotai/kimi-k3.1-pro": s(),
+  "z-ai/glm-5.3-flash": s(),
+  "xiaomi/mimo-v2.6-pro": s(),
+  "thinkingmachines/inkling": s(),
+  "thinkingmachines/inkling-small": s(),
+  "deepseek/deepseek-v4.1-flash": s(),
+  "anthropic/claude-sonnet-4.5": s(r),
+  "anthropic/claude-opus-4.5": s(r),
+  "anthropic/claude-sonnet-4.6": s(r),
+  "anthropic/claude-sonnet-5": s(r),
+  "anthropic/claude-sonnet-5.5": s(r),
+  "anthropic/claude-opus-4.6": s(r),
+  "anthropic/claude-opus-4.7": s(r),
+  "anthropic/claude-opus-4.8": s(r),
+  "anthropic/claude-opus-5": s(r),
+  "anthropic/claude-opus-5.5": s(r),
+  "anthropic/claude-fable-5": s(r),
+  "anthropic/claude-fable-5.1": s(r),
+  "anthropic/claude-fable-5.2": s(r),
+  "anthropic/claude-haiku-4.5": s(r),
+  "anthropic/claude-haiku-5.5": s(r),
+};
+function Ee(e = f) {
+  return V[e]?.maxVisionImageDimension;
+}
+function Be(e = f) {
+  return V[e]?.maxVisionImages;
+}
+function Re(e = f) {
+  return V[e]?.maxVisionImageSizeKB;
+}
+function _a(e = f) {
+  return Ee(e) !== void 0 || Be(e) !== void 0 || Re(e) !== void 0;
+}
+function De(e) {
+  return e * 1024 * 1024;
+}
+function va(e) {
+  if (p(e)) return "framer";
+  switch (e) {
+    case "anthropic/claude-haiku-4.5":
+    case "anthropic/claude-haiku-5.5":
+    case "anthropic/claude-sonnet-4.5":
+    case "anthropic/claude-sonnet-4.6":
+    case "anthropic/claude-sonnet-5":
+    case "anthropic/claude-sonnet-5.5":
+    case "anthropic/claude-opus-4.5":
+    case "anthropic/claude-opus-4.6":
+    case "anthropic/claude-opus-4.7":
+    case "anthropic/claude-opus-4.8":
+    case "anthropic/claude-opus-5":
+    case "anthropic/claude-opus-5.5":
+    case "anthropic/claude-fable-5":
+    case "anthropic/claude-fable-5.1":
+    case "anthropic/claude-fable-5.2":
+      return "anthropic";
+    case "google/gemini-2.0-flash-001":
+    case "google/gemini-2.5-flash":
+    case "google/gemini-2.5-flash-lite":
+    case "google/gemini-2.5-pro":
+    case "google/gemini-3-flash-preview":
+    case "google/gemini-3.1-pro-preview-customtools":
+    case "google/gemini-3.1-flash-lite-preview":
+    case "google/gemini-3.5-flash":
+    case "google/gemini-3.7-flash":
+    case "google/gemini-3.8-flash":
+      return "google";
+    case "qwen/qwen3.6-flash":
+    case "qwen/qwen3-vl-235b-a22b-instruct":
+      return "qwen";
+    case "deepseek/deepseek-v4-pro":
+    case "deepseek/deepseek-v4-flash":
+    case "deepseek/deepseek-v4.1-flash":
+      return "deepseek";
+    case "x-ai/grok-build-0.1":
+      return "x-ai";
+    case "moonshotai/Kimi-K2.5":
+    case "moonshotai/Kimi-K2.6":
+    case "moonshotai/Kimi-K2.7-Code":
+    case "moonshotai/kimi-k3":
+    case "moonshotai/kimi-k3.1-pro":
+      return "moonshotai";
+    case "meta/muse-spark-1.1":
+    case "meta/muse-spark-1.3":
+      return "meta";
+    case "openai/gpt-3.5-turbo-1106":
+    case "openai/gpt-4":
+    case "openai/gpt-4o-2024-08-06":
+    case "openai/gpt-4o-mini-2024-07-18":
+    case "openai/gpt-4.1":
+    case "openai/gpt-5.1":
+    case "openai/gpt-5.2":
+    case "openai/gpt-5.2-codex":
+    case "openai/gpt-5.1-codex-mini":
+    case "openai/gpt-5.3-codex":
+    case "openai/gpt-5.4":
+    case "openai/gpt-5.5":
+    case "openai/gpt-5.6-sol":
+    case "openai/gpt-5.6-terra":
+    case "openai/gpt-5.6-luna":
+    case "openai/gpt-6-astra":
+    case "openai/gpt-6.2-astra":
+    case "openai/gpt-6-sol":
+    case "openai/gpt-6.1-sol":
+    case "openai/gpt-6.2-sol":
+    case "openai/gpt-6.1-terra":
+    case "openai/gpt-6-luna":
+    case "openai/gpt-5.4-mini":
+    case "openai/gpt-oss-120b":
+    case "openai/gpt-oss-20b":
+      return "openai";
+    case "z-ai/glm-5.3-flash":
+      return "z-ai";
+    case "xiaomi/mimo-v2.6-pro":
+      return "xiaomi";
+    case "thinkingmachines/inkling":
+    case "thinkingmachines/inkling-small":
+      return "thinkingmachines";
+    default:
+      u(e, "Model must have a provider specified.");
+  }
+}
+function Aa(e, a) {
+  return e.length <= a ? e : e.slice(0, a);
+}
+function ae(e, a) {
+  let n = Array.from(e);
+  return n.length <= a ? e : n.slice(0, a - 1).join("") + "\u2026";
+}
+var Ia = ".ttf,.otf,.woff,.woff2";
+var Ea = {
+  variable: "Variable",
+  100: "Thin",
+  200: "Extra Light",
+  300: "Light",
+  400: "Regular",
+  500: "Medium",
+  600: "Semibold",
+  700: "Bold",
+  800: "Extra Bold",
+  900: "Black",
+};
+function Ba(e) {
+  return !e.mimeType.startsWith("font/") || e.properties?.kind !== "font" || !e.properties.font
+    ? !1
+    : "fontFamily" in e.properties.font;
+}
+var $e = /[.!?…]+$/u;
+function ne(e) {
+  return e.replace($e, "");
+}
+var He = 40,
+  K = 1e3 * 1024,
+  Ne = 150,
+  A = Ne * K;
+function Qe(e) {
+  return e * K;
+}
+function ze(e) {
+  return e.type.startsWith("image/")
+    ? "Image"
+    : e.type.startsWith("video/")
+      ? "Video"
+      : e.type.startsWith("audio/")
+        ? "Audio"
+        : e.type.startsWith("font/")
+          ? "Font"
+          : "File";
+}
+async function za({
+  endpoint: e,
+  fieldName: a,
+  file: n,
+  onToast: o,
+  customMaxSize: S,
+  onExceedsCustomMaxSize: I,
+  getErrorMessage: se,
+}) {
+  let g = `upload${Math.random()}`,
+    E = S ? Qe(S) : A;
+  if (n.size > E) {
+    if (E < A && I) I(n.size);
+    else {
+      let l = new Intl.NumberFormat("en", { style: "unit", unit: "megabyte" }).format(S ?? A / K);
+      o({
+        type: "add",
+        key: g,
+        variant: "error",
+        primaryText: "File exceeds",
+        secondaryText: `limit of ${l}.`,
+        duration: 1e4,
+        moveToTop: !0,
+      });
+    }
+    return null;
+  }
+  let oe = ae(n.name, He),
+    M = 0,
+    B = !1,
+    F = !1,
+    R = 95,
+    ie = 100 / R;
+  try {
+    let l = await N(e, { [a]: n }, (x) => {
+      if (F) return;
+      let d = Math.round(x * R);
+      if (d === M) return;
+      M = d;
+      let G = Math.round(M * ie * 0.95);
+      (!B && G >= 90) ||
+        ((B = !0),
+        o({
+          type: "add",
+          key: g,
+          variant: "progress",
+          primaryText: "Uploading",
+          secondaryText: `${oe} \xB7 ${G}%`,
+          duration: 1 / 0,
+          showCloseButton: "never",
+        }));
+    });
+    return (
+      (F = !0),
+      o({
+        type: "add",
+        key: g,
+        variant: "success",
+        primaryText: ze(n),
+        secondaryText: "has been uploaded.",
+        duration: 1e4,
+        moveToTop: !0,
+      }),
+      l
+    );
+  } catch (l) {
+    F = !0;
+    let x = l instanceof Error ? (se?.(l) ?? l.message) : String(l),
+      d = ne(x.trim()),
+      G = d ? `${d}.` : "Please try again.";
+    return (
+      o({
+        type: "add",
+        key: g,
+        variant: "error",
+        primaryText: "Upload error.",
+        secondaryText: G,
+        duration: 3e4,
+        moveToTop: !0,
+      }),
+      null
+    );
+  }
+}
+export {
+  te as a,
+  t as b,
+  je as c,
+  Xe as d,
+  z as e,
+  le as f,
+  qe as g,
+  aa as h,
+  p as i,
+  na as j,
+  sa as k,
+  oa as l,
+  me as m,
+  fe as n,
+  ca as o,
+  ma as p,
+  fa as q,
+  pa as r,
+  Ge as s,
+  Ce as t,
+  ga as u,
+  Ga as v,
+  Fe as w,
+  ha as x,
+  xe as y,
+  Ca as z,
+  Pa as A,
+  Oe as B,
+  Ta as C,
+  ye as D,
+  _ as E,
+  Sa as F,
+  Ma as G,
+  ve as H,
+  Fa as I,
+  xa as J,
+  Oa as K,
+  Ve as L,
+  wa as M,
+  ba as N,
+  ya as O,
+  ka as P,
+  La as Q,
+  Ke as R,
+  Ie as S,
+  V as T,
+  Ee as U,
+  Be as V,
+  Re as W,
+  _a as X,
+  va as Y,
+  ne as Z,
+  Aa as _,
+  ae as $,
+  He as aa,
+  K as ba,
+  Ne as ca,
+  za as da,
+  Ia as ea,
+  Ea as fa,
+  Ba as ga,
+};
+//# sourceMappingURL=chunk-SVT76SSN.mjs.map
